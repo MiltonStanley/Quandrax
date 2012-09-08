@@ -1,8 +1,7 @@
-# Will take l ist of tags from tag_map and list from tag_crawler and fill in the blanks (prompting)
+# Will take list of tags from tag_map and list from tag_crawler and fill in the blanks (prompting)
 
 $debug = ARGV[0]
 $debug ||= false
-
 
 welcome = "This will output the amount of work left to do" if $debug
 welcome = "There is no error checking. Press enter on a blank line to end."
@@ -10,8 +9,7 @@ welcome = "There is no error checking. Press enter on a blank line to end."
 require "./tag_map"
 $counties = $tag_map
 
-puts
-puts
+2.times { puts } 
 puts welcome
 2.times { puts }
 
@@ -110,19 +108,14 @@ class File
 
 end
 
-
-
-
 begin
 $full_list.process  # Work through the file, either reporting work OR adding tags
 ensure
   $full_list.close
-  #~ $dump.close
 end
 
 begin
   $work_hash.each { |title, tag| $counties[title] = tag }
-  
   
   $counties.extract!(empires = Hash.new,'e')
   $counties.extract!(kingdoms = Hash.new,'k')
@@ -132,7 +125,6 @@ begin
   $new = File.open("tag_map.rb","w") unless $counties == nil?
 
   $new.puts "$tag_map = {"
-
   empires.each { |title, tag| $new.puts "\"#{title}\" => \"#{tag}\"," }
   kingdoms.each { |title, tag| $new.puts "\"#{title}\" => \"#{tag}\"," }
   duchies.each { |title, tag| $new.puts "\"#{title}\" => \"#{tag}\"," }
@@ -140,8 +132,7 @@ begin
   $new.puts "\"#{title}\" => \"#{tag}\""
   $new.puts "}"
 
-ensure
-  
+ensure  
   $new.close
 end
 
