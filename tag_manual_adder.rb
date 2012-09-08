@@ -1,10 +1,13 @@
 # Will take list of tags from tag_map and list from tag_crawler and fill in the blanks (prompting)
 
-$debug = ARGV[0]
+$debug = true if ARGV[0] == true
 $debug ||= false
 
+puts $debug
+
+
 welcome = "This will output the amount of work left to do" if $debug
-welcome = "There is no error checking. Press enter on a blank line to end."
+welcome = "There is no error checking. Press enter on a blank line to end." unless $debug
 
 require "./tag_map"
 $counties = $tag_map
