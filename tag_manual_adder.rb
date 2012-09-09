@@ -4,9 +4,10 @@ $debug = true if (ARGV[0] == '-debug' || ARGV[0] == '-d')
 $debug ||= false
 
 welcome = "This will output the amount of work left to do" if $debug
-welcome = "There is no error checking. Press enter on a blank line to end." unless $debug
+welcome = "Press enter on a blank line to save changes and end. Press CTRL-D to exit immediately WITHOUT SAVING." unless $debug
 
 require "./tag_map"
+require "./tags"
 $counties = $tag_map
 
 2.times { puts } 
@@ -99,6 +100,14 @@ class File
           tag = Kernel.gets
           tag = tag.chomp
           tag.upcase!
+          if tag.length != 3
+            Kernel.puts "Tags are 3 characters long"
+            redo
+          end
+          unless $TAGS.include? tag
+            Kernel.puts "Invalid tag"
+            redo
+          end
           break if tag == ""
           $work_hash[title] = tag
         end
