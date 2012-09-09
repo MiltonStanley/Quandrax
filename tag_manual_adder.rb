@@ -1,10 +1,7 @@
 # Will take list of tags from tag_map and list from tag_crawler and fill in the blanks (prompting)
 
-$debug = true if ARGV[0] == true
+$debug = true if (ARGV[0] == '-debug' || ARGV[0] == '-d') 
 $debug ||= false
-
-puts $debug
-
 
 welcome = "This will output the amount of work left to do" if $debug
 welcome = "There is no error checking. Press enter on a blank line to end." unless $debug
@@ -64,11 +61,11 @@ end
 
 class String
   
-  def important?  # Returns bool: line doesn't start with # and has SOME length
+  def important?  # Returns Boolean: line doesn't start with # and has SOME length
     self[0] != "#" && self.length > 1
   end
   
-  def missing?
+  def missing?    # Returns Boolean: self is not a key in $tag_map
     ($tag_map.has_key?(self)==false)
   end
   
