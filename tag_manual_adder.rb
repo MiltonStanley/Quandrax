@@ -100,6 +100,7 @@ class File
           tag = Kernel.gets
           tag = tag.chomp
           tag.upcase!
+          break if tag == ""
           if tag.length != 3
             Kernel.puts "Tags are 3 characters long"
             redo
@@ -108,7 +109,6 @@ class File
             Kernel.puts "Invalid tag"
             redo
           end
-          break if tag == ""
           $work_hash[title] = tag
         end
       end
