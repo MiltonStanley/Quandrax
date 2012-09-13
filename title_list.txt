@@ -919,7 +919,7 @@ c_schwyz	- [d_upper_burgundy] [k_burgundy] [e_france]
 c_aargau	- [d_upper_burgundy] [k_burgundy] [e_france]
 c_besancon	- [d_upper_burgundy] [k_burgundy] [e_france]
 e_spain
-k_castille #Spain	- [e_spain]
+k_castille - [e_spain]
 d_castilla	- [k_castille #Spain] [e_spain]
 c_burgos	- [d_castilla] [k_castille #Spain] [e_spain]
 c_valladolid	- [d_castilla] [k_castille #Spain] [e_spain]
