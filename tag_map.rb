@@ -408,8 +408,6 @@ $tag_map = {
 "d_moray" => "SCO",
 "d_ulster" => "TYR",
 "d_meath" => "LEI",
-"c_polotsk" => "PLT",
-"c_novgorod" => "NOV",
 "c_pskov" => "PSK",
 "c_tver" => "TVE",
 "c_nizhny_novgorod" => "NZH",
@@ -1313,5 +1311,7 @@ $tag_map = {
 "c_thomond" => "MNS",
 "c_ormond" => "MNS",
 "c_desmond" => "MNS",
-"c_krakowskie" => "KRA"
+"c_krakowskie" => "KRA",
+"c_polotsk" => "PLT",
+"c_novgorod" => "NOV"
 }
