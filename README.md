@@ -25,14 +25,14 @@
 
     REQUIRES: quandrax.rb, tag_map.rb, prov_map.rb, template.txt
 
-First, how it works:
-1. Loads old saved file.
-2. Strips out player and date info.
-3. Strips out province controllers and vassal-liege structures.
-4. Uses tag_map.rb to update that information to tags.
-5. Load the template.eu3 file.
-6. Make a new save file, converted.eu3, which is template.eu3 read in, subbing
-   in the information for player, date, and tags.
+   First, how it works:
+   1. Loads old saved file.
+   2. Strips out player and date info.
+   3. Strips out province controllers and vassal-liege structures.
+   4. Uses tag_map.rb to update that information to tags.
+   5. Load the template.eu3 file.
+   6. Make a new save file, converted.eu3, which is template.eu3 read in, subbing
+      in the information for player, date, and tags.
 
  WORK TO DO
  * Finish the last step - pulling in template.rb, subbing in date.
