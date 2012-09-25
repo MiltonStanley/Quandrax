@@ -175,10 +175,6 @@ class String			# Add some helpful things to help program understand what a line 
 		end
 		self
 	end
-	
-	def deTab				# Returns self with all tab and spaces removed
-		self.gsub(/[[:blank:]]/,"")
-	end
 
 	def depthUp?			# Returns bool based on presence of '{' char
 		self.include? "{"
@@ -274,8 +270,11 @@ $player = Player.new
 
 while line = $oldFile.gets
 	depth += 1 if line.depthUp?
+	if !line.valid_encoding?
+      line = line.unpack('C*').pack('U*')
+  end
 	line = line.chomp
-	line = line.deTab
+  line.lstrip!
 	line.process(depth) if line.length > 1
 	depth -= 1 if line.depthDown?
 end
