@@ -102,11 +102,35 @@ end
 
 class World < Array	# World class - is an Array made up of province objects
 	
-  def flipflop
+    def flipflop
     new_world = World.new
     self.each_index do |index|
       prov = self[index]
-      new_world[prov.id] = Province.new(index, prov.controller)
+      if prov.id.class == Array
+        #puts prov.id
+        prov.id.each_index do |ck2|
+          if new_world[prov.id[ck2]].nil?
+            new_world[prov.id[ck2]] = Province.new(self.index(prov), prov.controller)
+          else
+            puts 'Already there!'
+          end
+        end
+      else
+        if new_world[prov.id].nil?
+          new_world[prov.id] = Province.new(index, prov.controller)
+        elsif new_world[prov.id].id.class == Fixnum
+          _temp = new_world[prov.id].id
+          new_world[prov.id].id = Array.new
+          new_world[prov.id].id << _temp
+          new_world[prov.id].id << index
+          #new_world[prov.id] = Province.new(index, "ERROR ERROR")
+        elsif new_world[prov.id].id.class == Array
+          _temp = new_world[prov.id].id
+          new_world[prov.id].id = Array.new
+          _temp.each { |id| new_world[prov.id].id << id }
+          new_world[prov.id].id << index
+        end
+      end
     end
     new_world
   end
