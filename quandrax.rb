@@ -10,6 +10,7 @@
 
 {
 =begin
+  ########### WORK TO BE DONE #################
     -- Tag Map
     -- CK2->EU3 Province map
   DONE	A. Open old file	DONE
@@ -56,22 +57,6 @@
 
 require './tag_map.rb'
 
-#### CONSTANTS ####
-#$oldFile = File.open("short_form.rb",'r')
-$oldFile = File.open("./workflow/WilliamBeginning.ck2",'r')
-
-$goodTitle =  /^[bcdke]_\w+/	# RegEx for title data, meaning "beginning of string (^) is either a b,c,d,k,or e, and is then followed by an _,
-            # and then one or more (+) word characters (\w)
-depth = 1
-$id = 0					# Current Province ID - will be integer from 1 - 929
-$vassal = ""				# Vassal -
-$title = ""				#
-$rulerFromFile = Array.new	# Ruler is blank array; will populate as array[index] = string, where index is ck2 prov_id and string is ruler
-$rulerFromFile << "NO_PROVINCE"	# Array is 0 indexed; provinces are 1, so push a blank string to start, so appending will line up
-$liegeFromFile = Hash.new
-  
-$province_mapping = [0,370, 371, 372, 372, 372]
-
 #### CLASSES ####
 
 class Player
@@ -87,6 +72,7 @@ class Player
   
 end
 
+
 class Province	# Province class - has an ID (EU3 location) and a controller (shifts in runtime - CK2 vassal - CK2 liege - EU3 tag)
   
   attr_accessor :id, :controller
@@ -101,6 +87,7 @@ class Province	# Province class - has an ID (EU3 location) and a controller (shi
   end
 
 end
+
 
 class World < Array	# World class - is an Array made up of province objects
   
@@ -177,6 +164,7 @@ class World < Array	# World class - is an Array made up of province objects
       
 end
 
+
 class String			# Add some helpful things to help program understand what a line is
     
   def parse				# Returns self without {, }, or =
@@ -246,7 +234,7 @@ class String			# Add some helpful things to help program understand what a line 
     self.to_i != 0
   end
   
-  def process(currentDepth)	# Does the actual work of deciding what to do with the line
+  def load(currentDepth)	# Does the actual work of deciding what to do with the line
     if currentDepth == 1 && usefulData?	# Only want top level, province OR title data
       if self.provinceHeader?			# Will set $id to current province, so depth 2 "title" will be saved in Province.new
         $id = self.parse
@@ -271,9 +259,35 @@ class String			# Add some helpful things to help program understand what a line 
       end
     end
   end
-    
+  
+  def validate
+    line = self
+    if !line.valid_encoding?
+      line = line.unpack('C*').pack('U*')
+    end
+    line = line.chomp
+    line.lstrip
+  end
+  
 end
       
+
+#### CONSTANTS ####
+#$oldFile = File.open("short_form.rb",'r')
+$oldFile = File.open("./workflow/WilliamBeginning.ck2",'r')
+
+$goodTitle =  /^[bcdke]_\w+/	# RegEx for title data, meaning "beginning of string (^) is either a b,c,d,k,or e, and is then followed by an _,
+            # and then one or more (+) word characters (\w)
+depth = 1
+$id = 0					# Current Province ID - will be integer from 1 - 929
+$vassal = ""				# Vassal -
+$title = ""				#
+$rulerFromFile = Array.new	# Ruler is blank array; will populate as array[index] = string, where index is ck2 prov_id and string is ruler
+$rulerFromFile << "NO_PROVINCE"	# Array is 0 indexed; provinces are 1, so push a blank string to start, so appending will line up
+$liegeFromFile = Hash.new
+  
+$province_mapping = [0,370, 371, 372, 372, 372]
+
 #### PROGRAM ####
 map = World.new('ck2')	# Create World
 $player = Player.new
@@ -281,14 +295,12 @@ $player = Player.new
 
 while line = $oldFile.gets
   depth += 1 if line.depthUp?
-  if !line.valid_encoding?
-      line = line.unpack('C*').pack('U*')
-  end
-  line = line.chomp
-  line.lstrip!
-  line.process(depth) if line.length > 1
+  line = line.validate
+  puts line if line.length < 2
+  line.load(depth) if line.length > 1
   depth -= 1 if line.depthDown?
 end
+
 
 ####~ Testing methods ####
 $player.debug
