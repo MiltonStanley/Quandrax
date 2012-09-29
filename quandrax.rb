@@ -238,6 +238,8 @@ class String			# Add some helpful things to help program understand what a line 
     if currentDepth == 1 && usefulData?	# Only want top level, province OR title data
       if self.provinceHeader?			# Will set $id to current province, so depth 2 "title" will be saved in Province.new
         $id = self.parse
+        $rulerFromFile << nil if $need_ruler==true
+        $need_ruler = true
       elsif self.titleHeader?
         $vassal = self.parse
       elsif self.playerData?
@@ -251,6 +253,7 @@ class String			# Add some helpful things to help program understand what a line 
       if self.titleData? 	# I only want "title" data to add
         $title = self.extractTitle
         $rulerFromFile << $title
+        $need_ruler = false
       end
       if self.liegeData?
         liege = self.extractLiege
@@ -285,6 +288,7 @@ $title = ""				#
 $rulerFromFile = Array.new	# Ruler is blank array; will populate as array[index] = string, where index is ck2 prov_id and string is ruler
 $rulerFromFile << "NO_PROVINCE"	# Array is 0 indexed; provinces are 1, so push a blank string to start, so appending will line up
 $liegeFromFile = Hash.new
+$need_ruler = false
   
 #$province_map = [0,370, 371, 372, 372, 372]
 
@@ -306,16 +310,23 @@ end
 $player.debug
 map.populate	# Fill it up!
 map.debug	
+3.times { puts }
 map.vassalize		# Convert all provinces to top-level liege
 map.debug
-
+3.times { puts }
 $player.tagify	# And make them good EU3 tags
 map.tagify		
 $player.debug
 map.debug
-
+3.times { puts }
 eu3 = map.flipflop
 eu3.debug
-
+3.times { puts }
 ck2 = eu3.flipflop
 ck2.debug
+
+#~ count = 0
+#~ for prov in ck2
+  #~ count += 1 unless prov.controller.nil?
+#~ end
+#~ puts count
