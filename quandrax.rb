@@ -7,7 +7,6 @@
 #
 ###################################################################
 
-
 {
 =begin
   ########### WORK TO BE DONE #################
@@ -27,9 +26,9 @@
           BRAINSTORM
           EU3ID is var read from new file
           replace = false -- we'll toggle with this, so we don't mess it up
-          if $province_mapping.index(eu3ID) (returns either nil or the index eu3id is at)
+          if $province_map.index(eu3ID) (returns either nil or the index eu3id is at)
             replace = true 
-                *when we come to it* controller of eu3id = map[$province_mapping.index(pid)].controller
+                *when we come to it* controller of eu3id = map[$province_map.index(pid)].controller
               replace = false
           else
             
@@ -40,13 +39,13 @@
           
           class World
             def match?(eu3ID)
-              $province_mapping.index(eu3ID)
+              $province_map.index(eu3ID)
             end
           end
           
           $eu3prov.each do |pid|
             if map.match?(pid)
-              puts "#{pid} is ruled by #{map[$province_mapping.index(pid)].controller}"
+              puts "#{pid} is ruled by #{map[$province_map.index(pid)].controller}"
             else
               puts "#{pid} is ruled by #{$eu3ruler[pid]}"
             end
@@ -56,6 +55,7 @@
 }
 
 require './tag_map.rb'
+require './prov_map.rb'
 
 #### CLASSES ####
 
@@ -133,8 +133,8 @@ class World < Array	# World class - is an Array made up of province objects
   end
   
   def populate		# Make the World object full of Provinces by pulling in ID map and Ruler map
-    $province_mapping.each_index do |index|
-      self[index] = Province.new($province_mapping[index],$rulerFromFile[index])
+    $province_map.each_index do |index|
+      self[index] = Province.new($province_map[index],$rulerFromFile[index])
     end
   end
   
@@ -286,7 +286,7 @@ $rulerFromFile = Array.new	# Ruler is blank array; will populate as array[index]
 $rulerFromFile << "NO_PROVINCE"	# Array is 0 indexed; provinces are 1, so push a blank string to start, so appending will line up
 $liegeFromFile = Hash.new
   
-$province_mapping = [0,370, 371, 372, 372, 372]
+#$province_map = [0,370, 371, 372, 372, 372]
 
 #### PROGRAM ####
 map = World.new('ck2')	# Create World
@@ -296,13 +296,13 @@ $player = Player.new
 while line = $oldFile.gets
   depth += 1 if line.depthUp?
   line = line.validate
-  puts line if line.length < 2
   line.load(depth) if line.length > 1
   depth -= 1 if line.depthDown?
 end
 
 
 ####~ Testing methods ####
+
 $player.debug
 map.populate	# Fill it up!
 map.debug	
@@ -319,4 +319,3 @@ eu3.debug
 
 ck2 = eu3.flipflop
 ck2.debug
-
