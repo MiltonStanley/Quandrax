@@ -311,22 +311,16 @@ $player.debug
 map.populate	# Fill it up!
 map.debug	
 3.times { puts }
+
 map.vassalize		# Convert all provinces to top-level liege
 map.debug
 3.times { puts }
+
 $player.tagify	# And make them good EU3 tags
 map.tagify		
 $player.debug
 map.debug
 3.times { puts }
+
 eu3 = map.flipflop
 eu3.debug
-3.times { puts }
-ck2 = eu3.flipflop
-ck2.debug
-
-#~ count = 0
-#~ for prov in ck2
-  #~ count += 1 unless prov.controller.nil?
-#~ end
-#~ puts count

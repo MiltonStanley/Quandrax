@@ -19,10 +19,6 @@
 
    There are a few tags that aren't mapped yet
 
-### Province Mapping
-
-    There are a few provinces mapped extraneously - need to remove them from the map
-
 ### Quandrax
 
     REQUIRES: quandrax.rb, tag_map.rb, prov_map.rb, template.txt
