@@ -15,11 +15,13 @@
    There are a few things left to do before Quandrax is released for bug testing.
 
 
+### Tag Mapping
+
+   There are a few tags that aren't mapped yet
+
 ### Province Mapping
 
-    REQUIRES: prov_manual_adder, prov_map.rb
-   
- Manual map CK2 Province ID's to EU3 ID's
+    There are a few provinces mapped extraneously - need to remove them from the map
 
 ### Quandrax
 
@@ -35,6 +37,6 @@
       in the information for player, date, and tags.
 
  WORK TO DO
- * Finish the last step - pulling in template.rb, subbing in date.
+ * Finish the last step - pulling in template.rb, subbing in date, etc.
 
      
