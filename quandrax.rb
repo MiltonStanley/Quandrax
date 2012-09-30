@@ -219,17 +219,29 @@ class String			# Add some helpful things to help program understand what a prov 
     end
   end
   
-  def build(currentDepth, world)	# Does the actual work of deciding what to do with the prov
+  def build(currentDepth, world, dest)	# Does the actual work of deciding what to do with the prov
     line = self.chomp
-    prov = line.to_i 
-    replace = !(world[prov].nil?) # Bool - ck2 parallel exists?
-    if currentDepth == 1 && prov > 0 # Only need province data now
-      ruler = world[prov].controller if replace
-      ruler = false unless replace
+    prov = line.to_i
+    if currentDepth == 1 && prov > 0 # Only true for province data headers
+      $eu3_id = prov
+      dest.puts line
     elsif currentDepth == 2
-      if line.include?("owner=\"") || line.include?("controller=\"")
-        puts line
+      #~ if $eu3_id.nil?
+        #~ puts line
+      #~ end
+      if !(world[$eu3_id].nil?)
+        ruler = world[$eu3_id].controller
+        if line.include?("owner=\"")
+          line.sub!(/owner=\"[A-Z]+\"/,"owner=\"#{ruler}\"")
+        elsif line.include?("controller=\"")
+          line.sub!(/controller=\"[A-Z]+\"/,"controller=\"#{ruler}\"")
+        end
+        dest.puts line
+      else
+       dest.puts line
       end
+    else
+      dest.puts line
     end
   end
   
@@ -250,7 +262,7 @@ end
 begin
 $oldFile = File.open("./workflow/WilliamBeginning.ck2",'r')
 $templateFile = File.open('./workflow/template.eu3','r')
-#$newFile = File.new('conversion.eu3','w')
+$newFile = File.new('conversion.eu3','w')
 
 # RegEx for title data, meaning "beginning of string (^) is either a b,c,d,k,or e, and 
 # is then followed by an _, and then one or more (+) word characters (\w)
@@ -282,15 +294,15 @@ map.vassalize		# Convert all provinces to top-level liege
 map.tagify	    # And make them good EU3 tags
 $player.tagify	# Same with $player
 eu3 = map.flipflop  # Make eu3 map by flipping index/prov.id's
-
-#puts "date=#{$player.date}"
-#puts "player=\"#{$player.who}\""
+#map.debug
+$newFile.puts "date=#{$player.date}"
+$newFile.puts "player=\"#{$player.who}\""
 
 depth = 1
-
+$eu3_id = 0
 while prov = $templateFile.gets
   depth += 1 if prov.depthUp?
-  prov.build(depth, eu3)
+  prov.build(depth, eu3, $newFile)
   depth -= 1 if prov.depthDown?
 end
 
