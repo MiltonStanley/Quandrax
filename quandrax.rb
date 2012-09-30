@@ -83,7 +83,7 @@ class Province	# Province class - has an ID (EU3 location) and a controller (shi
   end
 
   def annex(newController)	# How we change controller at runtime
-    @controller = newController unless @controller == $player.who  
+    @controller = newController
   end
 
 end
@@ -104,6 +104,7 @@ class World < Array	# World class - is an Array made up of province objects
       prov = self[index]                # prov = province at that index
       next if prov.nil? 
       new_province = prov.id                  # new_province = the OTHER game's id
+      next if new_province.nil?
       # Does the current province become multiple provinces?
       
       if new_province.class == Array      # -> Yes, it does
@@ -150,7 +151,9 @@ class World < Array	# World class - is an Array made up of province objects
     makeSure = 2000
     while makeSure > 0
       self.each do |province|
-      province.annex($liegeFromFile[province.controller]) if $liegeFromFile[province.controller] # Only change if controller is vassal
+        if !(province.controller == $player.who) && $liegeFromFile[province.controller]  
+          province.annex($liegeFromFile[province.controller]) # Only change if controller is vassal
+        end
       end
     makeSure -= 1
     end
@@ -158,7 +161,7 @@ class World < Array	# World class - is an Array made up of province objects
   
   def tagify	# And finally, we convert the (hopefully) top level names to EU3 tags
     self.each do |province|
-      province.annex($tag_map[province.controller]) unless $tag_map[province.controller].nil? # all of them, so no if statement
+      province.annex($tag_map[province.controller])
     end
   end
       
@@ -263,13 +266,22 @@ class String			# Add some helpful things to help program understand what a line 
     end
   end
   
-  def validate
+  def build(currentDepth, world)	# Does the actual work of deciding what to do with the line
+    prov = self.chomp.to_i 
+    replace = !(world[prov].nil?) # Bool - ck2 parallel exists?
+    if currentDepth == 1 && prov > 0 # Only need province data now
+      puts "#{prov} = #{world[prov].controller}" if replace
+      puts "#{prov} NOT FOUND!!!" unless replace
+    end
+  end
+  
+  def validate(deTab)
     line = self
     if !line.valid_encoding?
       line = line.unpack('C*').pack('U*')
     end
     line = line.chomp
-    line.lstrip
+    line.lstrip if deTab
   end
   
 end
@@ -277,7 +289,11 @@ end
 
 #### CONSTANTS ####
 #$oldFile = File.open("short_form.rb",'r')
+
+begin
 $oldFile = File.open("./workflow/WilliamBeginning.ck2",'r')
+$templateFile = File.open('./workflow/template.eu3','r')
+$newFile = File.new('conversion.eu3','w')
 
 $goodTitle =  /^[bcdke]_\w+/	# RegEx for title data, meaning "beginning of string (^) is either a b,c,d,k,or e, and is then followed by an _,
             # and then one or more (+) word characters (\w)
@@ -290,37 +306,35 @@ $rulerFromFile << "NO_PROVINCE"	# Array is 0 indexed; provinces are 1, so push a
 $liegeFromFile = Hash.new
 $need_ruler = false
   
-#$province_map = [0,370, 371, 372, 372, 372]
-
 #### PROGRAM ####
 map = World.new('ck2')	# Create World
 $player = Player.new
 
-
-while line = $oldFile.gets
+while line = $oldFile.gets  # Load data from old save
   depth += 1 if line.depthUp?
-  line = line.validate
+  line = line.validate(true)
   line.load(depth) if line.length > 1
   depth -= 1 if line.depthDown?
 end
 
-
-####~ Testing methods ####
-
-$player.debug
-map.populate	# Fill it up!
-map.debug	
-3.times { puts }
-
+map.populate	  # Make the map
 map.vassalize		# Convert all provinces to top-level liege
-map.debug
-3.times { puts }
+map.tagify	    # And make them good EU3 tags
+$player.tagify	# Same with $player
+eu3 = map.flipflop  # Make eu3 map by flipping index/prov.id's
 
-$player.tagify	# And make them good EU3 tags
-map.tagify		
-$player.debug
-map.debug
-3.times { puts }
+#puts "date=#{$player.date}"
+#puts "player=\"#{$player.who}\""
 
-eu3 = map.flipflop
-eu3.debug
+depth = 1
+
+while line = $templateFile.gets
+  depth += 1 if line.depthUp?
+  line.build(depth, eu3)
+  depth -= 1 if line.depthDown?
+end
+
+ensure
+$oldFile.close
+$newFile.close
+end
