@@ -7,53 +7,6 @@
 #
 ###################################################################
 
-{
-=begin
-  ########### WORK TO BE DONE #################
-    -- Tag Map
-    -- CK2->EU3 Province map
-  DONE	A. Open old file	DONE
-  DONE		1) extract player
-  DONE		2) extract date
-  DONE		3) extract province ID & add controller
-  DONE		4) Tagify World and Player
-  DONE  5) Flip world - convert it from World[ck2] = Province(eu3, controller) to World[eu3] = Province(ck2, controller)
-    B. open new file
-      WHILE run through new file; copy & paste, EXCEPT:
-        a. replace player
-        b. replace date
-        c. when province is mapped 
-          BRAINSTORM
-          EU3ID is var read from new file
-          replace = false -- we'll toggle with this, so we don't mess it up
-          if $province_map.index(eu3ID) (returns either nil or the index eu3id is at)
-            replace = true 
-                *when we come to it* controller of eu3id = map[$province_map.index(pid)].controller
-              replace = false
-          else
-            
-            not found, so use the controller you have
-          end
-          
-          CODE I USED TO TEST THIS
-          
-          class World
-            def match?(eu3ID)
-              $province_map.index(eu3ID)
-            end
-          end
-          
-          $eu3prov.each do |pid|
-            if map.match?(pid)
-              puts "#{pid} is ruled by #{map[$province_map.index(pid)].controller}"
-            else
-              puts "#{pid} is ruled by #{$eu3ruler[pid]}"
-            end
-          end	
-      
-=end
-}
-
 require './tag_map.rb'
 require './prov_map.rb'
 
@@ -73,7 +26,7 @@ class Player
 end
 
 
-class Province	# Province class - has an ID (EU3 location) and a controller (shifts in runtime - CK2 vassal - CK2 liege - EU3 tag)
+class Province	# Province class
   
   attr_accessor :id, :controller
   
@@ -147,7 +100,7 @@ class World < Array	# World class - is an Array made up of province objects
     puts "------------------------------------------------------------"
   end
   
-  def vassalize		# Messy, yes. Loops makeSure times to make CK2 vassal into CK2 liege - it's a mess in game, so mess[ier] here
+  def vassalize		# Messy, yes. It's a mess in game (look at Germany 1000AD-1900AD), so mess[ier] here
     makeSure = 2000
     while makeSure > 0
       self.each do |province|
@@ -168,7 +121,7 @@ class World < Array	# World class - is an Array made up of province objects
 end
 
 
-class String			# Add some helpful things to help program understand what a line is
+class String			# Add some helpful things to help program understand what a prov is
     
   def parse				# Returns self without {, }, or =
     chars = ['{','}','=']
@@ -187,32 +140,32 @@ class String			# Add some helpful things to help program understand what a line 
   end
   
   def extractTitle			# Removes # title=" # and the last char (should be a quotation mark
-    line = self
-    title = line.sub("title=\"","").chop
+    prov = self
+    title = prov.sub("title=\"","").chop
     title unless title.nil?
   end
   
-  def extractLiege			# Returns liege info from given line
-    line= self
-    liege = line.sub("liege=\"","").chop
+  def extractLiege			# Returns liege info from given prov
+    prov= self
+    liege = prov.sub("liege=\"","").chop
     liege unless liege.nil?
   end
   
-  def titleData?			# Returns bool if line contains "title"; add "controller" later for EU3 parsing
+  def titleData?			# Returns bool if prov contains "title"; add "controller" later for EU3 parsing
     self.include? "title=\""# or self.include? "controller=\""
   end
   
-  def liegeData?			# Returns bool if line contains "liege="
+  def liegeData?			# Returns bool if prov contains "liege="
     #self.include? "liege=\"" unless self.include? "de_jure_liege=\""
     self =~ /^liege=/
   end
   
-  def usefulData?			# Returns bool if line is either province data OR title data
+  def usefulData?			# Returns bool if prov is either province data OR title data
     self.parse.to_i > 0 || self.titleHeader? || self.playerData? || self.dateData?
     #self.titleHeader?
   end
   
-  def dateData?			# Returns bool if line is current date
+  def dateData?			# Returns bool if prov is current date
     self =~ /^date/
   end
   
@@ -220,7 +173,7 @@ class String			# Add some helpful things to help program understand what a line 
     self.sub("date","")
   end
   
-  def playerData?			# Returns bool if line is current player info
+  def playerData?			# Returns bool if prov is current player info
     self =~ /player_realm/
   end
   
@@ -229,17 +182,17 @@ class String			# Add some helpful things to help program understand what a line 
     who.gsub!("\"","")
   end		
   
-  def titleHeader?			# Returns bool if line starts with a title
+  def titleHeader?			# Returns bool if prov starts with a title
     self =~ $goodTitle
   end
   
-  def provinceHeader?		# Returns bool if line is a province header
+  def provinceHeader?		# Returns bool if prov is a province header
     self.to_i != 0
   end
   
-  def load(currentDepth)	# Does the actual work of deciding what to do with the line
+  def load(currentDepth)	# Does the actual work of deciding what to do with the prov
     if currentDepth == 1 && usefulData?	# Only want top level, province OR title data
-      if self.provinceHeader?			# Will set $id to current province, so depth 2 "title" will be saved in Province.new
+      if self.provinceHeader?	
         $id = self.parse
         $rulerFromFile << nil if $need_ruler==true
         $need_ruler = true
@@ -266,55 +219,62 @@ class String			# Add some helpful things to help program understand what a line 
     end
   end
   
-  def build(currentDepth, world)	# Does the actual work of deciding what to do with the line
-    prov = self.chomp.to_i 
+  def build(currentDepth, world)	# Does the actual work of deciding what to do with the prov
+    line = self.chomp
+    prov = line.to_i 
     replace = !(world[prov].nil?) # Bool - ck2 parallel exists?
     if currentDepth == 1 && prov > 0 # Only need province data now
-      puts "#{prov} = #{world[prov].controller}" if replace
-      puts "#{prov} NOT FOUND!!!" unless replace
+      ruler = world[prov].controller if replace
+      ruler = false unless replace
+    elsif currentDepth == 2
+      if line.include?("owner=\"") || line.include?("controller=\"")
+        puts line
+      end
     end
   end
   
   def validate(deTab)
-    line = self
-    if !line.valid_encoding?
-      line = line.unpack('C*').pack('U*')
+    prov = self
+    if !prov.valid_encoding?
+      prov = prov.unpack('C*').pack('U*')
     end
-    line = line.chomp
-    line.lstrip if deTab
+    prov = prov.chomp
+    prov.lstrip if deTab
   end
   
 end
       
 
 #### CONSTANTS ####
-#$oldFile = File.open("short_form.rb",'r')
 
 begin
 $oldFile = File.open("./workflow/WilliamBeginning.ck2",'r')
 $templateFile = File.open('./workflow/template.eu3','r')
-$newFile = File.new('conversion.eu3','w')
+#$newFile = File.new('conversion.eu3','w')
 
-$goodTitle =  /^[bcdke]_\w+/	# RegEx for title data, meaning "beginning of string (^) is either a b,c,d,k,or e, and is then followed by an _,
-            # and then one or more (+) word characters (\w)
+# RegEx for title data, meaning "beginning of string (^) is either a b,c,d,k,or e, and 
+# is then followed by an _, and then one or more (+) word characters (\w)
+$goodTitle =  /^[bcdke]_\w+/
+
 depth = 1
 $id = 0					# Current Province ID - will be integer from 1 - 929
 $vassal = ""				# Vassal -
 $title = ""				#
-$rulerFromFile = Array.new	# Ruler is blank array; will populate as array[index] = string, where index is ck2 prov_id and string is ruler
-$rulerFromFile << "NO_PROVINCE"	# Array is 0 indexed; provinces are 1, so push a blank string to start, so appending will line up
+$rulerFromFile = Array.new	# Array to hold rulers; index = ck2 province, element = ruler
+$rulerFromFile << "NO_PROVINCE"	# Array is 0 indexed; provinces are 1; get them together
 $liegeFromFile = Hash.new
 $need_ruler = false
-  
+
+
 #### PROGRAM ####
 map = World.new('ck2')	# Create World
 $player = Player.new
 
-while line = $oldFile.gets  # Load data from old save
-  depth += 1 if line.depthUp?
-  line = line.validate(true)
-  line.load(depth) if line.length > 1
-  depth -= 1 if line.depthDown?
+while prov = $oldFile.gets  # Load data from old save
+  depth += 1 if prov.depthUp?
+  prov = prov.validate(true)
+  prov.load(depth) if prov.length > 1
+  depth -= 1 if prov.depthDown?
 end
 
 map.populate	  # Make the map
@@ -328,13 +288,13 @@ eu3 = map.flipflop  # Make eu3 map by flipping index/prov.id's
 
 depth = 1
 
-while line = $templateFile.gets
-  depth += 1 if line.depthUp?
-  line.build(depth, eu3)
-  depth -= 1 if line.depthDown?
+while prov = $templateFile.gets
+  depth += 1 if prov.depthUp?
+  prov.build(depth, eu3)
+  depth -= 1 if prov.depthDown?
 end
 
 ensure
 $oldFile.close
-$newFile.close
+#$newFile.close
 end
