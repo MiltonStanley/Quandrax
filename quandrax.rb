@@ -7,8 +7,8 @@
 #
 ###################################################################
 
-require './tag_map.rb'
-require './prov_map.rb'
+require './lib/tag_map.rb'
+require './lib/prov_map.rb'
 
 #### CLASSES ####
 
@@ -260,53 +260,50 @@ end
 #### CONSTANTS ####
 
 begin
-$oldFile = File.open("./workflow/WilliamBeginning.ck2",'r')
-$templateFile = File.open('./workflow/template.eu3','r')
-$newFile = File.new('conversion.eu3','w')
+  $oldFile = File.open("./WilliamBeginning.ck2",'r')
+  $templateFile = File.open('./lib/template.eu3','r')
+  $newFile = File.new('conversion.eu3','w')
 
-# RegEx for title data, meaning "beginning of string (^) is either a b,c,d,k,or e, and 
-# is then followed by an _, and then one or more (+) word characters (\w)
-$goodTitle =  /^[bcdke]_\w+/
+  $goodTitle =  /^[bcdke]_\w+/
+  $id = 0					# Current Province ID - will be integer from 1 - 929
+  $vassal = ""				# Vassal -
+  $title = ""				#
+  $rulerFromFile = Array.new	# Array to hold rulers; index = ck2 province, element = ruler
+  $rulerFromFile << "NO_PROVINCE"	# Array is 0 indexed; provinces are 1; get them together
+  $liegeFromFile = Hash.new
+  $need_ruler = false
+  depth = 1
 
-depth = 1
-$id = 0					# Current Province ID - will be integer from 1 - 929
-$vassal = ""				# Vassal -
-$title = ""				#
-$rulerFromFile = Array.new	# Array to hold rulers; index = ck2 province, element = ruler
-$rulerFromFile << "NO_PROVINCE"	# Array is 0 indexed; provinces are 1; get them together
-$liegeFromFile = Hash.new
-$need_ruler = false
+  #### PROGRAM ####
+  map = World.new('ck2')	# Create World
+  $player = Player.new
 
+  while prov = $oldFile.gets  # Load data from old save
+    depth += 1 if prov.depthUp?
+    prov = prov.validate(true)
+    prov.load(depth) if prov.length > 1
+    depth -= 1 if prov.depthDown?
+  end
 
-#### PROGRAM ####
-map = World.new('ck2')	# Create World
-$player = Player.new
+  map.populate	  # Make the map
+  map.vassalize		# Convert all provinces to top-level liege
+  map.tagify	    # And make them good EU3 tags
+  $player.tagify	# Same with $player
+  eu3 = map.flipflop  # Make eu3 map by flipping index/prov.id's
+  #map.debug
+  $newFile.puts "date=#{$player.date}"
+  $newFile.puts "player=\"#{$player.who}\""
 
-while prov = $oldFile.gets  # Load data from old save
-  depth += 1 if prov.depthUp?
-  prov = prov.validate(true)
-  prov.load(depth) if prov.length > 1
-  depth -= 1 if prov.depthDown?
-end
-
-map.populate	  # Make the map
-map.vassalize		# Convert all provinces to top-level liege
-map.tagify	    # And make them good EU3 tags
-$player.tagify	# Same with $player
-eu3 = map.flipflop  # Make eu3 map by flipping index/prov.id's
-#map.debug
-$newFile.puts "date=#{$player.date}"
-$newFile.puts "player=\"#{$player.who}\""
-
-depth = 1
-$eu3_id = 0
-while prov = $templateFile.gets
-  depth += 1 if prov.depthUp?
-  prov.build(depth, eu3, $newFile)
-  depth -= 1 if prov.depthDown?
-end
+  depth = 1
+  $eu3_id = 0
+  while prov = $templateFile.gets
+    depth += 1 if prov.depthUp?
+    prov.build(depth, eu3, $newFile)
+    depth -= 1 if prov.depthDown?
+  end
 
 ensure
 $oldFile.close
-#$newFile.close
+$templateFile.close
+$newFile.close
 end
