@@ -2,7 +2,7 @@
 #
 # Title: Quandrax
 # Description:  The QUick ANd Dirty paRAdoX converter, a project to create a single, unified save game converter.
-# Version: 0.1
+# Version: 1.0
 # (c) 2012, Milton Stanley
 #
 ###################################################################
@@ -58,8 +58,8 @@ class World < Array	# World class - is an Array made up of province objects
       next if prov.nil? 
       new_province = prov.id                  # new_province = the OTHER game's id
       next if new_province.nil?
-      # Does the current province become multiple provinces?
       
+      # Does the current province become multiple provinces?      
       if new_province.class == Array      # -> Yes, it does
         new_province.each_index do |id|  # Cycle through the new province id's
           if new_world[new_province[id]].nil?     # Make sure the new province doesn't exist yet
@@ -152,17 +152,15 @@ class String			# Add some helpful things to help program understand what a prov 
   end
   
   def titleData?			# Returns bool if prov contains "title"; add "controller" later for EU3 parsing
-    self.include? "title=\""# or self.include? "controller=\""
+    self.include? "title=\""
   end
   
   def liegeData?			# Returns bool if prov contains "liege="
-    #self.include? "liege=\"" unless self.include? "de_jure_liege=\""
     self =~ /^liege=/
   end
   
   def usefulData?			# Returns bool if prov is either province data OR title data
     self.parse.to_i > 0 || self.titleHeader? || self.playerData? || self.dateData?
-    #self.titleHeader?
   end
   
   def dateData?			# Returns bool if prov is current date
@@ -200,8 +198,6 @@ class String			# Add some helpful things to help program understand what a prov 
         $vassal = self.parse
       elsif self.playerData?
         $player.who = self.extractPlayer
-        #puts $player.who
-        #$player.who = "d_normandy"
       elsif self.dateData?
         $player.date = self.extractDate
       end			
@@ -213,7 +209,6 @@ class String			# Add some helpful things to help program understand what a prov 
       end
       if self.liegeData?
         liege = self.extractLiege
-        #~ puts "Vassal:#{$vassal} - Liege:#{liege}"
         $liegeFromFile[$vassal] = liege.chomp
       end
     end
@@ -226,9 +221,6 @@ class String			# Add some helpful things to help program understand what a prov 
       $eu3_id = prov
       dest.puts line
     elsif currentDepth == 2
-      #~ if $eu3_id.nil?
-        #~ puts line
-      #~ end
       if !(world[$eu3_id].nil?)
         ruler = world[$eu3_id].controller
         if line.include?("owner=\"")
@@ -240,6 +232,12 @@ class String			# Add some helpful things to help program understand what a prov 
       else
        dest.puts line
       end
+    elsif currentDepth == 3
+      discovery = "CNN ENG LEI"
+      if line.include?('CNN ENG LEI') && line =~ /^discovered_by/
+        line.sub!('CNN ENG LEI', "CNN ENG #{$player.who} LEI") unless discovery.include?($player.who)
+      end  
+      dest.puts line
     else
       dest.puts line
     end
@@ -295,7 +293,6 @@ begin
   map.tagify	    # And make them good EU3 tags
   $player.tagify	# Same with $player
   eu3 = map.flipflop  # Make eu3 map by flipping index/prov.id's
-  #map.debug
   $newFile.puts "date=#{$player.date}"
   $newFile.puts "player=\"#{$player.who}\""
 
