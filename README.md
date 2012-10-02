@@ -4,13 +4,15 @@
    unified save game converter. Currently, it is primarily focused on CK2-EU3,
    as that seems to be the biggest need.
 
-## How does it work?
+## How Do I Use it?
 
-   Load the CK2 savegame into the same folder as Quandrax, along with any other
-   files Quandrax comes with. Run Quandrax, and you'll have a new EU3 savegame
-   called "conversion.eu3". Place that in your EU3 save folder, and you're done!
+   Put your CK2 save game in the same folder as quandrax.rb, and then run 
+   Quandrax. It will create an EU3 save game with the same filename. Put this
+   in your EU3 save game folder.
+   If you don't want to do it yourself, or don't have Ruby installed, feel free 
+   to email me at quandraxproject@gmail.com. I will convert it for you and email it back.
 
-## What's left to do on the project?
-
-   Nothing! We're beta testing
+## How Can I Help?
+   
+   By posting Issues, Fixes, Suggestions for Features, and so on in the issues tab.
      
