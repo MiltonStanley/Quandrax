@@ -260,9 +260,14 @@ end
 #### CONSTANTS ####
 
 begin
-  $oldFile = File.open("./WilliamBeginning.ck2",'r')
+  filename = Dir.new(Dir.getwd).each do |file|
+    break file if file.include?(".ck2")
+  end
+  file_name, file_extension = filename.split('.',2)
+  
+  $oldFile = File.open("./#{file_name}.ck2",'r')
   $templateFile = File.open('./lib/template.eu3','r')
-  $newFile = File.new('conversion.eu3','w')
+  $newFile = File.new("#{file_name}.eu3",'w')
 
   $goodTitle =  /^[bcdke]_\w+/
   $id = 0					# Current Province ID - will be integer from 1 - 929
