@@ -151,12 +151,22 @@ class String			# Add some helpful things to help program understand what a prov 
     liege unless liege.nil?
   end
   
+  def extractHolder
+    prov = self
+    liege = prov.sub('holder','').chop
+    liege unless liege.nil?
+  end
+  
   def titleData?			# Returns bool if prov contains "title"; add "controller" later for EU3 parsing
     self.include? "title=\""
   end
   
   def liegeData?			# Returns bool if prov contains "liege="
     self =~ /^liege=/
+  end
+  
+  def holderData?
+    self =~ /^holder=/
   end
   
   def usefulData?			# Returns bool if prov is either province data OR title data
@@ -221,6 +231,9 @@ class String			# Add some helpful things to help program understand what a prov 
       if self.liegeData?
         liege = self.extractLiege
         $liegeFromFile[$vassal] = liege.chomp
+      end
+      if self.holderData? && self.include?("=#{$player.id}")
+        $liegeFromFile[$vassal] = $player.who
       end
     end
   end
