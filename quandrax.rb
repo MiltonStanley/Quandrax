@@ -13,10 +13,10 @@ require './lib/prov_map.rb'
 #### CLASSES ####
 
 class Player
-  attr_accessor :who, :date
+  attr_accessor :who, :date, :id
     
   def debug
-    puts "Player: #{@who}. Date: #{@date}"
+    puts "Player: #{@who}. ID: #{@id}. Date: #{@date}"
   end	
 
   def tagify
@@ -188,20 +188,31 @@ class String			# Add some helpful things to help program understand what a prov 
     self.to_i != 0
   end
   
+  def playerID?(depth, top_level_depth)
+    depth == 2 && top_level_depth == "player" &&
+                  self.include?("id=")
+  end
+  
   def load(currentDepth)	# Does the actual work of deciding what to do with the prov
-    if currentDepth == 1 && usefulData?	# Only want top level, province OR title data
-      if self.provinceHeader?	
-        $id = self.parse
-        $rulerFromFile << nil if $need_ruler==true
-        $need_ruler = true
-      elsif self.titleHeader?
-        $vassal = self.parse
-      elsif self.playerData?
-        $player.who = self.extractPlayer
-      elsif self.dateData?
-        $player.date = self.extractDate
-      end			
+    if currentDepth == 1
+      if usefulData?	# Only want top level, province OR title data
+        if self.provinceHeader?	
+          $id = self.parse
+          $rulerFromFile << nil if $need_ruler==true
+          $need_ruler = true
+        elsif self.titleHeader?
+          $vassal = self.parse
+        elsif self.playerData?
+          $player.who = self.extractPlayer
+        elsif self.dateData?
+          $player.date = self.extractDate
+        end	
+      end
+      $top_level_depth = self      
     elsif currentDepth == 2 
+      if self.playerID?(currentDepth, $top_level_depth)
+        $player.id = self.sub!('id=','')
+      end
       if self.titleData? 	# I only want "title" data to add
         $title = self.extractTitle
         $rulerFromFile << $title
@@ -275,6 +286,7 @@ begin
   $rulerFromFile << "NO_PROVINCE"	# Array is 0 indexed; provinces are 1; get them together
   $liegeFromFile = Hash.new
   $need_ruler = false
+  $top_level_depth = ""
   depth = 1
 
   #### PROGRAM ####
