@@ -2,7 +2,7 @@
 #
 # Title: Quandrax
 # Description:  The QUick ANd Dirty paRAdoX converter, a project to create a single, unified save game converter.
-# Version: 1.0.2
+# Version: 1.0.3
 # (c) 2012, Milton Stanley
 #
 ###################################################################
