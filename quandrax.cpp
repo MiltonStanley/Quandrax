@@ -6,14 +6,13 @@ int main() {
   using namespace std;
 
   string line;
-  ifstream myfile("WilliamBeginning.ck2");
+  ifstream oldFile("WilliamBeginning.ck2");
 
-  while(getline(myfile, line)){
+  while(getline(oldFile, line)){
     cout << line << endl;
   }
 
-  myfile.close();
+  oldFile.close();
 
   return 0;
 }
-
