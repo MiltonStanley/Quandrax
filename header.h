@@ -3,7 +3,7 @@
 
 class Header {
  public:
-  void SetDate(std::lstring);
+  void SetDate(std::string newDate_);
   std::string GetDate() const;
  private:
   std::string date;
