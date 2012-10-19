@@ -1,4 +1,4 @@
-//Quandrax.h
+//header.h
 #include <iostream>
 
 class Header {
