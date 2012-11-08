@@ -96,6 +96,8 @@ me.debug
 
 me.convert_to_tags(TM_CK2_EU3)
 me.debug
+puts "Hit Enter to end..."
+x = gets
 
 =begin
 prov.debug
