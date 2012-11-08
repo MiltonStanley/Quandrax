@@ -1,67 +1,56 @@
-/* 
- *  Quandrax
- *  The Quick and Dirty Paradox Converter
- *  Version 1.1.0
- *  (c) 2012 Milton Stanley
- *
+/*
+ * 
+ * Title:        Quandrax
+ * File:         Quandrax.cpp
+ * Function:     Main program
+ * Description:  The QUick ANd Dirty paRAdoX converter, a project to create 
+ *               a single, unified save game converter.
+ * Author:       Milton Stanley
+ * Version:      1.1.0 - C++
+ * License:      Too complicated. You can use this all you want. To edit it,
+ *               you must do so through the Github page via pull requests, etc.
+ *               at http://www.github.com/MiltonStanley/Quandrax_Cpp
  */
-
 #include <iostream>
 #include <string>
-//#include <fstream>
-
+#include <vector>
 using namespace std;
-// MY CLASSES 
 
-const TEST_TITLES = 1;
+/// CLASSES  ///
 
 void test();
 
 class Player {
  public:
-  string titles[1];
+  vector<string> titles;
   string date;
   int id;
-  void SetTitle(int, string);
   void debug();
+  void convertToTags(int);
 };
 
-void Player::SetTitle(int title, string new_title){
-  titles[title] = new_title;
+void Player::debug(){
+  cout << "Player: " << titles.front() << endl;
+  cout << "ID: " << id << endl;
+  cout << "Date: " << date << endl;
+  for(vector<string>::iterator i = titles.begin(); i<titles.end(); i++){
+    cout << *i;
+    if(i < (titles.end()-1)) /* then */ cout << ", ";
+  }
+  cout << endl;
 }
 
-void Player::debug(){
-    cout << "Player: " << titles[0] << endl;
-    cout << id << endl;
-    cout << "Date: " << date << endl;
-    //int number_of_titles = titles.length;
-    //cout << number_of_titles << endl;
-    /*
-    for (i=0; i<3; i++) {
-      cout << i << endl;
-    }*/
-
-  }
-
-/*
-
-class Player
-  attr_accessor :titles, :date, :id
-  
-  def debug
-    puts "Player: #{@titles[0]}"
-    puts "ID: #{@id}"
-    puts "Date: #{@date}"
-    puts @titles.join(', ')
-  end
-  
+void convertToTags(int){
+  //for(vector<string>::iterator i = titles.begin();)
+  //titles
+}
+/*  
   def convert_tags(tag_map)
     @titles.each_index do |title|
       @titles[title] = tag_map[@titles[title]]
     end
   end
 
-end
 */
 
 int main() {
@@ -74,11 +63,12 @@ void test(){
   cout << "Starting test...\n\n";
   Player me;
 
-  me.SetTitle(0, "d_normandy");
+  me.titles.push_back("d_normandy");
+  me.titles.push_back("k_england");
+  me.titles.push_back("e_scandinavia");
   me.id = 150;
   me.date = "1066.10.05";
 
-  //me.titles[] = { "d_normandy", "k_england","e_scandinavia" };
   me.debug();
 }
 
