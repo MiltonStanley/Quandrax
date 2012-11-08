@@ -6,10 +6,10 @@
 # Description:  The QUick ANd Dirty paRAdoX converter, a project to create 
 #               a single, unified save game converter.
 # Author:       Milton Stanley
-# Version:      1.1.0
+# Version:      1.1.0 - Ruby
 # License:      Too complicated. You can use this all you want. To edit it,
 #               you must do so through the Github page via pull requests, etc.
-#               at http://www.github.com/MiltonStanley/Quandrax
+#               at http://www.github.com/MiltonStanley/Quandrax_1.1.0
 ###############################################################################
 
 require './lib/tag_map.rb'
@@ -28,7 +28,7 @@ class Player
     puts @titles.join(', ')
   end
   
-  def convert_tags(tag_map)
+  def convert_to_tags(tag_map)
     @titles.each_index do |title|
       @titles[title] = tag_map[@titles[title]]
     end
@@ -83,7 +83,9 @@ class World < Array
 end
 
 ### TESTING METHODS ###
-
+puts "Starting Quandrax..."; puts
+puts "Starting test..."
+puts
 me = Player.new
 me.titles = ['d_normandy','k_england','e_scandinavia']
 me.date = "1066.10.05"
@@ -91,13 +93,15 @@ me.id = '150'
 prov = Province.new(1, 370, "NRM")
 
 me.debug
-me.convert_tags(TM_CK2_EU3)
-me.debug
-prov.debug
 
+me.convert_to_tags(TM_CK2_EU3)
+me.debug
+
+=begin
+prov.debug
 map = World.new('CK2')
 map.create(PM_CK2_EU3, RULERS)
 puts map.game
 map.debug 
-
+=end
 
