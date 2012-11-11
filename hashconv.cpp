@@ -28,6 +28,9 @@ int main(){
   for(int i=0;i<titles.size();i++) 
     cout << "Title " << i << ": " << titles[i] << endl;
 
+
+  
+
   return 0;
 }
 
