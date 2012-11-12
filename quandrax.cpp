@@ -14,6 +14,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <map>
 using namespace std;
 
 /// CLASSES  ///
@@ -26,7 +27,7 @@ class Player {
   string date;
   int id;
   void debug();
-  void convertToTags(int);
+  void convertToTags(map<string, string>);
 };
 
 void Player::debug(){
@@ -40,10 +41,10 @@ void Player::debug(){
   cout << endl;
 }
 
-void convertToTags(int){
-  
-  //for(vector<string>::iterator i = titles.begin();)
-  //titles
+void Player::convertToTags(map<string,string> tagMap){
+  cout << "Converting to tags..." << endl;
+  for(unsigned int i=0; i<titles.size(); i++)
+    titles[i] = tagMap[titles[i]];
 }
 /*  
   def convert_tags(tag_map)
@@ -64,12 +65,19 @@ void test(){
   cout << "Starting test...\n\n";
   Player me;
 
+  map<string, string> tagMap;
+  tagMap["d_normandy"] = "NRM";
+  tagMap["k_england"] = "ENG";
+  tagMap["e_scandinavia"] = "SCA";
+
   me.titles.push_back("d_normandy");
   me.titles.push_back("k_england");
   me.titles.push_back("e_scandinavia");
   me.id = 150;
   me.date = "1066.10.05";
 
+  me.debug();
+  me.convertToTags(tagMap);
   me.debug();
 }
 
