@@ -41,6 +41,7 @@ void Player::debug(){
 }
 
 void convertToTags(int){
+  
   //for(vector<string>::iterator i = titles.begin();)
   //titles
 }
