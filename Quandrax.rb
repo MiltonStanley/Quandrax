@@ -98,10 +98,7 @@ me.convert_to_tags(TM_CK2_EU3)
 me.debug
 
 prov.debug
-=begin
 map = World.new('CK2')
 map.create(PM_CK2_EU3, RULERS)
 puts map.game
-map.debug 
-=end
-
+#map.debug 
