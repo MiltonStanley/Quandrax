@@ -16,6 +16,8 @@
 #include <vector>
 #include <map>
 #include "./include/player.h"
+#include "./include/province.h"
+
 using namespace std;
 
 /// CLASSES  ///
@@ -41,12 +43,16 @@ void test(){
   me.titles.push_back("d_normandy");
   me.titles.push_back("k_england");
   me.titles.push_back("e_scandinavia");
-  me.id = 150;
   me.date = "1066.10.05";
+  me.id = 150;
+  Province prov("1","370","NRM");
 
   me.debug();
   me.convertToTags(tagMap);
   me.debug();
+
+
+  prov.debug();
 }
 
 
