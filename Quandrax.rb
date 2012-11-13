@@ -29,6 +29,7 @@ class Player
   end
   
   def convert_to_tags(tag_map)
+    puts "Converting to tags..."
     @titles.each_index do |title|
       @titles[title] = tag_map[@titles[title]]
     end
@@ -93,14 +94,11 @@ me.id = '150'
 prov = Province.new(1, 370, "NRM")
 
 me.debug
-
 me.convert_to_tags(TM_CK2_EU3)
 me.debug
-puts "Hit Enter to end..."
-x = gets
 
-=begin
 prov.debug
+=begin
 map = World.new('CK2')
 map.create(PM_CK2_EU3, RULERS)
 puts map.game
