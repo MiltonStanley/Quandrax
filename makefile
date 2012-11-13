@@ -1,4 +1,13 @@
-all: quandrax.exe
+cc= g++ -g -Wall
 
-quandrax.exe: quandrax.cpp
-	g++ -pedantic quandrax.cpp -o quandrax.exe
+build: quandrax.exe
+	rm -f *.o quandrax
+
+quandrax.exe: quandrax.o player.o
+	${cc} -o quandrax.exe quandrax.o player.o
+
+quandrax.o: quandrax.cpp
+	${cc} -c quandrax.cpp
+
+player.o: player.cpp
+	${cc} -c player.cpp

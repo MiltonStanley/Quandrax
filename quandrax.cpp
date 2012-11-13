@@ -15,45 +15,13 @@
 #include <string>
 #include <vector>
 #include <map>
+#include "./include/player.h"
 using namespace std;
 
 /// CLASSES  ///
 
 void test();
 
-class Player {
- public:
-  vector<string> titles;
-  string date;
-  int id;
-  void debug();
-  void convertToTags(map<string, string>);
-};
-
-void Player::debug(){
-  cout << "Player: " << titles.front() << endl;
-  cout << "ID: " << id << endl;
-  cout << "Date: " << date << endl;
-  for(vector<string>::iterator i = titles.begin(); i<titles.end(); i++){
-    cout << *i;
-    if(i < (titles.end()-1)) /* then */ cout << ", ";
-  }
-  cout << endl;
-}
-
-void Player::convertToTags(map<string,string> tagMap){
-  cout << "Converting to tags..." << endl;
-  for(unsigned int i=0; i<titles.size(); i++)
-    titles[i] = tagMap[titles[i]];
-}
-/*  
-  def convert_tags(tag_map)
-    @titles.each_index do |title|
-      @titles[title] = tag_map[@titles[title]]
-    end
-  end
-
-*/
 
 int main() {
   cout << "Starting Quandrax...\n\n";
