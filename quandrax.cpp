@@ -18,6 +18,7 @@
 #include "./include/player.h"
 #include "./include/province.h"
 #include "./include/world.h"
+#include "./include/provMap.h"
 
 using namespace std;
 
@@ -54,7 +55,9 @@ void test(){
 
   prov.debug();
   World map("CK2");
+//map.create(PM_CK2_EU3, RULERS); 
   cout << map.game << endl;
+//map.debug();
 }
 
 
