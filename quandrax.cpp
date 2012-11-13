@@ -17,6 +17,7 @@
 #include <map>
 #include "./include/player.h"
 #include "./include/province.h"
+#include "./include/world.h"
 
 using namespace std;
 
@@ -51,8 +52,9 @@ void test(){
   me.convertToTags(tagMap);
   me.debug();
 
-
   prov.debug();
+  World map("CK2");
+  cout << map.game << endl;
 }
 
 
