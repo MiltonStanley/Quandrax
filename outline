@@ -1,0 +1,60 @@
+//outline
+
+* Read a CK2 save file
+  - Read in Player data
+    - This is contained in header
+      - Date (string)
+      - ID (int)
+      - Primary title (string)
+  - Read in Character data (that matches Player ID)
+    - Claims (for cores)
+    - Wealth (for wealth)
+    - Ally/enemy (for relations)
+  - Read in province data (see province_summary)
+    - Contained in each province fold
+      - Name
+      - Culture
+      - Religion
+      - Max_settlements
+      - 1..n Settlement data
+      - Title
+      - Technology
+  - Read in title data (see title_summary)
+    - liege (this will play into vassalizations)
+    - holder [if created] (will need to match to Player ID to build)
+    - succession
+    - gender
+    - laws
+    - de_jure liege (this will play into cores)
+
+* Convert CK2 to EU3
+  - Titles to tags
+  - Mapping of provinces!
+    * Tag map is index_ck2 = eu3; so multiple indices may point to same EU3 - how to handle that?
+      * priority given to player, then first in index
+    * If one index_ck2 = multiple EU3's, how to store that?
+    - 1:1 is easy
+    - 2+:1 - priority given to player; then first in index
+    - 1:2+ - easy
+
+* Write an EU3 save file
+  - Write out player data
+    - Date
+    - Title (from array) that DOES NOT conflict with preexisting title
+  - write out province data
+    - With cores based on claims and de_jure lieges
+
+
+* FUTURE FEATURES
+  - Relations
+  - Wars
+
+
+
+
+
+
+
+
+
+//future reading: http://www.catb.org/~esr/faqs/hacker-howto.html
