@@ -28,7 +28,13 @@
     - de_jure liege (this will play into cores)
 
 * Convert CK2 to EU3
-  - Titles to tags
+  - Create the CK2 World, with pID = EU3 OR -1 (will handle when writing)
+  - Read in EU3 prov data; 
+      - IF it matches, THEN:
+        - Write out data that is used
+          - If it comes from multiple provinces (how will it know?) use player info
+        - Write pass through data that isn't
+  - Titles to tags (based on hash/map)
   - Mapping of provinces!
     * Tag map is index_ck2 = eu3; so multiple indices may point to same EU3 - how to handle that?
       * priority given to player, then first in index
