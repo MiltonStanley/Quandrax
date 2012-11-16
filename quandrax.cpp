@@ -47,7 +47,8 @@ void test(){
   me.titles.push_back("e_scandinavia");
   me.date = "1066.10.05";
   me.id = 150;
-  Province prov("1","370","NRM");
+  Province prov(1,370,"NRM");
+  prov.newID.push_back(30);
 
   me.debug();
   me.convertToTags(tagMap);

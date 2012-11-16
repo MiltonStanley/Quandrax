@@ -8,9 +8,9 @@
 
 using namespace std;
 
-Province::Province(string _oldID, string _newID, string _controller){
-	oldID = _oldID;
-	newID = _newID;
+Province::Province(int _oldID, int _newID, string _controller){
+  oldID = _oldID;
+	newID.push_back(_newID);
 	controller = _controller;
 }
 
@@ -19,6 +19,12 @@ void Province::newController(string _newController){
 }
 
 void Province::debug(){
-	cout << "Province " << oldID << " => " << newID << ", controller: " 
-																										 << controller << endl;
+	cout << "debugging!" << endl;
+  cout << "Province " << oldID << " => ";
+  for(unsigned int i=0; i<newID.size(); i++){
+  int new_ID = newID[i];
+  cout << new_ID;
+  if(i<newID.size()-1) cout << ", ";
+  }
+  cout << endl;
 }

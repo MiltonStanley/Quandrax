@@ -10,10 +10,10 @@ using namespace std;
 
 class Province {
  public:
-  string oldID;
-  string newID;
+  int oldID;
+  vector<int> newID;
   string controller;
-  Province(string _oldID, string _newID, string controller);
+  Province(int _oldID, int _newID, string controller);
   ~Province(){};
   void newController(string _newController);
   void debug();
