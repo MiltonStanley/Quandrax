@@ -1,9 +1,6 @@
 //provMap.h
 
 #include <iostream>
-//#include <vector>
-
-//#define length(provArray) (sizeof provArray / sizeof provArray[0])
 
 int const PM_CK2_EU3[] = {
   0,

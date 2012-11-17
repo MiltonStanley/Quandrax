@@ -22,8 +22,6 @@
 
 using namespace std;
 
-/// CLASSES  ///
-
 void test();
 
 
