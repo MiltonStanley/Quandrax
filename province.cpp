@@ -19,7 +19,7 @@ void Province::newController(string _newController){
 }
 
 void Province::debug(){
-	cout << "debugging!" << endl;
+	cout << "<-- Start Province debugging! -->" << endl;
   cout << "Province " << oldID << " => ";
   for(unsigned int i=0; i<newID.size(); i++){
   int new_ID = newID[i];
@@ -27,4 +27,5 @@ void Province::debug(){
   if(i<newID.size()-1) cout << ", ";
   }
   cout << endl;
+  cout << "<--  End Province debugging!  -->" << endl;
 }
