@@ -18,7 +18,6 @@
 #include "./include/player.h"
 #include "./include/province.h"
 #include "./include/world.h"
-//#include "./include/provMap1."
 
 using namespace std;
 
@@ -59,18 +58,7 @@ void test(){
 }
 
 
-/*me = Player.new
-me.titles = ['d_normandy','k_england','e_scandinavia']
-me.date = "1066.10.05"
-me.id = 150
-prov = Province.new(1, 370, "NRM")
-
-me.debug
-me.convert_tags(TM_CK2_EU3)
-me.debug
-prov.debug
-
-
+/*
 using namespace std;
   string line;
   ifstream oldFile("./tests/WilliamBeginning.ck2");

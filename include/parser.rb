@@ -1,5 +1,3 @@
-#parser.rb
-
 file = File.open("provMap.h",'r')
 
 def show(line_number, line)
@@ -11,7 +9,6 @@ multis = 0
 current_line = -6
 while line = file.gets
 	current_line += 1
-	#show(current_line, line) if line.include? ' 0,'
 	if line.include? ']'
 	  list[current_line.to_i] = true unless current_line.to_i < 0
 	  line.sub!("//","")
