@@ -44,7 +44,8 @@ class Province
   
   def initialize(old_id, new_id, controller)
     @old_id = old_id
-    @new_id = new_id
+    @new_id = Array.new
+    @new_id[0] = new_id
     @controller = controller
   end
   
@@ -53,7 +54,9 @@ class Province
   end
   
   def debug
+    puts "<-- Start Province debugging! -->"
     puts "Province #{old_id} => #{new_id}, controller: #{@controller}"
+    puts "<--  End Province debugging!  -->"
   end
   
 end
@@ -74,11 +77,13 @@ class World < Array
   end
   
   def debug
+    puts "<-- Start World debugging! -->"
     puts "Game type: #{@game}"
     self.each do |province|
       next if province.nil?
       province.debug
     end
+    puts "<--  End World debugging!  -->"
   end
   
 end
