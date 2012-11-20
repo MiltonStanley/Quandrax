@@ -54,9 +54,11 @@ class Province
   end
   
   def debug
-    puts "<-- Start Province debugging! -->"
-    puts "Province #{old_id} => #{new_id}, controller: #{@controller}"
-    puts "<--  End Province debugging!  -->"
+    puts "<-- Start Province debugging!"
+    print "Province #{old_id} => "
+    @new_id.each { |new_prov| print "#{new_prov}, " }
+    puts "controller: #{@controller}"
+    puts "     End Province debugging!  -->"
   end
   
 end
