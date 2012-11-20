@@ -26,6 +26,5 @@ void Province::debug(){
   cout << new_ID << ", ";
   }
   cout << "controller: " << controller << endl;
-  //cout << endl;
   cout << "     End Province debugging!  -->" << endl;
 }
