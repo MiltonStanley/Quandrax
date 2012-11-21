@@ -10,9 +10,10 @@
 
 using namespace std;
 
-class World{
+class World:public Array {
  public:
   string game;
+  int size;
   vector<Province> self;
   World(string _game){ game = _game;}
   ~World(){};
