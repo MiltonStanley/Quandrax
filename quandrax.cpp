@@ -52,7 +52,7 @@ void test(){
 
   prov.debug();
   World map("CK2");
-//map.create(PM_CK2_EU3, RULERS); 
+//  map.create(PM_CK2_EU3, RULERS); 
   cout << map.game << endl;
 //map.debug();
 }
