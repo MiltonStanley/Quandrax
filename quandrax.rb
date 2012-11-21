@@ -53,12 +53,12 @@ class Province
     @controller = new_controller
   end
   
-  def debug
-    puts "<-- Start Province debugging!"
+  def debug(print_headers)
+    puts "<-- Start Province debugging!" if print_headers
     print "Province #{old_id} => "
     @new_id.each { |new_prov| print "#{new_prov}, " }
     puts "controller: #{@controller}"
-    puts "     End Province debugging!  -->"
+    puts "     End Province debugging!  -->" if print_headers
   end
   
 end
@@ -83,7 +83,7 @@ class World < Array
     puts "Game type: #{@game}"
     self.each do |province|
       next if province.nil?
-      province.debug
+      province.debug(false)
     end
     puts "<--  End World debugging!  -->"
   end
@@ -104,7 +104,7 @@ me.debug
 me.convert_to_tags(TM_CK2_EU3)
 me.debug
 
-prov.debug
+prov.debug(true)
 map = World.new('CK2')
 map.create(PM_CK2_EU3, RULERS)
 puts map.game
