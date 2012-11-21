@@ -16,7 +16,7 @@ class Province {
   Province(int _oldID, int _newID, string controller);
   ~Province(){};
   void newController(string _newController);
-  void debug();
+  void debug(bool printHeaders);
 };
 
 #endif

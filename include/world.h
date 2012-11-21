@@ -16,7 +16,7 @@ class World{
   vector<Province> self;
   World(string _game){ game = _game;}
   ~World(){};
-  void create(vector<int> provinceMap, vector<string> controllerList);
+  void create(const int provinceMap[], string controllerList[]);
   void debug();
 };
 

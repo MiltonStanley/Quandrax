@@ -18,13 +18,13 @@ void Province::newController(string _newController){
 	controller = _newController;
 }
 
-void Province::debug(){
-	cout << "<-- Start Province debugging!" << endl;
+void Province::debug(bool printHeaders){
+  if (printHeaders) cout << "<-- Start Province debugging!" << endl;
   cout << "Province " << oldID << " => ";
   for(unsigned int i=0; i<newID.size(); i++){
   int new_ID = newID[i];
   cout << new_ID << ", ";
   }
   cout << "controller: " << controller << endl;
-  cout << "     End Province debugging!  -->" << endl;
+  if (printHeaders) cout << "     End Province debugging!  -->" << endl;
 }

@@ -8,7 +8,7 @@
 
 using namespace std;
 
-void World::create(vector<int> provinceMap, vector<string> controllerList){
+void World::create(const int provinceMap[], string controllerList[]){
   cout << "creating!" << endl;
 }
 

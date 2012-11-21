@@ -11,6 +11,7 @@
  *               you must do so through the Github page via pull requests, etc.
  *               at http://www.github.com/MiltonStanley/Quandrax_Cpp
  */
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -18,11 +19,12 @@
 #include "./include/player.h"
 #include "./include/province.h"
 #include "./include/world.h"
+#include "./include/provMap1.cpp"
+#include "./test.cpp"
 
 using namespace std;
 
 void test();
-
 
 int main() {
   cout << "Starting Quandrax...\n\n";
@@ -50,10 +52,11 @@ void test(){
   me.convertToTags(tagMap);
   me.debug();
 
-  prov.debug();
+  prov.debug(true);
   World map("CK2");
-//  map.create(PM_CK2_EU3, RULERS); 
+  map.create(PM_CK2_EU3, RULERS);   // vector<int> provMap, vector<string> controllerList
   cout << map.game << endl;
+  cout << "1" << endl;
 //map.debug();
 }
 
