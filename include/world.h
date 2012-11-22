@@ -10,11 +10,11 @@
 
 using namespace std;
 
-class World:public Array {
+template<class T>
+class World : public vector<T> {
  public:
   string game;
   int size;
-  vector<Province> self;
   World(string _game){ game = _game;}
   ~World(){};
   void create(const int provinceMap[], string controllerList[]);

@@ -53,11 +53,11 @@ void test(){
   me.debug();
 
   prov.debug(true);
-  World map("CK2");
+  World<Province> map("CK2");
   map.create(PM_CK2_EU3, RULERS);   // vector<int> provMap, vector<string> controllerList
   cout << map.game << endl;
   map.debug();
-  cout << "1" << endl;
+  
 }
 
 

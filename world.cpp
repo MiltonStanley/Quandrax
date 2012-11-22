@@ -4,16 +4,20 @@
 #include <map>
 #include <string>
 #include <vector>
+#include "./include/province.h"
 #include "./include/world.h"
 
 using namespace std;
 
-void World::create(const int provinceMap[], string controllerList[]){
+template<class T>
+
+void World<T>::create(const int classMap[], string controllerList[]){
   
   cout << "creating!" << endl;
 }
 
-void World::debug(){
+template<class T>
+void World<T>::debug(){
   cout << "<-- Start World debugging! -->" << endl;
   cout << "Game type: " << game << endl;
   //for(int i=0; i<size; i++)
