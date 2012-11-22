@@ -17,9 +17,14 @@ class World : public vector<T> {
   int size;
   World(string _game){ game = _game;}
   ~World(){};
-  void create(const int provinceMap[], string controllerList[]);
-  void debug();
+  void create(){
+  	cout << "Creating!\n";
+  };//(const int provinceMap[], string controllerList[]);
+  void debug(){
+  	cout << "Debugging!\n";
+  	  };
 };
+
 
 
 #endif
