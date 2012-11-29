@@ -39,6 +39,7 @@
     * Tag map is index_ck2 = eu3; so multiple indices may point to same EU3 - how to handle that?
       * priority given to player, then first in index
     * If one index_ck2 = multiple EU3's, how to store that?
+      ANSWER: Build world directly with first ID, then push_back the extras as needed
     - 1:1 is easy
     - 2+:1 - priority given to player; then first in index
     - 1:2+ - easy
