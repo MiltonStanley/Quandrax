@@ -19,7 +19,7 @@
 #include "./include/player.h"
 #include "./include/province.h"
 #include "./include/world.h"
-#include "./include/provMap1.cpp"
+#include "./lib/provMap1.cpp"
 #include "./test.cpp"
 
 using namespace std;
