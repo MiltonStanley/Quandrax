@@ -20,7 +20,7 @@
 #include "./include/province.h"
 #include "./include/world.h"
 #include "./lib/provMap1.cpp"
-#include "./test.cpp"
+#include "./test/rulers.cpp"
 
 using namespace std;
 
