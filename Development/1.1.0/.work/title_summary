@@ -1,0 +1,59 @@
+//title_summary
+
+k_frisia=
+{
+  succession=gavelkind
+  gender=agnatic
+  law="agnatic_succession"
+  law="centralization_0"
+  law="feudal_contract_2"
+  law="feudal_tax_0"
+  law="city_contract_1"
+  law="city_tax_1"
+  law="temple_contract_1"
+  law="temple_tax_1"
+  coat_of_arms=
+  {
+    data=
+    {
+3 2 0 7 10 0 14 2 0 7 10 0 14 2 0 7 10 0 14 2 0 7 10 0 14     }
+    religion_group="none"
+  }
+  last_change="775.1.1"
+  previous=
+  {
+131727 131725 131726 131728 131729 131730   }
+  history=
+  {
+    646.1.1=
+    {
+      holder=131727
+    }
+    680.1.1=
+    {
+      holder=131725
+    }
+    719.1.1=
+    {
+      holder=131726
+    }
+    734.1.1=
+    {
+      holder=131728
+    }
+    741.1.1=
+    {
+      holder=131729
+    }
+    760.1.1=
+    {
+      holder=131730
+    }
+    775.1.1=
+    {
+      holder="0"
+    }
+  }
+  de_jure_liege="e_hre"
+  active=yes
+}
