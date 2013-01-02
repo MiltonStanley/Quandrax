@@ -1,6 +1,7 @@
 Quandrax - C++ Port
 ==================
-This has been merged into the main Quandrax project.
+
+CLI port of Quandrax 1.1.0 for use on Windows machines
 
 
 - Work to do:
