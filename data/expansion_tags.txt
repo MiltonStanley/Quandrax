@@ -1,0 +1,10 @@
+BAR - Bar - HTTT only
+MUR - Murom - HTTT only
+NZH - Nizhny Novgorod - HTTT only
+SMO - Smolensk - HTTT only
+MEN - Mentese - HTTT only
+RAM - Ramazan - HTTT only
+SRU - Saruhan - HTTT only
+
+HIN - Hindustan - DW only
+ULM - Ulm - DW only
