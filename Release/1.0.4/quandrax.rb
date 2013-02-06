@@ -58,14 +58,14 @@ def config_redo(need_to_config)
     puts "2) Heir to the Throne"
     puts "3) Divine Wind/EU3 Chronicles"
     print "Number: "
-    version = gets.chomp.to_i
-    if version == 1
+    version = gets.chomp
+    if version == '1'
       need_to_config = true
       break
-    elsif version == 2
+    elsif version == '2'
       need_to_config = true
       break
-    elsif version == 3
+    elsif version == '3'
       need_to_config = true
       break
     else
@@ -89,13 +89,14 @@ end
 
 config_file = File.open("config.txt",'r')
 puts "Loading config file..."
-while version = config_file.gets.to_i
-  if version == 1
+while version = config_file.gets.chomp
+  puts version
+  if version == '1'
     puts "Loading mapping files..."
-  elsif version == 2
+  elsif version == '2'
     puts "Updating mapping files for Heir to the Throne"
     update_tags_for_httt
-  elsif version == 3
+  elsif version == '3'
     puts "Updating mapping files for Divine Wind"
     update_tags_for_httt # Wish ruby cases allowed fallthrough
     update_tags_for_dw
