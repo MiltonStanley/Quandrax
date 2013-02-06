@@ -6,3 +6,6 @@
 
 # Ignore my test file
 *.ck2
+
+# Don't need config file for now
+config.txt
