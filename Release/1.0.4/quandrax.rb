@@ -10,6 +10,108 @@
 require './lib/tag_map.rb'
 require './lib/prov_map.rb'
 
+############################
+# UGLY CONFIGURATION STUFF #
+############################
+
+def update_tags_for_httt
+  $tag_map["c_murom"] = "MUR"
+  $tag_map["d_kola"] = "NZH"
+  $tag_map["c_nizhny_novgorod"] = "NZH"
+  $tag_map["c_smolensk"] = "SMO"
+  $tag_map["d_smolensk"] = "SMO"
+  $tag_map["c_mstislavl"] = "SMO"
+  $tag_map["k_mentese"] = "MEN"
+  $tag_map["d_cibyrrhaeot"] = "MEN"
+  $tag_map["d_anatolia"] = "MEN"
+  $tag_map["d_thracesia"] = "MEN"
+  $tag_map["d_cibyrrhaeot "] = "MEN"
+  $tag_map["d_lykia"] = "MEN"
+  $tag_map["c_attaleia"] = "MEN"
+  $tag_map["c_rhodos"] = "MEN"
+  $tag_map["c_lykia"] = "MEN"
+  $tag_map["c_dorylaion"] = "MEN"
+  $tag_map["c_ikonion"] = "MEN"
+  $tag_map["c_sozopolis"] = "MEN"
+  $tag_map["c_laodikeia"] = "MEN"
+  $tag_map["k_saruhan"] = "SRU"
+  $tag_map["c_lykandos"] = "SRU"
+  $tag_map["c_tarsos"] = "SRU"
+  $tag_map["c_adana"] = "SRU"
+  $tag_map["c_teluch"] = "SRU"
+  $tag_map["c_seleukeia"] = "SRU"
+end
+
+def update_tags_for_dw
+  $tag_map["c_ulm"] = "ULM"
+end
+
+def config_redo(need_to_config)
+  puts
+  puts "Running configuration script. To re-configure later (say, to add an expansion),"
+  puts "simply run Quandrax with the -u parameter like so:"
+  puts "prompt$> ruby quandrax -u"
+  while need_to_config
+    puts
+    puts "What is the LATEST version you have installed?"
+    puts "1) Base game/Napoleon's Ambition/In Nomine/EU3: Complete"
+    puts "2) Heir to the Throne"
+    puts "3) Divine Wind/EU3 Chronicles"
+    print "Number: "
+    version = gets.chomp.to_i
+    if version == 1
+      need_to_config = true
+      break
+    elsif version == 2
+      need_to_config = true
+      break
+    elsif version == 3
+      need_to_config = true
+      break
+    else
+      puts
+      puts "Invalid number, please try again"
+    end
+  end
+  config_file = File.new("config.txt", 'w')
+  config_file.puts version
+  config_file.close
+end
+
+# Check for config file
+config_exists = File.exist? "./config.txt"
+
+if !config_exists || ARGV[0] == '-u'
+  ARGV.shift # Kludgy - gets doesn't work in config, it tries to use ARGV[0] for some reason
+  need_to_config = false
+  config_redo(true)
+end
+
+config_file = File.open("config.txt",'r')
+puts "Loading config file..."
+while version = config_file.gets.to_i
+  if version == 1
+    puts "Loading mapping files..."
+  elsif version == 2
+    puts "Updating mapping files for Heir to the Throne"
+    update_tags_for_httt
+  elsif version == 3
+    puts "Updating mapping files for Divine Wind"
+    update_tags_for_httt # Wish ruby cases allowed fallthrough
+    update_tags_for_dw
+  else
+    puts "Your config file seems to be misconfigured."
+    puts "Please rerun Quandrax with the -u parameter as such:"
+    puts "prompt$> ruby quandrax -u"
+    Kernel::exit
+  end
+end
+
+###########################
+# END CONFIGURATION STUFF #
+###########################
+
+=begin
 #### CLASSES ####
 
 class Player
@@ -334,3 +436,4 @@ $oldFile.close
 $templateFile.close
 $newFile.close
 end
+=end
