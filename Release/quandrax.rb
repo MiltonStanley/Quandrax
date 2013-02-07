@@ -2,7 +2,7 @@
 #
 # Title: Quandrax
 # Description:  The QUick ANd Dirty paRAdoX converter, a project to create a single, unified save game converter.
-# Version: 1.0.4
+# Version: 1.1.0
 # (c) 2012, Milton Stanley
 #
 ###################################################################
@@ -46,7 +46,7 @@ def update_tags_for_dw
   $tag_map["c_ulm"] = "ULM"
 end
 
-def config_redo(need_to_config)
+def make_config_file(need_to_config)
   puts
   puts "Running configuration script. To re-configure later (say, to add an expansion),"
   puts "simply run Quandrax with the -u parameter like so:"
@@ -73,46 +73,42 @@ def config_redo(need_to_config)
       puts "Invalid number, please try again"
     end
   end
-  config_file = File.new("config.txt", 'w')
-  config_file.puts version
+  config_file = File.new("config.rb", 'w')
+  config_file.puts "$VERSION = #{version}"
   config_file.close
 end
 
 # Check for config file
-config_exists = File.exist? "./config.txt"
+config_exists = File.exist? "./config.rb"
 
 if !config_exists || ARGV[0] == '-u'
   ARGV.shift # Kludgy - gets doesn't work in config, it tries to use ARGV[0] for some reason
   need_to_config = false
-  config_redo(true)
+  make_config_file(true)
 end
 
-config_file = File.open("config.txt",'r')
+require './config.rb'
 puts "Loading config file..."
-while version = config_file.gets.chomp
-  puts version
-  if version == '1'
-    puts "Loading mapping files..."
-  elsif version == '2'
+if $VERSION == 1
+   puts "Loading mapping files..."
+elsif $VERSION == 2
     puts "Updating mapping files for Heir to the Throne"
     update_tags_for_httt
-  elsif version == '3'
+elsif $VERSION == 3
     puts "Updating mapping files for Divine Wind"
     update_tags_for_httt # Wish ruby cases allowed fallthrough
     update_tags_for_dw
-  else
+else
     puts "Your config file seems to be misconfigured."
     puts "Please rerun Quandrax with the -u parameter as such:"
     puts "prompt$> ruby quandrax -u"
     Kernel::exit
-  end
 end
 
 ###########################
 # END CONFIGURATION STUFF #
 ###########################
 
-=begin
 #### CLASSES ####
 
 class Player
@@ -437,4 +433,3 @@ $oldFile.close
 $templateFile.close
 $newFile.close
 end
-=end

@@ -8,4 +8,4 @@
 *.ck2
 
 # Don't need config file for now
-config.txt
+config.rb
