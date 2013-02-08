@@ -8,7 +8,8 @@ It's a project to create a single, unified save game converter. Currently, it is
 
 How Do I Use it?
 ----------------
-1. Go into the Release folder, and choose the latest version. 
+0. Please note you MUST have the Ruby interpreter installed. You can download it here: http://www.ruby-lang.org/en/. It's worth it; Ruby is great, you'll find the joy of scripting when you start modding ANYTHING, and it's becoming popular enough it's worth having the interpreter installed.
+1. Download it either from Github at https://github.com/MiltonStanley/Quandrax (click on the download ZIP button towards the top), or directly from Sourceforge at http://sourceforge.net/projects/quandrax/
 2. Put your CK2 save game in the same folder as quandrax.rb, and then run Quandrax. It will create an EU3 save game with the same filename. Put this in your EU3 save game folder. 
 
 If you don't want to do it yourself, or don't have Ruby installed, feel free to email me at quandraxproject@gmail.com. I will convert it for you and email it back.
