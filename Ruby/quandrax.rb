@@ -14,7 +14,7 @@
 
 require './lib/tag_map.rb'
 require './lib/prov_map.rb'
-require './test.rb'
+require './samples/test.rb' # Holds globals until the program generates them itself
 
 ### CLASSES ###
 
