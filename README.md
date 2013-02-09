@@ -24,5 +24,5 @@ In its own branch. Simpler that way.
 
 TODO List
 ---------
-1. Finish Quandrax 2.0.0 (in development) - complete rewrite, with complete province building
+1. Finish Quandrax 2.0.0 (in development) - complete rewrite, with complete province building (Need to compile complete feature list)
 2. Get code ready for EU4 (woot!)
