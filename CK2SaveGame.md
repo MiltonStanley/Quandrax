@@ -1,7 +1,7 @@
 CK2 Savegame structure
 ======================
 
-Taken from my "WilliamBeginning.ckd" file - game started as Duke William of Normandy; saved without unpausing
+Taken from my "WilliamBeginning.ck2" file - game started as Duke William of Normandy; saved without unpausing
 
 Header
 ------
