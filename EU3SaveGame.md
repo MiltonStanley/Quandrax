@@ -156,7 +156,7 @@ Contains:
 - Header (~4 lines)
 - Nation information (multiples) (~7 lines)
 
-Example of header and ONE nation information:
+Example of header and ONE nation information (from line 312)
 
         cot=
             {
@@ -176,3 +176,109 @@ Example of header and ONE nation information:
 
 Province Information
 --------------------
+~ 1000 lines EACH (starts at line 1699)
+
+Consists of:
+
+- Header
+- History
+
+Parent example:
+
+    1=
+    {
+        // Header (see below)
+        // History (see below)
+        // Footer & discovery information
+    }
+
+#### Header Example:
+
+    flags=
+    {
+    }
+    variables=
+    {
+    }
+    name="Stockholm"
+    owner="SWE"
+    controller="SWE"
+    core="SWE"
+    culture=swedish
+    religion=catholic
+    capital="Stockholm"
+    citysize=5504.583
+    garrison=1000.000
+    base_tax=5.000
+    manpower=3.000
+    trade_goods=grain
+    temple=yes
+    barracks=yes
+    drydock=yes
+    workshop=yes
+    marketplace=yes
+    fort1=yes
+
+#### History Example
+Has its own header, then advisor information
+
+    history=
+    {
+       // header
+       // multiple advisors
+    }
+    
+###### History header:
+
+        add_core="SWE"
+        owner="SWE"
+        controller="SWE"
+        culture=swedish
+        religion=catholic
+        hre=no
+        base_tax=5.000
+        trade_goods=grain
+        manpower=3.000
+        fort1=yes
+        capital="Stockholm"
+        citysize=5500.000
+        temple=yes
+        workshop=yes
+        marketplace=yes
+        discovered_by="eastern"
+        discovered_by="western"
+        discovered_by="muslim"
+        discovered_by="ottoman"
+
+###### Advisor information (one of multiples)
+
+        1399.10.14=
+        {
+            advisor=
+            {
+                name="Fredrik Adolf Åkerhielm"
+                type=high_judge
+                skill=1
+                location=1
+                home="SWE"
+                date="1399.10.14"
+                hire_date="1.1.1"
+                move=0
+                id=
+                {
+                    id=1301
+                    type=39
+                }
+            }
+        }
+
+#### Footer & Discovery information
+
+Base indentation for discovery information
+
+        patrol=0
+    discovery_dates={9999.1.1 9999.1.1 1.1.1 1.1.1 1.1.1 1.1.1 9999.1.1 9999.1.1 9999.1.1 9999.1.1 }
+    discovery_religion_dates={9999.1.1 1399.10.14 9999.1.1 9999.1.1 1399.10.14 1399.10.14 1399.10.14 9999.1.1 9999.1.1 9999.1.1 9999.1.1 9999.1.1 9999.1.1 }
+    discovered_by={SWE DAN NOR SHL ACH BOS BYZ CEP CYP EPI KNI MOL MON NAX RAG SER TRA WAL HUN TUR CNN ENG LEI MNS SCO TYR LIT MAZ POL RIG TEU ALE ALS AMG AUV AVI BOU BRI BUR FOI FRA ORL PRO BER AAC ANH ANS AUG BAD BAV BOH BRA BRE BRU FRN HAB HES KLE KOL LAU LOR LUN MAG MAI MEI MKL MUN OLD PAL POM SAX SIL SLZ SWI THU TRI ULM WBG WUR ARA CAS GRA NAV POR AQU FER GEN MAN MLO MOD NAP PAP SAR SAV SIC TUS URB VEN BRB FRI GEL HAI HOL LIE LUX UTR GEO MOS NOV PSK RYA TVE YAR ADE ALH OMA NAJ HED CND DUL KAR TRE RAM ALG MAM MOR TRP TUN JAI BAR HSA }
+        winter=1
+
