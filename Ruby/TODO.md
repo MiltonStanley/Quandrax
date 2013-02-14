@@ -2,6 +2,7 @@ ToDo
 ====
 *#* shows overall class mappings
 
+- FINISH MAPPING EU3 SAVE GAME STRUCTURE
 - Config script
 - Write base ck2 file parser (class triggers)
 - Write CK2 classes for (load, vars, write)
