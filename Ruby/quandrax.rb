@@ -15,9 +15,13 @@
 require './lib/tag_map.rb'
 require './lib/prov_map.rb'
 require './samples/test.rb' # Holds globals until the program generates them itself
+require './lib/header.rb'
+
+
 
 ### CLASSES ###
 
+=begin
 class Player
   attr_accessor :titles, :date, :id
   
@@ -109,3 +113,5 @@ map = World.new('CK2')
 map.create(PM_CK2_EU3, RULERS)
 puts map.game
 #map.debug 
+
+=end
