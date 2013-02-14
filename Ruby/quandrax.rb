@@ -12,3 +12,11 @@
 #               at http://www.github.com/MiltonStanley/Quandrax_1.1.0
 ###############################################################################
 
+require './lib/prov_map.rb'
+require './lib/tag_map.rb'
+
+require './lib/config.rb'
+
+puts
+puts
+puts "current version is #{$VERSION}"
