@@ -309,4 +309,218 @@ Consists of:
     - Leaders (multiples)
     - More trade stuff?
 
-Example (Sweden, starts at line 84257)
+Example (see the save file - Sweden, starts at line 84257)
+
+Diplomacy
+---------
+(starts at line 525446)
+
+- Casus belli (multiple)
+- Open markets (multiple)
+
+Example:
+
+    diplomacy=
+    {
+        casus_belli=
+        {
+            type="cb_primitives"
+            first="SWE"
+            second="IRO"
+            start_date="1820.12.31"
+        }
+        open_market=
+        {
+            first="SWE"
+            second="DAN"
+            start_date="1.1.1"
+        }
+    }
+
+Combat
+------
+line 735835
+
+Entirety:
+
+    combat=
+    {
+    }
+
+Active Wars
+-----------
+
+Example:
+
+    active_war=
+    {
+        name="Golden Horde-Genoese War"
+        history=
+        {
+            1499.10.14=
+            {
+                rem_attacker="GOL"
+            }
+        }
+        defender="GEN"
+        original_attacker="GOL"
+        original_defender="GEN"
+        action="1399.10.14"
+    }
+
+Previous Wars
+-------------
+
+Example:
+
+    previous_war=
+    {
+        name="First Muscovite-Lithuanian War"
+        history=
+        {
+            name="First Muscovite-Lithuanian War"
+            casus_belli="cb_nationalist"
+            name="GOL - NOV war"
+            casus_belli="cb_dishonored_call"
+            name="Ming - Horde war"
+            casus_belli="cb_dishonored_call"
+            1399.1.1=
+            {
+                add_attacker="GOL"
+                add_defender="NOV"
+            }
+            1399.1.1=
+            {
+                add_attacker="KHA"
+                add_attacker="OIR"
+                add_defender="MNG"
+            }
+            1399.10.14=
+            {
+                rem_attacker="GOL"
+                rem_defender="NOV"
+            }
+            1399.10.14=
+            {
+                rem_attacker="KHA"
+                rem_attacker="OIR"
+                rem_defender="MNG"
+            }
+            1486.1.1=
+            {
+                add_attacker="MOS"
+                add_defender="LIT"
+            }
+            1492.1.1=
+            {
+                add_attacker="CRI"
+            }
+            1495.1.1=
+            {
+                rem_attacker="MOS"
+                rem_attacker="CRI"
+                rem_defender="LIT"
+            }
+        }
+        original_attacker="GOL"
+        original_defender="NOV"
+        action="1.1.1"
+        casus_belli="cb_nationalist"
+    }
+
+Random things
+-------------
+
+Entirety:
+
+    income_statistics=
+    {
+    }
+    nation_size_statistics=
+    {
+    }
+    inflation_statistics=
+    {
+    }
+
+Japanese Stuff
+--------------
+
+Entirety:
+
+    shogun=
+    {
+        shogun=16.000
+        emperor=
+        {
+            status=0
+            emperor=1
+            back_kampaku=0
+            active=1
+            country="JAP"
+        }
+        daimyo=
+        {
+            status=3
+            emperor=0
+            back_kampaku=0
+            active=1
+            country="MIN"
+        }
+        daimyo=
+        {
+            status=0
+            emperor=0
+            back_kampaku=0
+            active=1
+            country="TAC"
+        }
+        daimyo=
+        {
+            status=0
+            emperor=0
+            back_kampaku=0
+            active=1
+            country="FUJ"
+        }
+        daimyo=
+        {
+            status=0
+            emperor=0
+            back_kampaku=0
+            active=1
+            country="TAI"
+        }
+    }
+
+Footer
+------
+
+Entirety:
+
+    nr="BUILD_TO_FORCELIMIT"
+    nr="PURE_CAPITALISM"
+    nr="CONQUER_AZTECS_INCAS"
+    nr="TEN_THOUSAND_KILLED"
+    nr="ALL_ABOUT_THE_MONEY"
+    nr="RESPECTED"
+    nr="TRUE_CATHOLIC"
+    nr="TRULY_DIVINE_RULER"
+    nr="CONTROL_CARRIBEAN"
+    nr="MASTER_OF_INDIA"
+    nr="INVINCIBLE_ARMIES"
+    nr="THE_WOODEN_WALL"
+    nr="WORLD_DISCOVERER"
+    nr="MARKET_CONTROL"
+    nr="INVINCIBLE_NAVY"
+    nr="ALL_ABOUT_LUCK"
+    nr="TRADITIONAL_PLAYER"
+    nr="AT_EVERY_CONTINENT"
+    nr="REGENCY_WAR"
+    nr="EAST_AND_WEST"
+    nr="FIVE_MONOPOLIES"
+    nr="CONQUER_THE_WORLD"
+    nr="UNITE_THE_EMPIRE"
+    nr="CAN_HE_BE_TRUSTED"
+    }
+    0ba0c155e640ef169a8d12c64def5045
