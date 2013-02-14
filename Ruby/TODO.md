@@ -2,7 +2,6 @@ ToDo
 ====
 *#* shows overall class mappings
 
-- FINISH MAPPING EU3 SAVE GAME STRUCTURE
 - Config script
 - Write base ck2 file parser (class triggers)
 - Write CK2 classes for (load, vars, write)
@@ -18,6 +17,7 @@ ToDo
   - War
   - Active wars
   - Footer
+- Write glue for CK2 -> EU3 classes (probably while doing EU3 classes)
 - Write EU3 classes for (load, vars, write)
   - Header *1*
   - Rebel faction info
@@ -27,4 +27,15 @@ ToDo
   - Trade
   - Province information *2*
   - Nation information *3*
-  - 
+  - Diplomacy
+  - Combat
+  - Active Wars
+  - Previous Wars
+  - Random things (probably old footer before DW)
+  - Japanese things
+  - Footer
+- Refine file parser
+
+Completed
+---------
+- FINISH MAPPING EU3 SAVE GAME STRUCTURE
