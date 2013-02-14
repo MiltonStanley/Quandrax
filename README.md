@@ -2,6 +2,9 @@ QUANDRAX
 ========
 The QUick ANd Dirty paRAdoX converter.
 
+I AM RUSHING DEVELOPMENT OF THE RUBY VERSION. The C++ port will follow after. This'll enable quicker hacking and
+design choices.
+
 What is Quandrax?
 -----------------
 It's a project to create a single, unified save game converter. Currently, it is primarily focused on CK2-EU3, as that seems to be the biggest need.
