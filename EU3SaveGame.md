@@ -176,7 +176,7 @@ Example of header and ONE nation information (from line 312)
 
 Province Information
 --------------------
-~ 1000 lines EACH (starts at line 1699)
+~80,000 lines total (starts at line 1699, Provinces #1-1882
 
 Consists of:
 
@@ -282,3 +282,32 @@ Base indentation for discovery information
     discovered_by={SWE DAN NOR SHL ACH BOS BYZ CEP CYP EPI KNI MOL MON NAX RAG SER TRA WAL HUN TUR CNN ENG LEI MNS SCO TYR LIT MAZ POL RIG TEU ALE ALS AMG AUV AVI BOU BRI BUR FOI FRA ORL PRO BER AAC ANH ANS AUG BAD BAV BOH BRA BRE BRU FRN HAB HES KLE KOL LAU LOR LUN MAG MAI MEI MKL MUN OLD PAL POM SAX SIL SLZ SWI THU TRI ULM WBG WUR ARA CAS GRA NAV POR AQU FER GEN MAN MLO MOD NAP PAP SAR SAV SIC TUS URB VEN BRB FRI GEL HAI HOL LIE LUX UTR GEO MOS NOV PSK RYA TVE YAR ADE ALH OMA NAJ HED CND DUL KAR TRE RAM ALG MAM MOR TRP TUN JAI BAR HSA }
         winter=1
 
+Nation Information
+------------------
+(starts at line 80,796)
+
+Consists of:
+
+- Header (this is really complicated, should break it out further)
+    - History
+    - Flags
+    - Hidden flags
+    - Variables
+    - Assorted Information
+        - Capital
+        - Technology
+        - Income
+        - Etc.
+    - Distribution
+    - Ledger
+    - Various other information
+- Armies (multiples)
+- Relations (multiples)
+- Leaders (multiples)
+- Footer
+
+need to verify REB is same layout as regulars (like Sweden)
+
+Example (Sweden, starts at line 84257)
+
+REB - 80796 - 82328
