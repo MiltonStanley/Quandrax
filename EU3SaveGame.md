@@ -300,14 +300,13 @@ Consists of:
         - Etc.
     - Distribution
     - Ledger
-    - Various other information
-- Armies (multiples)
+    - Various other information (officials, sliders, etc.)
+- Mercenary (multiples)
+- Army (multiples)
+- Navy (multiples)
 - Relations (multiples)
-- Leaders (multiples)
-- Footer
-
-need to verify REB is same layout as regulars (like Sweden)
+- Footer (this is also complicated; hard to find a pattern right now)
+    - Leaders (multiples)
+    - More trade stuff?
 
 Example (Sweden, starts at line 84257)
-
-REB - 80796 - 82328
