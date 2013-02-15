@@ -6,6 +6,7 @@
 
 # Ignore my test file
 *.ck2
+*.eu3
 
 # Don't need config file for now
 config.rb
