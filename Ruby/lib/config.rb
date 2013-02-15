@@ -35,6 +35,20 @@ def update_tags_for_dw
   TM_CK2_EU3["c_ulm"] = "ULM"
 end
 
+def load_version
+  #config_file = File.open('config_file.txt',)
+  #while line = config_file.gets.chomp
+  #  puts line
+  #end
+  1
+end
+
+def write_config_file(version)
+  config_file = File.new("config_file.txt", 'w')
+  config_file.puts "$VERSION = #{version}"
+  config_file.close
+end
+
 def make_config_file
   puts
   puts "Running configuration script. To re-configure later (say, to add an expansion),"
@@ -49,33 +63,34 @@ def make_config_file
     print "Number: "
     version = gets.chomp
     if version == '1'
+      write_config_file(version)
       break
     elsif version == '2'
+      write_config_file(version)
       break
     elsif version == '3'
+      write_config_file(version)
       break
     else
       puts
       puts "Invalid number, please try again"
     end
   end
-  config_file = File.new("config_file.rb", 'w')
-  config_file.puts "$VERSION = #{version}"
-  config_file.close
+
 end
 
-config_exists = File.exist? "./config_file.rb"
+config_exists = File.exist? "./config_file.txt"
 
 if !config_exists || ARGV[0] == '-u'
   ARGV.shift # Kludgy - gets doesn't work in config, it returns ARGV[0] for some reason
+  puts "Your config file seems to be misconfigured." if !config_exists
   make_config_file
 end
 
 valid_configuration = false
 
 until valid_configuration
-  require './config_file.rb'
-  puts "Loading config file..."
+  version = load_version
   if $VERSION == 1
      puts "Loading mapping files..."
      valid_configuration = true
