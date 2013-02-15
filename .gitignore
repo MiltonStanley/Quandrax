@@ -9,4 +9,4 @@
 *.eu3
 
 # Don't need config file for now
-config.rb
+config_file.rb
