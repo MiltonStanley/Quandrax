@@ -35,21 +35,15 @@ def update_tags_for_dw
   TM_CK2_EU3["c_ulm"] = "ULM"
 end
 
-def load_version
-  #config_file = File.open('config_file.txt',)
-  #while line = config_file.gets.chomp
-  #  puts line
-  #end
-  1
-end
-
 def write_config_file(version)
-  config_file = File.new("config_file.txt", 'w')
-  config_file.puts "$VERSION = #{version}"
+  puts "Writing configuration file"
+  config_file = File.new("config_file.rb", 'w')
+  config_file.puts "VERSION = #{version}"
   config_file.close
 end
 
 def make_config_file
+  puts "******* IN make_config_file **********"
   puts
   puts "Running configuration script. To re-configure later (say, to add an expansion),"
   puts "simply run Quandrax with the -u parameter like so:"
@@ -79,7 +73,7 @@ def make_config_file
 
 end
 
-config_exists = File.exist? "./config_file.txt"
+config_exists = File.exist? "./config_file.rb"
 
 if !config_exists || ARGV[0] == '-u'
   ARGV.shift # Kludgy - gets doesn't work in config, it returns ARGV[0] for some reason
@@ -90,14 +84,16 @@ end
 valid_configuration = false
 
 until valid_configuration
+  puts "Validating configuration"
+  require '../config_file.rb'
   version = load_version
-  if $VERSION == 1
+  if version == 1
      puts "Loading mapping files..."
      valid_configuration = true
-  elsif $VERSION == 2
+  elsif version == 2
       update_tags_for_httt
       valid_configuration = true
-  elsif $VERSION == 3
+  elsif version == 3
       update_tags_for_dw
       valid_configuration = true
   else
