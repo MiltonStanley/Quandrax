@@ -37,8 +37,8 @@ end
 
 def write_config_file(version)
   puts "Writing configuration file"
-  config_file = File.new("config_file.rb", 'w')
-  config_file.puts "VERSION = #{version}"
+  config_file = File.new("config_file.txt", 'w')
+  config_file.puts "VERSION=#{version}"
   config_file.close
 end
 
@@ -73,7 +73,18 @@ def make_config_file
 
 end
 
-config_exists = File.exist? "./config_file.rb"
+def load_version
+  file = File.open("./config_file.txt",'r')
+  while line = file.gets
+    unless line.nil?
+      line.chomp!
+      key, value = line.split('=')
+    end
+  end
+  value ||= 0
+end
+
+config_exists = File.exist? "./config_file.txt"
 
 if !config_exists || ARGV[0] == '-u'
   ARGV.shift # Kludgy - gets doesn't work in config, it returns ARGV[0] for some reason
@@ -85,7 +96,6 @@ valid_configuration = false
 
 until valid_configuration
   puts "Validating configuration"
-  require '../config_file.rb'
   version = load_version
   if version == 1
      puts "Loading mapping files..."
