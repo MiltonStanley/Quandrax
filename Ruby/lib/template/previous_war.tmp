@@ -1,0 +1,134 @@
+previous_war=
+{
+	name="First Muscovite-Lithuanian War"
+	history=
+	{
+		name="First Muscovite-Lithuanian War"
+		casus_belli="cb_nationalist"
+		name="GOL - NOV war"
+		casus_belli="cb_dishonored_call"
+		name="Ming - Horde war"
+		casus_belli="cb_dishonored_call"
+		1399.1.1=
+		{
+			add_attacker="GOL"
+			add_defender="NOV"
+		}
+		1399.1.1=
+		{
+			add_attacker="KHA"
+			add_attacker="OIR"
+			add_defender="MNG"
+		}
+		1399.10.14=
+		{
+			rem_attacker="GOL"
+			rem_defender="NOV"
+		}
+		1399.10.14=
+		{
+			rem_attacker="KHA"
+			rem_attacker="OIR"
+			rem_defender="MNG"
+		}
+		1486.1.1=
+		{
+			add_attacker="MOS"
+			add_defender="LIT"
+		}
+		1492.1.1=
+		{
+			add_attacker="CRI"
+		}
+		1495.1.1=
+		{
+			rem_attacker="MOS"
+			rem_attacker="CRI"
+			rem_defender="LIT"
+		}
+	}
+	original_attacker="GOL"
+	original_defender="NOV"
+	action="1.1.1"
+	casus_belli="cb_nationalist"
+}
+previous_war=
+{
+	name=""
+	history=
+	{
+	}
+	original_attacker="---"
+	original_defender="---"
+	action="1.1.1"
+}
+previous_war=
+{
+	name=""
+	history=
+	{
+	}
+	original_attacker="---"
+	original_defender="---"
+	action="1.1.1"
+}
+previous_war=
+{
+	name=""
+	history=
+	{
+	}
+	original_attacker="---"
+	original_defender="---"
+	action="1.1.1"
+}
+previous_war=
+{
+	name=""
+	history=
+	{
+	}
+	original_attacker="---"
+	original_defender="---"
+	action="1.1.1"
+}
+previous_war=
+{
+	name=""
+	history=
+	{
+	}
+	original_attacker="---"
+	original_defender="---"
+	action="1.1.1"
+}
+previous_war=
+{
+	name=""
+	history=
+	{
+	}
+	original_attacker="---"
+	original_defender="---"
+	action="1.1.1"
+}
+previous_war=
+{
+	name=""
+	history=
+	{
+	}
+	original_attacker="---"
+	original_defender="---"
+	action="1.1.1"
+}
+previous_war=
+{
+	name=""
+	history=
+	{
+	}
+	original_attacker="---"
+	original_defender="---"
+	action="1.1.1"
+}

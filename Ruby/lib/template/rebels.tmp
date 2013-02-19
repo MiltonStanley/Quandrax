@@ -1,0 +1,50 @@
+rebel_faction=
+{
+	id=
+	{
+		id=1
+		type=40
+	}
+	type="nationalist_rebels"
+	name="Smolenskian Nationalists"
+	heretic="Old Believer"
+	country="LIT"
+	independence="SMO"
+	culture="russian"
+	religion="orthodox"
+	government="feudal_monarchy"
+	province=293
+	leader=
+	{
+		id=1181
+		type=38
+	}
+	provinces=
+	{
+		293 297 	}
+}
+rebel_faction=
+{
+	id=
+	{
+		id=36
+		type=40
+	}
+	type="revolutionary_rebels"
+	name="Kanem Bornuan Revolutionaries"
+	heretic="Zikri"
+	country="KBO"
+	independence="---"
+	culture="mali"
+	religion="sunni"
+	government="tribal_federation"
+	province=1158
+	leader=
+	{
+		id=1183
+		type=38
+	}
+	provinces=
+	{
+		1158 	}
+}

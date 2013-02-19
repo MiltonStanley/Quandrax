@@ -1,0 +1,9 @@
+emperor="HUN"
+imperial_influence=20.000
+internal_hre_cb=yes
+old_emperor=
+{
+	id=2338
+	country="HUN"
+	date="1387.3.31"
+}
