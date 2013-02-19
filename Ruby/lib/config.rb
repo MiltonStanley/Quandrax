@@ -1,5 +1,19 @@
 # Configuration stuff for detecting expansions
 
+=begin HOW IT SHOULD WORK
+
+1. Test file found? //Verify// : make it
+2. Verify:
+  - Extract data
+  - Verify that data - legal? Adapt files : Make it
+3. Make it
+  - While loop
+    - until legal version submitted
+  - Write to file
+4. Adapt files
+
+=end
+
 def update_tags_for_httt
   puts "Updating mapping files for Heir to the Throne"
   TM_CK2_EU3["c_murom"] = "MUR"
@@ -34,6 +48,52 @@ def update_tags_for_dw
   update_tags_for_httt
   TM_CK2_EU3["c_ulm"] = "ULM"
 end
+
+def verify_config_file
+  puts "Found"
+end
+
+def get_version_from_user
+  while true
+    puts
+    puts "What is the LATEST version you have installed?"
+    puts "1) Base game/Napoleon's Ambition/In Nomine/EU3: Complete"
+    puts "2) Heir to the Throne"
+    puts "3) Divine Wind/EU3 Chronicles"
+    print "Number: "
+    version = gets.chomp
+    return version if (version == '1' || version == '2' || version == '3')
+    puts
+    puts "Invalid number, please try again"
+  end
+end
+
+def write_version_to_file(version)
+  print "Writing version to configuration file..."
+  config_file = File.new('config_file.txt','w')
+  config_file.puts "VERSION=" + version
+  config_file.close
+  puts "complete!"
+end
+
+def make_config_file(manual_reconfig)
+  ARGV.shift if manual_reconfig # Kludgy - gets returns ARGV[0] for some reason later on.s
+  puts "Configuration file not found." unless manual_reconfig
+
+  puts "Running configuration script. To re-configure later (say, to add an expansion),"
+  puts "simply run Quandrax with the -u parameter like so:"
+  puts "prompt$> ruby quandrax.rb -u"
+  write_version_to_file(get_version_from_user) # Is this bad form? Passing function into another one?
+
+
+end
+
+
+verify_config_file if File.exist? "./config_file.txt"
+make_config_file(ARGV[0] == '-u') if !(File.exist? "./config_file.txt")
+
+=begin
+# KEEP THIS DATA FOR REFERENCE
 
 def write_config_file(version)
   puts "Writing configuration file"
@@ -84,13 +144,7 @@ def load_version
   value ||= 0
 end
 
-config_exists = File.exist? "./config_file.txt"
 
-if !config_exists || ARGV[0] == '-u'
-  ARGV.shift # Kludgy - gets doesn't work in config, it returns ARGV[0] for some reason
-  puts "Your config file seems to be misconfigured." if !config_exists
-  make_config_file
-end
 
 valid_configuration = false
 
@@ -111,3 +165,5 @@ until valid_configuration
       make_config_file
   end
 end
+
+=end
