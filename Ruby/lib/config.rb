@@ -74,12 +74,23 @@ def get_version_from_user
   end
 end
 
+def update_tags(version)
+  if version == '1'
+    puts "Using settings for base game."
+  elsif version == '2'
+    update_tags_for_httt
+  elsif version == '3'
+    update_tags_for_dw  
+  end
+end
+
 def write_version_to_file(version)
   print "Writing version to configuration file..."
   config_file = File.new('config_file.txt','w')
   config_file.puts "VERSION=" + version
   config_file.close
   puts "Complete!"
+  update_tags(version)
 end
 
 def load_config_file
@@ -88,18 +99,26 @@ def load_config_file
   while line = config_file.gets
     version = extract_version(line)
   end
-  puts "complete!"
+  if legal_version?(version)
+    puts "complete!"
+    update_tags(version)
+  else
+    puts "error."
+    make_config_file(false)
+  end  
 end
 
 def make_config_file(manual_reconfig)
   ARGV.shift if manual_reconfig # Kludgy - gets returns ARGV[0] for some reason later on.s
   puts "Configuration file corrupted or not found." unless manual_reconfig
-
+  puts
   puts "Running configuration script. To re-configure later (say, to add an expansion),"
   puts "simply run Quandrax with the -u parameter like so:"
   puts "prompt$> ruby quandrax.rb -u"
   write_version_to_file(get_version_from_user) # Is this bad form? Passing function into another one?
 end
 
+manual_config = ARGV[0] == '-u'
+
+make_config_file(ARGV[0] == '-u') if !(File.exist? "./config_file.txt") || manual_config
 load_config_file if File.exist? "./config_file.txt"
-make_config_file(ARGV[0] == '-u') if !(File.exist? "./config_file.txt")
