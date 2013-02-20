@@ -8,6 +8,6 @@ def check_nesting(line)
 	end
 end
 
-def header_line(line)
-
+def header?(line)
+	true
 end

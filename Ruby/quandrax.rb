@@ -38,6 +38,5 @@ nest_level = 0
 
 while line = oldFile.gets
 	nest_level += check_nesting(line)
-	puts "header line!" if header_line(line)
-	puts "#{nest_level}: #{line}"
+	puts line if nest_level == 0 && header?(line)
 end
