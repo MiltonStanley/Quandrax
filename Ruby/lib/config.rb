@@ -120,5 +120,8 @@ end
 
 manual_config = ARGV[0] == '-u'
 
-make_config_file(ARGV[0] == '-u') if !(File.exist? "./config_file.txt") || manual_config
-load_config_file if File.exist? "./config_file.txt"
+if !(File.exist? "./config_file.txt") || manual_config
+  make_config_file(ARGV[0] == '-u')
+else
+  load_config_file if File.exist? "./config_file.txt"
+end
