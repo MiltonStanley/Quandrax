@@ -16,6 +16,7 @@ puts
 require './lib/prov_map.rb'
 require './lib/tag_map.rb'
 require './lib/config.rb'
+require './lib/parsing.rb'
 
 OLD_FILE_EXTENSION = '.ck2' # Eventually this will be automated OR passed in at CLI
 
@@ -36,5 +37,7 @@ newFile = File.new("#{file_name}.eu3",'w')
 nest_level = 0
 
 while line = oldFile.gets
-	puts line
+	nest_level += check_nesting(line)
+	puts "header line!" if header_line(line)
+	puts "#{nest_level}: #{line}"
 end
