@@ -13,8 +13,28 @@
 ###############################################################################
 
 puts
-
 require './lib/prov_map.rb'
 require './lib/tag_map.rb'
 require './lib/config.rb'
 
+OLD_FILE_EXTENSION = '.ck2' # Eventually this will be automated OR passed in at CLI
+
+filename = Dir.new(Dir.getwd).each { |file| break file if file.include?(OLD_FILE_EXTENSION) }
+if filename.class == Dir
+	puts
+	puts "No file found!"
+	puts "See the help documentation for usage."
+	Kernel.exit
+end
+file_name, file_extension = filename.split('.',2)
+puts
+puts "Loading #{filename}."
+oldFile = File.open("./#{filename}",'r')
+puts "Creating #{file_name}.eu3."
+newFile = File.new("#{file_name}.eu3",'w')
+
+nest_level = 0
+
+while line = oldFile.gets
+	puts line
+end
