@@ -25,8 +25,10 @@ OLD_FILE_EXTENSION = '.ck2' # Eventually this will be automated OR passed in at 
 oldFile, newFile = load_file('ck2')
 
 nest_level = 0
-
+line_number = 0
 while line = oldFile.gets
+  line_number += 1
+  break if line_number > 25
 	nest_level += check_nesting(line)
 	puts line if nest_level == 0 && header?(line)
 end
