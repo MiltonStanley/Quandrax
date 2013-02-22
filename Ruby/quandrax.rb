@@ -28,7 +28,10 @@ nest_level = 0
 line_number = 0
 while line = oldFile.gets
   line_number += 1
-  break if line_number > 25
 	nest_level += check_nesting(line)
-	puts line if nest_level == 0 && header?(line)
+  next if character_header?(line, line_number) # Exclude Characters
+  next if line =~ /^\d+/ # Exclude Province info
+  next if line == '}'
+	puts "#{nest_level}: #{line}" if class_header?(line, line_number, nest_level)
+
 end
