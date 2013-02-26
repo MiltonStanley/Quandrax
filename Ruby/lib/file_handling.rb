@@ -17,19 +17,14 @@ end
 
 def process_file(file)
   tracker = Tracker.new(0,0)
-  line_number, nest_level = 0, 0
-  #header_done = false
 
   while line = file.gets
-    line.chomp!
-    next if line.nil?    
-    track_location_in_file(line, line_number, nest_level)
-
+    line.chomp!; next if line.nil?
+    track_location_in_file(line, tracker)
     tracker.header_done = true if line == 'dynasties='
-    if tracker.header_done?
-      puts line
-      break
-    end
+    
+    break if tracker.header_done? # Only looking at headers atm
+      
     something = make_header(line)
     puts something
   end

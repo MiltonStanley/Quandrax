@@ -13,9 +13,9 @@ class Tracker
 
 end
 
-def track_location_in_file(line, line_number, nest_level)
-  line_number += 1
-  nest_level += check_nesting(line)
+def track_location_in_file(line, tracker)
+  tracker.line_number += 1
+  tracker.nest_level += check_nesting(line)
 end
 
 def check_nesting(line)
@@ -28,19 +28,12 @@ def check_nesting(line)
 	end
 end
 
-def class_header?(line, line_number, nest_level)
-	nest_level == 0 && (line_number < 25 || nest_level == 0) # Problem in my approach
-                                                           # Normally nest_level all that matters,
-                                                           # But I've grouped singletons top levels
-                                                           # Into a pseudo-class "header"
-end
-
-def character_header?(line, nest_level)
-  nest_level == 0 && (line =~ /^b_/  ||
-                      line =~ /^c_/ || 
-                      line =~ /^d_/ || 
-                      line =~ /^k_/ || 
-                      line =~ /^e_/  )
+def character_header?(line, tracker)
+  tracker.nest_level == 0 && (line =~ /^b_/  ||
+                              line =~ /^c_/  || 
+                              line =~ /^d_/  || 
+                              line =~ /^k_/  || 
+                              line =~ /^e_/   )
 end
 
 def make_header(line)
