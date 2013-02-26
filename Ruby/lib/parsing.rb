@@ -7,29 +7,26 @@ class Tracker
     @location = 'header'
   end
 
-  def get_location
-    @location
+  def update_nesting(line)
+    if line.include? '{'
+      return 1 
+    elsif line.include? '}'
+      return -1 
+    else
+      return 0
+    end
+  end
+
+  def update(line)
+    @line_number += 1 
+    @nest_level += update_nesting(line)
+    if @nest_level == 0 && line == 'dynasties='
+      @location = line.sub(/=$/,'')
+    end
   end
 
 end
 
-def track_location_in_file(line, tracker)
-  tracker.line_number += 1
-  tracker.nest_level += check_nesting(line)
-  if tracker.nest_level == 0
-    return line.sub(/=$/,'')
-  end
-end
-
-def check_nesting(line)
-	if line.include? '{'
-		return 1
-	elsif line.include? '}'
-		return -1
-	else
-		return 0
-	end
-end
 
 def character_header?(line, tracker)
   tracker.nest_level == 0 && (line =~ /^b_/  ||

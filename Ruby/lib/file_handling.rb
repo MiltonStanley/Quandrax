@@ -17,15 +17,14 @@ end
 
 def process_file(file)
   tracker = Tracker.new(0,0)
-
+  puts "line # - nest # - line"
   while line = file.gets
     line.chomp!; next if line.nil?
-    new_class_header = track_location_in_file(line, tracker)
-    tracker.location = new_class_header if new_class_header == "dynasties"
+    tracker.update(line)
 
-    break if tracker.location != 'header' # Only looking at headers atm
-      
+    #break if tracker.location != 'header' # Only looking at headers atm
+    break if tracker.line_number > 30
     something = make_header(line)
-    puts something
+    puts "#{tracker.line_number}| #{tracker.nest_level}: #{something}"
   end
 end
