@@ -1,3 +1,9 @@
+def track_location_in_file(line_number, nest_level)
+  line_number += 1
+  nest_level += check_nesting(line)
+end
+
+
 def check_nesting(line)
 	if line.include? '{'
 		return 1
@@ -22,3 +28,4 @@ def character_header?(line, nest_level)
                       line =~ /^k_/ || 
                       line =~ /^e_/  )
 end
+

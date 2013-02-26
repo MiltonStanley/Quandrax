@@ -16,17 +16,13 @@ def load_file(extension)
 end
 
 def process_file(file)
-  nest_level = 0
-  line_number = 0
-
+  line_number, nest_level = 0
+  
   while line = file.gets
     next if line.nil?
     line.chomp!
-    line_number += 1
-    nest_level += check_nesting(line)
-    next if character_header?(line, line_number) # Exclude Characters
-    next if line =~ /^\d+/ # Exclude Province info
-    next if line == '}'
+    track_location_in_file(line_number, nest_level)
+    
     puts "#{nest_level}: #{line}" if class_header?(line, line_number, nest_level)
   end
 end
