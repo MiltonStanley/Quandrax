@@ -2,13 +2,11 @@ EU3 Savegame structure
 ======================
 Taken from my "England1399_10_14.eu3" file - game started as England; saved without unpausing
 
-!TOC
-
 ### Table of Contents
-**[Header](#header)**
+<p>**[Header](#header)**</p>
 **[Rebel Faction Info](#rebel-faction-info)**
 **[Imperial Information](#imperial-information)**
-**[Religious Faction Information](#religious-faction-information)**
+<p>[Religious Faction Information](#religious-faction-information)**</p>
 **[Papacy Information](#papacy-information)**
 **[Trade](#trade)**
 **[Province Information](#province-information)**
