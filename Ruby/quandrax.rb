@@ -27,13 +27,5 @@ old_file, new_file = load_file('ck2')
 
 nest_level = 0
 line_number = 0
-while line = old_file.gets
-  line_number += 1
-	nest_level += check_nesting(line)
-	next if character_header?(line, line_number) # Exclude Characters
-  next if line =~ /^\d+/ # Exclude Province info
-  next if line == '}'
-	
-	puts "#{nest_level}: #{line}" if class_header?(line, line_number, nest_level)
 
-end
+process_file old_file

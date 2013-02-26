@@ -14,3 +14,19 @@ def load_file(extension)
   new_file = File.new("#{file_name}.eu3",'w')
   return old_file, new_file
 end
+
+def process_file(file)
+  nest_level = 0
+  line_number = 0
+
+  while line = file.gets
+    next if line.nil?
+    line.chomp!
+    line_number += 1
+    nest_level += check_nesting(line)
+    next if character_header?(line, line_number) # Exclude Characters
+    next if line =~ /^\d+/ # Exclude Province info
+    next if line == '}'
+    puts "#{nest_level}: #{line}" if class_header?(line, line_number, nest_level)
+  end
+end
