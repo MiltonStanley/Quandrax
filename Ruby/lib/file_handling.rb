@@ -29,3 +29,36 @@ def process_file(file)
     #puts command
   end
 end
+
+###############################################################################
+# 
+# THESE FUNCTIONS TO TEST ABILITY OF PROGRAM TO COMBINE TEMPLATES WITH 
+# PROGRAM-GENERATED FILES INTO USABLE SAVE FILES
+#
+###############################################################################
+
+def stitch(new_file)
+  print_out(new_file, 'header.tmp') if $HEADER
+  print_out(new_file, 'rebels.tmp')if $REBELS
+  print_out(new_file, 'imperial_info.tmp') if $IMPERIAL_INFO
+  print_out(new_file, 'religious_info.tmp') if $RELIGIOUS_INFO
+  print_out(new_file, 'papacy.tmp') if $PAPACY
+  print_out(new_file, 'trade.tmp') if $TRADE
+  print_out(new_file, 'province.tmp') if $PROVINCE
+  print_out(new_file, 'nations.tmp') if $NATIONS
+  print_out(new_file, 'diplomacy.tmp') if $DIPLOMACY
+  print_out(new_file, 'combat.tmp') if $COMBAT
+  print_out(new_file, 'active_war.tmp') if $ACTIVE_WAR
+  print_out(new_file, 'previous_war.tmp') if $PREVIOUS_WAR
+  print_out(new_file, 'footer_a.tmp') if $FOOTER_A
+  print_out(new_file, 'japanese.tmp') if $JAPANESE
+  print_out(new_file, 'footer_b.tmp') if $FOOTER_B
+end
+
+def print_out(new_file, temp_name)
+  temp_file = File.open(temp_name, 'r')
+  while line = temp_file.gets
+    new_file.puts line
+  end
+  temp_file.close
+end
