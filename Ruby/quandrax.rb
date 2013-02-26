@@ -18,6 +18,7 @@ require './lib/tag_map.rb'
 require './lib/config.rb'
 require './lib/parsing.rb'
 require './lib/file_handling'
+require './globals'
 
 OLD_FILE_EXTENSION = '.ck2' # Eventually this will be automated OR passed in at CLI
 
