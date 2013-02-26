@@ -3,24 +3,24 @@ EU3 Savegame structure
 Taken from my "England1399_10_14.eu3" file - game started as England; saved without unpausing
 
 ### Table of Contents
-**[Header](#header)**
-**[Rebel Faction Info](#rebel-faction-info)**
-[Imperial Information](#imperial-information)**
-**[Religious Faction Information](#religious-faction-information)**
-**[Papacy Information](#papacy-information)**
-**[Trade](#trade)
-**[Province Information](#province-information)**
-**[Nation Information](#nation-information)**
-**[Diplomacy](#diplomacy)**
-**[Combat](#combat)**
-[Active Wars](#active-wars)
-**[Previous Wars](#previous-wars)**
-**[Random Things](#random-things)**
-**[Japanese Stuff](#japanese-stuff)**
-**[Footer](#footer)**
+**[Header](#header)**  
+**[Rebel Faction Info](#rebel-faction-info)**  
+**[Imperial Information](#imperial-information)**  
+**[Religious Faction Information](#religious-faction-information)**  
+**[Papacy Information](#papacy-information)**  
+**[Trade](#trade)**  
+**[Province Information](#province-information)**  
+**[Nation Information](#nation-information)**  
+**[Diplomacy](#diplomacy)**  
+**[Combat](#combat)**  
+**[Active Wars](#active-wars)**  
+**[Previous Wars](#previous-wars)**  
+**[Random Things](#random-things)**  
+**[Japanese Stuff](#japanese-stuff)**  
+**[Footer](#footer)**  
 
-## Header
-
+Header
+------
 ~23 lines
 
 Entirety:
