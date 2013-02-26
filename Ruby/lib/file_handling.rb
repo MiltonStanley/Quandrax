@@ -38,21 +38,21 @@ end
 ###############################################################################
 
 def stitch(new_file)
-  print_out(new_file, 'header.tmp') if $HEADER
-  print_out(new_file, 'rebels.tmp')if $REBELS
-  print_out(new_file, 'imperial_info.tmp') if $IMPERIAL_INFO
-  print_out(new_file, 'religious_info.tmp') if $RELIGIOUS_INFO
-  print_out(new_file, 'papacy.tmp') if $PAPACY
-  print_out(new_file, 'trade.tmp') if $TRADE
-  print_out(new_file, 'province.tmp') if $PROVINCE
-  print_out(new_file, 'nations.tmp') if $NATIONS
-  print_out(new_file, 'diplomacy.tmp') if $DIPLOMACY
-  print_out(new_file, 'combat.tmp') if $COMBAT
-  print_out(new_file, 'active_war.tmp') if $ACTIVE_WAR
-  print_out(new_file, 'previous_war.tmp') if $PREVIOUS_WAR
-  print_out(new_file, 'footer_a.tmp') if $FOOTER_A
-  print_out(new_file, 'japanese.tmp') if $JAPANESE
-  print_out(new_file, 'footer_b.tmp') if $FOOTER_B
+  print_out(new_file, './lib/template/header.tmp') if $HEADER
+  print_out(new_file, './lib/template/rebels.tmp')if $REBELS
+  print_out(new_file, './lib/template/imperial_info.tmp') if $IMPERIAL_INFO
+  print_out(new_file, './lib/template/religious_info.tmp') if $RELIGIOUS_INFO
+  print_out(new_file, './lib/template/papacy.tmp') if $PAPACY
+  print_out(new_file, './lib/template/trade.tmp') if $TRADE
+  print_out(new_file, './lib/template/province.tmp') if $PROVINCE
+  print_out(new_file, './lib/template/nations.tmp') if $NATIONS
+  print_out(new_file, './lib/template/diplomacy.tmp') if $DIPLOMACY
+  print_out(new_file, './lib/template/combat.tmp') if $COMBAT
+  print_out(new_file, './lib/template/active_war.tmp') if $ACTIVE_WAR
+  print_out(new_file, './lib/template/previous_war.tmp') if $PREVIOUS_WAR
+  print_out(new_file, './lib/template/footer_a.tmp') if $FOOTER_A
+  print_out(new_file, './lib/template/japanese.tmp') if $JAPANESE
+  print_out(new_file, './lib/template/footer_b.tmp') if $FOOTER_B
 end
 
 def print_out(new_file, temp_name)
