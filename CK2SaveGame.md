@@ -1,7 +1,20 @@
 CK2 Savegame structure
 ======================
+Taken from my "WilliamBeginning.ck2" file - game started as Duke William of Normandy; saved without unpausing, and adjusted with a later-game file.
 
-Taken from my "WilliamBeginning.ck2" file - game started as Duke William of Normandy; saved without unpausing
+### Table of Contents
+**[Header](#header)**  
+**[Dynasties](#dynasties)**  
+**[Characters](#characters)**  
+**[ID Info](#id-info)**  
+**[Religious Authority Info](#religious-authority-info)**  
+**[Province Info](#province-info)**  
+**[Title Info](#title-info)**  
+**[Diplomacy](#diplomacy)**  
+**[Combat](#combat)**  
+**[War](#war)**  
+**[Active Wars](#active-wars)**  
+**[Footer](#footer)**  
 
 Header
 ------
@@ -441,8 +454,9 @@ Total example:
       }
     }
 
-Active Wars (several entries)
+Active Wars
 -----------------------------
+Several entries
 
 Example (starts on line 762066):
 
