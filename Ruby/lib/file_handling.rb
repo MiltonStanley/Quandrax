@@ -9,8 +9,8 @@ def load_file(extension)
   file_name, file_extension = filename.split('.',2)
   puts
   puts "Loading #{filename}."
-  oldFile = File.open("./#{filename}",'r')
+  old_file = File.open("./#{filename}",'r')
   puts "Creating #{file_name}.eu3."
-  newFile = File.new("#{file_name}.eu3",'w')
-  return oldFile, newFile
+  new_file = File.new("#{file_name}.eu3",'w')
+  return old_file, new_file
 end

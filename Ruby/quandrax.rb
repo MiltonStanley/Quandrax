@@ -20,19 +20,20 @@ require './lib/parsing.rb'
 require './lib/file_handling'
 require './globals'
 
-OLD_FILE_EXTENSION = '.ck2' # Eventually this will be automated OR passed in at CLI
+OLD_FILE_EXTENSION = 'ck2' # Eventually this will be automated OR passed in at CLI
 
 # Find the savegame file and set up the converted one
-oldFile, newFile = load_file('ck2')
+old_file, new_file = load_file('ck2')
 
 nest_level = 0
 line_number = 0
-while line = oldFile.gets
+while line = old_file.gets
   line_number += 1
 	nest_level += check_nesting(line)
-  next if character_header?(line, line_number) # Exclude Characters
+	next if character_header?(line, line_number) # Exclude Characters
   next if line =~ /^\d+/ # Exclude Province info
   next if line == '}'
+	
 	puts "#{nest_level}: #{line}" if class_header?(line, line_number, nest_level)
 
 end
