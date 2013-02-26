@@ -22,9 +22,8 @@ def process_file(file)
     line.chomp!; next if line.nil?
     tracker.update(line)
 
-    #break if tracker.location != 'header' # Only looking at headers atm
-    break if tracker.line_number > 30
+    break if tracker.line_number > $PARSE_TO unless $PARSE_TO == 0
     something = make_header(line)
-    puts "#{tracker.line_number}| #{tracker.nest_level}: #{something}"
+    puts something
   end
 end

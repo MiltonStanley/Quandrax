@@ -9,17 +9,15 @@ class Tracker
 
   def update_nesting(line)
     if line.include? '{'
-      return 1 
+      @nest_level += 1
     elsif line.include? '}'
-      return -1 
-    else
-      return 0
+      @nest_level -= 1
     end
   end
 
   def update(line)
     @line_number += 1 
-    @nest_level += update_nesting(line)
+    update_nesting(line)
     if @nest_level == 0 && line == 'dynasties='
       @location = line.sub(/=$/,'')
     end
