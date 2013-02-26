@@ -38,6 +38,15 @@ Example:
     {
     }
 
+Flags keeps track of events that happen in game:
+
+    flags=
+    {
+      mongols_sack_baghdad=1258.7.9
+      mongols_sack_novgorod=1263.5.11
+      mongols_sack_smolensk=1270.1.29
+    }
+    
 Dynasties
 ---------
 ~120,000 lines (starts at line 16)
