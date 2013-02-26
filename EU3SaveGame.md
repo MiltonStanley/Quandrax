@@ -15,9 +15,9 @@ Taken from my "England1399_10_14.eu3" file - game started as England; saved with
 **[Combat](#combat)**  
 **[Active Wars](#active-wars)**  
 **[Previous Wars](#previous-wars)**  
-**[Random Things](#random-things)**  
+**[Footer A](#footer-a)**  
 **[Japanese Stuff](#japanese-stuff)**  
-**[Footer](#footer)**  
+**[Footer B](#footer-b)**  
 
 Header
 ------
@@ -444,7 +444,7 @@ Example:
         casus_belli="cb_nationalist"
     }
 
-Random things
+Footer A
 -------------
 
 Entirety:
@@ -509,7 +509,7 @@ Entirety:
         }
     }
 
-Footer
+Footer B
 ------
 
 Entirety:
