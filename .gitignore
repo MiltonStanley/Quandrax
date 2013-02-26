@@ -8,5 +8,8 @@
 *.ck2
 *.eu3
 
-# Don't need config file for now
+# Don't need config file
 config_file.txt
+
+# Don't need my output file from testing
+output.txt
