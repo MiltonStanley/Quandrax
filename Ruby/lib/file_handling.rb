@@ -17,13 +17,15 @@ end
 
 def process_file(file)
   tracker = Tracker.new(0,0)
-  puts "line # - nest # - line"
+  puts "location: line"
   while line = file.gets
     line.chomp!; next if line.nil?
     tracker.update(line)
-
     break if tracker.line_number > $PARSE_TO unless $PARSE_TO == 0
+
     something = make_header(line)
-    puts something
+    #command = eval("make_#{tracker.location}(line)")
+    puts "#{tracker.location}: #{something}"
+    #puts command
   end
 end
