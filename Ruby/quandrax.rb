@@ -25,7 +25,6 @@ OLD_FILE_EXTENSION = 'ck2' # Eventually this will be automated OR passed in at C
 # Find the savegame file and set up the converted one
 old_file, new_file = load_file('ck2')
 
-nest_level = 0
-line_number = 0
+
 
 process_file old_file
