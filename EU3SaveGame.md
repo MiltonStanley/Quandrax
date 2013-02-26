@@ -1,7 +1,11 @@
 EU3 Savegame structure
 ======================
-
 Taken from my "England1399_10_14.eu3" file - game started as England; saved without unpausing
+
+# Table of Contents
+**[Header](#header)**
+**[Rebel Faction Info](#rebel-faction-info)**
+
 
 Header
 ------
