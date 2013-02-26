@@ -1,14 +1,14 @@
 class Tracker
-  attr_accessor :line_number, :nest_level, :header_done
+  attr_accessor :line_number, :nest_level, :location
 
   def initialize(line_number, nest_level)
     @line_number = line_number
     @nest_level = nest_level
-    @header_done = false
+    @location = 'header'
   end
 
-  def header_done?
-    @header_done
+  def get_location
+    @location
   end
 
 end
@@ -16,6 +16,9 @@ end
 def track_location_in_file(line, tracker)
   tracker.line_number += 1
   tracker.nest_level += check_nesting(line)
+  if tracker.nest_level == 0
+    return line.sub(/=$/,'')
+  end
 end
 
 def check_nesting(line)

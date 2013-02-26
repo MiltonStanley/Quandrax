@@ -20,10 +20,10 @@ def process_file(file)
 
   while line = file.gets
     line.chomp!; next if line.nil?
-    track_location_in_file(line, tracker)
-    tracker.header_done = true if line == 'dynasties='
-    
-    break if tracker.header_done? # Only looking at headers atm
+    new_class_header = track_location_in_file(line, tracker)
+    tracker.location = new_class_header if new_class_header == "dynasties"
+
+    break if tracker.location != 'header' # Only looking at headers atm
       
     something = make_header(line)
     puts something
