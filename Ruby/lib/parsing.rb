@@ -1,8 +1,7 @@
-def track_location_in_file(line_number, nest_level)
+def track_location_in_file(line, line_number, nest_level)
   line_number += 1
   nest_level += check_nesting(line)
 end
-
 
 def check_nesting(line)
 	if line.include? '{'

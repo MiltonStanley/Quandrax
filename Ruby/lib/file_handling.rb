@@ -16,13 +16,18 @@ def load_file(extension)
 end
 
 def process_file(file)
-  line_number, nest_level = 0
-  
+  line_number, nest_level = 0, 0
+  header_done = false
+
   while line = file.gets
-    next if line.nil?
     line.chomp!
-    track_location_in_file(line_number, nest_level)
-    
+    next if line.nil?
+    track_location_in_file(line, line_number, nest_level)
+    header_done = true if line == 'dynasties='
+    if header_done
+      puts line
+      break
+    end
     puts "#{nest_level}: #{line}" if class_header?(line, line_number, nest_level)
   end
 end
