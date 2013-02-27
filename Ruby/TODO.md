@@ -3,6 +3,9 @@ ToDo
 *#* shows overall class mappings
 
 - Write base ck2 file parser (class triggers)
+  - Have system trigger on each nest change
+    - EXCEPT at beginning (header - ends with start of dynasties) and end (footer - when active_wars is over)
+    - Otherwise, nest_level 0 is the correct location
 - Write CK2 classes for (load, vars, write)
   - Header *1*
   - Dynasties
