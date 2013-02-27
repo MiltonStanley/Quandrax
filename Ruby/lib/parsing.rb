@@ -5,7 +5,7 @@ class Tracker
     @line_number = line_number
     @nest_level = nest_level
     @location = 'header'
-    @change_location = false
+    @header_done = false
   end
 
   def update_nesting(line)
@@ -19,15 +19,18 @@ class Tracker
   def update(line)
     @line_number += 1 
     update_nesting(line)
-    @change_location = true if new_header(line)
-    if @nest_level == 0 && @change_location == true
-      @change_location = true
+    @header_done = true if header_done?(line)
+    if change_location?
       @location = line.sub(/=$/,'') unless line == '}'
     end
   end
 
-  def new_header(line)
-    line == 'dynasties='
+  def header_done?(line)
+    @nest_level == 0 && line == 'dynasties='
+  end
+
+  def change_location?
+    @header_done && @nest_level == 0
   end
 
 end
