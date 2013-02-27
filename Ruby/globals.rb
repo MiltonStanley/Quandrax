@@ -1,5 +1,5 @@
-# true uses template files, false doesn't
-# All used in parsing.rb - make_[name of global] function
+# Use template files?
+# Where: parsing.rb
 
 $HEADER = true
 $REBELS = true
@@ -17,7 +17,7 @@ $FOOTER_A = true
 $JAPANESE = true
 $FOOTER_B = true
 
-# How many lines to parse? Found in file_handling.rb
-# Set to 0 to parse entire file
+# How many lines to parse? Set to 0 to parse entire file
+# Where: file_handling.rb
 
 $PARSE_TO = 0
