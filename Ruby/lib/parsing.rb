@@ -19,11 +19,15 @@ class Tracker
   def update(line)
     @line_number += 1 
     update_nesting(line)
-    @change_location = true if line == 'dynasties='
+    @change_location = true if new_header(line)
     if @nest_level == 0 && @change_location == true
       @change_location = true
       @location = line.sub(/=$/,'')
     end
+  end
+
+  def new_header(line)
+    line == 'dynasties='
   end
 
 end
@@ -38,12 +42,7 @@ def character_header?(line, tracker)
 end
 
 def make_header(line)
-  if $HEADER == true
-    return line
-  else
-    # actually make it
-    # return header
-  end
+ line
 end
 
 def make_dynasties(line)
