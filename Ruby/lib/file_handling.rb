@@ -37,7 +37,7 @@ end
 #
 ###############################################################################
 
-def stitch(new_file)
+def build_file(new_file)
   print_out(new_file, './lib/template/header.tmp') if $HEADER
   print_out(new_file, './lib/template/rebels.tmp')if $REBELS
   print_out(new_file, './lib/template/imperial_info.tmp') if $IMPERIAL_INFO

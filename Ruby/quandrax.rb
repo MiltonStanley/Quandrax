@@ -27,6 +27,6 @@ old_file, new_file = load_file('ck2')
 
 puts
 
-# process_file old_file
+process_file old_file
 
-stitch(new_file)
+build_file(new_file)
