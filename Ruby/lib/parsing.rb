@@ -22,7 +22,7 @@ class Tracker
     @change_location = true if new_header(line)
     if @nest_level == 0 && @change_location == true
       @change_location = true
-      @location = line.sub(/=$/,'')
+      @location = line.sub(/=$/,'') unless line == '}'
     end
   end
 
