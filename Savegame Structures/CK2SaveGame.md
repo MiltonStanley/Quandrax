@@ -5,18 +5,18 @@ Taken from my "WilliamBeginning.ck2" file - game started as Duke William of Norm
 An '*' indicates a generalized section - it's not technically identified as such in the save game.
 
 ### Table of Contents
-**[Header](#header)**  
+**[Header*](#header)**  
 **[Dynasties](#dynasties)**  
 **[Characters](#characters)**  
 **[ID Info](#id-info)**  
 **[Religious Authority Info*](#religious-authority-info)**  
-**[Province Info](#province-info)**  
-**[Title Info](#title-info)**  
+**[Province Info*](#province-info)**  
+**[Title Info*](#title-info)**  
 **[Diplomacy](#diplomacy)**  
 **[Combat](#combat)**  
 **[War](#war)**  
 **[Active Wars](#active-wars)**  
-**[Footer](#footer)**  
+**[Footer*](#footer)**  
 
 Header*
 ------
