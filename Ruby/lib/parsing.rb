@@ -16,6 +16,14 @@ class Tracker
     end
   end
 
+# Okay, am I gonna start making a new class?
+# NO if nest level != 0
+# YES if nest level == 0 AND ...
+  # specific class if we find a class trigger
+  # Generic class if we find a generic trigger BUT
+    # Must maintain current generic otherwise
+ 
+
   def update(line)
     @line_number += 1 
     update_nesting(line)
