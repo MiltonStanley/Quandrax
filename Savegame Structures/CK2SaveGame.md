@@ -2,12 +2,14 @@ CK2 Savegame structure
 ======================
 Taken from my "WilliamBeginning.ck2" file - game started as Duke William of Normandy; saved without unpausing, and adjusted with a later-game file.
 
+An '*' indicates a generalized section - it's not technically identified as such in the save game.
+
 ### Table of Contents
 **[Header](#header)**  
 **[Dynasties](#dynasties)**  
 **[Characters](#characters)**  
 **[ID Info](#id-info)**  
-**[Religious Authority Info](#religious-authority-info)**  
+**[Religious Authority Info*](#religious-authority-info)**  
 **[Province Info](#province-info)**  
 **[Title Info](#title-info)**  
 **[Diplomacy](#diplomacy)**  
@@ -16,7 +18,7 @@ Taken from my "WilliamBeginning.ck2" file - game started as Duke William of Norm
 **[Active Wars](#active-wars)**  
 **[Footer](#footer)**  
 
-Header
+Header*
 ------
 ~15 lines (starts at line 1)
 
@@ -201,7 +203,7 @@ Example:
       type=4713
     }
 
-Religious Authority Info
+Religious Authority Info*
 ---------------------
 ~100 lines (starts at line 571946)
 
@@ -212,7 +214,7 @@ Example:
       authority=0.501
     }
 
-Province Info
+Province Info*
 -------------
 ~81,000 lines (starts at line 572042)
 
@@ -283,7 +285,7 @@ Example:
       }
     }
 
-Title Info
+Title Info*
 ----------
 ~110,000 lines (starts at 653141)
 These are nested by de jure liege; Empire top level, then king, duke, count, baron, etc.
@@ -503,7 +505,7 @@ Example (starts on line 762066):
       }
     }
 
-Footer
+Footer*
 ------
 
 Entire example:
