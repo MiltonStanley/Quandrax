@@ -20,17 +20,22 @@ class Tracker
     @line_number += 1 
     update_nesting(line)
     @generic_class = make_generic_class?(line)
-    if change_location?   
-      @location = line.sub(/=$/,'') unless line == '}'
+    if change_location? && !close_bracket?(line) # I don't like this - not clear enough
+      @location = line.sub(/=$/,'')
     end
   end
 
   def make_generic_class?(line)
+    triggers = ['dynasties=',]
     !(@nest_level == 0 && line == 'dynasties=')
   end
 
-  def change_location?
+  def change_location?  # Here's the culprit - need to simplify this and above/below functions
     @generic_class && @nest_level == 0
+  end
+
+  def close_bracket?(line)
+    line == '}'
   end
 
 end
