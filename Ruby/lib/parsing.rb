@@ -1,3 +1,5 @@
+require './lib/header'      # Header class
+
 class Tracker
   attr_accessor :line_number, :nest_level, :location
 

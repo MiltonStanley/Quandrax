@@ -1,3 +1,5 @@
+require './lib/parsing.rb'    # Handles data from files and figuring out what to do with it
+
 def load_file(extension)
   filename = Dir.new(Dir.getwd).each { |file| break file if file.include?(extension) }
   if filename.class == Dir

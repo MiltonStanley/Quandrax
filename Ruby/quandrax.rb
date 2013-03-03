@@ -16,7 +16,6 @@ puts
 require './lib/prov_map.rb'   # Maps CK2 provs to EU3 provs - index is EU3 prov, data is CK2
 require './lib/tag_map.rb'    # Maps CK2 titles to EU3 tags, CK2 is key, EU3 is data
 require './lib/config.rb'     # Handles configuration file
-require './lib/parsing.rb'    # Handles data from files and figuring out what to do with it
 require './lib/file_handling' # Generalized handling of files (loading, creating, writing)
 require './lib/header'		  # Header class
 require './globals'           # Used in testing/debugging
