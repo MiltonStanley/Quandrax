@@ -48,8 +48,8 @@ def write_file(new_file)
   print_out(new_file, './lib/template/nations.tmp') if $NATIONS
   print_out(new_file, './lib/template/diplomacy.tmp') if $DIPLOMACY
   print_out(new_file, './lib/template/combat.tmp') if $COMBAT
-  print_out(new_file, './lib/template/active_war.tmp') if $ACTIVE_WAR
-  print_out(new_file, './lib/template/previous_war.tmp') if $PREVIOUS_WAR
+  #print_out(new_file, './lib/template/active_war.tmp') if $ACTIVE_WAR
+  #print_out(new_file, './lib/template/previous_war.tmp') if $PREVIOUS_WAR
   print_out(new_file, './lib/template/footer_a.tmp') if $FOOTER_A
   print_out(new_file, './lib/template/japanese.tmp') if $JAPANESE
   print_out(new_file, './lib/template/footer_b.tmp') if $FOOTER_B
