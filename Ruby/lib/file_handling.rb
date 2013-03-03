@@ -24,7 +24,7 @@ def process_file(file)
     line.chomp!; next if line.nil?
     tracker.update(line)
     break if tracker.line_number > $PARSE_TO unless $PARSE_TO == 0
-    something = make_header(line)
+    something = eval("make_#{tracker.location}(line)")
     #eval("make_#{tracker.location}(line)")
     puts "#{tracker.location}: #{something}"
     #puts command

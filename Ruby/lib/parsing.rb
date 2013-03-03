@@ -64,17 +64,8 @@ class Tracker
 
 end
 
-
-def character_header?(line, tracker)
-  tracker.nest_level == 0 && (line =~ /^b_/  ||
-                              line =~ /^c_/  || 
-                              line =~ /^d_/  || 
-                              line =~ /^k_/  || 
-                              line =~ /^e_/   )
-end
-
 def make_header(line)
- line
+  line
 end
 
 def make_dynasties(line)
