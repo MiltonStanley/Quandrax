@@ -64,10 +64,13 @@ class Tracker
 
 end
 
-def make_header(line)
-  
+def make_objects
+  ck2_header = Header.new
+end
 
-  
+def make_header(line)
+  ck2_header = Header.new unless Header.instance_variables.include? "ck2_header"
+  ck2_header.add(line)
 end
 
 def make_dynasties(line)

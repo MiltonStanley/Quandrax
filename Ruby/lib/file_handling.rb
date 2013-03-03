@@ -19,6 +19,7 @@ end
 
 def process_file(file)
   tracker = Tracker.new(0,0)
+ # make_section_objects
   while line = file.gets
     line.chomp!; next if line.nil?
     tracker.update(line)

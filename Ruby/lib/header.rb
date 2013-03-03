@@ -4,7 +4,15 @@
 #
 #
 
+class Header
+  
+  def initialize
+  end
 
+  def add(line)
+    puts "adding to header: #{line}"
+  end
+end
 
 
 =begin
