@@ -28,4 +28,5 @@ puts
 
 process_file old_file
 
-build_file(new_file)
+write_file(new_file)
+

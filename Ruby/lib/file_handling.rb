@@ -37,8 +37,8 @@ end
 #
 ###############################################################################
 
-def build_file(new_file)
-  print_out(new_file, './lib/template/header.tmp') if $HEADER
+def write_file(new_file)
+  print_out(new_file, './lib/template/header.tmp') if $HEADER  
   print_out(new_file, './lib/template/rebels.tmp')if $REBELS
   print_out(new_file, './lib/template/imperial_info.tmp') if $IMPERIAL_INFO
   print_out(new_file, './lib/template/religious_info.tmp') if $RELIGIOUS_INFO
