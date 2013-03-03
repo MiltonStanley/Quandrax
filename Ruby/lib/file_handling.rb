@@ -22,8 +22,8 @@ def process_file(file)
  # make_section_objects
   while line = file.gets
     line.chomp!; next if line.nil?
-    tracker.update(line)
-    break if tracker.line_number > $PARSE_TO unless $PARSE_TO == 0
+    command = tracker.update(line)
+    break if command == 'break'
     eval("make_#{tracker.location}(line)")
   end
 end
