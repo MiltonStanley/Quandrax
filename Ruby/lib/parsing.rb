@@ -20,7 +20,7 @@ class Tracker
     return 'break' if @line_number > $PARSE_TO unless $PARSE_TO == 0
     update_nesting(line)
     @location = change_location?(line)
-    return "make_#{@location}(line)"
+    eval("make_#{@location}(line)")
   end
 
   def change_location?(line)
@@ -66,14 +66,11 @@ class Tracker
 
 end
 
-def make_objects
-  ck2_header = Header.new
-end
-
 def make_header(line)
   ck2_header = Header.new unless Header.instance_variables.include? "ck2_header"
   ck2_header.add(line)
 end
 
 def make_dynasties(line)
+  puts "making dynasties: #{line}"
 end

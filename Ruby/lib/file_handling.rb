@@ -24,7 +24,6 @@ def process_file(file)
     line.chomp!; next if line.nil?
     command = tracker.update(line)
     break if command == 'break'
-    eval("make_#{tracker.location}(line)")
   end
 end
 
