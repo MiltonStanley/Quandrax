@@ -12,7 +12,6 @@
 #               at http://www.github.com/MiltonStanley/Quandrax_1.1.0
 ###############################################################################
 
-puts
 require './lib/prov_map.rb'   # Maps CK2 provs to EU3 provs - index is EU3 prov, data is CK2
 require './lib/tag_map.rb'    # Maps CK2 titles to EU3 tags, CK2 is key, EU3 is data
 require './lib/config.rb'     # Handles configuration file
