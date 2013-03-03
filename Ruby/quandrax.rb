@@ -17,7 +17,6 @@ require './lib/prov_map.rb'   # Maps CK2 provs to EU3 provs - index is EU3 prov,
 require './lib/tag_map.rb'    # Maps CK2 titles to EU3 tags, CK2 is key, EU3 is data
 require './lib/config.rb'     # Handles configuration file
 require './lib/file_handling' # Generalized handling of files (loading, creating, writing)
-require './lib/header'		  # Header class
 require './globals'           # Used in testing/debugging
 
 OLD_FILE_EXTENSION = 'ck2' # Eventually this will be automated OR passed in at CLI
