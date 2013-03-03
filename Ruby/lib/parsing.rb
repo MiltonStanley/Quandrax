@@ -65,7 +65,9 @@ class Tracker
 end
 
 def make_header(line)
-  line
+  
+
+  
 end
 
 def make_dynasties(line)
