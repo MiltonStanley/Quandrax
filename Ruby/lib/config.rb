@@ -109,7 +109,7 @@ def load_config_file
 end
 
 def make_config_file(manual_reconfig)
-  ARGV.shift if manual_reconfig # Kludgy - gets returns ARGV[0] for some reason later on.s
+  #ARGV.shift if manual_reconfig # Kludgy - gets returns ARGV[0] for some reason later on.s
   puts "Configuration file corrupted or not found." unless manual_reconfig
   puts
   puts "Running configuration script. To re-configure later (say, to add an expansion),"
@@ -118,7 +118,9 @@ def make_config_file(manual_reconfig)
   write_version_to_file(get_version_from_user) # Is this bad form? Passing function into another one?
 end
 
-if !(File.exist? "./config_file.txt")
+manual_config = ARGV[0] == '-u'
+
+if !(File.exist? "./config_file.txt") || manual_config
   make_config_file(false)
 else
   load_config_file if File.exist? "./config_file.txt"

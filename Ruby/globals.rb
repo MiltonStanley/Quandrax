@@ -20,4 +20,4 @@ $FOOTER_B = true
 # How many lines to parse? Set to 0 to parse entire file
 # Where: file_handling.rb
 
-#$PARSE_TO = 30
+$PARSE_TO = 30
