@@ -17,8 +17,11 @@ require './lib/tag_map.rb'    # Maps CK2 titles to EU3 tags, CK2 is key, EU3 is 
 require './lib/config.rb'     # Handles configuration file
 require './lib/file_handling' # Generalized handling of files (loading, creating, writing)
 require './globals'           # Used in testing/debugging
+require './lib/cli_parsing'
 
 OLD_FILE_EXTENSION = 'ck2' # Eventually this will be automated OR passed in at CLI
+
+cli_parse
 
 # Find the savegame file and set up the converted one
 old_file, new_file = load_file('ck2')
@@ -26,6 +29,6 @@ old_file, new_file = load_file('ck2')
 puts
 
 process_file old_file
-
-write_file(new_file)
+puts $PARSE_TO
+#write_file(new_file)
 

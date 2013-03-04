@@ -67,7 +67,7 @@ def get_version_from_user
     puts "2) Heir to the Throne"
     puts "3) Divine Wind/EU3 Chronicles"
     print "Number: "
-    version = gets.chomp
+    version = $stdin.gets.chomp
     return version if legal_version?(version)
     puts
     puts "Invalid number, please try again"
@@ -118,10 +118,8 @@ def make_config_file(manual_reconfig)
   write_version_to_file(get_version_from_user) # Is this bad form? Passing function into another one?
 end
 
-manual_config = ARGV[0] == '-u'
-
-if !(File.exist? "./config_file.txt") || manual_config
-  make_config_file(ARGV[0] == '-u')
+if !(File.exist? "./config_file.txt")
+  make_config_file(false)
 else
   load_config_file if File.exist? "./config_file.txt"
 end
