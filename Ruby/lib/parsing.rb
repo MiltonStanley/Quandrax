@@ -74,5 +74,45 @@ def make_header(line)
 end
 
 def make_dynasties(line)
-  puts "making dynasties: #{line}"
+  
+end
+
+def make_character(line)
+
+end
+
+def make_id(line)
+  
+end
+
+def make_religious_authority(line)
+  
+end
+
+def make_provinces(line)
+  
+end
+
+def make_titles(line)
+  
+end
+
+def make_diplomacy(line)
+  
+end
+
+def make_combat(line)
+
+end
+
+def make_war(line) #not_love
+
+end
+
+def make_active_war(line)
+
+end
+
+def make_footer(line)
+
 end
