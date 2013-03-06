@@ -29,6 +29,13 @@ def process_file(file)
   end
 end
 
+def make_classes(game)
+  ['Header','Dynasties','Character','ID','Religious_Authority','Provinces',
+   'Titles','Diplomacy', 'Combat', 'War','Active_War','Footer'].each do |klass|
+    eval("$#{game.upcase}_#{klass.upcase} = #{klass}.new")
+   end
+end
+
 
 ###############################################################################
 # 

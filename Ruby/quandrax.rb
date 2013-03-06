@@ -18,8 +18,22 @@ require './lib/config.rb'     # Handles configuration file
 require './lib/file_handling' # Generalized handling of files (loading, creating, writing)
 require './globals'           # Used in testing/debugging
 require './lib/cli_parsing'
+require './lib/header'      # Header class
+require './lib/dynasties'
+require './lib/character'
+require './lib/id'
+require './lib/religious_authority'
+require './lib/provinces'
+require './lib/titles'
+require './lib/diplomacy'
+require './lib/combat'
+require './lib/war'
+require './lib/active_war'
+require './lib/footer'
 
 OLD_FILE_EXTENSION = 'ck2' # Eventually this will be automated OR passed in at CLI
+
+make_classes(OLD_FILE_EXTENSION)
 
 #cli_parse
 
