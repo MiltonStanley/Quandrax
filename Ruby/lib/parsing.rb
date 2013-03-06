@@ -114,3 +114,7 @@ end
 def make_footer(line)
 
 end
+
+def split_key_value(line)
+  key, value = line.split('=',2)
+end

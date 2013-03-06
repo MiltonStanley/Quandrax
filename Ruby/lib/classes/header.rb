@@ -11,17 +11,41 @@ class Header
   end
 
   def add(line)
-    puts "adding to header: #{line}"
+    key, value = split_key_value(line)
+    @date = value if is_date?(key)
   end
 
-  def potosors
-    puts "printing header!!!"
+  def write
+    puts "date=#{@date}"
+  end
+
+  def is_date?(key)
+    key == 'date'
   end
 
 end
 
+=begin 
 
-=begin
+# Starts like this 
+
+version="CK2 v1.06b"
+date="1066.9.15"
+player=
+{
+  id=140
+  type=45
+}
+player_realm="d_normandy"
+rebel=1
+unit=54
+sub_unit=107
+start_date="1066.9.15"
+flags=
+{
+}
+
+# GOAL IS THIS FORMAT
 
   date="1399.10.14"
   player="ENG"
