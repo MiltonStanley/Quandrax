@@ -7,11 +7,17 @@
 class Header
   
   def initialize
+    puts "Making header section..."
   end
 
   def add(line)
     puts "adding to header: #{line}"
   end
+
+  def potosors
+    puts "printing header!!!"
+  end
+
 end
 
 

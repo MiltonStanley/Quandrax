@@ -30,10 +30,13 @@ def process_file(file)
 end
 
 def make_classes(game)
+=begin
   ['Header','Dynasties','Character','ID','Religious_Authority','Provinces',
-   'Titles','Diplomacy', 'Combat', 'War','Active_War','Footer'].each do |klass|
-    eval("$#{game.upcase}_#{klass.upcase} = #{klass}.new")
+   'Titles','Diplomacy', 'Combat', 'War','Active_War','Footer'].each do |section|
+    eval("$#{game.upcase}_#{section.upcase} = #{section}.new")
    end
+=end
+  $CK2_HEADER = Header.new
 end
 
 
@@ -45,7 +48,9 @@ end
 ###############################################################################
 
 def write_file(new_file)
-  print_out(new_file, './lib/template/header.tmp') if $HEADER  
+  print_out(new_file, './lib/template/header.tmp') if $HEADER 
+  #eval("$#{$OLD_FILE_EXTENSION.upcase}_HEADER.print")
+  $CK2_HEADER.potosors
   print_out(new_file, './lib/template/rebels.tmp')if $REBELS
   print_out(new_file, './lib/template/imperial_info.tmp') if $IMPERIAL_INFO
   print_out(new_file, './lib/template/religious_info.tmp') if $RELIGIOUS_INFO

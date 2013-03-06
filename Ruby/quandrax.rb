@@ -31,9 +31,9 @@ require './lib/classes/war'
 require './lib/classes/active_war'
 require './lib/classes/footer'
 
-OLD_FILE_EXTENSION = 'ck2' # Eventually this will be automated OR passed in at CLI
+$OLD_FILE_EXTENSION = 'ck2' # Eventually this will be automated OR passed in at CLI
 
-make_classes(OLD_FILE_EXTENSION)
+make_classes($OLD_FILE_EXTENSION)
 
 #cli_parse
 
