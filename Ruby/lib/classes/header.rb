@@ -13,14 +13,21 @@ class Header
   def add(line)
     key, value = split_key_value(line)
     @date = value if is_date?(key)
+    #@tag = $TM_CK2_EU3[value] if is_realm?(line)
+    puts line if is_realm?(line)
   end
 
   def write
     puts "date=#{@date}"
+    puts "player=#{@tag}"
   end
 
   def is_date?(key)
     key == 'date'
+  end
+
+  def is_realm?(key)
+    key == 'player_realm'
   end
 
 end

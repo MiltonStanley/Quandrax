@@ -1,4 +1,4 @@
-TM_CK2_EU3 = {
+$TM_CK2_EU3 = {
 "e_rebels" => "REB",
 "e_pirates" => "PIR",
 "e_byzantium" => "BYZ",
