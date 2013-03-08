@@ -21,7 +21,7 @@ class Header
     puts "player=#{@tag}"
     
 =begin
-    monarch=6840    // http://www.paradoxian.org/eu3wiki/Common%5Ccountries_folder
+    monarch=6840    // This seems to be hardcoded - can't find in the files
     cardinal=16     // "
     leader=1184     // "
     advisor=1889    // "
@@ -30,7 +30,7 @@ class Header
     flags=          // STAYS
     {               // THE
     }               // SAME
-    gameplaysettings=                 // fiddle with settings to figure this out  
+    gameplaysettings=                 // SEE BELOW
     {                                 # Just realized I used C++ comments...
       setgameplayoptions=             #
       {                               #
@@ -42,7 +42,7 @@ class Header
       id=3001                         #
       type=4713                       #
     }                                 #
-
+   these are zero-indexed:
     advisors          *normal - historical - event
     leaders           *normal - historical - event
     colonists         *normal - free
