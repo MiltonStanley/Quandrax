@@ -34,7 +34,7 @@ class Header
     {                                 # Just realized I used C++ comments...
       setgameplayoptions=             #
       {                               #
-    0 0 0 0 0 0 0 2 0 1 0 0 0   }     #
+    0 0 0 0 0 0 0 2 0 1 0 0 0   }     # SEE BELOW - EITHER prompt each, or default
     }                                 //  
     start_date="1399.10.14"           // same as CK2 *unless it breaks*
     id=                               // Gotta figure this out
@@ -42,6 +42,20 @@ class Header
       id=3001                         #
       type=4713                       #
     }                                 #
+
+    advisors          *normal - historical - event
+    leaders           *normal - historical - event
+    colonists         *normal - free
+    merchants         *normal - free
+    missionaries      *normal - free
+    inflation         *normal - none - from gold
+    size of colonists *normal - 200 - 300 - 400
+    difficulty        very easy - easy - *normal - hard - very hard
+    ai aggressiveness *normal - low - high
+    spread of land provinces  25 - *normal 50 - 75 - 100 - 200 -
+    spread of sea provinces   *25 - normal 50 - 75 - 100 - 200
+    spies             *normal - free
+    lucky nation      *historical - random - none
 =end
   end
 
