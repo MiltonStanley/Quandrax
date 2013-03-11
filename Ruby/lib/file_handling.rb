@@ -30,7 +30,7 @@ def process_file(file)
 end
 
 def make_classes
-  $CK2_HEADER = Header.new
+  $EU3_HEADER = Header.new
 end
 
 
@@ -44,7 +44,7 @@ end
 def write_file(new_file)
   print_out(new_file, './lib/template/header.tmp') if $HEADER 
   #eval("$#{$OLD_FILE_EXTENSION.upcase}_HEADER.print")
-  $CK2_HEADER.write
+  $EU3_HEADER.write
   print_out(new_file, './lib/template/rebels.tmp')if $REBELS
   print_out(new_file, './lib/template/imperial_info.tmp') if $IMPERIAL_INFO
   print_out(new_file, './lib/template/religious_info.tmp') if $RELIGIOUS_INFO

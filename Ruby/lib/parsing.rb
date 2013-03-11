@@ -68,7 +68,7 @@ class Tracker
 end
 
 def make_header(line)
-  $CK2_HEADER.add(line)
+  $EU3_HEADER.add(line)
 end
 
 def make_dynasties(line)

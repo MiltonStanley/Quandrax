@@ -1,6 +1,6 @@
 # Header.rb
 # 
-# Definitions for Header class
+# Definitions for EU3 Header class
 #
 #
 
