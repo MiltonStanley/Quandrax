@@ -31,20 +31,3 @@ while line = file.gets
   end
 	
 end
-
-=begin
-found a new nation?
-  store it
-  turn off new nation
-  wait for monarch...
-found a monarch?
-  turn off new monarch
-  wait for actual id...
-found an id?
-  store it!
-  turn on monarch and nation
-end
-
-
-
-=end
