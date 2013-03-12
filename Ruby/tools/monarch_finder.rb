@@ -25,7 +25,7 @@ while line = file.gets
     new_monarch = true
   end
   if id_line?(line) && new_nation && new_monarch
-    puts "#{nation}: #{line}"
+    puts "#{nation}- monarch=#{line.lstrip.sub('id=','')}"
     new_nation = false
     new_monarch = false
   end
