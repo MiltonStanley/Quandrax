@@ -22,7 +22,7 @@ class Header
     
 =begin
     monarch=6840    // This seems to be hardcoded - can't find in the files
-    cardinal=16     // "
+    cardinal=16     // 12 MAR 2013 - may be on the wrong track with these?
     leader=1184     // "
     advisor=1889    // "
     rebel=41        // Not sure what this is
