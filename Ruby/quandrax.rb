@@ -33,12 +33,12 @@ require './lib/classes/footer'
 
 $OLD_FILE_EXTENSION = 'ck2' # Eventually this will be automated OR passed in at CLI
 
-make_classes
-
 #cli_parse
 
 # Find the savegame file and set up the converted one
 old_file, new_file = load_file('ck2')
+puts
+make_classes
 
 puts
 
