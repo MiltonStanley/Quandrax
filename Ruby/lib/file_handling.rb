@@ -42,9 +42,9 @@ end
 ###############################################################################
 
 def write_file(new_file)
-  print_from_temp(new_file, './lib/templates/header.tmp') if $HEADER 
+  #print_from_temp(new_file, './lib/templates/header.tmp') if $HEADER 
   #eval("$#{$OLD_FILE_EXTENSION.upcase}_HEADER.print")
-  $EU3_HEADER.write(Kernel)
+  $EU3_HEADER.write(new_file)
   print_from_temp(new_file, './lib/templates/rebels.tmp')if $REBELS
   print_from_temp(new_file, './lib/templates/imperial_info.tmp') if $IMPERIAL_INFO
   print_from_temp(new_file, './lib/templates/religious_info.tmp') if $RELIGIOUS_INFO
