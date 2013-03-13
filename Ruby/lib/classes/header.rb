@@ -28,48 +28,16 @@ class Header
     puts "flags=\n{\n}"
     self.puts_gameplay_settings
     puts "start_date=#{@start_date}"
-=begin
-    monarch=6840    // This seems to be hardcoded - can't find in the files
-    cardinal=16     // 12 MAR 2013 - may be on the wrong track with these?
-    leader=1184     // "
-    advisor=1889    // "
-    rebel=41        // Not sure what this is
-    unit=1589       // Probably related
-    flags=          // STAYS
-    {               // THE
-    }               // SAME
-    gameplaysettings=                 // SEE BELOW
-    {                                 # Just realized I used C++ comments...
-      setgameplayoptions=             #
-      {                               #
-    0 0 0 0 0 0 0 2 0 1 0 0 0   }     # SEE BELOW - EITHER prompt each, or default
-    }                                 //  
-    start_date="1399.10.14"           // same as CK2 *unless it breaks*
-    id=                               // Gotta figure this out
-    {                                 #
-      id=3001                         #
-      type=4713                       #
-    }                                 #
-   these are zero-indexed:
-    advisors          *normal - historical - event
-    leaders           *normal - historical - event
-    colonists         *normal - free
-    merchants         *normal - free
-    missionaries      *normal - free
-    inflation         *normal - none - from gold
-    size of colonists *normal - 200 - 300 - 400
-    difficulty        very easy - easy - *normal - hard - very hard
-    ai aggressiveness *normal - low - high
-    spread of land provinces  25 - *normal 50 - 75 - 100 - 200 -
-    spread of sea provinces   *25 - normal 50 - 75 - 100 - 200
-    spies             *normal - free
-    lucky nation      *historical - random - none
-=end
+    self.puts_fake_id
   end
 
   def puts_fake_MCLARU
     puts "monarch=6840\ncardinal=16\nleader=1184\nadvisor=1889\n"
     puts "rebel=41\nunit=1589"
+  end
+
+  def puts_fake_id
+    puts "id=\n{\n\s\sid=3001\n\s\stype=4713\n}"
   end
 
   def get_gameplay_settings
@@ -166,17 +134,6 @@ class Header
     puts "\s\s}\n}"
   end
 
-=begin
-
-
-    gameplaysettings=                 // SEE BELOW
-    {                                 # Just realized I used C++ comments...
-      setgameplayoptions=             #
-      {                               #
-    0 0 0 0 0 0 0 2 0 1 0 0 0   }     # SEE BELOW - EITHER prompt each, or default
-    }
-=end
-
   def is_date?(key)
     key == 'date'
   end
@@ -194,51 +151,3 @@ class Header
   end 
 
 end
-
-=begin 
-
-# Starts like this 
-
-version="CK2 v1.06b"
-date="1066.9.15"
-player=
-{
-  id=140
-  type=45
-}
-player_realm="d_normandy"
-rebel=1
-unit=54
-sub_unit=107
-start_date="1066.9.15"
-flags=
-{
-}
-
-# GOAL IS THIS FORMAT
-
-  date="1399.10.14"
-  player="ENG"
-  monarch=6840
-  cardinal=16
-  leader=1184
-  advisor=1889
-  rebel=41
-  unit=1589
-  flags=
-  {
-  }
-  gameplaysettings=
-  {
-    setgameplayoptions=
-    {
-  0 0 0 0 0 0 0 2 0 1 0 0 0   }
-  }
-  start_date="1399.10.14"
-  id=
-  {
-    id=3001
-    type=4713
-  }
-
-=end
