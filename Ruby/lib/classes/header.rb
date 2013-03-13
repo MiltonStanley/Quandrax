@@ -24,7 +24,7 @@ class Header
   def write
     puts "date=#{@date}"
     puts "player=#{@tag}"
-    self.puts fake_MCLARU # Need to figure these out, then do them fo' realz
+    self.puts_fake_MCLARU # Need to figure these out, then do them fo' realz
     puts "flags=\n{\n}"
     self.puts_gameplay_settings
     puts "start_date=#{@start_date}"
@@ -67,7 +67,7 @@ class Header
 =end
   end
 
-  def fake_MCLARU
+  def puts_fake_MCLARU
     puts "monarch=6840\ncardinal=16\nleader=1184\nadvisor=1889\n"
     puts "rebel=41\nunit=1589"
   end
