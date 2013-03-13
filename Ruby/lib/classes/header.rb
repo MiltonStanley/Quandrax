@@ -8,21 +8,8 @@ class Header
   
   def initialize
     puts "Making header section..."
-    need_valid_command = true
-    while need_valid_command
-      print "Do you want to manually set gameplay settings? y/n/? for help: "
-      command = gets.chomp.downcase
-      command = command[0]
-      if command == 'n'
-        puts "Using default settings..."
-        self.use_default_settings
-        need_valid_command = false
-      end
-      if command == 'y'
-        self.use_manual_settings
-        need_valid_command = false
-      end
-    end
+    @gameplay_settings = Hash.new
+    get_gameplay_settings    
   end
 
   def add(line)
@@ -79,6 +66,37 @@ class Header
 =end
   end
 
+  def get_gameplay_settings
+    need_valid_command = true
+    while need_valid_command
+      print "Do you want to manually set gameplay settings? Answer y, n, or ? for help: "
+      command = gets.chomp.downcase
+      command = command.gsub("'",'').gsub("\"",'')
+      command = command[0]
+      if command == 'n'
+        puts "Using default settings..."
+        self.use_default_settings
+        need_valid_command = false
+      end
+      if command == 'y'
+        self.use_manual_settings
+        need_valid_command = false
+      end
+      show_settings_help if command == 'h' || command == '?'
+    end
+  end
+
+  def show_settings_help
+    puts
+    puts "The gameplay settings are the options found in the"
+    puts "'Options' button in the lower righthand screen when"
+    puts "Starting a new game. It's used to customize various"
+    puts "gameplay settings. If you don't know what it is, I'd"
+    puts "recommend using the default settings (answer 'n' at the"
+    puts "prompt)."
+    puts
+  end
+
   def use_manual_settings
     settings = {'advisors' => ['normal', 'historical', 'event'],
                 'leaders' => ['normal', 'historical', 'event'],
@@ -95,8 +113,8 @@ class Header
                 'lucky nation' => ['historical', 'random', 'none']
                 }
 
-    settings.each_key do |key|
-      @gameplay_settings = set_gameplay_setting(key, settings[key])
+    settings.each do |key, value|
+      @gameplay_settings[key] = set_gameplay_setting(key, value)
     end
     
   end
@@ -119,13 +137,26 @@ class Header
     choice
   end
 
-  def use_default_settings
-    @gameplay_settings = [0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 0, 0]
+  def use_default_settings    
+    @gameplay_settings = {'advisors' => '0',
+                'leaders' => '0',
+                'colonists' => '0',
+                'merchants' => '0',
+                'missionaries' => '0',
+                'inflation' => '0', 
+                'size of colonists' => '0', 
+                'difficulty' => '2', 
+                'ai aggressiveness' => '0',
+                'spread of land provinces' => '1', 
+                'spread of sea provinces' => '0', 
+                'spies' => '0',
+                'lucky nation' => '0'
+                }
   end
 
   def puts_gameplay_settings
-    puts "gameplaysettings=\n{\n\s\ssetgameplayoptions=\n{\n"
-    @gameplay_settings.each { |setting| print "#{setting} "}
+    puts "gameplaysettings=\n{\n\s\ssetgameplayoptions=\n\s\s{\n"
+    @gameplay_settings.each { |key, value| print "#{value} "}
     puts "\s\s}\n}"
   end
 
