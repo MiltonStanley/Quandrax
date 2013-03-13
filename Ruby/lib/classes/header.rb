@@ -21,23 +21,23 @@ class Header
 
   end
 
-  def write
-    puts "date=#{@date}"
-    puts "player=#{@tag}"
-    self.puts_fake_MCLARU # Need to figure these out, then do them fo' realz
-    puts "flags=\n{\n}"
-    self.puts_gameplay_settings
-    puts "start_date=#{@start_date}"
-    self.puts_fake_id
+  def write(location)
+    location.puts "date=#{@date}"
+    location.puts "player=#{@tag}"
+    self.puts_fake_MCLARU(location) # Need to figure these out, then do them fo' realz
+    location.puts "flags=\n{\n}"
+    self.puts_gameplay_settings(location)
+    location.puts "start_date=#{@start_date}"
+    self.puts_fake_id(location)
   end
 
-  def puts_fake_MCLARU
-    puts "monarch=6840\ncardinal=16\nleader=1184\nadvisor=1889\n"
-    puts "rebel=41\nunit=1589"
+  def puts_fake_MCLARU(location)
+    location.puts "monarch=6840\ncardinal=16\nleader=1184\nadvisor=1889\n"
+    location.puts "rebel=41\nunit=1589"
   end
 
-  def puts_fake_id
-    puts "id=\n{\n\s\sid=3001\n\s\stype=4713\n}"
+  def puts_fake_id(location)
+    location.puts "id=\n{\n\s\sid=3001\n\s\stype=4713\n}"
   end
 
   def get_gameplay_settings
@@ -128,10 +128,10 @@ class Header
                 }
   end
 
-  def puts_gameplay_settings
-    puts "gameplaysettings=\n{\n\s\ssetgameplayoptions=\n\s\s{\n"
-    @gameplay_settings.each { |key, value| print "#{value} "}
-    puts "\s\s}\n}"
+  def puts_gameplay_settings(location)
+    location.puts "gameplaysettings=\n{\n\s\ssetgameplayoptions=\n\s\s{\n"
+    @gameplay_settings.each { |key, value| location.print "#{value} "}
+    location.puts "\s\s}\n}"
   end
 
   def is_date?(key)

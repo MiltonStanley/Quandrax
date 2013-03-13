@@ -42,26 +42,26 @@ end
 ###############################################################################
 
 def write_file(new_file)
-  print_out(new_file, './lib/templates/header.tmp') if $HEADER 
+  print_from_temp(new_file, './lib/templates/header.tmp') if $HEADER 
   #eval("$#{$OLD_FILE_EXTENSION.upcase}_HEADER.print")
-  $EU3_HEADER.write
-  print_out(new_file, './lib/templates/rebels.tmp')if $REBELS
-  print_out(new_file, './lib/templates/imperial_info.tmp') if $IMPERIAL_INFO
-  print_out(new_file, './lib/templates/religious_info.tmp') if $RELIGIOUS_INFO
-  print_out(new_file, './lib/templates/papacy.tmp') if $PAPACY
-  print_out(new_file, './lib/templates/trade.tmp') if $TRADE
-  print_out(new_file, './lib/templates/province.tmp') if $PROVINCE
-  print_out(new_file, './lib/templates/nations.tmp') if $NATIONS
-  print_out(new_file, './lib/templates/diplomacy.tmp') if $DIPLOMACY
-  print_out(new_file, './lib/templates/combat.tmp') if $COMBAT
-  #print_out(new_file, './lib/templates/active_war.tmp') if $ACTIVE_WAR
-  #print_out(new_file, './lib/templates/previous_war.tmp') if $PREVIOUS_WAR
-  print_out(new_file, './lib/templates/footer_a.tmp') if $FOOTER_A
-  print_out(new_file, './lib/templates/japanese.tmp') if $JAPANESE
-  print_out(new_file, './lib/templates/footer_b.tmp') if $FOOTER_B
+  $EU3_HEADER.write(Kernel)
+  print_from_temp(new_file, './lib/templates/rebels.tmp')if $REBELS
+  print_from_temp(new_file, './lib/templates/imperial_info.tmp') if $IMPERIAL_INFO
+  print_from_temp(new_file, './lib/templates/religious_info.tmp') if $RELIGIOUS_INFO
+  print_from_temp(new_file, './lib/templates/papacy.tmp') if $PAPACY
+  print_from_temp(new_file, './lib/templates/trade.tmp') if $TRADE
+  print_from_temp(new_file, './lib/templates/province.tmp') if $PROVINCE
+  print_from_temp(new_file, './lib/templates/nations.tmp') if $NATIONS
+  print_from_temp(new_file, './lib/templates/diplomacy.tmp') if $DIPLOMACY
+  print_from_temp(new_file, './lib/templates/combat.tmp') if $COMBAT
+  #print_from_temp(new_file, './lib/templates/active_war.tmp') if $ACTIVE_WAR
+  #print_from_temp(new_file, './lib/templates/previous_war.tmp') if $PREVIOUS_WAR
+  print_from_temp(new_file, './lib/templates/footer_a.tmp') if $FOOTER_A
+  print_from_temp(new_file, './lib/templates/japanese.tmp') if $JAPANESE
+  print_from_temp(new_file, './lib/templates/footer_b.tmp') if $FOOTER_B
 end
 
-def print_out(new_file, temp_name)
+def print_from_temp(new_file, temp_name)
   temp_file = File.open(temp_name, 'r')
   while line = temp_file.gets
     new_file.puts line
