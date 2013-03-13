@@ -22,7 +22,7 @@ class Header
   def write
     puts "date=#{@date}"
     puts "player=#{@tag}"
-    # Monarch, cardinal, leader, advisor, rebel, unit
+    self.puts fake_MCLARU # Need to figure these out, then do them fo' realz
     puts "flags=\n{\n}"
     self.puts_gameplay_settings
 
@@ -64,6 +64,11 @@ class Header
     spies             *normal - free
     lucky nation      *historical - random - none
 =end
+  end
+
+  def fake_MCLARU
+    puts "monarch=6840\ncardinal=16\nleader=1184\nadvisor=1889\n"
+    puts "rebel=41\nunit=1589"
   end
 
   def get_gameplay_settings
