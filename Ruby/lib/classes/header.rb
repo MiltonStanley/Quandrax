@@ -17,6 +17,8 @@ class Header
     @date = value if is_date?(key)
     @tag = $TM_CK2_EU3[value.gsub("\"",'')] if is_realm?(key)
     do_gameplay_settings if is_gameplaysettings?(line)
+    @start_date = value if is_start_date?(key)
+
   end
 
   def write
@@ -25,8 +27,7 @@ class Header
     self.puts fake_MCLARU # Need to figure these out, then do them fo' realz
     puts "flags=\n{\n}"
     self.puts_gameplay_settings
-
-    
+    puts "start_date=#{@start_date}"
 =begin
     monarch=6840    // This seems to be hardcoded - can't find in the files
     cardinal=16     // 12 MAR 2013 - may be on the wrong track with these?
@@ -187,6 +188,10 @@ class Header
   def is_gameplaysettings?(line)
     line == 'gameplaysettings='
   end
+
+  def is_start_date?(key)
+    key == 'start_date'
+  end 
 
 end
 
