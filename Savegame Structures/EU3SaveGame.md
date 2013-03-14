@@ -53,6 +53,10 @@ Rebel Faction Info
 ------------------
 Each ~35 lines (starts at line 24)
 
+This deals with rebel occupation of lands, making them a faction. Country is who they're occupying, 
+indepenence is who they fght for, province is the capital, provinces{} is what they control. 
+The rest is self-explanatory.
+
 Example (in its entirety), can have multiple entries:
 
     rebel_faction=
