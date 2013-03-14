@@ -24,19 +24,19 @@ class Header
   def write(location)
     location.puts "date=#{@date}"
     location.puts "player=#{@tag}"
-    self.puts_fake_MCLARU(location) # Need to figure these out, then do them fo' realz
+    self.puts_MCLARU(location) # Need to figure these out, then do them fo' realz
     location.puts "flags=\n{\n}"
     self.puts_gameplay_settings(location)
     location.puts "start_date=#{@start_date}"
-    self.puts_fake_id(location)
+    self.puts_id(location)
   end
 
-  def puts_fake_MCLARU(location)
+  def puts_MCLARU(location)
     location.puts "monarch=6840\ncardinal=16\nleader=1184\nadvisor=1889\n"
     location.puts "rebel=41\nunit=1589"
   end
 
-  def puts_fake_id(location)
+  def puts_id(location)
     location.puts "id=\n{\n\s\sid=3001\n\s\stype=4713\n}"
   end
 
