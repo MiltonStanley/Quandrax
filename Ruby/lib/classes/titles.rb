@@ -7,9 +7,6 @@ class Titles
 
   def add(line)
     @e_hre = true if is_e_hre?(line)  # We've started e_hre title info!
-      
-    end
-
   end
 
   def is_e_hre?(line) # Is line the start of the e_hre titular info?
