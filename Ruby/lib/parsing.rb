@@ -21,7 +21,7 @@ class Tracker
     return 'break' if @line_number > $PARSE_TO unless $PARSE_TO == 0
     update_nesting(line)
     @location = change_location?(line)
-    eval("make_#{@location}(line)")
+    eval("parse_#{@location}(line)")
   end
 
   def change_location?(line)
@@ -67,51 +67,51 @@ class Tracker
 
 end
 
-def make_header(line)
+def parse_header(line)
   $EU3_HEADER.add(line)
 end
 
-def make_dynasties(line)
+def parse_dynasties(line)
   # Do nothing for now...
 end
 
-def make_character(line)
+def parse_character(line)
+
+end
+
+def parse_id(line)
   
 end
 
-def make_id(line)
+def parse_religious_authority(line)
   
 end
 
-def make_religious_authority(line)
+def parse_provinces(line)
   
 end
 
-def make_provinces(line)
+def parse_titles(line)
   
 end
 
-def make_titles(line)
+def parse_diplomacy(line)
   
 end
 
-def make_diplomacy(line)
-  
-end
-
-def make_combat(line)
+def parse_combat(line)
 
 end
 
-def make_war(line) #not_love
+def parse_war(line) #not_love
 
 end
 
-def make_active_war(line)
+def parse_active_war(line)
 
 end
 
-def make_footer(line)
+def parse_footer(line)
 
 end
 
