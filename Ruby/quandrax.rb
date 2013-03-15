@@ -17,6 +17,7 @@ require './lib/tag_map.rb'    # Maps CK2 titles to EU3 tags - CK2 is key, EU3 is
 require './lib/config.rb'     # Handles configuration file for different EU3 versions
 require './lib/file_handling' # Generalized handling of files (loading, creating, writing)
 require './globals'           # Used in testing/debugging
+require './lib/quick_pass'    # Quick pass through file to pull out some info
 #require './lib/cli_parsing'   # Handles command line flags
 ## Load CK2 Classes
 require './lib/ck2_classes/header'
@@ -41,6 +42,9 @@ $OLD_FILE_EXTENSION = 'ck2' # Eventually this will be automated OR passed in at 
 # Find the savegame file and set up the converted one
 old_file, new_file = load_file('ck2')
 puts
+
+$HRE = quick_pass(old_file)
+
 make_classes
 
 puts
