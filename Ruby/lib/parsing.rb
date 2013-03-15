@@ -72,11 +72,11 @@ def make_header(line)
 end
 
 def make_dynasties(line)
-  
+  # Do nothing for now...
 end
 
 def make_character(line)
-
+  
 end
 
 def make_id(line)
