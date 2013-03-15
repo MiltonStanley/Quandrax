@@ -2,7 +2,6 @@
 # 
 # Definitions for EU3 Header class built from CK2 savefile
 
-
 class Header
   
   def initialize
