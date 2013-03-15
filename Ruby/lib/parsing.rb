@@ -1,4 +1,6 @@
-
+def split_key_value(line)
+  key, value = line.split('=',2)
+end
 
 def parse_header(line)
   $EU3_HEADER.add(line)
@@ -46,8 +48,4 @@ end
 
 def parse_footer(line)
 
-end
-
-def split_key_value(line)
-  key, value = line.split('=',2)
 end
