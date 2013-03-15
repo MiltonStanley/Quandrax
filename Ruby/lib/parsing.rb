@@ -92,7 +92,7 @@ def parse_provinces(line)
 end
 
 def parse_titles(line)
-  
+  $TITLES.add(line)
 end
 
 def parse_diplomacy(line)

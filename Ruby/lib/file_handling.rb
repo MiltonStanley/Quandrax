@@ -31,6 +31,7 @@ end
 
 def make_classes
   $EU3_HEADER = Header.new
+  $TITLES = Titles.new
 end
 
 
