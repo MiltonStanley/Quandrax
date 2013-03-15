@@ -1,4 +1,4 @@
-class Active_War
+class CK2_Active_War
   
   def initialize
   end

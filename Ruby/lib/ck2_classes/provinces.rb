@@ -1,4 +1,4 @@
-class Provinces
+class CK2_Provinces
   
   def initialize
   end

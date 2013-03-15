@@ -30,8 +30,8 @@ def process_file(file)
 end
 
 def make_classes
-  $EU3_HEADER = Header.new
-  $TITLES = Titles.new
+  $CK2_HEADER = CK2_Header.new
+  $CK2_TITLES = CK2_Titles.new
 end
 
 
@@ -43,10 +43,11 @@ end
 ###############################################################################
 
 def write_file(new_file)
+  $EU3_HEADER = EU3_Header.new($CK2_HEADER)
   $EU3_HEADER.write(new_file)
   #print_from_temp(new_file, './lib/templates/rebels.tmp')if $REBELS
   print_from_temp(new_file, './lib/templates/imperial_info.tmp') if $IMPERIAL_INFO
-  $TITLES.write(Kernel)
+  $CK2TITLES.write(Kernel)
   print_from_temp(new_file, './lib/templates/religious_info.tmp') if $RELIGIOUS_INFO
   print_from_temp(new_file, './lib/templates/papacy.tmp') if $PAPACY
   print_from_temp(new_file, './lib/templates/trade.tmp') if $TRADE

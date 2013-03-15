@@ -1,4 +1,4 @@
-class Religious_Authority
+class CK2_Religious_Authority
   
   def initialize
   end

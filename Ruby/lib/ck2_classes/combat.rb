@@ -1,4 +1,4 @@
-class Combat
+class CK2_Combat
   
   def initialize
   end

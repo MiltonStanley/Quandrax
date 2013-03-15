@@ -1,4 +1,4 @@
-class Character
+class CK2_Character
   
   def initialize
   end

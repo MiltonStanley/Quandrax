@@ -3,7 +3,7 @@ def split_key_value(line)
 end
 
 def parse_header(line)
-  $EU3_HEADER.add(line)
+  $CK2_HEADER.add(line)
 end
 
 def parse_dynasties(line)
@@ -27,7 +27,7 @@ def parse_provinces(line)
 end
 
 def parse_titles(line)
-  $TITLES.add(line)
+  $CK2_TITLES.add(line)
 end
 
 def parse_diplomacy(line)

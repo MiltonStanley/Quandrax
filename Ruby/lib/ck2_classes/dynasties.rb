@@ -1,4 +1,4 @@
-class Dynasties
+class CK2_Dynasties
   
   def initialize
   end

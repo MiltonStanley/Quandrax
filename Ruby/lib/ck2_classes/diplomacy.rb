@@ -1,4 +1,4 @@
-class Diplomacy
+class CK2_Diplomacy
   
   def initialize
   end

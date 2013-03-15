@@ -1,8 +1,8 @@
 # Header.rb
 # 
-# Definitions for EU3 Header class built from CK2 savefile
+# Definitions for CK2 Header
 
-class Header
+class CK2_Header
   
   def initialize
     puts "Making header section..."

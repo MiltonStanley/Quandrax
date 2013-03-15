@@ -2,7 +2,7 @@
 # 
 # Holds Pertinent CK2 title info for future use
 
-class Titles
+class CK2_Titles
    
   def initialize
     @in_e_hre_title_info = false # Have we found the start of the e_hre section?
