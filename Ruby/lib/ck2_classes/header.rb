@@ -6,7 +6,7 @@ class CK2_Header
   attr_accessor :date, :tag, :gameplay_settings, :start_date
   
   def initialize
-    puts "Making header section..."
+    puts "Reading CK2 header section..."
     @gameplay_settings = Hash.new
     get_gameplay_settings    
   end
@@ -20,6 +20,7 @@ class CK2_Header
   end
 
   def get_gameplay_settings
+    puts
     need_valid_command = true
     while need_valid_command
       print "Do you want to manually set gameplay settings? Answer y, n, or ? for help: "
