@@ -3,6 +3,7 @@
 # Definitions for CK2 Header
 
 class CK2_Header
+  attr_accessor :date, :tag, :gameplay_settings, :start_date
   
   def initialize
     puts "Making header section..."
@@ -15,27 +16,7 @@ class CK2_Header
     @date = value if is_date?(key)
     @tag = $TM_CK2_EU3[value.gsub("\"",'')] if is_realm?(key)
     do_gameplay_settings if is_gameplaysettings?(line)
-    @start_date = value if is_start_date?(key)
-    
-  end
-
-  def write(location)
-    location.puts "date=#{@date}"
-    location.puts "player=#{@tag}"
-    self.puts_MCLARU(location) # Need to figure these out, then do them fo' realz
-    location.puts "flags=\n{\n}"
-    self.puts_gameplay_settings(location)
-    location.puts "start_date=#{@start_date}"
-    self.puts_id(location)
-  end
-
-  def puts_MCLARU(location)
-    location.puts "monarch=6840\ncardinal=16\nleader=1184\nadvisor=1889\n"
-    location.puts "rebel=41\nunit=1589"
-  end
-
-  def puts_id(location)
-    location.puts "id=\n{\n\s\sid=3001\n\s\stype=4713\n}"
+    @start_date = value if is_start_date?(key)    
   end
 
   def get_gameplay_settings
@@ -124,12 +105,6 @@ class CK2_Header
                 'spies' => '0',
                 'lucky nation' => '0'
                 }
-  end
-
-  def puts_gameplay_settings(location)
-    location.puts "gameplaysettings=\n{\n\s\ssetgameplayoptions=\n\s\s{\n"
-    @gameplay_settings.each { |key, value| location.print "#{value} "}
-    location.puts "\s\s}\n}"
   end
 
   def is_date?(key)

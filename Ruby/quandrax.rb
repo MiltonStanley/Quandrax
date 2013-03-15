@@ -30,6 +30,7 @@ require './lib/ck2_classes/combat'
 require './lib/ck2_classes/war'
 require './lib/ck2_classes/active_war'
 require './lib/ck2_classes/footer'
+require './lib/eu3_classes/header'      # Header class
 
 $OLD_FILE_EXTENSION = 'ck2' # Eventually this will be automated OR passed in at CLI
 
