@@ -1,8 +1,7 @@
 # Header.rb
 # 
-# Definitions for EU3 Header class
-#
-#
+# Definitions for EU3 Header class built from CK2 savefile
+
 
 class Header
   
@@ -18,7 +17,7 @@ class Header
     @tag = $TM_CK2_EU3[value.gsub("\"",'')] if is_realm?(key)
     do_gameplay_settings if is_gameplaysettings?(line)
     @start_date = value if is_start_date?(key)
-
+    
   end
 
   def write(location)
