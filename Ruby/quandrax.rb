@@ -9,7 +9,7 @@
 # Version:      2.0.0 - Ruby
 # License:      Too complicated. You can use this all you want. To edit it,
 #               you must do so through the Github page via pull requests, etc.
-#               at http://www.github.com/MiltonStanley/Quandrax_1.1.0
+#               at http://www.github.com/MiltonStanley/Quandrax
 ###############################################################################
 
 require './lib/prov_map.rb'   # Maps CK2 provs to EU3 provs - index is EU3 prov, data is CK2
