@@ -2,6 +2,7 @@ def quick_pass(file)
   e_hre = ''
   in_e_hre_title_info = false # Have we found the start of the e_hre section?
   while line = file.gets
+    line = line.unpack("C*").pack("U*")
     in_e_hre_title_info = true if is_e_hre?(line)  # We've started e_hre title info!
     if is_hre_holder?(line) && in_e_hre_title_info
       throwaway, e_hre = split_key_value(line)
