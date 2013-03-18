@@ -19,7 +19,6 @@ class Tracker
 
   def update(line)
     @line_number += 1
-    return 'break' if @line_number > $PARSE_TO unless $PARSE_TO == 0
     update_nesting(line)
     @location = change_location?(line)
     eval("parse_#{@location}(line)")

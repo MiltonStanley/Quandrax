@@ -24,8 +24,7 @@ def process_file(file)
  # make_section_objects
   while line = file.gets
     line.chomp!; next if line.nil?
-    command = tracker.update(line)
-    break if command == 'break'
+    tracker.update(line)
   end
 end
 
