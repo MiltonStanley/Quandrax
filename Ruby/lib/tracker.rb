@@ -3,9 +3,9 @@ require './lib/parsing.rb'
 class Tracker
   attr_accessor :line_number, :nest_level, :location
 
-  def initialize(line_number, nest_level)
-    @line_number = line_number
-    @nest_level = nest_level
+  def initialize
+    @line_number = 0
+    @nest_level = 0
     @location = 'header'
   end
 

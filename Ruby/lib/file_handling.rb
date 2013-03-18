@@ -20,7 +20,7 @@ def load_file(extension)
 end
 
 def process_file(file)
-  tracker = Tracker.new(0,0)
+  tracker = Tracker.new
  # make_section_objects
   while line = file.gets
     line.chomp!; next if line.nil?
