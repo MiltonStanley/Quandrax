@@ -40,7 +40,7 @@ $OLD_FILE_EXTENSION = 'ck2' # Eventually this will be automated OR passed in at 
 #cli_parse
 
 # Find the savegame file and set up the converted one
-old_file, new_file = load_file('ck2')
+old_file, new_file = load_file($OLD_FILE_EXTENSION)
 puts
 
 $HRE = quick_pass(old_file)
