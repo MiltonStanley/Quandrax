@@ -45,6 +45,8 @@ puts
 
 $HRE = quick_pass(old_file) # THIS CLOSES FILE AT END OF STREAM
 
+old_file = File.open(old_file, 'r')
+
 make_classes
 
 puts
