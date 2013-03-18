@@ -11,11 +11,15 @@ class CK2_Titles
   end
 
   def add(line)
-    puts line if line =~ /^\s/ # Should output JUST titles
+    puts line if is_title_header?(line) # Should output JUST titles
   end
 
   def write(location)
     puts "The HRE is #{@hre_id}"
+  end
+
+  def is_title_header?(line)
+    line =~ /^[bcdke]_/
   end
 
 end
