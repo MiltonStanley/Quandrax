@@ -38,6 +38,7 @@ class CK2_Header
       end
       show_settings_help if command == 'h' || command == '?'
     end
+    puts
   end
 
   def show_settings_help

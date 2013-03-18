@@ -3,9 +3,11 @@
 # Holds Pertinent CK2 title info for future use
 
 class CK2_Titles
-   
-  def initialize
-  
+  attr_accessor :hre_id, :hre_titles
+
+  def initialize(hre)
+    puts "Reading CK2 titles..."
+    @hre_id = hre
   end
 
   def add(line)
@@ -13,7 +15,7 @@ class CK2_Titles
   end
 
   def write(location)
-
+    puts "The HRE is #{@hre_id}"
   end
 
 end
