@@ -43,7 +43,7 @@ $OLD_FILE_EXTENSION = 'ck2' # Eventually this will be automated OR passed in at 
 old_file, new_file = load_file($OLD_FILE_EXTENSION)
 puts
 
-$HRE = quick_pass(old_file)
+$HRE = quick_pass(old_file) # THIS CLOSES FILE AT END OF STREAM
 
 make_classes
 
