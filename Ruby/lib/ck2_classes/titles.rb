@@ -63,10 +63,10 @@ class A_Title
   end
 
   def write
-    print "#{@name}: holder=#{@holder}, liege=#{@liege}"
-    print ", succession law=#{@succession_law}, gender law=#{@gender_law}, "
-    @laws.each { |law| print "#{law}, " }
-    puts
+    # print "#{@name}: holder=#{@holder}, liege=#{@liege}"
+    # print ", succession law=#{@succession_law}, gender law=#{@gender_law}, "
+    # @laws.each { |law| print "#{law}, " }
+    # puts
   end
 
   def add_law(value)
