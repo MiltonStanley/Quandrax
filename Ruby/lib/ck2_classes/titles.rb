@@ -39,7 +39,7 @@ end
 
 ###############################
 #
-# A Title does most of the
+# A_Title does most of the
 # real heavy lifting
 #
 ###############################
