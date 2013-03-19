@@ -46,7 +46,7 @@ end
 
 class A_Title
 
-  attr_accessor :name, :liege, :succession_law
+  attr_accessor :name, :liege, :succession_law, :gender_law
 
   def initialize(name)
     @name = name
@@ -56,6 +56,12 @@ class A_Title
     key, value = split_key_value(line)
     @liege = value.gsub('"','') if is_liege?(key) # Strip "s for better string handling
     @succession_law = value if is_succession_law?(key)
+    @gender_law = value if is_gender_law?(key)
+  end
+
+  def write
+    print "#{@name}: liege=#{@liege}, succession law=#{@succession_law}"
+    puts ", gender law=#{@gender_law}"
   end
 
   def is_liege?(key)
@@ -66,8 +72,8 @@ class A_Title
     key =~ /^\t(succession)/
   end
 
-  def write
-    puts "#{@name}: liege=#{@liege}, succession law=#{@succession_law}"
+  def is_gender_law?(key)
+    key =~ /^\t(gender)/
   end
 
 end
