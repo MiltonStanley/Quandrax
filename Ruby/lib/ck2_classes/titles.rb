@@ -1,6 +1,9 @@
 # Titles.rb
 # 
 # Holds Pertinent CK2 title info for future use
+#
+# MOST IMportant stuff is passed to the A_Title class Below
+
 
 class CK2_Titles
   attr_accessor :hre_id, :hre_titles
@@ -17,7 +20,6 @@ class CK2_Titles
     else
       @title_info.last.add(line)  # Passes it on to A_Title's add
     end
-
   end
 
   def write(location)
@@ -26,7 +28,8 @@ class CK2_Titles
   end
 
   def title_info_write
-    @title_info.each { |a_title| puts "#{a_title.liege} is liege of #{a_title.name}" unless a_title.liege.nil? }
+    @title_info.each { |a_title| puts "#{a_title.name}: liege=#{a_title.liege}, \
+succession_law = #{a_title.succession_law}" unless a_title.liege.nil? }
   end
 
   def is_title_header?(line)
@@ -35,9 +38,16 @@ class CK2_Titles
 
 end
 
+###############################
+#
+# A Title does most of the
+# real heavy lifting
+#
+###############################
+
 class A_Title
 
-  attr_accessor :name, :liege
+  attr_accessor :name, :liege, :succession_law
 
   def initialize(name)
     @name = name
@@ -46,11 +56,15 @@ class A_Title
   def add(line)
     key, value = split_key_value(line)
     @liege = value.gsub('"','') if is_liege?(key) # Strip "s for better string handling
-
+    @succession_law = value if is_succession_law?(key)
   end
 
   def is_liege?(key)
     key =~ /^\t(liege)/ # Triggers on [tab]liege, not histories w/ tabS
+  end
+
+  def is_succession_law?(key)
+    key =~ /^\t(succession)/
   end
 
 end
