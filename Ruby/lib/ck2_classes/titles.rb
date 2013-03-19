@@ -57,13 +57,6 @@ class A_Title
     add_law(value) if is_law?(key)
   end
 
-  def write
-    # print "#{@name}: holder=#{@holder}, liege=#{@liege}"
-    # print ", succession law=#{@succession_law}, gender law=#{@gender_law}, "
-    # @laws.each { |law| print "#{law}, " }
-    # puts
-  end
-
   def add_law(value)
     @laws << value
   end
