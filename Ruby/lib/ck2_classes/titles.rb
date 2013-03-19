@@ -50,6 +50,7 @@ class A_Title
 
   def initialize(name)
     @name = name
+    @laws = Array.new
   end
 
   def add(line)
@@ -57,11 +58,18 @@ class A_Title
     @liege = value.gsub('"','') if is_liege?(key) # Strip "s for better string handling
     @succession_law = value if is_succession_law?(key)
     @gender_law = value if is_gender_law?(key)
+    add_law(value) if is_law?(key)
   end
 
   def write
     print "#{@name}: liege=#{@liege}, succession law=#{@succession_law}"
-    puts ", gender law=#{@gender_law}"
+    print ", gender law=#{@gender_law}, "
+    @laws.each { |law| print "#{law}, " }
+    puts
+  end
+
+  def add_law(value)
+    @laws << value
   end
 
   def is_liege?(key)
@@ -74,6 +82,10 @@ class A_Title
 
   def is_gender_law?(key)
     key =~ /^\t(gender)/
+  end
+
+  def is_law?(key)
+    key =~ /^\t(law)/
   end
 
 end
