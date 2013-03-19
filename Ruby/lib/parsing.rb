@@ -1,5 +1,5 @@
 def split_key_value(line)
-  key, value = line.split('=',2)
+  line.split('=',2)
 end
 
 def parse_header(line)
@@ -8,6 +8,10 @@ end
 
 def parse_dynasties(line)
   # Do nothing for now...
+end
+
+def parse_titles(line)
+  $CK2_TITLES.add(line)
 end
 
 def parse_character(line)
@@ -24,10 +28,6 @@ end
 
 def parse_provinces(line)
   
-end
-
-def parse_titles(line)
-  $CK2_TITLES.add(line)
 end
 
 def parse_diplomacy(line)
