@@ -32,5 +32,4 @@ class EU3_Header
     location.puts "\s\s}\n}"
   end
 
-
 end
