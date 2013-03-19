@@ -46,6 +46,7 @@ def write_file(new_file)
   $EU3_HEADER.write(new_file)
   #print_from_temp(new_file, './lib/templates/rebels.tmp')if $REBELS
   print_from_temp(new_file, './lib/templates/imperial_info.tmp') if $IMPERIAL_INFO
+  $EU3_IMPERIAL_INFO = EU3_Imperial_Information.new($CK2_TITLES)
   print_from_temp(new_file, './lib/templates/religious_info.tmp') if $RELIGIOUS_INFO
   print_from_temp(new_file, './lib/templates/papacy.tmp') if $PAPACY
   print_from_temp(new_file, './lib/templates/trade.tmp') if $TRADE
@@ -59,7 +60,6 @@ def write_file(new_file)
   print_from_temp(new_file, './lib/templates/japanese.tmp') if $JAPANESE
   print_from_temp(new_file, './lib/templates/footer_b.tmp') if $FOOTER_B
 
-  $CK2_TITLES.write(Kernel)
 end
 
 def print_from_temp(new_file, temp_name)
