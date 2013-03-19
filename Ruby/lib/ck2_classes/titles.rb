@@ -28,8 +28,7 @@ class CK2_Titles
   end
 
   def title_info_write
-    @title_info.each { |a_title| puts "#{a_title.name}: liege=#{a_title.liege}, \
-succession_law = #{a_title.succession_law}" unless a_title.liege.nil? }
+    @title_info.each { |a_title| a_title.write }
   end
 
   def is_title_header?(line)
@@ -65,6 +64,10 @@ class A_Title
 
   def is_succession_law?(key)
     key =~ /^\t(succession)/
+  end
+
+  def write
+    puts "#{@name}: liege=#{@liege}, succession law=#{@succession_law}"
   end
 
 end
