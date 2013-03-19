@@ -13,7 +13,7 @@ class CK2_Titles
 
   def add(line)
     if is_title_header?(line)
-      @title_info << Title.new(line.chop)
+      @title_info << A_Title.new(line.chop)
     else
       @title_info.last.add(line)
     end
@@ -22,7 +22,12 @@ class CK2_Titles
   end
 
   def write(location)
+    title_info_write
     puts "The HRE is #{@hre_id}"
+  end
+
+  def title_info_write
+    @title_info.each { |a_title| puts "#{a_title.liege} is liege of #{a_title.name}" unless a_title.liege.nil? }
   end
 
   def is_title_header?(line)
@@ -31,18 +36,19 @@ class CK2_Titles
 
 end
 
-class Title
+class A_Title
+
+  attr_accessor :name, :liege
 
   def initialize(name)
     @name = name
   end
 
   def add(line)
-    #line = line.rstrip.lstrip
     key, value = split_key_value(line)
     if is_liege?(key)
-      @liege = get_liege(line)
-       puts "#{@liege} - #{@name}"
+      @liege = value.gsub('"','') # Strip "s for better string handling
+      # puts "#{@liege} - #{@name}"
     end
   end
 
@@ -50,8 +56,4 @@ class Title
     key =~ /^\t(liege)/ # Triggers on [tab]liege, not histories w/ tabS
   end
 
-  def get_liege(line)
-     _, liege = split_key_value(line)
-     liege.gsub("\"",'')
-  end
 end
