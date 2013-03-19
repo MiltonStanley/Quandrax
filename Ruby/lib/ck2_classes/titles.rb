@@ -15,9 +15,8 @@ class CK2_Titles
     if is_title_header?(line)
       @title_info << A_Title.new(line.chop)
     else
-      @title_info.last.add(line)
+      @title_info.last.add(line)  # Passes it on to A_Title's add
     end
-
 
   end
 
@@ -46,10 +45,8 @@ class A_Title
 
   def add(line)
     key, value = split_key_value(line)
-    if is_liege?(key)
-      @liege = value.gsub('"','') # Strip "s for better string handling
-      # puts "#{@liege} - #{@name}"
-    end
+    @liege = value.gsub('"','') if is_liege?(key) # Strip "s for better string handling
+
   end
 
   def is_liege?(key)
