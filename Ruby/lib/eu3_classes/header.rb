@@ -1,5 +1,3 @@
-#Header
-
 class EU3_Header
 
   def initialize(ck2_class)
