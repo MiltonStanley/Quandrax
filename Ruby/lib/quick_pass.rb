@@ -9,7 +9,7 @@ def quick_pass(file)
       in_e_hre_title_info = false
     end
   end
-  e_hre
+  e_hre.chomp
 end
 
 
