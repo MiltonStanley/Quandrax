@@ -38,7 +38,7 @@ class Title
   end
 
   def add(line)
-    line = line.rstrip.lstrip
+    #line = line.rstrip.lstrip
     key, value = split_key_value(line)
     if is_liege?(key)
       @liege = get_liege(line)
@@ -47,7 +47,7 @@ class Title
   end
 
   def is_liege?(key)
-    key == "liege"
+    key =~ /^\t(liege)/ # Triggers on [tab]liege, not histories w/ tabS
   end
 
   def get_liege(line)
