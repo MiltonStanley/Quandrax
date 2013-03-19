@@ -8,10 +8,17 @@ class CK2_Titles
   def initialize(hre)
     puts "Reading CK2 titles..."
     @hre_id = hre
+    @title_info = Array.new
   end
 
   def add(line)
-    puts line if is_title_header?(line) # Should output JUST titles
+    if is_title_header?(line)
+      @title_info << Title.new(line.chop)
+    else
+      @title_info.last.add(line)
+    end
+
+
   end
 
   def write(location)
@@ -26,8 +33,12 @@ end
 
 class Title
 
-  def initialize
+  def initialize(name)
+    @name = name
+  end
 
+  def add(line)
+    
   end
 
 end
