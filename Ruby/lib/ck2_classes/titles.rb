@@ -56,14 +56,15 @@ class A_Title
   def add(line)
     key, value = split_key_value(line)
     @liege = value.gsub('"','') if is_liege?(key) # Strip "s for better string handling
+    @holder = value if is_holder?(key)
     @succession_law = value if is_succession_law?(key)
     @gender_law = value if is_gender_law?(key)
     add_law(value) if is_law?(key)
   end
 
   def write
-    print "#{@name}: liege=#{@liege}, succession law=#{@succession_law}"
-    print ", gender law=#{@gender_law}, "
+    print "#{@name}: holder=#{@holder}, liege=#{@liege}"
+    print ", succession law=#{@succession_law}, gender law=#{@gender_law}, "
     @laws.each { |law| print "#{law}, " }
     puts
   end
@@ -74,6 +75,10 @@ class A_Title
 
   def is_liege?(key)
     key =~ /^\t(liege)/ # Triggers on [tab]liege, not histories w/ tabS
+  end
+
+  def is_holder?(key)
+    key =~ /^\t(holder)/
   end
 
   def is_succession_law?(key)
