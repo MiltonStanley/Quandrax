@@ -38,7 +38,22 @@ class Title
   end
 
   def add(line)
+    line = line.rstrip.lstrip
+    key, value = split_key_value(line)
+    if is_liege?(key)
+     
+      @liege = get_liege(line) 
+       puts "#{@liege} - #{@name}"
+    end
+  end
+
+  def is_liege?(key)
+    key == 'liege'
     
   end
 
+  def get_liege(line)
+     _, liege = split_key_value(line)
+     liege.gsub("\"",'')
+  end
 end
