@@ -44,7 +44,6 @@ old_file, new_file = load_file($OLD_FILE_EXTENSION)
 puts
 
 $HRE = quick_pass(old_file) # THIS CLOSES FILE AT END OF STREAM
-$HRE_TITLES = Array.new
 
 old_file = File.open(old_file, 'r')
 

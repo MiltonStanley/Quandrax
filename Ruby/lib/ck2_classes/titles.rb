@@ -11,6 +11,7 @@ class CK2_Titles
   def initialize(hre)
     puts "Reading CK2 titles..."
     @hre_id = hre
+    @hre_titles = Array.new
     @title_info = Array.new
   end
 
@@ -18,7 +19,7 @@ class CK2_Titles
     if is_title_header?(line)
       @title_info << A_Title.new(line.chop)
     else
-      @title_info.last.add(line)  # Passes it on to A_Title's add
+      @title_info.last.add(line, @hre_titles)  # Passes it on to A_Title's add
     end
   end
 
@@ -26,7 +27,7 @@ class CK2_Titles
     title_info_write
     puts "The HRE is #{@hre_id}"
     print "HRE holds these titles: "
-    $HRE_TITLES.each { |title| print "#{title}, "}
+    @hre_titles.each { |title| print "#{title}, "}
     puts
   end
 
@@ -56,12 +57,12 @@ class A_Title
     @laws = Array.new
   end
 
-  def add(line)
+  def add(line, hre_titles)
     key, value = split_key_value(line)
     @liege = value.gsub('"','') if is_liege?(key) # Strip "s for better string handling
     if is_holder?(key)
       @holder = value
-      $HRE_TITLES << @name if value == $HRE
+      hre_titles << @name if value == $HRE
     end
     @succession_law = value if is_succession_law?(key)
     @gender_law = value if is_gender_law?(key)
