@@ -25,6 +25,9 @@ class CK2_Titles
   def write(location)
     title_info_write
     puts "The HRE is #{@hre_id}"
+    print "HRE holds these titles: "
+    $HRE_TITLES.each { |title| print "#{title}, "}
+    puts
   end
 
   def title_info_write
@@ -56,7 +59,10 @@ class A_Title
   def add(line)
     key, value = split_key_value(line)
     @liege = value.gsub('"','') if is_liege?(key) # Strip "s for better string handling
-    @holder = value if is_holder?(key)
+    if is_holder?(key)
+      @holder = value
+      $HRE_TITLES << @name if value == $HRE
+    end
     @succession_law = value if is_succession_law?(key)
     @gender_law = value if is_gender_law?(key)
     add_law(value) if is_law?(key)
