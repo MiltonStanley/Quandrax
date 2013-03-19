@@ -41,15 +41,13 @@ class Title
     line = line.rstrip.lstrip
     key, value = split_key_value(line)
     if is_liege?(key)
-     
-      @liege = get_liege(line) 
+      @liege = get_liege(line)
        puts "#{@liege} - #{@name}"
     end
   end
 
   def is_liege?(key)
-    key == 'liege'
-    
+    key == "liege"
   end
 
   def get_liege(line)
