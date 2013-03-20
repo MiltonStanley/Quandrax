@@ -13,7 +13,7 @@ class CK2_Header
 
   def add(line)
     key, value = split_key_value(line)
-    @date = value if is_date?(key)
+    @date = value.gsub('"','') if is_date?(key)
     @tag = $TM_CK2_EU3[value.gsub("\"",'')] if is_realm?(key)
     do_gameplay_settings if is_gameplaysettings?(line)
     @start_date = value if is_start_date?(key)    

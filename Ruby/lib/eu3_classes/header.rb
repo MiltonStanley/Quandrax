@@ -10,8 +10,8 @@ class EU3_Header
   end
 
   def write(location)
-    location.puts "date=#{@date}"
-    location.puts "player=#{@tag}"
+    location.puts "date=\"#{@date}\""
+    location.puts "player=\"#{@tag}\""
     self.puts_MCLARU(location) # Need to figure these out, then do them fo' realz
     location.puts "flags=\n{\n}"
     self.puts_gameplay_settings(location)
