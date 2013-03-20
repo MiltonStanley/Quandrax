@@ -6,7 +6,7 @@ Taken from my "England1399_10_14.eu3" file - game started as England; saved with
 **[Header](#header)**  
 **[Rebel Faction Info](#rebel-faction-info)**  
 **[Imperial Information](#imperial-information)**  
-**[Religious Faction Information](#religious-faction-information)**  
+**[Defenders of the Faiths](#defenders-of-the-faiths)**  
 **[Papacy Information](#papacy-information)**  
 **[Trade](#trade)**  
 **[Province Information](#province-information)**  
@@ -111,14 +111,22 @@ Entirety:
         date="1387.3.31"
     }
 
-Religious Faction Information
------------------------------
+Defenders of the Faiths
+-----------------------
 ~35 lines, (starts at line 98)
 
 Example, several entries:
 
+    catholic=
+    {
+        defender="POL"
+        defender_date="1618.5.23"
+    }
     protestant=
     {
+        defender="ENG"
+        defender_date="1618.5.23"
+        enable="1517.10.31"
     }
 
 Papacy Information
