@@ -1,3 +1,5 @@
+require 'iconv' # This is deprecated in 2.0.0, I think, but should work for now
+
 require './lib/tracker.rb'    # Handles data from files and figuring out what to do with it
 ## Load CK2 Classes
 require './lib/ck2_classes/header'
@@ -75,7 +77,7 @@ def write_file(new_file)
   print_from_temp(new_file, './lib/templates/footer_a.tmp') if $FOOTER_A
   print_from_temp(new_file, './lib/templates/japanese.tmp') if $JAPANESE
   print_from_temp(new_file, './lib/templates/footer_b.tmp') if $FOOTER_B
-
+  convert_to_ansi(new_file)
 end
 
 def print_from_temp(new_file, temp_name)
@@ -84,4 +86,11 @@ def print_from_temp(new_file, temp_name)
     new_file.puts line
   end
   temp_file.close
+end
+
+def convert_to_ansi(new_file)
+  utf_string_stream = File.open(new_file).read
+  new_file.close
+  ansi_string_stream = Iconv.iconv("LATIN1", "UTF-8", utf_string_stream).join
+  File.open(new_file, "w") { |f| f.puts ansi_string_stream }
 end
