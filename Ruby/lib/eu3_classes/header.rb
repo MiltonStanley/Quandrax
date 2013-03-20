@@ -1,5 +1,7 @@
 class EU3_Header
 
+  attr_accessor :date
+
   def initialize(ck2_class)
     @date = ck2_class.date
     @tag = ck2_class.tag
