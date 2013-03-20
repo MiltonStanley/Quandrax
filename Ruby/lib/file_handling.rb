@@ -1,4 +1,20 @@
 require './lib/tracker.rb'    # Handles data from files and figuring out what to do with it
+## Load CK2 Classes
+require './lib/ck2_classes/header'
+require './lib/ck2_classes/dynasties'
+require './lib/ck2_classes/character'
+require './lib/ck2_classes/id'
+require './lib/ck2_classes/religious_authority'
+require './lib/ck2_classes/provinces'
+require './lib/ck2_classes/titles'
+require './lib/ck2_classes/diplomacy'
+require './lib/ck2_classes/combat'
+require './lib/ck2_classes/war'
+require './lib/ck2_classes/active_war'
+require './lib/ck2_classes/footer'
+## Load EU3 Classes
+require './lib/eu3_classes/header'
+require './lib/eu3_classes/imperial_information'
 
 def load_file(extension)
   filename = Dir.new(Dir.getwd).each { |file| break file if file.include?(extension) }
