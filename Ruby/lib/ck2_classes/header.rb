@@ -8,14 +8,15 @@ class CK2_Header
   def initialize
     puts "Reading CK2 header section..."
     @gameplay_settings = Hash.new
-    get_gameplay_settings    
+    get_gameplay_settings unless $DEFAULT_GAMEPLAY
+    use_default_settings if $DEFAULT_GAMEPLAY
   end
 
   def add(line)
     key, value = split_key_value(line)
     @date = value.gsub('"','') if is_date?(key)
     @tag = $TM_CK2_EU3[value.gsub("\"",'')] if is_realm?(key)
-    @start_date = value if is_start_date?(key)    
+    @start_date = value if is_start_date?(key)
   end
 
   def get_gameplay_settings

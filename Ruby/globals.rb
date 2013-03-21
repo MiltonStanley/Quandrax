@@ -19,5 +19,8 @@ $FOOTER_B = true
 
 # How many lines to parse? Set to 0 to parse entire file
 # Where: file_handling.rb
-
 $PARSE_TO = 0
+
+# Prompt for gameplay settings, or just default to default?
+# Where: 
+$DEFAULT_GAMEPLAY = true
