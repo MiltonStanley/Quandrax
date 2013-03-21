@@ -118,10 +118,15 @@ def make_config_file(manual_reconfig)
   write_version_to_file(get_version_from_user) # Is this bad form? Passing function into another one?
 end
 
-manual_config = ARGV[0] == '-u'
+def run_config
+  manual_config = ARGV[0] == '-u'
 
-if !(File.exist? "./config_file.txt") || manual_config
-  make_config_file(false)
-else
-  load_config_file if File.exist? "./config_file.txt"
+  if !(File.exist? "./config_file.txt") || manual_config
+    make_config_file(false)
+  else
+    load_config_file if File.exist? "./config_file.txt"
+  end
+
 end
+
+run_config

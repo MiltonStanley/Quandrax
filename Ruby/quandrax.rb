@@ -23,6 +23,7 @@ require './lib/quick_pass'    # Quick pass through file to pull out some info
 $OLD_FILE_EXTENSION = 'ck2' # Eventually this will be automated OR passed in at CLI
 
 #cli_parse
+run_config
 
 # Find the savegame file and set up the converted one
 old_file, new_file = load_file($OLD_FILE_EXTENSION)
@@ -30,7 +31,7 @@ puts
 
 $HRE = quick_pass(old_file) # THIS CLOSES FILE AT END OF STREAM
 
-old_file = File.open(old_file, 'r')
+old_file = File.open(old_file, 'r') # SO we have to reopen it...annoying...
 
 make_classes
 
