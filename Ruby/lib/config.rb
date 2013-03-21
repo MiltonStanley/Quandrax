@@ -128,5 +128,3 @@ def run_config
   end
 
 end
-
-run_config
