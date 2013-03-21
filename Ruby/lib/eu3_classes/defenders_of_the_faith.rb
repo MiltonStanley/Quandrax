@@ -1,7 +1,7 @@
 class EU3_Defenders_of_the_Faith
 
   def initialize
-    puts "Creating Defenders of the Faith section"
+    puts "Creating EU3 Defenders of the Faith section"
   end  
 
   def write(location)
