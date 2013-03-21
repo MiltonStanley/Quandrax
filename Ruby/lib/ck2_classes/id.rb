@@ -1,9 +1,10 @@
 class CK2_ID
   
   def initialize
+    puts "Reading CK2 id section..."
   end
 
   def add(line)
-    puts "adding to ID: #{line}"
   end
+  
 end

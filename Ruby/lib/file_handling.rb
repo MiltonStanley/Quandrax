@@ -4,7 +4,7 @@ require './lib/tracker.rb'    # Handles data from files and figuring out what to
 ## Load CK2 Classes
 require './lib/ck2_classes/header'
 require './lib/ck2_classes/dynasties'
-require './lib/ck2_classes/character'
+require './lib/ck2_classes/characters'
 require './lib/ck2_classes/id'
 require './lib/ck2_classes/religious_authority'
 require './lib/ck2_classes/provinces'
@@ -49,9 +49,11 @@ end
 
 def make_classes
   $CK2_HEADER = CK2_Header.new
+  $CK2_DYNASTIES = CK2_Dynasties.new
+  $CK2_CHARACTERS = CK2_Characters.new
+  $CK2_ID = CK2_ID.new
   $CK2_TITLES = CK2_Titles.new($HRE)
 end
-
 
 ###############################################################################
 # 
