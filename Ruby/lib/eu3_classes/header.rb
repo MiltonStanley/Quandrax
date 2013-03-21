@@ -3,6 +3,7 @@ class EU3_Header
   attr_accessor :date
 
   def initialize(ck2_class)
+    puts "Creating EU3 Header section"
     @date = ck2_class.date
     @tag = ck2_class.tag
     @gameplay_settings = ck2_class.gameplay_settings

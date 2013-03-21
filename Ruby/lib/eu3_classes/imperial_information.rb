@@ -1,6 +1,7 @@
 class EU3_Imperial_Information
 
   def initialize(ck2_titles)
+    puts "Creating EU3 Imperial Information section"
     @hre_id = ck2_titles.hre_id
     @hre_titles = ck2_titles.hre_titles
   end
