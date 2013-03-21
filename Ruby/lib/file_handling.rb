@@ -17,6 +17,7 @@ require './lib/ck2_classes/footer'
 ## Load EU3 Classes
 require './lib/eu3_classes/header'
 require './lib/eu3_classes/imperial_information'
+require './lib/eu3_classes/defenders_of_the_faith'
 
 def load_file(extension)
   filename = Dir.new(Dir.getwd).each { |file| break file if file.include?(extension) }
@@ -65,7 +66,8 @@ def write_file(new_file)
   #print_from_temp(new_file, './lib/templates/rebels.tmp')if $REBELS
   $EU3_IMPERIAL_INFO = EU3_Imperial_Information.new($CK2_TITLES)
   $EU3_IMPERIAL_INFO.write(new_file)
-  print_from_temp(new_file, './lib/templates/religious_info.tmp') if $RELIGIOUS_INFO
+  $EU3_DEFENDERS_OF_THE_FAITH = EU3_Defenders_of_the_Faith.new
+  $EU3_DEFENDERS_OF_THE_FAITH.write(new_file)
   print_from_temp(new_file, './lib/templates/papacy.tmp') if $PAPACY
   print_from_temp(new_file, './lib/templates/trade.tmp') if $TRADE
   print_from_temp(new_file, './lib/templates/province.tmp') if $PROVINCE
