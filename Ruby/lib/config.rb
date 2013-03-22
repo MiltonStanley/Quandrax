@@ -55,7 +55,7 @@ end
 
 def extract_version(line)
   line.chomp!
-  key, version = line.split('=')
+  _, version = line.split('=')
   version  
 end
 

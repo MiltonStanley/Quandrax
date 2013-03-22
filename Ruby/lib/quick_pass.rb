@@ -5,7 +5,7 @@ def quick_pass(file)
     line = line.unpack("C*").pack("U*")
     in_e_hre_title_info = true if is_e_hre?(line)  # We've started e_hre title info!
     if is_hre_holder?(line) && in_e_hre_title_info
-      throwaway, e_hre = split_key_value(line)
+      _, e_hre = split_key_value(line)
       in_e_hre_title_info = false
     end
   end

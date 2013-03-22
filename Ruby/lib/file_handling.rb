@@ -27,7 +27,7 @@ def load_file(extension)
     puts "See the help documentation at http://www.github.com/MiltonStanley/Quandrax for usage."
     Kernel.exit
   end
-  file_name, file_extension = filename.split('.',2)
+  file_name, _ = filename.split('.',2)
   puts
   print "Opening #{filename}..."
   old_file = File.open("./#{filename}",'r')
