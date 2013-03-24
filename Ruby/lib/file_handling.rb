@@ -42,6 +42,7 @@ def process_file(file)
   tracker = Tracker.new
  # make_section_objects
   while line = file.gets
+    line = line.unpack("C*").pack("U*")
     line.chomp!; next if line.nil?
     tracker.update(line)
   end
