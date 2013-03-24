@@ -15,7 +15,7 @@ def parse_titles(line)
 end
 
 def parse_character(line)
-
+  $CK2_CHARACTERS.add(line)
 end
 
 def parse_id(line)
