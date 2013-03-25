@@ -11,8 +11,6 @@ class CK2_Characters
     puts "Reading CK2 characters..."
     @pope_id = pope
     @papal_relations = Hash.new  # Key=id, Value=...value...
-    #@character_info = Array.new  # Holds characters
-    
   end
 
   def add(line)
@@ -26,6 +24,7 @@ class CK2_Characters
   end
 
   def write
+    @papal_relations = @papal_relations.sort { |a, b| a[1]<=>b[1] }
     @papal_relations.each { |id, relation| puts "#{id}: #{relation}"}
   end
 
@@ -64,7 +63,7 @@ class A_Character
 
   def add_papal_ally(line, papal_relations_list)
     _, value = split_key_value(line)
-    papal_relations_list[@id] = value
+    papal_relations_list[@id] = value.to_i
     @friend_of_pope = false
   end  
 
@@ -82,7 +81,7 @@ class A_Character
   end
 
   def is_relation_value?(line)
-    key, value = split_key_value(line)
+    key, _ = split_key_value(line)
     key =~ /^\s*(value)/
   end
 
