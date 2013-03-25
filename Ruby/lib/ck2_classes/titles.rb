@@ -10,15 +10,15 @@ class CK2_Titles
   def initialize(hre)
     puts "Reading CK2 titles..."
     @hre_id = hre
-    @hre_titles = Array.new
-    @title_info = Array.new
+    @hre_titles = Array.new   # Holds all titles of the Emperor of the HRE
+    @titles = Array.new   # Array of all the titles
   end
 
   def add(line)
     if is_title_header?(line)
-      @title_info << A_Title.new(line.chop)
+      @titles << A_Title.new(line.chop)
     else
-      @title_info.last.add(line, @hre_titles)  # Passes it on to A_Title's add
+      @titles.last.add(line, @hre_titles)  # Passes it on to A_Title's add
     end
   end
 
@@ -37,11 +37,12 @@ end
 
 class A_Title
 
-  attr_accessor :name, :liege, :succession_law, :gender_law
+  attr_accessor :name, :holder, :liege, :succession_law, :gender_law
 
   def initialize(name)
     @name = name
     @laws = Array.new
+    @holder = String.new
   end
 
   def add(line, hre_titles)
