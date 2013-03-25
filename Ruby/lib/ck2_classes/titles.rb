@@ -2,8 +2,7 @@
 # 
 # Holds Pertinent CK2 title info for future use
 #
-# MOST IMportant stuff is passed to the A_Title class Below
-
+# MOST Important stuff is passed to the A_Title class Below
 
 class CK2_Titles
   attr_accessor :hre_id, :hre_titles
