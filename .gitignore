@@ -12,4 +12,4 @@
 config_file.txt
 
 # Don't need my output file from testing
-output.txt
+a.out
