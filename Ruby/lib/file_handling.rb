@@ -51,7 +51,7 @@ end
 def make_classes
   $CK2_HEADER = CK2_Header.new
   $CK2_DYNASTIES = CK2_Dynasties.new
-  $CK2_CHARACTERS = CK2_Characters.new
+  $CK2_CHARACTERS = CK2_Characters.new($POPE)
   $CK2_ID = CK2_ID.new
   $CK2_TITLES = CK2_Titles.new($HRE)
 end
@@ -83,6 +83,8 @@ def write_file(new_file)
   print_from_temp(new_file, './lib/templates/japanese.tmp') if $JAPANESE
   print_from_temp(new_file, './lib/templates/footer_b.tmp') if $FOOTER_B
   convert_to_ansi(new_file)
+
+  $CK2_CHARACTERS.write
 end
 
 def print_from_temp(new_file, temp_name)
