@@ -1,7 +1,7 @@
 class CK2_Characters
   
   def initialize
-    puts "Reading CK2 character section..."
+    puts "Reading CK2 characters..."
     @pope_id = $POPE
     @papal_relations = Hash.new
     @in_pope_char_info = false
