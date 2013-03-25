@@ -84,7 +84,7 @@ def write_file(new_file)
   print_from_temp(new_file, './lib/templates/footer_b.tmp') if $FOOTER_B
   convert_to_ansi(new_file)
 
-  $CK2_CHARACTERS.write
+  $CK2_CHARACTERS.write(Kernel)
 end
 
 def print_from_temp(new_file, temp_name)

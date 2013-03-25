@@ -23,9 +23,9 @@ class CK2_Characters
     end
   end
 
-  def write
+  def write(location)
     @papal_relations = @papal_relations.sort { |a, b| a[1]<=>b[1] }
-    @papal_relations.each { |id, relation| puts "#{id}: #{relation}"}
+    @papal_relations.each { |id, relation| location.puts "#{id}: #{relation}"}
   end
 
   def is_section_header?(line)
