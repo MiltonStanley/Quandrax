@@ -71,17 +71,17 @@ def write_file(new_file)
   $EU3_IMPERIAL_INFO.write(new_file)
   $EU3_DEFENDERS_OF_THE_FAITH = EU3_Defenders_of_the_Faith.new
   $EU3_DEFENDERS_OF_THE_FAITH.write(new_file)
-  print_from_temp(new_file, './lib/templates/papacy.tmp') if $PAPACY
-  print_from_temp(new_file, './lib/templates/trade.tmp') if $TRADE
-  print_from_temp(new_file, './lib/templates/province.tmp') if $PROVINCE
-  print_from_temp(new_file, './lib/templates/nations.tmp') if $NATIONS
-  print_from_temp(new_file, './lib/templates/diplomacy.tmp') if $DIPLOMACY
-  print_from_temp(new_file, './lib/templates/combat.tmp') if $COMBAT
-  #print_from_temp(new_file, './lib/templates/active_war.tmp') if $ACTIVE_WAR
-  #print_from_temp(new_file, './lib/templates/previous_war.tmp') if $PREVIOUS_WAR
-  print_from_temp(new_file, './lib/templates/footer_a.tmp') if $FOOTER_A
-  print_from_temp(new_file, './lib/templates/japanese.tmp') if $JAPANESE
-  print_from_temp(new_file, './lib/templates/footer_b.tmp') if $FOOTER_B
+  print_from_temp(new_file, './lib/templates/papacy.tmp')
+  print_from_temp(new_file, './lib/templates/trade.tmp')
+  print_from_temp(new_file, './lib/templates/province.tmp')
+  print_from_temp(new_file, './lib/templates/nations.tmp')
+  print_from_temp(new_file, './lib/templates/diplomacy.tmp')
+  print_from_temp(new_file, './lib/templates/combat.tmp')
+  #print_from_temp(new_file, './lib/templates/active_war.tmp')
+  #print_from_temp(new_file, './lib/templates/previous_war.tmp')
+  print_from_temp(new_file, './lib/templates/footer_a.tmp')
+  print_from_temp(new_file, './lib/templates/japanese.tmp')
+  print_from_temp(new_file, './lib/templates/footer_b.tmp')
   convert_to_ansi(new_file)
 
   $CK2_CHARACTERS.write(Kernel)
