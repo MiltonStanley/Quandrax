@@ -18,6 +18,7 @@ require './lib/ck2_classes/footer'
 require './lib/eu3_classes/header'
 require './lib/eu3_classes/imperial_information'
 require './lib/eu3_classes/defenders_of_the_faith'
+require './lib/eu3_classes/papal_information'
 
 def load_file(extension)
   filename = Dir.new(Dir.getwd).each { |file| break file if file.include?(extension) }
@@ -71,6 +72,7 @@ def write_file(new_file)
   $EU3_IMPERIAL_INFO.write(new_file)
   $EU3_DEFENDERS_OF_THE_FAITH = EU3_Defenders_of_the_Faith.new
   $EU3_DEFENDERS_OF_THE_FAITH.write(new_file)
+  $EU3_PAPAL_INFO = EU3_Papal_Information.new($CK2_TITLES.titles, $CK2_CHARACTERS.pope_relations)
   print_from_temp(new_file, './lib/templates/papacy.tmp')
   print_from_temp(new_file, './lib/templates/trade.tmp')
   print_from_temp(new_file, './lib/templates/province.tmp')
