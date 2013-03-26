@@ -5,7 +5,7 @@
 # MOST Important stuff is passed to the A_Character class Below
 
 class CK2_Characters
-  attr_accessor :pope_id, :pope_relations
+  attr_accessor :pope_id, :papal_relations
   
   def initialize(pope)
     puts "Reading CK2 characters..."
