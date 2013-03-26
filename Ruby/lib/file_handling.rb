@@ -66,7 +66,7 @@ end
 def write_file(new_file)
   $EU3_HEADER = EU3_Header.new($CK2_HEADER)
   $EU3_HEADER.write(new_file)
-  #print_from_temp(new_file, './lib/templates/rebels.tmp')if $REBELS
+  # Rebel info goes here
   $EU3_IMPERIAL_INFO = EU3_Imperial_Information.new($CK2_TITLES)
   $EU3_IMPERIAL_INFO.write(new_file)
   $EU3_DEFENDERS_OF_THE_FAITH = EU3_Defenders_of_the_Faith.new
@@ -77,14 +77,12 @@ def write_file(new_file)
   print_from_temp(new_file, './lib/templates/nations.tmp')
   print_from_temp(new_file, './lib/templates/diplomacy.tmp')
   print_from_temp(new_file, './lib/templates/combat.tmp')
-  #print_from_temp(new_file, './lib/templates/active_war.tmp')
-  #print_from_temp(new_file, './lib/templates/previous_war.tmp')
+  # Active war info here
+  # Previous war info here
   print_from_temp(new_file, './lib/templates/footer_a.tmp')
   print_from_temp(new_file, './lib/templates/japanese.tmp')
   print_from_temp(new_file, './lib/templates/footer_b.tmp')
   convert_to_ansi(new_file)
-
-  $CK2_CHARACTERS.write(Kernel)
 end
 
 def print_from_temp(new_file, temp_name)
