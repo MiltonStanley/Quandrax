@@ -8,12 +8,14 @@ class EU3_Papal_Information
 
   def create_cardinals(papal_allies)
     # Convert to array of 2-member arrays (key->val becomes [key, val], etc.)
-    # and then sort arrays by index 1 (the relations w/ pope)
-      papal_allies = papal_allies.sort { |a, b| a[1]<=>b[1] }
+    # and then sort arrays by index 1 (the relations w/ pope), highest FIRST
+      papal_allies = papal_allies.sort { |a, b| b[1]<=>a[1] }
     # Convert to 1-dimensions ([[val, val],...] becomes [val, val, ...])
-      papal_allies.flatten! 
-    highest_relation = papal_allies.last  # What is the best relation?
-    papal_allies = Hash[*papal_allies.flatten]
+      papal_allies.flatten!
+    # Highest relation will be first element (id, relation, id, relation, etc...)
+      highest_relation = papal_allies[1]
+    # Then convert it back to a hash, this time sorted highest relation first
+      papal_allies = Hash[*papal_allies]
   end
 
 end
