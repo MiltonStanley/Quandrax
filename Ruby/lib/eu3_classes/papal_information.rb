@@ -18,7 +18,8 @@ class EU3_Papal_Information
       papal_allies = Hash[*papal_allies]
     # Now add to cardinals as appropriate
     papal_allies.each do |key, val|
-      if @cardinals.length < 15 || val == highest_relation
+      # Need 15 cardinals, BUT include ALL that have = values to #15 for fairness
+      if @cardinals.length < 15 || val == @cardinals.values.last
         @cardinals[key] = val
       end
     end
