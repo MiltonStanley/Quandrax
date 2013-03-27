@@ -4,6 +4,9 @@ class EU3_Papal_Information
     puts "Creating EU3 papacy section"
     @cardinals = Hash.new
     add__eligible_cardinals(papal_allies)
+    @cardinals = convert_ids_to_titles(@cardinals, titles)
+    @cardinals = convert_titles_to_tags(@cardinals, $TM_CK2_EU3)
+    @cardinals.each { |key, val| puts "#{key}=#{val}" }
   end
 
   def add__eligible_cardinals(papal_allies)
@@ -23,6 +26,27 @@ class EU3_Papal_Information
         @cardinals[key] = val
       end
     end
+  end
+
+  def convert_ids_to_titles(cardinals, titles)
+    _temp_hash = Hash.new   # Can't change cardinals in block
+    cardinals.each do |key, val|  #  ID 1
+      titles.each do |a_title|    
+        if a_title.holder_id == key
+          _temp_hash[a_title.name] = val
+          break
+        end
+      end
+    end
+    _temp_hash
+  end
+
+  def convert_titles_to_tags(cardinals, tag_map)
+    _temp_hash = Hash.new
+    cardinals.each do |key, val|
+      _temp_hash << { tag_map[key] = val
+    end
+    _temp_hash
   end
 
 end
