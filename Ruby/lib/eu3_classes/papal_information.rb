@@ -15,17 +15,10 @@ class EU3_Papal_Information
       papal_allies = papal_allies.sort { |a, b| b[1]<=>a[1] }
     # Convert to 1-dimensions ([[val, val],...] becomes [val, val, ...])
       papal_allies.flatten!
-    # Highest relation will be first element (id, relation, id, relation, etc...)
-      highest_relation = papal_allies[1]
     # Then convert it back to a hash, this time sorted highest relation first
       papal_allies = Hash[*papal_allies]
     # Now add to cardinals as appropriate
-    papal_allies.each do |key, val|
-      # Need 15 cardinals, BUT include ALL that have = values to #15 for fairness
-      if @cardinals.length < 15 || val == @cardinals.values.last
-        @cardinals[key] = val
-      end
-    end
+    papal_allies.each { |key, val| @cardinals[key] = val } # I lose some later in tag_conv
   end
 
   def convert_ids_to_titles(cardinals, titles)
@@ -44,7 +37,7 @@ class EU3_Papal_Information
   def convert_titles_to_tags(cardinals, tag_map)
     _temp_hash = Hash.new
     cardinals.each do |key, val|
-      _temp_hash << { tag_map[key] = val
+      _temp_hash[tag_map[key]] = val
     end
     _temp_hash
   end
