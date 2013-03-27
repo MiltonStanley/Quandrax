@@ -37,19 +37,19 @@ end
 
 class A_Title
 
-  attr_accessor :name, :holder, :liege, :succession_law, :gender_law
+  attr_accessor :name, :holder_id, :liege, :succession_law, :gender_law
 
   def initialize(name)
     @name = name
     @laws = Array.new
-    @holder = String.new
+    @holder_id = String.new
   end
 
   def add(line, hre_titles)
     key, value = split_key_value(line)
     @liege = value.gsub('"','') if is_liege?(key) # Strip "s for better string handling
     if is_holder?(key)
-      @holder = value
+      @holder_id = value
       hre_titles << @name if value == $HRE
     end
     @succession_law = value if is_succession_law?(key)
