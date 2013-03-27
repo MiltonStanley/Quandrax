@@ -12,6 +12,8 @@
 #               at http://www.github.com/MiltonStanley/Quandrax
 ###############################################################################
 
+require 'benchmark'; Benchmark.bm(25) do |x| x.report("original code") {
+
 require './lib/prov_map.rb'   # Maps CK2 provs to EU3 provs - index is EU3 prov, data is CK2
 require './lib/tag_map.rb'    # Maps CK2 titles to EU3 tags - CK2 is key, EU3 is data
 require './globals'           # Used in testing/debugging
@@ -41,3 +43,5 @@ process_file old_file
 write_file(new_file)
 
 puts "Conversion complete!"
+
+}end
