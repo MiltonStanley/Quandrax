@@ -14,8 +14,8 @@
 
 require 'benchmark'; Benchmark.bm(25) do |x| x.report("original code") {
 
-require './lib/prov_map.rb'   # Maps CK2 provs to EU3 provs - index is EU3 prov, data is CK2
-require './lib/tag_map.rb'    # Maps CK2 titles to EU3 tags - CK2 is key, EU3 is data
+require './lib/maps/prov_map.rb'   # Maps CK2 provs to EU3 provs - index is EU3 prov, data is CK2
+require './lib/maps/tag_map.rb'    # Maps CK2 titles to EU3 tags - CK2 is key, EU3 is data
 require './globals'           # Used in testing/debugging
 require './lib/config.rb'     # Handles configuration file for different EU3 versions
 require './lib/file_handling' # Generalized handling of files (loading, creating, writing)
