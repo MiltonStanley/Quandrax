@@ -546,7 +546,7 @@ $TM_CK2_EU3 = {
 "c_julich" => "AAC",
 "c_evreux" => "ALE",
 "c_bamberg" => "ANS",
-"c_kempten" => "Augsburg",
+"c_kempten" => "BAV",
 "c_venaissin" => "AVI",
 "c_celle" => "HAN",
 "c_methone" => "MOE",
@@ -1416,5 +1416,7 @@ $TM_CK2_EU3 = {
 "c_nizhny_novgorod" => "NOV",
 "c_moskva" => "MOS",
 "c_smolensk" => "MOS",
-"c_murom" => "MOS"
+"c_murom" => "MOS",
+"c_olomouc" => "BOH",
+"b_rodez" => "AUV"
 }
