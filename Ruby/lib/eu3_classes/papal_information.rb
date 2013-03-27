@@ -2,23 +2,23 @@ class EU3_Papal_Information
 
   def initialize(titles, papal_allies) # Title info, and allies of pope hash
     puts "Creating EU3 papacy section"
-    @cardinals = Hash.new
-    add__eligible_cardinals(papal_allies)
+    @cardinals = papal_allies
     @cardinals = convert_ids_to_titles(@cardinals, titles)
     @cardinals = convert_titles_to_tags(@cardinals, $TM_CK2_EU3)
-    @cardinals.each { |key, val| puts "#{key}=#{val}" }
+    @cardinals = sort_cardinals(@cardinals)
+    @cardinals.each { |key, val| puts "#{key} - #{val}"}
   end
 
-  def add__eligible_cardinals(papal_allies)
+  def sort_cardinals(cardinals)
     # Convert to array of 2-member arrays (key->val becomes [key, val], etc.)
-    # and then sort arrays by index 1 (the relations w/ pope), highest FIRST
-      papal_allies = papal_allies.sort { |a, b| b[1]<=>a[1] }
+    #   and then sort arrays by index 1 (the relations w/ pope), highest FIRST
+      _temp_hash = cardinals.sort { |a, b| b[1]<=>a[1] }
     # Convert to 1-dimensions ([[val, val],...] becomes [val, val, ...])
-      papal_allies.flatten!
+      _temp_hash.flatten!
     # Then convert it back to a hash, this time sorted highest relation first
-      papal_allies = Hash[*papal_allies]
+      _temp_hash = Hash[*_temp_hash]
     # Now add to cardinals as appropriate
-    papal_allies.each { |key, val| @cardinals[key] = val } # I lose some later in tag_conv
+    _temp_hash
   end
 
   def convert_ids_to_titles(cardinals, titles)
@@ -36,9 +36,7 @@ class EU3_Papal_Information
 
   def convert_titles_to_tags(cardinals, tag_map)
     _temp_hash = Hash.new
-    cardinals.each do |key, val|
-      _temp_hash[tag_map[key]] = val
-    end
+    cardinals.each { |key, val| _temp_hash[tag_map[key]] = val }
     _temp_hash
   end
 
