@@ -13,10 +13,17 @@ class EU3_Papal_Information
     # Convert to array of 2-member arrays (key->val becomes [key, val], etc.)
     #   and then sort arrays by index 1 (the relations w/ pope), highest FIRST
       _temp_hash = cardinals.sort { |a, b| b[1]<=>a[1] }
+      _temp_hash.each { |key, val| puts "#{key} - #{val}"}
+      puts "---------------------------------------------"
+
     # Convert to 1-dimensions ([[val, val],...] becomes [val, val, ...])
       _temp_hash.flatten!
+      _temp_hash.each { |key, val| puts "#{key} - #{val}"}
+      puts "---------------------------------------------"
     # Then convert it back to a hash, this time sorted highest relation first
       _temp_hash = Hash[*_temp_hash]
+      _temp_hash.each { |key, val| puts "#{key} - #{val}"}
+      puts "---------------------------------------------"
     # Now add to cardinals as appropriate
     _temp_hash
   end
