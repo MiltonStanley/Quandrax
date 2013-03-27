@@ -26,8 +26,12 @@ class EU3_Papal_Information
     cardinals.each do |key, val|  #  ID 1
       titles.each do |a_title|    
         if a_title.holder_id == key
-          _temp_hash[a_title.name] = val
-          break
+          if a_title.name =~ /^b_/
+            _temp_hash[a_title.liege] = val
+          else
+            _temp_hash[a_title.name] = val
+            break
+          end
         end
       end
     end
