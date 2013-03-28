@@ -10,8 +10,34 @@ class EU3_Papal_Information
     location.puts "\tcrusade_target=\"---\"\n\tcrusade_start=\"1.1.1\""
     location.puts "\tlast_excom=\"1.1.1\"\n\tpapacy_active=yes"
     location.puts "Followed by multiple cardinal entries..."
-    @cardinals.each { |cardinal| location.puts cardinal }
+    write_cardinals(@cardinals, location)
     location.puts "}"
+  end
+
+=begin
+
+  cardinal=
+  {
+    name="Alvinczy"
+    location=156
+    controller="TRA"
+    id=
+    {
+        id=1
+        type=42
+    }
+  }
+
+=end
+  def write_cardinals(cardinals, location)
+    cardinal_names = ["Stephenos", "Jacobos", "Philippos", "Mattathaios", "Andreas",
+                      "Markos", "Petros", "Paulos", "Judas Thaddaeos", "Bartholomaios",
+                      "Thomas Didymus", "Loukas", "Antipas", "Ignatius", "Polycarpos"
+                     ]
+    cardinal_id = 0
+    cardinals.each do |tag| 
+    location.puts "\tcardinal=\n{\n\t\tname="      
+    end
   end
 
   def create_cardinals(titles, papal_allies)
