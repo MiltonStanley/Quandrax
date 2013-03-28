@@ -40,7 +40,14 @@ class EU3_Papal_Information
 
   def convert_titles_to_tags(cardinals, tag_map)
     _temp_hash = Hash.new
-    cardinals.each { |key, val| _temp_hash[tag_map[key]] = val }
+    cardinals.each do |key, val|
+      tag = tag_map[key]
+      if _temp_hash[tag].nil?
+        _temp_hash[tag] = val
+      else
+        _temp_hash[tag] = val unless _temp_hash[tag] > val
+      end
+    end
     _temp_hash
   end
 
