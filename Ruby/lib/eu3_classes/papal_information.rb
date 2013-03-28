@@ -7,6 +7,8 @@ class EU3_Papal_Information
     @cardinals = convert_titles_to_tags(@cardinals, $TM_CK2_EU3)
     @cardinals = sort_cardinals(@cardinals)
     average_relation = get_average_relation(@cardinals)
+    @cardinals = highest_relations(@cardinals, average_relation)
+    @cardinals.each { |tag| puts tag }
   end
 
   def sort_cardinals(cardinals)
@@ -56,6 +58,17 @@ class EU3_Papal_Information
     hash.each_value { |val| total_relations += val}
     average_relation = total_relations / hash.length
     average_relation
+  end
+
+  def highest_relations(hash, average_relation)
+    _temp_array = Array.new
+    hash.each do |tag, relations|
+      break if _temp_array.length >= 15
+      number_of_entries = relations / average_relation
+      1..number_of_entries.times { _temp_array << tag } if number_of_entries > 1
+      _temp_array << tag if number_of_entries <= 1
+    end
+    _temp_array    
   end
 
 end
