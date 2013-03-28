@@ -5,6 +5,7 @@
 #   git config --global core.excludesfile ~/.gitignore_global
 
 # Ignore any output files
+/Ruby/*.ck2
 *.eu3
 
 # Don't need config file
