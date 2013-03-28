@@ -2,13 +2,22 @@ class EU3_Papal_Information
 
   def initialize(titles, papal_allies) # Title info, and allies of pope hash
     puts "Creating EU3 papacy section"
-    @cardinals = papal_allies
-    @cardinals = convert_ids_to_titles(@cardinals, titles)
-    @cardinals = convert_titles_to_tags(@cardinals, $TM_CK2_EU3)
-    @cardinals = sort_cardinals(@cardinals)
-    average_relation = get_average_relation(@cardinals)
-    @cardinals = highest_relations(@cardinals, average_relation)
-    @cardinals.each { |tag| puts tag }
+    @cardinals = create_cardinals(titles, papal_allies)
+  end
+
+  def write(location)
+    @cardinals.each { |tag| location.puts tag }
+
+  end
+
+  def create_cardinals(titles, papal_allies)
+    cardinals = papal_allies
+    cardinals = convert_ids_to_titles(cardinals, titles)
+    cardinals = convert_titles_to_tags(cardinals, $TM_CK2_EU3)
+    cardinals = sort_cardinals(cardinals)
+    average_relation = get_average_relation(cardinals)
+    cardinals = highest_relations(cardinals, average_relation)
+    cardinals
   end
 
   def sort_cardinals(cardinals)
