@@ -6,8 +6,12 @@ class EU3_Papal_Information
   end
 
   def write(location)
-    @cardinals.each { |tag| location.puts tag }
-
+    location.puts "papacy=\n{\n\tcontroller=\"#{@cardinals[0]}\""
+    location.puts "\tcrusade_target=\"---\"\n\tcrusade_start=\"1.1.1\""
+    location.puts "\tlast_excom=\"1.1.1\"\n\tpapacy_active=yes"
+    location.puts "Followed by multiple cardinal entries..."
+    @cardinals.each { |cardinal| location.puts cardinal }
+    location.puts "}"
   end
 
   def create_cardinals(titles, papal_allies)

@@ -74,6 +74,7 @@ def write_file(new_file)
   $EU3_DEFENDERS_OF_THE_FAITH.write(new_file)
   $EU3_PAPAL_INFO = EU3_Papal_Information.new($CK2_TITLES.titles, 
                                               $CK2_CHARACTERS.papal_relations)
+  $EU3_PAPAL_INFO.write(Kernel)
   print_from_temp(new_file, './lib/templates/papacy.tmp')
   print_from_temp(new_file, './lib/templates/trade.tmp')
   print_from_temp(new_file, './lib/templates/province.tmp')
