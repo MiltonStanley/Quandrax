@@ -9,26 +9,10 @@ class EU3_Papal_Information
     location.puts "papacy=\n{\n\tcontroller=\"#{@cardinals[0]}\""
     location.puts "\tcrusade_target=\"---\"\n\tcrusade_start=\"1.1.1\""
     location.puts "\tlast_excom=\"1.1.1\"\n\tpapacy_active=yes"
-    location.puts "Followed by multiple cardinal entries..."
     write_cardinals(@cardinals, location)
     location.puts "}"
   end
 
-=begin
-
-  cardinal=
-  {
-    name="Alvinczy"
-    location=156
-    controller="TRA"
-    id=
-    {
-        id=1
-        type=42
-    }
-  }
-
-=end
   def write_cardinals(cardinals, location)
     cardinal_names = ["Stephenos", "Jacobos", "Philippos", "Mattathaios", "Andreas",
                       "Markos", "Petros", "Paulos", "Judas Thaddaeos", "Bartholomaios",
@@ -36,7 +20,10 @@ class EU3_Papal_Information
                      ]
     cardinal_id = 0
     cardinals.each do |tag| 
-    location.puts "\tcardinal=\n{\n\t\tname="      
+    location.puts "\tcardinal=\n\t{\n\t\tname=\"#{cardinal_names[cardinal_id]}\""
+    location.puts "\t\tlocation=132\n\t\tcontroller=\"#{tag}\"\n\t\tid="
+    cardinal_id += 1
+    location.puts "\t\t{\n\t\t\tid=#{cardinal_id}\n\t\t\ttype=42\n\t\t}\n\t}"  
     end
   end
 
