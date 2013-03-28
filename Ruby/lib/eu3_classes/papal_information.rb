@@ -6,7 +6,7 @@ class EU3_Papal_Information
     @cardinals = convert_ids_to_titles(@cardinals, titles)
     @cardinals = convert_titles_to_tags(@cardinals, $TM_CK2_EU3)
     @cardinals = sort_cardinals(@cardinals)
-    @cardinals.each { |key, val| puts "#{key} - #{val}"}
+    average_relation = get_average_relation(@cardinals)
   end
 
   def sort_cardinals(cardinals)
@@ -49,6 +49,13 @@ class EU3_Papal_Information
       end
     end
     _temp_hash
+  end
+
+  def get_average_relation(hash)
+    total_relations = 0
+    hash.each_value { |val| total_relations += val}
+    average_relation = total_relations / hash.length
+    average_relation
   end
 
 end
