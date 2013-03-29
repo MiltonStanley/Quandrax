@@ -34,7 +34,7 @@ end
 ###############################
 
 class A_Province
-  attr_accessor :ck2_id, :name, :culture, :religion, 
+  attr_accessor :ck2_id, :name, :culture, :religion,
                 :max_settlements, :title, :tech_level
 
   def initialize(id)
