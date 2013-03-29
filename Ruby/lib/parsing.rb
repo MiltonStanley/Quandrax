@@ -27,7 +27,8 @@ def parse_religious_authority(line)
 end
 
 def parse_provinces(line)
-  
+  $CK2_PROVINCES.add(line)
+
 end
 
 def parse_diplomacy(line)

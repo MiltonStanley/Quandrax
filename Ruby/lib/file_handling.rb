@@ -19,6 +19,7 @@ require './lib/eu3_classes/header'
 require './lib/eu3_classes/imperial_information'
 require './lib/eu3_classes/defenders_of_the_faith'
 require './lib/eu3_classes/papal_information'
+require './lib/eu3_classes/provinces'
 
 def load_file(extension)
   filename = Dir.new(Dir.getwd).each { |file| break file if file.include?(extension) }
@@ -55,6 +56,7 @@ def make_classes
   $CK2_CHARACTERS = CK2_Characters.new($POPE)
   $CK2_ID = CK2_ID.new
   $CK2_TITLES = CK2_Titles.new($HRE)
+  $CK2_PROVINCES = CK2_Provinces.new
 end
 
 ###############################################################################
@@ -74,9 +76,10 @@ def write_file(new_file)
   $EU3_DEFENDERS_OF_THE_FAITH.write(new_file)
   $EU3_PAPAL_INFO = EU3_Papal_Information.new($CK2_TITLES.titles, 
                                               $CK2_CHARACTERS.papal_relations)
-  $EU3_PAPAL_INFO.write(Kernel)
-  print_from_temp(new_file, './lib/templates/papacy.tmp')
-  print_from_temp(new_file, './lib/templates/trade.tmp')
+  $EU3_PAPAL_INFO.write(new_file)
+  print_from_temp(new_file, './lib/templates/trade.tmp')  # This is fine
+  $EU3_PROVINCES = EU3_Provinces.new($CK2_PROVINCES.provinces)
+  $EU3_PROVINCES.write(Kernel)
   print_from_temp(new_file, './lib/templates/province.tmp')
   print_from_temp(new_file, './lib/templates/nations.tmp')
   print_from_temp(new_file, './lib/templates/diplomacy.tmp')
