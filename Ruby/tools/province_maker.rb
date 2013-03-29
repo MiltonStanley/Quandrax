@@ -1,5 +1,6 @@
 #
-#  This will read in all EU3 provinces, form an array holding them.
+#  This will read in all EU3 provinces, build an EU3_Province object from them, 
+#  and then form an array holding them all (index = EU3_id).
 #  In the main program, if the province is in CK2, it'll use the created one.
 #  Otherwise, it'll pull the data from here (or really a file dump.)
 #  
