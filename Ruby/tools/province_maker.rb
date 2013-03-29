@@ -5,7 +5,7 @@
 #  Otherwise, it'll pull the data from here (or really a file dump.)
 #  
 
-require '../lib/parsing'
+require './lib/parsing'
 
 class EU3_Province
   attr_accessor :id
@@ -136,8 +136,10 @@ class EU3_Province
 
 end
 
-def make_provinces(array)
-  temp_file = File.open('../lib/templates/province.tmp')
+def make_provinces
+  temp_file = File.open('./lib/templates/province.tmp')
+  array = Array.new
+  array.push nil
   while line = temp_file.gets
     key, value = split_key_value(line.chomp)
     if is_province_header?(key)
@@ -146,13 +148,9 @@ def make_provinces(array)
       array.last.add(line)
     end
   end
+  array
 end
 
 def is_province_header?(key)
   key =~ /^\d+/
 end
-
-array = Array.new
-array.push nil
-make_provinces(array)
-array.each { |prov| prov.write(Kernel) unless prov.nil? }

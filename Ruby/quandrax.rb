@@ -21,6 +21,7 @@ require './lib/config.rb'     # Handles configuration file for different EU3 ver
 require './lib/file_handling' # Generalized handling of files (loading, creating, writing)
 require './lib/quick_pass'    # Quick pass through file to pull out some info
 #require './lib/cli_parsing'  # Handles command line flags
+require './tools/province_maker' # Builds array of EU3 provinces straight from game
 
 $OLD_FILE_EXTENSION = 'ck2' # Eventually this will be automated OR passed in at CLI
 
@@ -31,8 +32,11 @@ run_config
 old_file, new_file = load_file($OLD_FILE_EXTENSION)
 puts
 
+$EU3_TEMPLATE_PROVINCES = make_provinces  # This holds EU3 provinces from template
+
 $HRE, $POPE = quick_pass(old_file) # THIS CLOSES FILE AT END OF STREAM
 old_file = File.open(old_file, 'r') # SO we have to reopen it...annoying...
+
 
 make_classes
 
