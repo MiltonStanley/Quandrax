@@ -46,6 +46,9 @@ class A_Province
     @name = value.gsub('"','') if is_name?(key)
     @culture = value if is_culture?(key)
     @religion = value if is_religion?(key)
+    @max_settlements = value if is_max_settlements?(key)
+    @title = value if is_title?(key)
+
   end
 
   def is_name?(key)
@@ -58,6 +61,14 @@ class A_Province
 
   def is_religion?(key)
     key =~ /^\treligion/
+  end
+
+  def is_max_settlements?(key)
+    key =~ /^\tmax_settlements/
+  end
+
+  def is_title?(key)
+    key =~ /^\ttitle/
   end
 
 end
