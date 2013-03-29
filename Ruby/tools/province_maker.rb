@@ -10,12 +10,14 @@ class EU3_Province
   attr_accessor :id
 
   def initialize(id)
+    @finished_header = false
     @id = id
     @core = Array.new
+    @history = String.new
   end
 
   def add(line)
-    key, value = split_key_value(line)
+    key, value = split_key_value(line.chomp)
     @name = value.gsub!('"','') if is_name?(key)
     @owner = value.gsub!('"','') if is_owner?(key)
     @controller = value.gsub!('"','') if is_controller?(key)
@@ -34,6 +36,8 @@ class EU3_Province
     @workshop = value if is_workshop?(key)
     @marketplace = value if is_marketplace?(key)
     @fort1 = value if is_fort1?(key)
+    @finished_header = true if is_history?(line)
+    @history << line if @finished_header
   end
 
   def write(location)
@@ -50,6 +54,7 @@ class EU3_Province
     location.puts "\tworkshop=#{@workshop}" unless @workshop.nil?
     location.puts "\tmarketplace=#{@marketplace}" unless @marketplace.nil?
     location.puts "\tfort1=#{@fort1}" unless @fort1.nil?
+    location.puts @history
   end
 
   def is_name?(key)
@@ -124,13 +129,16 @@ class EU3_Province
     key =~ /^\tfort1/
   end
 
+  def is_history?(line)
+    line =~ /^\thistory=/
+  end
+
 end
 
 def make_provinces(array)
   temp_file = File.open('../lib/templates/province.tmp')
   while line = temp_file.gets
-    line.chomp!; next if line.nil?
-    key, value = split_key_value(line)
+    key, value = split_key_value(line.chomp)
     if is_province_header?(key)
       array << EU3_Province.new(key) 
     else
