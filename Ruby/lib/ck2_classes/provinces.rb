@@ -45,6 +45,7 @@ class A_Province
     key, value = split_key_value(line)
     @name = value.gsub('"','') if is_name?(key)
     @culture = value if is_culture?(key)
+    @religion = value if is_religion?(key)
   end
 
   def is_name?(key)
@@ -53,6 +54,10 @@ class A_Province
 
   def is_culture?(key)
     key =~ /^\tculture/
+  end
+
+  def is_religion?(key)
+    key =~ /^\treligion/
   end
 
 end

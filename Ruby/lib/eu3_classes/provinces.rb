@@ -5,7 +5,8 @@ class EU3_Provinces
   end
 
   def write(location)
-    @provinces.each { |prov| puts "#{prov.ck2_id} is named \"#{prov.name}\", culture #{prov.culture}" }
+    @provinces.each { |prov| puts "#{prov.ck2_id} is named \"#{prov.name}\", \
+culture #{prov.culture}, religion #{prov.religion}" }
   end
 
 end
