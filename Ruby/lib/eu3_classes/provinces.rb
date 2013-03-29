@@ -10,6 +10,8 @@ class EU3_Provinces
 culture #{prov.culture}, religion #{prov.religion}, max_settlements = \
 #{prov.max_settlements}, title #{prov.title}, tech_level "
       prov.tech_level.each { |lev| print "#{lev} " }
+      print ", tech_progress "
+      prov.tech_progress.each { |prog| print "#{prog} "}
       puts
     end
   end

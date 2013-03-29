@@ -35,7 +35,7 @@ end
 
 class A_Province
   attr_accessor :ck2_id, :name, :culture, :religion,
-                :max_settlements, :title, :tech_level
+                :max_settlements, :title, :tech_level, :tech_progress
 
   def initialize(id)
     @ck2_id = id
@@ -49,6 +49,7 @@ class A_Province
     @max_settlements = value if is_max_settlements?(key)
     @title = value if is_title?(key)
     @tech_level = get_tech_level(line) if is_tech_level?(line)
+    @tech_progress = get_tech_progress(line) if is_tech_progress?(line)
   end
 
   def is_name?(key)
@@ -77,6 +78,14 @@ class A_Province
 
   def is_tech_level?(line)
     line =~ /^(\d )+\s+}/ && @tech_level.nil?
+  end
+
+  def get_tech_progress(line)
+    line.gsub!('}','').split(' ')
+  end
+
+  def is_tech_progress?(line)
+    line =~ /^(\d )+\s+}/ && @tech_level.length > 1
   end
 
 end
