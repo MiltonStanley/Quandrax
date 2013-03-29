@@ -48,7 +48,7 @@ class A_Province
     @religion = value if is_religion?(key)
     @max_settlements = value if is_max_settlements?(key)
     @title = value if is_title?(key)
-
+    @tech_level = get_tech_level(line) if is_tech_level?(line)
   end
 
   def is_name?(key)
@@ -69,6 +69,14 @@ class A_Province
 
   def is_title?(key)
     key =~ /^\ttitle/
+  end
+
+  def get_tech_level(line)
+    line.gsub!('}','').split(' ')
+  end
+
+  def is_tech_level?(line)
+    line =~ /^(\d )+\s+}/ && @tech_level.nil?
   end
 
 end
