@@ -43,12 +43,11 @@ class A_Province
 
   def add(line)
     key, value = split_key_value(line)
-    puts line if line =~ /\tname=/
     puts "#{ck2_id} is named #{value}" if is_name?(key)
   end
 
   def is_name?(key)
-    key =~ /^\tname=/
+    key =~ /^\tname/
   end
 
 end
