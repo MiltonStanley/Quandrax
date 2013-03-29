@@ -153,5 +153,6 @@ def is_province_header?(key)
 end
 
 array = Array.new
+array.push nil
 make_provinces(array)
-array.each { |prov| prov.write(Kernel) }
+array.each { |prov| prov.write(Kernel) unless prov.nil? }
