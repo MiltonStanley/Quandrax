@@ -6,6 +6,7 @@
 #  
 
 require './lib/parsing'
+require './tools/province_maker'
 
 class EU3_Province
   attr_accessor :id
@@ -15,6 +16,7 @@ class EU3_Province
     @id = id
     @core = Array.new
     @history = String.new
+    @all_provinces = make_provinces
   end
 
   def add(line)
