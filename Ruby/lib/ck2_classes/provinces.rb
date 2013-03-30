@@ -2,11 +2,11 @@
 # 
 # Holds Pertinent CK2 province info for future use
 #
-# MOST Important stuff is passed to the A_Province class Below
+# MOST Important stuff is passed to the A_CK2_Province class Below
 
 class CK2_Provinces
   attr_accessor :provinces
-  
+
   def initialize
     puts "Reading CK2 provinces..."
     @provinces = Array.new
@@ -14,9 +14,9 @@ class CK2_Provinces
 
   def add(line)
     if is_province_header?(line)
-      @provinces << A_Province.new(line.chop)
+      @provinces << A_CK2_Province.new(line.chop)
     else
-      @provinces.last.add(line)  # Passes it on to A_province's add
+      @provinces.last.add(line)  # Passes it on to A_CK2_Province's add
     end
   end
 
@@ -28,12 +28,12 @@ end
 
 ###############################
 #
-# A_Province does most of the
+# A_CK2_Province does most of the
 # real heavy lifting
 #
 ###############################
 
-class A_Province
+class A_CK2_Province
   attr_accessor :ck2_id, :name, :culture, :religion,
                 :max_settlements, :title, :tech_level, :tech_progress
 
@@ -50,6 +50,16 @@ class A_Province
     @title = value if is_title?(key)
     @tech_level = get_tech_level(line) if is_tech_level?(line)
     @tech_progress = get_tech_progress(line) if is_tech_progress?(line)
+  end
+
+  def write_brief
+    print "id #{@ck2_id}, name \"#{@name}\", \
+culture #{@culture}, religion #{@religion}, max_settlements = \
+#{@max_settlements}, title #{@title}, tech_level "
+    @tech_level.each { |lev| print "#{lev} " }
+    print ", tech_progress "
+    @tech_progress.each { |prog| print "#{prog} "}
+    puts
   end
 
   def is_name?(key)

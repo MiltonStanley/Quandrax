@@ -4,22 +4,13 @@ class EU3_Provinces
 
   def initialize(provinces)
     @provinces = provinces
-    @normal_provinces = make_provinces
-    puts @normal_provinces.length
+    @all_eu3_provinces = make_provinces
+    @province_index = invert($PM_CK2_EU3)
   end
 
   def write(location)
-    @normal_provinces.each { |a_province| a_province.write(Kernel) unless a_province.nil? }
-  end
-
-  def write_province(province)
-    print "id #{province.ck2_id}, name \"#{province.name}\", \
-culture #{province.culture}, religion #{province.religion}, max_settlements = \
-#{province.max_settlements}, title #{province.title}, tech_level "
-    province.tech_level.each { |lev| print "#{lev} " }
-    print ", tech_progress "
-    province.tech_progress.each { |prog| print "#{prog} "}
-    puts
+    @provinces.each { |province| province.write_brief unless province.nil? }
+    #@all_eu3_provinces.each { |a_province| a_province.write(Kernel) unless a_province.nil? }
   end
 
   def make_provinces
@@ -29,7 +20,7 @@ culture #{province.culture}, religion #{province.religion}, max_settlements = \
     while line = temp_file.gets
       key, value = split_key_value(line.chomp)
       if is_province_header?(key)
-        array << A_Province.new(key) 
+        array << An_EU3_Province.new(key) 
       else
         array.last.add(line)
       end
@@ -46,12 +37,12 @@ end
 
 #################################
 #
-# A_Province handles each individual
+# An_EU3_Province handles each individual
 # province.
 #
 #################################
 
-class A_Province
+class An_EU3_Province
   attr_accessor :id
 
   def initialize(id)
