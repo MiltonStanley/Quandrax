@@ -1,7 +1,7 @@
 CM_CK2_EU3 = {
-  "norwegian" => "",
-  "swedish" => "",
-  "danish" => "",
+  "norwegian" => "norwegian",
+  "swedish" => "swedish",
+  "danish" => "danish",
   "german" => "",
   "english" => "",
   "saxon" => "",
