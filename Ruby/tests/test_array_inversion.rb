@@ -22,6 +22,7 @@ class TestArrayConversion < Test::Unit::TestCase
       original_array = [nil, 2, 4, 6, 8,8, 10]
       inverted_array = invert(original_array)
       expected_array = [nil, nil, 1, nil, 2, nil, 3, nil, [4,5], nil, 6]
+      assert_equal(expected_array, inverted_array)
     end
-    
+
 end

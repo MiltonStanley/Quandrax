@@ -7,7 +7,13 @@ def invert(array)
   array.each_index do |index|
     id = array[index]
     if id.class == Fixnum
-      _temp[id] = index
+      if _temp[id].nil?
+        _temp[id] = index
+      else
+        _int = _temp[id]
+        _temp[id] = Array.new
+        _temp[id] << _int << index
+      end
     elsif id.class == Array
       id.each_index { |indy| _temp[id[indy]] = index }
     end
