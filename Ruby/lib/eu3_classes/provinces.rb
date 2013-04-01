@@ -9,7 +9,17 @@ class EU3_Provinces
   end
 
   def write(location)
-    @provinces.each { |province| province.write_brief unless province.nil? }
+    @all_eu3_provinces.each do |province|
+      next if province.nil?
+      eu3_id = province.id.to_i
+      if @province_index[eu3_id].nil?
+        puts "province id #{eu3_id} is only in eu3 (#{province.name})"
+      else
+        puts "province id #{eu3_id} is in CK2! (#{province.name})"
+      end
+    end
+
+    #@provinces.each { |province| province.write_brief unless province.nil? }
     #@all_eu3_provinces.each { |a_province| a_province.write(Kernel) unless a_province.nil? }
   end
 
@@ -43,7 +53,7 @@ end
 #################################
 
 class An_EU3_Province
-  attr_accessor :id
+  attr_accessor :id, :name
 
   def initialize(id)
     @finished_header = false
