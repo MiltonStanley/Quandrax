@@ -10,6 +10,7 @@ class CK2_Provinces
   def initialize
     puts "Reading CK2 provinces..."
     @provinces = Array.new
+    @provinces << nil
   end
 
   def add(line)
