@@ -10,13 +10,17 @@ class EU3_Provinces
 
   def write(location)
     @all_eu3_provinces.each do |eu3_province|
-      next if eu3_province.nil?
+      next if eu3_province.nil? # index 0 is nil, there's no province 0 in either game
       eu3_id = eu3_province.id.to_i
-      ck2_id = 
-      if @province_index[eu3_id].nil?
+      ck2_id = @province_index[eu3_id]  # An array if multiple CK2's form one EU3
+      if @province_index[eu3_id].nil? # Province doesn't exist in CK2
         @all_eu3_provinces[eu3_id].write(location)
       else
-        @provinces[@province_index[eu3_id]].write_brief
+        if ck2_id.class == Fixnum # One ck2 prov - one eu3 prov
+          @provinces[ck2_id].write_brief
+        else
+          puts "EU3 Province #{eu3_id} is made from multiple ck2 provinces."
+        end
       end
     end
   end
