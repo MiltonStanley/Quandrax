@@ -13,15 +13,11 @@ class EU3_Provinces
       next if eu3_province.nil? # index 0 is nil, there's no province 0 in either game
       eu3_id = eu3_province.id.to_i
       ck2_id = @province_index[eu3_id]  # An array if multiple CK2's form one EU3
-      if @province_index[eu3_id].nil? # Province doesn't exist in CK2
-        @all_eu3_provinces[eu3_id].write(location)
-      else
-        if ck2_id.class == Fixnum # One ck2 prov - one eu3 prov
-          @provinces[ck2_id].write_brief
-        else
-          puts "EU3 Province #{eu3_id} is made from multiple ck2 provinces."
-        end
+      if !(@province_index[eu3_id].nil?) # Do this if province is NOT in EU3
+        puts "this in in ck2"
+        #eu3_province.convert_from_ck2(@provinces[ck2_id], ck2_id) 
       end
+      eu3_province.write(location) #unless @province_index[eu3_id].nil
     end
   end
 
@@ -88,12 +84,18 @@ class An_EU3_Province
     @history << line if @finished_header
   end
 
-  def convert_from_ck2(ck2_province)
-    print "changing #{@owner} to "
-    #@owner = $TM_CK2_EU3[ck2_province.title]
-    #@controller = $TM_CK2_EU3[ck2_province.title]
-
-    puts "#{@owner}"
+  def convert_from_ck2(ck2_province, ck2_id)
+    print "This one is in CK2 "
+    #if ck2_id.class == Fixnum # One ck2 prov - one eu3 prov
+    #  puts "and is 1-1 match!"
+      #eu3_province.convert_from_ck2(@provinces[ck2_id])
+    #else
+    #  puts "and is n-1 match!"
+      ### TODO
+      # Convert it, but don't overwrite if it's player owned
+      #
+    #end
+    #ck2_province.write_brief
   end
 
   def write(location)
