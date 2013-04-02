@@ -9,18 +9,16 @@ class EU3_Provinces
   end
 
   def write(location)
-    @all_eu3_provinces.each do |province|
-      next if province.nil?
-      eu3_id = province.id.to_i
+    @all_eu3_provinces.each do |eu3_province|
+      next if eu3_province.nil?
+      eu3_id = eu3_province.id.to_i
+      ck2_id = 
       if @province_index[eu3_id].nil?
-        puts "province id #{eu3_id} is only in eu3 (#{province.name})"
+        @all_eu3_provinces[eu3_id].write(location)
       else
-        puts "province id #{eu3_id} is in CK2! (#{province.name})"
+        @provinces[@province_index[eu3_id]].write_brief
       end
     end
-
-    #@provinces.each { |province| province.write_brief unless province.nil? }
-    #@all_eu3_provinces.each { |a_province| a_province.write(Kernel) unless a_province.nil? }
   end
 
   def make_provinces
@@ -84,6 +82,14 @@ class An_EU3_Province
     @fort1 = value if is_fort1?(key)
     @finished_header = true if is_history?(line)
     @history << line if @finished_header
+  end
+
+  def convert_from_ck2(ck2_province)
+    print "changing #{@owner} to "
+    #@owner = $TM_CK2_EU3[ck2_province.title]
+    #@controller = $TM_CK2_EU3[ck2_province.title]
+
+    puts "#{@owner}"
   end
 
   def write(location)
