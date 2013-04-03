@@ -17,7 +17,7 @@ class EU3_Provinces
       if !(@province_index[eu3_id].nil?) # Do this if province is NOT in EU3
         eu3_province.convert_from_ck2(@provinces, ck2_id) 
       end
-     # eu3_province.write(location) #unless @province_index[eu3_id].nil
+     eu3_province.write(location)
     end
   end
 
@@ -86,15 +86,13 @@ class An_EU3_Province
 
   def convert_from_ck2(ck2_provinces, ck2_id)
     if ck2_id.class == Fixnum
-      #puts @owner
-      if $TM_CK2_EU3[ck2_provinces[ck2_id].title].nil?
-        puts "Tag not found for #{ck2_provinces[ck2_id].title}"
-      end
-      #@owner = $TM_CK2_EU3[ck2_provinces[ck2_id]]
+      # owner
+      # controller
+      # core
+      # culture
+      # religion
     elsif ck2_id.class == Array
       #puts "Convert n-1"
-    else
-      puts "ERROR"
     end
   end
 
