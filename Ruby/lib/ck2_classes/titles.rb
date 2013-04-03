@@ -37,7 +37,7 @@ end
 
 class A_Title
 
-  attr_accessor :name, :holder_id, :liege, :succession_law, :gender_law
+  attr_accessor :name, :holder_id, :liege, :succession_law, :gender_law, :de_jure_liege
 
   def initialize(name)
     @name = name
