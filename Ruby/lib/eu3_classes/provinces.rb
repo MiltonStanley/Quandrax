@@ -16,7 +16,7 @@ class EU3_Provinces
       eu3_id = eu3_province.id.to_i
       ck2_id = @province_index[eu3_id]  # An array if multiple CK2's form one EU3
       if !(@province_index[eu3_id].nil?) # Do this if province is NOT in EU3
-        eu3_province.convert_from_ck2(@provinces, ck2_id) 
+        eu3_province.convert_from_ck2(@provinces, @titles, ck2_id) 
       end
      eu3_province.write(location)
     end
@@ -85,8 +85,12 @@ class An_EU3_Province
     @history << line if @finished_header
   end
 
-  def convert_from_ck2(ck2_provinces, ck2_id)
+  def convert_from_ck2(ck2_provinces, ck2_titles, ck2_id)
     if ck2_id.class == Fixnum
+      # ck2_owner = ck2_provinces[ck2_id].liege || ck2_provinces[ck2_id].title
+      # CK2 owner is province.title => that title's liege (titles.liege)
+      # Need to make a liege index like in v1
+      puts "#{id} - EU3 owner #{@owner}"#, CK2 owner #{ck2_owner}"
       # owner
       # controller
       # core
