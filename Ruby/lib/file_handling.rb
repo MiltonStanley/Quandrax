@@ -67,6 +67,9 @@ end
 ###############################################################################
 
 def write_file(new_file)
+  $CK2_PROVINCES.provinces.each do |prov|
+    puts prov.ck2_id if prov.name.nil?
+  end
   $EU3_HEADER = EU3_Header.new($CK2_HEADER)
   $EU3_HEADER.write(new_file)
   # Rebel info goes here

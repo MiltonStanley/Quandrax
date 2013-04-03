@@ -6,6 +6,7 @@ class EU3_Provinces
     @provinces = provinces
     @all_eu3_provinces = make_provinces
     @province_index = invert($PM_CK2_EU3)
+    # convert_provinces ~ convert province ~ con. 1-1, n-1; - in write, write them
   end
 
   def write(location)
@@ -14,9 +15,9 @@ class EU3_Provinces
       eu3_id = eu3_province.id.to_i
       ck2_id = @province_index[eu3_id]  # An array if multiple CK2's form one EU3
       if !(@province_index[eu3_id].nil?) # Do this if province is NOT in EU3
-        eu3_province.convert_from_ck2(ck2_id) 
+        eu3_province.convert_from_ck2(@provinces, ck2_id) 
       end
-      eu3_province.write(location) #unless @province_index[eu3_id].nil
+     # eu3_province.write(location) #unless @province_index[eu3_id].nil
     end
   end
 
@@ -83,8 +84,18 @@ class An_EU3_Province
     @history << line if @finished_header
   end
 
-  def convert_from_ck2(ck2_id)
-    puts "Converting!"
+  def convert_from_ck2(ck2_provinces, ck2_id)
+    if ck2_id.class == Fixnum
+      #puts @owner
+      if $TM_CK2_EU3[ck2_provinces[ck2_id].title].nil?
+        puts "Tag not found for #{ck2_provinces[ck2_id].title}"
+      end
+      #@owner = $TM_CK2_EU3[ck2_provinces[ck2_id]]
+    elsif ck2_id.class == Array
+      #puts "Convert n-1"
+    else
+      puts "ERROR"
+    end
   end
 
   def write(location)
