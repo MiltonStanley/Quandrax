@@ -55,6 +55,7 @@ class A_Title
     @succession_law = value if is_succession_law?(key)
     @gender_law = value if is_gender_law?(key)
     add_law(value) if is_law?(key)
+    de_jure_liege = value.gsub('"','') if is_de_jure_liege?(key)
   end
 
   def add_law(value)
@@ -79,6 +80,10 @@ class A_Title
 
   def is_law?(key)
     key =~ /^\t(law)/
+  end
+
+  def is_de_jure_liege?(key)
+    key =~ /^\tde_jure_liege/
   end
 
 end
