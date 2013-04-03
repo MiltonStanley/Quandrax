@@ -1418,5 +1418,6 @@ $TM_CK2_EU3 = {
 "c_smolensk" => "MOS",
 "c_murom" => "MOS",
 "c_olomouc" => "BOH",
+"c_litomerice" => "BOH",
 "b_rodez" => "AUV"
 }
