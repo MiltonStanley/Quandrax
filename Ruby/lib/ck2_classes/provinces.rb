@@ -48,7 +48,7 @@ class A_CK2_Province
     @culture = value if is_culture?(key)
     @religion = value if is_religion?(key)
     @max_settlements = value if is_max_settlements?(key)
-    @title = value if is_title?(key)
+    @title = value.gsub('"','') if is_title?(key)
     @tech_level = get_tech_level(line) if is_tech_level?(line)
     @tech_progress = get_tech_progress(line) if is_tech_progress?(line)
   end
