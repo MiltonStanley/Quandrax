@@ -87,17 +87,19 @@ class An_EU3_Province
 
   def convert_from_ck2(ck2_provinces, ck2_titles, ck2_id)
     if ck2_id.class == Fixnum
+      ### TODO
       # ck2_owner = ck2_provinces[ck2_id].liege || ck2_provinces[ck2_id].title
       # CK2 owner is province.title => that title's liege (titles.liege)
-      # Need to make a liege index like in v1
-      puts "#{id} - EU3 owner #{@owner}"#, CK2 owner #{ck2_owner}"
+      # Need to make a liege index & holder index like in v1
+      #
       # owner
       # controller
       # core
       # culture
       # religion
+      ###
     elsif ck2_id.class == Array
-      #puts "Convert n-1"
+      #Converts n -> 1
     end
   end
 
