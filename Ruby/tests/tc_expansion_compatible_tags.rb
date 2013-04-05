@@ -1,7 +1,8 @@
 require "test/unit"
-Dir.chdir("..")
-require "./lib/maps/tag_map.rb"
-require "./lib/config.rb"
+if __FILE__ == $0
+  Dir.chdir("..")
+  require './tests/setup_for_tests'
+end
 
 class TC_TagConversion < Test::Unit::TestCase
 

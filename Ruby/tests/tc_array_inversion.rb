@@ -1,6 +1,8 @@
 require "test/unit"
-require '../lib/parsing'
-require '../lib/maps/prov_map'
+if __FILE__ == $0
+  Dir.chdir("..")
+  require './tests/setup_for_tests'
+end
 
 class TC_ArrayConversion < Test::Unit::TestCase
 
