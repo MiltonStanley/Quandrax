@@ -11,6 +11,7 @@ class CK2_Characters
     puts "Reading CK2 characters..."
     @pope_id = pope
     @papal_relations = Hash.new  # Key=id, Value=...value...
+    @characters = Array.new
   end
 
   def add(line)
