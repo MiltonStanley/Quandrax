@@ -2,7 +2,7 @@ require "test/unit"
 require '../lib/parsing'
 require '../lib/maps/prov_map'
 
-class TestArrayConversion < Test::Unit::TestCase
+class TC_ArrayConversion < Test::Unit::TestCase
 
     def test_1d_conversion  # No overlappings
       original_array = [nil, 2, 3, 4, 5, 6]

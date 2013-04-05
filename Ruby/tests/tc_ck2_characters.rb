@@ -23,7 +23,7 @@ make_classes
 puts
 process_file old_file
 
-class Test_CK2_Characters < Test::Unit::TestCase
+class TC_CK2Characters < Test::Unit::TestCase
 
     def test_creation  # We are getting the correct ID and name for chaplains
       expected = CK2_Characters.new($POPE)
@@ -35,7 +35,9 @@ class Test_CK2_Characters < Test::Unit::TestCase
     end
 
     def test_papal_relations_sorted
-      assert 1 > 5, "#{a} should be greater than #{b} but was not"
+      a = 1
+      b = 5
+      assert b > a, "#{b} should be greater than #{a} but was not"
     end
 
 end

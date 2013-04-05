@@ -20,7 +20,7 @@ make_classes
 puts
 process_file old_file
 
-class Test_CK2_Header < Test::Unit::TestCase
+class TC_CK2Header < Test::Unit::TestCase
 
     def test_date  # We are getting the correct ID and name for chaplains
       assert_equal '1066.9.15', $CK2_HEADER.date
