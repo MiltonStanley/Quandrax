@@ -16,7 +16,7 @@ class CK2_Header
     key, value = split_key_value(line)
     @date = value.gsub('"','') if is_date?(key)
     @tag = $TM_CK2_EU3[value.gsub("\"",'')] if is_realm?(key)
-    @start_date = value if is_start_date?(key)
+    @start_date = value.gsub('"','') if is_start_date?(key)
   end
 
   def get_gameplay_settings
