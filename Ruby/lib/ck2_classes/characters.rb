@@ -18,14 +18,10 @@ class CK2_Characters
     if is_section_header?(line)
       # Do nothing
     elsif is_character_header?(line)
-      @current_character = A_Character.new(line.chop, @pope_id)
+      @characters << A_Character.new(line, @pope_id)
     else
-      @current_character.add(line, @papal_relations)  # Passes it on to A_Character's add
+      @characters.last.add(line, @papal_relations)
     end
-  end
-
-  def sort
-    @papal_relations = @papal_relations.sort { |a, b| a[1]<=>b[1] }
   end
 
   def is_section_header?(line)
@@ -46,6 +42,7 @@ end
 ###############################
 
 class A_Character
+  attr_accessor :id, :relations_to_pope
 
   def initialize(line, pope_id)
     @id, _ = line.strip.split("=",2)

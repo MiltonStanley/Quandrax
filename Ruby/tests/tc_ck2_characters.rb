@@ -23,10 +23,8 @@ class TC_CK2Characters < Test::Unit::TestCase
       assert_equal '2008', $CK2_CHARACTERS.pope_id
     end
 
-    def test_papal_relations_sorted
-      a = 1
-      b = 5
-      assert b > a, "#{b} should be greater than #{a} but was not"
+    def test_papal_relations_length
+      assert_equal 293, $CK2_CHARACTERS.papal_relations.length
     end
 
 end
