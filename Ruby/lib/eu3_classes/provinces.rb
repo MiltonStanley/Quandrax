@@ -8,9 +8,10 @@ class EU3_Provinces
     @all_eu3_provinces = make_provinces
     @province_index = invert($PM_CK2_EU3)
     @liege_index = make_liege_index(titles)
-    @holder_index = make_holder_index(titles)
+    ### TODO
+    #@holder_index = make_holder_index(titles)
     # convert_provinces ~ convert province ~ con. 1-1, n-1; - in write, write them
-    @holder_index.each { |title, holder| puts "#{title}'s holder is #{holder_id}" }
+    #@holder_index.each { |title, holder| puts "#{title}'s holder is #{holder_id}" }
   end
 
   def write(location)
