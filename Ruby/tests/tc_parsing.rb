@@ -1,7 +1,7 @@
 require "test/unit"
 if __FILE__ == $0
   Dir.chdir("..")
-  require './tests/setup_for_tests'
+  require './lib/parsing'
 end
 
 class TC_Parsing < Test::Unit::TestCase
@@ -25,6 +25,21 @@ class TC_Parsing < Test::Unit::TestCase
       inverted_array = invert(original_array)
       expected_array = [nil, nil, 1, nil, 2, nil, 3, nil, [4,5], nil, 6]
       assert_equal(expected_array, inverted_array)
+    end
+
+    def test_hash_sorting
+      start_hash = {
+                    "one" => 2, "two" => 1, "three" => 7,
+                    "four" => 3, "five" => 3, "six" => 3,
+                    "seven" => 0, "eight" => 10, "nine" => -7
+                    }
+      expected_hash = {
+                    "eight" => 10, "three" => 7, "four" => 3, 
+                    "five" => 3, "six" => 3, "one" => 2,
+                    "two" => 1, "seven" => 0,  "nine" => -7
+                    }
+      start_hash = sort(start_hash)
+      assert_equal expected_hash, start_hash
     end
 
 end

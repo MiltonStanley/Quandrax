@@ -21,6 +21,16 @@ def invert(array)
   _temp
 end
 
+def sort(hash)
+  temp_hash = hash.sort { |a, b| b[1]<=>a[1] }
+  # Convert to 1-dimensions ([[key, val],...] becomes [key,] val, ...])
+  temp_hash.flatten!
+  # Then convert it back to a hash, this time sorted highest value first
+  temp_hash = Hash[*temp_hash]
+  # Return it
+  temp_hash
+end
+
 def parse_header(string)
   $CK2_HEADER.add(string)
 end
