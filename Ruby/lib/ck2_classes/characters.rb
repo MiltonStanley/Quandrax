@@ -44,7 +44,8 @@ end
 ###############################
 
 class A_Character
-  attr_accessor :id, :relations_to_pope, :friend_of_pope, :birth_name
+  attr_accessor :id, :relations_to_pope, :friend_of_pope, 
+  :birth_name, :employer
 
   def initialize(line, pope_id)
     @id, _ = line.strip.split("=",2)
