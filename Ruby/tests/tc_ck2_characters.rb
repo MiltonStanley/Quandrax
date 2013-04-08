@@ -15,8 +15,7 @@ end
 class TC_CK2Characters < Test::Unit::TestCase
 
     def test_creation  # We are getting the correct ID and name for chaplains
-      expected = CK2_Characters.new($POPE)
-      assert_equal expected.class, $CK2_CHARACTERS.class
+      assert $CK2_CHARACTERS.instance_of? CK2_Characters
     end
 
     def test_setting_pope_id
