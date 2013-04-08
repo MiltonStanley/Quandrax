@@ -26,4 +26,16 @@ class TC_CK2Characters < Test::Unit::TestCase
       assert $CK2_CHARACTERS.papal_relations.length > 0, "Failed to add characters to papal relations list"
     end
 
+    def test_birth_name
+      names = { '70556' => 'Ioannes', '140' => 'William', '502636' => 'Jean' }
+      $CK2_CHARACTERS.characters.each do |a_character|
+        if names[a_character.id]
+          expected = names[a_character.id]
+          actual = a_character.birth_name
+          assert expected == actual, "Expected name #{expected} for character #{
+          a_character.id}, got #{actual} instead"
+        end
+      end
+    end
+
 end

@@ -5,7 +5,7 @@
 # MOST Important stuff is passed to the A_Character class Below
 
 class CK2_Characters
-  attr_accessor :pope_id, :papal_relations
+  attr_accessor :pope_id, :papal_relations, :characters
   
   def initialize(pope)
     puts "Reading CK2 characters..."
@@ -44,7 +44,7 @@ end
 ###############################
 
 class A_Character
-  attr_accessor :id, :relations_to_pope, :friend_of_pope
+  attr_accessor :id, :relations_to_pope, :friend_of_pope, :birth_name
 
   def initialize(line, pope_id)
     @id, _ = line.strip.split("=",2)
@@ -54,6 +54,8 @@ class A_Character
   end
 
   def add(line, papal_relations)
+    key, val = split_key_value(line)
+    @birth_name = val.gsub('"','') if is_birth_name?(key)
     @reading_ally = true if is_ally_header?(line)
     @reading_ally = false if is_enemy_header?(line)
     @friend_of_pope = true if @reading_ally && is_pope_id?(line)
@@ -65,6 +67,10 @@ class A_Character
     papal_relations_list[@id] = value.to_i
     @friend_of_pope = false
   end  
+
+  def is_birth_name?(key)
+    key =~ /^\t+(birth_name)/
+  end
 
   def is_ally_header?(line)
     line =~ /^\t\t\tally=/
