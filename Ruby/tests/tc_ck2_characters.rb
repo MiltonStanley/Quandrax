@@ -15,7 +15,7 @@ end
 class TC_CK2Characters < Test::Unit::TestCase
 
     def test_creation  # We are getting the correct ID and name for chaplains
-      assert $CK2_CHARACTERS.instance_of? CK2_Characters
+      assert $CK2_CHARACTERS.instance_of?(CK2_Characters), "Failed to create CK2_Characters variable"
     end
 
     def test_setting_pope_id
@@ -23,7 +23,7 @@ class TC_CK2Characters < Test::Unit::TestCase
     end
 
     def test_papal_relations_length
-      assert_equal 293, $CK2_CHARACTERS.papal_relations.length
+      assert $CK2_CHARACTERS.papal_relations.length > 0, "Failed to add characters to papal relations list"
     end
 
 end

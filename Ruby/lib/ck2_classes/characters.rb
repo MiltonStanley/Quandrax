@@ -18,6 +18,8 @@ class CK2_Characters
     if is_section_header?(line)
       # Do nothing
     elsif is_character_header?(line)
+      last_character = @characters.last
+      (@papal_relations[last_character.id] = 0 if !last_character.friend_of_pope) unless last_character.nil?
       @characters << A_Character.new(line, @pope_id)
     else
       @characters.last.add(line, @papal_relations)
@@ -42,7 +44,7 @@ end
 ###############################
 
 class A_Character
-  attr_accessor :id, :relations_to_pope
+  attr_accessor :id, :relations_to_pope, :friend_of_pope
 
   def initialize(line, pope_id)
     @id, _ = line.strip.split("=",2)
