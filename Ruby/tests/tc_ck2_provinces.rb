@@ -62,4 +62,16 @@ class TC_CK2Provinces < Test::Unit::TestCase
     end
   end
 
+  def test_max_settlements
+    max_settlements = { 1 => '2' , 170 => '4', 685 => '5'}
+    $CK2_PROVINCES.provinces.each do |a_province|
+      next if a_province.nil?
+      if max_settlements[a_province.ck2_id]
+        expected = max_settlements[a_province.ck2_id]
+        actual = a_province.max_settlements
+        assert_equal expected, actual
+      end
+    end
+  end
+
 end
