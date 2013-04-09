@@ -14,9 +14,13 @@ end
 
 class TC_CK2_Titles < Test::Unit::TestCase
 
-    def test_creation  # We are getting the correct ID and name for chaplains
+    def test_creation
       assert $CK2_TITLES.instance_of?(CK2_Titles), 
         "Failed to create CK2_Titles variable"
+    end
+
+    def test_hre_id
+      assert_equal  '1316', $CK2_TITLES.hre_id
     end
 
 end
