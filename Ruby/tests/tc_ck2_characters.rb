@@ -77,4 +77,16 @@ class TC_CK2Characters < Test::Unit::TestCase
       puts "#{total_alive} alive of #{$CK2_CHARACTERS.characters.length} total"
     end
 
+    def test_friends_of_pope
+      allies = { '100600' => 400, '140' => 347, '522' => 192}
+      $CK2_CHARACTERS.characters.each do |a_character|
+        if allies[a_character.id]
+          expected = allies[a_character.id]
+          actual = a_character.papal_relation_value
+        assert expected == actual, "Expected papal relation level of #{
+        expected} for character #{a_character.id}, got #{actual} instead"
+        end
+      end
+    end
+
 end

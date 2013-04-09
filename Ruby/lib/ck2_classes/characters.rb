@@ -45,7 +45,8 @@ end
 
 class A_Character
   attr_accessor :id, :relations_to_pope, :friend_of_pope, 
-  :birth_name, :employer, :job_title, :alive
+  :birth_name, :employer, :job_title, :alive, 
+  :papal_relation_value
 
   def initialize(line, pope_id)
     @id, _ = line.strip.split("=",2)
@@ -53,6 +54,7 @@ class A_Character
     @reading_ally = false
     @friend_of_pope = false
     @alive = true
+    @papal_relation_value = 0  # Start with no relations
   end
 
   def add(line, papal_relations)
@@ -61,15 +63,15 @@ class A_Character
     @employer = val.gsub('"','') if is_employer?(key)
     @job_title = val.gsub('"','') if is_job_title?(key)
     @alive = false if is_dead?(key)
-    @reading_ally = true if is_ally_header?(line)
-    @reading_ally = false if is_enemy_header?(line)
-    @friend_of_pope = true if @reading_ally && is_pope_id?(line)
+    @reading_ally = true if is_ally_header?(line) # Line has "ally="
+    @reading_ally = false if is_enemy_header?(line) # Line has "enemy=" which is AFTER allies
+    @friend_of_pope = true if @reading_ally && is_pope_id?(line) # In ally section, id is pope's
     add_papal_ally(line, papal_relations) if is_relation_value?(line) && @friend_of_pope
   end
 
   def add_papal_ally(line, papal_relations_list)
     _, value = split_key_value(line)
-    papal_relations_list[@id] = value.to_i
+    @papal_relation_value = value.to_i
     @friend_of_pope = false
   end  
 
