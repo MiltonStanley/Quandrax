@@ -64,7 +64,9 @@ class TC_CK2Characters < Test::Unit::TestCase
 
     def test_alive
       alive = { '70556' => false, '140' => true, '502636' => true }
+      total_alive = 0
       $CK2_CHARACTERS.characters.each do |a_character|
+        total_alive += 1 if a_character.alive
         if alive[a_character.id]
           expected = alive[a_character.id]
           actual = a_character.alive
@@ -72,6 +74,7 @@ class TC_CK2Characters < Test::Unit::TestCase
         a_character.id}, got #{actual} instead"
         end
       end
+      puts "#{total_alive} alive of #{$CK2_CHARACTERS.characters.length} total"
     end
 
 end
