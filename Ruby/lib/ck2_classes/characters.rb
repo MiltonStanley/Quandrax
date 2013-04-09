@@ -45,7 +45,7 @@ end
 
 class A_Character
   attr_accessor :id, :relations_to_pope, :friend_of_pope, 
-  :birth_name, :employer
+  :birth_name, :employer, :job_title
 
   def initialize(line, pope_id)
     @id, _ = line.strip.split("=",2)
@@ -58,6 +58,7 @@ class A_Character
     key, val = split_key_value(line)
     @birth_name = val.gsub('"','') if is_birth_name?(key)
     @employer = val.gsub('"','') if is_employer?(key)
+    @job_title = val.gsub('"','') if is_job_title?(key)
     @reading_ally = true if is_ally_header?(line)
     @reading_ally = false if is_enemy_header?(line)
     @friend_of_pope = true if @reading_ally && is_pope_id?(line)
@@ -76,6 +77,10 @@ class A_Character
 
   def is_employer?(key)
     key =~ /^\t+(employer)/
+  end
+
+  def is_job_title?(key)
+    key =~ /^\t+(job_title)/
   end
 
   def is_ally_header?(line)

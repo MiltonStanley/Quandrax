@@ -50,4 +50,16 @@ class TC_CK2Characters < Test::Unit::TestCase
       end
     end
 
+    def test_job_title
+      job_titles = { '70556' => nil, '140' => 'job_marshal', '502636' => "job_chancellor" }
+      $CK2_CHARACTERS.characters.each do |a_character|
+        if job_titles[a_character.id]
+          expected = job_titles[a_character.id]
+          actual = a_character.job_title
+        assert expected == actual, "Expected job title #{expected} for character #{
+        a_character.id}, got #{actual} instead"
+        end
+      end
+    end
+
 end
