@@ -74,4 +74,16 @@ class TC_CK2Provinces < Test::Unit::TestCase
     end
   end
 
+  def test_titles
+    titles = { 1 => 'c_vestisland' , 170 => 'c_denia', 685 => 'c_kurdistan'}
+    $CK2_PROVINCES.provinces.each do |a_province|
+      next if a_province.nil?
+      if titles[a_province.ck2_id]
+        expected = titles[a_province.ck2_id]
+        actual = a_province.title
+        assert_equal expected, actual
+      end
+    end
+  end
+
 end
