@@ -100,5 +100,19 @@ class TC_CK2Provinces < Test::Unit::TestCase
     end
   end
 
+  def test_tech_progress
+    tech_progress = { 1 => '9 2 0 5 8 4 5 5 6 6 9 9 6 9 2 3 1 6 5 5 9 6 4 5' , 
+                    170 => '8 2 6 9 1 0 6 6 2 4 8 0 5 0 7 9 9 8 5 0 5 4 3 7', 
+                    685 => '7 3 7 7 7 0 4 7 6 5 2 8 3 9 2 2 8 9 0 0 4 5 5 1'}
+    $CK2_PROVINCES.provinces.each do |a_province|
+      next if a_province.nil?
+      if tech_progress[a_province.ck2_id]
+        expected = tech_progress[a_province.ck2_id]
+        actual = a_province.tech_progress
+        assert_equal expected, actual
+      end
+    end
+  end
+
 
 end
