@@ -7,3 +7,4 @@ end
 require './tests/tc_ck2_header'
 require './tests/tc_ck2_dynasties'
 require './tests/tc_ck2_characters'
+require './tests/tc_ck2_id'
