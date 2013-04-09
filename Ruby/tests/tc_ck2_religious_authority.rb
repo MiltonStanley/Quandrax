@@ -2,7 +2,7 @@
 #
 # This assumes WilliamBeginning.ck2 testfile
 #
-# This Global Object: $CK2_DYNASTIES
+# This Global Object: $CK2_RELIGIOUS_AUTHORITY
 #
 ##############################################
 
