@@ -45,13 +45,14 @@ end
 
 class A_Character
   attr_accessor :id, :relations_to_pope, :friend_of_pope, 
-  :birth_name, :employer, :job_title
+  :birth_name, :employer, :job_title, :alive
 
   def initialize(line, pope_id)
     @id, _ = line.strip.split("=",2)
     @pope_id = pope_id
     @reading_ally = false
     @friend_of_pope = false
+    @alive = true
   end
 
   def add(line, papal_relations)
@@ -59,6 +60,7 @@ class A_Character
     @birth_name = val.gsub('"','') if is_birth_name?(key)
     @employer = val.gsub('"','') if is_employer?(key)
     @job_title = val.gsub('"','') if is_job_title?(key)
+    @alive = false if is_dead?(key)
     @reading_ally = true if is_ally_header?(line)
     @reading_ally = false if is_enemy_header?(line)
     @friend_of_pope = true if @reading_ally && is_pope_id?(line)
@@ -81,6 +83,10 @@ class A_Character
 
   def is_job_title?(key)
     key =~ /^\t+(job_title)/
+  end
+
+  def is_dead?(key)
+    key =~ /^\t+(death_date)/
   end
 
   def is_ally_header?(line)
