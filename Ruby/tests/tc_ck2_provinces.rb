@@ -19,4 +19,11 @@ class TC_CK2Provinces < Test::Unit::TestCase
             "Failed to create CK2_Provincess variable"
     end
 
+    def test_provincesid_matches_each_province_id
+      $CK2_PROVINCES.provinces.each_index do |index|
+        next if $CK2_PROVINCES.provinces[index].nil?
+        assert_equal index, $CK2_PROVINCES.provinces[index].ck2_id.to_i
+      end
+    end
+
 end
