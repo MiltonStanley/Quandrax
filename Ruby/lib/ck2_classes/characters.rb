@@ -57,6 +57,7 @@ class A_Character
   def add(line, papal_relations)
     key, val = split_key_value(line)
     @birth_name = val.gsub('"','') if is_birth_name?(key)
+    @employer = val.gsub('"','') if is_employer?(key)
     @reading_ally = true if is_ally_header?(line)
     @reading_ally = false if is_enemy_header?(line)
     @friend_of_pope = true if @reading_ally && is_pope_id?(line)
@@ -71,6 +72,10 @@ class A_Character
 
   def is_birth_name?(key)
     key =~ /^\t+(birth_name)/
+  end
+
+  def is_employer?(key)
+    key =~ /^\t+(employer)/
   end
 
   def is_ally_header?(line)
