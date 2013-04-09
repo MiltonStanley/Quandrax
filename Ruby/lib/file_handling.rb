@@ -55,6 +55,7 @@ def make_classes
   $CK2_DYNASTIES = CK2_Dynasties.new
   $CK2_CHARACTERS = CK2_Characters.new($POPE)
   $CK2_ID = CK2_ID.new
+  $CK2_RELIGIOUS_AUTHORITY = CK2_Religious_Authority.new
   $CK2_TITLES = CK2_Titles.new($HRE)
   $CK2_PROVINCES = CK2_Provinces.new
 end
