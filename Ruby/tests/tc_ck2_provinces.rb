@@ -50,4 +50,16 @@ class TC_CK2Provinces < Test::Unit::TestCase
     end
   end
 
+  def test_religions
+    religions = { 1 => 'catholic' , 170 => 'sunni', 685 => 'sunni'}
+    $CK2_PROVINCES.provinces.each do |a_province|
+      next if a_province.nil?
+      if religions[a_province.ck2_id]
+        expected = religions[a_province.ck2_id]
+        actual = a_province.religion
+        assert_equal expected, actual
+      end
+    end
+  end
+
 end
