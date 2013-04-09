@@ -38,4 +38,16 @@ class TC_CK2Provinces < Test::Unit::TestCase
       end
     end
 
+    def test_cultures
+      cultures = { 1 => 'norwegian' , 170 => 'andalusian_arabic', 685 => 'kurdish'}
+      $CK2_PROVINCES.provinces.each do |a_province|
+        next if a_province.nil?
+        if cultures[a_province.ck2_id]
+          expected = cultures[a_province.ck2_id]
+          actual = a_province.culture
+          assert_equal expected, actual
+        end
+      end
+    end
+
 end
