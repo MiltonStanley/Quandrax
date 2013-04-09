@@ -89,4 +89,16 @@ class TC_CK2Characters < Test::Unit::TestCase
       end
     end
 
+    def test_papal_relations_hash
+      relations = { '100600' => 400, '140' => 347, '522' => 192, '9955' => 0 }
+      $CK2_CHARACTERS.characters.each do |a_character|
+        if relations[a_character.id]
+          expected = relations[a_character.id]
+          actual = $CK2_CHARACTERS.papal_relations[a_character.id]
+        assert expected == actual, "Expected papal_relations hash to have level of #{
+        expected} for character #{a_character.id}, got #{actual} instead"
+        end
+      end
+    end
+
 end

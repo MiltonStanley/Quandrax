@@ -19,7 +19,7 @@ class CK2_Characters
       # Do nothing
     elsif is_character_header?(line)
       last_character = @characters.last
-      (@papal_relations[last_character.id] = 0 if !last_character.friend_of_pope) unless last_character.nil?
+      @papal_relations[last_character.id] = last_character.papal_relation_value unless last_character.nil?
       @characters << A_Character.new(line, @pope_id)
     else
       @characters.last.add(line, @papal_relations)
