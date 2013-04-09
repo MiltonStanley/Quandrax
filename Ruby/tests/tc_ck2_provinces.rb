@@ -87,9 +87,9 @@ class TC_CK2Provinces < Test::Unit::TestCase
   end
 
   def test_tech_level
-  tech_levels = { 1 => '0 1 1 0 0 1 0 0 0 0 0 0 0 0 1 1 1 0 1 0 0 0 1 0' , 
-                170 => '0 1 0 0 1 1 1 1 2 2 2 2 2 2 2 1 1 2 2 2 2 2 2 2', 
-                685 => '0 1 1 0 0 1 1 1 2 2 2 2 2 2 2 2 2 1 2 3 2 2 2 2'}
+    tech_levels = { 1 => '0 1 1 0 0 1 0 0 0 0 0 0 0 0 1 1 1 0 1 0 0 0 1 0' , 
+                  170 => '0 1 0 0 1 1 1 1 2 2 2 2 2 2 2 1 1 2 2 2 2 2 2 2', 
+                  685 => '0 1 1 0 0 1 1 1 2 2 2 2 2 2 2 2 2 1 2 3 2 2 2 2'}
     $CK2_PROVINCES.provinces.each do |a_province|
       next if a_province.nil?
       if tech_levels[a_province.ck2_id]
