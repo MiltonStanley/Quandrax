@@ -5,13 +5,14 @@
 # MOST Important stuff is passed to the A_Character class Below
 
 class CK2_Characters
-  attr_accessor :pope_id, :papal_relations, :characters
+  attr_accessor :pope_id, :papal_relations, :characters, :chaplain_index
   
   def initialize(pope)
     puts "Reading CK2 characters..."
     @pope_id = pope
     @papal_relations = Hash.new  # Key=id, Value=...value...
     @characters = Array.new
+    @chaplain_index = Hash.new  # Key = MASTER, value = chaplain id
   end
 
   def add(line)
@@ -19,7 +20,10 @@ class CK2_Characters
       # Do nothing
     elsif is_character_header?(line)
       last_character = @characters.last
-      @papal_relations[last_character.id] = last_character.papal_relation_value unless last_character.nil?
+      unless last_character.nil?
+        @papal_relations[last_character.id] = last_character.papal_relation_value
+        @chaplain_index[last_character.employer] = last_character.id if last_character.job_title == 'job_spiritual'
+      end
       @characters << A_Character.new(line, @pope_id)
     else
       @characters.last.add(line, @papal_relations)
