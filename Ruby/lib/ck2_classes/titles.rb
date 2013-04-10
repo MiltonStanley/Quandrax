@@ -12,6 +12,7 @@ class CK2_Titles
     @hre_id = hre
     @hre_titles = Array.new   # Holds all titles of the Emperor of the HRE
     @titles = Hash.new   # Array of all the titles
+    @liege_index = Hash.new
     @last_title = nil
   end
 

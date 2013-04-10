@@ -88,6 +88,10 @@ class TC_CK2_Titles < Test::Unit::TestCase
       end
     end
 
+    def test_liege_index_creation
+      assert $CK2_TITLES.liege_index.length > 0
+    end
+
     def test_liege_index
       lieges = {'d_osterreich' => 'e_hre', 'b_furth' => 'c_nurnberg', 
                 'c_orbetello' => 'k_papal_state', 'b_alsalihiyah' => 'c_pelusia'
@@ -98,5 +102,5 @@ class TC_CK2_Titles < Test::Unit::TestCase
         end
       end
     end
-    
+
 end
