@@ -5,7 +5,7 @@
 # MOST Important stuff is passed to the A_Title class Below
 
 class CK2_Titles
-  attr_accessor :hre_id, :hre_titles, :titles, :liege_index
+  attr_accessor :hre_id, :hre_titles, :titles, :liege_index, :holder_index
 
   def initialize(hre)
     puts "Reading CK2 titles..."
@@ -13,6 +13,7 @@ class CK2_Titles
     @hre_titles = Array.new   # Holds all titles of the Emperor of the HRE
     @titles = Hash.new   # Array of all the titles
     @liege_index = Hash.new
+    @holder_index = Hash.new
     @last_title = nil
   end
 
