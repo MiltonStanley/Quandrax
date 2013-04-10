@@ -89,7 +89,8 @@ class TC_CK2_Titles < Test::Unit::TestCase
     end
 
     def test_liege_index_creation
-      assert $CK2_TITLES.liege_index.length > 0
+      assert $CK2_TITLES.liege_index.length > 0,
+        'Expected liege_index size to be greater than 0'
     end
 
     def test_liege_index
