@@ -59,7 +59,8 @@ class TC_CK2_Titles < Test::Unit::TestCase
     end
 
     def test_succession_laws
-      succession_laws = {'k_england' => 'primogeniture', 'e_hre' => 'feudal_elective', 'e_timurids' => 'turkish_succession'}
+      succession_laws = {'k_england' => 'primogeniture', 'e_hre' => 'feudal_elective', 
+                        'e_timurids' => 'turkish_succession', 'd_northumberland' => 'gavelkind'}
       $CK2_TITLES.titles.each do |title, a_title|
         if succession_laws[title]
           assert_equal succession_laws[title], a_title.succession_law
