@@ -88,4 +88,15 @@ class TC_CK2_Titles < Test::Unit::TestCase
       end
     end
 
+    def test_liege_index
+      lieges = {'d_osterreich' => 'e_hre', 'b_furth' => 'c_nurnberg', 
+                'c_orbetello' => 'k_papal_state', 'b_alsalihiyah' => 'c_pelusia'
+                }
+      $CK2_TITLES.liege_index.each do |vassal, liege|
+        if lieges[vassal]
+          assert_equal lieges[vassal], liege_index[vassal]
+        end
+      end
+    end
+    
 end
