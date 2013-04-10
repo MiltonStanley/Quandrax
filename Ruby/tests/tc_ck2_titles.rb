@@ -99,7 +99,7 @@ class TC_CK2_Titles < Test::Unit::TestCase
                 }
       $CK2_TITLES.liege_index.each do |vassal, liege|
         if lieges[vassal]
-          assert_equal lieges[vassal], liege_index[vassal]
+          assert_equal lieges[vassal], $CK2_TITLES.liege_index[vassal]
         end
       end
     end
