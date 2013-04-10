@@ -68,4 +68,14 @@ class TC_CK2_Titles < Test::Unit::TestCase
       end
     end
 
+    def test_gender_laws
+      gender_laws = {'k_england' => 'agnatic', 'e_hre' => 'agnatic', 
+                    'e_timurids' => 'agnatic', 'd_northumberland' => 'cognatic' }
+      $CK2_TITLES.titles.each do |title, a_title|
+        if gender_laws[title]
+          assert_equal gender_laws[title], a_title.gender_law
+        end
+      end
+    end
+    
 end
