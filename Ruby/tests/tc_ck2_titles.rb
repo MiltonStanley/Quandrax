@@ -31,4 +31,13 @@ class TC_CK2_Titles < Test::Unit::TestCase
       assert_equal hre_titles, $CK2_TITLES.hre_titles
     end
 
+    def test_names_match_titles_key
+      $CK2_TITLES.titles.each do |title, a_title|
+        assert_equal title, a_title.name
+      end
+      assert $CK2_TITLES.titles['e_hre'].name == 'e_hre'
+    end
+
+
+
 end
