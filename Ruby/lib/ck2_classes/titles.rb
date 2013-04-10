@@ -19,7 +19,10 @@ class CK2_Titles
 
   def add(line)
     if is_title_header?(line)
-      @liege_index[@last_title] = @titles[@last_title].liege unless @last_title.nil?
+    unless @last_title.nil?
+      @liege_index[@last_title] = @titles[@last_title].liege
+      @holder_index[@last_title] = @titles[@last_title].holder_id
+    end
       @last_title = line.chop
       @titles[@last_title] = A_Title.new(@last_title)
     else
