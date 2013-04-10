@@ -23,4 +23,12 @@ class TC_CK2_Titles < Test::Unit::TestCase
       assert_equal  '1316', $CK2_TITLES.hre_id
     end
 
+    def test_hre_titles
+      hre_titles = %w[e_hre c_nassau b_nassau d_franconia
+                      c_leiningen b_leiningen c_wurzburg
+                      b_schweinfurt c_bamberg b_babenberg
+                      ]
+      assert_equal hre_titles, $CK2_TITLES.hre_titles
+    end
+
 end

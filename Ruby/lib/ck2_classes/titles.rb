@@ -11,14 +11,16 @@ class CK2_Titles
     puts "Reading CK2 titles..."
     @hre_id = hre
     @hre_titles = Array.new   # Holds all titles of the Emperor of the HRE
-    @titles = Array.new   # Array of all the titles
+    @titles = Hash.new   # Array of all the titles
+    @last_title = nil
   end
 
   def add(line)
     if is_title_header?(line)
-      @titles << A_Title.new(line.chop)
+      @last_title = line.chop
+      @titles[@last_title] = A_Title.new(@last_title)
     else
-      @titles.last.add(line, @hre_titles)  # Passes it on to A_Title's add
+      @titles[@last_title].add(line, @hre_titles)  # Passes it on to A_Title's add
     end
   end
 
