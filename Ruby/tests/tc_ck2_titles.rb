@@ -42,7 +42,7 @@ class TC_CK2_Titles < Test::Unit::TestCase
       holder_ids = { 'c_boulogne' => '20142', 'k_england' => '122', 'd_osterreich' => '7200' }
       $CK2_TITLES.titles.each do |title, a_title|
         if holder_ids[title]
-          assert_equal a_title.holder_id, holder_ids[title]
+          assert_equal holder_ids[title], a_title.holder_id
         end
       end
     end
@@ -53,7 +53,7 @@ class TC_CK2_Titles < Test::Unit::TestCase
                 }
       $CK2_TITLES.titles.each do |title, a_title|
         if lieges[title]
-          assert_equal a_title.liege, lieges[title]
+          assert_equal lieges[title], a_title.liege
         end
       end
     end
