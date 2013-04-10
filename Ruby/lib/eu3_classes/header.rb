@@ -1,6 +1,6 @@
 class EU3_Header
 
-  attr_accessor :date
+  attr_accessor :date, :tag
 
   def initialize(ck2_class)
     puts "Creating EU3 Header section"
