@@ -47,4 +47,15 @@ class TC_CK2_Titles < Test::Unit::TestCase
       end
     end
 
+    def test_lieges
+      lieges = {'d_osterreich' => 'e_hre', 'b_furth' => 'c_nurnberg', 
+                'c_orbetello' => 'k_papal_state', 'b_alsalihiyah' => 'c_pelusia'
+                }
+      $CK2_TITLES.titles.each do |title, a_title|
+        if lieges[title]
+          assert_equal a_title.liege, lieges[title]
+        end
+      end
+    end
+
 end
