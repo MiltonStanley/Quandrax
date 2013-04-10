@@ -109,4 +109,15 @@ class TC_CK2_Titles < Test::Unit::TestCase
         'Expected holder_index size to be greater than 0'
     end
 
+    def test_holder_index
+      holders = {'d_osterreich' => '7200', 'b_furth' => '500650', 
+                'c_orbetello' => '2008', 'b_alsalihiyah' => '501589'
+                }
+      $CK2_TITLES.holder_index.each do |title, holder|
+        if holders[title]
+          assert_equal holders[title], $CK2_TITLES.holder_index[title]
+        end
+      end
+    end
+
 end
