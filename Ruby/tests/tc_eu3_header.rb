@@ -21,5 +21,9 @@ class TC_EU3_HEADER < Test::Unit::TestCase
   def test_date
     assert_equal '1066.9.15', $EU3_HEADER.date
   end
+
+  def test_tag
+    assert_equal 'NRM', $EU3_HEADER.tag
+  end
   
 end
