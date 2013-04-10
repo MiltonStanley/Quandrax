@@ -104,4 +104,9 @@ class TC_CK2_Titles < Test::Unit::TestCase
       end
     end
 
+    def test_holder_index_creation
+      assert $CK2_TITLES.holder_index.length > 0,
+        'Expected holder_index size to be greater than 0'
+    end
+
 end
