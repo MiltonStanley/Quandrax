@@ -18,5 +18,8 @@ class TC_EU3_HEADER < Test::Unit::TestCase
     assert $EU3_HEADER.instance_of?(EU3_Header), 'Failed to create EU3 header'
   end
 
+  def test_date
+    assert_equal '1066.9.15', $EU3_HEADER.date
+  end
   
 end
