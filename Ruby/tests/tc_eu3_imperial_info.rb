@@ -19,4 +19,8 @@ class TC_EU3_Imperial_Info < Test::Unit::TestCase
       'Failed to create EU3_Imperial_Info object'
   end
 
+  def test_hre_id
+    assert_equal '1316', $EU3_IMPERIAL_INFO.hre_id
+  end
+
 end
