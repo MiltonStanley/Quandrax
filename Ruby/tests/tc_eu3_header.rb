@@ -43,5 +43,9 @@ class TC_EU3_HEADER < Test::Unit::TestCase
                 }
     assert_equal expected, $EU3_HEADER.gameplay_settings
   end
+
+  def test_start_date
+    assert_equal '1066.9.15', $EU3_HEADER.start_date
+  end
   
 end
