@@ -128,7 +128,7 @@ class TC_CK2_Titles < Test::Unit::TestCase
     def test_last_holder
       expected = { 'e_hre' => '1314', 'k_england' => '114'}
       expected.each do |title, holder|
-        assert_equal holder, $CK2_TITLES.titles[title].test_last_holder
+        assert_equal holder, $CK2_TITLES.titles[title].last_holder
       end
     end
 
