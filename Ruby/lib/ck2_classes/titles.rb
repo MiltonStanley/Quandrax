@@ -5,7 +5,8 @@
 # MOST Important stuff is passed to the A_Title class Below
 
 class CK2_Titles
-  attr_accessor :hre_id, :hre_titles, :titles, :liege_index, :holder_index
+  attr_accessor :hre_id, :hre_titles, :titles, :liege_index, 
+                :holder_index, :last_hre
 
   def initialize(hre)
     puts "Reading CK2 titles..."
