@@ -141,8 +141,8 @@ class TC_CK2_Titles < Test::Unit::TestCase
       assert_equal '90095', dummy.last_holder
     end
 
-    def test_trigger_history
-      assert_equal true, $CK2_TITLES.titles['e_hre'].history
+    def test_last_holder
+      assert_equal '1314', $CK2_TITLES.titles['e_hre'].last_holder
     end
 
 end
