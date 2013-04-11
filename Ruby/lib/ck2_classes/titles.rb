@@ -46,13 +46,14 @@ end
 class A_Title
 
   attr_accessor :name, :holder_id, :liege, :succession_law, :gender_law, 
-                :de_jure_liege, :history
+                :de_jure_liege, :history, :last_holder
 
   def initialize(name)
     @name = name
     @laws = Array.new
     @holder_id = String.new
     @history = false # Toggles true when we get to history section
+    @last_holder = String.new
   end
 
   def add(line, hre_titles)
