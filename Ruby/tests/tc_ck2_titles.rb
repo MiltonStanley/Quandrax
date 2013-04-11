@@ -125,20 +125,24 @@ class TC_CK2_Titles < Test::Unit::TestCase
       assert_equal true, $CK2_TITLES.titles['k_england'].history
     end
 
-    def test_triggering_holder
+    def test_dummy_triggering_history
       hre_titles = ['e_hre', 'd_franconia']
-      test = A_Title.new('e_hre')
-      test.add("\thistory=\n", hre_titles)
-      assert_equal true, test.history
+      dummy = A_Title.new('e_hre')
+      dummy.add("\thistory=\n", hre_titles)
+      assert_equal true, dummy.history
     end
 
-    def test_last_holder
+    def test_dummy_last_holder
       hre_titles = ['e_hre', 'd_franconia']
       lines = ["\thistory=", "\t{", "\t\t768.9.24=", "\t\t{", "\t\tholder=6392",
       "\t\t}", "\t\t814.1.28=", "\t\t{", "\t\tholder=90095", "\t\t}"]
-      test = A_Title.new('e_hre')
-      lines.each { |line| test.add(line, hre_titles) }
-      assert_equal '90095', test.last_holder
+      dummy = A_Title.new('e_hre')
+      lines.each { |line| dummy.add(line, hre_titles) }
+      assert_equal '90095', dummy.last_holder
+    end
+
+    def test_trigger_history
+      assert_equal true, $CK2_TITLES.titles['e_hre'].history
     end
 
 end
