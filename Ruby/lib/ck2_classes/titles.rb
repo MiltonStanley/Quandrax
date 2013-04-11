@@ -53,7 +53,7 @@ class A_Title
     @laws = Array.new
     @holder_id = String.new
     @history = false # Toggles true when we get to history section
-    @last_holder = String.new
+    @last_holder = false
   end
 
   def add(line, hre_titles)
@@ -72,7 +72,7 @@ class A_Title
   end
 
   def is_holder?(key)
-    key =~ /^\t+(holder)/
+    key =~ /^\t\t(holder)/
   end
 
   def is_history_header?(line)
