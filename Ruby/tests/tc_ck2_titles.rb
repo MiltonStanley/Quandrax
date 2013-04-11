@@ -143,6 +143,9 @@ class TC_CK2_Titles < Test::Unit::TestCase
 
     def test_last_holder
       assert_equal '1314', $CK2_TITLES.titles['e_hre'].last_holder
+      assert_equal '114', $CK2_TITLES.titles['k_england'].last_holder
+      assert_equal '91324', $CK2_TITLES.titles['c_bourges'].last_holder
     end
+
 
 end

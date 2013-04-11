@@ -68,7 +68,9 @@ class A_Title
     add_law(value) if is_law?(key)
     @de_jure_liege = value.gsub('"','') if is_de_jure_liege?(key)
     @history = true if is_history_header?(line)
-    @last_holder = value.gsub('"','') if is_historic_holder?(line)
+    if is_historic_holder?(line) && @history
+      @last_holder = value.gsub('"','') unless value.gsub('"','') == @holder_id
+    end
   end
 
   def is_historic_holder?(key)
