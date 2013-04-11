@@ -36,4 +36,8 @@ class TC_EU3_Imperial_Info < Test::Unit::TestCase
     assert_equal expected, $EU3_IMPERIAL_INFO.hre_tag
   end
 
+  def test_old_emperor
+    assert $EU3_IMPERIAL_INFO.old_emperor = '1314'
+  end
+
 end
