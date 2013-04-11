@@ -123,9 +123,9 @@ class TC_CK2_Titles < Test::Unit::TestCase
     def test_setting_hre_history
       assert_equal true, $CK2_TITLES.titles['e_hre'].hre_history
     end
-    
-    def test_last_hre
-      assert_equal '1314', $CK2_TITLES.last_hre
+
+    def test_last_holder
+      assert_equal '1314', $CK2_TITLES.titles['e_hre'].last_hre
     end
 
 end

@@ -6,7 +6,7 @@
 
 class CK2_Titles
   attr_accessor :hre_id, :hre_titles, :titles, :liege_index, 
-                :holder_index, :last_hre
+                :holder_index
 
   def initialize(hre)
     puts "Reading CK2 titles..."
@@ -46,13 +46,13 @@ end
 class A_Title
 
   attr_accessor :name, :holder_id, :liege, :succession_law, :gender_law, 
-                :de_jure_liege, :hre_history
+                :de_jure_liege, :history
 
   def initialize(name)
     @name = name
     @laws = Array.new
     @holder_id = String.new
-    @hre_history = false # Toggles true when we get to history section
+    @history = false # Toggles true when we get to history section
   end
 
   def add(line, hre_titles)
@@ -66,7 +66,7 @@ class A_Title
     @gender_law = value if is_gender_law?(key)
     add_law(value) if is_law?(key)
     @de_jure_liege = value.gsub('"','') if is_de_jure_liege?(key)
-    @hre_history = true if is_history_header?(line)
+    @history = true if is_history_header?(line)
   end
 
   def is_history_header?(line)
