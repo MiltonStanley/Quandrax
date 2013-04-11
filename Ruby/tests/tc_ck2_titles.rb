@@ -139,7 +139,7 @@ class TC_CK2_Titles < Test::Unit::TestCase
               ]
       test = A_Title.new('e_hre')
       lines.each { |line| test.add(line, hre_titles) }
-      assert_equal test.last_holder, '90095'
+      assert_equal '90095', test.last_holder
     end
 
 end
