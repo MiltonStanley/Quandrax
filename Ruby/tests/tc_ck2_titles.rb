@@ -134,9 +134,8 @@ class TC_CK2_Titles < Test::Unit::TestCase
 
     def test_last_holder
       hre_titles = ['e_hre', 'd_franconia']
-      lines = %w[history= { 768.9.24= { holder=6392 } 814.1.28=
-                { holder=90095 }
-              ]
+      lines = ["\thistory=", "\t{", "\t\t768.9.24=", "\t\t{", "\t\tholder=6392",
+      "\t\t}", "\t\t814.1.28=", "\t\t{", "\t\tholder=90095", "\t\t}"]
       test = A_Title.new('e_hre')
       lines.each { |line| test.add(line, hre_titles) }
       assert_equal '90095', test.last_holder
