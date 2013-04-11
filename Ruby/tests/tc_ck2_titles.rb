@@ -120,4 +120,8 @@ class TC_CK2_Titles < Test::Unit::TestCase
       end
     end
 
+    def test_setting_hre_history
+      assert_equal true, $CK2_TITLES.titles['e_hre'].hre_history
+    end
+
 end
