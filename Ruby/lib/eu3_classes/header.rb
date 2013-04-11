@@ -1,6 +1,6 @@
 class EU3_Header
 
-  attr_accessor :date, :tag
+  attr_accessor :date, :tag, :gameplay_settings, :start_date
 
   def initialize(ck2_class)
     puts "Creating EU3 Header section"

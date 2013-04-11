@@ -25,5 +25,23 @@ class TC_EU3_HEADER < Test::Unit::TestCase
   def test_tag
     assert_equal 'NRM', $EU3_HEADER.tag
   end
+
+  def test_gameplay_settings
+    expected =  {'advisors' => '0',
+                'leaders' => '0',
+                'colonists' => '0',
+                'merchants' => '0',
+                'missionaries' => '0',
+                'inflation' => '0', 
+                'size of colonists' => '0', 
+                'difficulty' => '2', 
+                'ai aggressiveness' => '0',
+                'spread of land provinces' => '1', 
+                'spread of sea provinces' => '0', 
+                'spies' => '0',
+                'lucky nation' => '0'
+                }
+    assert_equal expected, $EU3_HEADER.gameplay_settings
+  end
   
 end
