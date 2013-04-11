@@ -5,13 +5,13 @@ class EU3_Imperial_Information
     puts "Creating EU3 Imperial Information section"
     @hre_id = ck2_titles.hre_id
     @hre_titles = ck2_titles.hre_titles
+    @hre_tag = get_hre_id_tag(@hre_titles)
   end
 
   def write(location)
-    hre_tag = get_hre_id_tag(@hre_titles)
     location.puts "emperor=\"#{hre_tag}\""
     location.puts "imperial_influence=20.000\ninternal_hre_cb=yes"
-    location.puts "old_emperor=\n{\nid=2338\ncountry=\"#{hre_tag}\""
+    location.puts "old_emperor=\n{\nid=2338\ncountry=\"#{@hre_tag}\""
     location.puts "date=#{get_date($EU3_HEADER.date)}\n}"    
   end
 
