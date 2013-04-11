@@ -31,4 +31,9 @@ class TC_EU3_Imperial_Info < Test::Unit::TestCase
     assert_equal expected, $EU3_IMPERIAL_INFO.hre_titles
   end
 
+  def test_hre_tag
+    expected = 'WUR'
+    assert_equal expected, $EU3_IMPERIAL_INFO.hre_tag
+  end
+
 end
