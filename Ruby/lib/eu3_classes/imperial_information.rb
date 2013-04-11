@@ -9,7 +9,7 @@ class EU3_Imperial_Information
   end
 
   def write(location)
-    location.puts "emperor=\"#{hre_tag}\""
+    location.puts "emperor=\"#{@hre_tag}\""
     location.puts "imperial_influence=20.000\ninternal_hre_cb=yes"
     location.puts "old_emperor=\n{\nid=2338\ncountry=\"#{@hre_tag}\""
     location.puts "date=#{get_date($EU3_HEADER.date)}\n}"    
