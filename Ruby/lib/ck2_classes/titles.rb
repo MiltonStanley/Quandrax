@@ -71,10 +71,6 @@ class A_Title
     @last_holder = value.gsub('"','') if set_holder?(key, value)
   end
 
-  def set_holder?(key, value)
-    @history && is_holder?(key) && value.gsub('"','') != @holder_id
-  end
-
   def is_holder?(key)
     key =~ /^\t+(holder)/
   end

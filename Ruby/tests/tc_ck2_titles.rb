@@ -125,11 +125,4 @@ class TC_CK2_Titles < Test::Unit::TestCase
       assert_equal true, $CK2_TITLES.titles['k_england'].history
     end
 
-    def test_last_holder
-      expected = { 'e_hre' => '1314', 'k_england' => '114'}
-      expected.each do |title, holder|
-        assert_equal holder, $CK2_TITLES.titles[title].last_holder
-      end
-    end
-
 end
