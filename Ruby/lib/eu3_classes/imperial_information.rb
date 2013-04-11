@@ -1,5 +1,5 @@
 class EU3_Imperial_Information
-  attr_accessor :hre_id, :hre_titles, :hre_tag
+  attr_accessor :hre_id, :hre_titles, :hre_tag, :old_emperor
 
   def initialize(ck2_titles)
     puts "Creating EU3 Imperial Information section"
