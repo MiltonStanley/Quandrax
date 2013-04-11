@@ -125,4 +125,11 @@ class TC_CK2_Titles < Test::Unit::TestCase
       assert_equal true, $CK2_TITLES.titles['k_england'].history
     end
 
+    def test_triggering_holder
+      hre_titles = ['e_hre', 'd_franconia']
+      test = A_Title.new('e_hre')
+      test.add("\thistory=\n", hre_titles)
+      assert_equal true, test.history
+    end
+
 end
