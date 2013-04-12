@@ -65,18 +65,15 @@ class TC_CK2Characters < Test::Unit::TestCase
         assert_equal expected, actual
       end
     end
-=begin
+
     def test_papal_relations_hash
-      relations = { '100600' => 400, '140' => 347, '522' => 192, '9955' => 0 }
-      $CK2_CHARACTERS.characters.each do |a_character|
-        if relations[a_character.id]
-          expected = relations[a_character.id]
-          actual = $CK2_CHARACTERS.papal_relations[a_character.id]
-        assert expected == actual, "Expected papal_relations hash to have level of #{
-        expected} for character #{a_character.id}, got #{actual} instead"
-        end
+      relations = { '106000' => 400, '140' => 347, '522' => 192, '9955' => 0 }
+      relations.each do |id, expected|
+        actual = $CK2_CHARACTERS.papal_relations[id]
+        assert_equal expected, actual
       end
     end
+
 =begin
     def test_chaplain_hash
       chaplains = { '155057' => '20802', '155209' => '155142x' } # key employs val as chaplain
