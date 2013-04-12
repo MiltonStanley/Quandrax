@@ -57,19 +57,15 @@ class TC_CK2Characters < Test::Unit::TestCase
         assert expected == actual, "Expected alive to be #{expected} for character #{character_id}, got #{actual} instead"
       end
     end
-=begin
+
     def test_friends_of_pope
-      allies = { '100600' => 400, '140' => 347, '522' => 192}
-      $CK2_CHARACTERS.characters.each do |a_character|
-        if allies[a_character.id]
-          expected = allies[a_character.id]
-          actual = a_character.papal_relation_value
-        assert expected == actual, "Expected papal relation level of #{
-        expected} for character #{a_character.id}, got #{actual} instead"
-        end
+      allies = { '106000' => 400, '140' => 347, '522' => 192 }
+      allies.each do |id, expected|
+        actual = $CK2_CHARACTERS.characters[id].papal_relation_value
+        assert_equal expected, actual
       end
     end
-
+=begin
     def test_papal_relations_hash
       relations = { '100600' => 400, '140' => 347, '522' => 192, '9955' => 0 }
       $CK2_CHARACTERS.characters.each do |a_character|
