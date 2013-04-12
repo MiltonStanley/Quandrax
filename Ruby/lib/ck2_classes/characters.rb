@@ -74,6 +74,11 @@ class A_Character
     @reading_ally = false if is_enemy_header?(line) # Line has "enemy=" which is AFTER allies
     @friend_of_pope = true if @reading_ally && is_pope_id?(line) # In ally section, id is pope's
     add_papal_ally(line, papal_relations) if is_relation_value?(line) && @friend_of_pope
+    @dynasty = val.gsub('"','') if is_dynasty?(key)
+  end
+
+  def is_dynasty?(key)
+    key =~ /^\t\t(dynasty)/
   end
 
   def add_papal_ally(line, papal_relations_list)
