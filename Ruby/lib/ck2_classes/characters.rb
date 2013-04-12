@@ -18,15 +18,15 @@ class CK2_Characters
   def add(line)
     if is_section_header?(line)
       # Do nothing
-    elsif is_character_header?(line)
-      last_character = @characters.last
-      unless last_character.nil?
-        @papal_relations[last_character.id] = last_character.papal_relation_value
-        @chaplain_index[last_character.employer] = last_character.id if last_character.job_title == 'job_spiritual'
+    elsif is_character_header?(line)      # We've found a new character header
+      last_character = @characters.last   # The last A_Chaplain we did
+      unless last_character.nil?          # Don't try this the first time through
+        @papal_relations[last_character.id] = last_character.papal_relation_value   # Add last_character's value to @papal_rel
+        @chaplain_index[last_character.employer] = last_character.id if last_character.job_title == 'job_spiritual' # Add to chaplain_index if it's a chaplain
       end
-      @characters << A_Character.new(line, @pope_id)
+      @characters << A_Character.new(line, @pope_id)  # Append a new A_Character to array
     else
-      @characters.last.add(line, @papal_relations)
+      @characters.last.add(line, @papal_relations)  # Add to the last A_Character in the array
     end
   end
 
