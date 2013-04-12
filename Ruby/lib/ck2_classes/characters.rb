@@ -11,22 +11,25 @@ class CK2_Characters
     puts "Reading CK2 characters..."
     @pope_id = pope
     @papal_relations = Hash.new  # Key=id, Value=...value...
-    @characters = Array.new
+    @characters = Hash.new
     @chaplain_index = Hash.new  # Key = MASTER, value = chaplain id
+    @last_character = nil
+    @current_character = nil
   end
 
   def add(line)
     if is_section_header?(line)
       # Do nothing
     elsif is_character_header?(line)      # We've found a new character header
-      last_character = @characters.last   # The last A_Chaplain we did
-      unless last_character.nil?          # Don't try this the first time through
-        @papal_relations[last_character.id] = last_character.papal_relation_value   # Add last_character's value to @papal_rel
-        @chaplain_index[last_character.employer] = last_character.id if last_character.job_title == 'job_spiritual' # Add to chaplain_index if it's a chaplain
+      @last_character = @characters[@current_character] # So the former new guy is now the old guy (A_Title)
+      @current_character = line.chop.lstrip          # And the new guy is now line.chop (String)
+      unless @last_character.nil?          # Don't try this the first time through
+        @papal_relations[@last_character.id] = @last_character.papal_relation_value   # Add @last_character's value to @papal_rel
+        @chaplain_index[@last_character.employer] = @last_character.id if @last_character.job_title == 'job_spiritual' # Add to chaplain_index if it's a chaplain
       end
-      @characters << A_Character.new(line, @pope_id)  # Append a new A_Character to array
+      @characters[@current_character] = A_Character.new(line, @pope_id)  # Add to character hash, key = id, value = a new A_Character
     else
-      @characters.last.add(line, @papal_relations)  # Add to the last A_Character in the array
+      @characters[@current_character].add(line, @papal_relations)  # Add to the last A_Character in the array
     end
   end
 
