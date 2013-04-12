@@ -53,7 +53,7 @@ end
 class A_Character
   attr_accessor :id, :relations_to_pope, :friend_of_pope, 
   :birth_name, :employer, :job_title, :alive, 
-  :papal_relation_value
+  :papal_relation_value, :dynasty
 
   def initialize(line, pope_id)
     @id, _ = line.strip.split("=",2)
