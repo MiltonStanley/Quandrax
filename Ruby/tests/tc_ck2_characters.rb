@@ -82,4 +82,12 @@ class TC_CK2Characters < Test::Unit::TestCase
       end
     end
 
+    def test_dynasty
+      dynasties = { '33140' => '287', '140' => '752', '1316' => '651' }
+      dynasties.each do |id, expected|
+        actual = $CK2_CHARACTERS.characters[id].dynasty
+        assert_equal expected, dynasty
+      end
+    end
+
 end
