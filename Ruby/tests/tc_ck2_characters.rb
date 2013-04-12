@@ -74,17 +74,12 @@ class TC_CK2Characters < Test::Unit::TestCase
       end
     end
 
-=begin
     def test_chaplain_hash
-      chaplains = { '155057' => '20802', '155209' => '155142x' } # key employs val as chaplain
-      $CK2_CHARACTERS.characters.each do |a_character|
-        if chaplains[a_character.employer]
-          expected = chaplains[a_character.employer]
-          actual = $CK2_CHARACTERS.chaplain_index[a_character.employer]
-        assert expected == actual, "Expected chaplain index to have employer_id #{
-        expected} for character #{a_character.id}, got #{actual} instead"
-        end
+      chaplains = { '155057' => '20802', '155029' => '155142' } # key employs val as chaplain
+      chaplains.each do |employer, chaplain|
+        actual = $CK2_CHARACTERS.chaplain_index[employer]
+        assert_equal chaplain, actual
       end
     end
-=end
+
 end
