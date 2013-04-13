@@ -56,4 +56,8 @@ class TC_EU3_Imperial_Info < Test::Unit::TestCase
     assert_equal expected, $EU3_IMPERIAL_INFO.old_emperor_tag
   end
 
+  def test_same_dynasty
+    assert_equal $EU3_IMPERIAL_INFO.same_dynasty, true
+  end
+
 end
