@@ -62,6 +62,7 @@ class A_Character
     @friend_of_pope = false
     @alive = true
     @papal_relation_value = 0  # Start with no relations
+    @old_holdings = Array.new
   end
 
   def add(line, papal_relations)
