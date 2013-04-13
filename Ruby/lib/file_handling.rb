@@ -71,7 +71,7 @@ def write_file(new_file)
   $EU3_HEADER = EU3_Header.new($CK2_HEADER)
   $EU3_HEADER.write(new_file)
   # Rebel info goes here
-  $EU3_IMPERIAL_INFO = EU3_Imperial_Information.new($CK2_TITLES)
+  $EU3_IMPERIAL_INFO = EU3_Imperial_Information.new($CK2_TITLES, $CK2_CHARACTERS)
   $EU3_IMPERIAL_INFO.write(new_file)
   print_from_temp(new_file, './lib/templates/imperial_info.tmp')
   #$EU3_DEFENDERS_OF_THE_FAITH = EU3_Defenders_of_the_Faith.new
