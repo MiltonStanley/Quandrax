@@ -57,7 +57,7 @@ class TC_EU3_Imperial_Info < Test::Unit::TestCase
   end
 
   def test_same_dynasty
-    assert_equal $EU3_IMPERIAL_INFO.same_dynasty, true
+    assert_equal true, $EU3_IMPERIAL_INFO.same_dynasty
   end
 
 end
