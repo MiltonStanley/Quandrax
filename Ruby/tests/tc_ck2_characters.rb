@@ -90,4 +90,12 @@ class TC_CK2Characters < Test::Unit::TestCase
       end
     end
 
+    def test_old_holdings
+      expected = %w[e_hre d_bavaria d_carinthia d_franconia
+                    d_verona c_oberbayern c_leiningen
+                  ]
+      actual = $CK2_CHARACTERS.characters['1314'].old_holdings
+      assert_equal expected, actual
+    end
+
 end
