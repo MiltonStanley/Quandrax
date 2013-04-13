@@ -37,11 +37,15 @@ class TC_EU3_Imperial_Info < Test::Unit::TestCase
   end
 
   def test_old_emperor
-    assert_equal '1314', $EU3_IMPERIAL_INFO.old_emperor
+    assert_equal '1314', $EU3_IMPERIAL_INFO.old_emperor_id
   end
 
   def test_old_emperor_dynasty
     assert_equal '651', $EU3_IMPERIAL_INFO.old_emperor_dynasty
+  end
+
+  def test_same_imperial_dynasty?
+
   end
 
 end
