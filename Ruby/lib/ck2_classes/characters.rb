@@ -76,6 +76,11 @@ class A_Character
     @friend_of_pope = true if @reading_ally && is_pope_id?(line) # In ally section, id is pope's
     add_papal_ally(line, papal_relations) if is_relation_value?(line) && @friend_of_pope
     @dynasty = val.gsub('"','') if is_dynasty?(key)
+    @old_holdings << val.gsub('"','') if is_old_holding?(key)
+  end
+
+  def is_old_holding?(key)
+    key =~ /^\t+(old_holding)/
   end
 
   def is_dynasty?(key)
