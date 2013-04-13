@@ -44,7 +44,11 @@ class TC_EU3_Imperial_Info < Test::Unit::TestCase
     assert_equal '651', $EU3_IMPERIAL_INFO.old_emperor_dynasty
   end
 
-  def test_same_imperial_dynasty?
+  def test_old_emperor_holdings
+    expected = %w[e_hre d_bavaria d_carinthia d_franconia
+                    d_verona c_oberbayern c_leiningen
+                  ]
+    assert_equal expected, $EU3_IMPERIAL_INFO.old_emperor_holdings
 
   end
 
