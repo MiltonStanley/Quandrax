@@ -11,16 +11,16 @@ class EU3_Imperial_Information
     @old_emperor_id = ck2_titles.titles['e_hre'].last_holder
     @old_emperor_dynasty = ck2_characters.characters[@old_emperor_id].dynasty
     @old_emperor_holdings = ck2_characters.characters[@old_emperor_id].old_holdings
-    @old_emperor_tag = get_hre_id_tag(@old_emperor_holdings)
+    @old_emperor_tag = @hre_tag if @same_dynasty
+    @old_emperor_tag ||= get_hre_id_tag(@old_emperor_holdings)
     @same_dynasty = true if ck2_characters.characters[@old_emperor_id].dynasty ==
                             ck2_characters.characters[@hre_id].dynasty
-    @same_dynasty ||= false
   end
 
   def write(location)
     location.puts "emperor=\"#{@hre_tag}\""
     location.puts "imperial_influence=20.000\ninternal_hre_cb=yes"
-    location.puts "old_emperor=\n{\nid=2338\ncountry=\"#{@hre_tag}\""
+    location.puts "old_emperor=\n{\nid=2338\ncountry=\"#{@old_emperor_tag}\""
     location.puts "date=#{get_date($EU3_HEADER.date)}\n}"    
   end
 
