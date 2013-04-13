@@ -1,6 +1,7 @@
 class EU3_Imperial_Information
   attr_accessor :hre_id, :hre_titles, :hre_tag, :old_emperor_id, 
-                :old_emperor_dynasty, :old_emperor_holdings, :old_emperor_tag
+                :old_emperor_dynasty, :old_emperor_holdings, :old_emperor_tag,
+                :same_dynasty
 
   def initialize(ck2_titles, ck2_characters)
     puts "Creating EU3 Imperial Information section"
@@ -11,6 +12,9 @@ class EU3_Imperial_Information
     @old_emperor_dynasty = ck2_characters.characters[@old_emperor_id].dynasty
     @old_emperor_holdings = ck2_characters.characters[@old_emperor_id].old_holdings
     @old_emperor_tag = get_hre_id_tag(@old_emperor_holdings)
+    @same_dynasty = true if ck2_characters.characters[@old_emperor_id].dynasty ==
+                            ck2_characters.characters[@hre_id].dynasty
+    @same_dynasty ||= false
   end
 
   def write(location)
