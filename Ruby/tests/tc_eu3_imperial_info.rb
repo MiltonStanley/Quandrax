@@ -49,7 +49,11 @@ class TC_EU3_Imperial_Info < Test::Unit::TestCase
                     d_verona c_oberbayern c_leiningen
                   ]
     assert_equal expected, $EU3_IMPERIAL_INFO.old_emperor_holdings
+  end
 
+  def test_old_emperor_tag
+    expected = 'BAV'
+    assert_equal expected, $EU3_IMPERIAL_INFO.old_emperor_tag
   end
 
 end
