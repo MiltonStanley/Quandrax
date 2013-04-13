@@ -9,6 +9,7 @@ class EU3_Imperial_Information
     @hre_tag = get_hre_id_tag(@hre_titles)
     @old_emperor_id = ck2_titles.titles['e_hre'].last_holder
     @old_emperor_dynasty = ck2_characters.characters[@old_emperor_id].dynasty
+    @old_emperor_holdings = ck2_characters.characters[@old_emperor_id].old_holdings
   end
 
   def write(location)
