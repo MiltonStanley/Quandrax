@@ -73,10 +73,8 @@ def write_file(new_file)
   # Rebel info goes here
   $EU3_IMPERIAL_INFO = EU3_Imperial_Information.new($CK2_TITLES, $CK2_CHARACTERS)
   $EU3_IMPERIAL_INFO.write(new_file)
-  print_from_temp(new_file, './lib/templates/imperial_info.tmp')
-  #$EU3_DEFENDERS_OF_THE_FAITH = EU3_Defenders_of_the_Faith.new
-  #$EU3_DEFENDERS_OF_THE_FAITH.write(new_file)
-  print_from_temp(new_file, './lib/templates/religious_info.tmp')
+  $EU3_DEFENDERS_OF_THE_FAITH = EU3_Defenders_of_the_Faith.new
+  $EU3_DEFENDERS_OF_THE_FAITH.write(new_file)
   #$EU3_PAPAL_INFO = EU3_Papal_Information.new($CK2_TITLES.titles, 
   #                                            $CK2_CHARACTERS.papal_relations)
   #$EU3_PAPAL_INFO.write(new_file)
