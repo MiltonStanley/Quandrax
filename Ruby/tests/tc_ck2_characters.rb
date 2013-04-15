@@ -30,7 +30,7 @@ class TC_CK2Characters < Test::Unit::TestCase
       names = { '70556' => 'Ioannes', '140' => 'William', '502636' => 'Jean' }
       names.each do |id, expected|
           actual = $CK2_CHARACTERS.characters[id].birth_name
-          assert expected == actual, "Expected name #{expected} for character #{id}, got #{actual} instead"
+          assert_equal expected, actual
       end
     end
 
@@ -38,7 +38,7 @@ class TC_CK2Characters < Test::Unit::TestCase
       employers = { '70556' => nil, '140' => '140', '502636' => '93502' }
       employers.each do |id, expected|
         actual = $CK2_CHARACTERS.characters[id].employer
-        assert expected == actual, "Expected employer #{expected} for character #{id}, got #{actual} instead"
+        assert_equal expected, actual
       end
     end
 
@@ -46,7 +46,7 @@ class TC_CK2Characters < Test::Unit::TestCase
       job_titles = { '70556' => nil, '140' => 'job_marshal', '502636' => "job_chancellor" }
       job_titles.each do |id, expected|
         actual = $CK2_CHARACTERS.characters[id].job_title
-        assert expected == actual, "Expected job title #{expected} for character #{id}, got #{actual} instead"
+        assert_equal expected, actual
       end
     end
 
@@ -54,7 +54,7 @@ class TC_CK2Characters < Test::Unit::TestCase
       alive = { '70556' => false, '140' => true, '502636' => true }
       alive.each do |character_id, expected|
         actual = $CK2_CHARACTERS.characters[character_id].alive
-        assert expected == actual, "Expected alive to be #{expected} for character #{character_id}, got #{actual} instead"
+        assert_equal expected,  actual
       end
     end
 

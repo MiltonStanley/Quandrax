@@ -35,7 +35,7 @@ class TC_CK2_Titles < Test::Unit::TestCase
       $CK2_TITLES.titles.each do |title, a_title|
         assert_equal title, a_title.name
       end
-      assert $CK2_TITLES.titles['e_hre'].name == 'e_hre'
+      assert_equal $CK2_TITLES.titles['e_hre'].name, 'e_hre'
     end
 
     def test_holder_ids
