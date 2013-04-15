@@ -2,17 +2,17 @@ class EU3_Papal_Information
 
   def initialize(titles, papal_allies) # Title info, and allies of pope hash
     puts "Creating EU3 papacy section"
-    @cardinals = create_cardinals(titles, papal_allies)
+    #@cardinals = create_cardinals(titles, papal_allies)
   end
 
   def write(location)
-    location.puts "papacy=\n{\n\tcontroller=\"#{@cardinals[0]}\""
-    location.puts "\tcrusade_target=\"---\"\n\tcrusade_start=\"1.1.1\""
-    location.puts "\tlast_excom=\"1.1.1\"\n\tpapacy_active=yes"
-    write_cardinals(@cardinals, location)
-    location.puts "}"
+    #location.puts "papacy=\n{\n\tcontroller=\"#{@cardinals[0]}\""
+    #location.puts "\tcrusade_target=\"---\"\n\tcrusade_start=\"1.1.1\""
+    #location.puts "\tlast_excom=\"1.1.1\"\n\tpapacy_active=yes"
+    #write_cardinals(@cardinals, location)
+    #location.puts "}"
   end
-
+=begin
   def write_cardinals(cardinals, location)
     cardinal_names = ["Stephenos", "Jacobos", "Philippos", "Mattathaios", "Andreas",
                       "Markos", "Petros", "Paulos", "Judas Thaddaeos", "Bartholomaios",
@@ -52,7 +52,7 @@ class EU3_Papal_Information
   def convert_ids_to_titles(cardinals, titles)
     _temp_hash = Hash.new   # Can't change cardinals in block
     cardinals.each do |key, val|  #  ID 1
-      titles.each do |a_title|    
+      titles.each do |title, a_title|    
         if a_title.holder_id == key
           if a_title.name =~ /^b_/
             _temp_hash[a_title.liege] = val
@@ -96,5 +96,5 @@ class EU3_Papal_Information
     end
     _temp_array    
   end
-
+=end
 end
