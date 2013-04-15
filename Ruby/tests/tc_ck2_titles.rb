@@ -147,5 +147,13 @@ class TC_CK2_Titles < Test::Unit::TestCase
       assert_equal '91324', $CK2_TITLES.titles['c_bourges'].last_holder
     end
 
+    def test_coronation_date
+      expected = {'k_england' => '1066.1.5', 'e_hre' => '1056.5.10',
+                  'c_boulogne' => '1049.1.1', 'd_lancaster' => '1066.1.1'
+                }
+      expected.each do |title, date|
+        assert_equal date, $CK2_TITLES.titles[title].coronation_date
+      end
+    end
 
 end
