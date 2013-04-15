@@ -61,7 +61,7 @@ class TC_EU3ImperialInfo < Test::Unit::TestCase
   end
 
   def test_old_emperor_date
-    assert_equal '1387.3.31', $EU3_IMPERIAL_INFO.old_emperor_date
+    assert_equal '1056.5.10', $EU3_IMPERIAL_INFO.old_emperor_date
   end
-  
+
 end
