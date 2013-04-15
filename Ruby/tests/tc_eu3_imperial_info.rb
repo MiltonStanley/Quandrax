@@ -12,7 +12,7 @@ if __FILE__ == $0
   require './tests/setup_for_eu3_tests'
 end
 
-class TC_EU3_Imperial_Info < Test::Unit::TestCase
+class TC_EU3ImperialInfo < Test::Unit::TestCase
 
   def test_creation
     assert $EU3_IMPERIAL_INFO.instance_of?(EU3_Imperial_Information),

@@ -12,7 +12,7 @@ if __FILE__ == $0
   require './tests/setup_for_ck2_tests'
 end
 
-class TC_CK2_Titles < Test::Unit::TestCase
+class TC_CK2Titles < Test::Unit::TestCase
 
     def test_creation
       assert $CK2_TITLES.instance_of?(CK2_Titles), 
