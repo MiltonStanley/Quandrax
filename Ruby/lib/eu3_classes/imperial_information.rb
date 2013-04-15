@@ -11,10 +11,10 @@ class EU3_Imperial_Information
     @old_emperor_id = ck2_titles.titles['e_hre'].last_holder
     @old_emperor_dynasty = ck2_characters.characters[@old_emperor_id].dynasty
     @old_emperor_holdings = ck2_characters.characters[@old_emperor_id].old_holdings
-    @old_emperor_tag = @hre_tag if @same_dynasty
-    @old_emperor_tag ||= get_hre_id_tag(@old_emperor_holdings)
     @same_dynasty = true if ck2_characters.characters[@old_emperor_id].dynasty ==
                             ck2_characters.characters[@hre_id].dynasty
+    @old_emperor_tag = @hre_tag if @same_dynasty
+    @old_emperor_tag ||= get_hre_id_tag(@old_emperor_holdings)
     @old_emperor_date  = ck2_titles.titles['e_hre'].coronation_date
   end
 

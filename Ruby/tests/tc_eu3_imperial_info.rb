@@ -52,7 +52,7 @@ class TC_EU3ImperialInfo < Test::Unit::TestCase
   end
 
   def test_old_emperor_tag
-    expected = 'BAV'
+    expected = 'WUR'
     assert_equal expected, $EU3_IMPERIAL_INFO.old_emperor_tag
   end
 
