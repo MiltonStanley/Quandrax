@@ -71,6 +71,11 @@ class A_Title
     if is_historic_holder?(line) && @history
       @last_holder = value.gsub('"','') unless value.gsub('"','') == @holder_id
     end
+    @coronation_date = key.lstrip if is_coronation_date?(key) && @history
+  end
+
+  def is_coronation_date?(key)
+    key =~ /^\t+\d+.\d+.\d+/
   end
 
   def is_historic_holder?(key)
