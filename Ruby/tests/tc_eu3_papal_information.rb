@@ -20,7 +20,8 @@ class TC_PapalInformation < Test::Unit::TestCase
   end
 
   def test_cardinals_sorting
-    assert_equal $EU3_PAPAL_INFORMATION.cardinals, $CK2_CHARACTERS.papal_relations
+    expected = $CK2_CHARACTERS.papal_relations.sort { |a, b| b[1]<=>a[1] }
+    assert_equal expected, $EU3_PAPAL_INFORMATION.cardinals
   end
 
 end
