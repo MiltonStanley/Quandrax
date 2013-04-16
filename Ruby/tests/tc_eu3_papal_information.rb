@@ -19,4 +19,8 @@ class TC_PapalInformation < Test::Unit::TestCase
           'Failed to create EU3 Papal information'
   end
 
+  def test_cardinals_sorting
+    assert_equal $EU3_PAPAL_INFORMATION.cardinals, $CK2_CHARACTERS.papal_relations
+  end
+
 end
