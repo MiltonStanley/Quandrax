@@ -2,6 +2,7 @@ require "test/unit"
 if __FILE__ == $0
   Dir.chdir("..")
   require './lib/parsing'
+  require './lib/maps/tag_map'
 end
 
 class TC_Parsing < Test::Unit::TestCase
@@ -40,6 +41,15 @@ class TC_Parsing < Test::Unit::TestCase
                     }
       start_hash = sort(start_hash)
       assert_equal expected_hash, start_hash
+    end
+
+    def test_title_to_tag_conversion
+      start = ['k_england', 'd_lancaster', 'c_bourges', 'e_hre']
+      expected = %w[ENG LAN BER HRE]
+      start.each_index do |index|
+        start[index] = convert_title_to_tag(start[index])
+        assert_equal expected[index], start[index]
+      end
     end
 
 end
