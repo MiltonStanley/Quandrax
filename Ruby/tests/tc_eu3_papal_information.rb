@@ -19,9 +19,10 @@ class TC_PapalInformation < Test::Unit::TestCase
           'Failed to create EU3 Papal information'
   end
 
-  def test_cardinals_sorting
-    expected = $CK2_CHARACTERS.papal_relations.sort { |a, b| b[1]<=>a[1] }
-    assert_equal expected, $EU3_PAPAL_INFORMATION.cardinals
+  def test_cardinals_title_to_tag_conversion
+    $EU3_PAPAL_INFORMATION.cardinals.each do |key, var|
+      assert $TM_CK2_EU3.has_key?(key), "Tag Map does not have #{key}"
+    end
   end
 
 end
