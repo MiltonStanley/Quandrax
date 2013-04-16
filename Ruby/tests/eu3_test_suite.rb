@@ -7,3 +7,4 @@ end
 require './tests/tc_eu3_header'
 require './tests/tc_eu3_imperial_info'
 require './tests/tc_eu3_defenders_of_the_faith'
+require './tests/tc_eu3_papal_information'
