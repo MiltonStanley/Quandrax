@@ -31,6 +31,10 @@ def sort(hash)
   temp_hash
 end
 
+def convert_title_to_tag(title)
+  $TM_CK2_EU3[title]
+end
+
 def parse_header(string)
   $CK2_HEADER.add(string)
 end
