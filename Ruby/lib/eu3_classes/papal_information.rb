@@ -1,4 +1,5 @@
 class EU3_Papal_Information
+  attr_accessor :cardinals
 
   def initialize(titles, papal_allies) # Title info, and allies of pope hash
     puts "Creating EU3 papacy section"
