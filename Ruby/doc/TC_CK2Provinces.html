@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=IBM437" http-equiv="Content-Type">
+
+<title>class TC_CK2Provinces - RDoc Documentation</title>
+
+<link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="./js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/darkfish.js"></script>
+
+
+<body id="top" class="class">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="./index.html">Home</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>tests/tc_ck2_provinces.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    <nav id="parent-class-section" class="section">
+  <h3 class="section-header">Parent</h3>
+  
+  <p class="link">Test::Unit::TestCase
+  
+</nav>
+
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li><a href="#method-i-test_creation">#test_creation</a>
+    
+    <li><a href="#method-i-test_cultures">#test_cultures</a>
+    
+    <li><a href="#method-i-test_max_settlements">#test_max_settlements</a>
+    
+    <li><a href="#method-i-test_names">#test_names</a>
+    
+    <li><a href="#method-i-test_provincesid_matches_each_province_id">#test_provincesid_matches_each_province_id</a>
+    
+    <li><a href="#method-i-test_religions">#test_religions</a>
+    
+    <li><a href="#method-i-test_tech_level">#test_tech_level</a>
+    
+    <li><a href="#method-i-test_tech_progress">#test_tech_progress</a>
+    
+    <li><a href="#method-i-test_titles">#test_titles</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="./config_file_txt.html">config_file</a>
+  
+    <li class="file"><a href="./tools/cultures.html">cultures</a>
+  
+    <li class="file"><a href="./tools/monarchs_txt.html">monarchs</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="./A_CK2_Province.html">A_CK2_Province</a>
+  
+    <li><a href="./A_Character.html">A_Character</a>
+  
+    <li><a href="./A_Title.html">A_Title</a>
+  
+    <li><a href="./An_EU3_Province.html">An_EU3_Province</a>
+  
+    <li><a href="./CK2_Active_War.html">CK2_Active_War</a>
+  
+    <li><a href="./CK2_Characters.html">CK2_Characters</a>
+  
+    <li><a href="./CK2_Combat.html">CK2_Combat</a>
+  
+    <li><a href="./CK2_Diplomacy.html">CK2_Diplomacy</a>
+  
+    <li><a href="./CK2_Dynasties.html">CK2_Dynasties</a>
+  
+    <li><a href="./CK2_Footer.html">CK2_Footer</a>
+  
+    <li><a href="./CK2_Header.html">CK2_Header</a>
+  
+    <li><a href="./CK2_ID.html">CK2_ID</a>
+  
+    <li><a href="./CK2_Provinces.html">CK2_Provinces</a>
+  
+    <li><a href="./CK2_Religious_Authority.html">CK2_Religious_Authority</a>
+  
+    <li><a href="./CK2_Titles.html">CK2_Titles</a>
+  
+    <li><a href="./CK2_War.html">CK2_War</a>
+  
+    <li><a href="./EU3_Defenders_of_the_Faith.html">EU3_Defenders_of_the_Faith</a>
+  
+    <li><a href="./EU3_Header.html">EU3_Header</a>
+  
+    <li><a href="./EU3_Imperial_Information.html">EU3_Imperial_Information</a>
+  
+    <li><a href="./EU3_Papal_Information.html">EU3_Papal_Information</a>
+  
+    <li><a href="./EU3_Province.html">EU3_Province</a>
+  
+    <li><a href="./EU3_Provinces.html">EU3_Provinces</a>
+  
+    <li><a href="./Object.html">Object</a>
+  
+    <li><a href="./Player.html">Player</a>
+  
+    <li><a href="./Province.html">Province</a>
+  
+    <li><a href="./TC_ArrayConversion.html">TC_ArrayConversion</a>
+  
+    <li><a href="./TC_CK2Characters.html">TC_CK2Characters</a>
+  
+    <li><a href="./TC_CK2Dynasties.html">TC_CK2Dynasties</a>
+  
+    <li><a href="./TC_CK2Header.html">TC_CK2Header</a>
+  
+    <li><a href="./TC_CK2ID.html">TC_CK2ID</a>
+  
+    <li><a href="./TC_CK2Provinces.html">TC_CK2Provinces</a>
+  
+    <li><a href="./TC_CK2ReligiousAuthority.html">TC_CK2ReligiousAuthority</a>
+  
+    <li><a href="./TC_CK2Titles.html">TC_CK2Titles</a>
+  
+    <li><a href="./TC_DefendersOfTheFaith.html">TC_DefendersOfTheFaith</a>
+  
+    <li><a href="./TC_EU3Header.html">TC_EU3Header</a>
+  
+    <li><a href="./TC_EU3ImperialInfo.html">TC_EU3ImperialInfo</a>
+  
+    <li><a href="./TC_PapalInformation.html">TC_PapalInformation</a>
+  
+    <li><a href="./TC_Parsing.html">TC_Parsing</a>
+  
+    <li><a href="./Tracker.html">Tracker</a>
+  
+    <li><a href="./World.html">World</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="class">class TC_CK2Provinces</h1>
+
+  <div id="description" class="description">
+    
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
+
+    
+      <div id="method-i-test_creation" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_creation</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_creation-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_provinces.rb, line 17</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_creation</span>
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">$CK2_PROVINCES</span>.<span class="ruby-identifier">instance_of?</span>(<span class="ruby-constant">CK2_Provinces</span>),
+        <span class="ruby-string">&quot;Failed to create CK2_Provincess variable&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_creation-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_creation-method -->
+
+    
+      <div id="method-i-test_cultures" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_cultures</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_cultures-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_provinces.rb, line 41</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_cultures</span>
+  <span class="ruby-identifier">cultures</span> = { <span class="ruby-value">1</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'norwegian'</span> , <span class="ruby-value">170</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'andalusian_arabic'</span>, <span class="ruby-value">685</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'kurdish'</span>}
+  <span class="ruby-identifier">$CK2_PROVINCES</span>.<span class="ruby-identifier">provinces</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">a_province</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">next</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">nil?</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">cultures</span>[<span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">ck2_id</span>]
+      <span class="ruby-identifier">expected</span> = <span class="ruby-identifier">cultures</span>[<span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">ck2_id</span>]
+      <span class="ruby-identifier">actual</span> = <span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">culture</span>
+      <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected</span>, <span class="ruby-identifier">actual</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_cultures-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_cultures-method -->
+
+    
+      <div id="method-i-test_max_settlements" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_max_settlements</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_max_settlements-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_provinces.rb, line 65</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_max_settlements</span>
+  <span class="ruby-identifier">max_settlements</span> = { <span class="ruby-value">1</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'2'</span> , <span class="ruby-value">170</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'4'</span>, <span class="ruby-value">685</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'5'</span>}
+  <span class="ruby-identifier">$CK2_PROVINCES</span>.<span class="ruby-identifier">provinces</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">a_province</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">next</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">nil?</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">max_settlements</span>[<span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">ck2_id</span>]
+      <span class="ruby-identifier">expected</span> = <span class="ruby-identifier">max_settlements</span>[<span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">ck2_id</span>]
+      <span class="ruby-identifier">actual</span> = <span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">max_settlements</span>
+      <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected</span>, <span class="ruby-identifier">actual</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_max_settlements-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_max_settlements-method -->
+
+    
+      <div id="method-i-test_names" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_names</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_names-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_provinces.rb, line 29</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_names</span>
+  <span class="ruby-identifier">names</span> = { <span class="ruby-value">1</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'Vestisland'</span> , <span class="ruby-value">170</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'Denia'</span>, <span class="ruby-value">685</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'Kurdistan'</span>}
+  <span class="ruby-identifier">$CK2_PROVINCES</span>.<span class="ruby-identifier">provinces</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">a_province</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">next</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">nil?</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">names</span>[<span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">ck2_id</span>]
+      <span class="ruby-identifier">expected</span> = <span class="ruby-identifier">names</span>[<span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">ck2_id</span>]
+      <span class="ruby-identifier">actual</span> = <span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">name</span>
+      <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected</span>, <span class="ruby-identifier">actual</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_names-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_names-method -->
+
+    
+      <div id="method-i-test_provincesid_matches_each_province_id" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_provincesid_matches_each_province_id</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_provincesid_matches_each_province_id-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_provinces.rb, line 22</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_provincesid_matches_each_province_id</span>
+  <span class="ruby-identifier">$CK2_PROVINCES</span>.<span class="ruby-identifier">provinces</span>.<span class="ruby-identifier">each_index</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">index</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">next</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">$CK2_PROVINCES</span>.<span class="ruby-identifier">provinces</span>[<span class="ruby-identifier">index</span>].<span class="ruby-identifier">nil?</span>
+    <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">index</span>, <span class="ruby-identifier">$CK2_PROVINCES</span>.<span class="ruby-identifier">provinces</span>[<span class="ruby-identifier">index</span>].<span class="ruby-identifier">ck2_id</span>.<span class="ruby-identifier">to_i</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_provincesid_matches_each_province_id-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_provincesid_matches_each_province_id-method -->
+
+    
+      <div id="method-i-test_religions" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_religions</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_religions-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_provinces.rb, line 53</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_religions</span>
+  <span class="ruby-identifier">religions</span> = { <span class="ruby-value">1</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'catholic'</span> , <span class="ruby-value">170</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'sunni'</span>, <span class="ruby-value">685</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'sunni'</span>}
+  <span class="ruby-identifier">$CK2_PROVINCES</span>.<span class="ruby-identifier">provinces</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">a_province</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">next</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">nil?</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">religions</span>[<span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">ck2_id</span>]
+      <span class="ruby-identifier">expected</span> = <span class="ruby-identifier">religions</span>[<span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">ck2_id</span>]
+      <span class="ruby-identifier">actual</span> = <span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">religion</span>
+      <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected</span>, <span class="ruby-identifier">actual</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_religions-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_religions-method -->
+
+    
+      <div id="method-i-test_tech_level" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_tech_level</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_tech_level-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_provinces.rb, line 89</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_tech_level</span>
+  <span class="ruby-identifier">tech_levels</span> = { <span class="ruby-value">1</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'0 1 1 0 0 1 0 0 0 0 0 0 0 0 1 1 1 0 1 0 0 0 1 0'</span> , 
+                <span class="ruby-value">170</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'0 1 0 0 1 1 1 1 2 2 2 2 2 2 2 1 1 2 2 2 2 2 2 2'</span>, 
+                <span class="ruby-value">685</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'0 1 1 0 0 1 1 1 2 2 2 2 2 2 2 2 2 1 2 3 2 2 2 2'</span>}
+  <span class="ruby-identifier">$CK2_PROVINCES</span>.<span class="ruby-identifier">provinces</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">a_province</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">next</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">nil?</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">tech_levels</span>[<span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">ck2_id</span>]
+      <span class="ruby-identifier">expected</span> = <span class="ruby-identifier">tech_levels</span>[<span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">ck2_id</span>]
+      <span class="ruby-identifier">actual</span> = <span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">tech_level</span>
+      <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected</span>, <span class="ruby-identifier">actual</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_tech_level-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_tech_level-method -->
+
+    
+      <div id="method-i-test_tech_progress" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_tech_progress</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_tech_progress-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_provinces.rb, line 103</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_tech_progress</span>
+  <span class="ruby-identifier">tech_progress</span> = { <span class="ruby-value">1</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'9 2 0 5 8 4 5 5 6 6 9 9 6 9 2 3 1 6 5 5 9 6 4 5'</span> , 
+                  <span class="ruby-value">170</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'8 2 6 9 1 0 6 6 2 4 8 0 5 0 7 9 9 8 5 0 5 4 3 7'</span>, 
+                  <span class="ruby-value">685</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'7 3 7 7 7 0 4 7 6 5 2 8 3 9 2 2 8 9 0 0 4 5 5 1'</span>}
+  <span class="ruby-identifier">$CK2_PROVINCES</span>.<span class="ruby-identifier">provinces</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">a_province</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">next</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">nil?</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">tech_progress</span>[<span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">ck2_id</span>]
+      <span class="ruby-identifier">expected</span> = <span class="ruby-identifier">tech_progress</span>[<span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">ck2_id</span>]
+      <span class="ruby-identifier">actual</span> = <span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">tech_progress</span>
+      <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected</span>, <span class="ruby-identifier">actual</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_tech_progress-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_tech_progress-method -->
+
+    
+      <div id="method-i-test_titles" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_titles</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_titles-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_provinces.rb, line 77</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_titles</span>
+  <span class="ruby-identifier">titles</span> = { <span class="ruby-value">1</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'c_vestisland'</span> , <span class="ruby-value">170</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'c_denia'</span>, <span class="ruby-value">685</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'c_kurdistan'</span>}
+  <span class="ruby-identifier">$CK2_PROVINCES</span>.<span class="ruby-identifier">provinces</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">a_province</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">next</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">nil?</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">titles</span>[<span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">ck2_id</span>]
+      <span class="ruby-identifier">expected</span> = <span class="ruby-identifier">titles</span>[<span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">ck2_id</span>]
+      <span class="ruby-identifier">actual</span> = <span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">title</span>
+      <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected</span>, <span class="ruby-identifier">actual</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_titles-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_titles-method -->
+
+    
+    </section><!-- public-instance-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 3.12.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+
