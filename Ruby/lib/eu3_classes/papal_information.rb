@@ -3,7 +3,7 @@ class EU3_Papal_Information
 
   def initialize(titles, characters) # Title info, and allies of pope hash
     puts "Creating EU3 papacy section"
-    @cardinals = characters.papal_relations#create_cardinals(titles, characters)
+    @cardinals = sort(characters.papal_relations)
   end
 
   def write(location)
