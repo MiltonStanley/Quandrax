@@ -27,4 +27,8 @@ class TC_PapalInformation < Test::Unit::TestCase
     end
   end
 
+  def test_papal_controller
+    assert_equal "k_navarra", $EU3_PAPAL_INFORMATION.papal_controller
+  end
+
 end
