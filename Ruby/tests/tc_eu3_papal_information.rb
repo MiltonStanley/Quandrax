@@ -20,9 +20,7 @@ class TC_PapalInformation < Test::Unit::TestCase
   end
 
   def test_cardinals_title_to_tag_conversion
-    $EU3_PAPAL_INFORMATION.cardinals.each do |key, var|
-      assert $TM_CK2_EU3.has_key?(key), "Tag Map does not have #{key}"
-    end
+
   end
 
 end
