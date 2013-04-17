@@ -9,4 +9,12 @@ class EU3_Papal_Information
   def write(location)
   end
 
+  def get_papal_holder(titles, characters)
+    a_cardinal = @cardinals.shift
+    a_cardinal.each { |a| puts a}
+    titles.holder_index.each do |title, holder_id|
+      @papal_holder = title if a_cardinal[0] == holder_id && title =~ /^k/
+    end
+  end
+
 end
