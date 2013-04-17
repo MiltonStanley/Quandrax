@@ -43,7 +43,7 @@ class EU3_Provinces
     array = Array.new
     array.push nil
     while line = temp_file.gets
-      key, value = split_key_value(line.chomp)
+      key, _ = split_key_value(line.chomp)
       if is_province_header?(key)
         array << An_EU3_Province.new(key) 
       else
