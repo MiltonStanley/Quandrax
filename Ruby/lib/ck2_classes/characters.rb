@@ -23,7 +23,7 @@ class CK2_Characters
     elsif is_character_header?(line)      # We've found a new character header
       @last_character = @characters[@current_character] # So the former new guy is now the old guy (A_Title)
       @current_character = line.chop.lstrip          # And the new guy is now line.chop (String)
-      unless @last_character.nil?          # Don't try this the first time through
+      unless @last_character.nil? || !@last_character.alive          # Don't try this the first time through
         @papal_relations[@last_character.id] = @last_character.papal_relation_value   # Add @last_character's value to @papal_rel
         @chaplain_index[@last_character.employer] = @last_character.id if @last_character.job_title == 'job_spiritual' # Add to chaplain_index if it's a chaplain
       end
