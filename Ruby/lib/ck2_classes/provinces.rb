@@ -40,6 +40,7 @@ class A_CK2_Province
 
   def initialize(id)
     @ck2_id = id
+    @tech_level = Array.new
   end
 
   def add(line)
