@@ -19,8 +19,12 @@ class TC_PapalInformation < Test::Unit::TestCase
           'Failed to create EU3 Papal information'
   end
 
-  def test_cardinals_title_to_tag_conversion
-
+  def test_cardinal_sort
+    last_val = 100_000
+    $EU3_PAPAL_INFORMATION.cardinals.each do |key, val|
+      assert last_val >= val, "#{last_val} expected >= #{val}, but isn't"
+      last_val = val
+    end
   end
 
 end
