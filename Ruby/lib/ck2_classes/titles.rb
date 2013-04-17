@@ -15,6 +15,7 @@ class CK2_Titles
     @titles = Hash.new   # Array of all the titles
     @liege_index = Hash.new
     @holder_index = Hash.new
+    @last_title = nil
   end
 
   def add(line)
