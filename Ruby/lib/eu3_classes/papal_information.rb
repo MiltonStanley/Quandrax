@@ -25,7 +25,7 @@ class EU3_Papal_Information
       end
     @cardinals = shifted_cardinals.merge @cardinals   # Set @cardinals back to what it was
     end
-    papal_controller
+    $TM_CK2_EU3[papal_controller]
   end
 
 end

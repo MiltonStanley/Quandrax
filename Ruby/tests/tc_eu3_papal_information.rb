@@ -32,7 +32,8 @@ class TC_PapalInformation < Test::Unit::TestCase
   end
 
   def test_papal_controller
-    assert_equal "k_navarra", $EU3_PAPAL_INFORMATION.papal_controller
+    papal_controller = $EU3_PAPAL_INFORMATION.papal_controller
+    assert_equal "NAV", papal_controller
   end
 
 end
