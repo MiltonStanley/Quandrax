@@ -19,6 +19,10 @@ class TC_PapalInformation < Test::Unit::TestCase
           'Failed to create EU3 Papal information'
   end
 
+  def test_cardinals_length
+    assert_equal 7639, $EU3_PAPAL_INFORMATION.cardinals.length
+  end
+  
   def test_cardinal_sort
     last_val = 100_000
     $EU3_PAPAL_INFORMATION.cardinals.each do |key, val|
