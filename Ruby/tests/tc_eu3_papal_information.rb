@@ -36,4 +36,21 @@ class TC_PapalInformation < Test::Unit::TestCase
     assert_equal "NAV", papal_controller
   end
 
+  def test_cardinals
+    cardinals = $EU3_PAPAL_INFORMATION.cardinals
+    holder_index = $CK2_TITLES.holder_index
+    x = 0
+    while x < 15
+      id, relations = cardinals.shift
+      shifted_cardinals[id] = relations
+      holder_index.each do |title, holder_id|
+        if id == holder_id
+          puts title
+          x += 1
+        end
+      end
+    end
+    cardinals = shifted_cardinals.merge cardinals
+  end
+
 end
