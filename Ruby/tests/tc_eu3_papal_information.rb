@@ -39,18 +39,22 @@ class TC_PapalInformation < Test::Unit::TestCase
   def test_cardinals
     cardinals = $EU3_PAPAL_INFORMATION.cardinals
     holder_index = $CK2_TITLES.holder_index
+    shifted_cardinals = Hash.new
     x = 0
     while x < 15
-      id, relations = cardinals.shift
-      shifted_cardinals[id] = relations
+      cardinal_id, relations = cardinals.shift
+      shifted_cardinals[cardinal_id] = relations
       holder_index.each do |title, holder_id|
-        if id == holder_id
+        if cardinal_id == holder_id
           puts title
           x += 1
         end
       end
+    # If here, length is off by one (7638)
     end
+    # Here, it's off by 6 (7633)
     cardinals = shifted_cardinals.merge cardinals
+
   end
 
 end
