@@ -37,24 +37,28 @@ class TC_PapalInformation < Test::Unit::TestCase
   end
 
   def test_cardinals
-    cardinals = $EU3_PAPAL_INFORMATION.cardinals
+    # If I assign directly, it messes up the other tests...
+    cardinals = Hash.new
+    $EU3_PAPAL_INFORMATION.cardinals.each { |id, val| cardinals[id] = val}
     holder_index = $CK2_TITLES.holder_index
     shifted_cardinals = Hash.new
-    x = 0
-    while x < 15
+    while shifted_cardinals.length < 15
       cardinal_id, relations = cardinals.shift
-      shifted_cardinals[cardinal_id] = relations
-      holder_index.each do |title, holder_id|
-        if cardinal_id == holder_id
-          puts title
-          x += 1
-        end
-      end
-    # If here, length is off by one (7638)
+      shifted_cardinals[cardinal_id] = relations unless shifted_cardinals[cardinal_id]
     end
-    # Here, it's off by 6 (7633)
-    cardinals = shifted_cardinals.merge cardinals
-
+=begin    _temp = Hash.new
+    shifted_cardinals.each do |cardinal_id, relations|
+    holder_index.each do |title, holder_id|
+      if cardinal_id == holder_id
+        #shifted_cardinals.shifted
+       _temp[title] = relations unless _temp[title]
+      end
+    end
+    end
+=end
+    #shifted_cardinals = _temp
+    shifted_cardinals.each { |a,b| puts "#{a} - #{b}"}
+    puts shifted_cardinals.length
   end
 
 end
