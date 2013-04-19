@@ -9,6 +9,11 @@ class EU3_Papal_Information
   end
 
   def write(location)
+    location.puts "papacy=\n{\n\tcontroller=\"#{@papal_controller}\""
+    location.puts "\tcrusade_target=\"---\"\n\tcrusade_start=\"1.1.1\""
+    location.puts "\tlast_excom=\"1.1.1\"\n\tpapacy_active=yes"
+    # Followed cardinal information, multiple entries'
+    location.puts '}'
   end
 
   def get_papal_controller(titles, characters)
