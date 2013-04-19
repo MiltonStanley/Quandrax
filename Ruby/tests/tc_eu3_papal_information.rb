@@ -37,26 +37,10 @@ class TC_PapalInformation < Test::Unit::TestCase
   end
 
   def test_papal_relations
-    # If I assign directly, it messes up the other tests...
-    papal_relations = Hash.new
-    $EU3_PAPAL_INFORMATION.papal_relations.each { |id, val| papal_relations[id] = val}
-    holder_index = $CK2_TITLES.holder_index
-    cardinals = Array.new
-
-    # Add to cardinals hash, until we have all cardinals
-    while cardinals.length < 15
-      cardinal_id, _ = papal_relations.shift
-      holder_index.each do |title, holder_id|
-        if cardinal_id == holder_id
-          tag = $TM_CK2_EU3[title]
-          puts title
-          cardinals << tag unless cardinals.include?(tag) || tag.nil?
-        end
-      end
-    end
-    puts "College of cardinals: "
-    x = 1
-    cardinals.each { |tag| puts "#{x}. Tag: #{tag}"; x+=1}
+    expected = %w[NAV CAS POR CAT ARA CRO BRI HUN 
+                  TRA SCO NOL GEN SAR PAP NAP
+                ]
+    assert_equal expected, $EU3_PAPAL_INFORMATION.cardinals
   end
 
 end
