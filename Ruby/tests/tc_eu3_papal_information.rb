@@ -40,7 +40,11 @@ class TC_PapalInformation < Test::Unit::TestCase
     expected = %w[NAV CAS POR CAT ARA CRO BRI HUN 
                   TRA SCO NOL GEN SAR PAP NAP
                 ]
-    assert_equal expected, $EU3_PAPAL_INFORMATION.cardinals
+    assert_equal expected, $EU3_PAPAL_INFORMATION.cardinal_tags
+  end
+
+  def test_cardinal_names
+
   end
 
 end
