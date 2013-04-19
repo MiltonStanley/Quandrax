@@ -36,15 +36,24 @@ class TC_PapalInformation < Test::Unit::TestCase
     assert_equal "NAV", papal_controller
   end
 
-  def test_papal_relations
+  def test_cardinal_controllers
     expected = %w[NAV CAS POR CAT ARA CRO BRI HUN 
                   TRA SCO NOL GEN SAR PAP NAP
                 ]
-    assert_equal expected, $EU3_PAPAL_INFORMATION.cardinal_tags
+    
+    assert_equal expected, $EU3_PAPAL_INFORMATION.cardinal_controllers
   end
-
+=begin
   def test_cardinal_names
-
+    cardinals = $EU3_PAPAL_INFORMATION.cardinal_tags
+    cardinals.each do |tag|
+      $CK2_TITLES.holder_index.each do |title, id|
+        if tag == $TM_CK2_EU3[title]
+          puts "#{tag} held by #{id}"
+        end
+      end
+    end
   end
+=end  
 
 end

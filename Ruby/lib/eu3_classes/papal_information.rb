@@ -1,11 +1,11 @@
 class EU3_Papal_Information
-  attr_accessor :papal_relations, :papal_controller, :cardinal_tags
+  attr_accessor :papal_relations, :papal_controller, :cardinal_controllers
 
   def initialize(titles, characters) # Title info, and allies of pope hash
     puts "Creating EU3 papacy section"
     @papal_relations = sort(characters.papal_relations)
     @papal_controller = get_papal_controller(titles, characters)
-    @cardinal_tags = get_cardinal_tags(titles)
+    @cardinal_controllers = get_cardinal_controllers(titles)
   end
 
   def write(location)
@@ -34,7 +34,7 @@ class EU3_Papal_Information
     $TM_CK2_EU3[papal_controller]
   end
 
-  def get_cardinal_tags(titles)
+  def get_cardinal_controllers(titles)
     papal_relations = Hash.new
     # If I assign directly, it messes up the original and fails other tests
     @papal_relations.each { |id, val| papal_relations[id] = val }
@@ -51,6 +51,10 @@ class EU3_Papal_Information
       end
     end
     cardinals
+  end
+
+  def same_controller?(title)
+    $TM_CK2_EU3[title]
   end
 
 end
