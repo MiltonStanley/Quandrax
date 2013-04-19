@@ -5,6 +5,7 @@ class EU3_Papal_Information
     puts "Creating EU3 papacy section"
     @papal_relations = sort(characters.papal_relations)
     @papal_controller = get_papal_controller(titles, characters)
+    @cardinals = get_cardinals(titles)
   end
 
   def write(location)
@@ -26,6 +27,25 @@ class EU3_Papal_Information
     @papal_relations = shifted_papal_relations.merge @papal_relations   # Set @papal_relations back to what it was
     end
     $TM_CK2_EU3[papal_controller]
+  end
+
+  def get_cardinals(titles)
+    papal_relations = Hash.new
+    # If I assign directly, it messes up the original and fails other tests
+    @papal_relations.each { |id, val| papal_relations[id] = val }
+    holder_index = titles.holder_index
+    cardinals = Array.new
+    # Add to cardinals hash, until we have all cardinals
+    while cardinals.length < 15
+      cardinal_id, _ = papal_relations.shift
+      holder_index.each do |title, holder_id|
+        if cardinal_id == holder_id
+          tag = $TM_CK2_EU3[title]
+          cardinals << tag unless cardinals.include?(tag) || tag.nil?
+        end
+      end
+    end
+    cardinals
   end
 
 end
