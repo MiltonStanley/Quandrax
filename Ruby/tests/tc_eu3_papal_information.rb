@@ -42,20 +42,24 @@ class TC_PapalInformation < Test::Unit::TestCase
     $EU3_PAPAL_INFORMATION.papal_relations.each { |id, val| papal_relations[id] = val}
     holder_index = $CK2_TITLES.holder_index
     cardinals = Hash.new
+    # Add to cardinals hash, until we have all cardinals
     while cardinals.length < 15
       cardinal_id, relations = papal_relations.shift
       cardinals[cardinal_id] = relations unless cardinals[cardinal_id]
     end
+
+    # Convert their titles to tags
     _temp = Hash.new
     cardinals.each do |cardinal_id, relations|
-    holder_index.each do |title, holder_id|
-      if cardinal_id == holder_id
-        tag = $TM_CK2_EU3[title]
-        _temp[tag] = relations unless _temp[tag]
-        break
+      holder_index.each do |title, holder_id|
+        if cardinal_id == holder_id
+          tag = $TM_CK2_EU3[title]
+          _temp[tag] = relations unless _temp[tag]
+          break
+        end
       end
     end
-    end
+    
     cardinals = _temp
     cardinals.each { |a,b| puts "#{a} - #{b}"}
     puts cardinals.length
