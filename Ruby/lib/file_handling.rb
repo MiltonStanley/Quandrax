@@ -76,7 +76,6 @@ def write_file(new_file)
   $EU3_DEFENDERS_OF_THE_FAITH = EU3_Defenders_of_the_Faith.new
   $EU3_DEFENDERS_OF_THE_FAITH.write(new_file)
   $EU3_PAPAL_INFORMATION = EU3_Papal_Information.new($CK2_TITLES, $CK2_CHARACTERS)
-  $EU3_PAPAL_INFORMATION.write(Kernel)
   print_from_temp(new_file, './lib/templates/papacy.tmp')
   print_from_temp(new_file, './lib/templates/trade.tmp')  # This is fine
   #$EU3_PROVINCES = EU3_Provinces.new($CK2_PROVINCES.provinces, $CK2_TITLES.titles)
