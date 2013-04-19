@@ -19,13 +19,13 @@ class TC_PapalInformation < Test::Unit::TestCase
           'Failed to create EU3 Papal information'
   end
 
-  def test_cardinals_length
-    assert_equal 7639, $EU3_PAPAL_INFORMATION.cardinals.length
+  def test_papal_relations_length
+    assert_equal 7639, $EU3_PAPAL_INFORMATION.papal_relations.length
   end
   
   def test_cardinal_sort
     last_val = 100_000
-    $EU3_PAPAL_INFORMATION.cardinals.each do |key, val|
+    $EU3_PAPAL_INFORMATION.papal_relations.each do |key, val|
       assert last_val >= val, "#{last_val} expected >= #{val}, but isn't"
       last_val = val
     end
@@ -36,18 +36,18 @@ class TC_PapalInformation < Test::Unit::TestCase
     assert_equal "NAV", papal_controller
   end
 
-  def test_cardinals
+  def test_papal_relations
     # If I assign directly, it messes up the other tests...
-    cardinals = Hash.new
-    $EU3_PAPAL_INFORMATION.cardinals.each { |id, val| cardinals[id] = val}
+    papal_relations = Hash.new
+    $EU3_PAPAL_INFORMATION.papal_relations.each { |id, val| papal_relations[id] = val}
     holder_index = $CK2_TITLES.holder_index
-    shifted_cardinals = Hash.new
-    while shifted_cardinals.length < 15
-      cardinal_id, relations = cardinals.shift
-      shifted_cardinals[cardinal_id] = relations unless shifted_cardinals[cardinal_id]
+    cardinals = Hash.new
+    while cardinals.length < 15
+      cardinal_id, relations = papal_relations.shift
+      cardinals[cardinal_id] = relations unless cardinals[cardinal_id]
     end
     _temp = Hash.new
-    shifted_cardinals.each do |cardinal_id, relations|
+    cardinals.each do |cardinal_id, relations|
     holder_index.each do |title, holder_id|
       if cardinal_id == holder_id
         tag = $TM_CK2_EU3[title]
@@ -56,9 +56,9 @@ class TC_PapalInformation < Test::Unit::TestCase
       end
     end
     end
-    shifted_cardinals = _temp
-    shifted_cardinals.each { |a,b| puts "#{a} - #{b}"}
-    puts shifted_cardinals.length
+    cardinals = _temp
+    cardinals.each { |a,b| puts "#{a} - #{b}"}
+    puts cardinals.length
   end
 
 end
