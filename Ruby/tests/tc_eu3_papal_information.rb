@@ -50,7 +50,8 @@ class TC_PapalInformation < Test::Unit::TestCase
     shifted_cardinals.each do |cardinal_id, relations|
     holder_index.each do |title, holder_id|
       if cardinal_id == holder_id
-        _temp[title] = relations unless _temp[title]
+        tag = $TM_CK2_EU3[title]
+        _temp[tag] = relations unless _temp[tag]
         break
       end
     end
