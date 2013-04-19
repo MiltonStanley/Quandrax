@@ -46,17 +46,16 @@ class TC_PapalInformation < Test::Unit::TestCase
       cardinal_id, relations = cardinals.shift
       shifted_cardinals[cardinal_id] = relations unless shifted_cardinals[cardinal_id]
     end
-=begin    _temp = Hash.new
+    _temp = Hash.new
     shifted_cardinals.each do |cardinal_id, relations|
     holder_index.each do |title, holder_id|
       if cardinal_id == holder_id
-        #shifted_cardinals.shifted
-       _temp[title] = relations unless _temp[title]
+        _temp[title] = relations unless _temp[title]
+        next
       end
     end
     end
-=end
-    #shifted_cardinals = _temp
+    shifted_cardinals = _temp
     shifted_cardinals.each { |a,b| puts "#{a} - #{b}"}
     puts shifted_cardinals.length
   end
