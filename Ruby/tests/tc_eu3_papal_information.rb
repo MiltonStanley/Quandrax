@@ -51,7 +51,7 @@ class TC_PapalInformation < Test::Unit::TestCase
     holder_index.each do |title, holder_id|
       if cardinal_id == holder_id
         _temp[title] = relations unless _temp[title]
-        next
+        break
       end
     end
     end
