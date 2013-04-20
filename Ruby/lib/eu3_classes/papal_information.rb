@@ -46,10 +46,15 @@ class EU3_Papal_Information
       holder_index.each do |title, holder_id|
         if cardinal_id == holder_id
           tag = $TM_CK2_EU3[title]
-          cardinals << tag unless cardinals.include?(tag) || tag.nil?
+          has_tag = false
+          cardinals.each do |title|
+            has_tag = true if $TM_CK2_EU3[title] == tag
+          end
+          cardinals << title unless has_tag
         end
       end
     end
+    puts cardinals
     cardinals
   end
 
