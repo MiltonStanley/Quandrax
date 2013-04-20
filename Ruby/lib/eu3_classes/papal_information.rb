@@ -5,7 +5,6 @@ class EU3_Papal_Information
     puts "Creating EU3 papacy section"
     @papal_relations = sort(characters.papal_relations)
     @papal_controller = get_papal_controller(titles, characters)
-    @cardinal_controllers = get_cardinal_controllers(titles)
   end
 
   def write(location)
@@ -35,31 +34,7 @@ class EU3_Papal_Information
   end
 
   def get_cardinal_controllers(titles)
-    papal_relations = Hash.new
-    # If I assign directly, it messes up the original and fails other tests
-    @papal_relations.each { |id, val| papal_relations[id] = val }
-    holder_index = titles.holder_index
-    cardinals = Array.new
-    # Add to cardinals hash, until we have all cardinals
-    while cardinals.length < 15
-      cardinal_id, _ = papal_relations.shift
-      holder_index.each do |title, holder_id|
-        if cardinal_id == holder_id
-          tag = $TM_CK2_EU3[title]
-          has_tag = false
-          cardinals.each do |title|
-            has_tag = true if $TM_CK2_EU3[title] == tag
-          end
-          cardinals << title unless has_tag
-        end
-      end
-    end
-    puts cardinals
-    cardinals
-  end
 
-  def same_controller?(title)
-    $TM_CK2_EU3[title]
   end
 
 end
