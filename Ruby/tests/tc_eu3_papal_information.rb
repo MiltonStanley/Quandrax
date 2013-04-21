@@ -36,4 +36,8 @@ class TC_PapalInformation < Test::Unit::TestCase
     assert_equal "NAV", papal_controller
   end
 
+  def test_cardinal_controllers
+    puts $EU3_PAPAL_INFORMATION.cardinal_controllers
+  end
+
 end
