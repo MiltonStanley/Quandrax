@@ -37,7 +37,7 @@ class TC_PapalInformation < Test::Unit::TestCase
   end
 
   def test_cardinal_controllers
-    puts $EU3_PAPAL_INFORMATION.cardinal_controllers
+    assert_equal 15, $EU3_PAPAL_INFORMATION.cardinal_controllers.length
   end
 
 end
