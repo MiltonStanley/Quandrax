@@ -5,7 +5,7 @@
       puts "Creating EU3 papacy section"
       @papal_relations = sort(characters.papal_relations)
       @papal_controller = get_papal_controller(titles, characters)
-      @cardinal_controllers = get_cardinal_controllers(titles)
+      @cardinal_controllers = get_cardinal_controllers(titles, characters.characters)
     end
 
     def write(location)
@@ -34,7 +34,7 @@
       $TM_CK2_EU3[papal_controller]
     end
 
-    def get_cardinal_controllers(titles)
+    def get_cardinal_controllers(titles, characters)
       cardinal_titles = Array.new
       cardinal_tags = Array.new
       papal_relations = Hash.new
@@ -43,10 +43,10 @@
         cardinal_id, _ = papal_relations.shift
         titles.holder_index.each do |title, id|
           if id == cardinal_id && !(cardinal_tags.include? $TM_CK2_EU3[title])
-            ### TODO
-            # Make sure it doesn't add Orthodox dudes
-            cardinal_titles << title unless title =~ /^b_/
-            cardinal_tags << $TM_CK2_EU3[title] unless title =~ /^b_/
+            unless title =~ /^b_/ || characters[cardinal_id].religion != 'catholic'
+              cardinal_titles << title
+              cardinal_tags << $TM_CK2_EU3[title]
+            end
             break
           end
         end
