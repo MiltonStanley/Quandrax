@@ -47,5 +47,16 @@ class TC_PapalInformation < Test::Unit::TestCase
                         ]
     assert_equal expected_titles, $EU3_PAPAL_INFORMATION.cardinal_controllers
   end
+
+  def test_cardinal_names
+    # What to do if guy has no chaplain? Skip him in Papal_Information!
+    holder_index = $CK2_TITLES.holder_index
+    characters = $CK2_CHARACTERS.characters
+    $EU3_PAPAL_INFORMATION.cardinal_controllers.each do |title|
+      employer = holder_index[title]
+      chaplain = $CK2_CHARACTERS.chaplain_index[employer]
+      puts "#{title}: employer #{employer} has chaplain #{chaplain} (named #{characters[chaplain].birth_name}"
+    end
+  end
   
 end
