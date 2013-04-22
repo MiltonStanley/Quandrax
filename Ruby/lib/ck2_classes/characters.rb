@@ -77,6 +77,7 @@ class A_Character
     add_papal_ally(line, papal_relations) if is_relation_value?(line) && @friend_of_pope
     @dynasty = val.gsub('"','') if is_dynasty?(key)
     @old_holdings << val.gsub('"','') if is_old_holding?(key)
+    @religion = val.gsub('"','') if is_religion?(key)
   end
 
   def is_old_holding?(key)
@@ -95,6 +96,10 @@ class A_Character
 
   def is_birth_name?(key)
     key =~ /^\t+(birth_name)/
+  end
+
+  def is_religion?(key)
+    key =~ /^\t+(religion)/
   end
 
   def is_employer?(key)
