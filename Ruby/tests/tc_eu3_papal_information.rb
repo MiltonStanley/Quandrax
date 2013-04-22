@@ -36,7 +36,7 @@ class TC_PapalInformation < Test::Unit::TestCase
     assert_equal "NAV", papal_controller
   end
 
-  def test_cardinal_controllers
+  def test_cardinal_controllers_length
     assert_equal 15, $EU3_PAPAL_INFORMATION.cardinal_controllers.length
   end
 
