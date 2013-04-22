@@ -40,4 +40,12 @@ class TC_PapalInformation < Test::Unit::TestCase
     assert_equal 15, $EU3_PAPAL_INFORMATION.cardinal_controllers.length
   end
 
+  def test_cardinal_controllers_titles
+    expected_titles = %w[ k_navarra c_valladolid c_coimbra d_barcelona
+                          c_empuries d_slavonia c_vannes c_csanad d_transylvania
+                          c_galloway c_cumberland c_nice c_cagliari c_orvieto c_benevento
+                        ]
+    assert_equal expected_titles, $EU3_PAPAL_INFORMATION.cardinal_controllers
+  end
+  
 end

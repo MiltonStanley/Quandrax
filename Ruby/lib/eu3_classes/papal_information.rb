@@ -35,22 +35,23 @@
     end
 
     def get_cardinal_controllers(titles)
-      cardinals = Array.new
+      cardinal_titles = Array.new
+      cardinal_tags = Array.new
       papal_relations = Hash.new
       @papal_relations.each { |id, relation| papal_relations[id] = relation}
-      while cardinals.length < 15
-        # Shift from papal_relations to a_title - we have an ID
+      while cardinal_titles.length < 15
         cardinal_id, _ = papal_relations.shift
-        # With titles.holder_index, get ALL the matching titles (holder_index[title] = id)
-        # Add HIGHEST title to cardinal_index IF
-        #  1) title -> tag doesn't already exist
-      ## This just adds an array of arrays w/ titles
-        all_titles = Array.new
-        titles.holder_index.each { |title, id| all_titles << title if id == cardinal_id}
-
-        cardinals << all_titles
+        titles.holder_index.each do |title, id|
+          if id == cardinal_id && !(cardinal_tags.include? $TM_CK2_EU3[title])
+            ### TODO
+            # Make sure it doesn't add Orthodox dudes
+            cardinal_titles << title unless title =~ /^b_/
+            cardinal_tags << $TM_CK2_EU3[title] unless title =~ /^b_/
+            break
+          end
+        end
       end
-    cardinals
+    cardinal_titles
     end
 
   end
