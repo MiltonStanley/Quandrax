@@ -98,4 +98,12 @@ class TC_CK2Characters < Test::Unit::TestCase
       assert_equal expected, actual
     end
 
+    def test_character_religion
+      religion = { '20662' => 'orthodox', '140' => 'catholic', '502636' => 'catholic' }
+      religion.each do |character_id, expected|
+        actual = $CK2_CHARACTERS.characters[character_id].religion
+        assert_equal expected, actual
+      end
+    end
+
 end
