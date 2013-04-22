@@ -55,7 +55,7 @@ class TC_PapalInformation < Test::Unit::TestCase
     $EU3_PAPAL_INFORMATION.cardinal_controllers.each do |title|
       employer = holder_index[title]
       chaplain = $CK2_CHARACTERS.chaplain_index[employer]
-      puts "#{title}: employer #{employer} has chaplain #{chaplain} (named #{characters[chaplain].birth_name}"
+      puts "#{title}: employer #{employer} has chaplain #{chaplain} (named #{characters[chaplain].birth_name unless characters[chaplain].nil?}"
     end
   end
   
