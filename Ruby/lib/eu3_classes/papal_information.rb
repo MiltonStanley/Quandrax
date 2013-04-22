@@ -5,6 +5,7 @@ class EU3_Papal_Information
     puts "Creating EU3 papacy section"
     @papal_relations = sort(characters.papal_relations)
     @papal_controller = get_papal_controller(titles, characters)
+    @cardinal_controllers = get_cardinal_controllers(titles)
   end
 
   def write(location)
@@ -34,7 +35,16 @@ class EU3_Papal_Information
   end
 
   def get_cardinal_controllers(titles)
+=begin
+    * Shift from papal_relations to a_title - we have an ID
+    * With titles.holder_index, get ALL the matching titles (holder_index[title] = id)
+    * Add HIGHEST title to cardinal_index IF
+      1) title -> tag doesn't already exist
+=end
 
+    _temp = Array.new
+    @papal_relations.each { |title| _temp << title }
+    puts _temp.length
   end
 
 end
