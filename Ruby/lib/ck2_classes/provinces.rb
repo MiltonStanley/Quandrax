@@ -1,10 +1,15 @@
-# provinces.rb
-# 
-# Holds Pertinent CK2 province info for future use
+##############################################################################
 #
-# MOST Important stuff is passed to the A_CK2_Province class Below
+# Holds all the data making up the Province section in a CK2 Savegame,
+# and passes the data to EU3 sections as appropriate.
+#
+# The specific data for individual provinces are passed to the A_CK2_Province class
+#
+##############################################################################
 
 class CK2_Provinces
+  ##
+  # An Array. Index is the CK2 Province id; Data is an A_CK2_Province object
   attr_accessor :provinces
 
   def initialize
@@ -29,14 +34,31 @@ end
 
 ###############################
 #
-# A_CK2_Province does most of the
-# real heavy lifting
+# A_CK2_Province holds the province's
+# specific data.
+#
+# It's passed to it by CK2_Provinces via the add method.
 #
 ###############################
 
 class A_CK2_Province
-  attr_accessor :ck2_id, :name, :culture, :religion,
-                :max_settlements, :title, :tech_level, :tech_progress
+  
+  # This is the ID of the province in CK2 (also the index in CK2_Provinces.provinces), String
+  attr_accessor :ck2_id
+  # The province's name in CK2 (String)
+  attr_accessor :name
+  # The province's culture in CK2 (String)
+  attr_accessor :culture
+  # The province's religion in CK2 (String)
+  attr_accessor :religion
+  # The province's max number of settlements in CK2 (String)
+  attr_accessor :max_settlements
+  # The province's title (as in nobility) in CK2 (String)
+  attr_accessor :title
+  # The province's tech levels in CK2 (Array)
+  attr_accessor :tech_level
+  # The province's progress towards next tech levels in CK2 (Array)
+  attr_accessor :tech_progress
 
   def initialize(id)
     @ck2_id = id

@@ -1,467 +1,424 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+
+<html>
 <head>
-  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta content="text/html; charset=IBM437" http-equiv="Content-Type">
 
-  <title>Class: A_Character</title>
+<title>class A_Character - RDoc Documentation</title>
 
-  <link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+<link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet">
 
-  <script src="./js/jquery.js" type="text/javascript" charset="utf-8"></script>
-  <script src="./js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
-  <script src="./js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
-  <script src="./js/darkfish.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
 
-</head>
+<script type="text/javascript" charset="utf-8" src="./js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/darkfish.js"></script>
+
+
 <body id="top" class="class">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="./index.html">Home</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
 
-  <div id="metadata">
-    <div id="home-metadata">
-      <div id="home-section" class="section">
-        <h3 class="section-header">
-          <a href="./index.html">Home</a>
-          <a href="./index.html#classes">Classes</a>
-          <a href="./index.html#methods">Methods</a>
-        </h3>
-      </div>
-    </div>
 
-    <div id="file-metadata">
-      <div id="file-list-section" class="section">
-        <h3 class="section-header">In Files</h3>
-        <div class="section-body">
-          <ul>
-          
-            <li><a href="./lib/ck2_classes/characters_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
-              class="thickbox" title="lib/ck2_classes/characters.rb">lib/ck2_classes/characters.rb</a></li>
-          
-          </ul>
-        </div>
-      </div>
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
 
-      
-    </div>
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
 
-    <div id="class-metadata">
-      
-      <!-- Parent Class -->
-      <div id="parent-class-section" class="section">
-        <h3 class="section-header">Parent</h3>
-        
-        <p class="link"><a href="Object.html">Object</a></p>
-        
-      </div>
-      
 
-      
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>lib/ck2_classes/characters.rb
+  </ul>
+</nav>
 
-      
-
-      
-      <!-- Method Quickref -->
-      <div id="method-list-section" class="section">
-        <h3 class="section-header">Methods</h3>
-        <ul class="link-list">
-          
-          <li><a href="#method-c-new">::new</a></li>
-          
-          <li><a href="#method-i-add">#add</a></li>
-          
-          <li><a href="#method-i-add_papal_ally">#add_papal_ally</a></li>
-          
-          <li><a href="#method-i-is_ally_header-3F">#is_ally_header?</a></li>
-          
-          <li><a href="#method-i-is_birth_name-3F">#is_birth_name?</a></li>
-          
-          <li><a href="#method-i-is_dead-3F">#is_dead?</a></li>
-          
-          <li><a href="#method-i-is_dynasty-3F">#is_dynasty?</a></li>
-          
-          <li><a href="#method-i-is_employer-3F">#is_employer?</a></li>
-          
-          <li><a href="#method-i-is_enemy_header-3F">#is_enemy_header?</a></li>
-          
-          <li><a href="#method-i-is_job_title-3F">#is_job_title?</a></li>
-          
-          <li><a href="#method-i-is_old_holding-3F">#is_old_holding?</a></li>
-          
-          <li><a href="#method-i-is_pope_id-3F">#is_pope_id?</a></li>
-          
-          <li><a href="#method-i-is_relation_value-3F">#is_relation_value?</a></li>
-          
-          <li><a href="#method-i-is_religion-3F">#is_religion?</a></li>
-          
-        </ul>
-      </div>
-      
-
-      
-    </div>
-
-    <div id="project-metadata">
-      
-      
-      <div id="fileindex-section" class="section project-section">
-        <h3 class="section-header">Files</h3>
-        <ul>
-        
-          <li class="file"><a href="./config_file_txt.html">config_file.txt</a></li>
-        
-          <li class="file"><a href="./tools/cultures.html">cultures</a></li>
-        
-          <li class="file"><a href="./tools/monarchs_txt.html">monarchs.txt</a></li>
-        
-        </ul>
-      </div>
-      
-
-      <div id="classindex-section" class="section project-section">
-        <h3 class="section-header">Class/Module Index
-          <span class="search-toggle"><img src="./images/find.png"
-            height="16" width="16" alt="[+]"
-            title="show/hide quicksearch" /></span></h3>
-        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
-        <fieldset>
-          <legend>Quicksearch</legend>
-          <input type="text" name="quicksearch" value=""
-            class="quicksearch-field" />
-        </fieldset>
-        </form>
-
-        <ul class="link-list">
-        
-          <li><a href="./A_CK2_Province.html">A_CK2_Province</a></li>
-        
-          <li><a href="./A_Character.html">A_Character</a></li>
-        
-          <li><a href="./A_Title.html">A_Title</a></li>
-        
-          <li><a href="./An_EU3_Province.html">An_EU3_Province</a></li>
-        
-          <li><a href="./CK2_Active_War.html">CK2_Active_War</a></li>
-        
-          <li><a href="./CK2_Characters.html">CK2_Characters</a></li>
-        
-          <li><a href="./CK2_Combat.html">CK2_Combat</a></li>
-        
-          <li><a href="./CK2_Diplomacy.html">CK2_Diplomacy</a></li>
-        
-          <li><a href="./CK2_Dynasties.html">CK2_Dynasties</a></li>
-        
-          <li><a href="./CK2_Footer.html">CK2_Footer</a></li>
-        
-          <li><a href="./CK2_Header.html">CK2_Header</a></li>
-        
-          <li><a href="./CK2_ID.html">CK2_ID</a></li>
-        
-          <li><a href="./CK2_Provinces.html">CK2_Provinces</a></li>
-        
-          <li><a href="./CK2_Religious_Authority.html">CK2_Religious_Authority</a></li>
-        
-          <li><a href="./CK2_Titles.html">CK2_Titles</a></li>
-        
-          <li><a href="./CK2_War.html">CK2_War</a></li>
-        
-          <li><a href="./EU3_Defenders_of_the_Faith.html">EU3_Defenders_of_the_Faith</a></li>
-        
-          <li><a href="./EU3_Header.html">EU3_Header</a></li>
-        
-          <li><a href="./EU3_Imperial_Information.html">EU3_Imperial_Information</a></li>
-        
-          <li><a href="./EU3_Papal_Information.html">EU3_Papal_Information</a></li>
-        
-          <li><a href="./EU3_Province.html">EU3_Province</a></li>
-        
-          <li><a href="./EU3_Provinces.html">EU3_Provinces</a></li>
-        
-          <li><a href="./Object.html">Object</a></li>
-        
-          <li><a href="./Player.html">Player</a></li>
-        
-          <li><a href="./Province.html">Province</a></li>
-        
-          <li><a href="./TC_ArrayConversion.html">TC_ArrayConversion</a></li>
-        
-          <li><a href="./TC_CK2Characters.html">TC_CK2Characters</a></li>
-        
-          <li><a href="./TC_CK2Dynasties.html">TC_CK2Dynasties</a></li>
-        
-          <li><a href="./TC_CK2Header.html">TC_CK2Header</a></li>
-        
-          <li><a href="./TC_CK2ID.html">TC_CK2ID</a></li>
-        
-          <li><a href="./TC_CK2Provinces.html">TC_CK2Provinces</a></li>
-        
-          <li><a href="./TC_CK2ReligiousAuthority.html">TC_CK2ReligiousAuthority</a></li>
-        
-          <li><a href="./TC_CK2Titles.html">TC_CK2Titles</a></li>
-        
-          <li><a href="./TC_DefendersOfTheFaith.html">TC_DefendersOfTheFaith</a></li>
-        
-          <li><a href="./TC_EU3Header.html">TC_EU3Header</a></li>
-        
-          <li><a href="./TC_EU3ImperialInfo.html">TC_EU3ImperialInfo</a></li>
-        
-          <li><a href="./TC_PapalInformation.html">TC_PapalInformation</a></li>
-        
-          <li><a href="./TC_Parsing.html">TC_Parsing</a></li>
-        
-          <li><a href="./Tracker.html">Tracker</a></li>
-        
-          <li><a href="./World.html">World</a></li>
-        
-        </ul>
-        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
-      </div>
-
-      
-    </div>
+    
   </div>
 
-  <div id="documentation">
-    <h1 class="class">A_Character</h1>
+  <div id="class-metadata">
+    
+    <nav id="parent-class-section" class="section">
+  <h3 class="section-header">Parent</h3>
+  
+  <p class="link"><a href="Object.html">Object</a>
+  
+</nav>
 
-    <div id="description" class="description">
-      
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li><a href="#method-c-new">::new</a>
+    
+    <li><a href="#method-i-add">#add</a>
+    
+    <li><a href="#method-i-add_papal_ally">#add_papal_ally</a>
+    
+    <li><a href="#method-i-is_ally_header-3F">#is_ally_header?</a>
+    
+    <li><a href="#method-i-is_birth_name-3F">#is_birth_name?</a>
+    
+    <li><a href="#method-i-is_capital-3F">#is_capital?</a>
+    
+    <li><a href="#method-i-is_dead-3F">#is_dead?</a>
+    
+    <li><a href="#method-i-is_dynasty-3F">#is_dynasty?</a>
+    
+    <li><a href="#method-i-is_enemy_header-3F">#is_enemy_header?</a>
+    
+    <li><a href="#method-i-is_host-3F">#is_host?</a>
+    
+    <li><a href="#method-i-is_job_title-3F">#is_job_title?</a>
+    
+    <li><a href="#method-i-is_old_holding-3F">#is_old_holding?</a>
+    
+    <li><a href="#method-i-is_pope_id-3F">#is_pope_id?</a>
+    
+    <li><a href="#method-i-is_relation_value-3F">#is_relation_value?</a>
+    
+    <li><a href="#method-i-is_religion-3F">#is_religion?</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="./config_file_txt.html">config_file</a>
+  
+    <li class="file"><a href="./tools/cultures.html">cultures</a>
+  
+    <li class="file"><a href="./tools/monarchs_txt.html">monarchs</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="./A_CK2_Province.html">A_CK2_Province</a>
+  
+    <li><a href="./A_Character.html">A_Character</a>
+  
+    <li><a href="./A_Title.html">A_Title</a>
+  
+    <li><a href="./An_EU3_Province.html">An_EU3_Province</a>
+  
+    <li><a href="./CK2_Active_War.html">CK2_Active_War</a>
+  
+    <li><a href="./CK2_Characters.html">CK2_Characters</a>
+  
+    <li><a href="./CK2_Combat.html">CK2_Combat</a>
+  
+    <li><a href="./CK2_Diplomacy.html">CK2_Diplomacy</a>
+  
+    <li><a href="./CK2_Dynasties.html">CK2_Dynasties</a>
+  
+    <li><a href="./CK2_Footer.html">CK2_Footer</a>
+  
+    <li><a href="./CK2_Header.html">CK2_Header</a>
+  
+    <li><a href="./CK2_ID.html">CK2_ID</a>
+  
+    <li><a href="./CK2_Provinces.html">CK2_Provinces</a>
+  
+    <li><a href="./CK2_Religious_Authority.html">CK2_Religious_Authority</a>
+  
+    <li><a href="./CK2_Titles.html">CK2_Titles</a>
+  
+    <li><a href="./CK2_War.html">CK2_War</a>
+  
+    <li><a href="./EU3_Defenders_of_the_Faith.html">EU3_Defenders_of_the_Faith</a>
+  
+    <li><a href="./EU3_Header.html">EU3_Header</a>
+  
+    <li><a href="./EU3_Imperial_Information.html">EU3_Imperial_Information</a>
+  
+    <li><a href="./EU3_Papal_Information.html">EU3_Papal_Information</a>
+  
+    <li><a href="./EU3_Province.html">EU3_Province</a>
+  
+    <li><a href="./EU3_Provinces.html">EU3_Provinces</a>
+  
+    <li><a href="./Object.html">Object</a>
+  
+    <li><a href="./Player.html">Player</a>
+  
+    <li><a href="./Province.html">Province</a>
+  
+    <li><a href="./TC_ArrayConversion.html">TC_ArrayConversion</a>
+  
+    <li><a href="./TC_CK2Characters.html">TC_CK2Characters</a>
+  
+    <li><a href="./TC_CK2Dynasties.html">TC_CK2Dynasties</a>
+  
+    <li><a href="./TC_CK2Header.html">TC_CK2Header</a>
+  
+    <li><a href="./TC_CK2ID.html">TC_CK2ID</a>
+  
+    <li><a href="./TC_CK2Provinces.html">TC_CK2Provinces</a>
+  
+    <li><a href="./TC_CK2ReligiousAuthority.html">TC_CK2ReligiousAuthority</a>
+  
+    <li><a href="./TC_CK2Titles.html">TC_CK2Titles</a>
+  
+    <li><a href="./TC_DefendersOfTheFaith.html">TC_DefendersOfTheFaith</a>
+  
+    <li><a href="./TC_EU3Header.html">TC_EU3Header</a>
+  
+    <li><a href="./TC_EU3ImperialInfo.html">TC_EU3ImperialInfo</a>
+  
+    <li><a href="./TC_PapalInformation.html">TC_PapalInformation</a>
+  
+    <li><a href="./TC_Parsing.html">TC_Parsing</a>
+  
+    <li><a href="./Tracker.html">Tracker</a>
+  
+    <li><a href="./World.html">World</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="class">class A_Character</h1>
+
+  <div id="description" class="description">
+    
 <p><a href="A_Character.html">A_Character</a> does most of the real heavy
 lifting</p>
 
-    </div><!-- description -->
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
 
     
+
     
+
     
-    <div id="5Buntitled-5D" class="documentation-section">
-      
+    <!-- Attributes -->
+    <section id="attribute-method-details" class="method-section section">
+      <h3 class="section-header">Attributes</h3>
 
       
+      <div id="attribute-i-alive" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">alive</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
 
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
       
+      <div id="attribute-i-birth_name" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">birth_name</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
 
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
       
-      <!-- Attributes -->
-      <div id="attribute-method-details" class="method-section section">
-        <h3 class="section-header">Attributes</h3>
-
-        
-        <div id="alive-attribute-method" class="method-detail">
-          <a name="alive"></a>
-          
-          <a name="alive="></a>
-          
-          <div class="method-heading attribute-method-heading">
-            <span class="method-name">alive</span><span
-              class="attribute-access-type">[RW]</span>
-          </div>
-
-          <div class="method-description">
-          
-          
-          
-          </div>
+      <div id="attribute-i-capital" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">capital</span><span
+            class="attribute-access-type">[RW]</span>
         </div>
-        
-        <div id="birth_name-attribute-method" class="method-detail">
-          <a name="birth_name"></a>
-          
-          <a name="birth_name="></a>
-          
-          <div class="method-heading attribute-method-heading">
-            <span class="method-name">birth_name</span><span
-              class="attribute-access-type">[RW]</span>
-          </div>
 
-          <div class="method-description">
-          
-          
-          
-          </div>
-        </div>
+        <div class="method-description">
         
-        <div id="dynasty-attribute-method" class="method-detail">
-          <a name="dynasty"></a>
-          
-          <a name="dynasty="></a>
-          
-          <div class="method-heading attribute-method-heading">
-            <span class="method-name">dynasty</span><span
-              class="attribute-access-type">[RW]</span>
-          </div>
-
-          <div class="method-description">
-          
-          
-          
-          </div>
-        </div>
         
-        <div id="employer-attribute-method" class="method-detail">
-          <a name="employer"></a>
-          
-          <a name="employer="></a>
-          
-          <div class="method-heading attribute-method-heading">
-            <span class="method-name">employer</span><span
-              class="attribute-access-type">[RW]</span>
-          </div>
-
-          <div class="method-description">
-          
-          
-          
-          </div>
-        </div>
         
-        <div id="friend_of_pope-attribute-method" class="method-detail">
-          <a name="friend_of_pope"></a>
-          
-          <a name="friend_of_pope="></a>
-          
-          <div class="method-heading attribute-method-heading">
-            <span class="method-name">friend_of_pope</span><span
-              class="attribute-access-type">[RW]</span>
-          </div>
-
-          <div class="method-description">
-          
-          
-          
-          </div>
         </div>
-        
-        <div id="id-attribute-method" class="method-detail">
-          <a name="id"></a>
-          
-          <a name="id="></a>
-          
-          <div class="method-heading attribute-method-heading">
-            <span class="method-name">id</span><span
-              class="attribute-access-type">[RW]</span>
-          </div>
-
-          <div class="method-description">
-          
-          
-          
-          </div>
-        </div>
-        
-        <div id="job_title-attribute-method" class="method-detail">
-          <a name="job_title"></a>
-          
-          <a name="job_title="></a>
-          
-          <div class="method-heading attribute-method-heading">
-            <span class="method-name">job_title</span><span
-              class="attribute-access-type">[RW]</span>
-          </div>
-
-          <div class="method-description">
-          
-          
-          
-          </div>
-        </div>
-        
-        <div id="old_holdings-attribute-method" class="method-detail">
-          <a name="old_holdings"></a>
-          
-          <a name="old_holdings="></a>
-          
-          <div class="method-heading attribute-method-heading">
-            <span class="method-name">old_holdings</span><span
-              class="attribute-access-type">[RW]</span>
-          </div>
-
-          <div class="method-description">
-          
-          
-          
-          </div>
-        </div>
-        
-        <div id="papal_relation_value-attribute-method" class="method-detail">
-          <a name="papal_relation_value"></a>
-          
-          <a name="papal_relation_value="></a>
-          
-          <div class="method-heading attribute-method-heading">
-            <span class="method-name">papal_relation_value</span><span
-              class="attribute-access-type">[RW]</span>
-          </div>
-
-          <div class="method-description">
-          
-          
-          
-          </div>
-        </div>
-        
-        <div id="relations_to_pope-attribute-method" class="method-detail">
-          <a name="relations_to_pope"></a>
-          
-          <a name="relations_to_pope="></a>
-          
-          <div class="method-heading attribute-method-heading">
-            <span class="method-name">relations_to_pope</span><span
-              class="attribute-access-type">[RW]</span>
-          </div>
-
-          <div class="method-description">
-          
-          
-          
-          </div>
-        </div>
-        
-        <div id="religion-attribute-method" class="method-detail">
-          <a name="religion"></a>
-          
-          <a name="religion="></a>
-          
-          <div class="method-heading attribute-method-heading">
-            <span class="method-name">religion</span><span
-              class="attribute-access-type">[RW]</span>
-          </div>
-
-          <div class="method-description">
-          
-          
-          
-          </div>
-        </div>
-        
-      </div><!-- attribute-method-details -->
+      </div>
       
+      <div id="attribute-i-dynasty" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">dynasty</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
 
-      <!-- Methods -->
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
       
-      <div id="public-class-method-details" class="method-section section">
-        <h3 class="section-header">Public Class Methods</h3>
+      <div id="attribute-i-friend_of_pope" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">friend_of_pope</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
 
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
       
-        <div id="new-method" class="method-detail ">
-          <a name="method-c-new"></a>
+      <div id="attribute-i-host" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">host</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-id" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">id</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-job_title" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">job_title</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-old_holdings" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">old_holdings</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-papal_relation_value" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">papal_relation_value</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-relations_to_pope" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">relations_to_pope</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-religion" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">religion</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+    </section><!-- attribute-method-details -->
+    
+
+    <!-- Methods -->
+    
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Class Methods</h3>
+
+    
+      <div id="method-c-new" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">new</span><span
+            class="method-args">(line, pope_id)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
 
           
-          <div class="method-heading">
-            <span class="method-name">new</span><span
-              class="method-args">(line, pope_id)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-
-          <div class="method-description">
-            
-            
-            
-
-            
-            <div class="method-source-code" id="new-source">
-<pre>
-<span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 58</span>
+          <div class="method-source-code" id="new-source">
+            <pre><span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 58</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">line</span>, <span class="ruby-identifier">pope_id</span>)
   <span class="ruby-ivar">@id</span>, <span class="ruby-identifier">_</span> = <span class="ruby-identifier">line</span>.<span class="ruby-identifier">strip</span>.<span class="ruby-identifier">split</span>(<span class="ruby-string">&quot;=&quot;</span>,<span class="ruby-value">2</span>)
   <span class="ruby-ivar">@pope_id</span> = <span class="ruby-identifier">pope_id</span>
@@ -471,46 +428,43 @@ lifting</p>
   <span class="ruby-ivar">@papal_relation_value</span> = <span class="ruby-value">0</span>  <span class="ruby-comment"># Start with no relations</span>
   <span class="ruby-ivar">@old_holdings</span> = <span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>
 <span class="ruby-keyword">end</span></pre>
-            </div><!-- new-source -->
-            
-          </div>
-
+          </div><!-- new-source -->
           
+        </div>
 
-          
-        </div><!-- new-method -->
+        
 
-      
-      </div><!-- public-class-method-details -->
+        
+      </div><!-- new-method -->
+
     
-      <div id="public-instance-method-details" class="method-section section">
-        <h3 class="section-header">Public Instance Methods</h3>
+    </section><!-- public-class-method-details -->
+  
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
 
-      
-        <div id="add-method" class="method-detail ">
-          <a name="method-i-add"></a>
+    
+      <div id="method-i-add" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">add</span><span
+            class="method-args">(line, papal_relations)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
 
           
-          <div class="method-heading">
-            <span class="method-name">add</span><span
-              class="method-args">(line, papal_relations)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-
-          <div class="method-description">
-            
-            
-            
-
-            
-            <div class="method-source-code" id="add-source">
-<pre>
-<span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 68</span>
+          <div class="method-source-code" id="add-source">
+            <pre><span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 68</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">add</span>(<span class="ruby-identifier">line</span>, <span class="ruby-identifier">papal_relations</span>)
   <span class="ruby-identifier">key</span>, <span class="ruby-identifier">val</span> = <span class="ruby-identifier">split_key_value</span>(<span class="ruby-identifier">line</span>)
   <span class="ruby-ivar">@birth_name</span> = <span class="ruby-identifier">val</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-string">'&quot;'</span>,<span class="ruby-string">''</span>) <span class="ruby-keyword">if</span> <span class="ruby-identifier">is_birth_name?</span>(<span class="ruby-identifier">key</span>)
-  <span class="ruby-ivar">@employer</span> = <span class="ruby-identifier">val</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-string">'&quot;'</span>,<span class="ruby-string">''</span>) <span class="ruby-keyword">if</span> <span class="ruby-identifier">is_employer?</span>(<span class="ruby-identifier">key</span>)
+  <span class="ruby-ivar">@host</span> = <span class="ruby-identifier">val</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-string">'&quot;'</span>,<span class="ruby-string">''</span>) <span class="ruby-keyword">if</span> <span class="ruby-identifier">is_host?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-ivar">@job_title</span> = <span class="ruby-identifier">val</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-string">'&quot;'</span>,<span class="ruby-string">''</span>) <span class="ruby-keyword">if</span> <span class="ruby-identifier">is_job_title?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-ivar">@alive</span> = <span class="ruby-keyword">false</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">is_dead?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-ivar">@reading_ally</span> = <span class="ruby-keyword">true</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">is_ally_header?</span>(<span class="ruby-identifier">line</span>) <span class="ruby-comment"># Line has &quot;ally=&quot;</span>
@@ -520,430 +474,422 @@ lifting</p>
   <span class="ruby-ivar">@dynasty</span> = <span class="ruby-identifier">val</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-string">'&quot;'</span>,<span class="ruby-string">''</span>) <span class="ruby-keyword">if</span> <span class="ruby-identifier">is_dynasty?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-ivar">@old_holdings</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">val</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-string">'&quot;'</span>,<span class="ruby-string">''</span>) <span class="ruby-keyword">if</span> <span class="ruby-identifier">is_old_holding?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-ivar">@religion</span> = <span class="ruby-identifier">val</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-string">'&quot;'</span>,<span class="ruby-string">''</span>) <span class="ruby-keyword">if</span> <span class="ruby-identifier">is_religion?</span>(<span class="ruby-identifier">key</span>)
+  <span class="ruby-ivar">@capital</span> = <span class="ruby-identifier">val</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-string">'&quot;'</span>,<span class="ruby-string">''</span>) <span class="ruby-keyword">if</span> <span class="ruby-identifier">is_capital?</span>(<span class="ruby-identifier">key</span>)
 <span class="ruby-keyword">end</span></pre>
-            </div><!-- add-source -->
-            
-          </div>
+          </div><!-- add-source -->
+          
+        </div>
 
+        
+
+        
+      </div><!-- add-method -->
+
+    
+      <div id="method-i-add_papal_ally" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">add_papal_ally</span><span
+            class="method-args">(line, papal_relations_list)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
           
 
           
-        </div><!-- add-method -->
-
-      
-        <div id="add_papal_ally-method" class="method-detail ">
-          <a name="method-i-add_papal_ally"></a>
-
-          
-          <div class="method-heading">
-            <span class="method-name">add_papal_ally</span><span
-              class="method-args">(line, papal_relations_list)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-
-          <div class="method-description">
-            
-            
-            
-
-            
-            <div class="method-source-code" id="add_papal_ally-source">
-<pre>
-<span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 91</span>
+          <div class="method-source-code" id="add_papal_ally-source">
+            <pre><span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 96</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">add_papal_ally</span>(<span class="ruby-identifier">line</span>, <span class="ruby-identifier">papal_relations_list</span>)
   <span class="ruby-identifier">_</span>, <span class="ruby-identifier">value</span> = <span class="ruby-identifier">split_key_value</span>(<span class="ruby-identifier">line</span>)
   <span class="ruby-ivar">@papal_relation_value</span> = <span class="ruby-identifier">value</span>.<span class="ruby-identifier">to_i</span>
   <span class="ruby-ivar">@friend_of_pope</span> = <span class="ruby-keyword">false</span>
 <span class="ruby-keyword">end</span></pre>
-            </div><!-- add_papal_ally-source -->
-            
-          </div>
+          </div><!-- add_papal_ally-source -->
+          
+        </div>
 
+        
+
+        
+      </div><!-- add_papal_ally-method -->
+
+    
+      <div id="method-i-is_ally_header-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">is_ally_header?</span><span
+            class="method-args">(line)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
           
 
           
-        </div><!-- add_papal_ally-method -->
-
-      
-        <div id="is_ally_header-3F-method" class="method-detail ">
-          <a name="method-i-is_ally_header-3F"></a>
-
-          
-          <div class="method-heading">
-            <span class="method-name">is_ally_header?</span><span
-              class="method-args">(line)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-
-          <div class="method-description">
-            
-            
-            
-
-            
-            <div class="method-source-code" id="is_ally_header-3F-source">
-<pre>
-<span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 117</span>
+          <div class="method-source-code" id="is_ally_header-3F-source">
+            <pre><span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 122</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_ally_header?</span>(<span class="ruby-identifier">line</span>)
-  <span class="ruby-identifier">line</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">/^\t\t\tally=/</span>
+  <span class="ruby-identifier">line</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\t\t\tally=/</span>
 <span class="ruby-keyword">end</span></pre>
-            </div><!-- is_ally_header-3F-source -->
-            
-          </div>
+          </div><!-- is_ally_header-3F-source -->
+          
+        </div>
 
+        
+
+        
+      </div><!-- is_ally_header-3F-method -->
+
+    
+      <div id="method-i-is_birth_name-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">is_birth_name?</span><span
+            class="method-args">(key)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
           
 
           
-        </div><!-- is_ally_header-3F-method -->
-
-      
-        <div id="is_birth_name-3F-method" class="method-detail ">
-          <a name="method-i-is_birth_name-3F"></a>
-
-          
-          <div class="method-heading">
-            <span class="method-name">is_birth_name?</span><span
-              class="method-args">(key)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-
-          <div class="method-description">
-            
-            
-            
-
-            
-            <div class="method-source-code" id="is_birth_name-3F-source">
-<pre>
-<span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 97</span>
+          <div class="method-source-code" id="is_birth_name-3F-source">
+            <pre><span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 102</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_birth_name?</span>(<span class="ruby-identifier">key</span>)
-  <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">/^\t+(birth_name)/</span>
+  <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\t+(birth_name)/</span>
 <span class="ruby-keyword">end</span></pre>
-            </div><!-- is_birth_name-3F-source -->
-            
-          </div>
+          </div><!-- is_birth_name-3F-source -->
+          
+        </div>
 
+        
+
+        
+      </div><!-- is_birth_name-3F-method -->
+
+    
+      <div id="method-i-is_capital-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">is_capital?</span><span
+            class="method-args">(key)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
           
 
           
-        </div><!-- is_birth_name-3F-method -->
+          <div class="method-source-code" id="is_capital-3F-source">
+            <pre><span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 84</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">is_capital?</span>(<span class="ruby-identifier">key</span>)
+  <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\t+(capital)/</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- is_capital-3F-source -->
+          
+        </div>
 
-      
-        <div id="is_dead-3F-method" class="method-detail ">
-          <a name="method-i-is_dead-3F"></a>
+        
+
+        
+      </div><!-- is_capital-3F-method -->
+
+    
+      <div id="method-i-is_dead-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">is_dead?</span><span
+            class="method-args">(key)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
 
           
-          <div class="method-heading">
-            <span class="method-name">is_dead?</span><span
-              class="method-args">(key)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-
-          <div class="method-description">
-            
-            
-            
-
-            
-            <div class="method-source-code" id="is_dead-3F-source">
-<pre>
-<span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 113</span>
+          <div class="method-source-code" id="is_dead-3F-source">
+            <pre><span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 118</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_dead?</span>(<span class="ruby-identifier">key</span>)
-  <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">/^\t+(death_date)/</span>
+  <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\t+(death_date)/</span>
 <span class="ruby-keyword">end</span></pre>
-            </div><!-- is_dead-3F-source -->
-            
-          </div>
+          </div><!-- is_dead-3F-source -->
+          
+        </div>
 
+        
+
+        
+      </div><!-- is_dead-3F-method -->
+
+    
+      <div id="method-i-is_dynasty-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">is_dynasty?</span><span
+            class="method-args">(key)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
           
 
           
-        </div><!-- is_dead-3F-method -->
-
-      
-        <div id="is_dynasty-3F-method" class="method-detail ">
-          <a name="method-i-is_dynasty-3F"></a>
-
-          
-          <div class="method-heading">
-            <span class="method-name">is_dynasty?</span><span
-              class="method-args">(key)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-
-          <div class="method-description">
-            
-            
-            
-
-            
-            <div class="method-source-code" id="is_dynasty-3F-source">
-<pre>
-<span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 87</span>
+          <div class="method-source-code" id="is_dynasty-3F-source">
+            <pre><span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 92</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_dynasty?</span>(<span class="ruby-identifier">key</span>)
-  <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">/^\t\t(dynasty)/</span>
+  <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\t\t(dynasty)/</span>
 <span class="ruby-keyword">end</span></pre>
-            </div><!-- is_dynasty-3F-source -->
-            
-          </div>
+          </div><!-- is_dynasty-3F-source -->
+          
+        </div>
 
+        
+
+        
+      </div><!-- is_dynasty-3F-method -->
+
+    
+      <div id="method-i-is_enemy_header-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">is_enemy_header?</span><span
+            class="method-args">(line)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
           
 
           
-        </div><!-- is_dynasty-3F-method -->
-
-      
-        <div id="is_employer-3F-method" class="method-detail ">
-          <a name="method-i-is_employer-3F"></a>
-
-          
-          <div class="method-heading">
-            <span class="method-name">is_employer?</span><span
-              class="method-args">(key)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-
-          <div class="method-description">
-            
-            
-            
-
-            
-            <div class="method-source-code" id="is_employer-3F-source">
-<pre>
-<span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 105</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">is_employer?</span>(<span class="ruby-identifier">key</span>)
-  <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">/^\t+(employer)/</span>
-<span class="ruby-keyword">end</span></pre>
-            </div><!-- is_employer-3F-source -->
-            
-          </div>
-
-          
-
-          
-        </div><!-- is_employer-3F-method -->
-
-      
-        <div id="is_enemy_header-3F-method" class="method-detail ">
-          <a name="method-i-is_enemy_header-3F"></a>
-
-          
-          <div class="method-heading">
-            <span class="method-name">is_enemy_header?</span><span
-              class="method-args">(line)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-
-          <div class="method-description">
-            
-            
-            
-
-            
-            <div class="method-source-code" id="is_enemy_header-3F-source">
-<pre>
-<span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 121</span>
+          <div class="method-source-code" id="is_enemy_header-3F-source">
+            <pre><span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 126</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_enemy_header?</span>(<span class="ruby-identifier">line</span>)
-  <span class="ruby-identifier">line</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">/^\t\t\tenemy=/</span>
+  <span class="ruby-identifier">line</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\t\t\tenemy=/</span>
 <span class="ruby-keyword">end</span></pre>
-            </div><!-- is_enemy_header-3F-source -->
-            
-          </div>
+          </div><!-- is_enemy_header-3F-source -->
+          
+        </div>
 
+        
+
+        
+      </div><!-- is_enemy_header-3F-method -->
+
+    
+      <div id="method-i-is_host-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">is_host?</span><span
+            class="method-args">(key)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
           
 
           
-        </div><!-- is_enemy_header-3F-method -->
+          <div class="method-source-code" id="is_host-3F-source">
+            <pre><span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 110</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">is_host?</span>(<span class="ruby-identifier">key</span>)
+  <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\t+(host)/</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- is_host-3F-source -->
+          
+        </div>
 
-      
-        <div id="is_job_title-3F-method" class="method-detail ">
-          <a name="method-i-is_job_title-3F"></a>
+        
+
+        
+      </div><!-- is_host-3F-method -->
+
+    
+      <div id="method-i-is_job_title-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">is_job_title?</span><span
+            class="method-args">(key)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
 
           
-          <div class="method-heading">
-            <span class="method-name">is_job_title?</span><span
-              class="method-args">(key)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-
-          <div class="method-description">
-            
-            
-            
-
-            
-            <div class="method-source-code" id="is_job_title-3F-source">
-<pre>
-<span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 109</span>
+          <div class="method-source-code" id="is_job_title-3F-source">
+            <pre><span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 114</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_job_title?</span>(<span class="ruby-identifier">key</span>)
-  <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">/^\t+(job_title)/</span>
+  <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\t+(job_title)/</span>
 <span class="ruby-keyword">end</span></pre>
-            </div><!-- is_job_title-3F-source -->
-            
-          </div>
+          </div><!-- is_job_title-3F-source -->
+          
+        </div>
 
+        
+
+        
+      </div><!-- is_job_title-3F-method -->
+
+    
+      <div id="method-i-is_old_holding-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">is_old_holding?</span><span
+            class="method-args">(key)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
           
 
           
-        </div><!-- is_job_title-3F-method -->
-
-      
-        <div id="is_old_holding-3F-method" class="method-detail ">
-          <a name="method-i-is_old_holding-3F"></a>
-
-          
-          <div class="method-heading">
-            <span class="method-name">is_old_holding?</span><span
-              class="method-args">(key)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-
-          <div class="method-description">
-            
-            
-            
-
-            
-            <div class="method-source-code" id="is_old_holding-3F-source">
-<pre>
-<span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 83</span>
+          <div class="method-source-code" id="is_old_holding-3F-source">
+            <pre><span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 88</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_old_holding?</span>(<span class="ruby-identifier">key</span>)
-  <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">/^\t+(old_holding)/</span>
+  <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\t+(old_holding)/</span>
 <span class="ruby-keyword">end</span></pre>
-            </div><!-- is_old_holding-3F-source -->
-            
-          </div>
+          </div><!-- is_old_holding-3F-source -->
+          
+        </div>
 
+        
+
+        
+      </div><!-- is_old_holding-3F-method -->
+
+    
+      <div id="method-i-is_pope_id-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">is_pope_id?</span><span
+            class="method-args">(line)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
           
 
           
-        </div><!-- is_old_holding-3F-method -->
-
-      
-        <div id="is_pope_id-3F-method" class="method-detail ">
-          <a name="method-i-is_pope_id-3F"></a>
-
-          
-          <div class="method-heading">
-            <span class="method-name">is_pope_id?</span><span
-              class="method-args">(line)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-
-          <div class="method-description">
-            
-            
-            
-
-            
-            <div class="method-source-code" id="is_pope_id-3F-source">
-<pre>
-<span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 125</span>
+          <div class="method-source-code" id="is_pope_id-3F-source">
+            <pre><span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 130</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_pope_id?</span>(<span class="ruby-identifier">line</span>)
   <span class="ruby-identifier">_</span>, <span class="ruby-identifier">id</span> = <span class="ruby-identifier">split_key_value</span>(<span class="ruby-identifier">line</span>)
   <span class="ruby-identifier">id</span> <span class="ruby-operator">==</span> <span class="ruby-ivar">@pope_id</span>
 <span class="ruby-keyword">end</span></pre>
-            </div><!-- is_pope_id-3F-source -->
-            
-          </div>
+          </div><!-- is_pope_id-3F-source -->
+          
+        </div>
 
+        
+
+        
+      </div><!-- is_pope_id-3F-method -->
+
+    
+      <div id="method-i-is_relation_value-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">is_relation_value?</span><span
+            class="method-args">(line)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
           
 
           
-        </div><!-- is_pope_id-3F-method -->
-
-      
-        <div id="is_relation_value-3F-method" class="method-detail ">
-          <a name="method-i-is_relation_value-3F"></a>
-
-          
-          <div class="method-heading">
-            <span class="method-name">is_relation_value?</span><span
-              class="method-args">(line)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-
-          <div class="method-description">
-            
-            
-            
-
-            
-            <div class="method-source-code" id="is_relation_value-3F-source">
-<pre>
-<span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 130</span>
+          <div class="method-source-code" id="is_relation_value-3F-source">
+            <pre><span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 135</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_relation_value?</span>(<span class="ruby-identifier">line</span>)
   <span class="ruby-identifier">key</span>, <span class="ruby-identifier">_</span> = <span class="ruby-identifier">split_key_value</span>(<span class="ruby-identifier">line</span>)
-  <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">/^\s*(value)/</span>
+  <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\s*(value)/</span>
 <span class="ruby-keyword">end</span></pre>
-            </div><!-- is_relation_value-3F-source -->
-            
-          </div>
-
+          </div><!-- is_relation_value-3F-source -->
           
+        </div>
 
-          
-        </div><!-- is_relation_value-3F-method -->
+        
 
-      
-        <div id="is_religion-3F-method" class="method-detail ">
-          <a name="method-i-is_religion-3F"></a>
+        
+      </div><!-- is_relation_value-3F-method -->
 
-          
-          <div class="method-heading">
-            <span class="method-name">is_religion?</span><span
-              class="method-args">(key)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-
-          <div class="method-description">
-            
-            
-            
-
-            
-            <div class="method-source-code" id="is_religion-3F-source">
-<pre>
-<span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 101</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">is_religion?</span>(<span class="ruby-identifier">key</span>)
-  <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">/^\t+(religion)/</span>
-<span class="ruby-keyword">end</span></pre>
-            </div><!-- is_religion-3F-source -->
-            
-          </div>
-
-          
-
-          
-        </div><!-- is_religion-3F-method -->
-
-      
-      </div><!-- public-instance-method-details -->
     
-    </div><!-- 5Buntitled-5D -->
+      <div id="method-i-is_religion-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">is_religion?</span><span
+            class="method-args">(key)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="is_religion-3F-source">
+            <pre><span class="ruby-comment"># File lib/ck2_classes/characters.rb, line 106</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">is_religion?</span>(<span class="ruby-identifier">key</span>)
+  <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\t+(religion)/</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- is_religion-3F-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- is_religion-3F-method -->
+
+    
+    </section><!-- public-instance-method-details -->
   
+  </section><!-- 5Buntitled-5D -->
 
-  </div><!-- documentation -->
+</div><!-- documentation -->
 
-  <div id="validator-badges">
-    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
-    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
-      Rdoc Generator</a> 2</small>.</p>
-  </div>
 
-</body>
-</html>
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 3.12.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
 
