@@ -68,6 +68,6 @@ class TC_PapalInformation < Test::Unit::TestCase
   def test_cardinal_controller_tags
     expected_tags = %w[NAV CAS POR CAT ARA CRO BRI HUN TRA SCO NOL GEN SAR PAP NAP]
     assert_equal expected_tags, $EU3_PAPAL_INFORMATION.cardinal_controller_tags
-  end 
+  end
   
 end
