@@ -114,5 +114,4 @@ class TC_CK2Provinces < Test::Unit::TestCase
     end
   end
 
-
 end
