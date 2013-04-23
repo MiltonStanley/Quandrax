@@ -6,6 +6,7 @@ class EU3_Papal_Information
     @papal_relations = sort(characters.papal_relations)
     @papal_controller = get_papal_controller(titles, characters)
     @cardinal_controllers = get_cardinal_controllers(titles, characters.characters)
+    @cardinal_names = get_cardinal_names(titles.holder_index, characters)
   end
 
   def write(location)
@@ -52,6 +53,17 @@ class EU3_Papal_Information
       end
     end
   cardinal_titles
+  end
+
+
+  def get_cardinal_names(holder_index, characters)
+    names = Array.new
+    @cardinal_controllers.each do |title|
+      host = holder_index[title]
+      chaplain = characters.chaplain_index[host]
+      names << characters.characters[chaplain].birth_name
+    end
+    names
   end
 
 end
