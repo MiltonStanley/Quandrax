@@ -57,17 +57,17 @@ class TC_PapalInformation < Test::Unit::TestCase
     assert_equal expected_names, $EU3_PAPAL_INFORMATION.cardinal_names
   end
 
-  def test_cardinal_locations
+  def test_cardinal_location_names
     expected_locations = %w[b_pamplona b_valladolid b_coimbra b_barcelona b_empuries 
                             b_zagreb b_vannes b_csanad b_csik b_dunragit 
                             b_burgh b_nizza b_cagliari b_orvieto b_ascoli
                             ]
-    assert_equal expected_locations, $EU3_PAPAL_INFORMATION.cardinal_locations
+    assert_equal expected_locations, $EU3_PAPAL_INFORMATION.cardinal_location_names
   end
 
   def test_cardinal_controller_tags
     expected_tags = %w[NAV CAS POR CAT ARA CRO BRI HUN TRA SCO NOL GEN SAR PAP NAP]
     assert_equal expected_tags, $EU3_PAPAL_INFORMATION.cardinal_controller_tags
   end
-  
+
 end

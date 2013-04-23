@@ -1,6 +1,6 @@
 class EU3_Papal_Information
   attr_accessor :papal_relations, :papal_controller, :cardinal_controllers,
-                :cardinal_names, :cardinal_locations, :cardinal_controller_tags
+                :cardinal_names, :cardinal_location_names, :cardinal_controller_tags
 
   def initialize(titles, characters) # Title info, and allies of pope hash
     puts "Creating EU3 papacy section"
@@ -8,7 +8,7 @@ class EU3_Papal_Information
     @papal_controller = get_papal_controller(titles, characters)
     @cardinal_controllers, @cardinal_controller_tags = get_cardinal_controllers(titles, characters.characters)
     @cardinal_names = get_cardinal_names(titles.holder_index, characters)
-    @cardinal_locations = get_cardinal_locations(titles.holder_index, characters.characters)
+    @cardinal_location_names = get_cardinal_location_names(titles.holder_index, characters.characters)
   end
 
   def write(location)
@@ -68,7 +68,7 @@ class EU3_Papal_Information
     names
   end
 
-  def get_cardinal_locations(holder_index, characters)
+  def get_cardinal_location_names(holder_index, characters)
     _locations = Array.new
     @cardinal_controllers.each do |title|
       id = holder_index[title]
