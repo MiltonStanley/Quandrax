@@ -106,4 +106,12 @@ class TC_CK2Characters < Test::Unit::TestCase
       end
     end
 
+    def test_character_capital
+      capitals = {'1316' => 'b_nassau', '140' => 'b_rouen', '122' =>"b_westminster" }
+      capitals.each do |character_id, expected|
+        actual = $CK2_CHARACTERS.characters[character_id].capital
+        assert_equal expected, actual
+      end
+    end
+
 end
