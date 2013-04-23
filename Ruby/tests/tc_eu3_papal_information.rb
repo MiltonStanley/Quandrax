@@ -72,7 +72,8 @@ class TC_PapalInformation < Test::Unit::TestCase
 
 
   def test_cardinal_province_ids
-    expected_ids = [152, 198, 159, 204, 205, 461, 105, 521, 540, 50, 53, 230, 326, 243, 335]
+    expected_ids = ['152', '198', '159', '204', '205', '461', '105', 
+                    '521', '540', '50', '53', '230', '326', '243', '335']
     assert_equal expected_ids, $EU3_PAPAL_INFORMATION.cardinal_province_ids
   end
   
