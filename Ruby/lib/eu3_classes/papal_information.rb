@@ -1,12 +1,12 @@
 class EU3_Papal_Information
   attr_accessor :papal_relations, :papal_controller, :cardinal_controllers,
-                :cardinal_names, :cardinal_locations
+                :cardinal_names, :cardinal_locations, :cardinal_controller_tags
 
   def initialize(titles, characters) # Title info, and allies of pope hash
     puts "Creating EU3 papacy section"
     @papal_relations = sort(characters.papal_relations)
     @papal_controller = get_papal_controller(titles, characters)
-    @cardinal_controllers = get_cardinal_controllers(titles, characters.characters)
+    @cardinal_controllers, @cardinal_controller_tags = get_cardinal_controllers(titles, characters.characters)
     @cardinal_names = get_cardinal_names(titles.holder_index, characters)
     @cardinal_locations = get_cardinal_locations(titles.holder_index, characters.characters)
   end
@@ -54,7 +54,7 @@ class EU3_Papal_Information
         end
       end
     end
-  cardinal_titles
+  return cardinal_titles, cardinal_tags
   end
 
 
