@@ -17,8 +17,18 @@ class EU3_Papal_Information
     location.puts "papacy=\n{\n\tcontroller=\"#{@papal_controller}\""
     location.puts "\tcrusade_target=\"---\"\n\tcrusade_start=\"1.1.1\""
     location.puts "\tlast_excom=\"1.1.1\"\n\tpapacy_active=yes"
-    # Followed cardinal information, multiple entries'
+    write_cardinals(location)
     location.puts '}'
+  end
+
+  def write_cardinals(location)
+    @cardinal_controller_tags.each_index do |index|
+      location.puts "\tcardinal=\n\t{\n\t\tname=\"#{@cardinal_names[index]}\""
+      location.puts "\t\tlocation=#{@cardinal_province_ids[index]}\n"
+      location.puts "\t\tcontroller=\"#{@cardinal_controller_tags[index]}\""
+      location.puts "\t\tid=\n\t\t{\n\t\t\tid=#{index+1}\n\t\t\ttype=42\n\t\t}"
+      location.puts "\t}"
+    end
   end
 
   def get_papal_controller(titles, characters)
