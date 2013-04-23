@@ -1,6 +1,7 @@
 class EU3_Papal_Information
   attr_accessor :papal_relations, :papal_controller, :cardinal_controllers,
-                :cardinal_names, :cardinal_location_names, :cardinal_controller_tags
+                :cardinal_names, :cardinal_location_names, :cardinal_controller_tags,
+                :cardinal_province_ids
 
   def initialize(titles, characters) # Title info, and allies of pope hash
     puts "Creating EU3 papacy section"
