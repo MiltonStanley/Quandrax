@@ -8,6 +8,7 @@ class EU3_Papal_Information
     @papal_controller = get_papal_controller(titles, characters)
     @cardinal_controllers = get_cardinal_controllers(titles, characters.characters)
     @cardinal_names = get_cardinal_names(titles.holder_index, characters)
+    @cardinal_locations = get_cardinal_locations(titles.holder_index, characters.characters)
   end
 
   def write(location)
@@ -65,6 +66,15 @@ class EU3_Papal_Information
       names << characters.characters[chaplain].birth_name
     end
     names
+  end
+
+  def get_cardinal_locations(holder_index, characters)
+    _locations = Array.new
+    @cardinal_controllers.each do |title|
+      id = holder_index[title]
+      _locations << characters[id].capital
+    end
+    _locations
   end
 
 end
