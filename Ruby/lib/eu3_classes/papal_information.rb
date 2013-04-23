@@ -3,13 +3,14 @@ class EU3_Papal_Information
                 :cardinal_names, :cardinal_location_names, :cardinal_controller_tags,
                 :cardinal_province_ids
 
-  def initialize(titles, characters) # Title info, and allies of pope hash
+  def initialize(titles, characters, provinces) # Title info, and allies of pope hash
     puts "Creating EU3 papacy section"
     @papal_relations = sort(characters.papal_relations)
     @papal_controller = get_papal_controller(titles, characters)
     @cardinal_controllers, @cardinal_controller_tags = get_cardinal_controllers(titles, characters.characters)
     @cardinal_names = get_cardinal_names(titles.holder_index, characters)
     @cardinal_location_names = get_cardinal_location_names(titles.holder_index, characters.characters)
+    @cardinal_province_ids = get_cardinal_province_ids(titles.liege_index, provinces)
   end
 
   def write(location)
@@ -76,6 +77,18 @@ class EU3_Papal_Information
       _locations << characters[id].capital
     end
     _locations
+  end
+
+  def get_cardinal_province_ids(liege_index, provinces)
+    _ids = Array.new
+    @cardinal_location_names.each do |title|
+      liege = liege_index[title]
+      provinces.each do |a_province|
+        next if a_province.nil?
+        _ids << a_province.ck2_id if a_province.title == liege
+      end
+    end
+    _ids
   end
 
 end
