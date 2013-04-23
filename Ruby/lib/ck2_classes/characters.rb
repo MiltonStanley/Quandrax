@@ -78,6 +78,11 @@ class A_Character
     @dynasty = val.gsub('"','') if is_dynasty?(key)
     @old_holdings << val.gsub('"','') if is_old_holding?(key)
     @religion = val.gsub('"','') if is_religion?(key)
+    @capital = val.gsub('"','') if is_capital?(key)
+  end
+
+  def is_capital?(key)
+    key =~ /^\t+(capital)/
   end
 
   def is_old_holding?(key)
