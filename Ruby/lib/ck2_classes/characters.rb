@@ -25,7 +25,7 @@ class CK2_Characters
       @current_character = line.chop.lstrip          # And the new guy is now line.chop (String)
       unless @last_character.nil? || !@last_character.alive          # Don't try this the first time through
         @papal_relations[@last_character.id] = @last_character.papal_relation_value   # Add @last_character's value to @papal_rel
-        @chaplain_index[@last_character.employer] = @last_character.id if @last_character.job_title == 'job_spiritual' # Add to chaplain_index if it's a chaplain
+        @chaplain_index[@last_character.host] = @last_character.id if @last_character.job_title == 'job_spiritual' # Add to chaplain_index if it's a chaplain
       end
       @characters[@current_character] = A_Character.new(line, @pope_id)  # Add to character hash, key = id, value = a new A_Character
     else
@@ -52,7 +52,7 @@ end
 
 class A_Character
   attr_accessor :id, :relations_to_pope, :friend_of_pope, 
-  :birth_name, :employer, :job_title, :alive, 
+  :birth_name, :host, :job_title, :alive, 
   :papal_relation_value, :dynasty, :old_holdings, :religion
 
   def initialize(line, pope_id)
@@ -68,7 +68,7 @@ class A_Character
   def add(line, papal_relations)
     key, val = split_key_value(line)
     @birth_name = val.gsub('"','') if is_birth_name?(key)
-    @employer = val.gsub('"','') if is_employer?(key)
+    @host = val.gsub('"','') if is_host?(key)
     @job_title = val.gsub('"','') if is_job_title?(key)
     @alive = false if is_dead?(key)
     @reading_ally = true if is_ally_header?(line) # Line has "ally="
@@ -102,8 +102,8 @@ class A_Character
     key =~ /^\t+(religion)/
   end
 
-  def is_employer?(key)
-    key =~ /^\t+(employer)/
+  def is_host?(key)
+    key =~ /^\t+(host)/
   end
 
   def is_job_title?(key)

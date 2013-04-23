@@ -34,10 +34,10 @@ class TC_CK2Characters < Test::Unit::TestCase
       end
     end
 
-    def test_employer
-      employers = { '70556' => nil, '140' => '140', '502636' => '93502' }
-      employers.each do |id, expected|
-        actual = $CK2_CHARACTERS.characters[id].employer
+    def test_host
+      hosts = { '500354' => '106000', '140' => '214', '502636' => '93502' }
+      hosts.each do |id, expected|
+        actual = $CK2_CHARACTERS.characters[id].host
         assert_equal expected, actual
       end
     end
@@ -76,8 +76,8 @@ class TC_CK2Characters < Test::Unit::TestCase
 
     def test_chaplain_hash
       chaplains = { '155057' => '20802', '155029' => '155142' } # key employs val as chaplain
-      chaplains.each do |employer, chaplain|
-        actual = $CK2_CHARACTERS.chaplain_index[employer]
+      chaplains.each do |host, chaplain|
+        actual = $CK2_CHARACTERS.chaplain_index[host]
         assert_equal chaplain, actual
       end
     end
