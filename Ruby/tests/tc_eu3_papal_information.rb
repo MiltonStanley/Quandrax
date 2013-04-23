@@ -49,10 +49,11 @@ class TC_PapalInformation < Test::Unit::TestCase
   end
 
   def test_cardinal_names
-    expected_names = %w[Gomez Fernando Hermenegildo Ramon Berenguer Jitej
-                        Andrev Lukacs Gellert Flaithbertach Eadbeorht
-                        Cangrande Vitale Adriano Amedeo
-                        ]
+    expected_names = ['Gomez', 'Fernando', 'Hermenegildo', 'Ramon', 'Berenguer',
+                      'Jitej', 'Andrev', "Luk\u00E1cs", "Gell\u00E9rt",
+                      'Flaithbertach', 'Eadbeorht', 'Cangrande', 'Vitale', 
+                      'Adriano', 'Amedeo'
+                      ]
     assert_equal expected_names, $EU3_PAPAL_INFORMATION.cardinal_names
   end
   
