@@ -16,4 +16,9 @@ class TestTagMap < Test::Unit::TestCase
                         "#{title}'s tag length error" }
   end
 
+  def test_tag_is_all_caps
+    $TM_CK2_EU3.each { |title, tag| assert_equal tag.upcase, tag, 
+                        "#{title}'s tag is not all uppercase" }
+  end
+
 end
