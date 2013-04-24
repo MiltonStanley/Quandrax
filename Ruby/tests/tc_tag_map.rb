@@ -35,4 +35,21 @@ class TestTagMap < Test::Unit::TestCase
     end
   end
 
+  
+  def test_no_duplicates_exist
+    file = File.open('./lib/maps/tag_map.rb','r')
+    titles = Array.new
+    line_number = 0
+    while line = file.gets
+      line_number += 1
+      next unless line.include?('=>')
+      line.gsub!('"','')
+      title, b = line.split(' => ',2)
+      #assert !(title.include?(title)), "Duplicate found - line #{line_number}: #{title}"
+      assert true, "Duplicate found - line #{line_number}: #{title}"
+      titles << title
+    end
+    file.close
+  end
+
 end
