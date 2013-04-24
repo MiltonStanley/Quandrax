@@ -12,7 +12,7 @@ if __FILE__ == $0
   require './tests/setup_for_ck2_tests'
 end
 
-class TC_CK2Header < Test::Unit::TestCase
+class TestCK2Header < Test::Unit::TestCase
 
     def test_date  # We are getting the correct ID and name for chaplains
       assert_equal '1066.9.15', $CK2_HEADER.date

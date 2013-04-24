@@ -12,7 +12,7 @@ if __FILE__ == $0
   require './tests/setup_for_eu3_tests'
 end
 
-class TC_DefendersOfTheFaith < Test::Unit::TestCase
+class TestDefendersOfTheFaith < Test::Unit::TestCase
 
   def test_creation
     assert $EU3_DEFENDERS_OF_THE_FAITH.instance_of?(EU3_Defenders_of_the_Faith),

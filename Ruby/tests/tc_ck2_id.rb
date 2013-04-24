@@ -12,7 +12,7 @@ if __FILE__ == $0
   require './tests/setup_for_ck2_tests'
 end
 
-class TC_CK2ID < Test::Unit::TestCase
+class TestCK2ID < Test::Unit::TestCase
 
     def test_creation  # We are getting the correct ID and name for chaplains
       assert $CK2_ID.instance_of? CK2_ID

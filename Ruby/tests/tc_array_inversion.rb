@@ -4,7 +4,7 @@ if __FILE__ == $0
   require './tests/setup_for_ck2_tests'
 end
 
-class TC_ArrayConversion < Test::Unit::TestCase
+class TestArrayConversion < Test::Unit::TestCase
 
     def test_1d_conversion  # No overlappings
       original_array = [nil, 2, 3, 4, 5, 6]

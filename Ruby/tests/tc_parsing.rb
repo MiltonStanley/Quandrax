@@ -5,7 +5,7 @@ if __FILE__ == $0
   require './lib/maps/tag_map'
 end
 
-class TC_Parsing < Test::Unit::TestCase
+class TestParsing < Test::Unit::TestCase
 
     def test_array_1d_conversion  # No overlappings
       original_array = [nil, 2, 3, 4, 5, 6]

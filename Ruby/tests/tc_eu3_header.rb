@@ -12,7 +12,7 @@ if __FILE__ == $0
   require './tests/setup_for_eu3_tests'
 end
 
-class TC_EU3Header < Test::Unit::TestCase
+class TestEU3Header < Test::Unit::TestCase
 
   def test_creation
     assert $EU3_HEADER.instance_of?(EU3_Header), 'Failed to create EU3 header'
