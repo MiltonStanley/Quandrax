@@ -29,4 +29,10 @@ class TestTagMap < Test::Unit::TestCase
     end
   end
 
+  def test_titles_are_legal
+    $TM_CK2_EU3.each do |title, tag|
+      assert title =~ /^[bcdke]_\w+(-?\w+)+$/, "#{title} isn't a legal title."
+    end
+  end
+
 end
