@@ -35,7 +35,6 @@ class TestTagMap < Test::Unit::TestCase
     end
   end
 
-  
   def test_no_duplicates_exist
     file = File.open('./lib/maps/tag_map.rb','r')
     titles = Array.new
