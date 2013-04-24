@@ -21,4 +21,12 @@ class TestTagMap < Test::Unit::TestCase
                         "#{title}'s tag is not all uppercase" }
   end
 
+  def test_all_titles_have_tags
+    $CK2_TITLES.titles.each do |title, a_title|
+      next if title =~ /^b_/
+      assert !$TM_CK2_EU3[title].nil?, 
+      "No tag found for #{title} - liege is #{$CK2_TITLES.liege_index[title]}"
+    end
+  end
+
 end
