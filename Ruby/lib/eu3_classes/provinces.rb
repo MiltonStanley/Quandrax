@@ -3,40 +3,23 @@ require './lib/parsing'
 class EU3_Provinces
 
   def initialize(provinces, titles)
-    @all_eu3_provinces = make_provinces
+    @provinces = load_provinces_from_template
     @province_index = invert($PM_CK2_EU3)
-    ### TODO
-    #@liege_index = make_liege_index(titles)
-    #@holder_index = make_holder_index(titles)
-    # convert_provinces ~ convert province ~ con. 1-1, n-1; - in write, write them
-    #@holder_index.each { |title, holder| puts "#{title}'s holder is #{holder_id}" }
+    provinces = update_from_ck2(@provinces)
   end
 
   def write(location)
-    @all_eu3_provinces.each do |eu3_province|
+    @provinces.each do |eu3_province|
       next if eu3_province.nil? # index 0 is nil, there's no province 0 in either game
-      eu3_id = eu3_province.id.to_i
-      ck2_id = @province_index[eu3_id]  # An array if multiple CK2's form one EU3
-      if !(@province_index[eu3_id].nil?) # Do this if province is NOT in EU3
-        eu3_province.convert_from_ck2(@provinces, @titles, ck2_id) 
-      end
-     eu3_province.write(location)
+      eu3_province.write(location)
     end
   end
 
-  def make_liege_index(titles)
-    _temp = Hash.new
-    titles.each { |title| _temp[title.name] = title.liege }
-    _temp
+  def update_from_ck2(provinces)
+    provinces
   end
 
-  def make_holder_index(titles)
-    _temp = Hash.new
-    titles.each { |title| _temp[title.name] = title.holder }
-    _temp
-  end
-
-  def make_provinces
+  def load_provinces_from_template
     temp_file = File.open('./lib/templates/province.tmp')
     array = Array.new
     array.push nil
@@ -97,24 +80,6 @@ class An_EU3_Province
     @fort1 = value if is_fort1?(key)
     @finished_header = true if is_history?(line)
     @history << line if @finished_header
-  end
-
-  def convert_from_ck2(ck2_provinces, ck2_titles, ck2_id)
-    if ck2_id.class == Fixnum
-      ### TODO
-      # ck2_owner = ck2_provinces[ck2_id].liege || ck2_provinces[ck2_id].title
-      # CK2 owner is province.title => that title's liege (titles.liege)
-      # Need to make a liege index & holder index like in v1
-      #
-      # owner
-      # controller
-      # core
-      # culture
-      # religion
-      ###
-    elsif ck2_id.class == Array
-      #Converts n -> 1
-    end
   end
 
   def write(location)
