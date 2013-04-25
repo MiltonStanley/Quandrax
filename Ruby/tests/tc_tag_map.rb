@@ -51,10 +51,4 @@ class TestTagMap < Test::Unit::TestCase
     file.close
   end
 
-  def find_bug
-    $TM_CK2_EU3.each do |title, tag|
-      puts title if title.include?(' ')
-    end
-  end
-
 end

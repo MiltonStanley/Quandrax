@@ -26,7 +26,7 @@ def update_tags_for_httt
   $TM_CK2_EU3["d_cibyrrhaeot"] = "MEN"
   $TM_CK2_EU3["d_anatolia"] = "MEN"
   $TM_CK2_EU3["d_thracesia"] = "MEN"
-  $TM_CK2_EU3["d_cibyrrhaeot "] = "MEN"
+  $TM_CK2_EU3["d_cibyrrhaeot"] = "MEN"
   $TM_CK2_EU3["d_lykia"] = "MEN"
   $TM_CK2_EU3["c_attaleia"] = "MEN"
   $TM_CK2_EU3["c_rhodos"] = "MEN"
