@@ -2,6 +2,9 @@ require './lib/parsing'
 
 class EU3_Provinces
 
+  # Holds provinces. Index = EU3 Id, Data = An_EU3_Province
+  attr_accessor :provinces
+
   def initialize(provinces, titles)
     @provinces = load_provinces_from_template
     @province_index = invert($PM_CK2_EU3)
