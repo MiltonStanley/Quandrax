@@ -19,4 +19,10 @@ class TestEU3Provinces < Test::Unit::TestCase
           'Failed to create EU3 Province information'
   end
 
+  def test_provinces_have_a_name
+    $EU3_PROVINCES.provinces.each do |a_province|
+      assert !a_province.name.nil?, "Province has no name!"
+    end
+  end
+
 end
