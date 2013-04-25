@@ -5,8 +5,17 @@
 # MOST Important stuff is passed to the A_Title class Below
 
 class CK2_Titles
-  attr_accessor :hre_id, :hre_titles, :titles, :liege_index, 
-                :holder_index
+
+  # ID of the Holy Roman Emperor (String)
+  attr_accessor :hre_id
+  # Titles held by the HRE (Array)
+  attr_accessor :hre_titles
+  # Information on individual titles. Title (string) => A_Title (string). (Hash)
+  attr_accessor :titles
+  # Holds liege of each title. Title (string) => Liege (string). (Hash)
+  attr_accessor :liege_index
+  # Holds ID of each title. Title (string) => Holder_ID (string). (Hash)
+  attr_accessor :holder_index
 
   def initialize(hre)
     puts "Reading CK2 titles..."
@@ -46,8 +55,24 @@ end
 
 class A_Title
 
-  attr_accessor :name, :holder_id, :liege, :succession_law, :gender_law, 
-                :de_jure_liege, :history, :last_holder, :coronation_date
+  # Name of title (String)
+  attr_accessor :name
+  # ID of the title holder (String)
+  attr_accessor :holder_id
+  # Title's liege (String)
+  attr_accessor :liege
+  # Succession law for title (String)
+  attr_accessor :succession_law
+  # Gender law for title (String)
+  attr_accessor :gender_law
+  # Title's de jure liege (String)
+  attr_accessor :de_jure_liege
+  # Boolean - toggles true when we get to history section of title
+  attr_accessor :history
+  # Boolean - changes to ID of last holder (String)
+  attr_accessor :last_holder
+  # When current holder came to power (String)
+  attr_accessor :coronation_date
 
   def initialize(name)
     @name = name
