@@ -1,4 +1,7 @@
-# Configuration stuff for detecting expansions
+## Configuration methods
+# 
+# * Update tags for new countries that appear in the expansions
+#
 
 =begin HOW IT SHOULD WORK
 
