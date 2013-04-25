@@ -52,6 +52,9 @@ class An_EU3_Province
   attr_accessor :id, :name
 
   def initialize(id)
+    @controller, @culture, @religion, @capital, @owner, @citysize, @garrison, 
+                  @base_tax, @temple, @barracks, @drydock, @workshop, 
+                  @marketplace, @manpower, @trade_goods, @fort1 = nil
     @finished_header = false
     @id = id
     @core = Array.new
