@@ -22,14 +22,16 @@ class TestEU3Provinces < Test::Unit::TestCase
   def test_provinces_have_a_name
     $EU3_PROVINCES.provinces.each do |a_province|
       next if a_province.nil?
-      assert !a_province.name.nil?, "Province #{a_province.id} has no name!"
+      assert !a_province.name.nil?, 
+            "Province #{a_province.name} (#{a_province.id}) has no owner!"
     end
   end
 
   def test_provinces_have_an_owner
     $EU3_PROVINCES.provinces.each do |a_province|
       next if a_province.nil?
-      assert !a_province.owner.nil?, "Province #{a_province.id} has no owner!"
+      assert !a_province.owner.nil?, 
+            "Province #{a_province.name} (#{a_province.id}) has no owner!"
     end
   end
 
