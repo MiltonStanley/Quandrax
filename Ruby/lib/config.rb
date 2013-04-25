@@ -14,40 +14,6 @@
 
 =end
 
-def update_tags_for_httt
-  puts "Updating mapping files for Heir to the Throne"
-  $TM_CK2_EU3["c_murom"] = "MUR"
-  $TM_CK2_EU3["d_kola"] = "NZH"
-  $TM_CK2_EU3["c_nizhny_novgorod"] = "NZH"
-  $TM_CK2_EU3["c_smolensk"] = "SMO"
-  $TM_CK2_EU3["d_smolensk"] = "SMO"
-  $TM_CK2_EU3["c_mstislavl"] = "SMO"
-  $TM_CK2_EU3["k_mentese"] = "MEN"
-  $TM_CK2_EU3["d_cibyrrhaeot"] = "MEN"
-  $TM_CK2_EU3["d_anatolia"] = "MEN"
-  $TM_CK2_EU3["d_thracesia"] = "MEN"
-  $TM_CK2_EU3["d_lykia"] = "MEN"
-  $TM_CK2_EU3["c_attaleia"] = "MEN"
-  $TM_CK2_EU3["c_rhodos"] = "MEN"
-  $TM_CK2_EU3["c_lykia"] = "MEN"
-  $TM_CK2_EU3["c_dorylaion"] = "MEN"
-  $TM_CK2_EU3["c_ikonion"] = "MEN"
-  $TM_CK2_EU3["c_sozopolis"] = "MEN"
-  $TM_CK2_EU3["c_laodikeia"] = "MEN"
-  $TM_CK2_EU3["k_saruhan"] = "SRU"
-  $TM_CK2_EU3["c_lykandos"] = "SRU"
-  $TM_CK2_EU3["c_tarsos"] = "SRU"
-  $TM_CK2_EU3["c_adana"] = "SRU"
-  $TM_CK2_EU3["c_teluch"] = "SRU"
-  $TM_CK2_EU3["c_seleukeia"] = "SRU"
-end
-
-def update_tags_for_dw
-  puts "Updating mapping files for Divine Wind"
-  update_tags_for_httt
-  $TM_CK2_EU3["c_ulm"] = "ULM"
-end
-
 def legal_version?(version)
   (version == '1' || version == '2' || version == '3')
 end
