@@ -13,5 +13,10 @@ if __FILE__ == $0
 end
 
 class TestEU3Provinces < Test::Unit::TestCase
+  
+  def test_creation
+    assert $EU3_PROVINCES.instance_of?(EU3_Provinces),
+          'Failed to create EU3 Province information'
+  end
 
 end
