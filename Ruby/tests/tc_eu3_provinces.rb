@@ -21,6 +21,7 @@ class TestEU3Provinces < Test::Unit::TestCase
 
   def test_provinces_have_a_name
     $EU3_PROVINCES.provinces.each do |a_province|
+      next if a_province.nil?
       assert !a_province.name.nil?, "Province has no name!"
     end
   end
