@@ -101,6 +101,12 @@
 
   <ul class="link-list">
   
+    <li><a href="./TestTagMap.html">TestTagMap</a>
+  
+    <li><a href="./TestTagMap/TestTags.html">TestTagMap::TestTags</a>
+  
+    <li><a href="./TestTagMap/TestTitles.html">TestTagMap::TestTitles</a>
+  
     <li><a href="./A_CK2_Province.html">A_CK2_Province</a>
   
     <li><a href="./A_Character.html">A_Character</a>
@@ -145,37 +151,41 @@
   
     <li><a href="./EU3_Provinces.html">EU3_Provinces</a>
   
+    <li><a href="./EU3_Trade.html">EU3_Trade</a>
+  
     <li><a href="./Object.html">Object</a>
   
     <li><a href="./Player.html">Player</a>
   
     <li><a href="./Province.html">Province</a>
   
-    <li><a href="./TC_ArrayConversion.html">TC_ArrayConversion</a>
+    <li><a href="./TestArrayConversion.html">TestArrayConversion</a>
   
-    <li><a href="./TC_CK2Characters.html">TC_CK2Characters</a>
+    <li><a href="./TestCK2Characters.html">TestCK2Characters</a>
   
-    <li><a href="./TC_CK2Dynasties.html">TC_CK2Dynasties</a>
+    <li><a href="./TestCK2Dynasties.html">TestCK2Dynasties</a>
   
-    <li><a href="./TC_CK2Header.html">TC_CK2Header</a>
+    <li><a href="./TestCK2Header.html">TestCK2Header</a>
   
-    <li><a href="./TC_CK2ID.html">TC_CK2ID</a>
+    <li><a href="./TestCK2ID.html">TestCK2ID</a>
   
-    <li><a href="./TC_CK2Provinces.html">TC_CK2Provinces</a>
+    <li><a href="./TestCK2Provinces.html">TestCK2Provinces</a>
   
-    <li><a href="./TC_CK2ReligiousAuthority.html">TC_CK2ReligiousAuthority</a>
+    <li><a href="./TestCK2ReligiousAuthority.html">TestCK2ReligiousAuthority</a>
   
-    <li><a href="./TC_CK2Titles.html">TC_CK2Titles</a>
+    <li><a href="./TestCK2Titles.html">TestCK2Titles</a>
   
-    <li><a href="./TC_DefendersOfTheFaith.html">TC_DefendersOfTheFaith</a>
+    <li><a href="./TestDefendersOfTheFaith.html">TestDefendersOfTheFaith</a>
   
-    <li><a href="./TC_EU3Header.html">TC_EU3Header</a>
+    <li><a href="./TestEU3Header.html">TestEU3Header</a>
   
-    <li><a href="./TC_EU3ImperialInfo.html">TC_EU3ImperialInfo</a>
+    <li><a href="./TestEU3ImperialInfo.html">TestEU3ImperialInfo</a>
   
-    <li><a href="./TC_PapalInformation.html">TC_PapalInformation</a>
+    <li><a href="./TestEU3Provinces.html">TestEU3Provinces</a>
   
-    <li><a href="./TC_Parsing.html">TC_Parsing</a>
+    <li><a href="./TestPapalInformation.html">TestPapalInformation</a>
+  
+    <li><a href="./TestParsing.html">TestParsing</a>
   
     <li><a href="./Tracker.html">Tracker</a>
   
@@ -225,7 +235,7 @@ class Below</p>
 
         <div class="method-description">
         
-        
+        <p>Holds ID of each title. Title (string) =&gt; Holder_ID (string). (Hash)</p>
         
         </div>
       </div>
@@ -238,7 +248,7 @@ class Below</p>
 
         <div class="method-description">
         
-        
+        <p>ID of the Holy Roman Emperor (String)</p>
         
         </div>
       </div>
@@ -251,7 +261,7 @@ class Below</p>
 
         <div class="method-description">
         
-        
+        <p>Titles held by the HRE (Array)</p>
         
         </div>
       </div>
@@ -264,7 +274,7 @@ class Below</p>
 
         <div class="method-description">
         
-        
+        <p>Holds liege of each title. Title (string) =&gt; Liege (string). (Hash)</p>
         
         </div>
       </div>
@@ -277,7 +287,8 @@ class Below</p>
 
         <div class="method-description">
         
-        
+        <p>Information on individual titles. Title (string) =&gt; <a
+href="A_Title.html">A_Title</a> (string). (Hash)</p>
         
         </div>
       </div>
@@ -307,7 +318,7 @@ class Below</p>
 
           
           <div class="method-source-code" id="new-source">
-            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 11</span>
+            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 20</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">hre</span>)
   <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Reading CK2 titles...&quot;</span>
   <span class="ruby-ivar">@hre_id</span> = <span class="ruby-identifier">hre</span>
@@ -349,7 +360,7 @@ class Below</p>
 
           
           <div class="method-source-code" id="add-source">
-            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 21</span>
+            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 30</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">add</span>(<span class="ruby-identifier">line</span>)
   <span class="ruby-keyword">if</span> <span class="ruby-identifier">is_title_header?</span>(<span class="ruby-identifier">line</span>)
   <span class="ruby-keyword">unless</span> <span class="ruby-ivar">@last_title</span>.<span class="ruby-identifier">nil?</span>
@@ -388,7 +399,7 @@ class Below</p>
 
           
           <div class="method-source-code" id="is_title_header-3F-source">
-            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 34</span>
+            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 43</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_title_header?</span>(<span class="ruby-identifier">line</span>)
   <span class="ruby-identifier">line</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^[bcdke]_/</span>
 <span class="ruby-keyword">end</span></pre>

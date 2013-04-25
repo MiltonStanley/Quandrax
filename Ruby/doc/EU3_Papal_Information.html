@@ -74,13 +74,17 @@
     
     <li><a href="#method-i-get_cardinal_controllers">#get_cardinal_controllers</a>
     
-    <li><a href="#method-i-get_cardinal_locations">#get_cardinal_locations</a>
+    <li><a href="#method-i-get_cardinal_location_names">#get_cardinal_location_names</a>
     
     <li><a href="#method-i-get_cardinal_names">#get_cardinal_names</a>
+    
+    <li><a href="#method-i-get_cardinal_province_ids">#get_cardinal_province_ids</a>
     
     <li><a href="#method-i-get_papal_controller">#get_papal_controller</a>
     
     <li><a href="#method-i-write">#write</a>
+    
+    <li><a href="#method-i-write_cardinals">#write_cardinals</a>
     
   </ul>
 </nav>
@@ -106,6 +110,12 @@
   <h3 class="section-header">Class and Module Index</h3>
 
   <ul class="link-list">
+  
+    <li><a href="./TestTagMap.html">TestTagMap</a>
+  
+    <li><a href="./TestTagMap/TestTags.html">TestTagMap::TestTags</a>
+  
+    <li><a href="./TestTagMap/TestTitles.html">TestTagMap::TestTitles</a>
   
     <li><a href="./A_CK2_Province.html">A_CK2_Province</a>
   
@@ -151,37 +161,41 @@
   
     <li><a href="./EU3_Provinces.html">EU3_Provinces</a>
   
+    <li><a href="./EU3_Trade.html">EU3_Trade</a>
+  
     <li><a href="./Object.html">Object</a>
   
     <li><a href="./Player.html">Player</a>
   
     <li><a href="./Province.html">Province</a>
   
-    <li><a href="./TC_ArrayConversion.html">TC_ArrayConversion</a>
+    <li><a href="./TestArrayConversion.html">TestArrayConversion</a>
   
-    <li><a href="./TC_CK2Characters.html">TC_CK2Characters</a>
+    <li><a href="./TestCK2Characters.html">TestCK2Characters</a>
   
-    <li><a href="./TC_CK2Dynasties.html">TC_CK2Dynasties</a>
+    <li><a href="./TestCK2Dynasties.html">TestCK2Dynasties</a>
   
-    <li><a href="./TC_CK2Header.html">TC_CK2Header</a>
+    <li><a href="./TestCK2Header.html">TestCK2Header</a>
   
-    <li><a href="./TC_CK2ID.html">TC_CK2ID</a>
+    <li><a href="./TestCK2ID.html">TestCK2ID</a>
   
-    <li><a href="./TC_CK2Provinces.html">TC_CK2Provinces</a>
+    <li><a href="./TestCK2Provinces.html">TestCK2Provinces</a>
   
-    <li><a href="./TC_CK2ReligiousAuthority.html">TC_CK2ReligiousAuthority</a>
+    <li><a href="./TestCK2ReligiousAuthority.html">TestCK2ReligiousAuthority</a>
   
-    <li><a href="./TC_CK2Titles.html">TC_CK2Titles</a>
+    <li><a href="./TestCK2Titles.html">TestCK2Titles</a>
   
-    <li><a href="./TC_DefendersOfTheFaith.html">TC_DefendersOfTheFaith</a>
+    <li><a href="./TestDefendersOfTheFaith.html">TestDefendersOfTheFaith</a>
   
-    <li><a href="./TC_EU3Header.html">TC_EU3Header</a>
+    <li><a href="./TestEU3Header.html">TestEU3Header</a>
   
-    <li><a href="./TC_EU3ImperialInfo.html">TC_EU3ImperialInfo</a>
+    <li><a href="./TestEU3ImperialInfo.html">TestEU3ImperialInfo</a>
   
-    <li><a href="./TC_PapalInformation.html">TC_PapalInformation</a>
+    <li><a href="./TestEU3Provinces.html">TestEU3Provinces</a>
   
-    <li><a href="./TC_Parsing.html">TC_Parsing</a>
+    <li><a href="./TestPapalInformation.html">TestPapalInformation</a>
+  
+    <li><a href="./TestParsing.html">TestParsing</a>
   
     <li><a href="./Tracker.html">Tracker</a>
   
@@ -242,9 +256,9 @@
         </div>
       </div>
       
-      <div id="attribute-i-cardinal_locations" class="method-detail">
+      <div id="attribute-i-cardinal_location_names" class="method-detail">
         <div class="method-heading attribute-method-heading">
-          <span class="method-name">cardinal_locations</span><span
+          <span class="method-name">cardinal_location_names</span><span
             class="attribute-access-type">[RW]</span>
         </div>
 
@@ -258,6 +272,19 @@
       <div id="attribute-i-cardinal_names" class="method-detail">
         <div class="method-heading attribute-method-heading">
           <span class="method-name">cardinal_names</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-cardinal_province_ids" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">cardinal_province_ids</span><span
             class="attribute-access-type">[RW]</span>
         </div>
 
@@ -307,7 +334,7 @@
         
         <div class="method-heading">
           <span class="method-name">new</span><span
-            class="method-args">(titles, characters)</span>
+            class="method-args">(titles, characters, provinces)</span>
           <span class="method-click-advice">click to toggle source</span>
         </div>
         
@@ -319,14 +346,15 @@
 
           
           <div class="method-source-code" id="new-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/papal_information.rb, line 5</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">titles</span>, <span class="ruby-identifier">characters</span>) <span class="ruby-comment"># Title info, and allies of pope hash</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/papal_information.rb, line 6</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">titles</span>, <span class="ruby-identifier">characters</span>, <span class="ruby-identifier">provinces</span>) <span class="ruby-comment"># Title info, and allies of pope hash</span>
   <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Creating EU3 papacy section&quot;</span>
   <span class="ruby-ivar">@papal_relations</span> = <span class="ruby-identifier">sort</span>(<span class="ruby-identifier">characters</span>.<span class="ruby-identifier">papal_relations</span>)
   <span class="ruby-ivar">@papal_controller</span> = <span class="ruby-identifier">get_papal_controller</span>(<span class="ruby-identifier">titles</span>, <span class="ruby-identifier">characters</span>)
   <span class="ruby-ivar">@cardinal_controllers</span>, <span class="ruby-ivar">@cardinal_controller_tags</span> = <span class="ruby-identifier">get_cardinal_controllers</span>(<span class="ruby-identifier">titles</span>, <span class="ruby-identifier">characters</span>.<span class="ruby-identifier">characters</span>)
   <span class="ruby-ivar">@cardinal_names</span> = <span class="ruby-identifier">get_cardinal_names</span>(<span class="ruby-identifier">titles</span>.<span class="ruby-identifier">holder_index</span>, <span class="ruby-identifier">characters</span>)
-  <span class="ruby-ivar">@cardinal_locations</span> = <span class="ruby-identifier">get_cardinal_locations</span>(<span class="ruby-identifier">titles</span>.<span class="ruby-identifier">holder_index</span>, <span class="ruby-identifier">characters</span>.<span class="ruby-identifier">characters</span>)
+  <span class="ruby-ivar">@cardinal_location_names</span> = <span class="ruby-identifier">get_cardinal_location_names</span>(<span class="ruby-identifier">titles</span>.<span class="ruby-identifier">holder_index</span>, <span class="ruby-identifier">characters</span>.<span class="ruby-identifier">characters</span>)
+  <span class="ruby-ivar">@cardinal_province_ids</span> = <span class="ruby-identifier">get_cardinal_province_ids</span>(<span class="ruby-identifier">titles</span>.<span class="ruby-identifier">liege_index</span>, <span class="ruby-identifier">provinces</span>)
 <span class="ruby-keyword">end</span></pre>
           </div><!-- new-source -->
           
@@ -360,7 +388,7 @@
 
           
           <div class="method-source-code" id="get_cardinal_controllers-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/papal_information.rb, line 40</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/papal_information.rb, line 52</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">get_cardinal_controllers</span>(<span class="ruby-identifier">titles</span>, <span class="ruby-identifier">characters</span>)
   <span class="ruby-identifier">cardinal_titles</span> = <span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>
   <span class="ruby-identifier">cardinal_tags</span> = <span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>
@@ -390,10 +418,10 @@
       </div><!-- get_cardinal_controllers-method -->
 
     
-      <div id="method-i-get_cardinal_locations" class="method-detail ">
+      <div id="method-i-get_cardinal_location_names" class="method-detail ">
         
         <div class="method-heading">
-          <span class="method-name">get_cardinal_locations</span><span
+          <span class="method-name">get_cardinal_location_names</span><span
             class="method-args">(holder_index, characters)</span>
           <span class="method-click-advice">click to toggle source</span>
         </div>
@@ -405,9 +433,9 @@
           
 
           
-          <div class="method-source-code" id="get_cardinal_locations-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/papal_information.rb, line 71</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">get_cardinal_locations</span>(<span class="ruby-identifier">holder_index</span>, <span class="ruby-identifier">characters</span>)
+          <div class="method-source-code" id="get_cardinal_location_names-source">
+            <pre><span class="ruby-comment"># File lib/eu3_classes/papal_information.rb, line 83</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">get_cardinal_location_names</span>(<span class="ruby-identifier">holder_index</span>, <span class="ruby-identifier">characters</span>)
   <span class="ruby-identifier">_locations</span> = <span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>
   <span class="ruby-ivar">@cardinal_controllers</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">title</span><span class="ruby-operator">|</span>
     <span class="ruby-identifier">id</span> = <span class="ruby-identifier">holder_index</span>[<span class="ruby-identifier">title</span>]
@@ -415,14 +443,14 @@
   <span class="ruby-keyword">end</span>
   <span class="ruby-identifier">_locations</span>
 <span class="ruby-keyword">end</span></pre>
-          </div><!-- get_cardinal_locations-source -->
+          </div><!-- get_cardinal_location_names-source -->
           
         </div>
 
         
 
         
-      </div><!-- get_cardinal_locations-method -->
+      </div><!-- get_cardinal_location_names-method -->
 
     
       <div id="method-i-get_cardinal_names" class="method-detail ">
@@ -441,7 +469,7 @@
 
           
           <div class="method-source-code" id="get_cardinal_names-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/papal_information.rb, line 61</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/papal_information.rb, line 73</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">get_cardinal_names</span>(<span class="ruby-identifier">holder_index</span>, <span class="ruby-identifier">characters</span>)
   <span class="ruby-identifier">names</span> = <span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>
   <span class="ruby-ivar">@cardinal_controllers</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">title</span><span class="ruby-operator">|</span>
@@ -461,6 +489,44 @@
       </div><!-- get_cardinal_names-method -->
 
     
+      <div id="method-i-get_cardinal_province_ids" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">get_cardinal_province_ids</span><span
+            class="method-args">(liege_index, provinces)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="get_cardinal_province_ids-source">
+            <pre><span class="ruby-comment"># File lib/eu3_classes/papal_information.rb, line 92</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">get_cardinal_province_ids</span>(<span class="ruby-identifier">liege_index</span>, <span class="ruby-identifier">provinces</span>)
+  <span class="ruby-identifier">_ids</span> = <span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-ivar">@cardinal_location_names</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">title</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">liege</span> = <span class="ruby-identifier">liege_index</span>[<span class="ruby-identifier">title</span>]
+    <span class="ruby-identifier">provinces</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">a_province</span><span class="ruby-operator">|</span>
+      <span class="ruby-keyword">next</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">nil?</span>
+      <span class="ruby-identifier">_ids</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">ck2_id</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">a_province</span>.<span class="ruby-identifier">title</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">liege</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">_ids</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- get_cardinal_province_ids-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- get_cardinal_province_ids-method -->
+
+    
       <div id="method-i-get_papal_controller" class="method-detail ">
         
         <div class="method-heading">
@@ -477,7 +543,7 @@
 
           
           <div class="method-source-code" id="get_papal_controller-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/papal_information.rb, line 22</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/papal_information.rb, line 34</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">get_papal_controller</span>(<span class="ruby-identifier">titles</span>, <span class="ruby-identifier">characters</span>)
   <span class="ruby-identifier">need_papal_controller</span> = <span class="ruby-keyword">true</span>
   <span class="ruby-identifier">shifted_papal_relations</span> = <span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span>
@@ -521,12 +587,12 @@
 
           
           <div class="method-source-code" id="write-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/papal_information.rb, line 14</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/papal_information.rb, line 16</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">write</span>(<span class="ruby-identifier">location</span>)
   <span class="ruby-identifier">location</span>.<span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;papacy=\n{\n\tcontroller=\&quot;#{@papal_controller}\&quot;&quot;</span>
   <span class="ruby-identifier">location</span>.<span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;\tcrusade_target=\&quot;---\&quot;\n\tcrusade_start=\&quot;1.1.1\&quot;&quot;</span>
   <span class="ruby-identifier">location</span>.<span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;\tlast_excom=\&quot;1.1.1\&quot;\n\tpapacy_active=yes&quot;</span>
-  <span class="ruby-comment"># Followed cardinal information, multiple entries'</span>
+  <span class="ruby-identifier">write_cardinals</span>(<span class="ruby-identifier">location</span>)
   <span class="ruby-identifier">location</span>.<span class="ruby-identifier">puts</span> <span class="ruby-string">'}'</span>
 <span class="ruby-keyword">end</span></pre>
           </div><!-- write-source -->
@@ -537,6 +603,42 @@
 
         
       </div><!-- write-method -->
+
+    
+      <div id="method-i-write_cardinals" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">write_cardinals</span><span
+            class="method-args">(location)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="write_cardinals-source">
+            <pre><span class="ruby-comment"># File lib/eu3_classes/papal_information.rb, line 24</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">write_cardinals</span>(<span class="ruby-identifier">location</span>)
+  <span class="ruby-ivar">@cardinal_controller_tags</span>.<span class="ruby-identifier">each_index</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">index</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">location</span>.<span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;\tcardinal=\n\t{\n\t\tname=\&quot;#{@cardinal_names[index]}\&quot;&quot;</span>
+    <span class="ruby-identifier">location</span>.<span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;\t\tlocation=#{@cardinal_province_ids[index]}\n&quot;</span>
+    <span class="ruby-identifier">location</span>.<span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;\t\tcontroller=\&quot;#{@cardinal_controller_tags[index]}\&quot;&quot;</span>
+    <span class="ruby-identifier">location</span>.<span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;\t\tid=\n\t\t{\n\t\t\tid=#{index+1}\n\t\t\ttype=42\n\t\t}&quot;</span>
+    <span class="ruby-identifier">location</span>.<span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;\t}&quot;</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- write_cardinals-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- write_cardinals-method -->
 
     
     </section><!-- public-instance-method-details -->

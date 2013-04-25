@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=IBM437" http-equiv="Content-Type">
+
+<title>class TestCK2Characters - RDoc Documentation</title>
+
+<link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="./js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/darkfish.js"></script>
+
+
+<body id="top" class="class">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="./index.html">Home</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>tests/tc_ck2_characters.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    <nav id="parent-class-section" class="section">
+  <h3 class="section-header">Parent</h3>
+  
+  <p class="link">Test::Unit::TestCase
+  
+</nav>
+
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li><a href="#method-i-test_alive">#test_alive</a>
+    
+    <li><a href="#method-i-test_birth_name">#test_birth_name</a>
+    
+    <li><a href="#method-i-test_chaplain_hash">#test_chaplain_hash</a>
+    
+    <li><a href="#method-i-test_character_capital">#test_character_capital</a>
+    
+    <li><a href="#method-i-test_character_religion">#test_character_religion</a>
+    
+    <li><a href="#method-i-test_creation">#test_creation</a>
+    
+    <li><a href="#method-i-test_dynasty">#test_dynasty</a>
+    
+    <li><a href="#method-i-test_friends_of_pope">#test_friends_of_pope</a>
+    
+    <li><a href="#method-i-test_host">#test_host</a>
+    
+    <li><a href="#method-i-test_job_title">#test_job_title</a>
+    
+    <li><a href="#method-i-test_old_holdings">#test_old_holdings</a>
+    
+    <li><a href="#method-i-test_papal_relations_hash">#test_papal_relations_hash</a>
+    
+    <li><a href="#method-i-test_papal_relations_length">#test_papal_relations_length</a>
+    
+    <li><a href="#method-i-test_setting_pope_id">#test_setting_pope_id</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="./config_file_txt.html">config_file</a>
+  
+    <li class="file"><a href="./tools/cultures.html">cultures</a>
+  
+    <li class="file"><a href="./tools/monarchs_txt.html">monarchs</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="./TestTagMap.html">TestTagMap</a>
+  
+    <li><a href="./TestTagMap/TestTags.html">TestTagMap::TestTags</a>
+  
+    <li><a href="./TestTagMap/TestTitles.html">TestTagMap::TestTitles</a>
+  
+    <li><a href="./A_CK2_Province.html">A_CK2_Province</a>
+  
+    <li><a href="./A_Character.html">A_Character</a>
+  
+    <li><a href="./A_Title.html">A_Title</a>
+  
+    <li><a href="./An_EU3_Province.html">An_EU3_Province</a>
+  
+    <li><a href="./CK2_Active_War.html">CK2_Active_War</a>
+  
+    <li><a href="./CK2_Characters.html">CK2_Characters</a>
+  
+    <li><a href="./CK2_Combat.html">CK2_Combat</a>
+  
+    <li><a href="./CK2_Diplomacy.html">CK2_Diplomacy</a>
+  
+    <li><a href="./CK2_Dynasties.html">CK2_Dynasties</a>
+  
+    <li><a href="./CK2_Footer.html">CK2_Footer</a>
+  
+    <li><a href="./CK2_Header.html">CK2_Header</a>
+  
+    <li><a href="./CK2_ID.html">CK2_ID</a>
+  
+    <li><a href="./CK2_Provinces.html">CK2_Provinces</a>
+  
+    <li><a href="./CK2_Religious_Authority.html">CK2_Religious_Authority</a>
+  
+    <li><a href="./CK2_Titles.html">CK2_Titles</a>
+  
+    <li><a href="./CK2_War.html">CK2_War</a>
+  
+    <li><a href="./EU3_Defenders_of_the_Faith.html">EU3_Defenders_of_the_Faith</a>
+  
+    <li><a href="./EU3_Header.html">EU3_Header</a>
+  
+    <li><a href="./EU3_Imperial_Information.html">EU3_Imperial_Information</a>
+  
+    <li><a href="./EU3_Papal_Information.html">EU3_Papal_Information</a>
+  
+    <li><a href="./EU3_Province.html">EU3_Province</a>
+  
+    <li><a href="./EU3_Provinces.html">EU3_Provinces</a>
+  
+    <li><a href="./EU3_Trade.html">EU3_Trade</a>
+  
+    <li><a href="./Object.html">Object</a>
+  
+    <li><a href="./Player.html">Player</a>
+  
+    <li><a href="./Province.html">Province</a>
+  
+    <li><a href="./TestArrayConversion.html">TestArrayConversion</a>
+  
+    <li><a href="./TestCK2Characters.html">TestCK2Characters</a>
+  
+    <li><a href="./TestCK2Dynasties.html">TestCK2Dynasties</a>
+  
+    <li><a href="./TestCK2Header.html">TestCK2Header</a>
+  
+    <li><a href="./TestCK2ID.html">TestCK2ID</a>
+  
+    <li><a href="./TestCK2Provinces.html">TestCK2Provinces</a>
+  
+    <li><a href="./TestCK2ReligiousAuthority.html">TestCK2ReligiousAuthority</a>
+  
+    <li><a href="./TestCK2Titles.html">TestCK2Titles</a>
+  
+    <li><a href="./TestDefendersOfTheFaith.html">TestDefendersOfTheFaith</a>
+  
+    <li><a href="./TestEU3Header.html">TestEU3Header</a>
+  
+    <li><a href="./TestEU3ImperialInfo.html">TestEU3ImperialInfo</a>
+  
+    <li><a href="./TestEU3Provinces.html">TestEU3Provinces</a>
+  
+    <li><a href="./TestPapalInformation.html">TestPapalInformation</a>
+  
+    <li><a href="./TestParsing.html">TestParsing</a>
+  
+    <li><a href="./Tracker.html">Tracker</a>
+  
+    <li><a href="./World.html">World</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="class">class TestCK2Characters</h1>
+
+  <div id="description" class="description">
+    
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
+
+    
+      <div id="method-i-test_alive" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_alive</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_alive-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_characters.rb, line 53</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_alive</span>
+  <span class="ruby-identifier">alive</span> = { <span class="ruby-string">'70556'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">false</span>, <span class="ruby-string">'140'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>, <span class="ruby-string">'502636'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span> }
+  <span class="ruby-identifier">alive</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">character_id</span>, <span class="ruby-identifier">expected</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">actual</span> = <span class="ruby-identifier">$CK2_CHARACTERS</span>.<span class="ruby-identifier">characters</span>[<span class="ruby-identifier">character_id</span>].<span class="ruby-identifier">alive</span>
+    <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected</span>,  <span class="ruby-identifier">actual</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_alive-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_alive-method -->
+
+    
+      <div id="method-i-test_birth_name" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_birth_name</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_birth_name-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_characters.rb, line 29</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_birth_name</span>
+  <span class="ruby-identifier">names</span> = { <span class="ruby-string">'70556'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'Ioannes'</span>, <span class="ruby-string">'140'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'William'</span>, <span class="ruby-string">'502636'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'Jean'</span> }
+  <span class="ruby-identifier">names</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">id</span>, <span class="ruby-identifier">expected</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">actual</span> = <span class="ruby-identifier">$CK2_CHARACTERS</span>.<span class="ruby-identifier">characters</span>[<span class="ruby-identifier">id</span>].<span class="ruby-identifier">birth_name</span>
+      <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected</span>, <span class="ruby-identifier">actual</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_birth_name-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_birth_name-method -->
+
+    
+      <div id="method-i-test_chaplain_hash" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_chaplain_hash</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_chaplain_hash-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_characters.rb, line 77</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_chaplain_hash</span>
+  <span class="ruby-identifier">chaplains</span> = { <span class="ruby-string">'155057'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'20802'</span>, <span class="ruby-string">'155029'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'155142'</span> } <span class="ruby-comment"># key employs val as chaplain</span>
+  <span class="ruby-identifier">chaplains</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">host</span>, <span class="ruby-identifier">chaplain</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">actual</span> = <span class="ruby-identifier">$CK2_CHARACTERS</span>.<span class="ruby-identifier">chaplain_index</span>[<span class="ruby-identifier">host</span>]
+    <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">chaplain</span>, <span class="ruby-identifier">actual</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_chaplain_hash-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_chaplain_hash-method -->
+
+    
+      <div id="method-i-test_character_capital" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_character_capital</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_character_capital-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_characters.rb, line 109</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_character_capital</span>
+  <span class="ruby-identifier">capitals</span> = {<span class="ruby-string">'1316'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'b_nassau'</span>, <span class="ruby-string">'140'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'b_rouen'</span>, <span class="ruby-string">'122'</span> =<span class="ruby-operator">&gt;</span><span class="ruby-string">&quot;b_westminster&quot;</span> }
+  <span class="ruby-identifier">capitals</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">character_id</span>, <span class="ruby-identifier">expected</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">actual</span> = <span class="ruby-identifier">$CK2_CHARACTERS</span>.<span class="ruby-identifier">characters</span>[<span class="ruby-identifier">character_id</span>].<span class="ruby-identifier">capital</span>
+    <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected</span>, <span class="ruby-identifier">actual</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_character_capital-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_character_capital-method -->
+
+    
+      <div id="method-i-test_character_religion" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_character_religion</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_character_religion-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_characters.rb, line 101</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_character_religion</span>
+  <span class="ruby-identifier">religion</span> = { <span class="ruby-string">'20662'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'orthodox'</span>, <span class="ruby-string">'140'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'catholic'</span>, <span class="ruby-string">'502636'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'catholic'</span> }
+  <span class="ruby-identifier">religion</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">character_id</span>, <span class="ruby-identifier">expected</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">actual</span> = <span class="ruby-identifier">$CK2_CHARACTERS</span>.<span class="ruby-identifier">characters</span>[<span class="ruby-identifier">character_id</span>].<span class="ruby-identifier">religion</span>
+    <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected</span>, <span class="ruby-identifier">actual</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_character_religion-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_character_religion-method -->
+
+    
+      <div id="method-i-test_creation" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_creation</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_creation-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_characters.rb, line 17</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_creation</span>  <span class="ruby-comment"># We are getting the correct ID and name for chaplains</span>
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">$CK2_CHARACTERS</span>.<span class="ruby-identifier">instance_of?</span>(<span class="ruby-constant">CK2_Characters</span>), <span class="ruby-string">&quot;Failed to create CK2_Characters variable&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_creation-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_creation-method -->
+
+    
+      <div id="method-i-test_dynasty" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_dynasty</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_dynasty-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_characters.rb, line 85</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_dynasty</span>
+  <span class="ruby-identifier">dynasties</span> = { <span class="ruby-string">'33140'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'287'</span>, <span class="ruby-string">'140'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'752'</span>, <span class="ruby-string">'1316'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'651'</span> }
+  <span class="ruby-identifier">dynasties</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">id</span>, <span class="ruby-identifier">expected</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">actual</span> = <span class="ruby-identifier">$CK2_CHARACTERS</span>.<span class="ruby-identifier">characters</span>[<span class="ruby-identifier">id</span>].<span class="ruby-identifier">dynasty</span>
+    <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected</span>, <span class="ruby-identifier">actual</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_dynasty-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_dynasty-method -->
+
+    
+      <div id="method-i-test_friends_of_pope" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_friends_of_pope</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_friends_of_pope-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_characters.rb, line 61</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_friends_of_pope</span>
+  <span class="ruby-identifier">allies</span> = { <span class="ruby-string">'106000'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">400</span>, <span class="ruby-string">'140'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">347</span>, <span class="ruby-string">'522'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">192</span> }
+  <span class="ruby-identifier">allies</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">id</span>, <span class="ruby-identifier">expected</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">actual</span> = <span class="ruby-identifier">$CK2_CHARACTERS</span>.<span class="ruby-identifier">characters</span>[<span class="ruby-identifier">id</span>].<span class="ruby-identifier">papal_relation_value</span>
+    <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected</span>, <span class="ruby-identifier">actual</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_friends_of_pope-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_friends_of_pope-method -->
+
+    
+      <div id="method-i-test_host" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_host</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_host-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_characters.rb, line 37</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_host</span>
+  <span class="ruby-identifier">hosts</span> = { <span class="ruby-string">'500354'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'106000'</span>, <span class="ruby-string">'140'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'214'</span>, <span class="ruby-string">'502636'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'93502'</span> }
+  <span class="ruby-identifier">hosts</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">id</span>, <span class="ruby-identifier">expected</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">actual</span> = <span class="ruby-identifier">$CK2_CHARACTERS</span>.<span class="ruby-identifier">characters</span>[<span class="ruby-identifier">id</span>].<span class="ruby-identifier">host</span>
+    <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected</span>, <span class="ruby-identifier">actual</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_host-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_host-method -->
+
+    
+      <div id="method-i-test_job_title" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_job_title</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_job_title-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_characters.rb, line 45</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_job_title</span>
+  <span class="ruby-identifier">job_titles</span> = { <span class="ruby-string">'70556'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">nil</span>, <span class="ruby-string">'140'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'job_marshal'</span>, <span class="ruby-string">'502636'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&quot;job_chancellor&quot;</span> }
+  <span class="ruby-identifier">job_titles</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">id</span>, <span class="ruby-identifier">expected</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">actual</span> = <span class="ruby-identifier">$CK2_CHARACTERS</span>.<span class="ruby-identifier">characters</span>[<span class="ruby-identifier">id</span>].<span class="ruby-identifier">job_title</span>
+    <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected</span>, <span class="ruby-identifier">actual</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_job_title-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_job_title-method -->
+
+    
+      <div id="method-i-test_old_holdings" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_old_holdings</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_old_holdings-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_characters.rb, line 93</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_old_holdings</span>
+  <span class="ruby-identifier">expected</span> = <span class="ruby-node">%w[e_hre d_bavaria d_carinthia d_franconia
+                d_verona c_oberbayern c_leiningen
+              ]</span>
+  <span class="ruby-identifier">actual</span> = <span class="ruby-identifier">$CK2_CHARACTERS</span>.<span class="ruby-identifier">characters</span>[<span class="ruby-string">'1314'</span>].<span class="ruby-identifier">old_holdings</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected</span>, <span class="ruby-identifier">actual</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_old_holdings-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_old_holdings-method -->
+
+    
+      <div id="method-i-test_papal_relations_hash" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_papal_relations_hash</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_papal_relations_hash-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_characters.rb, line 69</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_papal_relations_hash</span>
+  <span class="ruby-identifier">relations</span> = { <span class="ruby-string">'106000'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">400</span>, <span class="ruby-string">'140'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">347</span>, <span class="ruby-string">'522'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">192</span>, <span class="ruby-string">'9955'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">0</span> }
+  <span class="ruby-identifier">relations</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">id</span>, <span class="ruby-identifier">expected</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">actual</span> = <span class="ruby-identifier">$CK2_CHARACTERS</span>.<span class="ruby-identifier">papal_relations</span>[<span class="ruby-identifier">id</span>]
+    <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected</span>, <span class="ruby-identifier">actual</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_papal_relations_hash-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_papal_relations_hash-method -->
+
+    
+      <div id="method-i-test_papal_relations_length" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_papal_relations_length</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_papal_relations_length-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_characters.rb, line 25</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_papal_relations_length</span>
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">$CK2_CHARACTERS</span>.<span class="ruby-identifier">papal_relations</span>.<span class="ruby-identifier">length</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">0</span>, <span class="ruby-string">&quot;Failed to add characters to papal relations list&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_papal_relations_length-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_papal_relations_length-method -->
+
+    
+      <div id="method-i-test_setting_pope_id" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_setting_pope_id</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_setting_pope_id-source">
+            <pre><span class="ruby-comment"># File tests/tc_ck2_characters.rb, line 21</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_setting_pope_id</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">'2008'</span>, <span class="ruby-identifier">$CK2_CHARACTERS</span>.<span class="ruby-identifier">pope_id</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_setting_pope_id-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_setting_pope_id-method -->
+
+    
+    </section><!-- public-instance-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 3.12.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+

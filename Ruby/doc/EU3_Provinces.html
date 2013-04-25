@@ -107,6 +107,12 @@
 
   <ul class="link-list">
   
+    <li><a href="./TestTagMap.html">TestTagMap</a>
+  
+    <li><a href="./TestTagMap/TestTags.html">TestTagMap::TestTags</a>
+  
+    <li><a href="./TestTagMap/TestTitles.html">TestTagMap::TestTitles</a>
+  
     <li><a href="./A_CK2_Province.html">A_CK2_Province</a>
   
     <li><a href="./A_Character.html">A_Character</a>
@@ -151,37 +157,41 @@
   
     <li><a href="./EU3_Provinces.html">EU3_Provinces</a>
   
+    <li><a href="./EU3_Trade.html">EU3_Trade</a>
+  
     <li><a href="./Object.html">Object</a>
   
     <li><a href="./Player.html">Player</a>
   
     <li><a href="./Province.html">Province</a>
   
-    <li><a href="./TC_ArrayConversion.html">TC_ArrayConversion</a>
+    <li><a href="./TestArrayConversion.html">TestArrayConversion</a>
   
-    <li><a href="./TC_CK2Characters.html">TC_CK2Characters</a>
+    <li><a href="./TestCK2Characters.html">TestCK2Characters</a>
   
-    <li><a href="./TC_CK2Dynasties.html">TC_CK2Dynasties</a>
+    <li><a href="./TestCK2Dynasties.html">TestCK2Dynasties</a>
   
-    <li><a href="./TC_CK2Header.html">TC_CK2Header</a>
+    <li><a href="./TestCK2Header.html">TestCK2Header</a>
   
-    <li><a href="./TC_CK2ID.html">TC_CK2ID</a>
+    <li><a href="./TestCK2ID.html">TestCK2ID</a>
   
-    <li><a href="./TC_CK2Provinces.html">TC_CK2Provinces</a>
+    <li><a href="./TestCK2Provinces.html">TestCK2Provinces</a>
   
-    <li><a href="./TC_CK2ReligiousAuthority.html">TC_CK2ReligiousAuthority</a>
+    <li><a href="./TestCK2ReligiousAuthority.html">TestCK2ReligiousAuthority</a>
   
-    <li><a href="./TC_CK2Titles.html">TC_CK2Titles</a>
+    <li><a href="./TestCK2Titles.html">TestCK2Titles</a>
   
-    <li><a href="./TC_DefendersOfTheFaith.html">TC_DefendersOfTheFaith</a>
+    <li><a href="./TestDefendersOfTheFaith.html">TestDefendersOfTheFaith</a>
   
-    <li><a href="./TC_EU3Header.html">TC_EU3Header</a>
+    <li><a href="./TestEU3Header.html">TestEU3Header</a>
   
-    <li><a href="./TC_EU3ImperialInfo.html">TC_EU3ImperialInfo</a>
+    <li><a href="./TestEU3ImperialInfo.html">TestEU3ImperialInfo</a>
   
-    <li><a href="./TC_PapalInformation.html">TC_PapalInformation</a>
+    <li><a href="./TestEU3Provinces.html">TestEU3Provinces</a>
   
-    <li><a href="./TC_Parsing.html">TC_Parsing</a>
+    <li><a href="./TestPapalInformation.html">TestPapalInformation</a>
+  
+    <li><a href="./TestParsing.html">TestParsing</a>
   
     <li><a href="./Tracker.html">Tracker</a>
   
@@ -236,12 +246,10 @@
           <div class="method-source-code" id="new-source">
             <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 5</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">provinces</span>, <span class="ruby-identifier">titles</span>)
-  <span class="ruby-ivar">@provinces</span> = <span class="ruby-identifier">provinces</span>
-  <span class="ruby-ivar">@titles</span> = <span class="ruby-identifier">titles</span>
   <span class="ruby-ivar">@all_eu3_provinces</span> = <span class="ruby-identifier">make_provinces</span>
   <span class="ruby-ivar">@province_index</span> = <span class="ruby-identifier">invert</span>(<span class="ruby-identifier">$PM_CK2_EU3</span>)
-  <span class="ruby-ivar">@liege_index</span> = <span class="ruby-identifier">make_liege_index</span>(<span class="ruby-identifier">titles</span>)
   <span class="ruby-comment">### TODO</span>
+  <span class="ruby-comment">#@liege_index = make_liege_index(titles)</span>
   <span class="ruby-comment">#@holder_index = make_holder_index(titles)</span>
   <span class="ruby-comment"># convert_provinces ~ convert province ~ con. 1-1, n-1; - in write, write them</span>
   <span class="ruby-comment">#@holder_index.each { |title, holder| puts &quot;#{title}'s holder is #{holder_id}&quot; }</span>
@@ -278,7 +286,7 @@
 
           
           <div class="method-source-code" id="is_province_header-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 56</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 54</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_province_header?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\d+/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -308,7 +316,7 @@
 
           
           <div class="method-source-code" id="make_holder_index-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 35</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 33</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">make_holder_index</span>(<span class="ruby-identifier">titles</span>)
   <span class="ruby-identifier">_temp</span> = <span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span>
   <span class="ruby-identifier">titles</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">title</span><span class="ruby-operator">|</span> <span class="ruby-identifier">_temp</span>[<span class="ruby-identifier">title</span>.<span class="ruby-identifier">name</span>] = <span class="ruby-identifier">title</span>.<span class="ruby-identifier">holder</span> }
@@ -340,7 +348,7 @@
 
           
           <div class="method-source-code" id="make_liege_index-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 29</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 27</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">make_liege_index</span>(<span class="ruby-identifier">titles</span>)
   <span class="ruby-identifier">_temp</span> = <span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span>
   <span class="ruby-identifier">titles</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">title</span><span class="ruby-operator">|</span> <span class="ruby-identifier">_temp</span>[<span class="ruby-identifier">title</span>.<span class="ruby-identifier">name</span>] = <span class="ruby-identifier">title</span>.<span class="ruby-identifier">liege</span> }
@@ -372,7 +380,7 @@
 
           
           <div class="method-source-code" id="make_provinces-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 41</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 39</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">make_provinces</span>
   <span class="ruby-identifier">temp_file</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">open</span>(<span class="ruby-string">'./lib/templates/province.tmp'</span>)
   <span class="ruby-identifier">array</span> = <span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>
@@ -413,7 +421,7 @@
 
           
           <div class="method-source-code" id="write-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 17</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 15</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">write</span>(<span class="ruby-identifier">location</span>)
   <span class="ruby-ivar">@all_eu3_provinces</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">eu3_province</span><span class="ruby-operator">|</span>
     <span class="ruby-keyword">next</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">eu3_province</span>.<span class="ruby-identifier">nil?</span> <span class="ruby-comment"># index 0 is nil, there's no province 0 in either game</span>

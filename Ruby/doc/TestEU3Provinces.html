@@ -4,7 +4,7 @@
 <head>
 <meta content="text/html; charset=IBM437" http-equiv="Content-Type">
 
-<title>class Province - RDoc Documentation</title>
+<title>class TestEU3Provinces - RDoc Documentation</title>
 
 <link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet">
 
@@ -47,7 +47,7 @@
     <nav id="file-list-section" class="section">
   <h3 class="section-header">Defined In</h3>
   <ul>
-    <li>tools/quandrax.rb.old.rb
+    <li>tests/tc_eu3_provinces.rb
   </ul>
 </nav>
 
@@ -59,7 +59,7 @@
     <nav id="parent-class-section" class="section">
   <h3 class="section-header">Parent</h3>
   
-  <p class="link"><a href="Object.html">Object</a>
+  <p class="link">Test::Unit::TestCase
   
 </nav>
 
@@ -70,11 +70,7 @@
 
   <ul class="link-list">
     
-    <li><a href="#method-c-new">::new</a>
-    
-    <li><a href="#method-i-debug">#debug</a>
-    
-    <li><a href="#method-i-new_controller">#new_controller</a>
+    <li><a href="#method-i-test_creation">#test_creation</a>
     
   </ul>
 </nav>
@@ -198,7 +194,7 @@
 </nav>
 
 <div id="documentation">
-  <h1 class="class">class Province</h1>
+  <h1 class="class">class TestEU3Provinces</h1>
 
   <div id="description" class="description">
     
@@ -215,103 +211,18 @@
     
 
     
-    <!-- Attributes -->
-    <section id="attribute-method-details" class="method-section section">
-      <h3 class="section-header">Attributes</h3>
-
-      
-      <div id="attribute-i-controller" class="method-detail">
-        <div class="method-heading attribute-method-heading">
-          <span class="method-name">controller</span><span
-            class="attribute-access-type">[RW]</span>
-        </div>
-
-        <div class="method-description">
-        
-        
-        
-        </div>
-      </div>
-      
-      <div id="attribute-i-new_id" class="method-detail">
-        <div class="method-heading attribute-method-heading">
-          <span class="method-name">new_id</span><span
-            class="attribute-access-type">[RW]</span>
-        </div>
-
-        <div class="method-description">
-        
-        
-        
-        </div>
-      </div>
-      
-      <div id="attribute-i-old_id" class="method-detail">
-        <div class="method-heading attribute-method-heading">
-          <span class="method-name">old_id</span><span
-            class="attribute-access-type">[RW]</span>
-        </div>
-
-        <div class="method-description">
-        
-        
-        
-        </div>
-      </div>
-      
-    </section><!-- attribute-method-details -->
-    
 
     <!-- Methods -->
     
-     <section id="public-class-5Buntitled-5D-method-details" class="method-section section">
-      <h3 class="section-header">Public Class Methods</h3>
-
-    
-      <div id="method-c-new" class="method-detail ">
-        
-        <div class="method-heading">
-          <span class="method-name">new</span><span
-            class="method-args">(old_id, new_id, controller)</span>
-          <span class="method-click-advice">click to toggle source</span>
-        </div>
-        
-
-        <div class="method-description">
-          
-          
-          
-
-          
-          <div class="method-source-code" id="new-source">
-            <pre><span class="ruby-comment"># File tools/quandrax.rb.old.rb, line 45</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">old_id</span>, <span class="ruby-identifier">new_id</span>, <span class="ruby-identifier">controller</span>)
-  <span class="ruby-ivar">@old_id</span> = <span class="ruby-identifier">old_id</span>
-  <span class="ruby-ivar">@new_id</span> = <span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>
-  <span class="ruby-ivar">@new_id</span>[<span class="ruby-value">0</span>] = <span class="ruby-identifier">new_id</span>
-  <span class="ruby-ivar">@controller</span> = <span class="ruby-identifier">controller</span>
-<span class="ruby-keyword">end</span></pre>
-          </div><!-- new-source -->
-          
-        </div>
-
-        
-
-        
-      </div><!-- new-method -->
-
-    
-    </section><!-- public-class-method-details -->
-  
      <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
       <h3 class="section-header">Public Instance Methods</h3>
 
     
-      <div id="method-i-debug" class="method-detail ">
+      <div id="method-i-test_creation" class="method-detail ">
         
         <div class="method-heading">
-          <span class="method-name">debug</span><span
-            class="method-args">(print_headers)</span>
+          <span class="method-name">test_creation</span><span
+            class="method-args">()</span>
           <span class="method-click-advice">click to toggle source</span>
         </div>
         
@@ -322,53 +233,20 @@
           
 
           
-          <div class="method-source-code" id="debug-source">
-            <pre><span class="ruby-comment"># File tools/quandrax.rb.old.rb, line 56</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">debug</span>(<span class="ruby-identifier">print_headers</span>)
-  <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;&lt;-- Start Province debugging!&quot;</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">print_headers</span>
-  <span class="ruby-identifier">print</span> <span class="ruby-node">&quot;Province #{old_id} =&gt; &quot;</span>
-  <span class="ruby-ivar">@new_id</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">new_prov</span><span class="ruby-operator">|</span> <span class="ruby-identifier">print</span> <span class="ruby-node">&quot;#{new_prov}, &quot;</span> }
-  <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;controller: #{@controller}&quot;</span>
-  <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;     End Province debugging!  --&gt;&quot;</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">print_headers</span>
+          <div class="method-source-code" id="test_creation-source">
+            <pre><span class="ruby-comment"># File tests/tc_eu3_provinces.rb, line 17</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_creation</span>
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">$EU3_PROVINCES</span>.<span class="ruby-identifier">instance_of?</span>(<span class="ruby-constant">EU3_Provinces</span>),
+        <span class="ruby-string">'Failed to create EU3 Province information'</span>
 <span class="ruby-keyword">end</span></pre>
-          </div><!-- debug-source -->
+          </div><!-- test_creation-source -->
           
         </div>
 
         
 
         
-      </div><!-- debug-method -->
-
-    
-      <div id="method-i-new_controller" class="method-detail ">
-        
-        <div class="method-heading">
-          <span class="method-name">new_controller</span><span
-            class="method-args">(new_controller)</span>
-          <span class="method-click-advice">click to toggle source</span>
-        </div>
-        
-
-        <div class="method-description">
-          
-          
-          
-
-          
-          <div class="method-source-code" id="new_controller-source">
-            <pre><span class="ruby-comment"># File tools/quandrax.rb.old.rb, line 52</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">new_controller</span>(<span class="ruby-identifier">new_controller</span>)
-  <span class="ruby-ivar">@controller</span> = <span class="ruby-identifier">new_controller</span>
-<span class="ruby-keyword">end</span></pre>
-          </div><!-- new_controller-source -->
-          
-        </div>
-
-        
-
-        
-      </div><!-- new_controller-method -->
+      </div><!-- test_creation-method -->
 
     
     </section><!-- public-instance-method-details -->

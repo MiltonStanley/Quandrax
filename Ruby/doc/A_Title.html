@@ -119,6 +119,12 @@
 
   <ul class="link-list">
   
+    <li><a href="./TestTagMap.html">TestTagMap</a>
+  
+    <li><a href="./TestTagMap/TestTags.html">TestTagMap::TestTags</a>
+  
+    <li><a href="./TestTagMap/TestTitles.html">TestTagMap::TestTitles</a>
+  
     <li><a href="./A_CK2_Province.html">A_CK2_Province</a>
   
     <li><a href="./A_Character.html">A_Character</a>
@@ -163,37 +169,41 @@
   
     <li><a href="./EU3_Provinces.html">EU3_Provinces</a>
   
+    <li><a href="./EU3_Trade.html">EU3_Trade</a>
+  
     <li><a href="./Object.html">Object</a>
   
     <li><a href="./Player.html">Player</a>
   
     <li><a href="./Province.html">Province</a>
   
-    <li><a href="./TC_ArrayConversion.html">TC_ArrayConversion</a>
+    <li><a href="./TestArrayConversion.html">TestArrayConversion</a>
   
-    <li><a href="./TC_CK2Characters.html">TC_CK2Characters</a>
+    <li><a href="./TestCK2Characters.html">TestCK2Characters</a>
   
-    <li><a href="./TC_CK2Dynasties.html">TC_CK2Dynasties</a>
+    <li><a href="./TestCK2Dynasties.html">TestCK2Dynasties</a>
   
-    <li><a href="./TC_CK2Header.html">TC_CK2Header</a>
+    <li><a href="./TestCK2Header.html">TestCK2Header</a>
   
-    <li><a href="./TC_CK2ID.html">TC_CK2ID</a>
+    <li><a href="./TestCK2ID.html">TestCK2ID</a>
   
-    <li><a href="./TC_CK2Provinces.html">TC_CK2Provinces</a>
+    <li><a href="./TestCK2Provinces.html">TestCK2Provinces</a>
   
-    <li><a href="./TC_CK2ReligiousAuthority.html">TC_CK2ReligiousAuthority</a>
+    <li><a href="./TestCK2ReligiousAuthority.html">TestCK2ReligiousAuthority</a>
   
-    <li><a href="./TC_CK2Titles.html">TC_CK2Titles</a>
+    <li><a href="./TestCK2Titles.html">TestCK2Titles</a>
   
-    <li><a href="./TC_DefendersOfTheFaith.html">TC_DefendersOfTheFaith</a>
+    <li><a href="./TestDefendersOfTheFaith.html">TestDefendersOfTheFaith</a>
   
-    <li><a href="./TC_EU3Header.html">TC_EU3Header</a>
+    <li><a href="./TestEU3Header.html">TestEU3Header</a>
   
-    <li><a href="./TC_EU3ImperialInfo.html">TC_EU3ImperialInfo</a>
+    <li><a href="./TestEU3ImperialInfo.html">TestEU3ImperialInfo</a>
   
-    <li><a href="./TC_PapalInformation.html">TC_PapalInformation</a>
+    <li><a href="./TestEU3Provinces.html">TestEU3Provinces</a>
   
-    <li><a href="./TC_Parsing.html">TC_Parsing</a>
+    <li><a href="./TestPapalInformation.html">TestPapalInformation</a>
+  
+    <li><a href="./TestParsing.html">TestParsing</a>
   
     <li><a href="./Tracker.html">Tracker</a>
   
@@ -238,7 +248,7 @@
 
         <div class="method-description">
         
-        
+        <p>When current holder came to power (String)</p>
         
         </div>
       </div>
@@ -251,7 +261,7 @@
 
         <div class="method-description">
         
-        
+        <p>Title's de jure liege (String)</p>
         
         </div>
       </div>
@@ -264,7 +274,7 @@
 
         <div class="method-description">
         
-        
+        <p>Gender law for title (String)</p>
         
         </div>
       </div>
@@ -277,7 +287,7 @@
 
         <div class="method-description">
         
-        
+        <p>Boolean - toggles true when we get to history section of title</p>
         
         </div>
       </div>
@@ -290,7 +300,7 @@
 
         <div class="method-description">
         
-        
+        <p>ID of the title holder (String)</p>
         
         </div>
       </div>
@@ -303,7 +313,7 @@
 
         <div class="method-description">
         
-        
+        <p>Boolean - changes to ID of last holder (String)</p>
         
         </div>
       </div>
@@ -316,7 +326,7 @@
 
         <div class="method-description">
         
-        
+        <p>Title's liege (String)</p>
         
         </div>
       </div>
@@ -329,7 +339,7 @@
 
         <div class="method-description">
         
-        
+        <p>Name of title (String)</p>
         
         </div>
       </div>
@@ -342,7 +352,7 @@
 
         <div class="method-description">
         
-        
+        <p>Succession law for title (String)</p>
         
         </div>
       </div>
@@ -372,7 +382,7 @@
 
           
           <div class="method-source-code" id="new-source">
-            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 52</span>
+            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 77</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">name</span>)
   <span class="ruby-ivar">@name</span> = <span class="ruby-identifier">name</span>
   <span class="ruby-ivar">@laws</span> = <span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>
@@ -412,7 +422,7 @@
 
           
           <div class="method-source-code" id="add-source">
-            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 60</span>
+            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 85</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">add</span>(<span class="ruby-identifier">line</span>, <span class="ruby-identifier">hre_titles</span>)
   <span class="ruby-identifier">key</span>, <span class="ruby-identifier">value</span> = <span class="ruby-identifier">split_key_value</span>(<span class="ruby-identifier">line</span>)
   <span class="ruby-ivar">@liege</span> = <span class="ruby-identifier">value</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-string">'&quot;'</span>,<span class="ruby-string">''</span>) <span class="ruby-keyword">if</span> <span class="ruby-identifier">is_liege?</span>(<span class="ruby-identifier">key</span>) <span class="ruby-comment"># Strip &quot;s for better string handling</span>
@@ -456,7 +466,7 @@
 
           
           <div class="method-source-code" id="add_law-source">
-            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 90</span>
+            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 115</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">add_law</span>(<span class="ruby-identifier">value</span>)
   <span class="ruby-ivar">@laws</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">value</span>
 <span class="ruby-keyword">end</span></pre>
@@ -486,7 +496,7 @@
 
           
           <div class="method-source-code" id="is_coronation_date-3F-source">
-            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 78</span>
+            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 103</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_coronation_date?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\t+\d+.\d+.\d+/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -516,7 +526,7 @@
 
           
           <div class="method-source-code" id="is_de_jure_liege-3F-source">
-            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 114</span>
+            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 139</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_de_jure_liege?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\t(de_jure_liege)/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -546,7 +556,7 @@
 
           
           <div class="method-source-code" id="is_gender_law-3F-source">
-            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 106</span>
+            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 131</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_gender_law?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\t(gender)/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -576,7 +586,7 @@
 
           
           <div class="method-source-code" id="is_historic_holder-3F-source">
-            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 82</span>
+            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 107</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_historic_holder?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\t+(holder)/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -606,7 +616,7 @@
 
           
           <div class="method-source-code" id="is_history_header-3F-source">
-            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 86</span>
+            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 111</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_history_header?</span>(<span class="ruby-identifier">line</span>)
   <span class="ruby-identifier">line</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\thistory=/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -636,7 +646,7 @@
 
           
           <div class="method-source-code" id="is_holder-3F-source">
-            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 98</span>
+            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 123</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_holder?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\t(holder)/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -666,7 +676,7 @@
 
           
           <div class="method-source-code" id="is_law-3F-source">
-            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 110</span>
+            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 135</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_law?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\t(law)/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -696,7 +706,7 @@
 
           
           <div class="method-source-code" id="is_liege-3F-source">
-            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 94</span>
+            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 119</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_liege?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\t(liege)/</span> <span class="ruby-comment"># Triggers on [tab]liege, not histories w/ tabS</span>
 <span class="ruby-keyword">end</span></pre>
@@ -726,7 +736,7 @@
 
           
           <div class="method-source-code" id="is_succession_law-3F-source">
-            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 102</span>
+            <pre><span class="ruby-comment"># File lib/ck2_classes/titles.rb, line 127</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_succession_law?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\t(succession)/</span>
 <span class="ruby-keyword">end</span></pre>

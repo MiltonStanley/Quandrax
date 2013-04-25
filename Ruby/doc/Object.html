@@ -50,6 +50,7 @@
     <li>lib/cli_parsing.rb
     <li>lib/config.rb
     <li>lib/file_handling.rb
+    <li>lib/maps/tag_map.rb
     <li>lib/parsing.rb
     <li>lib/quick_pass.rb
     <li>tools/cardinal_finder.rb
@@ -194,6 +195,12 @@
 
   <ul class="link-list">
   
+    <li><a href="./TestTagMap.html">TestTagMap</a>
+  
+    <li><a href="./TestTagMap/TestTags.html">TestTagMap::TestTags</a>
+  
+    <li><a href="./TestTagMap/TestTitles.html">TestTagMap::TestTitles</a>
+  
     <li><a href="./A_CK2_Province.html">A_CK2_Province</a>
   
     <li><a href="./A_Character.html">A_Character</a>
@@ -238,37 +245,41 @@
   
     <li><a href="./EU3_Provinces.html">EU3_Provinces</a>
   
+    <li><a href="./EU3_Trade.html">EU3_Trade</a>
+  
     <li><a href="./Object.html">Object</a>
   
     <li><a href="./Player.html">Player</a>
   
     <li><a href="./Province.html">Province</a>
   
-    <li><a href="./TC_ArrayConversion.html">TC_ArrayConversion</a>
+    <li><a href="./TestArrayConversion.html">TestArrayConversion</a>
   
-    <li><a href="./TC_CK2Characters.html">TC_CK2Characters</a>
+    <li><a href="./TestCK2Characters.html">TestCK2Characters</a>
   
-    <li><a href="./TC_CK2Dynasties.html">TC_CK2Dynasties</a>
+    <li><a href="./TestCK2Dynasties.html">TestCK2Dynasties</a>
   
-    <li><a href="./TC_CK2Header.html">TC_CK2Header</a>
+    <li><a href="./TestCK2Header.html">TestCK2Header</a>
   
-    <li><a href="./TC_CK2ID.html">TC_CK2ID</a>
+    <li><a href="./TestCK2ID.html">TestCK2ID</a>
   
-    <li><a href="./TC_CK2Provinces.html">TC_CK2Provinces</a>
+    <li><a href="./TestCK2Provinces.html">TestCK2Provinces</a>
   
-    <li><a href="./TC_CK2ReligiousAuthority.html">TC_CK2ReligiousAuthority</a>
+    <li><a href="./TestCK2ReligiousAuthority.html">TestCK2ReligiousAuthority</a>
   
-    <li><a href="./TC_CK2Titles.html">TC_CK2Titles</a>
+    <li><a href="./TestCK2Titles.html">TestCK2Titles</a>
   
-    <li><a href="./TC_DefendersOfTheFaith.html">TC_DefendersOfTheFaith</a>
+    <li><a href="./TestDefendersOfTheFaith.html">TestDefendersOfTheFaith</a>
   
-    <li><a href="./TC_EU3Header.html">TC_EU3Header</a>
+    <li><a href="./TestEU3Header.html">TestEU3Header</a>
   
-    <li><a href="./TC_EU3ImperialInfo.html">TC_EU3ImperialInfo</a>
+    <li><a href="./TestEU3ImperialInfo.html">TestEU3ImperialInfo</a>
   
-    <li><a href="./TC_PapalInformation.html">TC_PapalInformation</a>
+    <li><a href="./TestEU3Provinces.html">TestEU3Provinces</a>
   
-    <li><a href="./TC_Parsing.html">TC_Parsing</a>
+    <li><a href="./TestPapalInformation.html">TestPapalInformation</a>
+  
+    <li><a href="./TestParsing.html">TestParsing</a>
   
     <li><a href="./Tracker.html">Tracker</a>
   
@@ -449,7 +460,7 @@
 
           
           <div class="method-source-code" id="extract_version-source">
-            <pre><span class="ruby-comment"># File lib/config.rb, line 56</span>
+            <pre><span class="ruby-comment"># File lib/config.rb, line 24</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">extract_version</span>(<span class="ruby-identifier">line</span>)
   <span class="ruby-identifier">line</span>.<span class="ruby-identifier">chomp!</span>
   <span class="ruby-identifier">_</span>, <span class="ruby-identifier">version</span> = <span class="ruby-identifier">line</span>.<span class="ruby-identifier">split</span>(<span class="ruby-string">'='</span>)
@@ -543,7 +554,7 @@
 
           
           <div class="method-source-code" id="get_version_from_user-source">
-            <pre><span class="ruby-comment"># File lib/config.rb, line 62</span>
+            <pre><span class="ruby-comment"># File lib/config.rb, line 30</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">get_version_from_user</span>
   <span class="ruby-keyword">while</span> <span class="ruby-keyword">true</span>
     <span class="ruby-identifier">puts</span>
@@ -804,12 +815,29 @@
 
         <div class="method-description">
           
-          
+          <ol><li>
+<p>Test file found? //Verify// : make it</p>
+</li><li>
+<p>Verify:</p>
+</li></ol>
+
+<pre>- Extract data
+- Verify that data - legal? Adapt files : Make it</pre>
+<ol><li>
+<p>Make it</p>
+</li></ol>
+
+<pre>- While loop
+  - until legal version submitted
+- Write to file</pre>
+<ol><li>
+<p>Adapt files</p>
+</li></ol>
           
 
           
           <div class="method-source-code" id="legal_version-3F-source">
-            <pre><span class="ruby-comment"># File lib/config.rb, line 52</span>
+            <pre><span class="ruby-comment"># File lib/config.rb, line 20</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">legal_version?</span>(<span class="ruby-identifier">version</span>)
   (<span class="ruby-identifier">version</span> <span class="ruby-operator">==</span> <span class="ruby-string">'1'</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">version</span> <span class="ruby-operator">==</span> <span class="ruby-string">'2'</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">version</span> <span class="ruby-operator">==</span> <span class="ruby-string">'3'</span>)
 <span class="ruby-keyword">end</span></pre>
@@ -839,7 +867,7 @@
 
           
           <div class="method-source-code" id="load_config_file-source">
-            <pre><span class="ruby-comment"># File lib/config.rb, line 96</span>
+            <pre><span class="ruby-comment"># File lib/config.rb, line 64</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">load_config_file</span>
   <span class="ruby-identifier">print</span> <span class="ruby-string">&quot;Loading configuration file...&quot;</span>
   <span class="ruby-identifier">config_file</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">open</span>(<span class="ruby-string">'config_file.txt'</span>,<span class="ruby-string">'r'</span>)
@@ -961,7 +989,7 @@
 
           
           <div class="method-source-code" id="make_config_file-source">
-            <pre><span class="ruby-comment"># File lib/config.rb, line 111</span>
+            <pre><span class="ruby-comment"># File lib/config.rb, line 79</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">make_config_file</span>(<span class="ruby-identifier">manual_reconfig</span>)
   <span class="ruby-comment">#ARGV.shift if manual_reconfig # Kludgy - gets returns ARGV[0] for some reason later on.s</span>
   <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Configuration file corrupted or not found.&quot;</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">manual_reconfig</span>
@@ -1568,7 +1596,7 @@
 
           
           <div class="method-source-code" id="run_config-source">
-            <pre><span class="ruby-comment"># File lib/config.rb, line 121</span>
+            <pre><span class="ruby-comment"># File lib/config.rb, line 89</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">run_config</span>
   <span class="ruby-identifier">manual_config</span> = <span class="ruby-constant">ARGV</span>[<span class="ruby-value">0</span>] <span class="ruby-operator">==</span> <span class="ruby-string">'-u'</span>
 
@@ -1671,7 +1699,7 @@
 
           
           <div class="method-source-code" id="update_tags-source">
-            <pre><span class="ruby-comment"># File lib/config.rb, line 77</span>
+            <pre><span class="ruby-comment"># File lib/config.rb, line 45</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">update_tags</span>(<span class="ruby-identifier">version</span>)
   <span class="ruby-keyword">if</span> <span class="ruby-identifier">version</span> <span class="ruby-operator">==</span> <span class="ruby-string">'1'</span>
     <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Using settings for base game.&quot;</span>
@@ -1707,7 +1735,7 @@
 
           
           <div class="method-source-code" id="update_tags_for_dw-source">
-            <pre><span class="ruby-comment"># File lib/config.rb, line 46</span>
+            <pre><span class="ruby-comment"># File lib/maps/tag_map.rb, line 1450</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">update_tags_for_dw</span>
   <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Updating mapping files for Divine Wind&quot;</span>
   <span class="ruby-identifier">update_tags_for_httt</span>
@@ -1734,29 +1762,12 @@
 
         <div class="method-description">
           
-          <ol><li>
-<p>Test file found? //Verify// : make it</p>
-</li><li>
-<p>Verify:</p>
-</li></ol>
-
-<pre>- Extract data
-- Verify that data - legal? Adapt files : Make it</pre>
-<ol><li>
-<p>Make it</p>
-</li></ol>
-
-<pre>- While loop
-  - until legal version submitted
-- Write to file</pre>
-<ol><li>
-<p>Adapt files</p>
-</li></ol>
+          
           
 
           
           <div class="method-source-code" id="update_tags_for_httt-source">
-            <pre><span class="ruby-comment"># File lib/config.rb, line 17</span>
+            <pre><span class="ruby-comment"># File lib/maps/tag_map.rb, line 1422</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">update_tags_for_httt</span>
   <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Updating mapping files for Heir to the Throne&quot;</span>
   <span class="ruby-identifier">$TM_CK2_EU3</span>[<span class="ruby-string">&quot;c_murom&quot;</span>] = <span class="ruby-string">&quot;MUR&quot;</span>
@@ -1769,7 +1780,6 @@
   <span class="ruby-identifier">$TM_CK2_EU3</span>[<span class="ruby-string">&quot;d_cibyrrhaeot&quot;</span>] = <span class="ruby-string">&quot;MEN&quot;</span>
   <span class="ruby-identifier">$TM_CK2_EU3</span>[<span class="ruby-string">&quot;d_anatolia&quot;</span>] = <span class="ruby-string">&quot;MEN&quot;</span>
   <span class="ruby-identifier">$TM_CK2_EU3</span>[<span class="ruby-string">&quot;d_thracesia&quot;</span>] = <span class="ruby-string">&quot;MEN&quot;</span>
-  <span class="ruby-identifier">$TM_CK2_EU3</span>[<span class="ruby-string">&quot;d_cibyrrhaeot &quot;</span>] = <span class="ruby-string">&quot;MEN&quot;</span>
   <span class="ruby-identifier">$TM_CK2_EU3</span>[<span class="ruby-string">&quot;d_lykia&quot;</span>] = <span class="ruby-string">&quot;MEN&quot;</span>
   <span class="ruby-identifier">$TM_CK2_EU3</span>[<span class="ruby-string">&quot;c_attaleia&quot;</span>] = <span class="ruby-string">&quot;MEN&quot;</span>
   <span class="ruby-identifier">$TM_CK2_EU3</span>[<span class="ruby-string">&quot;c_rhodos&quot;</span>] = <span class="ruby-string">&quot;MEN&quot;</span>
@@ -1821,11 +1831,11 @@ PROGRAM-GENERATED FILES INTO USABLE SAVE FILES</p>
   <span class="ruby-identifier">$EU3_IMPERIAL_INFO</span>.<span class="ruby-identifier">write</span>(<span class="ruby-identifier">new_file</span>)
   <span class="ruby-identifier">$EU3_DEFENDERS_OF_THE_FAITH</span> = <span class="ruby-constant">EU3_Defenders_of_the_Faith</span>.<span class="ruby-identifier">new</span>
   <span class="ruby-identifier">$EU3_DEFENDERS_OF_THE_FAITH</span>.<span class="ruby-identifier">write</span>(<span class="ruby-identifier">new_file</span>)
-  <span class="ruby-identifier">$EU3_PAPAL_INFORMATION</span> = <span class="ruby-constant">EU3_Papal_Information</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">$CK2_TITLES</span>, <span class="ruby-identifier">$CK2_CHARACTERS</span>)
-  <span class="ruby-identifier">print_from_temp</span>(<span class="ruby-identifier">new_file</span>, <span class="ruby-string">'./lib/templates/papacy.tmp'</span>)
+  <span class="ruby-identifier">$EU3_PAPAL_INFORMATION</span> = <span class="ruby-constant">EU3_Papal_Information</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">$CK2_TITLES</span>, <span class="ruby-identifier">$CK2_CHARACTERS</span>, <span class="ruby-identifier">$CK2_PROVINCES</span>.<span class="ruby-identifier">provinces</span>)
+  <span class="ruby-identifier">$EU3_PAPAL_INFORMATION</span>.<span class="ruby-identifier">write</span>(<span class="ruby-identifier">new_file</span>)
   <span class="ruby-identifier">print_from_temp</span>(<span class="ruby-identifier">new_file</span>, <span class="ruby-string">'./lib/templates/trade.tmp'</span>)  <span class="ruby-comment"># This is fine</span>
-  <span class="ruby-comment">#$EU3_PROVINCES = EU3_Provinces.new($CK2_PROVINCES.provinces, $CK2_TITLES.titles)</span>
-  <span class="ruby-comment">#$EU3_PROVINCES.write(new_file)</span>
+  <span class="ruby-identifier">$EU3_PROVINCES</span> = <span class="ruby-constant">EU3_Provinces</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">$CK2_PROVINCES</span>.<span class="ruby-identifier">provinces</span>, <span class="ruby-identifier">$CK2_TITLES</span>.<span class="ruby-identifier">titles</span>)
+  <span class="ruby-identifier">$EU3_PROVINCES</span>.<span class="ruby-identifier">write</span>(<span class="ruby-identifier">new_file</span>)
   <span class="ruby-identifier">print_from_temp</span>(<span class="ruby-identifier">new_file</span>, <span class="ruby-string">'./lib/templates/province.tmp'</span>)
   <span class="ruby-identifier">print_from_temp</span>(<span class="ruby-identifier">new_file</span>, <span class="ruby-string">'./lib/templates/nations.tmp'</span>)
   <span class="ruby-identifier">print_from_temp</span>(<span class="ruby-identifier">new_file</span>, <span class="ruby-string">'./lib/templates/diplomacy.tmp'</span>)
@@ -1863,7 +1873,7 @@ PROGRAM-GENERATED FILES INTO USABLE SAVE FILES</p>
 
           
           <div class="method-source-code" id="write_version_to_file-source">
-            <pre><span class="ruby-comment"># File lib/config.rb, line 87</span>
+            <pre><span class="ruby-comment"># File lib/config.rb, line 55</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">write_version_to_file</span>(<span class="ruby-identifier">version</span>)
   <span class="ruby-identifier">print</span> <span class="ruby-string">&quot;Writing version to configuration file...&quot;</span>
   <span class="ruby-identifier">config_file</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">new</span>(<span class="ruby-string">'config_file.txt'</span>,<span class="ruby-string">'w'</span>)

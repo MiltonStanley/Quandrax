@@ -141,6 +141,12 @@
 
   <ul class="link-list">
   
+    <li><a href="./TestTagMap.html">TestTagMap</a>
+  
+    <li><a href="./TestTagMap/TestTags.html">TestTagMap::TestTags</a>
+  
+    <li><a href="./TestTagMap/TestTitles.html">TestTagMap::TestTitles</a>
+  
     <li><a href="./A_CK2_Province.html">A_CK2_Province</a>
   
     <li><a href="./A_Character.html">A_Character</a>
@@ -185,37 +191,41 @@
   
     <li><a href="./EU3_Provinces.html">EU3_Provinces</a>
   
+    <li><a href="./EU3_Trade.html">EU3_Trade</a>
+  
     <li><a href="./Object.html">Object</a>
   
     <li><a href="./Player.html">Player</a>
   
     <li><a href="./Province.html">Province</a>
   
-    <li><a href="./TC_ArrayConversion.html">TC_ArrayConversion</a>
+    <li><a href="./TestArrayConversion.html">TestArrayConversion</a>
   
-    <li><a href="./TC_CK2Characters.html">TC_CK2Characters</a>
+    <li><a href="./TestCK2Characters.html">TestCK2Characters</a>
   
-    <li><a href="./TC_CK2Dynasties.html">TC_CK2Dynasties</a>
+    <li><a href="./TestCK2Dynasties.html">TestCK2Dynasties</a>
   
-    <li><a href="./TC_CK2Header.html">TC_CK2Header</a>
+    <li><a href="./TestCK2Header.html">TestCK2Header</a>
   
-    <li><a href="./TC_CK2ID.html">TC_CK2ID</a>
+    <li><a href="./TestCK2ID.html">TestCK2ID</a>
   
-    <li><a href="./TC_CK2Provinces.html">TC_CK2Provinces</a>
+    <li><a href="./TestCK2Provinces.html">TestCK2Provinces</a>
   
-    <li><a href="./TC_CK2ReligiousAuthority.html">TC_CK2ReligiousAuthority</a>
+    <li><a href="./TestCK2ReligiousAuthority.html">TestCK2ReligiousAuthority</a>
   
-    <li><a href="./TC_CK2Titles.html">TC_CK2Titles</a>
+    <li><a href="./TestCK2Titles.html">TestCK2Titles</a>
   
-    <li><a href="./TC_DefendersOfTheFaith.html">TC_DefendersOfTheFaith</a>
+    <li><a href="./TestDefendersOfTheFaith.html">TestDefendersOfTheFaith</a>
   
-    <li><a href="./TC_EU3Header.html">TC_EU3Header</a>
+    <li><a href="./TestEU3Header.html">TestEU3Header</a>
   
-    <li><a href="./TC_EU3ImperialInfo.html">TC_EU3ImperialInfo</a>
+    <li><a href="./TestEU3ImperialInfo.html">TestEU3ImperialInfo</a>
   
-    <li><a href="./TC_PapalInformation.html">TC_PapalInformation</a>
+    <li><a href="./TestEU3Provinces.html">TestEU3Provinces</a>
   
-    <li><a href="./TC_Parsing.html">TC_Parsing</a>
+    <li><a href="./TestPapalInformation.html">TestPapalInformation</a>
+  
+    <li><a href="./TestParsing.html">TestParsing</a>
   
     <li><a href="./Tracker.html">Tracker</a>
   
@@ -304,7 +314,7 @@ province.</p>
 
           
           <div class="method-source-code" id="new-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 73</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 71</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">id</span>)
   <span class="ruby-ivar">@finished_header</span> = <span class="ruby-keyword">false</span>
   <span class="ruby-ivar">@id</span> = <span class="ruby-identifier">id</span>
@@ -343,7 +353,7 @@ province.</p>
 
           
           <div class="method-source-code" id="add-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 80</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 78</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">add</span>(<span class="ruby-identifier">line</span>)
   <span class="ruby-identifier">key</span>, <span class="ruby-identifier">value</span> = <span class="ruby-identifier">split_key_value</span>(<span class="ruby-identifier">line</span>.<span class="ruby-identifier">chomp</span>)
   <span class="ruby-ivar">@name</span> = <span class="ruby-identifier">value</span>.<span class="ruby-identifier">gsub!</span>(<span class="ruby-string">'&quot;'</span>,<span class="ruby-string">''</span>) <span class="ruby-keyword">if</span> <span class="ruby-identifier">is_name?</span>(<span class="ruby-identifier">key</span>)
@@ -393,7 +403,7 @@ province.</p>
 
           
           <div class="method-source-code" id="convert_from_ck2-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 104</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 102</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">convert_from_ck2</span>(<span class="ruby-identifier">ck2_provinces</span>, <span class="ruby-identifier">ck2_titles</span>, <span class="ruby-identifier">ck2_id</span>)
   <span class="ruby-keyword">if</span> <span class="ruby-identifier">ck2_id</span>.<span class="ruby-identifier">class</span> <span class="ruby-operator">==</span> <span class="ruby-constant">Fixnum</span>
     <span class="ruby-comment">### TODO</span>
@@ -437,7 +447,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_barracks-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 191</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 189</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_barracks?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\tbarracks/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -467,7 +477,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_base_tax-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 175</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 173</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_base_tax?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\tbase_tax/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -497,7 +507,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_capital-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 163</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 161</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_capital?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\tcapital/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -527,7 +537,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_citysize-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 167</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 165</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_citysize?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\tcitysize/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -557,7 +567,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_controller-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 147</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 145</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_controller?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\tcontroller/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -587,7 +597,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_core-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 151</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 149</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_core?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\tcore/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -617,7 +627,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_culture-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 155</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 153</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_culture?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\tculture/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -647,7 +657,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_drydock-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 195</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 193</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_drydock?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\tdrydock/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -677,7 +687,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_fort1-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 207</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 205</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_fort1?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\tfort1/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -707,7 +717,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_garrison-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 171</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 169</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_garrison?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\tgarrison/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -737,7 +747,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_history-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 211</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 209</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_history?</span>(<span class="ruby-identifier">line</span>)
   <span class="ruby-identifier">line</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\thistory=/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -767,7 +777,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_manpower-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 179</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 177</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_manpower?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\tmanpower/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -797,7 +807,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_marketplace-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 203</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 201</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_marketplace?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\tmarketplace/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -827,7 +837,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_name-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 139</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 137</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_name?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\tname/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -857,7 +867,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_owner-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 143</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 141</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_owner?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\towner/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -887,7 +897,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_religion-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 159</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 157</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_religion?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\treligion/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -917,7 +927,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_temple-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 187</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 185</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_temple?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\ttemple/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -947,7 +957,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_trade_goods-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 183</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 181</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_trade_goods?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\ttrade_goods/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -977,7 +987,7 @@ province.</p>
 
           
           <div class="method-source-code" id="is_workshop-3F-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 199</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 197</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">is_workshop?</span>(<span class="ruby-identifier">key</span>)
   <span class="ruby-identifier">key</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">%r^\tworkshop/</span>
 <span class="ruby-keyword">end</span></pre>
@@ -1007,7 +1017,7 @@ province.</p>
 
           
           <div class="method-source-code" id="write-source">
-            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 122</span>
+            <pre><span class="ruby-comment"># File lib/eu3_classes/provinces.rb, line 120</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">write</span>(<span class="ruby-identifier">location</span>)
   <span class="ruby-identifier">location</span>.<span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;#{id}=\n{\n\tflags=\n\t{\n\t}\n\tvariables=\n\t{\n\t}\n\tname=\&quot;#{@name}\&quot;&quot;</span>
   <span class="ruby-identifier">location</span>.<span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;\towner=\&quot;#{@owner}\&quot;\n\tcontroller=\&quot;#{@controller}\&quot;&quot;</span>

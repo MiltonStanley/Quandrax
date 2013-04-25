@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=IBM437" http-equiv="Content-Type">
+
+<title>class EU3_Trade - RDoc Documentation</title>
+
+<link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="./js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/darkfish.js"></script>
+
+
+<body id="top" class="class">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="./index.html">Home</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>lib/eu3_classes/trade.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    <nav id="parent-class-section" class="section">
+  <h3 class="section-header">Parent</h3>
+  
+  <p class="link"><a href="Object.html">Object</a>
+  
+</nav>
+
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li><a href="#method-i-write">#write</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="./config_file_txt.html">config_file</a>
+  
+    <li class="file"><a href="./tools/cultures.html">cultures</a>
+  
+    <li class="file"><a href="./tools/monarchs_txt.html">monarchs</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="./TestTagMap.html">TestTagMap</a>
+  
+    <li><a href="./TestTagMap/TestTags.html">TestTagMap::TestTags</a>
+  
+    <li><a href="./TestTagMap/TestTitles.html">TestTagMap::TestTitles</a>
+  
+    <li><a href="./A_CK2_Province.html">A_CK2_Province</a>
+  
+    <li><a href="./A_Character.html">A_Character</a>
+  
+    <li><a href="./A_Title.html">A_Title</a>
+  
+    <li><a href="./An_EU3_Province.html">An_EU3_Province</a>
+  
+    <li><a href="./CK2_Active_War.html">CK2_Active_War</a>
+  
+    <li><a href="./CK2_Characters.html">CK2_Characters</a>
+  
+    <li><a href="./CK2_Combat.html">CK2_Combat</a>
+  
+    <li><a href="./CK2_Diplomacy.html">CK2_Diplomacy</a>
+  
+    <li><a href="./CK2_Dynasties.html">CK2_Dynasties</a>
+  
+    <li><a href="./CK2_Footer.html">CK2_Footer</a>
+  
+    <li><a href="./CK2_Header.html">CK2_Header</a>
+  
+    <li><a href="./CK2_ID.html">CK2_ID</a>
+  
+    <li><a href="./CK2_Provinces.html">CK2_Provinces</a>
+  
+    <li><a href="./CK2_Religious_Authority.html">CK2_Religious_Authority</a>
+  
+    <li><a href="./CK2_Titles.html">CK2_Titles</a>
+  
+    <li><a href="./CK2_War.html">CK2_War</a>
+  
+    <li><a href="./EU3_Defenders_of_the_Faith.html">EU3_Defenders_of_the_Faith</a>
+  
+    <li><a href="./EU3_Header.html">EU3_Header</a>
+  
+    <li><a href="./EU3_Imperial_Information.html">EU3_Imperial_Information</a>
+  
+    <li><a href="./EU3_Papal_Information.html">EU3_Papal_Information</a>
+  
+    <li><a href="./EU3_Province.html">EU3_Province</a>
+  
+    <li><a href="./EU3_Provinces.html">EU3_Provinces</a>
+  
+    <li><a href="./EU3_Trade.html">EU3_Trade</a>
+  
+    <li><a href="./Object.html">Object</a>
+  
+    <li><a href="./Player.html">Player</a>
+  
+    <li><a href="./Province.html">Province</a>
+  
+    <li><a href="./TestArrayConversion.html">TestArrayConversion</a>
+  
+    <li><a href="./TestCK2Characters.html">TestCK2Characters</a>
+  
+    <li><a href="./TestCK2Dynasties.html">TestCK2Dynasties</a>
+  
+    <li><a href="./TestCK2Header.html">TestCK2Header</a>
+  
+    <li><a href="./TestCK2ID.html">TestCK2ID</a>
+  
+    <li><a href="./TestCK2Provinces.html">TestCK2Provinces</a>
+  
+    <li><a href="./TestCK2ReligiousAuthority.html">TestCK2ReligiousAuthority</a>
+  
+    <li><a href="./TestCK2Titles.html">TestCK2Titles</a>
+  
+    <li><a href="./TestDefendersOfTheFaith.html">TestDefendersOfTheFaith</a>
+  
+    <li><a href="./TestEU3Header.html">TestEU3Header</a>
+  
+    <li><a href="./TestEU3ImperialInfo.html">TestEU3ImperialInfo</a>
+  
+    <li><a href="./TestEU3Provinces.html">TestEU3Provinces</a>
+  
+    <li><a href="./TestPapalInformation.html">TestPapalInformation</a>
+  
+    <li><a href="./TestParsing.html">TestParsing</a>
+  
+    <li><a href="./Tracker.html">Tracker</a>
+  
+    <li><a href="./World.html">World</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="class">class EU3_Trade</h1>
+
+  <div id="description" class="description">
+    
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
+
+    
+      <div id="method-i-write" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">write</span><span
+            class="method-args">(location)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="write-source">
+            <pre><span class="ruby-comment"># File lib/eu3_classes/trade.rb, line 3</span>
+        <span class="ruby-keyword">def</span> <span class="ruby-identifier">write</span>(<span class="ruby-identifier">location</span>)
+                <span class="ruby-identifier">location</span>.<span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;trade=
+{
+        cot=
+        {
+                location=101
+                stagnation=0.000
+                value=585.133
+                level=18
+                ACH=
+                {
+                        level=1
+                        value=7.284
+                        priority=0
+                        control=0.000
+                }
+                CEP=
+                {
+                        level=1
+                        value=7.284
+                        priority=0
+                        control=0.000
+                }
+                NAX=
+                {
+                        level=1
+                        value=7.284
+                        priority=0
+                        control=0.000
+                }
+                FER=
+                {
+                        level=1
+                        value=7.284
+                        priority=0
+                        control=0.000
+                }
+                GEN=
+                {
+                        level=3
+                        value=23.412
+                        priority=0
+                        control=526.187
+                }
+                MAN=
+                {
+                        level=1
+                        value=6.600
+                        priority=0
+                        control=0.000
+                }
+                MOD=
+                {
+                        level=1
+                        value=7.284
+                        priority=0
+                        control=18.960
+                }
+                PAP=
+                {
+                        level=1
+                        value=7.284
+                        priority=0
+                        control=26.235
+                }
+                SAR=
+                {
+                        level=1
+                        value=7.284
+                        priority=0
+                        control=6.599
+                }
+                SIC=
+                {
+                        level=1
+                        value=7.284
+                        priority=0
+                        control=46.683
+                }
+                TUS=
+                {
+                        level=1
+                        value=6.924
+                        priority=0
+                        control=28.680
+                }
+                URB=
+                {
+                        level=1
+                        value=7.284
+                        priority=0
+                        control=0.000
+                }
+                VEN=
+                {
+                        level=2
+                        value=15.564
+                        priority=0
+                        control=0.000
+                }
+                GEO=
+                {
+                        level=1
+                        value=7.284
+                        priority=0
+                        control=41.059
+                }
+                GOL=
+                {
+                        level=1
+                        value=7.284
+                        priority=0
+                        control=0.000
+                }
+        }
+        cot=
+        {
+                location=112
+                stagnation=0.000
+                value=730.885
+                level=18
+                ACH=
+                {
+                        level=1
+                        value=9.024
+                        priority=0
+                        control=15.283
+                }
+                CEP=
+                {
+                        level=1
+                        value=9.024
+                        priority=0
+                        control=8.973
+                }
+                NAX=
+                {
+                        level=1
+                        value=9.024
+                        priority=0
+                        control=14.918
+                }
+                TUR=
+                {
+                        level=1
+                        value=9.744
+                        priority=0
+                        control=60.110
+                }
+                HAB=
+                {
+                        level=1
+                        value=9.024
+                        priority=0
+                        control=73.371
+                }
+                FER=
+                {
+                        level=1
+                        value=9.024
+                        priority=0
+                        control=19.788
+                }
+                GEN=
+                {
+                        level=2
+                        value=19.224
+                        priority=0
+                        control=16.410
+                }
+                MAN=
+                {
+                        level=1
+                        value=9.024
+                        priority=0
+                        control=4.028
+                }
+                MOD=
+                {
+                        level=1
+                        value=9.024
+                        priority=0
+                        control=0.000
+                }
+                PAP=
+                {
+                        level=1
+                        value=9.024
+                        priority=0
+                        control=0.000
+                }
+                SAR=
+                {
+                        level=1
+                        value=9.024
+                        priority=0
+                        control=0.000
+                }
+                SIC=
+                {
+                        level=1
+                        value=9.024
+                        priority=0
+                        control=0.000
+                }
+                TUS=
+                {
+                        level=1
+                        value=9.360
+                        priority=0
+                        control=0.000
+                }
+                URB=
+                {
+                        level=1
+                        value=9.024
+                        priority=0
+                        control=5.523
+                }
+                VEN=
+                {
+                        level=3
+                        value=29.124
+                        priority=0
+                        control=443.669
+                }
+        }
+        cot=
+        {
+                location=183
+                stagnation=0.041
+                value=172.301
+                level=20
+                CYP=
+                {
+                        level=1
+                        value=2.112
+                        priority=0
+                        control=0.000
+                }
+                ENG=
+                {
+                        level=1
+                        value=2.112
+                        priority=0
+                        control=0.000
+                }
+                ALE=
+                {
+                        level=1
+                        value=2.112
+                        priority=0
+                        control=12.213
+                }
+                AMG=
+                {
+                        level=1
+                        value=2.484
+                        priority=0
+                        control=8.785
+                }
+                AUV=
+                {
+                        level=1
+                        value=2.112
+                        priority=0
+                        control=5.302
+                }
+                AVI=
+                {
+                        level=1
+                        value=2.556
+                        priority=0
+                        control=0.000
+                }
+                BOU=
+                {
+                        level=1
+                        value=2.640
+                        priority=0
+                        control=5.630
+                }
+                BRI=
+                {
+                        level=1
+                        value=2.640
+                        priority=0
+                        control=0.000
+                }
+                BUR=
+                {
+                        level=2
+                        value=5.064
+                        priority=0
+                        control=0.000
+                }
+                FOI=
+                {
+                        level=1
+                        value=2.292
+                        priority=0
+                        control=4.331
+                }
+                FRA=
+                {
+                        level=3
+                        value=6.600
+                        priority=0
+                        control=101.788
+                }
+                ORL=
+                {
+                        level=1
+                        value=2.112
+                        priority=0
+                        control=3.692
+                }
+                PRO=
+                {
+                        level=1
+                        value=2.640
+                        priority=0
+                        control=12.237
+                }
+                BER=
+                {
+                        level=1
+                        value=2.112
+                        priority=0
+                        control=18.323
+                }
+                LOR=
+                {
+                        level=1
+                        value=2.640
+                        priority=0
+                        control=0.000
+                }
+                ARA=
+                {
+                        level=1
+                        value=2.112
+                        priority=0
+                        control=0.000
+                }
+                SAV=
+                {
+                        level=1
+                        value=2.112
+                        priority=0
+                        control=0.000
+                }
+        }
+        cot=
+        {
+                location=227
+                stagnation=0.208
+                value=105.483
+                level=7
+                KNI=
+                {
+                        level=1
+                        value=1.332
+                        priority=0
+                        control=0.000
+                }
+                CAS=
+                {
+                        level=2
+                        value=2.700
+                        priority=0
+                        control=0.000
+                }
+                GRA=
+                {
+                        level=1
+                        value=1.644
+                        priority=0
+                        control=0.000
+                }
+                POR=
+                {
+                        level=3
+                        value=4.068
+                        priority=0
+                        control=99.839
+                }
+        }
+        cot=
+        {
+                location=358
+                stagnation=0.000
+                value=400.773
+                level=11
+                ALH=
+                {
+                        level=1
+                        value=5.280
+                        priority=0
+                        control=0.000
+                }
+                CND=
+                {
+                        level=1
+                        value=5.280
+                        priority=0
+                        control=19.510
+                }
+                DUL=
+                {
+                        level=1
+                        value=5.280
+                        priority=0
+                        control=0.000
+                }
+                KAR=
+                {
+                        level=1
+                        value=5.280
+                        priority=0
+                        control=25.772
+                }
+                RAM=
+                {
+                        level=1
+                        value=5.280
+                        priority=0
+                        control=9.336
+                }
+                MAM=
+                {
+                        level=3
+                        value=16.500
+                        priority=0
+                        control=154.060
+                }
+                TUN=
+                {
+                        level=1
+                        value=5.280
+                        priority=0
+                        control=6.051
+                }
+                JAI=
+                {
+                        level=1
+                        value=5.280
+                        priority=0
+                        control=7.404
+                }
+                TIM=
+                {
+                        level=1
+                        value=4.872
+                        priority=0
+                        control=0.000
+                }
+        }
+        cot=
+        {
+                location=429
+                stagnation=0.041
+                value=165.062
+                level=10
+                TUR=
+                {
+                        level=1
+                        value=2.148
+                        priority=0
+                        control=0.000
+                }
+                NOG=
+                {
+                        level=1
+                        value=1.908
+                        priority=0
+                        control=0.000
+                }
+                MAM=
+                {
+                        level=1
+                        value=2.148
+                        priority=0
+                        control=0.000
+                }
+                KZH=
+                {
+                        level=1
+                        value=1.908
+                        priority=0
+                        control=0.000
+                }
+                JAI=
+                {
+                        level=1
+                        value=2.148
+                        priority=0
+                        control=17.098
+                }
+                QAR=
+                {
+                        level=1
+                        value=1.908
+                        priority=0
+                        control=11.553
+                }
+                TIM=
+                {
+                        level=3
+                        value=6.312
+                        priority=0
+                        control=88.502
+                }
+                CHG=
+                {
+                        level=1
+                        value=1.908
+                        priority=0
+                        control=0.000
+                }
+        }
+        cot=
+        {
+                location=431
+                stagnation=0.041
+                value=139.985
+                level=11
+                TUR=
+                {
+                        level=1
+                        value=1.788
+                        priority=0
+                        control=0.000
+                }
+                NOG=
+                {
+                        level=1
+                        value=1.596
+                        priority=0
+                        control=0.000
+                }
+                MAM=
+                {
+                        level=1
+                        value=1.788
+                        priority=0
+                        control=0.000
+                }
+                KZH=
+                {
+                        level=1
+                        value=1.596
+                        priority=0
+                        control=0.000
+                }
+                JAI=
+                {
+                        level=1
+                        value=1.788
+                        priority=0
+                        control=0.000
+                }
+                QAR=
+                {
+                        level=1
+                        value=1.596
+                        priority=0
+                        control=0.000
+                }
+                TIM=
+                {
+                        level=3
+                        value=5.352
+                        priority=0
+                        control=60.056
+                }
+                CHG=
+                {
+                        level=1
+                        value=1.596
+                        priority=0
+                        control=0.000
+                }
+                DLH=
+                {
+                        level=1
+                        value=1.596
+                        priority=0
+                        control=0.000
+                }
+        }
+        cot=
+        {
+                location=454
+                stagnation=0.208
+                value=115.591
+                level=9
+                TUR=
+                {
+                        level=1
+                        value=1.452
+                        priority=0
+                        control=0.000
+                }
+                GEO=
+                {
+                        level=1
+                        value=1.404
+                        priority=0
+                        control=0.000
+                }
+                GOL=
+                {
+                        level=2
+                        value=2.880
+                        priority=0
+                        control=0.000
+                }
+                MAM=
+                {
+                        level=1
+                        value=1.452
+                        priority=0
+                        control=0.000
+                }
+                TIM=
+                {
+                        level=3
+                        value=4.428
+                        priority=0
+                        control=70.089
+                }
+                DLH=
+                {
+                        level=1
+                        value=1.404
+                        priority=0
+                        control=0.000
+                }
+        }
+        cot=
+        {
+                location=464
+                stagnation=0.000
+                value=296.104
+                level=9
+                LIT=
+                {
+                        level=1
+                        value=1.512
+                        priority=0
+                        control=0.000
+                }
+                GEO=
+                {
+                        level=1
+                        value=3.612
+                        priority=0
+                        control=0.000
+                }
+                GOL=
+                {
+                        level=3
+                        value=11.280
+                        priority=0
+                        control=215.009
+                }
+                MOS=
+                {
+                        level=1
+                        value=1.512
+                        priority=0
+                        control=0.000
+                }
+                NOV=
+                {
+                        level=1
+                        value=4.344
+                        priority=0
+                        control=0.000
+                }
+                TIM=
+                {
+                        level=2
+                        value=7.416
+                        priority=0
+                        control=0.000
+                }
+        }
+        cot=
+        {
+                location=559
+                stagnation=0.000
+                value=336.682
+                level=6
+                AHM=
+                {
+                        level=3
+                        value=12.840
+                        priority=0
+                        control=31.952
+                }
+                DLH=
+                {
+                        level=1
+                        value=4.080
+                        priority=0
+                        control=116.207
+                }
+                KTH=
+                {
+                        level=1
+                        value=4.080
+                        priority=0
+                        control=0.000
+                }
+                MLB=
+                {
+                        level=1
+                        value=4.080
+                        priority=0
+                        control=2.652
+                }
+        }
+        cot=
+        {
+                location=852
+                stagnation=0.041
+                value=207.245
+                level=3
+                AZT=
+                {
+                        level=3
+                        value=2.988
+                        priority=0
+                        control=0.000
+                }
+        }
+        cot=
+        {
+                location=1020
+                stagnation=0.541
+                value=4.633
+                level=8
+                JAP=
+                {
+                        level=3
+                        value=0.180
+                        priority=0
+                        control=4.633
+                }
+                TAI=
+                {
+                        level=2
+                        value=0.120
+                        priority=0
+                        control=0.000
+                }
+                MNG=
+                {
+                        level=2
+                        value=0.120
+                        priority=0
+                        control=0.000
+                }
+                RYU=
+                {
+                        level=1
+                        value=0.060
+                        priority=0
+                        control=0.000
+                }
+        }
+        cot=
+        {
+                location=1132
+                stagnation=0.208
+                value=74.350
+                level=5
+                ASH=
+                {
+                        level=1
+                        value=0.660
+                        priority=0
+                        control=0.000
+                }
+                MAL=
+                {
+                        level=3
+                        value=2.160
+                        priority=0
+                        control=54.419
+                }
+                SON=
+                {
+                        level=1
+                        value=0.660
+                        priority=0
+                        control=19.931
+                }
+        }
+        cot=
+        {
+                location=1201
+                stagnation=0.041
+                value=146.011
+                level=4
+                TRP=
+                {
+                        level=1
+                        value=1.896
+                        priority=0
+                        control=0.000
+                }
+                ZAN=
+                {
+                        level=3
+                        value=4.188
+                        priority=0
+                        control=40.927
+                }
+        }
+        cot=
+        {
+                location=1821
+                stagnation=0.000
+                value=710.012
+                level=11
+                TAI=
+                {
+                        level=2
+                        value=17.772
+                        priority=0
+                        control=0.000
+                }
+                KHA=
+                {
+                        level=1
+                        value=8.496
+                        priority=0
+                        control=12.361
+                }
+                LXA=
+                {
+                        level=1
+                        value=8.496
+                        priority=0
+                        control=16.461
+                }
+                MNG=
+                {
+                        level=3
+                        value=26.940
+                        priority=0
+                        control=398.230
+                }
+                OIR=
+                {
+                        level=1
+                        value=8.496
+                        priority=0
+                        control=44.379
+                }
+                RYU=
+                {
+                        level=1
+                        value=8.496
+                        priority=0
+                        control=0.000
+                }
+                TAU=
+                {
+                        level=1
+                        value=8.496
+                        priority=0
+                        control=11.872
+                }
+                TIB=
+                {
+                        level=1
+                        value=8.496
+                        priority=0
+                        control=25.091
+                }
+        }
+        cot=
+        {
+                location=224
+                stagnation=0.041
+                value=241.619
+                level=7
+                KNI=
+                {
+                        level=1
+                        value=2.940
+                        priority=0
+                        control=0.000
+                }
+                CAS=
+                {
+                        level=3
+                        value=9.240
+                        priority=0
+                        control=104.360
+                }
+                GRA=
+                {
+                        level=1
+                        value=3.684
+                        priority=0
+                        control=37.675
+                }
+                POR=
+                {
+                        level=2
+                        value=6.084
+                        priority=0
+                        control=0.000
+                }
+        }
+        cot=
+        {
+                location=596
+                stagnation=0.041
+                value=240.674
+                level=7
+                AYU=
+                {
+                        level=1
+                        value=2.856
+                        priority=0
+                        control=41.390
+                }
+                CHA=
+                {
+                        level=1
+                        value=2.856
+                        priority=0
+                        control=10.703
+                }
+                MKS=
+                {
+                        level=1
+                        value=2.856
+                        priority=0
+                        control=9.687
+                }
+                MLC=
+                {
+                        level=4
+                        value=14.244
+                        priority=0
+                        control=28.234
+                }
+        }
+        cot=
+        {
+                location=1021
+                stagnation=0.000
+                value=254.553
+                level=6
+                TAI=
+                {
+                        level=3
+                        value=9.696
+                        priority=0
+                        control=45.297
+                }
+                MNG=
+                {
+                        level=2
+                        value=6.360
+                        priority=0
+                        control=0.000
+                }
+                RYU=
+                {
+                        level=1
+                        value=3.096
+                        priority=0
+                        control=7.219
+                }
+        }
+        cot=
+        {
+                location=45
+                stagnation=0.000
+                value=924.004
+                level=20
+                SHL=
+                {
+                        level=1
+                        value=11.328
+                        priority=0
+                        control=12.097
+                }
+                ALS=
+                {
+                        level=1
+                        value=14.484
+                        priority=0
+                        control=0.000
+                }
+                AAC=
+                {
+                        level=1
+                        value=18.204
+                        priority=0
+                        control=0.000
+                }
+                ANH=
+                {
+                        level=1
+                        value=11.328
+                        priority=0
+                        control=4.280
+                }
+                ANS=
+                {
+                        level=1
+                        value=11.328
+                        priority=0
+                        control=0.000
+                }
+                AUG=
+                {
+                        level=1
+                        value=11.328
+                        priority=0
+                        control=0.000
+                }
+                BAD=
+                {
+                        level=1
+                        value=11.328
+                        priority=0
+                        control=0.000
+                }
+                BRE=
+                {
+                        level=1
+                        value=11.328
+                        priority=0
+                        control=10.710
+                }
+                BRU=
+                {
+                        level=1
+                        value=11.328
+                        priority=0
+                        control=18.934
+                }
+                FRN=
+                {
+                        level=1
+                        value=18.204
+                        priority=0
+                        control=3.567
+                }
+                HES=
+                {
+                        level=1
+                        value=11.328
+                        priority=0
+                        control=9.114
+                }
+                KLE=
+                {
+                        level=1
+                        value=11.328
+                        priority=0
+                        control=10.982
+                }
+                KOL=
+                {
+                        level=1
+                        value=11.328
+                        priority=0
+                        control=8.959
+                }
+                LAU=
+                {
+                        level=1
+                        value=11.328
+                        priority=0
+                        control=14.479
+                }
+                LUN=
+                {
+                        level=1
+                        value=11.328
+                        priority=0
+                        control=15.927
+                }
+                MAG=
+                {
+                        level=1
+                        value=11.328
+                        priority=0
+                        control=14.746
+                }
+                MAI=
+                {
+                        level=1
+                        value=11.328
+                        priority=0
+                        control=0.000
+                }
+                MEI=
+                {
+                        level=1
+                        value=11.328
+                        priority=0
+                        control=5.649
+                }
+                MKL=
+                {
+                        level=1
+                        value=14.052
+                        priority=0
+                        control=3.441
+                }
+                MUN=
+                {
+                        level=1
+                        value=11.328
+                        priority=0
+                        control=27.095
+                }
+        }
+        cot=
+        {
+                location=310
+                stagnation=0.000
+                value=363.594
+                level=12
+                SWE=
+                {
+                        level=1
+                        value=4.428
+                        priority=0
+                        control=20.844
+                }
+                LIT=
+                {
+                        level=1
+                        value=4.428
+                        priority=0
+                        control=51.185
+                }
+                TEU=
+                {
+                        level=1
+                        value=4.428
+                        priority=0
+                        control=0.000
+                }
+                GOL=
+                {
+                        level=1
+                        value=4.428
+                        priority=0
+                        control=0.000
+                }
+                NOV=
+                {
+                        level=4
+                        value=22.260
+                        priority=0
+                        control=225.933
+                }
+                PSK=
+                {
+                        level=1
+                        value=5.376
+                        priority=0
+                        control=3.276
+                }
+                RYA=
+                {
+                        level=1
+                        value=4.428
+                        priority=0
+                        control=12.025
+                }
+                TVE=
+                {
+                        level=1
+                        value=4.428
+                        priority=0
+                        control=6.421
+                }
+                YAR=
+                {
+                        level=1
+                        value=4.428
+                        priority=0
+                        control=5.729
+                }
+        }
+        cot=
+        {
+                location=503
+                stagnation=0.041
+                value=160.034
+                level=6
+                TIM=
+                {
+                        level=1
+                        value=1.932
+                        priority=0
+                        control=0.000
+                }
+                DLH=
+                {
+                        level=1
+                        value=1.932
+                        priority=0
+                        control=0.000
+                }
+                KHD=
+                {
+                        level=1
+                        value=1.932
+                        priority=0
+                        control=0.000
+                }
+                SND=
+                {
+                        level=3
+                        value=6.096
+                        priority=0
+                        control=30.513
+                }
+        }
+        cot=
+        {
+                location=808
+                stagnation=0.541
+                value=45.137
+                level=4
+                CHM=
+                {
+                        level=1
+                        value=0.204
+                        priority=0
+                        control=8.138
+                }
+                INC=
+                {
+                        level=3
+                        value=0.648
+                        priority=0
+                        control=36.999
+                }
+        }
+        cot=
+        {
+                location=856
+                stagnation=0.050
+                value=220.741
+                level=0
+        }
+        cot=
+        {
+                location=1744
+                stagnation=0.000
+                value=503.696
+                level=20
+                SHL=
+                {
+                        level=1
+                        value=6.228
+                        priority=0
+                        control=0.000
+                }
+                ENG=
+                {
+                        level=1
+                        value=6.228
+                        priority=0
+                        control=13.622
+                }
+                ALS=
+                {
+                        level=1
+                        value=8.028
+                        priority=0
+                        control=19.120
+                }
+                BUR=
+                {
+                        level=4
+                        value=29.952
+                        priority=0
+                        control=140.228
+                }
+                FRA=
+                {
+                        level=1
+                        value=6.228
+                        priority=0
+                        control=0.000
+                }
+                AAC=
+                {
+                        level=1
+                        value=10.032
+                        priority=0
+                        control=3.494
+                }
+                ANH=
+                {
+                        level=1
+                        value=6.228
+                        priority=0
+                        control=0.000
+                }
+                ANS=
+                {
+                        level=1
+                        value=6.228
+                        priority=0
+                        control=0.000
+                }
+                AUG=
+                {
+                        level=1
+                        value=6.228
+                        priority=0
+                        control=0.000
+                }
+                BAD=
+                {
+                        level=1
+                        value=6.228
+                        priority=0
+                        control=15.244
+                }
+                BRE=
+                {
+                        level=1
+                        value=6.228
+                        priority=0
+                        control=0.000
+                }
+                BRU=
+                {
+                        level=1
+                        value=6.228
+                        priority=0
+                        control=0.000
+                }
+                FRN=
+                {
+                        level=1
+                        value=10.032
+                        priority=0
+                        control=0.000
+                }
+                HES=
+                {
+                        level=1
+                        value=6.228
+                        priority=0
+                        control=5.247
+                }
+                KLE=
+                {
+                        level=1
+                        value=6.228
+                        priority=0
+                        control=0.000
+                }
+                KOL=
+                {
+                        level=1
+                        value=6.228
+                        priority=0
+                        control=0.000
+                }
+                LAU=
+                {
+                        level=1
+                        value=6.228
+                        priority=0
+                        control=0.000
+                }
+        }
+}&quot;</span>
+        <span class="ruby-keyword">end</span></pre>
+          </div><!-- write-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- write-method -->
+
+    
+    </section><!-- public-instance-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 3.12.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+

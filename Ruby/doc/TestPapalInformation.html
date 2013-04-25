@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=IBM437" http-equiv="Content-Type">
+
+<title>class TestPapalInformation - RDoc Documentation</title>
+
+<link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="./js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/darkfish.js"></script>
+
+
+<body id="top" class="class">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="./index.html">Home</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>tests/tc_eu3_papal_information.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    <nav id="parent-class-section" class="section">
+  <h3 class="section-header">Parent</h3>
+  
+  <p class="link">Test::Unit::TestCase
+  
+</nav>
+
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li><a href="#method-i-test_cardinal_controller_tags">#test_cardinal_controller_tags</a>
+    
+    <li><a href="#method-i-test_cardinal_controllers_length">#test_cardinal_controllers_length</a>
+    
+    <li><a href="#method-i-test_cardinal_controllers_titles">#test_cardinal_controllers_titles</a>
+    
+    <li><a href="#method-i-test_cardinal_location_names">#test_cardinal_location_names</a>
+    
+    <li><a href="#method-i-test_cardinal_names">#test_cardinal_names</a>
+    
+    <li><a href="#method-i-test_cardinal_province_ids">#test_cardinal_province_ids</a>
+    
+    <li><a href="#method-i-test_cardinal_sort">#test_cardinal_sort</a>
+    
+    <li><a href="#method-i-test_creation">#test_creation</a>
+    
+    <li><a href="#method-i-test_papal_controller">#test_papal_controller</a>
+    
+    <li><a href="#method-i-test_papal_relations_length">#test_papal_relations_length</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="./config_file_txt.html">config_file</a>
+  
+    <li class="file"><a href="./tools/cultures.html">cultures</a>
+  
+    <li class="file"><a href="./tools/monarchs_txt.html">monarchs</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="./TestTagMap.html">TestTagMap</a>
+  
+    <li><a href="./TestTagMap/TestTags.html">TestTagMap::TestTags</a>
+  
+    <li><a href="./TestTagMap/TestTitles.html">TestTagMap::TestTitles</a>
+  
+    <li><a href="./A_CK2_Province.html">A_CK2_Province</a>
+  
+    <li><a href="./A_Character.html">A_Character</a>
+  
+    <li><a href="./A_Title.html">A_Title</a>
+  
+    <li><a href="./An_EU3_Province.html">An_EU3_Province</a>
+  
+    <li><a href="./CK2_Active_War.html">CK2_Active_War</a>
+  
+    <li><a href="./CK2_Characters.html">CK2_Characters</a>
+  
+    <li><a href="./CK2_Combat.html">CK2_Combat</a>
+  
+    <li><a href="./CK2_Diplomacy.html">CK2_Diplomacy</a>
+  
+    <li><a href="./CK2_Dynasties.html">CK2_Dynasties</a>
+  
+    <li><a href="./CK2_Footer.html">CK2_Footer</a>
+  
+    <li><a href="./CK2_Header.html">CK2_Header</a>
+  
+    <li><a href="./CK2_ID.html">CK2_ID</a>
+  
+    <li><a href="./CK2_Provinces.html">CK2_Provinces</a>
+  
+    <li><a href="./CK2_Religious_Authority.html">CK2_Religious_Authority</a>
+  
+    <li><a href="./CK2_Titles.html">CK2_Titles</a>
+  
+    <li><a href="./CK2_War.html">CK2_War</a>
+  
+    <li><a href="./EU3_Defenders_of_the_Faith.html">EU3_Defenders_of_the_Faith</a>
+  
+    <li><a href="./EU3_Header.html">EU3_Header</a>
+  
+    <li><a href="./EU3_Imperial_Information.html">EU3_Imperial_Information</a>
+  
+    <li><a href="./EU3_Papal_Information.html">EU3_Papal_Information</a>
+  
+    <li><a href="./EU3_Province.html">EU3_Province</a>
+  
+    <li><a href="./EU3_Provinces.html">EU3_Provinces</a>
+  
+    <li><a href="./EU3_Trade.html">EU3_Trade</a>
+  
+    <li><a href="./Object.html">Object</a>
+  
+    <li><a href="./Player.html">Player</a>
+  
+    <li><a href="./Province.html">Province</a>
+  
+    <li><a href="./TestArrayConversion.html">TestArrayConversion</a>
+  
+    <li><a href="./TestCK2Characters.html">TestCK2Characters</a>
+  
+    <li><a href="./TestCK2Dynasties.html">TestCK2Dynasties</a>
+  
+    <li><a href="./TestCK2Header.html">TestCK2Header</a>
+  
+    <li><a href="./TestCK2ID.html">TestCK2ID</a>
+  
+    <li><a href="./TestCK2Provinces.html">TestCK2Provinces</a>
+  
+    <li><a href="./TestCK2ReligiousAuthority.html">TestCK2ReligiousAuthority</a>
+  
+    <li><a href="./TestCK2Titles.html">TestCK2Titles</a>
+  
+    <li><a href="./TestDefendersOfTheFaith.html">TestDefendersOfTheFaith</a>
+  
+    <li><a href="./TestEU3Header.html">TestEU3Header</a>
+  
+    <li><a href="./TestEU3ImperialInfo.html">TestEU3ImperialInfo</a>
+  
+    <li><a href="./TestEU3Provinces.html">TestEU3Provinces</a>
+  
+    <li><a href="./TestPapalInformation.html">TestPapalInformation</a>
+  
+    <li><a href="./TestParsing.html">TestParsing</a>
+  
+    <li><a href="./Tracker.html">Tracker</a>
+  
+    <li><a href="./World.html">World</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="class">class TestPapalInformation</h1>
+
+  <div id="description" class="description">
+    
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
+
+    
+      <div id="method-i-test_cardinal_controller_tags" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_cardinal_controller_tags</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_cardinal_controller_tags-source">
+            <pre><span class="ruby-comment"># File tests/tc_eu3_papal_information.rb, line 68</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_cardinal_controller_tags</span>
+  <span class="ruby-identifier">expected_tags</span> = <span class="ruby-node">%w[NAV CAS POR CAT ARA CRO BRI HUN TRA SCO NOL GEN SAR PAP NAP]</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected_tags</span>, <span class="ruby-identifier">$EU3_PAPAL_INFORMATION</span>.<span class="ruby-identifier">cardinal_controller_tags</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_cardinal_controller_tags-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_cardinal_controller_tags-method -->
+
+    
+      <div id="method-i-test_cardinal_controllers_length" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_cardinal_controllers_length</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_cardinal_controllers_length-source">
+            <pre><span class="ruby-comment"># File tests/tc_eu3_papal_information.rb, line 39</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_cardinal_controllers_length</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-value">15</span>, <span class="ruby-identifier">$EU3_PAPAL_INFORMATION</span>.<span class="ruby-identifier">cardinal_controllers</span>.<span class="ruby-identifier">length</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_cardinal_controllers_length-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_cardinal_controllers_length-method -->
+
+    
+      <div id="method-i-test_cardinal_controllers_titles" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_cardinal_controllers_titles</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_cardinal_controllers_titles-source">
+            <pre><span class="ruby-comment"># File tests/tc_eu3_papal_information.rb, line 43</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_cardinal_controllers_titles</span>
+  <span class="ruby-identifier">expected_titles</span> = <span class="ruby-node">%w[ k_navarra c_valladolid c_coimbra d_barcelona
+                        c_empuries d_slavonia c_vannes c_csanad d_transylvania
+                        c_galloway c_cumberland c_nice c_cagliari c_orvieto c_benevento
+                      ]</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected_titles</span>, <span class="ruby-identifier">$EU3_PAPAL_INFORMATION</span>.<span class="ruby-identifier">cardinal_controllers</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_cardinal_controllers_titles-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_cardinal_controllers_titles-method -->
+
+    
+      <div id="method-i-test_cardinal_location_names" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_cardinal_location_names</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_cardinal_location_names-source">
+            <pre><span class="ruby-comment"># File tests/tc_eu3_papal_information.rb, line 60</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_cardinal_location_names</span>
+  <span class="ruby-identifier">expected_locations</span> = <span class="ruby-node">%w[b_pamplona b_valladolid b_coimbra b_barcelona b_empuries 
+                          b_zagreb b_vannes b_csanad b_csik b_dunragit 
+                          b_burgh b_nizza b_cagliari b_orvieto b_ascoli
+                          ]</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected_locations</span>, <span class="ruby-identifier">$EU3_PAPAL_INFORMATION</span>.<span class="ruby-identifier">cardinal_location_names</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_cardinal_location_names-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_cardinal_location_names-method -->
+
+    
+      <div id="method-i-test_cardinal_names" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_cardinal_names</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_cardinal_names-source">
+            <pre><span class="ruby-comment"># File tests/tc_eu3_papal_information.rb, line 51</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_cardinal_names</span>
+  <span class="ruby-identifier">expected_names</span> = [<span class="ruby-string">'Gomez'</span>, <span class="ruby-string">'Fernando'</span>, <span class="ruby-string">'Hermenegildo'</span>, <span class="ruby-string">'Ramon'</span>, <span class="ruby-string">'Berenguer'</span>,
+                    <span class="ruby-string">'Jitej'</span>, <span class="ruby-string">'Andrev'</span>, <span class="ruby-string">&quot;Luk\u00E1cs&quot;</span>, <span class="ruby-string">&quot;Gell\u00E9rt&quot;</span>,
+                    <span class="ruby-string">'Flaithbertach'</span>, <span class="ruby-string">'Eadbeorht'</span>, <span class="ruby-string">'Cangrande'</span>, <span class="ruby-string">'Vitale'</span>, 
+                    <span class="ruby-string">'Adriano'</span>, <span class="ruby-string">'Amedeo'</span>
+                    ]
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected_names</span>, <span class="ruby-identifier">$EU3_PAPAL_INFORMATION</span>.<span class="ruby-identifier">cardinal_names</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_cardinal_names-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_cardinal_names-method -->
+
+    
+      <div id="method-i-test_cardinal_province_ids" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_cardinal_province_ids</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_cardinal_province_ids-source">
+            <pre><span class="ruby-comment"># File tests/tc_eu3_papal_information.rb, line 74</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_cardinal_province_ids</span>
+  <span class="ruby-identifier">expected_ids</span> = [<span class="ruby-string">'152'</span>, <span class="ruby-string">'198'</span>, <span class="ruby-string">'159'</span>, <span class="ruby-string">'204'</span>, <span class="ruby-string">'205'</span>, <span class="ruby-string">'461'</span>, <span class="ruby-string">'105'</span>, 
+                  <span class="ruby-string">'521'</span>, <span class="ruby-string">'540'</span>, <span class="ruby-string">'50'</span>, <span class="ruby-string">'53'</span>, <span class="ruby-string">'230'</span>, <span class="ruby-string">'326'</span>, <span class="ruby-string">'243'</span>, <span class="ruby-string">'335'</span>]
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-identifier">expected_ids</span>, <span class="ruby-identifier">$EU3_PAPAL_INFORMATION</span>.<span class="ruby-identifier">cardinal_province_ids</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_cardinal_province_ids-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_cardinal_province_ids-method -->
+
+    
+      <div id="method-i-test_cardinal_sort" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_cardinal_sort</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_cardinal_sort-source">
+            <pre><span class="ruby-comment"># File tests/tc_eu3_papal_information.rb, line 26</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_cardinal_sort</span>
+  <span class="ruby-identifier">last_val</span> = <span class="ruby-value">100_000</span>
+  <span class="ruby-identifier">$EU3_PAPAL_INFORMATION</span>.<span class="ruby-identifier">papal_relations</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">key</span>, <span class="ruby-identifier">val</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">assert</span> <span class="ruby-identifier">last_val</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-identifier">val</span>, <span class="ruby-node">&quot;#{last_val} expected &gt;= #{val}, but isn't&quot;</span>
+    <span class="ruby-identifier">last_val</span> = <span class="ruby-identifier">val</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_cardinal_sort-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_cardinal_sort-method -->
+
+    
+      <div id="method-i-test_creation" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_creation</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_creation-source">
+            <pre><span class="ruby-comment"># File tests/tc_eu3_papal_information.rb, line 17</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_creation</span>
+  <span class="ruby-identifier">assert</span> <span class="ruby-identifier">$EU3_PAPAL_INFORMATION</span>.<span class="ruby-identifier">instance_of?</span>(<span class="ruby-constant">EU3_Papal_Information</span>),
+        <span class="ruby-string">'Failed to create EU3 Papal information'</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_creation-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_creation-method -->
+
+    
+      <div id="method-i-test_papal_controller" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_papal_controller</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_papal_controller-source">
+            <pre><span class="ruby-comment"># File tests/tc_eu3_papal_information.rb, line 34</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_papal_controller</span>
+  <span class="ruby-identifier">papal_controller</span> = <span class="ruby-identifier">$EU3_PAPAL_INFORMATION</span>.<span class="ruby-identifier">papal_controller</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">&quot;NAV&quot;</span>, <span class="ruby-identifier">papal_controller</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_papal_controller-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_papal_controller-method -->
+
+    
+      <div id="method-i-test_papal_relations_length" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">test_papal_relations_length</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="test_papal_relations_length-source">
+            <pre><span class="ruby-comment"># File tests/tc_eu3_papal_information.rb, line 22</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">test_papal_relations_length</span>
+  <span class="ruby-identifier">assert_equal</span> <span class="ruby-value">7639</span>, <span class="ruby-identifier">$EU3_PAPAL_INFORMATION</span>.<span class="ruby-identifier">papal_relations</span>.<span class="ruby-identifier">length</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- test_papal_relations_length-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- test_papal_relations_length-method -->
+
+    
+    </section><!-- public-instance-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 3.12.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+
