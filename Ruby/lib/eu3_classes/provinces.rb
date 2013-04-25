@@ -90,7 +90,8 @@ class An_EU3_Province
 
   def write(location)
     location.puts "#{id}=\n{\n\tflags=\n\t{\n\t}\n\tvariables=\n\t{\n\t}\n\tname=\"#{@name}\""
-    location.puts "\towner=\"#{@owner}\"\n\tcontroller=\"#{@controller}\""
+    location.puts "\towner=\"#{@owner}\"" unless @owner.nil?
+    location.puts "\tcontroller=\"#{@controller}\""
     @core.each { |core| location.puts "\tcore=\"#{core}\""}
     location.puts "\tculture=#{@culture}\n\treligion=#{@religion}\n\tcapital=\"#{@capital}\""
     location.puts "\tcitysize=#{@citysize}\n\tgarrison=#{@garrison}\n\tbase_tax=#{@base_tax}"
