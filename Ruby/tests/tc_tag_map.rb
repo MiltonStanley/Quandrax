@@ -18,7 +18,7 @@ class TestTagMap < Test::Unit::TestCase       # Master Test
         next unless line.include?('=>')
         break if line =~ /^}/
         line.gsub!('"','')
-        title, b = line.split(' => ',2)
+        title, _ = line.split(' => ',2)
         assert !(titles.include?(title)), "Duplicate found - line #{line_number}: #{title}"
         titles << title
       end
