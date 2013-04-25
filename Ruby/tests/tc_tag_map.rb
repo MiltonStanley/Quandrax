@@ -23,7 +23,7 @@ class TestTagMap < Test::Unit::TestCase       # Master Test
         titles << title
       end
       file.close
-  end
+    end
 
     def test_titles_are_legal
       $TM_CK2_EU3.each do |title, tag|
