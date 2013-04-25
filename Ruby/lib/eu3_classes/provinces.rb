@@ -7,7 +7,7 @@ class EU3_Provinces
 
   def initialize(provinces, titles)
     @provinces = load_provinces_from_template
-    @province_index = invert($PM_CK2_EU3)
+    @province_map = invert($PM_CK2_EU3) 
     provinces = update_from_ck2(@provinces)
   end
 
