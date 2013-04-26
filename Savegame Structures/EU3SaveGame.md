@@ -345,6 +345,7 @@ Diplomacy
 
 - Casus belli (multiple)
 - Open markets (multiple)
+- VASSALS (this is important)
 
 Example:
 
@@ -362,6 +363,12 @@ Example:
             first="SWE"
             second="DAN"
             start_date="1.1.1"
+        }
+        vassal=
+        {
+            first="FRA"
+            second="AUV"
+            start_date="1399.1.1"
         }
     }
 
