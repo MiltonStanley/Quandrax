@@ -5,10 +5,10 @@ class EU3_Provinces
   # Holds provinces. Index = EU3 Id, Data = An_EU3_Province
   attr_accessor :provinces
 
-  def initialize(provinces, titles)
+  def initialize(ck2_provinces, titles)
     @provinces = load_provinces_from_template # Array[eu3_id] = A_Province
     @province_map = invert($PM_CK2_EU3) 
-    @provinces = update_from_ck2
+    @provinces = update_from_ck2(ck2_provinces)
   end
 
   def write(location)
@@ -18,9 +18,19 @@ class EU3_Provinces
     end
   end
 
-  def update_from_ck2
-    provinces = @provinces
-    provinces
+  def update_from_ck2(ck2_provinces)
+    @provinces.each_index do |eu3_province_id|
+      next if @provinces[eu3_province_id].nil?
+      ck2_id = @province_map[eu3_province_id]
+      puts "error - #{eu3_province_id}" if ck2_id.nil?
+      if ck2_id.class == Array
+        owner = "Was an array"
+      else
+        owner = ck2_provinces[ck2_id].title
+      end
+      @provinces[eu3_province_id].owner = owner
+    end
+    @provinces
   end
 
   def load_provinces_from_template
