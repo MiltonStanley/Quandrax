@@ -8,7 +8,7 @@ class EU3_Provinces
   def initialize(provinces, titles)
     @provinces = load_provinces_from_template
     @province_map = invert($PM_CK2_EU3) 
-    provinces = update_from_ck2(@provinces)
+    @provinces = update_from_ck2(@provinces)
   end
 
   def write(location)
@@ -18,8 +18,8 @@ class EU3_Provinces
     end
   end
 
-  def update_from_ck2(provinces)
-    provinces
+  def update_from_ck2
+    provinces = @provinces
   end
 
   def load_provinces_from_template
