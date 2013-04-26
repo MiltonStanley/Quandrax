@@ -26,7 +26,7 @@ class TestEU3Provinces < Test::Unit::TestCase
             "Province #{a_province.name} (#{a_province.id}) has no owner!"
     end
   end
-
+=begin
   def get_province_report
     provinces = $CK2_PROVINCES.provinces
     liege_index = $CK2_TITLES.liege_index
@@ -44,5 +44,5 @@ class TestEU3Provinces < Test::Unit::TestCase
             } (#{tag}) | lieges: #{liege} (#{liege_tag}) -> #{liege_liege} (#{liege_liege_tag})"
     end
   end
-
+=end
 end
