@@ -80,7 +80,7 @@ class TestCK2Titles < Test::Unit::TestCase
 
     def test_de_jure_lieges
       de_jure_lieges = {'d_northumberland' => 'k_england', 'k_england' => 'e_britannia',
-                        'd_meath' => 'k_ireland', 'c_oriel' => 'd_ulster', 'c_dublin' => 'd_dublin' }
+                        'd_meath' => 'k_ireland', 'c_oriel' => 'd_ulster', 'c_dublin' => 'd_meath' }
       $CK2_TITLES.titles.each do |title, a_title|
         if de_jure_lieges[title]
           assert_equal de_jure_lieges[title], a_title.de_jure_liege

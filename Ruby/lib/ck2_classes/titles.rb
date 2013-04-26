@@ -28,7 +28,7 @@ class CK2_Titles
     @liege_index = Hash.new
     @holder_index = Hash.new
     @current_title = nil
-    @current_hierarchy = { :c => nil, :d => nil, :k_ => nil, :e => nil }
+    @current_hierarchy = { 'c' => nil, 'd' => nil, 'k' => nil, 'e' => nil }
   end
 
   def add(line)
@@ -37,13 +37,27 @@ class CK2_Titles
       @liege_index[@current_title] = @titles[@current_title].liege
       @holder_index[@current_title] = @titles[@current_title].holder_id
     end
+      last_title = @current_title
       @current_title = line.chop
       rank, _ = line.split('_', 2)
       @current_hierarchy[rank] = @current_title
+      @titles[last_title].de_jure_liege ||= get_liege(last_title) unless last_title.nil?
       @titles[@current_title] = A_Title.new(@current_title)
     else
       @titles[@current_title].add(line, @hre_titles)  # Passes it on to A_Title's add
     end
+  end
+
+  def get_liege(last_title)
+    rank, _ = last_title.split('_',2)
+    liege = case rank
+              when 'b' then @current_hierarchy['c']
+              when 'c' then @current_hierarchy['d']
+              when 'd' then @current_hierarchy['k']
+              when 'k' then @current_hierarchy['e']
+              when 'e' then @current_hierarchy['e']
+              else last_title.chop
+            end
   end
 
   def is_title_header?(line)
