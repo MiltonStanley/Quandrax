@@ -27,4 +27,16 @@ class TestEU3Provinces < Test::Unit::TestCase
     end
   end
 
+  def test_owner_converts_correctly
+    expecteds = { '145' => 'ACH',
+                  '317' => 'NAX',
+                  '373' => 'TYR',
+                  '172' => 'GUY'
+                }
+    expecteds.each do |eu3_id, expected_owner|
+      actual_owner = $EU3_PROVINCES.provinces[eu3_id.to_i].owner
+      assert_equal expected_owner, actual_owner
+    end
+  end
+
 end
