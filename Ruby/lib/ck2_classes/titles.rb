@@ -37,8 +37,9 @@ class CK2_Titles
       @liege_index[@current_title] = @titles[@current_title].liege
       @holder_index[@current_title] = @titles[@current_title].holder_id
     end
-
       @current_title = line.chop
+      rank, _ = line.split('_', 2)
+      @current_hierarchy[rank] = @current_title
       @titles[@current_title] = A_Title.new(@current_title)
     else
       @titles[@current_title].add(line, @hre_titles)  # Passes it on to A_Title's add
