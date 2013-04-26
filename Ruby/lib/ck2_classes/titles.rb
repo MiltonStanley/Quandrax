@@ -27,20 +27,21 @@ class CK2_Titles
     @titles = Hash.new   # Array of all the titles
     @liege_index = Hash.new
     @holder_index = Hash.new
-    @last_title = nil
+    @current_title = nil
     @current_hierarchy = { :c => nil, :d => nil, :k_ => nil, :e => nil }
   end
 
   def add(line)
     if is_title_header?(line)
-    unless @last_title.nil?
-      @liege_index[@last_title] = @titles[@last_title].liege
-      @holder_index[@last_title] = @titles[@last_title].holder_id
+    unless @current_title.nil?
+      @liege_index[@current_title] = @titles[@current_title].liege
+      @holder_index[@current_title] = @titles[@current_title].holder_id
     end
-      @last_title = line.chop
-      @titles[@last_title] = A_Title.new(@last_title)
+
+      @current_title = line.chop
+      @titles[@current_title] = A_Title.new(@current_title)
     else
-      @titles[@last_title].add(line, @hre_titles)  # Passes it on to A_Title's add
+      @titles[@current_title].add(line, @hre_titles)  # Passes it on to A_Title's add
     end
   end
 
