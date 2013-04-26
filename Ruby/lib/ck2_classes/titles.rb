@@ -16,6 +16,9 @@ class CK2_Titles
   attr_accessor :liege_index
   # Holds ID of each title. Title (string) => Holder_ID (string). (Hash)
   attr_accessor :holder_index
+  # Hold the last titles we've done for each rank - necessary for some de_jure_lieges
+  # Hash - Key /[bcdk]_/ (String) => Liege /[cdke]_\w+/
+  attr_accessor :current_hierarchy
 
   def initialize(hre)
     puts "Reading CK2 titles..."
@@ -25,6 +28,7 @@ class CK2_Titles
     @liege_index = Hash.new
     @holder_index = Hash.new
     @last_title = nil
+    @current_hierarchy = { :c => nil, :d => nil, :k_ => nil, :e => nil }
   end
 
   def add(line)
