@@ -27,4 +27,22 @@ class TestEU3Provinces < Test::Unit::TestCase
     end
   end
 
+  def get_province_report
+    provinces = $CK2_PROVINCES.provinces
+    liege_index = $CK2_TITLES.liege_index
+    titles = $CK2_TITLES.titles
+    to_tag = $TM_CK2_EU3
+    [7,8,11].each do |ck2_province_id|
+      title = provinces[ck2_province_id].title
+      liege = liege_index[title]
+      liege ||= titles[title].de_jure_liege
+      liege_liege = liege_index[liege]
+      tag = to_tag[title]
+      liege_tag = to_tag[liege]
+      liege_liege_tag = to_tag[liege_liege]
+      puts "CK2 id: #{ck2_province_id} | controller #{title
+            } (#{tag}) | lieges: #{liege} (#{liege_tag}) -> #{liege_liege} (#{liege_liege_tag})"
+    end
+  end
+
 end
