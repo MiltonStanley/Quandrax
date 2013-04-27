@@ -20,9 +20,9 @@ class EU3_Provinces
 
   def update_from_ck2(ck2_provinces)
     @provinces.each_index do |eu3_province_id|
-      next if @provinces[eu3_province_id].nil?
-      ck2_id = @province_map[eu3_province_id]
-      puts "error - #{eu3_province_id}" if ck2_id.nil?
+      next if @provinces[eu3_province_id].nil?  # First one is nil - no province 0
+      ck2_id = @province_map[eu3_province_id] 
+      next if ck2_id.nil?                       # Is nil if province isn't in CK2S
       if ck2_id.class == Array
         owner = "Was an array"
       else
