@@ -23,6 +23,7 @@ class EU3_Provinces
       next if @provinces[eu3_province_id].nil?  # First one is nil - no province 0
       ck2_id = @province_map[eu3_province_id] 
       next if ck2_id.nil?                       # Is nil if province isn't in CK2S
+      next if ck2_provinces[ck2_id].nil?        # We don't make provinces for water
       if ck2_id.class == Array
         owner = "Was an array"
       else
