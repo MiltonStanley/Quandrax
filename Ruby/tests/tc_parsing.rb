@@ -3,6 +3,7 @@ if __FILE__ == $0
   Dir.chdir("..")
   require './lib/parsing'
   require './lib/maps/tag_map'
+  require './lib/maps/prov_map'
 end
 
 class TestParsing < Test::Unit::TestCase
@@ -49,6 +50,18 @@ class TestParsing < Test::Unit::TestCase
       start.each_index do |index|
         start[index] = convert_title_to_tag(start[index])
         assert_equal expected[index], start[index]
+      end
+    end
+
+    def test_actual_prov_map_inversion
+      inversion = invert($PM_CK2_EU3)
+      inversion.each do |pair|
+        next if pair.nil?
+        if pair.class == Array
+          pair.each { |id| assert_equal 1.class, id.class }
+        else
+          assert_equal 1.class, pair.class
+        end
       end
     end
 
