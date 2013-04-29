@@ -20,24 +20,31 @@ class EU3_Provinces
   end
 
   def update_from_ck2(ck2_provinces)
-    @provinces.each_index do |eu3_province_id|
-      next if @provinces[eu3_province_id].nil?  # First one is nil - no province 0
-      ck2_id = @province_map[eu3_province_id] 
+    @provinces.each_index do |eu3_id|
+      next if @provinces[eu3_id].nil?  # First one is nil - no province 0
+      ck2_id = @province_map[eu3_id] 
       next if ck2_id.nil?                       # Is nil if province isn't in CK2S
-      if ck2_id.class == Array
-        ck2_id.each do |id|
-          puts eu3_province_id if id.class == Array
-          title = ck2_provinces[id].title
-          #next if ck2_provinces[ck2_id].nil?
-          owner = title unless $TM_CK2_EU3[title] == @player_tag
-        end
-      else
+      
+      if ck2_id.class == Fixnum                 # It's a 1:1 conversion - straight-forward!
         next if ck2_provinces[ck2_id].nil?        # We don't make provinces for water
         owner = ck2_provinces[ck2_id].title
+      elsif ck2_id.class == Array               # Multiple CK2 provs make up this EU3 prov
+        ck2_id.each do |id|                     # So we rotate through them
+          title = ck2_provinces[id].title
+          owner = title unless is_player_owned?(eu3_id)
+        end
+      else                                      # Something wicked's happened
+        puts "Error - ck2_id.class should not be #{ck2_id.class}"
+        Kernel.exit
       end
-      @provinces[eu3_province_id].owner = owner
+      
+      @provinces[eu3_id].owner = $TM_CK2_EU3[owner]
     end
     @provinces
+  end
+
+  def is_player_owned?(eu3_id)
+    $TM_CK2_EU3[@provinces[eu3_id].owner] == @player_tag
   end
 
   def load_provinces_from_template
