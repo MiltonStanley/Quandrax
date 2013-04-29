@@ -29,8 +29,8 @@ class TestEU3Provinces < Test::Unit::TestCase
 
   def test_owner_converts_correctly
     expecteds = { '145' => 'ACH',
-                  '317' => 'NAX',
-                  '373' => 'TYR',
+                  '317' => 'AYD',
+                  '373' => 'LEI',
                   '172' => 'GUY'
                 }
     expecteds.each do |eu3_id, expected_owner|
