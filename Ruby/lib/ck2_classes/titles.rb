@@ -58,6 +58,7 @@ class CK2_Titles
               when 'e' then @current_hierarchy['e']
               else last_title.chop
             end
+    liege
   end
 
   def is_title_header?(line)
