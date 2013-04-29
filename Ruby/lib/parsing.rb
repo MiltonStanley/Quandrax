@@ -12,7 +12,9 @@ def invert(array)
       else
         _int = _temp[id]
         _temp[id] = Array.new
-        _temp[id] << _int << index
+        _int.each { |x| _temp[id] << x } if _int.class == Array
+        _temp[id] << _int if _int.class == Fixnum
+        _temp[id] << index
       end
     elsif id.class == Array
       id.each_index { |indy| _temp[id[indy]] = index }
