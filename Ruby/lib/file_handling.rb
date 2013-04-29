@@ -78,7 +78,7 @@ def write_file(new_file)
   $EU3_PAPAL_INFORMATION = EU3_Papal_Information.new($CK2_TITLES, $CK2_CHARACTERS, $CK2_PROVINCES.provinces)
   $EU3_PAPAL_INFORMATION.write(new_file)
   print_from_temp(new_file, './lib/templates/trade.tmp')  # This is fine
-  $EU3_PROVINCES = EU3_Provinces.new($CK2_PROVINCES.provinces, $CK2_TITLES.titles)
+  $EU3_PROVINCES = EU3_Provinces.new($CK2_PROVINCES.provinces, $CK2_TITLES.titles, $EU3_HEADER.tag)
   $EU3_PROVINCES.write(new_file)
   print_from_temp(new_file, './lib/templates/province.tmp')
   print_from_temp(new_file, './lib/templates/nations.tmp')

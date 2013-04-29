@@ -5,10 +5,11 @@ class EU3_Provinces
   # Holds provinces. Index = EU3 Id, Data = An_EU3_Province
   attr_accessor :provinces
 
-  def initialize(ck2_provinces, titles)
+  def initialize(ck2_provinces, titles, player_tag)
     @provinces = load_provinces_from_template # Array[eu3_id] = A_Province
     @province_map = invert($PM_CK2_EU3) 
     @provinces = update_from_ck2(ck2_provinces)
+    @player_tag = player_tag
   end
 
   def write(location)
@@ -23,10 +24,15 @@ class EU3_Provinces
       next if @provinces[eu3_province_id].nil?  # First one is nil - no province 0
       ck2_id = @province_map[eu3_province_id] 
       next if ck2_id.nil?                       # Is nil if province isn't in CK2S
-      next if ck2_provinces[ck2_id].nil?        # We don't make provinces for water
       if ck2_id.class == Array
-        owner = "Was an array"
+        ck2_id.each do |id|
+          puts eu3_province_id if id.class == Array
+          title = ck2_provinces[id].title
+          #next if ck2_provinces[ck2_id].nil?
+          owner = title unless $TM_CK2_EU3[title] == @player_tag
+        end
       else
+        next if ck2_provinces[ck2_id].nil?        # We don't make provinces for water
         owner = ck2_provinces[ck2_id].title
       end
       @provinces[eu3_province_id].owner = owner
