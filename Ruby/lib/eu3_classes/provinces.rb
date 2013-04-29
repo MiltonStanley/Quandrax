@@ -6,10 +6,10 @@ class EU3_Provinces
   attr_accessor :provinces
 
   def initialize(ck2_provinces, titles, player_tag)
+    @player_tag = player_tag
     @provinces = load_provinces_from_template # Array[eu3_id] = A_Province
     @province_map = invert($PM_CK2_EU3) 
     @provinces = update_from_ck2(ck2_provinces)
-    @player_tag = player_tag
   end
 
   def write(location)
