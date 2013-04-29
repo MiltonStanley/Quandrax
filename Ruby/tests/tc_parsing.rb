@@ -16,16 +16,16 @@ class TestParsing < Test::Unit::TestCase
     end
 
     def test_array_2d_to_1d_conversion  # Base array MAY contain arrays; inverted doesn't
-      original_array = [nil, 2, 3, 4, [5,6,7], 8]
+      original_array = [nil, 2, 3, 4, [5,6,7], [1,9], 8]
       inverted_array = invert(original_array)
-      expected_array = [nil, nil, 1, 2, 3, 4, 4, 4, 5]
+      expected_array = [nil, 5, 1, 2, 3, 4, 4, 4, 6, 5]
       assert_equal(expected_array, inverted_array)
     end
 
     def test_array_1d_to_2d_conversion # Base 1d, but inverted can be 2d
-      original_array = [nil, 2, 4, 6, 8,8, 10]
+      original_array = [nil, 2, 4, 6, 8, 8, 8, 10]
       inverted_array = invert(original_array)
-      expected_array = [nil, nil, 1, nil, 2, nil, 3, nil, [4,5], nil, 6]
+      expected_array = [nil, nil, 1, nil, 2, nil, 3, nil, [4,5,6], nil, 7]
       assert_equal(expected_array, inverted_array)
     end
 
