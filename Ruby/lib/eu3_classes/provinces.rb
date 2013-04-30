@@ -68,7 +68,7 @@ end
 #################################
 
 class An_EU3_Province
-  attr_accessor :id, :name, :owner, :controller
+  attr_accessor :id, :name, :owner, :controller, :cores
 
   def initialize(id)
     @controller, @culture, @religion, @capital, @owner, @citysize, @garrison, 
