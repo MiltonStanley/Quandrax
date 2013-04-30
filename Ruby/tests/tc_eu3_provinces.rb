@@ -51,4 +51,16 @@ class TestEU3Provinces < Test::Unit::TestCase
     end
   end
 
+  def test_cores
+    expecteds = { 145 => 'ACH',
+                  317 => 'AYD',
+                  373 => 'LEI',
+                  172 => 'GUY'
+                }
+    expecteds.each do |eu3_id, expected_core|
+      assert $EU3_PROVINCES.provinces[eu3_id].cores.include?(expected_core),
+        "Province #{eu3_id} should include core #{expected_core} but doesn't!"
+    end
+  end
+
 end
