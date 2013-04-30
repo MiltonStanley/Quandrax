@@ -21,24 +21,20 @@ class EU3_Provinces
 
   def update_from_ck2(ck2_provinces)
     @provinces.each_index do |eu3_id|
-      next if @provinces[eu3_id].nil?  # First one is nil - no province 0
-      ck2_id = @province_map[eu3_id] 
-      next if ck2_id.nil?                       # Is nil if province isn't in CK2S
-      
-      if ck2_id.class == Fixnum                 # It's a 1:1 conversion - straight-forward!
-        next if ck2_provinces[ck2_id].nil?        # We don't make provinces for water
-        owner = ck2_provinces[ck2_id].title
-      elsif ck2_id.class == Array               # Multiple CK2 provs make up this EU3 prov
-        ck2_id.each do |id|                     # So we rotate through them
-          title = ck2_provinces[id].title
-          owner = title unless is_player_owned?(eu3_id)
-        end
-      else                                      # Something wicked's happened
-        puts "Error - ck2_id.class should not be #{ck2_id.class}"
-        Kernel.exit
+      eu3_province = @provinces[eu3_id]
+      next if @provinces[eu3_id].nil?                 # First one is nil - no province 0
+      ck2_id = @province_map[eu3_id]
+      next if ck2_id.nil?                             # Is nil if province isn't in CK2S
+
+      if ck2_id.class == Fixnum                      # It's a 1:1 conversion - straight-forward!
+        next if ck2_provinces[ck2_id].nil?                # We don't make provinces for water
+        eu3_province.convert(ck2_provinces[ck2_id])
+      elsif ck2_id.class == Array                    # Multiple CK2 provs make up this EU3 prov
+        ck2_id.each do |id|                               # So we rotate through them
+          ck2_province = ck2_provinces[id]
+          eu3_province.convert(ck2_province) unless $TM_CK2_EU3[ck2_province.title] == @player_tag
+        end    
       end
-      
-      @provinces[eu3_id].owner = $TM_CK2_EU3[owner]
     end
     @provinces
   end
@@ -129,6 +125,10 @@ class An_EU3_Province
     location.puts "\tmarketplace=#{@marketplace}" unless @marketplace.nil?
     location.puts "\tfort1=#{@fort1}" unless @fort1.nil?
     location.puts @history
+  end
+
+  def convert(ck2_province)
+    @owner = $TM_CK2_EU3[ck2_province.title]
   end
 
   def is_name?(key)
