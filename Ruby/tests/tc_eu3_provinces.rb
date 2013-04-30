@@ -39,4 +39,16 @@ class TestEU3Provinces < Test::Unit::TestCase
     end
   end
 
+  def test_controller_converts
+    expecteds = { 145 => 'ACH',
+                  317 => 'AYD',
+                  373 => 'LEI',
+                  172 => 'GUY'
+                }
+    expecteds.each do |eu3_id, expected_controller|
+      actual_controller = $EU3_PROVINCES.provinces[eu3_id].controller
+      assert_equal expected_controller, actual_controller
+    end
+  end
+
 end
