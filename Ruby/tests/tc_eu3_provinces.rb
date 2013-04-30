@@ -27,7 +27,7 @@ class TestEU3Provinces < Test::Unit::TestCase
     end
   end
 
-  def test_owner_converts_correctly
+  def test_owner_converts
     expecteds = { 145 => 'ACH',
                   317 => 'AYD',
                   373 => 'LEI',
