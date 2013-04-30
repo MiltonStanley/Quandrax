@@ -76,7 +76,7 @@ class An_EU3_Province
                   @marketplace, @manpower, @trade_goods, @fort1 = nil
     @finished_header = false
     @id = id
-    @core = Array.new
+    @cores = Array.new
     @history = String.new
   end
 
@@ -85,7 +85,7 @@ class An_EU3_Province
     @name = value.gsub!('"','') if is_name?(key)
     @owner = value.gsub!('"','') if is_owner?(key)
     @controller = value.gsub!('"','') if is_controller?(key)
-    @core << value.gsub!('"','') if is_core?(key)
+    @cores << value.gsub!('"','') if is_core?(key)
     @culture = value if is_culture?(key)
     @religion = value if is_religion?(key)
     @capital = value.gsub!('"','') if is_capital?(key)
@@ -108,7 +108,7 @@ class An_EU3_Province
     location.puts "#{id}=\n{\n\tflags=\n\t{\n\t}\n\tvariables=\n\t{\n\t}\n\tname=\"#{@name}\""
     location.puts "\towner=\"#{@owner}\"" unless @owner.nil?
     location.puts "\tcontroller=\"#{@controller}\""
-    @core.each { |core| location.puts "\tcore=\"#{core}\""}
+    @cores.each { |core| location.puts "\tcore=\"#{core}\""}
     location.puts "\tculture=#{@culture}\n\treligion=#{@religion}\n\tcapital=\"#{@capital}\""
     location.puts "\tcitysize=#{@citysize}\n\tgarrison=#{@garrison}\n\tbase_tax=#{@base_tax}"
     location.puts "\tmanpower=#{@manpower}"
