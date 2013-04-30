@@ -124,6 +124,7 @@ class An_EU3_Province
 
   def convert(ck2_province, player_tag)
     @owner = $TM_CK2_EU3[ck2_province.title] unless @owner == player_tag
+    @controller = @owner ### TODO - update when wars are added
   end
 
   def is_player_owned?(eu3_id)
