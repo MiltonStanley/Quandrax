@@ -9,7 +9,7 @@ class EU3_Provinces
     @player_tag = player_tag
     @provinces = load_provinces_from_template # Array[eu3_id] = A_Province
     @province_map = invert($PM_CK2_EU3) 
-    @provinces = update_from_ck2(ck2_provinces)
+    update_from_ck2(ck2_provinces)
   end
 
   def write(location)
@@ -25,7 +25,7 @@ class EU3_Provinces
       next if @provinces[eu3_id].nil?                 # First one is nil - no province 0
       ck2_id = @province_map[eu3_id]
       next if ck2_id.nil?                             # Is nil if province isn't in CK2S
-
+      
       if ck2_id.class == Fixnum                      # It's a 1:1 conversion - straight-forward!
         next if ck2_provinces[ck2_id].nil?                # We don't make provinces for water
         eu3_province.convert(ck2_provinces[ck2_id])
@@ -33,11 +33,10 @@ class EU3_Provinces
         ck2_id.each do |id|                               # So we rotate through them
           ck2_province = ck2_provinces[id]
           eu3_province.convert(ck2_province) unless $TM_CK2_EU3[ck2_province.title] == @player_tag
-        end    
-      end
-    end
-    @provinces
-  end
+        end    # Rotating through array of ck2_id's
+      end      # What to do if it's array or fixnum
+    end        # Updating all the EU3 provinces
+  end          # Of the method
 
   def is_player_owned?(eu3_id)
     $TM_CK2_EU3[@provinces[eu3_id].owner] == @player_tag
