@@ -19,8 +19,6 @@ class Test_Culture_Map < Test::Unit::TestCase
                   145 => 'greek',
                   464 => 'SPECIAL',
                   206 => 'galician',
-                  373 => 'irish',
-                  172 => 'breton'
                 }
     expected.each do |id, culture|
       assert_equal culture, $EU3_PROVINCES.provinces[id].culture, 
