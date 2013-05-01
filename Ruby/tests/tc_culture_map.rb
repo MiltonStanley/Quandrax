@@ -7,7 +7,7 @@ end
 
 class Test_Culture_Map < Test::Unit::TestCase
 
-  def test_valid_keys
+  def test_has_all_ck2_cultures
     $CK2_PROVINCES.provinces.each do |a_province|
       next if a_province.nil? || a_province.culture.nil?
       assert $CM_CK2_EU3.has_key?(a_province.culture),
