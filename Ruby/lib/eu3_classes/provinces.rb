@@ -126,6 +126,7 @@ class An_EU3_Province
     @owner = $TM_CK2_EU3[ck2_province.title] unless @owner == player_tag
     @controller = @owner ### TODO - update when wars are added
     @cores << @owner
+    @culture = $CM_CK2_EU3[ck2_province.culture]
   end
 
   def is_player_owned?(eu3_id)
