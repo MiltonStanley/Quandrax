@@ -137,7 +137,6 @@ class An_EU3_Province
     culture
   end
 
-
   def convert_special_culture(culture, title)
     new_culture = case culture
                     when 'german' then 'bavarian'
