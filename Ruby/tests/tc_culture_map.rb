@@ -1,7 +1,6 @@
 require "test/unit"
 if __FILE__ == $0
   Dir.chdir("..")
-  require './lib/maps/culture_map'
   require './tests/setup_for_eu3_tests'
 end
 
@@ -26,9 +25,11 @@ class Test_Culture_Map < Test::Unit::TestCase
     end
   end
 
-  def test_basic_mappings   ### BAD TEST - CK2 val same as EU3, so conversion error not tested!
-    expected = {  145 => 'greek', 
-                  317 => 'SPECIAL', 
+  def test_basic_mappings
+    expected = {  89 => 'normand',
+                  145 => 'greek',
+                  317 => 'SPECIAL',
+                  206 => 'galician',
                   373 => 'irish',
                   172 => 'breton'
                 }
