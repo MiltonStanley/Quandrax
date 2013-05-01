@@ -57,7 +57,7 @@ $CM_CK2_EU3 = {
 
 def convert_special_culture(culture, title)
   new_culture = case culture
-                  when 'german' then 'baravian'
+                  when 'german' then 'bavarian'
                   when 'saxon' then 'english'
                   when 'dutch' then 'dutch'
                   when 'frankish' then 'aquitaine'
