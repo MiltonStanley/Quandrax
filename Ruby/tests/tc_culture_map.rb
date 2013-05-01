@@ -15,4 +15,15 @@ class Test_Culture_Map < Test::Unit::TestCase
     end
   end
 
+  def test_valid_values
+    actual_cultures = Array.new
+    $EU3_PROVINCES.provinces.each do |a_province|
+      next if a_province.nil? || a_province.culture.nil?
+      actual_cultures << a_province.culture unless actual_cultures.include?(a_province.culture)
+    end
+    $CM_CK2_EU3.each_value do |culture|
+      assert actual_cultures.include?(culture), "Game doesn't seem to use culture #{culture}!" unless culture == 'SPECIAL'
+    end
+  end
+
 end
