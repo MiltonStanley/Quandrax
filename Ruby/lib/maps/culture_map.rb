@@ -54,3 +54,73 @@ $CM_CK2_EU3 = {
   'nahuatl' => 'aztek',
   'romanian' => 'romanian'
 }
+
+
+  def convert_special_culture(culture, title)
+    new_culture = case culture
+                    when 'german' then get_german(title)
+                    when 'saxon' then get_saxon(title)
+                    when 'dutch' then get_dutch(title)
+                    when 'frankish' then get_frankish(title)
+                    when 'italian' then get_italian(title)
+                    when 'castillian' then get_castillian(title)
+                    when 'scottish' then get_scottish(title)
+                    when 'finnish' then get_finnish(title)
+                    when 'turkish' then get_turkish(title)
+                    when 'mongol' then get_mongol(title)
+                    when 'russian' then get_russian(title)
+                    when 'polish' then get_polish(title)
+                  end
+    new_culture
+  end
+
+  def get_german(title)
+    'bavarian'   
+  end
+
+  def get_saxon(title)
+    'english'
+  end
+
+  def get_dutch(title)
+    'dutch'
+  end
+
+  def get_frankish(title)
+    'aquitaine'
+  end
+
+  def get_italian(title)
+    'umbrian'
+  end
+
+  def get_castillian(title)
+    'castillian'
+  end
+
+  def get_scottish(title)
+    culture = 'highlandscottish' if $VERSION == 1 || $VERSION == 2
+    culture = 'scottish' if $VERSION == 3
+    culture
+  end
+
+  def get_finnish(title)
+    'finnish'
+  end
+
+  def get_turkish(title)
+    'turkish'
+  end
+
+  def get_mongol(title)
+    'tartar'
+  end
+
+  def get_russian(title)
+    'russian'
+  end
+
+  def get_polish(title)
+    'polish'
+  end
+
