@@ -92,4 +92,13 @@ class TestEU3Provinces < Test::Unit::TestCase
     end
   end
 
+  def test_scottish_conversion
+    puts get_scottish('test')
+    if $VERSION == 1
+      assert_equal 'highlandscottish', get_scottish('test')
+    else
+      assert_equal 'scottish', get_scottish('test')
+    end
+  end
+
 end
