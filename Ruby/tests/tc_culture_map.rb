@@ -26,4 +26,22 @@ class Test_Culture_Map < Test::Unit::TestCase
     end
   end
 
+  def test_special_cultures_default
+    expected = {1871 => 'german',
+                1872 => 'german',
+                1873 => 'german',
+                1874 => 'german',
+                1875 => 'italian',
+                1876 => 'german',
+                1877 => 'frankish',
+                1878 => 'german',
+                1879 => 'frankish',
+                1880 => 'german'
+                }
+    expected.each do |id, culture|
+      assert_equal culture, $EU3_PROVINCES.provinces[id].culture
+    end
+
+  end
+
 end
