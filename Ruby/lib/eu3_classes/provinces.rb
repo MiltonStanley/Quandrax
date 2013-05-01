@@ -126,10 +126,17 @@ class An_EU3_Province
     @owner = $TM_CK2_EU3[ck2_province.title] unless @owner == player_tag
     @controller = @owner ### TODO - update when wars are added
     @cores << @owner
-    @culture = $CM_CK2_EU3[ck2_province.culture]
-    puts ck2_province.culture if
-    @culture = convert_special_culture(@culture, ck2_province.title) if @culture == 'SPECIAL'
+    @culture = get_culture(ck2_province.culture, ck2_province.title)
   end
+
+  def get_culture(ck2_culture, title)
+    culture = $CM_CK2_EU3[ck2_culture]
+    if culture == 'SPECIAL'
+      culture = convert_special_culture(ck2_culture, title)
+    end
+    culture
+  end
+
 
   def convert_special_culture(culture, title)
     new_culture = case culture
