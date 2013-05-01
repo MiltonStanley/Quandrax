@@ -23,8 +23,8 @@ end
 
 def extract_version(line)
   line.chomp!
-  _, version = line.split('=')
-  version  
+  _, $VERSION = line.split('=')
+  $VERSION
 end
 
 def get_version_from_user
