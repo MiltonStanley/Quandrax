@@ -76,16 +76,16 @@ class TestEU3Provinces < Test::Unit::TestCase
   end
 
   def test_special_cultures_default
-    expected = {1871 => 'german',
-                1872 => 'german',
-                1873 => 'german',
-                1874 => 'german',
-                1875 => 'italian',
-                1876 => 'german',
-                1877 => 'frankish',
-                1878 => 'german',
-                1879 => 'frankish',
-                1880 => 'german'
+    expected = {1871 => 'bavarian',
+                1872 => 'bavarian',
+                1873 => 'bavarian',
+                1874 => 'bavarian',
+                1875 => 'umbrian',
+                1876 => 'bavarian',
+                1877 => 'aquitaine',
+                1878 => 'bavarian',
+                1879 => 'aquitaine',
+                1880 => 'bavarian'
                 }
     expected.each do |id, culture|
       assert_equal culture, $EU3_PROVINCES.provinces[id].culture
