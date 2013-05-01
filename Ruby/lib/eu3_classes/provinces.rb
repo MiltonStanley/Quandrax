@@ -127,8 +127,27 @@ class An_EU3_Province
     @controller = @owner ### TODO - update when wars are added
     @cores << @owner
     @culture = $CM_CK2_EU3[ck2_province.culture]
+    puts ck2_province.culture if
     @culture = convert_special_culture(@culture, ck2_province.title) if @culture == 'SPECIAL'
   end
+
+  def convert_special_culture(culture, title)
+    new_culture = case culture
+                    when 'german' then 'bavarian'
+                    when 'saxon' then 'english'
+                    when 'dutch' then 'dutch'
+                    when 'frankish' then 'aquitaine'
+                    when 'italian' then 'umbrian'
+                    when 'castillian' then 'castillian'
+                    when 'scottish' then 'scottish' # This is version dependant
+                    when 'finnish' then 'finnish'
+                    when 'turkish' then 'turkish'
+                    when 'mongol' then 'tartar'
+                    when 'russian' then 'russian'
+                    when 'polish' then 'polish'
+                  end
+    new_culture
+end
 
   def is_player_owned?(eu3_id)
     $TM_CK2_EU3[@provinces[eu3_id].owner] == @player_tag
