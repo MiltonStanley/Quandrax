@@ -76,7 +76,6 @@ class TestEU3Provinces < Test::Unit::TestCase
   end
 
   def test_special_cultures_default
-
     expected = {1871 => 'german',
                 1872 => 'german',
                 1873 => 'german',
