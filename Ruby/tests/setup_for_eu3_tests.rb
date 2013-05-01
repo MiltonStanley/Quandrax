@@ -3,6 +3,7 @@
 
 require './lib/maps/prov_map.rb'   # Maps CK2 provs to EU3 provs - index is EU3 prov, data is CK2
 require './lib/maps/tag_map.rb'    # Maps CK2 titles to EU3 tags - CK2 is key, EU3 is data
+require './lib/maps/culture_map'
 require './globals'           # Used in testing/debugging
 require './lib/config.rb'     # Handles configuration file for different EU3 versions
 require './lib/file_handling' # Generalized handling of files (loading, creating, writing)
