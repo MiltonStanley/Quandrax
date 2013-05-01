@@ -54,3 +54,21 @@ $CM_CK2_EU3 = {
   'nahuatl' => 'aztek',
   'romanian' => 'romanian'
 }
+
+def convert_special_culture(culture, title)
+  new_culture = case culture
+                  when 'german' then 'baravian'
+                  when 'saxon' then 'english'
+                  when 'dutch' then 'dutch'
+                  when 'frankish' then 'aquitaine'
+                  when 'italian' then 'umbrian'
+                  when 'castillian' then 'castillian'
+                  when 'scottish' then 'scottish' # This is version dependant
+                  when 'finnish' then 'finnish'
+                  when 'turkish' then 'turkish'
+                  when 'mongol' then 'tartar'
+                  when 'russian' then 'russian'
+                  when 'polish' then 'polish'
+                end
+  new_culture
+end

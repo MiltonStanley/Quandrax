@@ -127,6 +127,7 @@ class An_EU3_Province
     @controller = @owner ### TODO - update when wars are added
     @cores << @owner
     @culture = $CM_CK2_EU3[ck2_province.culture]
+    @culture = convert_special_culture(@culture, ck2_province.title) if @culture == 'SPECIAL'
   end
 
   def is_player_owned?(eu3_id)
