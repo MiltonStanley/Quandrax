@@ -17,13 +17,14 @@ class Test_Culture_Map < Test::Unit::TestCase
   def test_basic_mappings
     expected = {  89 => 'normand',
                   145 => 'greek',
-                  317 => 'SPECIAL',
+                  464 => 'SPECIAL',
                   206 => 'galician',
                   373 => 'irish',
                   172 => 'breton'
                 }
     expected.each do |id, culture|
-      assert_equal culture, $EU3_PROVINCES.provinces[id].culture
+      assert_equal culture, $EU3_PROVINCES.provinces[id].culture, 
+      "Expected #{culture} for province #{id}, got #{$EU3_PROVINCES.provinces[id].culture}!"
     end
   end
 
