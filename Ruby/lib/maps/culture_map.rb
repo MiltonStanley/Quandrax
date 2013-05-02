@@ -136,13 +136,26 @@ $CM_CK2_EU3 = {
               c_nordgau c_sundgau c_saluzzo c_monferrato c_piemonte
               c_pavia c_lombardia c_trent c_brescia c_cremona c_nice
               c_genoa c_parma c_modena c_lucca c_firenze c_siena c_pisa
-              c_piombino c_csanad c_narbonne c_carcassonne c_toulouse
-              c_rouergue c_montpellier c_viviers c_angouleme c_bordeaux
-              c_agen c_perigord c_albret c_labourd c_bearn c_armagnac
-              c_foix c_poitiers c_thouars c_saintonge c_lusignan c_auvergne
-              c_gevaudan c_la_marche c_bourbon c_limousin c_bourges c_tourraine
-              c_reims c_troyes c_sens c_auxerre c_dijon c_nevers c_macon
-              c_charolais c_chalons
+              c_piombino c_narbonne c_carcassonne c_toulouse c_rouergue 
+              c_montpellier c_viviers c_angouleme c_bordeaux c_agen c_perigord 
+              c_albret c_labourd c_bearn c_armagnac c_foix c_poitiers c_thouars 
+              c_saintonge c_lusignan c_auvergne c_gevaudan c_la_marche c_bourbon 
+              c_limousin c_bourges c_tourraine c_reims c_troyes c_sens 
+              c_auxerre c_dijon c_nevers c_macon c_charolais c_chalons
+              ]
+    titles.include? title
+  end
+
+  def is_austrian?(title)
+    titles = %[c_passau c_znojmo c_osterreich c_steiermark c_chur c_st_gallen
+              c_tirol c_innsbruck c_aquileia c_karnten c_krain c_istria c_fejer
+              c_pecs c_szekezfehervar c_vas c_esztergom c_pressburg c_sopron
+              c_trencin c_nitra c_gemer c_orava c_saris c_bereg c_abauj c_marmaros
+              c_csanad c_pest c_heves c_feher c_bihar c_szekelyfold c_temes c_bacs
+              c_varadzin c_zagreb c_krizevci c_usora c_rama c_veglia c_senj
+              c_zachlumia c_zadar c_split c_temes c_bacs c_venezia c_verona 
+              c_mantua c_padova c_padua c_treviso c_ravenna c_bologna c_ferrara
+              c_urbino c_ancona c_spoleto c_aprutium
               ]
     titles.include? title
   end
