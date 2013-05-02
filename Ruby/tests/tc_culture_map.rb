@@ -100,4 +100,16 @@ class Test_Culture_Map < Test::Unit::TestCase
     end
   end
 
+  def test_finnish_conversions
+    expected_cultures = { 'c_novgorod' => 'ingrian',
+                          'c_narva' => 'estonian',
+                          'c_null' => 'finnish'
+                        }
+    expected_cultures['c_kola'] = 'finnish' if $VERSION == '1'
+    expected_cultures['c_kola'] ||= 'karelian'
+    expected_cultures.each do |title, expected|
+      assert_equal expected, convert_special_culture('finnish', title)
+    end
+  end
+
 end
