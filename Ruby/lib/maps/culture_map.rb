@@ -195,14 +195,6 @@ $CM_CK2_EU3 = {
     'castillian'
   end
 
-### SCOTTISH ###
-
-  def get_scottish(title)
-    culture = 'highlandscottish' if $VERSION == 1
-    culture ||= 'scottish'
-    culture
-  end
-
 ### FINNISH ###
 
   def get_finnish(title)

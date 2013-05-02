@@ -56,11 +56,11 @@ class Test_Culture_Map < Test::Unit::TestCase
                 }
     if $VERSION == 1
       version1.each do |title, culture|
-        assert_equal culture, get_saxon(title)
+        assert_equal culture, get_scottish(title)
       end
     else
       version2.each do |title, culture|
-        assert_equal culture, get_saxon(title)
+        assert_equal culture, get_scottish(title)
       end
     end
   end
