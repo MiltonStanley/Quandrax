@@ -242,7 +242,26 @@ $CM_CK2_EU3 = {
 ### FINNISH ###
 
   def get_finnish(title)
-    'finnish'
+    culture = 'ingrian' if is_ingrian?(title)
+    culture = 'estonian' if is_estonian?(title)
+    culture = 'karelian' if is_karelian?(title) && $VERSION != '1'
+    culture ||= 'finnish'
+    culture
+  end
+
+  def is_ingrian?(title)
+    %w[c_bezhetsky_verh c_ladoga c_toropets c_torzhok c_pskov c_novgorod
+      c_velikiye_luki c_luki c_novgorod_seversky c_uglich c_pereyaslavl_zalessky
+      c_rostov c_kostroma c_yaroslavl c_vladimir c_suzdal c_nizhny_novgorod
+      c_gorodez c_galich_mersky c_moskva c_mozhaysk].include? title
+  end
+
+  def is_estonian?(title)
+    %w[].include? title
+  end
+
+  def is_karelian?(title)
+    %w[].include? title
   end
 
 ### TURKISH ###
