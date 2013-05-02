@@ -160,28 +160,15 @@ $CM_CK2_EU3 = {
 ### SCOTTISH ###
 
   def get_scottish(title)
-    culture = get_scot_version(title) if is_scottish?(title)
-    culture ||= 'english'
+    culture = 'lowland_scottish' if is_lowland_scottish?(title)
+    culture ||= 'highland_scottish'
+    culture = 'scottish' if $VERSION > 1
     culture
   end
 
-  def is_scottish?(title)
-    titles = %w[c_clydesdale c_carrick c_galloway c_teviotdale c_lothian c_dunbar
-                c_strathearn c_gowrie c_atholl c_fife c_caithness c_ross c_moray
-                c_buchan c_innse_gall c_argyll c_isle_of_man
-    ]
+  def is_lowland_scottish?(title)
+    titles = %w[c_clydesdale c_carrick c_galloway c_teviotdale c_lothian c_dunbar]
     titles.include? title
-  end
-
-  def get_scot_version(title)
-    lowland = %w[c_clydesdale c_carrick c_galloway c_teviotdale c_lothian c_dunbar]
-    if $VERSION == 1
-      culture = 'lowland_scottish' if lowland.include? title
-      culture ||= 'highland_scottish'
-    else
-      culture = 'scottish'
-    end
-    culture
   end
 
 ### DUTCH ###
