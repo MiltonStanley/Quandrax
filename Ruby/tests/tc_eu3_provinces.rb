@@ -63,41 +63,4 @@ class TestEU3Provinces < Test::Unit::TestCase
     end
   end
 
-  def test_basic_mappings
-    expected = {  89 => 'normand',
-                  145 => 'greek',
-                  206 => 'galician',
-                  38 => 'latvian'
-                }
-    expected.each do |id, culture|
-      assert_equal culture, $EU3_PROVINCES.provinces[id].culture, 
-      "Expected #{culture} for province #{id}, got #{$EU3_PROVINCES.provinces[id].culture}!"
-    end
-  end
-
-  def test_special_cultures_default
-    expected = {1871 => 'bavarian',
-                1872 => 'bavarian',
-                1873 => 'bavarian',
-                1874 => 'bavarian',
-                1875 => 'umbrian',
-                1876 => 'bavarian',
-                1877 => 'aquitaine',
-                1878 => 'bavarian',
-                1879 => 'aquitaine',
-                1880 => 'bavarian'
-                }
-    expected.each do |id, culture|
-      assert_equal culture, $EU3_PROVINCES.provinces[id].culture
-    end
-  end
-
-  def test_scottish_conversion
-    if $VERSION == 1
-      assert_equal 'highlandscottish', get_scottish('test')
-    else
-      assert_equal 'scottish', get_scottish('test')
-    end
-  end
-
 end
