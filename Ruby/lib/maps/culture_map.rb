@@ -113,6 +113,11 @@ $CM_CK2_EU3 = {
     titles.include? title
   end
 
+  def is_hessian?(title)
+    titles = ['c_nassau', 'c_thuringen']
+    titles.include? title
+  end
+
 ### SAXON ###
 
   def get_saxon(title)
