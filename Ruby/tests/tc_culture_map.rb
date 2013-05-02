@@ -27,7 +27,7 @@ class Test_Culture_Map < Test::Unit::TestCase
   end
 
   def test_german_conversions
-    expected = {'c_valais' => 'rheinlaender',
+    expected_cultures = {'c_valais' => 'rheinlaender',
                 'c_ulm' => 'bavarian',
                 'c_chur' => 'austrian',
                 'c_oldenburg' => 'hannoverian',
@@ -35,7 +35,7 @@ class Test_Culture_Map < Test::Unit::TestCase
                 'c_trier' => 'rheinlaender',
                 'c_sundgau' => 'rheinlaender'
                 }
-    expected.each do |title, expected|
+    expected_cultures.each do |title, expected|
       actual = convert_special_culture('german', title)
       assert_equal expected, actual, 
                     "Province #{title} should be #{expected} but was #{actual}"
@@ -62,5 +62,12 @@ class Test_Culture_Map < Test::Unit::TestCase
     end
   end
 
-
+  def test_dutch_conversions
+    expected_cultures = {'c_anjou' => 'flemish',
+                         'c_null' => 'dutch'
+                        }
+    expected_cultures.each do |title, expected|
+      assert_equal expected, convert_special_culture('dutch',title)
+    end
+  end
 end
