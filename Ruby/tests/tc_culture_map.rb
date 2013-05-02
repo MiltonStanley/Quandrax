@@ -92,7 +92,7 @@ class Test_Culture_Map < Test::Unit::TestCase
   end
 
   def test_castillan_conversions
-    expected_cultures = { 'c_galich' => 'galician',
+    expected_cultures = { 'c_coruna' => 'galician',
                           'c_null' => 'castillian'
                         }
     expected_cultures.each do |title, expected|
