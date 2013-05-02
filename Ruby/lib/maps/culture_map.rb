@@ -4,7 +4,7 @@ $CM_CK2_EU3 = {
   'danish' => 'danish',
   'german' => 'SPECIAL',
   'english' => 'english',
-  'saxon' => 'SPECIAL',
+  'saxon' => 'english',
   'dutch' => 'SPECIAL',
   'frankish' => 'SPECIAL',
   'norman' => 'normand',
@@ -58,12 +58,11 @@ $CM_CK2_EU3 = {
   def convert_special_culture(culture, title)
     new_culture = case culture
                     when 'german' then get_german(title)
-                    when 'saxon' then get_saxon(title)
+                    when 'scottish' then get_scottish(title)
                     when 'dutch' then get_dutch(title)
                     when 'frankish' then get_frankish(title)
                     when 'italian' then get_italian(title)
                     when 'castillian' then get_castillian(title)
-                    when 'scottish' then get_scottish(title)
                     when 'finnish' then get_finnish(title)
                     when 'turkish' then get_turkish(title)
                     when 'mongol' then get_mongol(title)
@@ -158,9 +157,9 @@ $CM_CK2_EU3 = {
     titles.include? title
   end
 
-### SAXON ###
+### SCOTTISH ###
 
-  def get_saxon(title)
+  def get_scottish(title)
     culture = get_scot_version(title) if is_scottish?(title)
     culture ||= 'english'
     culture
@@ -176,8 +175,12 @@ $CM_CK2_EU3 = {
 
   def get_scot_version(title)
     lowland = %w[c_clydesdale c_carrick c_galloway c_teviotdale c_lothian c_dunbar]
-    culture = 'lowland_scottish' if lowland.include? title
-    culture ||= 'highland_scottish'
+    if $VERSION == 1
+      culture = 'lowland_scottish' if lowland.include? title
+      culture ||= 'highland_scottish'
+    else
+      culture = 'scottish'
+    end
     culture
   end
 

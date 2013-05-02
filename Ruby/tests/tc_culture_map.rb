@@ -46,10 +46,22 @@ class Test_Culture_Map < Test::Unit::TestCase
   end
 
   def test_scottish_conversion
+    version1 = {'c_clydesdale' => 'lowland_scottish',
+                'c_buchan' => 'highland_scottish',
+                'c_null' => 'english'
+                }
+    version2 = {'c_clydesdale' => 'scottish',
+                'c_buchan' => 'scottish',
+                'c_null' => 'english'
+                }
     if $VERSION == 1
-      assert_equal 'highlandscottish', get_scottish('test')
+      version1.each do |title, culture|
+        assert_equal culture, get_saxon(title)
+      end
     else
-      assert_equal 'scottish', get_scottish('test')
+      version2.each do |title, culture|
+        assert_equal culture, get_saxon(title)
+      end
     end
   end
 
