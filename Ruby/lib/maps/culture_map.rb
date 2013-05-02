@@ -127,7 +127,7 @@ $CM_CK2_EU3 = {
   def is_rheinlaender?(title)
     titles = %w[c_munster c_kleve c_julich c_loon c_koln c_provence 
               c_venaissin c_forcalquier c_savoie c_valais c_geneve
-              c_forez c_lyon c_dauphine_viennois c_besancon c_neuchatel
+              c_forez c_lyon c_dauphine_viennois c_besancon c_bourgogne c_neuchatel
               c_aargau c_bern c_schwyz c_grisons c_luxembourg c_liege
               c_lorraine c_verdun c_saintois c_trier c_pfalz c_metz
               c_nordgau c_sundgau c_saluzzo c_monferrato c_piemonte
@@ -188,7 +188,22 @@ $CM_CK2_EU3 = {
 ### FRANKISH ###
 
   def get_frankish(title)
-    'aquitaine'
+    culture = 'burgundian' if is_burgundian?(title)
+    culture = 'wallonian' if is_wallonian?(title)
+    culture ||= 'aquitaine'
+    culture
+  end
+
+  def is_burgundian?(title)
+    %w[c_auxerre c_dijon c_nevers c_macon c_charolais c_chalons c_savoie
+      c_valais c_geneve c_forez c_lyon c_dauphine_viennois c_besancon c_neuchatel
+      c_aargau c_bern c_schwyz c_bourgogne].include? title
+  end
+
+  def is_wallonian?(title)
+    %w[c_zeeland c_holland c_westfriesland c_sticht c_gelre c_frisia c_ostfriestland
+      c_breda c_hainaut c_brabant c_guines c_boulougne c_yperen c_artois c_brugge
+      c_gent].include? title
   end
 
 ### ITALIAN ###
