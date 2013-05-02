@@ -94,9 +94,10 @@ $CM_CK2_EU3 = {
   end
 
   def is_prussian?(title)
-    titles = ['c_lettigalians', 'c_osel', 'c_livs', 'c_dorpat', 'c_marienburg',
-              'c_sambia', 'c_galindia', 'c_west_dvina', 'c_polotsk', 'c_aukshayts',
-              'c_zhmud', 'c_sudovia', 'c_kurs', 'c_zemigalians', 'c_memel', 'c_scalovia'
+    titles = %w[c_lettigalians c_osel c_livs c_dorpat c_marienburg
+              c_tartu c_liivimaa c_saaremaa c_latgale
+              c_sambia c_galindia c_west_dvina c_polotsk c_aukshayts
+              c_zhmud c_sudovia c_kurs c_zemigalians c_memel c_scalovia
               ]
     titles.include? title
   end
@@ -257,7 +258,8 @@ $CM_CK2_EU3 = {
   end
 
   def is_estonian?(title)
-    %w[].include? title
+    %w[c_reval c_kalevan c_narva c_vodi c_lettigalians c_osel c_livs c_dorpat 
+      c_tartu c_liivimaa c_saaremaa c_latgale].include? title
   end
 
   def is_karelian?(title)
