@@ -161,7 +161,24 @@ $CM_CK2_EU3 = {
 ### SAXON ###
 
   def get_saxon(title)
-    'english'
+    culture = get_scot_version(title) if is_scottish?(title)
+    culture ||= 'english'
+    culture
+  end
+
+  def is_scottish?(title)
+    titles = %w[c_clydesdale c_carrick c_galloway c_teviotdale c_lothian c_dunbar
+                c_strathearn c_gowrie c_atholl c_fife c_caithness c_ross c_moray
+                c_buchan c_innse_gall c_argyll c_isle_of_man
+    ]
+    titles.include? title
+  end
+
+  def get_scot_version(title)
+    lowland = %w[c_clydesdale c_carrick c_galloway c_teviotdale c_lothian c_dunbar]
+    culture = 'lowland_scottish' if lowland.include? title
+    culture ||= 'highland_scottish'
+    culture
   end
 
 ### DUTCH ###
