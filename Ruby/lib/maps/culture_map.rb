@@ -174,7 +174,15 @@ $CM_CK2_EU3 = {
 ### DUTCH ###
 
   def get_dutch(title)
-    'dutch'
+    culture = 'flemish' if is_flemish?(title)
+    culture ||= 'dutch'
+    culture
+  end
+
+  def is_flemish?(title)
+    %w[c_anjou c_maine c_eu c_arques c_rouen c_vexin c_evreux c_avranches
+       c_mortain c_guines c_boulougne c_yperen c_artois c_brugge c_gent
+       c_amiens c_ile_de_france c_vermandois].include? title
   end
 
 ### FRANKISH ###
