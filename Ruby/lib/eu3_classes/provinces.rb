@@ -3,7 +3,7 @@ require './lib/parsing'
 class EU3_Provinces
 
   # Holds provinces. Index = EU3 Id, Data = An_EU3_Province
-  attr_accessor :provinces
+  attr_accessor :provinces, :province_map
 
   def initialize(ck2_provinces, titles, player_tag)
     @player_tag = player_tag

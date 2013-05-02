@@ -26,22 +26,19 @@ class Test_Culture_Map < Test::Unit::TestCase
     end
   end
 
-  def test_special_cultures_default
-    expected = {1871 => 'rheinlaender',
-                1872 => 'bavarian',
-                1873 => 'austrian',
-                1874 => 'hannoverian',
-                1875 => 'umbrian',
-                1876 => 'hessian',
-                1877 => 'aquitaine',
-                1878 => 'rheinlaender',
-                1879 => 'aquitaine',
-                1880 => 'rheinlaender'
+  def test_german_conversions
+    expected = {'c_valais' => 'rheinlaender',
+                'c_ulm' => 'bavarian',
+                'c_chur' => 'austrian',
+                'c_oldenburg' => 'hannoverian',
+                'c_nassau' => 'hessian',
+                'c_trier' => 'rheinlaender',
+                'c_sundgau' => 'rheinlaender'
                 }
-    expected.each do |id, expected|
-      actual = $EU3_PROVINCES.provinces[id].culture
+    expected.each do |title, expected|
+      actual = convert_special_culture('german', title)
       assert_equal expected, actual, 
-                        "Province #{id} should be #{expected} but was #{actual}"
+                    "Province #{title} should be #{expected} but was #{actual}"
     end
   end
 
