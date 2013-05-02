@@ -230,10 +230,14 @@ $CM_CK2_EU3 = {
 ### CASTILLAN ###
 
   def get_castillan(title)
+    culture = 'galician' if is_galician?(title)
     culture ||= 'castillian'
   end
 
-
+  def is_galician?(title)
+    %w[c_coruna c_santiago c_porto c_coimbra c_castelo_branco 
+      c_braganza].include? title
+  end
 
 ### FINNISH ###
 
