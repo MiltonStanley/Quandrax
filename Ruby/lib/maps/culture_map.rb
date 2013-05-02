@@ -55,7 +55,6 @@ $CM_CK2_EU3 = {
   'romanian' => 'romanian'
 }
 
-
   def convert_special_culture(culture, title)
     new_culture = case culture
                     when 'german' then get_german(title)
@@ -166,21 +165,31 @@ $CM_CK2_EU3 = {
     'english'
   end
 
+### DUTCH ###
+
   def get_dutch(title)
     'dutch'
   end
+
+### FRANKISH ###
 
   def get_frankish(title)
     'aquitaine'
   end
 
+### ITALIAN ###
+
   def get_italian(title)
     'umbrian'
   end
 
+### CASTILLIAN ###
+
   def get_castillian(title)
     'castillian'
   end
+
+### SCOTTISH ###
 
   def get_scottish(title)
     culture = 'highlandscottish' if $VERSION == 1
@@ -188,21 +197,31 @@ $CM_CK2_EU3 = {
     culture
   end
 
+### FINNISH ###
+
   def get_finnish(title)
     'finnish'
   end
+
+### TURKISH ###
 
   def get_turkish(title)
     'turkish'
   end
 
+### MONGOL ###
+
   def get_mongol(title)
     'tartar'
   end
 
+### RUSSIAN ###
+
   def get_russian(title)
     'russian'
   end
+
+### POLISH ###
 
   def get_polish(title)
     'polish'
