@@ -75,7 +75,27 @@ $CM_CK2_EU3 = {
   end
 
   def get_german(title)
-    'bavarian'   
+    culture = case title
+                when is_pommeranian?(title) then 'pommeranian'
+                when is_prussian?(title) then 'prussian'
+                when is_hannoverian?(title) then 'hannoverian'
+                when is_hessian?(title) then 'hessian'
+                when is_saxon?(title) then 'saxon'
+                when is_rheinlaender?(title) then 'rheinlaender'
+                when is_austrian?(title) then 'austrian'
+                else 'bavarian'   
+              end
+    culture
+  end
+
+  def is_pommeranian?(title)
+    titles = ['c_wolgast','c_stettin', 'c_slupsk', 'c_danzig', 'c_chelminskie',
+               'c_mecklemburg', 'c_rugen', 'c_rostock', 'c_werle']
+    titles.include? title
+  end
+
+  def is_prussian?(title)
+    titles = []
   end
 
   def get_saxon(title)
