@@ -74,6 +74,8 @@ $CM_CK2_EU3 = {
     new_culture
   end
 
+### GERMAN ###
+
   def get_german(title)
     culture = case title
                 when is_pommeranian?(title) then 'pommeranian'
@@ -95,8 +97,18 @@ $CM_CK2_EU3 = {
   end
 
   def is_prussian?(title)
-    titles = []
+    titles = ['c_lettigalians', 'c_osel', 'c_livs', 'c_dorpat', 'c_marienburg',
+              'c_sambia', 'c_galindia', 'c_west_dvina', 'c_polotsk', 'c_aukshayts',
+              'c_zhmud', 'c_sudovia', 'c_kurs', 'c_zemigalians', 'c_memel', 'c_scalovia'
+              ]
+    titles.include? title
   end
+
+  def is_hannoverian?(title)
+
+  end
+
+### SAXON ###
 
   def get_saxon(title)
     'english'
