@@ -90,5 +90,14 @@ class Test_Culture_Map < Test::Unit::TestCase
       assert_equal expected, convert_special_culture('italian', title)
     end
   end
-  
+
+  def test_castillan_conversions
+    expected_cultures = { 'c_galich' => 'galician',
+                          'c_null' => 'castillian'
+                        }
+    expected_cultures.each do |title, expected|
+      assert_equal expected, convert_special_culture('castillian', title)
+    end
+  end
+
 end
