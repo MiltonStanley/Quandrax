@@ -118,6 +118,15 @@ $CM_CK2_EU3 = {
     titles.include? title
   end
 
+  def is_saxon?(title)
+    titles = ['c_weimar', 'c_anhalt', 'c_plauen', 'c_altmark', 'c_brandenburg',
+              'c_meissen', 'c_lausitz', 'c_jacwiez', 'c_yatvyagi', 'c_plock',
+              'c_czersk', 'c_gnieznienskie', 'c_lubusz', 'c_poznanskie', 'c_kaliskie',
+              'c_krakowskie', 'c_sandomierskie', 'c_sacz', 'c_kujawy', 'c_sieradzko-leczyckie'
+              ]
+    titles.include? title
+  end
+
 ### SAXON ###
 
   def get_saxon(title)
