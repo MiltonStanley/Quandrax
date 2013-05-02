@@ -76,16 +76,15 @@ $CM_CK2_EU3 = {
 ### GERMAN ###
 
   def get_german(title)
-    culture = case title
-                when is_pommeranian?(title) then 'pommeranian'
-                when is_prussian?(title) then 'prussian'
-                when is_hannoverian?(title) then 'hannoverian'
-                when is_hessian?(title) then 'hessian'
-                when is_saxon?(title) then 'saxon'
-                when is_rheinlaender?(title) then 'rheinlaender'
-                when is_austrian?(title) then 'austrian'
-                else 'bavarian'   
-              end
+    if is_pommeranian?(title) then culture = 'pommeranian'
+      elsif is_prussian?(title) then culture = 'prussian'
+      elsif is_hannoverian?(title) then culture = 'hannoverian'
+      elsif is_hessian?(title) then culture = 'hessian'
+      elsif is_saxon?(title) then culture = 'saxon'
+      elsif is_rheinlaender?(title) then culture = 'rheinlaender'
+      elsif is_austrian?(title) then culture = 'austrian'
+      else 'bavarian'   
+    end
     culture
   end
 
