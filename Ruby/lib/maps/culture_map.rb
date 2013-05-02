@@ -162,7 +162,7 @@ $CM_CK2_EU3 = {
   def get_scottish(title)
     culture = 'lowland_scottish' if is_lowland_scottish?(title)
     culture ||= 'highland_scottish'
-    culture = 'scottish' if $VERSION > 1
+    culture = 'scottish' unless $VERSION == '1'
     culture
   end
 
