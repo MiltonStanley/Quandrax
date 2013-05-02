@@ -62,7 +62,7 @@ $CM_CK2_EU3 = {
                     when 'dutch' then get_dutch(title)
                     when 'frankish' then get_frankish(title)
                     when 'italian' then get_italian(title)
-                    when 'castillian' then get_castillian(title)
+                    when 'castillan' then get_castillan(title)
                     when 'finnish' then get_finnish(title)
                     when 'turkish' then get_turkish(title)
                     when 'mongol' then get_mongol(title)
@@ -227,11 +227,13 @@ $CM_CK2_EU3 = {
       c_agrigento c_girgenti c_siracusa c_malta].include? title
   end
 
-### CASTILLIAN ###
+### CASTILLAN ###
 
-  def get_castillian(title)
-    'castillian'
+  def get_castillan(title)
+    culture ||= 'castillian'
   end
+
+
 
 ### FINNISH ###
 
