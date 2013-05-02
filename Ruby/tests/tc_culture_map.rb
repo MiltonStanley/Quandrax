@@ -53,11 +53,11 @@ class Test_Culture_Map < Test::Unit::TestCase
                 }
     if $VERSION == 1
       version1.each do |title, culture|
-        assert_equal culture, get_scottish(title)
+        assert_equal culture, convert_special_culture('scottish', title)
       end
     else
       version2.each do |title, culture|
-        assert_equal culture, get_scottish(title)
+        assert_equal culture, convert_special_culture('scottish', title)
       end
     end
   end
