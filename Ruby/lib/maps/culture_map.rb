@@ -83,7 +83,7 @@ $CM_CK2_EU3 = {
       elsif is_saxon?(title) then culture = 'saxon'
       elsif is_rheinlaender?(title) then culture = 'rheinlaender'
       elsif is_austrian?(title) then culture = 'austrian'
-      else 'bavarian'   
+      else culture = 'bavarian'   
     end
     culture
   end
