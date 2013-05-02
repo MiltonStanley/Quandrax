@@ -127,6 +127,26 @@ $CM_CK2_EU3 = {
     titles.include? title
   end
 
+  def is_rheinlaender?(title)
+    titles = %w[c_munster c_kleve c_julich c_loon c_koln c_provence 
+              c_venaissin c_forcalquier c_savoie c_valais c_geneve
+              c_forez c_lyon c_dauphine_viennois c_besancon c_neuchatel
+              c_aargau c_bern c_schwyz c_grisons c_luxembourg c_liege
+              c_lorraine c_verdun c_saintois c_trier c_pfalz c_metz
+              c_nordgau c_sundgau c_saluzzo c_monferrato c_piemonte
+              c_pavia c_lombardia c_trent c_brescia c_cremona c_nice
+              c_genoa c_parma c_modena c_lucca c_firenze c_siena c_pisa
+              c_piombino c_csanad c_narbonne c_carcassonne c_toulouse
+              c_rouergue c_montpellier c_viviers c_angouleme c_bordeaux
+              c_agen c_perigord c_albret c_labourd c_bearn c_armagnac
+              c_foix c_poitiers c_thouars c_saintonge c_lusignan c_auvergne
+              c_gevaudan c_la_marche c_bourbon c_limousin c_bourges c_tourraine
+              c_reims c_troyes c_sens c_auxerre c_dijon c_nevers c_macon
+              c_charolais c_chalons
+              ]
+    titles.include? title
+  end
+
 ### SAXON ###
 
   def get_saxon(title)
