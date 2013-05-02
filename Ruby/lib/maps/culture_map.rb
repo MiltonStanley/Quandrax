@@ -209,7 +209,22 @@ $CM_CK2_EU3 = {
 ### ITALIAN ###
 
   def get_italian(title)
-    'umbrian'
+    culture = 'lombard' if is_lombard?(title)
+    culture = 'sicilian' if is_sicilian?(title)
+    culture ||= 'umbrian'
+    culture
+  end
+
+  def is_lombard?(title)
+    %w[c_venezia c_verona c_mantua c_padova c_padua c_treviso c_saluzzo c_monferrato
+      c_genoa c_piemonte c_nice c_pavia c_lombardia c_trent c_brescia c_cremona
+      c_corsica c_arborea c_cagliari c_lucca c_firenze c_siena].include? title
+  end
+
+  def is_sicilian?(title)
+    %w[c_benevento c_foggia c_napoli c_capua c_lecce c_bari c_apulia c_salerno
+      c_taranto c_consenza c_catanzaro c_reggio c_messina c_palermo c_trapani
+      c_agrigento c_girgenti c_siracusa c_malta].include? title
   end
 
 ### CASTILLIAN ###
