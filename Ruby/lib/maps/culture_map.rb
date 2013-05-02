@@ -105,7 +105,12 @@ $CM_CK2_EU3 = {
   end
 
   def is_hannoverian?(title)
-
+    titles = ['c_oldenburg', 'c_osnabruck', 'c_gottingen', 'c_braunschweig', 
+              'c_luneburg', 'c_celle', 'c_blekinge', 'c_halland', 'c_skane', 
+              'c_bornholm', 'c_fyn', 'c_sjaelland', 'c_slesvig', 'c_jylland',
+              'c_hamburg', 'c_lubeck', 'c_holstein', 'c_bremen'
+              ]
+    titles.include? title
   end
 
 ### SAXON ###
