@@ -63,4 +63,16 @@ class TestEU3Provinces < Test::Unit::TestCase
     end
   end
 
+  def test_cultures
+    expected_cultures = { 145 => 'greek',
+                          1874 => 'hannoverian',
+                          370 => 'norwegian',
+                          127 => 'lombard'
+                        }
+    expected_cultures.each do |id, expected|
+      actual = $EU3_PROVINCES.provinces[id].culture
+      assert_equal expected, actual
+    end
+  end
+
 end
