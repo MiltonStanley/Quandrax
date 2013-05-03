@@ -142,4 +142,13 @@ class Test_Culture_Map < Test::Unit::TestCase
     end
   end
 
+  def test_polish_conversions
+    expected_cultures = { 'c_opole' => 'schlesian',
+                          'c_null' => 'polish'
+                        }
+    expected_cultures.each do |title, culture|
+      assert_equal culture, convert_special_culture('polish', title)
+    end
+  end
+
 end
