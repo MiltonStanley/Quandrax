@@ -300,9 +300,12 @@ $CM_CK2_EU3 = {
   end
 
 ### MONGOL ###
+  # Same as Turkish except for default value
 
   def get_mongol(title)
-    'tartar'
+    culture = 'azerbadjani' if is_azerbadjani?(title)
+    culture = 'turkmeni' if is_turkmeni?(title)
+    culture ||= 'tartar'
   end
 
 ### RUSSIAN ###
