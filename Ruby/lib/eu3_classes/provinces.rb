@@ -127,6 +127,7 @@ class An_EU3_Province
     @controller = @owner ### TODO - update when wars are added
     @cores << @owner
     @culture = get_culture(ck2_province.culture, ck2_province.title)
+    @religion = $RM_CK2_EU3[ck2_province.religion]
   end
 
   def get_culture(ck2_culture, title)
