@@ -112,4 +112,14 @@ class Test_Culture_Map < Test::Unit::TestCase
     end
   end
 
+  def test_turkish_conversions
+    expected_cultures = { 'c_tigris' => 'azerbadjani',
+                          'c_bukhara' => 'turkmeni',
+                          'c_null' => 'turkish'
+                        }
+    expected_cultures.each do |title, culture|
+      assert_equal culture, convert_special_culture('turkish', title)
+    end
+  end
+
 end
