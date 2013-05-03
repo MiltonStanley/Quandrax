@@ -327,7 +327,11 @@ $CM_CK2_EU3 = {
   end
   
   def is_ruthenian?(title)
-    %w[c_korsun c_kiev ].include? title
+    %w[c_korsun c_kiev c_peremyshl c_galich c_terebovl c_fejer c_pecs c_szekezfehervar
+      c_vas c_esztergom c_pressburg c_sopron c_trencin c_nitra c_gemer c_orava
+      c_saris c_bereg c_abauj c_marmaros c_csanad c_pest c_heves c_feher c_bihar
+      c_szekelyfold c_temes c_bacs c_galaz c_turnu c_tirgoviste c_severin c_belgorod
+      c_birlad c_peresechen c_olvia c_torki].include? title
   end
 
 ### POLISH ###
