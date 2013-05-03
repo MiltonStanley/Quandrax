@@ -88,74 +88,58 @@ $CM_CK2_EU3 = {
   end
 
   def is_pommeranian?(title)
-    titles = ['c_wolgast','c_stettin', 'c_slupsk', 'c_danzig', 'c_chelminskie',
-               'c_mecklemburg', 'c_rugen', 'c_rostock', 'c_werle']
-    titles.include? title
+    %w[c_wolgast c_stettin c_slupsk c_danzig c_chelminskie
+      c_mecklemburg c_rugen c_rostock c_werle].include? title
   end
 
   def is_prussian?(title)
-    titles = %w[c_lettigalians c_osel c_livs c_dorpat c_marienburg
-              c_tartu c_liivimaa c_saaremaa c_latgale c_memel c_scalovia c_zemgale
-              c_sambia c_galindia c_west_dvina c_daugava c_polotsk c_aukshayts
-              c_vilnius c_trakai c_zhmud c_sudovia c_kurs c_zemigalians c_kurzeme
-              ]
-    titles.include? title
+   %w[c_lettigalians c_osel c_livs c_dorpat c_marienburg c_tartu c_liivimaa
+      c_saaremaa c_latgale c_memel c_scalovia c_zemgale c_sambia c_galindia 
+      c_west_dvina c_daugava c_polotsk c_aukshayts c_vilnius c_trakai c_zhmud
+      c_sudovia c_kurs c_zemigalians c_kurzeme].include? title
   end
 
   def is_hannoverian?(title)
-    titles = ['c_oldenburg', 'c_osnabruck', 'c_gottingen', 'c_braunschweig', 
-              'c_luneburg', 'c_celle', 'c_blekinge', 'c_halland', 'c_skane', 
-              'c_bornholm', 'c_fyn', 'c_sjaelland', 'c_slesvig', 'c_jylland',
-              'c_hamburg', 'c_lubeck', 'c_holstein', 'c_bremen'
-              ]
-    titles.include? title
+    %w[c_oldenburg c_osnabruck c_gottingen c_braunschweig c_luneburg c_celle
+        c_blekinge c_halland c_skane c_bornholm c_fyn c_sjaelland c_slesvig 
+        c_jylland c_hamburg c_lubeck c_holstein c_bremen].include? title
   end
 
   def is_hessian?(title)
-    titles = ['c_nassau', 'c_thuringen']
-    titles.include? title
+    %w[c_nassau c_thuringen].include? title
   end
 
   def is_saxon?(title)
-    titles = ['c_weimar', 'c_anhalt', 'c_plauen', 'c_altmark', 'c_brandenburg',
-              'c_meissen', 'c_lausitz', 'c_jacwiez', 'c_grodno', 'c_yatvyagi', 'c_plock',
-              'c_czersk', 'c_gnieznienskie', 'c_lubusz', 'c_poznanskie', 'c_kaliskie',
-              'c_krakowskie', 'c_sandomierskie', 'c_sacz', 'c_kujawy', 'c_sieradzko-leczyckie'
-              ]
-    titles.include? title
+    %w[c_weimar c_anhalt c_plauen c_altmark c_brandenburg c_meissen c_lausitz
+      c_jacwiez c_grodno c_yatvyagi c_plock c_czersk c_gnieznienskie c_lubusz
+      c_poznanskie c_kaliskie c_krakowskie c_sandomierskie c_sacz c_kujawy
+      c_sieradzko-leczyckie].include? title
   end
 
   def is_rheinlaender?(title)
-    titles = %w[c_munster c_kleve c_julich c_loon c_koln c_provence 
-              c_venaissin c_forcalquier c_savoie c_valais c_geneve
-              c_forez c_lyon c_dauphine_viennois c_besancon c_bourgogne c_neuchatel
-              c_aargau c_bern c_schwyz c_grisons c_luxembourg c_liege
-              c_lorraine c_verdun c_saintois c_trier c_pfalz c_metz
-              c_nordgau c_sundgau c_saluzzo c_monferrato c_piemonte
-              c_pavia c_lombardia c_trent c_brescia c_cremona c_nice
-              c_genoa c_parma c_modena c_lucca c_firenze c_siena c_pisa
-              c_piombino c_narbonne c_carcassonne c_toulouse c_rouergue 
-              c_montpellier c_viviers c_angouleme c_bordeaux c_agen c_perigord 
-              c_albret c_labourd c_bearn c_armagnac c_foix c_poitiers c_thouars 
-              c_saintonge c_lusignan c_auvergne c_gevaudan c_la_marche c_bourbon 
-              c_limousin c_bourges c_tourraine c_reims c_troyes c_sens 
-              c_auxerre c_dijon c_nevers c_macon c_charolais c_chalons
-              ]
-    titles.include? title
+    %w[c_munster c_kleve c_julich c_loon c_koln c_provence c_venaissin c_forcalquier
+      c_savoie c_valais c_geneve c_forez c_lyon c_dauphine_viennois c_besancon
+      c_bourgogne c_neuchatel c_aargau c_bern c_schwyz c_grisons c_luxembourg 
+      c_liege c_lorraine c_verdun c_saintois c_trier c_pfalz c_metz c_nordgau
+      c_sundgau c_saluzzo c_monferrato c_piemonte c_pavia c_lombardia c_trent
+      c_brescia c_cremona c_nice c_genoa c_parma c_modena c_lucca c_firenze
+      c_siena c_pisa c_piombino c_narbonne c_carcassonne c_toulouse c_rouergue 
+      c_montpellier c_viviers c_angouleme c_bordeaux c_agen c_perigord c_albret
+      c_labourd c_bearn c_armagnac c_foix c_poitiers c_thouars c_saintonge
+      c_lusignan c_auvergne c_gevaudan c_la_marche c_bourbon c_limousin c_bourges
+      c_tourraine c_reims c_troyes c_sens c_auxerre c_dijon c_nevers 
+      c_macon c_charolais c_chalons].include? title
   end
 
   def is_austrian?(title)
-    titles = %[c_passau c_znojmo c_osterreich c_steiermark c_chur c_st_gallen
-              c_tirol c_innsbruck c_aquileia c_karnten c_krain c_istria c_fejer
-              c_pecs c_szekezfehervar c_vas c_esztergom c_pressburg c_sopron
-              c_trencin c_nitra c_gemer c_orava c_saris c_bereg c_abauj c_marmaros
-              c_csanad c_pest c_heves c_feher c_bihar c_szekelyfold c_temes c_bacs
-              c_varadzin c_zagreb c_krizevci c_usora c_rama c_veglia c_senj
-              c_zachlumia c_zadar c_split c_temes c_bacs c_venezia c_verona 
-              c_mantua c_padova c_padua c_treviso c_ravenna c_bologna c_ferrara
-              c_urbino c_ancona c_spoleto c_aprutium
-              ]
-    titles.include? title
+    %w[c_passau c_znojmo c_osterreich c_steiermark c_chur c_st_gallen c_tirol
+      c_innsbruck c_aquileia c_karnten c_krain c_istria c_fejer c_pecs
+      c_szekezfehervar c_vas c_esztergom c_pressburg c_sopron  c_trencin c_nitra
+      c_gemer c_orava c_saris c_bereg c_abauj c_marmaros c_csanad c_pest c_heves
+      c_feher c_bihar c_szekelyfold c_temes c_bacs c_varadzin c_zagreb c_krizevci
+      c_usora c_rama c_veglia c_senj c_zachlumia c_zadar c_split c_temes c_bacs
+      c_venezia c_verona c_mantua c_padova c_padua c_treviso c_ravenna c_bologna
+      c_ferrara c_urbino c_ancona c_spoleto c_aprutium].include? title
   end
 
 ### SCOTTISH ###
@@ -168,8 +152,7 @@ $CM_CK2_EU3 = {
   end
 
   def is_lowland_scottish?(title)
-    titles = %w[c_clydesdale c_carrick c_galloway c_teviotdale c_lothian c_dunbar]
-    titles.include? title
+    %w[c_clydesdale c_carrick c_galloway c_teviotdale c_lothian c_dunbar].include? title
   end
 
 ### DUTCH ###
@@ -177,7 +160,6 @@ $CM_CK2_EU3 = {
   def get_dutch(title)
     culture = 'flemish' if is_flemish?(title)
     culture ||= 'dutch'
-    culture
   end
 
   def is_flemish?(title)
@@ -192,7 +174,6 @@ $CM_CK2_EU3 = {
     culture = 'burgundian' if is_burgundian?(title)
     culture = 'wallonian' if is_wallonian?(title)
     culture ||= 'aquitaine'
-    culture
   end
 
   def is_burgundian?(title)
@@ -213,7 +194,6 @@ $CM_CK2_EU3 = {
     culture = 'lombard' if is_lombard?(title)
     culture = 'sicilian' if is_sicilian?(title)
     culture ||= 'umbrian'
-    culture
   end
 
   def is_lombard?(title)
@@ -247,7 +227,6 @@ $CM_CK2_EU3 = {
     culture = 'estonian' if is_estonian?(title)
     culture = 'karelian' if is_karelian?(title) && $VERSION != '1'
     culture ||= 'finnish'
-    culture
   end
 
   def is_ingrian?(title)
@@ -346,4 +325,3 @@ $CM_CK2_EU3 = {
       c_litomerice c_boleslav c_praha c_plzen c_hradec c_olomouc
       c_brno].include? title
   end
-
