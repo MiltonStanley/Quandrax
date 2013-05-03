@@ -265,7 +265,9 @@ $CM_CK2_EU3 = {
   end
 
   def is_karelian?(title)
-    %w[].include? title
+    %w[c_kola c_karelen c_karjala c_kexholm c_kakisalmi c_onega c_aaninen c_kandalax
+      c_kantalahti c_trans-portage c_pomorye c_north_dvina c_dvina c_bjarmia c_samoyeds
+      c_samoyedia c_romny c_zaozerye c_chud c_volodga c_beloozero c_vyazma c_tver].include? title
   end
 
 ### TURKISH ###
