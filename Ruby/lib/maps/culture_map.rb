@@ -273,7 +273,17 @@ $CM_CK2_EU3 = {
 ### TURKISH ###
 
   def get_turkish(title)
-    'turkish'
+    culture = 'azerbadjani' if is_azerbadjani?(title)
+    culture = 'turkmeni' if is_turkmeni?(title)
+    culture ||= 'turkish'
+  end
+
+  def is_azerbadjani?(title)
+
+  end
+
+  def is_turkmeni?(title)
+
   end
 
 ### MONGOL ###
