@@ -337,6 +337,13 @@ $CM_CK2_EU3 = {
 ### POLISH ###
 
   def get_polish(title)
-    'polish'
+    culture = 'schlesian' if is_schlesian?(title)
+    culture ||='polish'
+  end
+
+  def is_schlesian?(title)
+    %w[c_opole c_lower_silesia c_upper_silesia c_cieszyn c_domazlice
+      c_litomerice c_boleslav c_praha c_plzen c_hradec c_olomouc
+      c_brno].include? title
   end
 
