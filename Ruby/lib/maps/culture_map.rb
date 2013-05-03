@@ -118,7 +118,7 @@ $CM_CK2_EU3 = {
 
   def is_saxon?(title)
     titles = ['c_weimar', 'c_anhalt', 'c_plauen', 'c_altmark', 'c_brandenburg',
-              'c_meissen', 'c_lausitz', 'c_jacwiez', 'c_yatvyagi', 'c_plock',
+              'c_meissen', 'c_lausitz', 'c_jacwiez', 'c_grodno', 'c_yatvyagi', 'c_plock',
               'c_czersk', 'c_gnieznienskie', 'c_lubusz', 'c_poznanskie', 'c_kaliskie',
               'c_krakowskie', 'c_sandomierskie', 'c_sacz', 'c_kujawy', 'c_sieradzko-leczyckie'
               ]
@@ -311,7 +311,23 @@ $CM_CK2_EU3 = {
 ### RUSSIAN ###
 
   def get_russian(title)
-    'russian'
+    culture = 'byelorussian' if is_byelorussian?(title)
+    culture = 'ruthenian' if is_ruthenian?(title)
+    culture ||= 'russian'
+  end
+
+  def is_byelorussian?(title)
+    %w[c_pinsk c_turov c_podlasie c_vladimir_volynsky c_beresty c_lettigalians
+      c_osel c_livs c_dorpat c_latgale c_saaremaa c_liivimaa c_tartu c_marienburg
+      c_sambia c_galindia c_west_dvina c_daugava c_polotsk c_aukshayts c_vilnius
+      c_zhmud c_sudovia c_trakai c_kurs c_kurzeme c_zemigalians c_zemgale c_memel
+      c_scalovia c_jacwiez c_grodno c_yatvyagi c_plock c_czersk c_gnieznienskie
+      c_lubusz c_poznanskie c_kaliskie c_opole c_lower_silesia c_upper_silesia
+      c_cieszyn c_krakowskie c_sandomierskie c_sacz c_kujawy c_sieradzko-leczyckie].include? title
+  end
+  
+  def is_ruthenian?(title)
+    %w[c_korsun c_kiev ].include? title
   end
 
 ### POLISH ###
