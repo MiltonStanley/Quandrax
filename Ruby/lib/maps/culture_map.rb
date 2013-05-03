@@ -279,11 +279,19 @@ $CM_CK2_EU3 = {
   end
 
   def is_azerbadjani?(title)
-
+    %w[c_luristan c_qazwin c_dailam c_kermanshah c_tigris c_ilam c_al_amarah
+      c_al_nasiryah c_al_nadjaf c_basra c_kuwait c_rummah c_kufa c_kirkuk
+      c_baghdad c_karbala c_deir c_euphrates c_samarra c_al_habbariyah c_kurdistan
+      c_mosul c_al_jazira c_bira c_al_bichri c_sinjar c_gilan c_tabriz c_oromieh
+      c_kakheti c_guria c_kartli c_tao c_albania c_derbent c_semender c_abkhazia
+      c_imeretia c_kasogs c_shirvan c_shemakha c_azerbaijan c_suenik c_dwin c_ani
+      c_vaspurakan c_teluch c_lykandos c_seleukia c_tarsos c_adana c_amida c_nisibin
+      c_taron c_mesopotamia c_khliat c_edessa c_tell_bashir c_aintab c_koloneia
+      c_melitene].include? title
   end
 
   def is_turkmeni?(title)
-
+    %w[].include? title
   end
 
 ### MONGOL ###
