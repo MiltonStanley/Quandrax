@@ -75,4 +75,24 @@ class TestEU3Provinces < Test::Unit::TestCase
     end
   end
 
+  def test_religions
+    expected_religions = {126 => 'sunni', 
+                          124 => 'sunni', 
+                          39 => 'shamanism', 
+                          41 => 'shamanism', 
+                          40 => 'shamanism', 
+                          42 => 'shamanism', 
+                          43 => 'shamanism', 
+                          271 => 'shamanism', 
+                          225 => 'sunni', 
+                          224 => 'sunni', 
+                          218 => 'sunni', 
+                          18 => 'shamanism', 
+                          315 => 'shamanism'
+                        }
+    expected_religions.each do |id, religion|
+      assert_equal religion, $EU3_PROVINCES.provinces[id].religion
+    end
+  end
+
 end
