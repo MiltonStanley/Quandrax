@@ -291,7 +291,12 @@ $CM_CK2_EU3 = {
   end
 
   def is_turkmeni?(title)
-    %w[].include? title
+    %w[c_kyzylorda c_khiva c_dashowuz c_samarkand c_balkh c_herat c_mavernnahr
+      c_kara-kum c_bukhara c_turkmen c_merv c_dihistan c_khorasan c_gurgan
+      c_nishapur c_qohistan c_lut c_qwivir c_tabaristan c_mazandaran c_yazd
+      c_shiraz c_esfahan c_avhaz c_sistan c_kerman c_zermanya c_hormuz c_ladistan
+      c_fars c_hendjan c_khozistan c_hamadan c_qom c_rayy c_tehran c_farrah
+      c_zahedan c_bam c_jask c_baluchistan c_tis c_birjand c_sabzevar].include? title
   end
 
 ### MONGOL ###
