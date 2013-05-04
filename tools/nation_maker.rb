@@ -9,7 +9,7 @@ class EU3Nation
   end
 
   def add(line)
-    @in_history = false if is_flags?(line)
+    @in_history = false if is_flags?(line) || is_date?(line)
     process_history(line) if @in_history
   end
 
@@ -23,6 +23,10 @@ class EU3Nation
 
   def is_history?(line)
     line =~ /^\t(history=)/
+  end
+
+  def is_date?(line)
+    line =~ /^\t\t\d{4}.\d+.\d+=$/
   end
 
   def is_flags?(line)
