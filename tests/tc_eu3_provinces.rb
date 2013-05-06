@@ -93,7 +93,6 @@ class TestEU3Provinces < Test::Unit::TestCase
     expected_religions.each do |id, religion|
       assert_equal religion, $EU3_PROVINCES.provinces[id].religion
     end
-    $EU3_PROVINCES.provinces[82].write(Kernel)
   end
 
   def test_discovery_dates
