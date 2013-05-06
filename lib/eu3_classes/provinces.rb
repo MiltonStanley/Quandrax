@@ -102,7 +102,10 @@ class An_EU3_Province
     @marketplace = value if is_marketplace?(key)
     @fort1 = value if is_fort1?(key)
     @in_history = true if is_history?(line)
-    @in_history = false if is_patrol?(line)
+    if is_patrol?(line)
+      @in_history = false
+      @patrol = value
+    end
     @history << line if @in_history
     @discovery_dates = get_discovery_dates(value) if is_discovery_dates?(key)
   end
