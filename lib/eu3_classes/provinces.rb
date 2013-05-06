@@ -69,7 +69,7 @@ end
 
 class An_EU3_Province
   attr_accessor :id, :name, :owner, :controller, :cores, :culture, :religion,
-    :discovery_dates, :patrol, :discovery_religion_dates
+    :discovery_dates, :patrol, :discovery_religion_dates, :discovered_by
 
   def initialize(id)
     @controller, @culture, @religion, @capital, @owner, @citysize, @garrison, 
@@ -79,6 +79,7 @@ class An_EU3_Province
     @id = id
     @cores = Array.new
     @history = String.new
+    @discovered_by = Array.new
   end
 
   def add(line)
@@ -107,8 +108,9 @@ class An_EU3_Province
       @patrol = value
     end
     @history << line if @in_history
-    @discovery_dates = get_dates(value) if is_discovery_dates?(key)
-    @discovery_religion_dates = get_dates(value) if is_discovery_religion_dates?(key)
+    @discovery_dates = get_string_literals(value) if is_discovery_dates?(key)
+    @discovery_religion_dates = get_string_literals(value) if is_discovery_religion_dates?(key)
+    @discovered_by = get_string_literals(value) if is_discovered_by?(key)
   end
 
   def write(location)
@@ -160,6 +162,10 @@ class An_EU3_Province
     line =~ /^\t(patrol)/
   end
 
+  def is_discovered_by?(key)
+    key =~ /^discovered_by/
+  end
+
   def is_discovery_dates?(key)
     key =~ /^discovery_dates/
   end
@@ -168,7 +174,7 @@ class An_EU3_Province
     key =~ /^discovery_religion_dates/
   end
 
-  def get_dates(value)
+  def get_string_literals(value)
     value.sub!('{','').sub!('}','')
     value.split(' ')
   end
