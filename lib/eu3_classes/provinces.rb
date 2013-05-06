@@ -124,6 +124,7 @@ class An_EU3_Province
     location.puts "\tfort1=#{@fort1}" unless @fort1.nil?
     location.puts @history
     location.puts "\tpatrol=0"
+    write_discovery_dates(location)
   end
 
   def convert(ck2_province, player_tag)
@@ -142,6 +143,15 @@ class An_EU3_Province
     culture
   end
 
+  def write_discovery_dates(location)
+    location.print 'discovery_dates={'
+    @discovery_dates.each do |date|
+      location.print "#{date} "
+    end
+    location.puts ' }'
+
+  end
+
   def is_patrol?(line)
     line =~ /^\t(patrol)/
   end
@@ -151,7 +161,8 @@ class An_EU3_Province
   end
 
   def get_discovery_dates(value)
-
+    value.sub!('{','').sub!('}','')
+    value.split(' ')
   end
 
   def is_player_owned?(eu3_id)
