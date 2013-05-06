@@ -95,6 +95,16 @@ class TestEU3Provinces < Test::Unit::TestCase
     end
   end
 
+  def test_patrol_value
+    expecteds = {1    => '0',
+                1262 => '35',
+                1402 => '10'
+                }
+    expecteds.each do |id, expected|
+      assert_equal expected, $EU3_PROVINCES.provinces[id].patrol
+    end
+  end
+
   def test_discovery_dates
     expecteds = {
         5  => %w[9999.1.1 9999.1.1 1.1.1 1.1.1 1.1.1 1.1.1 9999.1.1 9999.1.1 9999.1.1 9999.1.1],
