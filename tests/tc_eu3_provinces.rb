@@ -135,6 +135,7 @@ class TestEU3Provinces < Test::Unit::TestCase
       tag = $TM_CK2_EU3[a_prov.title]
       provinces << tag unless provinces.include? tag
     end
+    # And make sure provinces include it!
     provinces.each do |a_tag|
       assert $EU3_PROVINCES.provinces[1853].discovered_by.include?(a_tag),
         "Province doesn't include tag #{a_tag}"
