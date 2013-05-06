@@ -120,6 +120,7 @@ class An_EU3_Province
     location.puts "\tmarketplace=#{@marketplace}" unless @marketplace.nil?
     location.puts "\tfort1=#{@fort1}" unless @fort1.nil?
     location.puts @history
+    location.puts "\tpatrol=0"
   end
 
   def convert(ck2_province, player_tag)
