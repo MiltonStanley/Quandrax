@@ -68,13 +68,14 @@ end
 #################################
 
 class An_EU3_Province
-  attr_accessor :id, :name, :owner, :controller, :cores, :culture, :religion
+  attr_accessor :id, :name, :owner, :controller, :cores, :culture, :religion,
+    :discovery_dates
 
   def initialize(id)
     @controller, @culture, @religion, @capital, @owner, @citysize, @garrison, 
                   @base_tax, @temple, @barracks, @drydock, @workshop, 
                   @marketplace, @manpower, @trade_goods, @fort1 = nil
-    @finished_header = false
+    @in_history = false
     @id = id
     @cores = Array.new
     @history = String.new
@@ -100,9 +101,10 @@ class An_EU3_Province
     @workshop = value if is_workshop?(key)
     @marketplace = value if is_marketplace?(key)
     @fort1 = value if is_fort1?(key)
-    @finished_header = true if is_history?(line)
-    @finished_header = false if is_patrol?(line)
-    @history << line if @finished_header
+    @in_history = true if is_history?(line)
+    @in_history = false if is_patrol?(line)
+    @history << line if @in_history
+    @discovery_dates = get_discovery_dates(value) if is_discovery_dates?(key)
   end
 
   def write(location)
@@ -141,7 +143,15 @@ class An_EU3_Province
   end
 
   def is_patrol?(line)
-    line =~ /^\t(patrol=)/
+    line =~ /^\t(patrol)/
+  end
+
+  def is_discovery_dates?(key)
+    key =~ /^discovery_dates/
+  end
+
+  def get_discovery_dates(value)
+
   end
 
   def is_player_owned?(eu3_id)
