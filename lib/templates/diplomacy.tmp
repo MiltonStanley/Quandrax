@@ -789,12 +789,6 @@ diplomacy=
 		second="NOR"
 		start_date="1399.10.14"
 	}
-	vassal=
-	{
-		first="DAN"
-		second="SHL"
-		start_date="1399.9.1"
-	}
 	alliance=
 	{
 		first="DAN"
@@ -22330,12 +22324,6 @@ diplomacy=
 		first="WAL"
 		second="TUR"
 		start_date="1399.10.14"
-	}
-	vassal=
-	{
-		first="HUN"
-		second="TRA"
-		start_date="1399.1.1"
 	}
 	open_market=
 	{
@@ -23311,19 +23299,7 @@ diplomacy=
 		second="BYZ"
 		start_date="1419.12.31"
 	}
-	vassal=
-	{
-		first="TUR"
-		second="BOS"
-		start_date="1389.1.1"
-	}
 	alliance=
-	{
-		first="TUR"
-		second="SER"
-		start_date="1389.1.1"
-	}
-	vassal=
 	{
 		first="TUR"
 		second="SER"
@@ -44981,12 +44957,6 @@ diplomacy=
 		second="MOL"
 		start_date="1399.1.1"
 	}
-	vassal=
-	{
-		first="POL"
-		second="MOL"
-		start_date="1399.1.1"
-	}
 	open_market=
 	{
 		first="POL"
@@ -58019,40 +57989,10 @@ diplomacy=
 		second="IRO"
 		start_date="1719.12.31"
 	}
-	vassal=
-	{
-		first="FRA"
-		second="AUV"
-		start_date="1399.1.1"
-	}
-	vassal=
-	{
-		first="FRA"
-		second="ORL"
-		start_date="1399.1.1"
-	}
 	guarantee=
 	{
 		first="FRA"
 		second="SCO"
-		start_date="1399.1.1"
-	}
-	vassal=
-	{
-		first="FRA"
-		second="AMG"
-		start_date="1399.1.1"
-	}
-	vassal=
-	{
-		first="FRA"
-		second="BOU"
-		start_date="1399.1.1"
-	}
-	vassal=
-	{
-		first="FRA"
-		second="ALE"
 		start_date="1399.1.1"
 	}
 	guarantee=
@@ -58080,12 +58020,6 @@ diplomacy=
 		second="CYP"
 		start_date="1399.1.1"
 	}
-	vassal=
-	{
-		first="FRA"
-		second="FOI"
-		start_date="1399.1.1"
-	}
 	guarantee=
 	{
 		first="FRA"
@@ -58096,12 +58030,6 @@ diplomacy=
 	{
 		first="FRA"
 		second="AVI"
-		start_date="1399.1.1"
-	}
-	vassal=
-	{
-		first="FRA"
-		second="BER"
 		start_date="1399.1.1"
 	}
 	open_market=
@@ -70170,12 +70098,6 @@ diplomacy=
 		first="BAV"
 		second="HSA"
 		start_date="1.1.1"
-	}
-	vassal=
-	{
-		first="BOH"
-		second="SIL"
-		start_date="1399.1.1"
 	}
 	open_market=
 	{
@@ -117905,12 +117827,6 @@ diplomacy=
 		second="NAX"
 		start_date="1399.1.1"
 	}
-	vassal=
-	{
-		first="VEN"
-		second="NAX"
-		start_date="1399.1.1"
-	}
 	trade_agreement=
 	{
 		first="VEN"
@@ -117972,12 +117888,6 @@ diplomacy=
 		start_date="1399.1.1"
 	}
 	alliance=
-	{
-		first="VEN"
-		second="CEP"
-		start_date="1399.1.1"
-	}
-	vassal=
 	{
 		first="VEN"
 		second="CEP"
