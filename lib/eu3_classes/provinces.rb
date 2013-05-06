@@ -107,7 +107,8 @@ class An_EU3_Province
       @patrol = value
     end
     @history << line if @in_history
-    @discovery_dates = get_discovery_dates(value) if is_discovery_dates?(key)
+    @discovery_dates = get_dates(value) if is_discovery_dates?(key)
+    @discovery_religion_dates = get_dates(value) if is_discovery_religion_dates?(key)
   end
 
   def write(location)
@@ -163,7 +164,11 @@ class An_EU3_Province
     key =~ /^discovery_dates/
   end
 
-  def get_discovery_dates(value)
+  def is_discovery_religion_dates?(key)
+    key =~ /^discovery_religion_dates/
+  end
+
+  def get_dates(value)
     value.sub!('{','').sub!('}','')
     value.split(' ')
   end
