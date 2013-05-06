@@ -101,6 +101,7 @@ class An_EU3_Province
     @marketplace = value if is_marketplace?(key)
     @fort1 = value if is_fort1?(key)
     @finished_header = true if is_history?(line)
+    @finished_header = false if is_patrol?(line)
     @history << line if @finished_header
   end
 
@@ -137,6 +138,10 @@ class An_EU3_Province
       culture = convert_special_culture(ck2_culture, title)
     end
     culture
+  end
+
+  def is_patrol?(line)
+    line =~ /^\t(patrol=)/
   end
 
   def is_player_owned?(eu3_id)
