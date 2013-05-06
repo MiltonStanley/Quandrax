@@ -12,9 +12,10 @@ class EU3_Provinces
     update_from_ck2(ck2_provinces)
   end
 
-  def write(location)
+  def write(location, ck2_provinces)
     @provinces.each do |eu3_province|
       next if eu3_province.nil? # index 0 is nil, there's no province 0 in either game
+      eu3_province.add_discovery_tags(ck2_provinces)
       eu3_province.write(location)
     end
   end
@@ -131,6 +132,14 @@ class An_EU3_Province
     location.puts @history
     location.puts "\tpatrol=#{@patrol}"
     write_discovery_dates(location)
+  end
+
+  def add_discovery_tags(ck2_provinces)
+    ck2_provinces.each do |a_prov|
+      next if a_prov.nil?
+      tag = $TM_CK2_EU3[a_prov.title]
+      @discovered_by << tag unless @discovered_by.include? tag
+    end
   end
 
   def convert(ck2_province, player_tag)
