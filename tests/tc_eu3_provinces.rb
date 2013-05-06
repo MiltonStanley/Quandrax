@@ -127,4 +127,18 @@ class TestEU3Provinces < Test::Unit::TestCase
     end
   end
 
+  def test_discovered_by
+    provinces = Array.new
+    # Find out which nations exist
+    $CK2_PROVINCES.provinces.each do |a_prov|
+      next if a_prov.nil?
+      tag = $TM_CK2_EU3[a_prov.title]
+      provinces << tag unless provinces.include? tag
+    end
+    provinces.each do |a_tag|
+      assert $EU3_PROVINCES.provinces[1853].discovered_by.include?(a_tag),
+        "Province doesn't include tag #{a_tag}"
+    end
+  end
+
 end
