@@ -2,6 +2,7 @@ class EU3_Nations
   attr_accessor :tag_list, :nation_files
 
   def initialize(ck2_provinces)
+    puts 'Creating EU3 Nations section'
     @tag_list = get_tag_list(ck2_provinces)
     @nation_files = get_nations
   end

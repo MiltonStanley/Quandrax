@@ -6,6 +6,7 @@ class EU3_Provinces
   attr_accessor :provinces, :province_map
 
   def initialize(ck2_provinces, titles, player_tag)
+    puts 'Creating EU3 Provinces section'
     @player_tag = player_tag
     @provinces = load_provinces_from_template # Array[eu3_id] = A_Province
     @province_map = invert($PM_CK2_EU3) 
