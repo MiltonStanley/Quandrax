@@ -21,7 +21,7 @@ class TestEU3Nations < Test::Unit::TestCase
 
   def test_loading_all_nations
     # Make an array hold the names of all country files and get rid of . and .. entries
-    directory_listing = Dir.entries('../lib/templates/countries')
+    directory_listing = Dir.entries('./lib/templates/countries')
     directory_listing.shift(2)
     # Make a hash where key = TAG and value = file name for that country's information
     nation_files = Hash.new
