@@ -1,0 +1,221 @@
+government = theocratic_government
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = -4
+primary_culture = hannoverian
+religion = catholic
+technology_group = western
+capital = 86	# Münster
+
+
+1392.1.1 = {
+	monarch = {
+		name = "Otto IV"
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+}
+
+1425.1.1 = {
+	monarch = {
+		name = "Heinrich II"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1450.6.3 = {
+	monarch = {
+		name = "Walram I"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1456.10.4 = {
+	monarch = {
+		name = "Johann I"
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+
+1466.2.1 = {
+	monarch = {
+		name = "Heinrich III"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1496.12.25 = {
+	monarch = {
+		name = "Konrad I"
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+
+1508.2.9 = {
+	monarch = {
+		name = "Erich I"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1522.10.23 = {
+	monarch = {
+		name = "Friedrich II"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1532.3.23 = {
+	monarch = {
+		name = "Franz I"
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+
+1553.7.16 = {
+	monarch = {
+		name = "Wilhelm I"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1557.12.3 = {
+	monarch = {
+		name = "Bernhard I"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1566.10.26 = {
+	monarch = {
+		name = "Johann II"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1573.4.6 = {
+	monarch = {
+		name = "Johann Wilhelm"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1585.5.9 = {
+	monarch = {
+		name = "Ernst I"
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}
+
+1612.2.16 = {
+	monarch = {
+		name = "Ferdinand I"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1650.9.14 = {
+	monarch = {
+		name = "Cristoph Bernhard"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1678.9.20 = {
+	monarch = {
+		name = "Ferdinand II"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1683.6.27 = {
+	monarch = {
+		name = "Maximilian Heinrich"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1688.6.4 = {
+	monarch = {
+		name = "Friedrich Christian"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1706.5.6 = {
+	monarch = {
+		name = "Franz Arnold Wolff"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1718.12.26 = {
+	monarch = {
+		name = "Klemens August"
+		adm = 7
+		dip = 7
+		mil = 6
+	}
+}
+
+1761.2.6 = {
+	monarch = {
+		name = "Maximilian Friedrich"
+		adm = 6
+		dip = 6
+		mil = 3
+	}
+}
+
+1784.4.16 = {
+	monarch = {
+		name = "Maximilian Franz"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}

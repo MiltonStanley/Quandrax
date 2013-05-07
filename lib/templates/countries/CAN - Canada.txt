@@ -1,0 +1,13 @@
+government = constitutional_republic
+aristocracy_plutocracy = 0
+centralization_decentralization = -1
+innovative_narrowminded = -1
+mercantilism_freetrade = -3
+offensive_defensive = -1
+land_naval = -2
+quality_quantity = 0
+serfdom_freesubjects = 3
+technology_group = western
+religion = protestant
+primary_culture = english
+capital = 991	# Ottawa

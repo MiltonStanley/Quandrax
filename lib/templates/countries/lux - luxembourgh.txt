@@ -1,0 +1,50 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -4
+centralization_decentralization = 5
+innovative_narrowminded = 2
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = -3
+primary_culture = wallonian
+religion = catholic
+technology_group = western
+capital = 94	# Luxembourg
+
+
+1388.1.1 = {
+	monarch = {
+		name = "Jobst I"
+		dynasty = "von Luxemburg"
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1390.11.1 = {
+	heir = {
+		name = "Elisabeth"
+		monarch_name = "Elisabeth"
+		dynasty = "von Luxemburg"
+		birth_date = 1390.11.1
+		death_date = 1451.8.3
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+		female = yes
+	}
+}
+
+1415.1.1 = {
+	monarch = {
+		name = "Elisabeth I"
+		dynasty = "von Luxemburg"
+		adm = 5
+		dip = 5
+		mil = 4
+		female = yes
+	}
+}

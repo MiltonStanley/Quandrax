@@ -1,0 +1,79 @@
+government = theocratic_government
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = -4
+technology_group = western
+religion = catholic
+primary_culture = dutch
+capital = 98	# Utrecht
+
+#Prince Bishops of Utrecht
+1393.1.1 = {
+	monarch = {
+		name = "Frederick III"
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+}
+
+1423.1.1 = {
+	monarch = {
+		name = "Rudolf I"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1455.4.7 = {
+	monarch = {
+		name = "Gijsbrecht I"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1456.8.3 = {
+	monarch = {
+		name = "David I"
+		adm = 8
+		dip = 8
+		mil = 5
+	}
+}
+
+1494.4.16 = {
+	monarch = {
+		name = "Frederik IV"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1517.5.9 = {
+	monarch = {
+		name = "Filips I"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1524.4.7 = {
+	monarch = {
+		name = "Hendrik II"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+#Sold to Charles V on 21 August 1528

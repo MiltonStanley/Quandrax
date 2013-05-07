@@ -1,0 +1,555 @@
+government = tribal_despotism
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 3
+serfdom_freesubjects = -2
+technology_group = muslim
+primary_culture = bedouin_arabic
+religion = sunni
+capital = 392	# Deraiyah
+
+
+#Amirs of ad-Dar'iya
+
+1399.1.1 = {
+	monarch = {
+		name = "Watban"
+		dynasty = "Sa'ud"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Mani"
+		monarch_name = "Mani"
+		dynasty = "Sa'ud"
+		birth_Date = 1399.1.1
+		death_date = 1475.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1446.1.1 = {
+	monarch = {
+		name = "Mani"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1446.1.1 = {
+	heir = {
+		name = "Rabi'a"
+		monarch_name = "Rabi'a I"
+		dynasty = "Sa'ud"
+		birth_Date = 1446.1.1
+		death_date = 1500.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1475.1.1 = {
+	monarch = {
+		name = "Rabi'a I"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1475.1.1 = {
+	heir = {
+		name = "Musa"
+		monarch_name = "Musa I"
+		dynasty = "Sa'ud"
+		birth_date = 1475.1.1
+		death_date = 1533.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+		
+1500.1.1 = {
+	monarch = {
+		name = "Musa I"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1500.1.1 = {
+	heir = {
+		name = "Ibrahim"
+		monarch_name = "Ibrahim I"
+		dynasty = "Sa'ud"
+		birth_Date = 1500.1.1
+		death_date = 1566.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1533.1.1 = {
+	monarch = {
+		name = "Ibrahim I"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1533.1.1 = {
+	heir = {
+		name = "Markhan"
+		monarch_name = "Markhan I"
+		dynasty = "Sa'ud"
+		birth_Date = 1533.1.1
+		death_Date = 1600.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1566.1.1 = {
+	monarch = {
+		name = "Markhan I"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1566.1.1 = {
+	heir = {
+		name = "Rabi'a"
+		monarch_name = "Rabi'a II"
+		dynasty = "Sa'ud"
+		birth_Date = 1566.1.1
+		death_date = 1630.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1600.1.1 = {
+	monarch = {
+		name = "Rabi'a II"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1600.1.1 = {
+	heir = {
+		name = "Watban"
+		monarch_name = "Watban"
+		dynasty = "Sa'ud"
+		birth_Date = 1600.1.1
+		death_date = 1654.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1630.1.1 = {
+	monarch = {
+		name = "Watban"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1630.1.1 = {
+	heir = {
+		name = "Markhan"
+		monarch_name = "Markhan II"
+		dynasty = "Sa'ud"
+		birth_Date = 1630.1.1
+		death_date = 1654.6.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1654.1.1 = {
+	monarch = {
+		name = "Markhan II"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1654.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad I"
+		dynasty = "Sa'ud"
+		birth_Date = 1630.1.1
+		death_Date = 1672.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1654.6.1 = {
+	monarch = {
+		name = "Muhammad I"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1654.6.1 = {
+	heir = {
+		name = "Nasir"
+		monarch_name = "Nasir I"
+		dynasty = "Sa'ud"
+		birth_date = 1630.1.1
+		death_Date = 1673.4.20
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1672.1.1 = {
+	monarch = {
+		name = "Nasir I"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1672.1.1 = {
+	heir = {
+		name = "Markhan"
+		monarch_name = "Markhan III"
+		dynasty = "Sa'ud"
+		birth_Date = 1660.1.1
+		death_Date = 1690.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5 
+	}
+}
+
+1673.4.20 = {
+	monarch = {
+		name = "Markhan III"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1673.4.20 = {
+	heir = {
+		name = "Ibrahim"
+		monarch_name = "Ibrahim II"
+		dynasty = "Sa'ud"
+		birth_Date = 1673.4.20
+		death_Date = 1694.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1690.1.1 = {
+	monarch = {
+		name = "Ibrahim II"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1690.1.1 = {
+	heir = {
+		name = "Idris"
+		monarch_name = "Idris"
+		dynasty = "Sa'ud"
+		birth_Date = 1670.1.1
+		death_Date = 1699.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1694.1.1 = {
+	monarch = {
+		name = "Idris"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1694.1.1 = {
+	heir = {
+		name = "Sultan"
+		monarch_name = "Sultan"
+		dynasty = "Sa'ud"
+		birth_Date = 1694.1.1
+		death_Date = 1708.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1699.1.1 = {
+	monarch = {
+		name = "Sultan"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1699.1.1 = {
+	heir = {
+		name = "'Abd Allah"
+		monarch_name ="'Abd Allah"
+		dynasty = "Sa'ud"
+		birth_Date = 1680.1.1
+		death_date = 1709.3.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1708.1.1 = {
+	monarch = {
+		name = "'Abd Allah"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1708.1.1 = {
+	heir = {
+		name = "Musa"
+		monarch_name = "Musa I"
+		dynasty = "Sa'ud"
+		birth_Date = 1690.1.1
+		death_date = 1720.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1709.3.1 = {
+	monarch = {
+		name = "Musa I"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1709.3.1 = {
+	heir = {
+		name = "Sa'ud"
+		monarch_name = "Sa'ud I"
+		dynasty = "Sa'ud"
+		birth_Date = 1690.1.1
+		death_date = 1720.12.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1720.1.1 = {
+	monarch = {
+		name = "Sa'ud I"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1720.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad II"
+		dynasty = "Sa'ud"
+		birth_Date = 1690.1.1
+		death_Date = 1725.6.12
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 9
+	}
+}
+
+1720.12.1 = {
+	monarch = {
+		name = "Muhammad II"
+		dynasty = "Sa'ud"
+		DIP = 7
+		ADM = 6
+		MIL = 9
+	}
+}
+
+1720.12.1 = {
+	heir = {
+		name = "Zayid"
+		monarch_name = "Zayid"
+		dynasty = "Sa'ud"
+		birth_date = 1700.1.1
+		death_Date = 1765.5.20
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+# The First Saudi State
+1725.6.12 = {
+	monarch = {
+		name = "Zayid"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1725.6.12 = {
+	heir = {
+		name = "'Abd al-'Aziz"
+		monarch_name = "'Abd al-'Aziz I"
+		dynasty = "Sa'ud"
+		birth_Date = 1721.1.1
+		death_Date = 1803.1.1
+		claim = 95
+		adm = 8
+		dip = 6
+		mil = 8
+	}
+}
+
+1765.6.20 = {
+	monarch = {
+		name = "'Abd al-'Aziz I"
+		dynasty = "Saud"
+		DIP = 6
+		ADM = 8
+		MIL = 8
+	}
+}
+
+1765.6.20 = {
+	heir = {
+		name = "Saud"
+		monarch_name = "Saud II"
+		dynasty = "Sa'ud"
+		birth_date = 1759.1.1
+		death_Date = 1814.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 8
+	}
+}
+
+1803.1.1 = {
+	monarch = {
+		name = "Saud II"
+		dynasty = "Sa'ud"
+		DIP = 5
+		ADM = 5
+		MIL = 8
+	}
+}
+
+1803.1.1 = {
+	heir = {
+		name = "Abdullah"
+		monarch_name = "Abdullah I"
+		dynasty = "Sa'ud"
+		birth_Date = 1790.1.1
+		death_Date = 1825.1.1
+		claim = 95
+		adm = 8
+		dip = 6
+		mil = 8
+	}
+}
+
+1814.1.1 = {
+	monarch = {
+		name = "Abdullah I"
+		dynasty = "Sa'ud"
+		DIP = 6
+		ADM = 8
+		MIL = 8
+	}
+}

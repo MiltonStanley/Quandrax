@@ -1,0 +1,105 @@
+government = administrative_republic
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = 1
+quality_quantity = -1
+serfdom_freesubjects = -2
+technology_group = western
+primary_culture = lombard
+religion = catholic
+capital = 117	# Siena
+
+
+1390.1.1 = {
+	monarch = {
+		name = "John Galeazzo"
+		dip = 6
+		mil = 5
+		adm = 5
+	}
+}
+
+1402.1.1 = {
+	monarch = {
+		name = "John Maria"
+		dip = 4
+		mil = 5
+		adm = 6
+	}
+}
+
+1404.1.1 = {
+	monarch = {
+		name = "Repubblica"
+		dip = 4
+		mil = 5
+		adm = 4
+	}
+}
+1487.7.22 = {
+	monarch = {
+		name = "Pandolfo Petrucci"
+		dip = 7
+		mil = 7
+		adm = 5
+	}
+}
+		
+1502.2.2 = {
+	monarch = {
+		name = "Cesare Borgia"
+		dip = 3
+		mil = 6
+		adm = 8
+	}
+}
+
+1503.3.29 = {
+	monarch = {
+		name = "Pandolfo Petrucci"
+		dip = 7
+		mil = 7
+		adm = 5
+	}
+}
+
+1512.5.21 = {
+	monarch = {
+		name = "Borghese Petrucci"
+		dip = 3
+		mil = 3
+		adm = 5
+	}
+}
+
+1515.3.6 = {
+	monarch = {
+		name = "Raffaele Petrucci"
+		dip = 4
+		mil = 4
+		adm = 4
+	}
+}
+
+1522.10.26 = {
+	monarch = {
+		name = "Francesco Petrucci"
+		dip = 4
+		mil = 4
+		adm = 4
+	}
+}
+
+1523.6.11 = {
+	monarch = {
+		name = "Fabio Petrucci"
+		dip = 4
+		mil = 4
+		adm = 4
+	}
+}
+
+# To the Habsburgs (Spain), (18th feb 1525)

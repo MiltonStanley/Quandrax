@@ -1,0 +1,147 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = 1
+quality_quantity = -1
+serfdom_freesubjects = -2
+technology_group = western
+religion = catholic
+primary_culture = lombard
+capital = 103 # Piedomont
+
+
+1720.1.1 = {
+	monarch = {
+		name = "Vittorio Amedeo II"
+		dynasty = "di Savoia"
+		adm = 7
+		dip = 9
+		mil = 8
+		leader = { name = "Vittorio Amedeo II"	type = general	rank = 0	fire = 4	shock = 4	manuever = 2	siege = 2 }
+	}
+}
+
+1720.1.1 = {
+	heir = {
+		name = "Carlo Emanuele"
+		monarch_name = "Carlo Emanuele III"
+		dynasty = "di Savoia"
+		birth_date = 1701.4.27
+		death_date = 1773.2.20
+		claim = 95
+		adm = 7
+		dip = 8
+		mil = 9
+		leader = { name = "Carlo Emanuele III"	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0 }
+	}
+}
+
+1730.9.4 = { government = absolute_monarchy }
+
+1730.9.4 = {
+	monarch = {
+		name = "Carlo Emanuele III"
+		dynasty = "di Savoia"
+		adm = 7
+		dip = 8
+		mil = 9
+		leader = { name = "Carlo Emanuele III"	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0 }
+	}
+}
+
+1730.9.4 = {
+	heir = {
+		name = "Vittorio Amedeo"
+		monarch_name = "Vittorio Amedeo III"
+		dynasty = "di Savoia"
+		birth_date = 1726.6.26
+		death_date = 1796.10.16
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 5
+		leader = { name = "Vittorio Amedeo III"	type = general	rank = 0	fire = 2	shock = 2	manuever = 3	siege = 0 }
+	}
+}
+		
+1743.2.8 = { leader = {	name = "Carlo S. Leutrum"	type = general	rank = 3	fire = 5	shock = 4	manuever = 4	siege = 1	death_date = 1755.5.16 } }
+
+1773.2.21 = {
+	monarch = {
+		name = "Vittorio Amedeo III"
+		dynasty = "di Savoia"
+		adm = 4
+		dip = 3
+		mil = 5
+		leader = { name = "Vittorio Amedeo III"	type = general	rank = 0	fire = 2	shock = 2	manuever = 3	siege = 0 }
+	}
+}
+
+1773.2.21 = {
+	heir = {
+		name = "Carlo Emanuele"
+		monarch_name = "Carlo Emanuele IV"
+		dynasty = "di Savoia"
+		birth_date = 1751.5.24
+		death_date = 1819.10.6
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1785.1.1 = { leader = {	name = "Michel Colli"		type = general	rank = 1	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1796.4.28 } }
+
+1796.10.14 = { government = enlightened_despotism }
+
+1796.10.14 = {
+	monarch = {
+		name = "Carlo Emanuele IV"
+		dynasty = "di Savoia"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1796.10.14 = {
+	heir = {
+		name = "Vittorio Emanuele"
+		monarch_name = "Vittorio Emanuele I"
+		dynasty = "di Savoia"
+		birth_date = 1759.7.24
+		death_date = 1824.1.10
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1802.6.4 = {
+	monarch = {
+		name = "Vittorio Emanuele I"
+		dynasty = "di Savoia"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1802.6.4 = {
+	heir = {
+		name = "Carlo Felice"
+		monarch_name = "Carlo Felice"
+		dynasty = "di Savoia"
+		birth_date = 1765.4.4
+		death_date = 1831.4.27
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

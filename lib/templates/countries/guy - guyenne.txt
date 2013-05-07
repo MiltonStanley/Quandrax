@@ -1,0 +1,24 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = -2
+mercantilism_freetrade = -1
+offensive_defensive = 2
+land_naval = 2
+quality_quantity = -1
+serfdom_freesubjects = -1
+technology_group = western
+primary_culture = aquitaine
+add_accepted_culture = gascon
+add_accepted_culture = cosmopolitan_french
+religion = catholic
+capital = 194	# Bergerac
+
+
+1515.1.1 = { government = despotic_monarchy }
+
+1560.1.1 = { religion = reformed }
+
+1589.8.3 = { government = administrative_monarchy }
+
+1661.3.9 = { government = absolute_monarchy }

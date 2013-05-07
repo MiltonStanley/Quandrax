@@ -1,0 +1,283 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -4
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -1
+primary_culture = mon
+religion = buddhism
+technology_group = chinese
+capital = 586	# Pegu
+
+
+1385.1.1 = {
+	monarch = {
+		name = "Razadarit"
+		dynasty = "Toungoo"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1385.1.1 = {
+	heir = {
+		name = "Binnya Dammayaza"
+		monarch_name = "Binnya Dammayaza"
+		dynasty = "Toungoo"
+		birth_Date = 1380.1.1
+		death_Date = 1426.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1423.1.1 = {
+	monarch = {
+		name = "Binnya Dammayaza"
+		dynasty = "Toungoo"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1423.1.1 = {
+	heir = {
+		name = "Binnya Ran"
+		monarch_name = "Binnya Ran I"
+		dynasty = "Toungoo"
+		birth_Date = 1400.1.1
+		death_Date = 1446.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1426.1.1 = {
+	monarch = {
+		name = "Binnya Ran I"
+		dynasty = "Toungoo"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1426.1.1 = {
+	heir = {
+		name = "Binnya Waru"
+		monarch_name = "Binnya Waru"
+		dynasty = "Toungoo"
+		birth_Date = 1410.1.1
+		death_Date = 1450.1.1
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+}
+
+1446.1.1 = {
+	monarch = {
+		name = "Binnya Waru"
+		dynasty = "Toungoo"
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+}
+
+1446.1.1 = {
+	heir = {
+		name = "Binnya Kyan"
+		monarch_name = "Binnya Kyan"
+		dynasty = "Toungoo"
+		birth_Date = 1426.1.1
+		death_Date = 1453.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Binnya Kyan"
+		dynasty = "Toungoo"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1450.1.1 = {
+	heir = {
+		name = "Mawdaw"
+		monarch_name = "Mawdaw"
+		dynasty = "Toungoo"
+		birth_Date = 1450.1.1
+		death_Date = 1472.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1453.1.1 = {
+	monarch = {
+		name = "Mawdaw"
+		dynasty = "Toungoo"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1453.1.1 = {
+	heir = {
+		name = "Shin Sawbu"
+		monarch_name = "Shin Sawbu"
+		dynasty = "Toungoo"
+		birth_Date = 1430.1.1
+		death_Date = 1492.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1472.1.1 = {
+	monarch = {
+		name = "Shin Sawbu"
+		dynasty = "Toungoo"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1472.1.1 = {
+	heir = {	
+		name = "Dimmazedi"
+		monarch_name = "Dimmazedi"
+		dynasty = "Toungoo"
+		birth_Date = 1460.1.1
+		death_Date = 1526.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1492.1.1 = {
+	monarch = {
+		name = "Dimmazedi"
+		dynasty = "Toungoo"
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1492.1.1 = {
+	heir = {
+		name = "Takayutpi"
+		monarch_name ="Takayutpi"
+		dynasty = "Toungoo"
+		birth_Date = 1490.1.1
+		death_Date = 1550.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1526.1.1 = {
+	monarch = {
+		name = "Takayutpi"
+		dynasty = "Toungoo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1526.1.1 = {
+	heir = {
+		name = "Smim Sawhtut"
+		monarch_name = "Smim Sawhtut"
+		dynasty = "Toungoo"
+		birth_Date = 1510.1.1
+		death_Date = 1551.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Smim Sawhtut"
+		dynasty = "Toungoo"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1551.1.1 = {
+	monarch = {
+		name = "Smim Htaw"
+		dynasty = "Toungoo"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1740.1.1 = {
+	monarch = {
+		name = "Smim Htaw Buddhaketi"
+		dynasty = "Mon"
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1740.1.1 = {
+	heir = {
+		name = "Binnya Dala"
+		monarch_name = "Binnya Dala"
+		birth_date = 1720.1.1
+		death_Date = 1767.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1747.1.1 = {
+	monarch = {
+		name = "Binnya Dala"
+		dynasty = "Mon"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}

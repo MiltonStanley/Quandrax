@@ -1,0 +1,99 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = -1
+quality_quantity = 1
+serfdom_freesubjects = -1
+primary_culture = greek
+religion = orthodox
+technology_group = eastern
+capital = 330	# Trebizond
+
+
+1390.1.1 = {
+	monarch = {
+		name = "Manuel III"
+		dynasty = "Komnenos"
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+}
+
+1390.1.1 = {
+	heir = {
+		name = "Alexios"
+		monarch_name = "Alexios IV"
+		dynasty = "Komnenos"
+		birth_date = 1382.1.1
+		death_date = 1429.10.29
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+		
+
+1417.10.29 = {
+	monarch = {
+		name = "Alexios IV"
+		dynasty = "Komnenos"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+
+1417.10.29 = {
+	heir = {
+		name = "Ioannes"
+		monarch_name = "Ioannes IV"
+		dynasty = "Komnenos"
+		birth_date = 1403.1.1
+		death_date = 1459.1.1
+		claim = 95
+		adm = 6
+		dip = 7
+		mil =5
+	}
+}
+
+1429.10.29 = {
+	monarch = {
+		name = "Ioannes IV"
+		dynasty = "Komnenos"
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+}
+
+1429.10.29 = {
+	heir = {
+		name = "Dauid"
+		monarch_name = "Dauid"
+		dynasty = "Komnenos"
+		birth_date = 1408.1.1
+		death_date = 1463.11.1
+		claim = 95
+		adm =  6
+		dip = 3
+		mil = 4
+	}
+}
+		
+
+1459.1.1 = {
+	monarch = {
+		name = "Dauid"
+		dynasty = "Komnenos"
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+}

@@ -1,0 +1,680 @@
+government = tribal_federation
+aristocracy_plutocracy = -4
+centralization_decentralization = 5
+innovative_narrowminded = 3
+mercantilism_freetrade = -3
+offensive_defensive = -1
+land_naval = -5
+quality_quantity = 3
+serfdom_freesubjects = -2
+technology_group = muslim
+religion = sunni
+primary_culture = turkmeni
+capital = 441	# Khiva
+
+
+# Khiva (Khwarizm)
+# Originally scripted for the AGC-EEP
+1509.1.1 = {
+	monarch = {
+		name = "Ilbars"
+		dynasty ="Arabshahid"
+		dip = 4
+		adm = 4
+		mil = 6
+	}
+}
+
+1509.1.1 = {
+	heir = {
+		name = "Sultan Hajji"
+		monarch_name = "Sultan Hajji"
+		dynasty = "Arabshahid"
+		birth_Date = 1490.1.1
+		death_Date = 1527.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1525.1.1 = {
+	monarch = {
+		name = "Sultan Hajji"
+		dynasty ="Arabshahid"
+		dip = 4
+		adm = 4
+		mil = 5
+	}
+}
+
+1525.1.1 = {
+	heir = {
+		name = "Hassan Quli"
+		monarch_name = "Hassan Quli"
+		dynasty = "Arabshahid"
+		birth_Date = 1500.1.1
+		death_Date = 1530.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1527.1.1 = {
+	monarch = {
+		name = "Hassan Quli"
+		dynasty ="Arabshahid"
+		dip = 4
+		adm = 3
+		mil = 4
+	}
+}
+
+1527.1.1 = {
+	heir = {
+		name = "Sufyan Khan"
+		monarch_name = "Sufyan Khan"
+		dynasty = "Arabshahid"
+		birth_Date = 1520.1.1
+		death_Date = 1531.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+		name = "Sufyan Khan"
+		dynasty ="Arabshahid"
+		dip = 5
+		adm = 3
+		mil = 5
+	}
+}
+
+1530.1.1 = {
+	heir = {
+		name = "Bujunga Khan"
+		monarch_name = "Bujunga Khan"
+		dynasty = "Arabshahid"
+		birth_date = 1530.1.1
+		death_Date = 1533.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1531.1.1 = {
+	monarch = {
+		name = "Bujunga Khan"
+		dynasty ="Arabshahid"
+		dip = 4
+		adm = 4
+		mil = 4
+	}
+}
+
+1531.1.1 = {
+	heir = {
+		name = "Avanak Khan"
+		monarch_name = "Avanak Khan"
+		dynasty = "Arabshahid"
+		birth_Date = 1520.1.1
+		death_Date = 1534.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1533.1.1 = {
+	monarch = {
+		name = "Avanak Khan"
+		dynasty ="Arabshahid"
+		dip = 4
+		adm = 3
+		mil = 5
+	}
+}
+
+1533.1.1 = {
+	heir = {
+		name = "Qul Khan"
+		monarch_name = "Qul Khan"
+		dynasty = "Arabshahid"
+		birth_Date = 1510.1.1
+		death_Date = 1540.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1534.1.1 = {
+	monarch = {
+		name = "Qul Khan"
+		dynasty ="Arabshahid"
+		dip = 4
+		adm = 5
+		mil = 4
+	}
+}
+
+1534.1.1 = {
+	heir = {
+		name = "Agatai Khan"
+		monarch_name = "Agatai Khan"
+		dynasty = "Arabshahid"
+		birth_Date = 1490.1.1
+		death_Date = 1546.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Agatai Khan"
+		dynasty ="Arabshahid"
+		dip = 4
+		adm = 4
+		mil = 5
+	}
+}
+
+1540.1.1 = {
+	heir = {
+		name = "Dost Khan"
+		monarch_name = "Dost Khan"
+		dynasty = "Arabshahid"
+		birth_Date = 1530.1.1
+		death_Date = 1558.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1546.1.1 = {
+	monarch = {
+		name = "Dost Khan"
+		dynasty ="Arabshahid"
+		dip = 4
+		adm = 4
+		mil = 5
+	}
+}
+
+1550.1.1 = {
+	heir = {
+		name = "Hajji Muhammad"
+		monarch_name = "Hajji Muhammad I"
+		dynasty = "Arabshahid"
+		birth_Date = 1550.1.1
+		death_Date = 1603.3.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1558.1.1 = {
+	monarch = {
+		name = "Hajji Muhammad I"
+		dynasty ="Arabshahid"
+		dip = 6
+		adm = 4
+		mil = 6
+	}
+}
+
+1570.1.1 = {
+	heir = {
+		name = "Arab Muhammad"
+		monarch_name = "Arab Muhammad I"
+		dynasty = "Arabshahid"
+		birth_Date = 1570.1.1
+		death_Date = 1623.8.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1603.3.1 = {
+	monarch = {
+		name = "Arab Muhammad I"
+		dynasty = "Arabshahid"
+		dip = 5
+		adm = 5
+		mil = 5
+	}
+}
+
+1603.3.1 = {
+	heir = {
+		name = "Isfandiyar"
+		monarch_name = "Isfandiyar"
+		dynasty = "Arabshahid"
+		birth_Date = 1600.1.1
+		death_Date = 1645.7.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1623.8.1 = {
+	monarch = {
+		name = "Isfandiyar"
+		dynasty = "Arabshahid"
+		dip = 5
+		adm = 5
+		mil = 4
+	}
+}
+
+1623.8.1 = {
+	heir = {
+		name = "Abu'l Ghazi"
+		monarch_name = "Abu'l Ghazi I"
+		dynasty = "Arabshahid"
+		birth_Date = 1600.1.1
+		death_Date = 1663.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 3
+	}
+}
+
+1645.7.1 = {
+	monarch = {
+		name = "Abu'l Ghazi I"
+		dynasty = "Arabshahid"
+		dip = 6
+		adm = 7
+		mil = 3
+	}
+}
+
+1645.7.1 = {
+	heir = {
+		name = "Anusha Muhammad"
+		monarch_name = "Anusha Muhammad"
+		dynasty = "Arabshahid"
+		birth_Date = 1630.1.1
+		death_Date = 1685.1.1
+		claim = 95
+		adm = 7
+		dip = 5
+		mil = 6
+	}
+}
+
+1663.1.1 = {
+	monarch = {
+		name = "Anusha Muhammad"
+		dynasty = "Arabshahid"
+		dip = 5
+		adm = 7
+		mil = 6
+	}
+}
+
+1663.1.1 = {
+	heir = {
+		name = "Khudaida"
+		monarch_name = "Khudaida"
+		dynasty = "Arabshahid"
+		birth_Date = 1660.1.1
+		death_Date = 1689.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1685.1.1 = {
+	monarch = {
+		name = "Khudaida"
+		dynasty = "Arabshahid"
+		dip = 5
+		adm = 4
+		mil = 4
+	}
+}
+
+1685.1.1 = {
+	heir = {
+		name = "Arang Muhammad"
+		monarch_name = "Arang Muhammad"
+		dynasty = "Arabshahid"
+		birth_Date = 1670.1.1
+		death_Date = 1694.10.27
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1689.1.1 = {
+	monarch = {
+		name = "Arang Muhammad"
+		dynasty = "Arabshahid"
+		dip = 4
+		adm = 4
+		mil = 5
+	}
+}
+
+1694.10.27 = {
+	monarch = {
+		name = "Juchi"
+		dynasty = "Arabshahid"
+		dip = 4
+		adm = 4
+		mil = 3
+	}
+}
+
+1695.8.1 = {
+	monarch = {
+		name = "Kabakly"
+		dynasty = "Arabshahid"
+		dip = 5
+		adm = 3
+		mil = 6
+	}
+}
+
+1695.10.1 = {
+	monarch = {
+		name = "Qul Muhammad"
+		dynasty = "Arabshahid"
+		dip = 4
+		adm = 4
+		mil = 4
+	}
+}
+
+1697.10.4 = {
+	monarch = {
+		name = "Shah Niyaz"
+		dynasty = "Arabshahid"
+		dip = 5
+		adm = 5
+		mil = 5
+	}
+}
+
+1701.1.1 = {
+	monarch = {
+		name = "Musi"
+		dynasty = "Arabshahid"
+		dip = 4
+		adm = 3
+		mil = 4
+	}
+}
+
+1703.3.1 = {
+	monarch = {
+		name = "Arab Muhammad II"
+		dynasty = "Arabshahid"
+		dip = 3
+		adm = 3
+		mil = 3
+	}
+}
+
+1703.3.1 = {
+	heir = {
+		name = "Hajji Muhammad"
+		monarch_name = "Hajji Muhammad II"
+		dynasty = "Arabshahid"
+		birth_Date = 1690.1.1
+		death_Date = 1714.4.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1703.8.1 = {
+	monarch = {
+		name = "Hajji Muhammad II"
+		dynasty = "Arabshahid"
+		dip = 4
+		adm = 4
+		mil = 5
+	}
+}
+
+1714.4.1 = {
+	monarch = {
+		name = "Yadigar Khan"
+		dynasty = "Arabshahid"
+		dip = 4
+		adm = 4
+		mil = 4
+	}
+}
+
+1714.6.1 = {
+	monarch = {
+		name = "Arang Muhammad II"
+		dynasty = "Arabshahid"
+		dip = 4
+		adm = 4
+		mil = 3
+	}
+}
+
+1714.6.1 = {
+	heir = {
+		name = "Sher Khan"
+		monarch_name = "Sher Khan"
+		dynasty = "Arabshahid"
+		birth_Date = 1700.1.1
+		death_Date = 1732.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1715.1.1 = {
+	monarch = {
+		name = "Sher Khan"
+		dynasty = "Arabshahid"
+		dip = 4
+		adm = 4
+		mil = 5
+	}
+}
+
+1715.1.1 = {
+	heir = {
+		name = "Ilbars"
+		monarch_name = "Ilbars II"
+		dynasty = "Arabshahid"
+		birth_Date = 1690.1.1
+		death_Date = 1741.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1732.1.1 = {
+	monarch = {
+		name = "Ilbars II"
+		dynasty = "Arabshahid"
+		dip = 4
+		adm = 5
+		mil = 5
+	}
+}
+
+1741.1.1 = {
+	monarch = {
+		name = "Abu Muhammad"
+		dynasty = "Arabshahid"
+		dip = 4
+		adm = 3
+		mil = 3
+	}
+}
+
+1742.1.1 = {
+	monarch = {
+		name = "Abu'l Ghazi II"
+		dynasty = "Arabshahid"
+		dip = 3
+		adm = 4
+		mil = 4
+	}
+}
+
+1745.1.1 = {
+	monarch = {
+		name = "Gha'ip Khan I"
+		dynasty = "Arabshahid"
+		dip = 5
+		adm = 4
+		mil = 5
+	}
+}
+
+1750.1.1 = {
+	monarch = {
+		name = "Abd'Allah Qarabay"
+		dynasty = "Arabshahid"
+		dip = 4
+		adm = 4
+		mil = 5
+	}
+}
+
+1753.1.1 = {
+	monarch = {
+		name = "Sultan Timur Ghazi"
+		dynasty = "Arabshahid"
+		dip = 4
+		adm = 5
+		mil = 4
+	}
+}
+
+1753.1.1 = {
+	heir = {
+		name = "Gha'ip Khan"
+		monarch_name = "Gha'ip Khan II"
+		dynasty = "Arabshahid"
+		birth_Date = 1730.1.1
+		death_Date = 1791.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1764.1.1 = {
+	monarch = {
+		name = "Gha'ip Khan II"
+		dynasty = "Arabshahid"
+		dip = 4
+		adm = 4
+		mil = 5
+	}
+}
+
+1770.1.1 = {
+	heir = {
+		name = "Abu'l Ghazi"
+		monarch_name = "Abu'l Ghazi III"
+		dynasty = "Arabshahid"
+		birth_Date = 1770.1.1
+		death_Date = 1804.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1791.1.1 = {
+	monarch = {
+		name = "Abu'l Ghazi III"
+		dynasty = "Arabshahid"
+		dip = 5
+		adm = 4
+		mil = 5
+	}
+}
+
+1791.1.1 = {
+	heir = {
+		name = "Iltazar Inaq ibn Iwaz"
+		monarch_name = "Iltazar Inaq ibn Iwaz"
+		dynasty = "Arabshahid"
+		birth_Date = 1780.1.1
+		death_Date = 1806.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1804.1.1 = {
+	monarch = {
+		name = "Iltazar Inaq ibn Iwaz"
+		dynasty = "Arabshahid"
+		dip = 5
+		adm = 5
+		mil = 5
+	}
+}
+
+1806.1.1 = {
+	monarch = {
+		name = "Abu al-Ghazi"
+		dynasty = "Arabshahid"
+		dip = 5
+		adm = 6
+		mil = 6
+	}
+}
+
+1806.6.1 = {
+	monarch = {
+		name = "Muhammad Rahim I"
+		dynasty = "Qungrat"
+		dip = 5
+		adm = 5
+		mil = 7
+	}
+}

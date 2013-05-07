@@ -1,0 +1,575 @@
+government = tribal_despotism
+aristocracy_plutocracy = -5
+centralization_decentralization = 5
+innovative_narrowminded = 1
+mercantilism_freetrade = -5
+offensive_defensive = 0
+land_naval = -5
+quality_quantity = 2
+serfdom_freesubjects = -5
+technology_group = sub_saharan
+religion = animism
+primary_culture = yorumba
+capital = 1147	# Oredo
+
+
+1397.1.1 = {
+	monarch = {
+		name = "Orobiru"
+		dynasty = "Abomey"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Uwaifiokun"
+		monarch_name = "Uwaifiokun"
+		dynasty = "Abomey"
+		birth_Date = 1399.1.1
+		death_Date = 1440.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1434.1.1 = {
+	monarch = {
+		name = "Uwaifiokun"
+		dynasty = "Abomey"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1434.1.1 = {
+	heir = {
+		name = "Ewuare"
+		monarch_name = "Ewuare"
+		dynasty = "Abomey"
+		birth_Date = 1430.1.1
+		death_date = 1473.1.1
+		claim = 95
+		adm = 8
+		dip = 4
+		mil = 5
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Ewuare"
+		dynasty = "Abomey"
+		adm = 8
+		dip = 4
+		mil = 5
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Ezoti"
+		monarch_name ="Ezoiti"
+		dynasty = "Abomey"
+		birth_Date = 1420.1.1
+		death_Date = 1476.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1473.1.1 = {
+	monarch = {
+		name = "Ezoti"
+		dynasty = "Abomey"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1473.1.1 = {
+	heir = {
+		name = "Olua"
+		monarch_name = "Olua"
+		birth_Date = 1453.1.1
+		death_Date = 1476.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1476.1.1 = {
+	monarch = {
+		name = "Olua"
+		dynasty = "Abomey"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1476.1.1 = {
+	heir = {
+		name = "Ozolua"
+		monarch_name = "Ozolua"
+		dynasty = "Abomey"
+		birth_Date = 1470.1.1
+		death_Date = 1504.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1481.1.1 = {
+	monarch = {
+		name = "Ozolua"
+		dynasty = "Abomey"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1481.1.1 = {
+	heir = {
+		name = "Esigie"
+		monarch_name = "Esigie"
+		dynasty = "Abomey"
+		birth_Date = 1470.1.1
+		death_Date = 1550.1.1
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+}
+
+1504.1.1 = {
+	monarch = {
+		name = "Esigie"
+		dynasty = "Abomey"
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+}
+
+1504.1.1 = {
+	heir = {
+		name = "Orhogbua"
+		monarch_name = "Orhogbua"
+		dynasty = "Abomey"
+		birth_date = 1500.1.1
+		death_Date = 1578.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Orhogbua"
+		dynasty = "Abomey"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1550.1.1 = {
+	heir = {
+		name = "Ehengbuda"
+		monarch_name = "Ehengbuda"
+		dynasty = "Abomey"
+		birth_Date = 1550.1.1
+		death_date = 1608.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1578.1.1 = {
+	monarch = {
+		name = "Ehengbuda"
+		dynasty = "Abomey"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1578.1.1 = {
+	heir = {
+		name = "Ohuan"
+		monarch_name = "Ohuan"
+		dynasty = "Abomey"
+		birth_date = 1578.1.1
+		death_Date = 1640.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1608.1.1 = {
+	monarch = {
+		name = "Ohuan"
+		dynasty = "Abomey"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1608.1.1 = {
+	heir = {
+		name = "Ahenzae"
+		monarch_name = "Ahenzae"
+		dynasty = "Abomey"
+		birth_Date = 1608.1.1
+		death_Date = 1661.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1640.1.1 = {
+	monarch = {
+		name = "Ahenzae"
+		dynasty = "Abomey"
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1640.1.1 = {
+	heir = {
+		name = "Akenzae"
+		monarch_name = "Akenzae"
+		dynasty = "Abomey"
+		birth_date = 1640.1.1
+		death_Date = 1669.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+
+1661.1.1 = {
+	monarch = {
+		name = "Akenzae"
+		dynasty = "Abomey"
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+
+1661.1.1 = {
+	heir = {
+		name = "Akengboi"
+		monarch_name = "Akengboi"
+		dynasty = "Abomey"
+		birth_Date = 1661.1.1
+		death_Date = 1675.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1669.1.1 = {
+	monarch = {
+		name = "Akengboi"
+		dynasty = "Abomey"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1669.1.1 = {
+	heir = {
+		name = "Akenkpaye"
+		monarch_name = "Akenkpaye"
+		dynasty = "Abomey"
+		birth_Date = 1660.1.1
+		death_Date = 1684.1.1
+		claim = 95
+		adm = 7
+		dip = 5
+		mil = 3
+	}
+}
+
+1675.1.1 = {
+	monarch = {
+		name = "Akenkpaye"
+		dynasty = "Abomey"
+		adm = 7
+		dip = 5
+		mil = 3
+	}
+}
+
+1675.1.1 = {
+	heir = {
+		name = "Akengbedo"
+		monarch_name = "Akengbedo"
+		dynasty = "Abomey"
+		birth_Date = 1675.1.1
+		death_Date = 1689.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1684.1.1 = {
+	monarch = {
+		name = "Akengbedo"
+		dynasty = "Abomey"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1684.1.1 = {
+	heir = {
+		name = "Oreoghene"
+		monarch_name =" Oreoghene"
+		dynasty = "Abomey"
+		birth_Date = 1680.1.1
+		death_Date = 1700.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1689.1.1 = {
+	monarch = {
+		name = "Oreoghene"
+		dynasty = "Abomey"
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1689.1.1 = {
+	heir = {
+		name = "Ewauakpe"
+		monarch_name = "Ewauakpe"
+		dynasty = "Abomey"
+		birth_date = 1680.1.1
+		death_Date = 1712.1.1
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Ewuakpe"
+		dynasty = "Abomey"
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+1700.1.1 = {
+	heir = {
+		name = "Ozuere"
+		monarch_name = "Ozuere"
+		dynasty = "Abomey"
+		birth_Date = 1700.1.1
+		death_Date = 1713.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1712.1.1 = {
+	monarch = {
+		name = "Ozuere"
+		dynasty = "Abomey"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1712.1.1 = {
+	heir = {
+		name = "Akenzua"
+		monarch_name = "Akenzua I"
+		dynasty = "Abomey"
+		birth_date = 1690.1.1
+		death_Date = 1735.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1713.1.1 = {
+	monarch = {
+		name = "Akenzua I"
+		dynasty = "Abomey"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1713.1.1 = {
+	heir = {
+		name = "Eresonyen"
+		monarch_name = "Eresonyen"
+		dynasty = "Abomey"
+		birth_Date = 1700.1.1
+		death_date = 1750.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 8
+	}
+}
+
+1735.1.1 = {
+	monarch = {
+		name = "Eresonyen"
+		dynasty = "Abomey"
+		adm = 4
+		dip = 4
+		mil = 8
+	}
+}
+
+1735.1.1 = {
+	heir = {
+		name = "Akengbuda"
+		monarch_name = "Akengbuda"
+		dynasty = "Abomey"
+		birth_Date = 1720.1.1
+		death_Date = 1804.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1750.1.1 = {
+	monarch = {
+		name = "Akengbuda"
+		dynasty = "Abomey"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1750.1.1 = {
+	heir = {
+		name = "Obanosa"
+		monarch_name = "Obanosa"
+		dynasty = "Abomey"
+		birth_Date = 1750.1.1
+		death_Date = 1816.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1804.1.1 = {
+	monarch = {
+		name = "Obanosa"
+		dynasty = "Abomey"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1804.1.1 = {
+	heir = {
+		name = "Ogbebo"
+		monarch_name = "Ogbebo"
+		dynasty = "Abomey"
+		birth_Date = 1800.1.1
+		death_date = 1818.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1816.1.1 = {
+	monarch = {
+		name = "Ogbebo"
+		dynasty = "Abomey"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1816.1.1 = {
+	heir = {
+		name = "Osemwede"
+		monarch_name = "Osemwede"
+		dynasty = "Abomey"
+		birth_Date = 1800.1.1
+		death_Date = 1835.1.1
+		claim = 95
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1818.1.1 = {
+	monarch = {
+		name = "Osemwede"
+		dynasty = "Abomey"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}

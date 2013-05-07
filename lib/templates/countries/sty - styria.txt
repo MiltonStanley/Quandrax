@@ -1,0 +1,44 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = 0
+quality_quantity = 0
+serfdom_freesubjects = -1
+technology_group = western
+religion = catholic
+primary_culture = austrian
+capital = 132	# Graz
+
+
+1386.7.10 = {
+	monarch = {
+		name = "Wilhelm I"
+		dynasty = "von Habsburg"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1406.7.16 = {
+	monarch = {
+		name = "Ernst I"
+		dynasty = "von Habsburg"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1424.6.11 = {
+	monarch = {
+		name = "Friedrich III"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 8
+		mil = 4
+	}
+}

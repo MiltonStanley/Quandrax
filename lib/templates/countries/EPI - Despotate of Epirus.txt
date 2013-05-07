@@ -1,0 +1,53 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -4
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+capital = 144 # Ioannina
+
+1385.1.1 = {
+	monarch = {
+		name = "Esau I"
+		dynasty = "de Buondelmonti"
+		DIP = 4
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1411.2.6 = {
+	monarch = {
+		name = "Giorgio I"
+		dynasty = "de Buondelmonti"
+		DIP = 3
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1411.2.26 = {
+	monarch = {
+		name = "Carlo I"
+		dynasty = "Tocco"
+		DIP = 7
+		ADM = 7
+		MIL = 6
+	}
+}
+
+1429.6.4 = {
+	monarch = {
+		name = "Carlo II"
+		dynasty = "Tocco"
+		DIP = 3
+		ADM = 4
+		MIL = 6
+	}
+}

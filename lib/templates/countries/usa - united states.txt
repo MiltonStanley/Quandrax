@@ -1,0 +1,128 @@
+government = constitutional_republic
+aristocracy_plutocracy = 1
+centralization_decentralization = 1
+innovative_narrowminded = -1
+mercantilism_freetrade = -2
+offensive_defensive = 2
+land_naval = -1
+quality_quantity = 1
+serfdom_freesubjects = 5
+technology_group = western
+primary_culture = american
+religion = protestant
+capital = 965	# New York
+
+
+1700.1.1 = { decision = agricultural_cultivation }
+
+1700.9.6  = {
+	monarch = {
+		name = "The Continental Congress"
+		adm = 8	
+		dip = 7	
+		mil = 7
+	}
+}
+
+1750.1.1  = { leader = {	name = "Baron von Steuben"     	type = general	rank = 3	fire = 3	shock = 3	manuever = 4	siege = 0 death_date = 1794.11.28 } }
+
+1755.1.1  = { leader = {	name = "Anthony Wayne"         	type = general	rank = 4	fire = 2	shock = 3	manuever = 5	siege = 0  death_date = 1795.12.15 } }
+
+1765.1.1  = { leader = {	name = "George Washington"     	type = general	rank = 1	fire = 2	shock = 2	manuever = 6	siege = 0  death_date = 1799.12.14 } }
+
+1770.1.1  = { leader = {	name = "Horatio Gates"         	type = general	rank = 2	fire = 2	shock = 2	manuever = 2	siege = 0  death_date = 1806.4.10 } }
+
+1770.1.1  = { leader = {	name = "Charles Lee"          	type = general	rank = 3	fire = 2	shock = 3	manuever = 3	siege = 0  death_date = 1782.10.2 } }
+
+1770.1.1  = { leader = {	name = "Nathanael Greene"      	type = general	rank = 4	fire = 2	shock = 2	manuever = 4	siege = 0  death_date = 1786.6.19 } }
+
+1770.1.1  = { leader = {	name = "Benjamin Lincoln"      	type = general	rank = 5	fire = 2	shock = 2	manuever = 3	siege = 0  death_date = 1810.5.9 } }
+
+1773.1.1  = { quality_quantity = -1 offensive_defensive = 1 } # The Creation of the Continental Army
+
+1775.1.1  = { leader = {	name = "Benedict Arnold"        type = general	rank = 1	fire = 3	shock = 4	manuever = 4	siege = 0  death_date = 1780.7.1 } }
+
+1776.1.1  = { leader = {	name = "Thaddeus Kosciuszko"    type = general	rank = 7	fire = 3	shock = 3	manuever = 4	siege = 0  death_date = 1784.7.1 } }
+
+1776.12.1 = { leader = {	name = "George Rogers Clark"	type = general	rank = 5	fire = 1	shock = 1	manuever = 4	siege = 0  death_date = 1793.2.2 } }
+
+1777.1.1  = { leader = {	name = "Casimir Pulaski"        type = general	rank = 6	fire = 2	shock = 3	manuever = 4	siege = 0  death_date = 1779.10.11 } }
+
+1780.1.1  = { leader = {	name = "Gilbert Lafayette" 	type = general	rank = 6	fire = 2	shock = 2	manuever = 4	siege = 0  death_date = 1834.5.20 } }
+
+1786.10.1 = { aristocracy_plutocracy = 0 centralization_decentralization = 2 serfdom_freesubjects = 5 } # The US Constitution
+
+1789.4.30 = {
+	monarch = {
+		name = "George Washington"
+		adm = 8	
+		dip = 8	
+		mil = 9
+	}
+}
+
+1776.1.1 = { capital = 956 } # Philadelphia
+
+1789.3.4  = { capital = 965 } # New York
+
+1790.12.6  = { capital = 956 } # Philadelphia
+
+1800.5.14 = { capital = 953 } # Washington
+
+1797.3.4  = { aristocracy_plutocracy = -1 centralization_decentralization = 0 } # US.Presidential Election of 1796
+
+1797.3.4  = {
+	monarch = {
+		name = "John Adams"
+		adm = 8	
+		dip = 7	
+		mil = 5
+	}
+}
+
+1799.1.1 = { decision = judiciary_act }
+
+1800.1.1  = { leader = {	name = "Solomon van Rensselaer"	type = general	rank = 5	fire = 4	shock = 4	manuever = 4	siege = 0  death_date =  1852.4.23 } }
+
+1801.3.4  = { centralization_decentralization = 1 aristocracy_plutocracy = 0 } # US.Presidential Election of 1800
+
+1801.3.4 = {
+	monarch = {
+		name = "Thomas Jefferson"
+		adm = 8
+		dip = 7
+		mil = 6
+	}
+}
+
+1804.1.1 = { decision = abolish_slavery_act }
+
+1805.1.1  = { leader = {	name = "William Hull"		type = general	rank = 4	fire = 2	shock = 2	manuever = 3	siege = 0  death_date = 1825.11.29 } }
+
+1808.1.1  = { leader = {	name = "Wade Hampton I"		type = general	rank = 5	fire = 3	shock = 2	manuever = 2	siege = 0 death_date =  1814.4.6 } }
+
+1812.1.27 = { leader = {	name = "Henry Dearborn"		type = general	rank = 5	fire = 2	shock = 2	manuever = 3	siege = 0  death_date = 1813.7.6 } }
+
+1809.3.4  = {
+	monarch = {
+		name = "James Madison"	
+		adm = 8	
+		dip = 8	
+		mil = 6
+	}
+}
+
+1810.1.1  = { leader = {	name = "William H. Harrison"	type = general	rank = 2	fire = 3	shock = 3	manuever = 4	siege = 1  death_date = 1813.10.5 } }
+
+1810.1.1  = { leader = {	name = "Oliver Hazard Perry"	type = admiral	rank = 1	fire = 5	shock = 4	manuever = 5	siege = 0  death_date = 1819.8.29 } }
+
+1812.1.1  = { leader = {	name = "James Wilkinson"	type = general	rank = 2	fire = 2	shock = 3	manuever = 2	siege = 0  death_date = 1825.12.28 } }
+
+1817.3.4  = {
+	monarch = {
+		name = "James Monroe"
+		adm = 9	
+		dip = 8	
+		mil = 6
+	}
+}

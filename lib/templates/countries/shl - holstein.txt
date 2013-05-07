@@ -1,0 +1,278 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = -4
+primary_culture = hannoverian
+religion = catholic
+technology_group = western
+capital = 1775	# Kiel
+
+
+1381.1.1 = {
+	monarch = {
+		name = "Gerhard VI"
+		dynasty = "von Schauenburg"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1397.1.1 = {
+	heir = {
+		name = "Heinrich"
+		monarch_name = "Heinrich IV"
+		dynasty = "von Schauenburg"
+		birth_date = 1397.1.1
+		death_date = 1427.5.28
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1404.1.1 = {
+	monarch = {
+		name = "Heinrich IV"
+		dynasty = "von Schauenburg"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1404.1.1 = {
+	heir = {
+		name = "Adolf"
+		monarch_name = "Adolf VIII"
+		dynasty = "von Schauenburg"
+		birth_date = 1401.1.1
+		death_date = 1459.12.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1427.5.29 = {
+	monarch = {
+		name = "Adolf VIII"
+		dynasty = "von Schauenburg"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+# Danish Province
+
+1544.1.1 = {
+	monarch = {
+		name = "Adolf IX"
+		dynasty = "von Holstein-Gottorp"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1568.4.21 = {
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich II"
+		dynasty = "von Holstein-Gottorop"
+		birth_date = 1568.4.21
+		death_date = 1587.6.15
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1586.10.2 = {
+	monarch = {
+		name = "Friedrich II"
+		dynasty = "von Holstein-Gottorp"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1586.10.2 = {
+	heir = {
+		name = "Philipp"
+		monarch_name = "Philipp"
+		dynasty = "von Holstein-Gottorp"
+		birth_date = 1570.8.10
+		death_date = 1590.10.18
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1587.6.16 = {
+	monarch = {
+		name = "Philipp"
+		dynasty = "von Holstein-Gottorp"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1587.6.16 = {
+	heir = {
+		name = "Johann Adolf"
+		monarch_name = "Johann Adolf"
+		dynasty = "von Holstein-Gottorp"
+		birth_date = 1575.2.27
+		death_date = 1616.3.31
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1590.10.19 = {
+	monarch = {
+		name = "Johann Adolf"
+		dynasty = "von Holstein-Gottorp"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1597.12.22 = {
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich III"
+		dynasty = "von Holstein-Gottorp"
+		birth_date = 1597.12.22
+		death_date = 1659.8.10
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1616.3.30 = {
+	monarch = {
+		name = "Friedrich III"
+		dynasty = "von Holstein-Gottorp"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1641.2.3 = {
+	heir = {
+		name = "Christian Albrecht"
+		monarch_name = "Christian Albrecht"
+		dynasty = "von Holstein-Gottorp"
+		birth_date = 1641.2.3
+		death_date = 1695.1.6
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1659.8.11 = {
+	monarch = {
+		name = "Christian Albrecht"
+		dynasty = "von Holstein-Gottorp"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1671.10.18 = {
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich IV"
+		dynasty = "von Holstein-Gottorop"
+		birth_date = 1671.10.18
+		death_date = 1702.7.20
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1695.1.7 = {
+	monarch = {
+		name = "Friedrich IV"
+		dynasty = "von Holstein-Gottorp"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1700.4.30 = {
+	heir = {
+		name = "Karl Friedrich"
+		monarch_name = "Karl Friedrich"
+		dynasty = "von Holstein-Gottorp"
+		birth_date = 1700.4.30
+		death_date = 1739.6.18
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1702.7.20 = {
+	monarch = {
+		name = "Karl Friedrich"
+		dynasty = "von Holstein-Gottorp"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1728.2.21 = {
+	heir = {
+		name = "Karl Peter Ulrich"
+		monarch_name = "Karl Peter Ulrich"
+		dynasty = "von Holstein-Gottorp"
+		birth_date = 1728.2.21
+		death_date = 1762.7.17
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1739.6.19 = {
+	monarch = {
+		name = "Karl Peter Ulrich"
+		dynasty = "von Holstein-Gottorp"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+# Personal Union with Russia, and later ceded to Denmark.

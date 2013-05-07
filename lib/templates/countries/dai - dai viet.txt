@@ -1,0 +1,895 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = 0
+quality_quantity = 3
+serfdom_freesubjects = -2
+primary_culture = vietnamese
+religion = buddhism
+technology_group = chinese
+capital = 613	# Hanoi
+
+
+1398.1.1 = {
+	monarch = {
+		name = "Tran Thieu De"
+		dynasty = "Tran"
+		adm = 3
+		dip = 6
+		mil = 5
+	}
+}
+
+1398.1.1 = {
+	heir = {
+		name = "Kui Li"
+		monarch_name = "Kui Li"
+		dynasty = "Ho"
+		birth_date = 1370.1.1
+		death_date = 1400.6.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1400.1.1 = {
+	monarch = {
+		name = "Kui Li"
+		dynasty = "Ho"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1400.1.1 = {
+	heir = {
+		name = "Han Thuong"
+		monarch_name = "Han Thuong"
+		dynasty = "Ho"
+		birth_date = 1380.1.1
+		death_date = 1407.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1400.6.1 = {
+	monarch = {
+		name = "Han Thuong"
+		dynasty = "Ho"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1400.6.1 = {
+	heir = {
+		name = "Hau Tran Jian Dinh De"
+		monarch_name = "Hau Tran Jian Dinh De"
+		dynasty = "Tran"
+		birth_date = 1387.1.1
+		death_Date = 1409.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1407.1.1 = {
+	monarch = {
+		name = "Hau Tran Jian Dinh De"
+		dynasty = "Tran"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1407.1.1 = {
+	heir = {
+		name = "Hau Tran"
+		monarch_name = "Hau Tran"
+		dynasty = "Tran"
+		birth_date = 1380.1.1
+		death_date = 1427.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1409.1.1 = {
+	monarch = {
+		name = "Hau Tran"
+		dynasty = "Tran"
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1409.1.1 = {
+	heir = {
+		name = "Lê Loi"
+		monarch_name = "Lê Loi"
+		dynasty = "Hau Le"
+		birth_date = 1409.1.1
+		death_date = 1438.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+		leader = { name = "Lê Loi"	type = general	rank = 1	fire = 4	shock = 4	manuever = 5	siege = 0 }
+	}
+}
+
+1427.1.1 = {
+	monarch = {
+		name = "Lê Loi"
+		dynasty = "Hau Le"
+		adm = 5
+		dip = 5
+		mil = 5
+		leader = { name = "Lê Loi"	type = general	rank = 1	fire = 4	shock = 4	manuever = 5	siege = 0 }
+	}
+}
+
+1427.1.1 = {
+	heir = {
+		name = "Le Thai Tong"
+		monarch_name = "Le Thai Tong"
+		dynasty = "Hau Le"
+		birth_date = 1423.1.1
+		death_date = 1442.9.8
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1438.1.1 = {
+	monarch = {
+		name = "Le Thai Tong"
+		dynasty = "Hau Le"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1441.1.1 = {
+	heir = {
+		name = "Le Nhan Tong"
+		monarch_name = "Le Nhan Tong"
+		dynasty = "Hau Le"
+		birth_date = 1441.1.1
+		death_date = 1459.10.29
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1453.9.8 = {
+	monarch = {
+		name = "Le Nhan Tong"
+		dynasty = "Hau Le"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1453.9.8 = {
+	heir = {
+		name = "Le Thanh Tong"
+		monarch_name = "Le Than Tong"
+		dynasty = "Hau Le"
+		birth_Date = 1442.1.1
+		death_date = 1497.3.4
+		claim = 95
+		adm = 8
+		dip = 6
+		mil = 5
+	}
+}
+
+1460.1.1 = { centralization_decentralization = 2 } # Le Nghi Dan's Reforms
+
+1460.6.29 = {
+	monarch = {
+		name = "Le Thanh Tong"
+		dynasty = "Hau Le"
+		adm = 8
+		dip = 6
+		mil = 5
+	}
+}
+
+1460.6.29 = {
+	heir = {
+		name = "Le Hien Tong"
+		monarch_name = "Le Hien Tong"
+		dynasty = "Hau Le"
+		birth_date = 1460.1.1
+		death_date = 1504.6.25
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1492.1.1 = {leader = {	name = "Hong Duc"              	type = general	rank = 0	fire = 1	shock = 3	manuever = 4	siege = 0	death_date = 1497.1.1 } }
+
+1497.3.4 = {
+	monarch = {
+		name = "Le Hien Tong"
+		dynasty = "Hau Le"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1497.3.4 = {
+	heir = {
+		name = "Le Tuc Tong"
+		monarch_name = "Le Tuc Tong"
+		dynasty = "Hau Le"
+		birth_date = 1487.1.1
+		death_date = 1504.12.9
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1504.6.25 = {
+	monarch = {
+		name = "Le Tuc Tong"
+		dynasty = "Hau Le"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1504.6.25 = {
+	heir = {
+		name = "Le Uy Muc"
+		monarch_name = "Le Uy Muc"
+		dynasty = "Hau Le"
+		birth_date = 1487.1.1
+		death_date = 1510.6.11
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1504.12.9 = {
+	monarch = {
+		name = "Le Uy Muc"
+		dynasty = "Hau Le"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1504.12.9 = {
+	heir = {
+		name = "Le Tuong Duc"
+		monarch_name = "Le Tuong Duc"
+		dynasty = "Hau Le"
+		birth_Date = 1492.1.1
+		death_Date = 1516.5.9
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1510.6.11 = {
+	monarch = {
+		name = "Le Tuong Duc"
+		dynasty = "Hau Le"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1510.6.11 = {
+	heir = {
+		name = "Le Chieu Tong"
+		monarch_name = "Le Chieu Tong"
+		dynasty = "Hau Le"
+		birth_Date = 1496.1.1
+		death_date = 1522.1.20
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1516.5.9 = {
+	monarch = {
+		name = "Le Chieu Tong"
+		dynasty = "Hau Le"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1516.5.9 = {
+	heir = {
+		name = "Le Cung Hoang"
+		monarch_name = "Le Cung Hoang"
+		dynasty = "Hau Le"
+		birth_date = 1506.1.1
+		death_date = 1527.7.13
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1522.1.20 = {
+	monarch = {
+		name = "Le Cung Hoang"
+		dynasty = "Hau Le"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+
+1527.7.13 = {
+	monarch = {
+		name = "Mac Ðang Dung"
+		dynasty = "Mac"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1527.7.13 = {
+	heir = {
+		name = "Mac Dang Doanh"
+		dynasty = "Mac"
+		birth_date = 1500.1.1
+		death_date = 1533.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1529.2.1 = {
+	monarch = {
+		name = "Mac Dang Doanh"
+		dynasty = "Mac"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1529.2.1 = {
+	heir = {
+		name = "Trang Tong"
+		monarch_name = "Trang Tong"
+		dynasty = "Lê"
+		birth_date = 1500.1.1 
+		death_Date = 1548.3.10
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1533.1.1 = {
+	monarch = {
+		name = "Trang Tong"
+		dynasty = "Lê"
+		adm = 4
+		dip = 4
+		mil = 4
+		
+	}
+}
+
+1533.1.1 = {
+	heir = {
+		name = "Trung Tong"
+		monarch_name = "Trung Tong"
+		dynasty = "Lê"
+		birth_date = 1510.1.1
+		death_date = 1556.3.6
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1533.1.1 = { leader = {	name = "Nguyen Kim"            	type = general	rank = 0	fire = 2	shock = 1	manuever = 2	siege = 1	death_date = 1550.1.1 } }
+
+1545.1.1 = { leader = {	name = "Trinh Kiem"            	type = general	rank = 0	fire = 1	shock = 3	manuever = 3	siege = 0	death_date = 1568.1.1 } }
+
+1548.3.10 = {
+	monarch = {
+		name = "Trung Tong"
+		dynasty = "Lê"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1548.3.10 = {
+	heir = {
+		name = "Anh Tong"
+		monarch_name = "Anh Tong"
+		dynasty = "Lê"
+		birth_date = 1520.1.1
+		death_date = 1573.2.2
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1556.3.6 = {
+	monarch = {
+		name = "Anh Tong"
+		dynasty = "Lê"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1556.3.6 = {
+	heir = {
+		name = "The Tong"
+		monarch_name = "The Tong"
+		dynasty = "Lê"
+		birth_date = 1530.1.1
+		death_date = 1599.10.17
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1573.2.2 = {
+	monarch = {
+		name = "The Tong"
+		dynasty = "Lê"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1587.1.1 = {
+	heir = {
+		name = "Kinh Tong"
+		monarch_name = "Kinh Tong"
+		dynasty = "Lê"
+		birth_date = 1587.1.1
+		death_date = 1619.6.24
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1599.10.17 = {
+	monarch = {
+		name = "Kinh Tong"
+		dynasty = "Lê"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1599.10.17 = {
+	heir = {
+		name = "Than Tong"
+		monarch_name = "Than Tong"
+		dynasty = "Lê"
+		birth_date = 1587.1.1
+		death_date = 1643.11.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1619.6.24 = {
+	monarch = {
+		name = "Than Tong"
+		dynasty = "Lê"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1623.1.1 = { leader = {	name = "Trinh Trang"           	type = general	rank = 0	fire = 2	shock = 3	manuever = 2	siege = 0	death_date = 1654.1.1 } }
+
+1623.1.1 = {
+	heir = {
+		name = "Chan Tong"
+		monarch_name = "Chan Tong"
+		dynasty = "Lê"
+		birth_date = 1623.1.1
+		death_Date = 1649.10.3
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1627.1.1 = { leader = {	name = "Admiral Nguyen"        	type = admiral	rank = 0	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1635.1.1  } }
+
+1643.11.1 = {
+	monarch = {
+		name = "Chan Tong"
+		dynasty = "Lê"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1643.11.1 = {
+	heir = {
+		name = "Than Tong"
+		monarch_name = "Than Tong"
+		dynasty = "Lê"
+		birth_date = 1606.1.1
+		death_date = 1662.11.23
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1649.10.3 = {
+	monarch = {
+		name = "Than Tong"
+		dynasty = "Lê"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1653.1.1 = {
+	heir = {
+		name = "Huyen Tong"
+		monarch_name = "Huyen Tong"
+		dynasty = "Lê"
+		birth_date = 1653.1.1
+		death_date = 1672.11.17
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1662.11.23 = {
+	monarch = {
+		name = "Huyen Tong"
+		dynasty = "Lê"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1662.11.23 = {
+	heir = {
+		name = "Gia Tong"
+		monarch_name = "Gia Tong"
+		dynasty = "Lê"
+		birth_date = 1660.1.1
+		death_Date = 1675.4.28
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1672.11.17 = {
+	monarch = {
+		name = "Gia Tong"
+		dynasty = "Lê"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1672.11.17 = {
+	heir = {
+		name = "Hi Tong"
+		monarch_name = "Hi Tong"
+		dynasty = "Lê"
+		birth_date = 1650.1.1
+		death_date = 1705.5.23
+		claim  = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1675.4.28 = {
+	monarch = {
+		name = "Hi Tong"
+		dynasty = "Lê"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1676.1.1 = {
+	heir = {
+		name = "Du Tong"
+		monarch_name = "Du Tong"
+		dynasty = "Lê"
+		birth_date = 1676.1.1
+		death_date = 1729.4.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1687.1.1 = { leader = {	name = "Ngai Vuong"            	type = general	rank = 0	fire = 2	shock = 1	manuever = 3	siege = 0	death_date = 1702.1.1 } }
+
+1705.5.23 = {
+	monarch = {
+		name = "Le Du Tong"
+		dynasty = "Lê"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1705.5.23 = {
+	heir = {
+		name = "Duy Phuong"
+		monarch_name = "Duy Phuong"
+		dynasty = "Lê"
+		birth_Date = 1705.5.23
+		death_date = 1732.11.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1715.1.1 = { leader = {	name = "Nguyen Cho"            	type = general	rank = 0	fire = 2	shock = 2	manuever = 1	siege = 1	death_date = 1725.1.1 } }
+
+1729.4.1 = {
+	monarch = {
+		name = "Duy Phuong"
+		dynasty = "Lê"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1729.4.1 = {
+	heir = {
+		name = "Thuan Tong"
+		monarch_name = "Thuan Tong"
+		dynasty = "Lê"
+		birth_date = 1698.1.1
+		death_date = 1735.5.8
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1732.11.1 = {
+	monarch = {
+		name = "Thuan Tong"
+		dynasty = "Lê"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1732.1.1 = {
+	heir = {
+		name = "Y Tong"
+		monarch_name = "Y Tong"
+		dynasty = "Lê"
+		birth_date = 1699.1.1
+		death_date = 1740.6.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1735.5.8 = {
+	monarch = {
+		name = "Y Tong"
+		dynasty = "Lê"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1735.5.8 = {
+	heir = {
+		name = "Hien Tong"
+		monarch_name = "Le Hien Tong"
+		dynasty = "Lê"
+		birth_Date = 1716.1.1
+		death_date = 1776.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1738.1.1 = { leader = {	name = "Nguyen Khoat"          	type = conquistador	rank = 0	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1765.1.1 } }
+
+1740.6.1 = {
+	monarch = {
+		name = "Le Hien Tong"
+		dynasty = "Trinh"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1767.1.1 = { leader = {	name = "Trinh Sam"             	type = general		rank = 0	fire = 2	shock = 3	manuever = 1	siege = 0	death_date = 1782.1.1 } }
+
+1776.1.1 = {
+	monarch = {
+		name = "Nguyen Nhac"
+		dynasty = "Tay Son"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1776.1.1 = {
+	heir = {
+		name = "Nguyen Hue"
+		monarch_name = "Nguyen Hue"
+		dynasty = "Tay Son"
+		birth_Date = 1753.1.1
+		death_date = 1792.1.1
+		claim = 95
+		adm = 5
+		dip = 8
+		mil = 8
+	}
+}
+
+1788.1.1 = { leader = {	name = "Nguyen Hue"            	type = general		rank = 0	fire = 2	shock = 3	manuever = 4	siege = 1	death_date = 1792.1.1  } }
+
+1788.9.16 = {
+	monarch = {
+		name = "Nguyen Hue"
+		dynasty = "Tay Son"
+		adm = 5
+		dip = 8
+		mil = 8
+	}
+}
+
+1788.9.16 = {
+	heir = {
+		name = "Nguyen Quang Toan"
+		monarch_name = "Nguyen Quang Toan"
+		dynasty = "Tay Son"
+		birth_date = 1782.1.1
+		death_date = 1802.7.21
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1792.1.1 = {
+	monarch = {
+		name = "Nguyen Quang Toan"
+		dynasty = "Tay Son"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1802.7.21 = {
+	monarch = {
+		name = "Gia Long"
+		dynasty = "Nguyen"
+		adm = 8
+		dip = 8
+		mil = 8
+	}
+}
+
+1802.7.21 = {
+	heir = {
+		name = "Minh Mang"
+		monarch_name = "Minh Mang"
+		dynasty = "Nguyen"
+		birth_date = 1791.2.14
+		death_date = 1841.1.20
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1820.2.14 = {
+	monarch = {
+		name = "Minh Mang"
+		dynasty = "Nguyen"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}

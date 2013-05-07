@@ -1,0 +1,27 @@
+government = noble_republic
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -4
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -1
+technology_group = western
+religion = catholic
+primary_culture = hannoverian
+capital = 44	# Hamburg
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Der Senat"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1529.1.1 = { religion = protestant }
+
+1529.1.1 = { government = administrative_republic }

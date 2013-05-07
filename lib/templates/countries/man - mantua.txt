@@ -1,0 +1,366 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = 1
+quality_quantity = -1
+serfdom_freesubjects = -2
+primary_culture = lombard
+religion = catholic
+technology_group = western
+capital = 109	# Mantova
+
+
+1382.1.1 = {
+	monarch = {
+		name = "Francesco I"
+		dynasty = "Gonzaga"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1395.1.1 = {
+	heir = {
+		name = "Gianfrancesco"
+		monarch_name = "Gianfrancesco I"
+		dynasty = "Gonzaga"
+		birth_date = 1395.1.1
+		death_date = 1444.9.23
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1407.1.1 = {
+	monarch = {
+		name = "Gianfrancesco I"
+		dynasty = "Gonzaga"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1412.6.5 = {
+	heir = {
+		name = "Ludovico"
+		monarch_name = "Ludovico III il Turco"
+		dynasty = "Gonzaga"
+		birth_date = 1412.6.5
+		death_date = 1478.6.12
+		claim = 95
+		adm = 9
+		dip = 7
+		mil = 6
+	}
+}
+
+1444.9.23 = {
+	monarch = {
+		name = "Lodovico III il Turco"
+		dynasty = "Gonzaga"
+		adm = 9
+		dip = 7
+		mil = 6
+	}
+}
+
+1444.9.23 = {
+	heir = {
+		name = "Federico"
+		monarch_name = "Federico I"
+		dynasty = "Gonzaga"
+		birth_date = 1441.6.25
+		death_date = 1484.7.14
+		claim = 95
+		adm = 7
+		dip = 9
+		mil = 4
+	}
+}
+
+1478.6.13 = {
+	monarch = {
+		name = "Federico I"
+		dynasty = "Gonzaga"
+		adm = 7
+		dip = 9
+		mil = 4
+	}
+}
+
+1478.6.13 = {
+	heir = {
+		name = "Francesco"
+		monarch_name = "Francesco II"
+		dynasty = "Gonzaga"
+		birth_date = 1466.8.10
+		death_date = 1519.3.29
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1484.7.15 = {
+	monarch = {
+		name = "Francesco II"
+		dynasty = "Gonzaga"
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1500.5.17 = {
+	heir = {
+		name = "Federico"
+		monarch_name = "Federico II"
+		dynasty = "Gonzago"
+		birth_date = 1500.5.17
+		death_date = 1540.8.28
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1519.5.30 = { government = despotic_monarchy }
+
+1519.5.30 = {
+	monarch = {
+		name = "Federico II"
+		dynasty = "Gonzaga"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1533.3.10 = {
+	heir = {
+		name = "Francesco"
+		monarch_name = "Francesco III"
+		dynasty = "Gonzaga"
+		birth_date = 1533.3.10
+		death_date = 1550.2.22
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1540.6.29 = {
+	monarch = {
+		name = "Francesco III"
+		dynasty = "Gonzaga"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1540.6.29 = {
+	heir = {
+		name = "Guglielmo"
+		monarch_name = "Guglielmo"
+		dynasty = "Gonzaga"
+		birth_date = 1538.4.24
+		death_date = 1587.8.14
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1550.2.21 = {
+	monarch = {
+		name = "Guglielmo"
+		dynasty = "Gonzaga"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1562.9.21 = {
+	heir = {
+		name = "Vincenzo"
+		monarch_name = "Vincenzo I"
+		dynasty = "Gonzaga"
+		birth_date = 1562.9.21
+		death_date = 1612.2.9
+		claim = 95
+		adm = 8
+		dip = 8
+		mil = 4
+	}
+}
+
+1587.8.15 = {
+	monarch = {
+		name = "Vincenzo I"
+		dynasty = "Gonzaga"
+		adm = 8
+		dip = 8
+		mil = 4
+	}
+}
+
+1587.8.15 = {
+	heir = {
+		name = "Francesco"
+		monarch_name = "Francesco IV"
+		dynasty = "Gonzaga"
+		birth_date = 1586.5.7
+		death_date = 1612.12.22
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1612.2.17 = {
+	monarch = {
+		name = "Francesco IV"
+		dynasty = "Gonzaga"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1612.2.17 = {
+	heir = {
+		name = "Ferdinando"
+		monarch_name = "Ferdinando"
+		dynasty = "Gonzaga"
+		birth_date = 1587.4.26
+		death_date = 1626.10.29
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1612.12.23 = {
+	monarch = {
+		name = "Ferdinando"
+		dynasty = "Gonzaga"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1612.12.23 = {
+	heir = {
+		name = "Vincenzo"
+		monarch_name = "Vincenzo II"
+		dynasty = "Gonzaga"
+		birth_date = 1594.1.7
+		death_date = 1627.12.25
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1626.10.30 = {
+	monarch = {
+		name = "Vincenzo II"
+		dynasty = "Gonzaga"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1626.10.30 = {
+	heir = {
+		name = "Carlo"
+		monarch_name = "Carlo I"
+		dynasty = "Gonzaga"
+		birth_date = 1580.5.6
+		death_date = 1637.9.22
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1627.12.26 = { government = absolute_monarchy }
+
+1627.12.26 = {
+	monarch = {
+		name = "Carlo I"
+		dynasty = "Gonzaga"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1629.10.3 = {
+	heir = {
+		name = "Carlo"
+		monarch_name = "Carlo II"
+		dynasty = "Gonzaga"
+		birth_date = 1629.10.3
+		death_date = 1665.8.14
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+		
+
+1637.9.22 = {
+	monarch = {
+		name = "Carlo II"
+		dynasty = "Gonzaga"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1652.8.31 = {
+	heir = {
+		name = "Ferdinando Carlo"
+		monarch_name = "Ferdinando Carlo"
+		dynasty = "Gonzaga"
+		birth_date = 1652.8.31
+		death_date = 1708.7.5
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+
+1665.8.15 = {
+	monarch = {
+		name = "Ferdinando Carlo"
+		dynasty = "Gonzaga"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

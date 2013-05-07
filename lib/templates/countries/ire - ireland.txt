@@ -1,0 +1,26 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 5
+innovative_narrowminded = 2
+mercantilism_freetrade = 0
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = 1
+serfdom_freesubjects = -2
+technology_group = western
+primary_culture = irish
+religion = catholic
+capital = 373	# Dublin
+
+
+1542.8.1 = { centralization_decentralization = 4 aristocracy_plutocracy = -4 } # Queen Elizabeth's Offer
+
+1641.1.30 = {
+	monarch = {
+		name = "Aedh XIV"
+		dynasty = "mac Eóghain"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}

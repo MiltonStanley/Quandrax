@@ -1,0 +1,130 @@
+government = tribal_despotism
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = 1
+quality_quantity = 3
+serfdom_freesubjects = -2
+technology_group = muslim
+religion = sunni
+primary_culture = tuareg
+capital = 354	# Tripoli
+
+1399.1.1 = {
+	monarch = {
+		name = "Berber Tribes"
+		regent = yes
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+	
+
+1711.7.30 = {
+	monarch = {
+		name = "Ahmad I"
+		dynasty = "Karamanli"
+		adm = 7
+		dip = 4
+		mil = 6
+	}
+}
+
+1711.7.30 = {
+	heir = {
+		name = "Mehmed"
+		monarch_name = "Mehmed I"
+		dynasty = "Karamanli"
+		birth_date = 1700.1.1
+		death_Date = 1754.7.25
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1745.11.4 = {
+	monarch = {
+		name = "Mehmed I"
+		dynasty = "Karamanli"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1745.11.4 = {
+	heir = {
+		name = "'Alî"
+		monarch_name = "'Alî I"
+		dynasty = "Karamanli"
+		birth_Date = 1730.1.1
+		death_date = 1793.7.30
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1754.7.25 = {
+	monarch = {
+		name = "'Alî I"
+		dynasty = "Karamanli"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1754.7.25 = {
+	heir = {
+		name = "'Alî Borgul"
+		monarch_name = "'Alî Borgul"
+		dynasty = "Karamanli"
+		birth_date = 1750.1.1
+		death_date = 1795.1.22
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1793.7.30 = {
+	monarch = {
+		name = "'Alî Borgul"
+		dynasty = "Karamanli"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1793.7.30 = {
+	heir = {
+		name = "Yusuf"
+		monarch_name = "Yusuf"
+		dynasty = "Karamanli"
+		birth_Date = 1780.1.1
+		death_date = 1832.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1795.1.22 = {
+	monarch = {
+		name = "Yusuf"
+		dynasty = "Karamanli"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}

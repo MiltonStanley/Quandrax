@@ -1,0 +1,184 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -4
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -1
+technology_group = indian
+religion = sunni
+primary_culture = telegu
+capital = 543	# Golcanda
+
+
+1397.1.1 = {
+	monarch = {
+		name = "Taj ud-Din Firuz"
+		dynasty = "Bahmanid"
+		DIP = 4
+		ADM = 6
+		MIL = 5
+	}
+}
+
+1397.1.1 = {
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad Shah I Wali"
+		dynasty = "Bahmanid"
+		birth_date = 1390.1.1
+		death_date = 1436.4.17
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1422.1.1 = {
+	monarch = {
+		name = "Ahmad Shah I Wali"
+		dynasty = "Bahmanid"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1422.1.1 = {
+	heir = {
+		name = "Ala ud-Din Ahmad"
+		monarch_name = "Ala ud-Din Ahmad Shah II"
+		dynasty = "Bahmanid"
+		birth_Date = 1410.1.1
+		death_Date = 1458.5.6
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1436.4.17 = {
+	monarch = {
+		name = "Ala ud-Din Ahmad Shah II"
+		dynasty = "Bahmanid"
+		DIP = 4
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1436.4.17 = {
+	heir = {
+		name = "Ala ud-Din Humayun"
+		monarch_name = "Ala ud-Din Humanyun Shah"
+		dynasty = "Bahmanid"
+		birth_date = 1410.1.1
+		death_Date = 1461.9.4
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1458.5.6 = {
+	monarch = {
+		name = "Ala ud-Din Humayun Shah"
+		dynasty = "Bahmanid"
+		DIP = 3
+		ADM = 3
+		MIL = 5
+	}
+}
+
+1458.5.6 = {
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad Shah III"
+		dynasty = "Bahmanid"
+		birth_date = 1440.1.1
+		death_date = 1463.7.30
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1461.9.4 = {
+	monarch = {
+		name = "Ahmad Shah III"
+		dynasty = "Bahmanid"
+		DIP = 3
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1461.9.4 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad Shah III"
+		dynasty = "Bahmanid"
+		birth_date = 1440.1.1
+		death_date = 1482.3.26
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1463.7.30 = {
+	monarch = {
+		name = "Muhammad Shah III"
+		dynasty = "Bahmanid"
+		DIP = 5
+		ADM = 5
+		MIL = 3
+	}
+}
+
+1463.7.30 = {
+	heir = {
+		name = "Mahmud"
+		monarch_name = "Mahmud Shah II"
+		dynasty = "Bahmanid"
+		birth_date = 1450.1.1
+		death_date = 1518.12.18
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1482.3.26 = {
+	monarch = {
+		name = "Mahmud Shah II"
+		dynasty = "Bahmanid"
+		DIP = 3
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1490.1.1 = {
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad Shah III"
+		dynasty = "Bahmanid"
+		birth_Date = 1490.1.1
+		death_date = 1521.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+#Replaced with Golconda 18 December 1518.

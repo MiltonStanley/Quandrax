@@ -1,0 +1,107 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = -2
+quality_quantity = 3
+serfdom_freesubjects = -2
+primary_culture = east_persian
+add_accepted_culture = persian
+religion = shiite
+technology_group = muslim
+capital = 436	# Khurasan
+
+
+1449.1.1 = {
+	monarch = {
+		name = "Babur Ibn-Baysunkur"
+		dynasty = "Timurid"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1449.1.1 = {
+	heir = {
+		name = "Ibrahim"
+		monarch_name = "Ibrahim"
+		dynasty = "Timurid"
+		birth_date = 1430.1.1
+		death_date = 1459.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1457.1.1 = {
+	monarch = {
+		name = "Ibrahim"
+		dynasty = "Timurid"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1457.1.1 = {
+	heir = {
+		name = "Abû Sa'id"
+		monarch_name = "Abû Sa'id"
+		dynasty = "Timurid"
+		birth_date = 1424.1.1
+		death_date = 1469.8.27
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1459.1.1 = {
+	monarch = {
+		name = "Abû Sa'id"
+		dynasty = "Timurid"
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}
+
+1459.1.1 = {
+	heir = {
+		name = "Hussein Baiqara"
+		monarch_name = "Hussein Baiqara"
+		dynasty = "Timurid"
+		birth_date = 1438.1.1
+		death_date = 1506.5.4
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1469.8.27 = {
+	monarch = {
+		name = "Hussein Baiqara"
+		dynasty = "Timurid"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1760.1.1 = {
+	monarch = {
+		name = "Shah Rukh"
+		dynasty = "Afsharid"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

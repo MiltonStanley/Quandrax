@@ -1,0 +1,173 @@
+government = tribal_despotism
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 1
+mercantilism_freetrade = -4
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -1
+primary_culture = turkish
+religion = sunni
+technology_group = ottoman
+capital = 327	# Adana
+
+1383.1.1 = {
+	monarch = {
+		name = "Ahmad I"
+		dynasty = "Ramazanoglu"
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1416.1.1 = {
+	heir = {
+		name = "Ibrahim"
+		monarch_name = "Ibrahim II"
+		dynasty = "Ramazanoglu"
+		birth_date = 1399.1.1
+		death_date = 1418.1.1
+		claim = 80
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1416.1.1 = {
+	monarch = {
+		name = "Ibrahim II"
+		dynasty = "Ramazanoglu"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+1418.1.1 = {
+	monarch = {
+		name = "Hamza I"
+		dynasty = "Ramazanoglu"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+1429.1.1 = {
+	monarch = {
+		name = "Mehmet I"
+		dynasty = "Ramazanoglu"
+		adm = 7
+		dip = 5
+		mil = 4
+	}
+}
+1439.1.1 = {
+	monarch = {
+		name = "Eylük I"
+		dynasty = "Ramazanoglu"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+1440.1.1 = {
+	monarch = {
+		name = "Dündar I"
+		dynasty = "Ramazanoglu"
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+1462.1.1 = {
+	monarch = {
+		name = "Ömer I"
+		dynasty = "Ramazanoglu"
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+}
+1485.1.1 = {
+	monarch = {
+		name = "Khalil I"
+		dynasty = "Ramazanoglu"
+		adm = 5
+		dip = 8
+		mil = 5
+	}
+}
+1510.1.1 = {
+	monarch = {
+		name = "Mahmut I"
+		dynasty = "Ramazanoglu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+1514.1.1 = {
+	monarch = {
+		name = "Selim I"
+		dynasty = "Ramazanoglu"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+1517.1.1 = {
+	monarch = {
+		name = "Kubad I"
+		dynasty = "Ramazanoglu"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+1520.1.1 = {
+	monarch = {
+		name = "Piri Mehmet I"
+		dynasty = "Ramazanoglu"
+		adm = 7
+		dip = 7
+		mil = 7
+	}
+}
+1568.1.1 = {
+	monarch = {
+		name = "Dervis I"
+		dynasty = "Ramazanoglu"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+1569.1.1 = {
+	monarch = {
+		name = "Ibrahim III"
+		dynasty = "Ramazanoglu"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+1589.1.1 = {
+	monarch = {
+		name = "Mehmet II"
+		dynasty = "Ramazanoglu"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+1594.1.1 = {
+	monarch = {
+		name = "Pir Mansur I"
+		dynasty = "Ramazanoglu"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}

@@ -1,0 +1,32 @@
+government = republican_dictatorship
+aristocracy_plutocracy = -2
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -5
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 2
+serfdom_freesubjects = 0
+technology_group = western
+religion = catholic
+primary_culture = castillian
+capital = 831	# Caracas
+
+
+1811.7.5 = {
+	monarch = {
+		name = "Francisco de Miranda"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1813.8.7 = {
+	monarch = {
+		name = "Simón Bolívar"
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}

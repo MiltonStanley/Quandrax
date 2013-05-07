@@ -1,0 +1,108 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -5
+centralization_decentralization = 2
+innovative_narrowminded = 3
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -3
+quality_quantity = 2
+serfdom_freesubjects = -5
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+capital = 295	# Moskva
+
+
+1389.5.19 = {
+	monarch = {
+		name = "Vasiliy I"
+		dynasty = "Rurikovich"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1415.3.10 = {
+	heir = {
+		name = "Vasiliy Temny"
+		monarch_name = "Vasiliy II Temny"
+		dynasty = Rurikovich
+		claim = 95
+		birth_date = 1415.3.10
+		death_date = 1462.3.27
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1420.1.1 = { leader = {	name = "Yuri Patrikeev"		type = general	rank = 1	fire = 2	shock = 4	manuever = 3	siege = 1	death_date = 1439.1.1 } }
+
+1424.2.27 = {
+	monarch = {
+		name = "Vasiliy II Temny"
+		dynasty = Rurikovich
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1430.1.1 = { leader = {	name = "Dmitry Shemiaka"	type = general	rank = 2	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1453.1.1 } }
+
+1440.1.22 = {
+	heir = {
+		name = "Ivan Veliky"
+		monarch_name = "Ivan III Veliky"
+		dynasty = Rurikovich
+		birth_date = 1440.1.22
+		death_date = 1505.10.27
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 8
+	}
+}
+
+1446.1.1 = { leader = {	name = "Fedor Basenok"         	type = general	rank = 1	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1460.1.1 } }
+
+1447.1.1 = { leader = {	name = "Ivan Obolenski-Striga" 	type = general	rank = 2	fire = 2	shock = 4	manuever = 3	siege = 0	death_date = 1469.1.1 } }
+
+1460.1.1 = { leader = {	name = "Kholmski"              	type = general	rank = 1	fire = 2	shock = 3	manuever = 3	siege = 1	death_date = 1495.1.1 } }
+
+1460.1.1 = { centralization_decentralization = 1 land_naval = -4 quality_quantity = 0 } # The Pomjestija Reform
+
+1462.3.28 = {
+	monarch = {
+		name = "Ivan III Veliky"
+		dynasty = Rurikovich
+		adm = 6
+		dip = 7
+		mil = 8
+	}
+}
+
+1479.3.25 = {
+	heir = {
+		name ="Vasiliy"
+		monarch_name = "Vasiliy III"
+		dynasty = "Rurikovich"
+		birth_date = 1479.3.25
+		death_date = 1533.12.3
+		claim = 95
+		adm =6
+		dip = 7
+		mil = 4
+	}
+}
+
+1490.1.1 = { leader = {	name = "Shenja"                	type = general		rank = 2	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1516.1.1 } }
+
+1495.1.1 = { leader = {	name = "Ivan Lyapun"           	type = conquistador	rank = 7	fire = 1	shock = 1	manuever = 4	siege = 0	death_date = 1505.1.1 } }
+
+1495.1.1 = { leader = {	name = "Repnin"                	type = general		rank = 2	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1520.1.1 } }
+
+1495.1.1 = { leader = {	name = "Ivan A. Chelyadnin"	type = general		rank = 4	fire = 1	shock = 3	manuever = 2	siege = 0	death_date = 1514.1.1 } }
+
+1495.1.1 = { serfdom_freesubjects = -5 aristocracy_plutocracy = -5 } # The Subednik Laws

@@ -1,0 +1,217 @@
+government = tribal_despotism
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 3
+serfdom_freesubjects = -2
+primary_culture = al_misr_arabic
+religion = sunni
+technology_group = muslim
+capital = 361	# Cairo
+
+
+1399.1.1 = {
+	monarch = {
+		name = "al-Nasr Faraj"
+		dynasty = "Burji"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1412.1.1 = {
+	monarch = {
+		name = "Shaikh al-Mahmudi"
+		dynasty = "Burji"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Muhammad IV"
+		dynasty = "Burji"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1422.1.1 = {
+	monarch = {
+		name = "Barsbai"
+		dynasty = "Burji"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1438.6.8 = {
+	monarch = {
+		name = "Jaqmaq"
+		dynasty = "Burji"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1453.2.13 = {
+	monarch = {
+		name = "Inâl"
+		dynasty = "Burji"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1461.2.25 = {
+	monarch = {
+		name = "Khûshqadam"
+		dynasty = "Burji"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1461.2.25 = {	
+	heir = {
+		name = "Qâ'itbay"
+		monarch_name = "Qâ'itbay"
+		dynasty = "Burji"
+		birth_date = 1418.1.1
+		death_date = 1496.7.8
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1465.1.1 = { centralization_decentralization = 5 innovative_narrowminded = 4 aristocracy_plutocracy = -4 quality_quantity = 4 } # The Mameluk Nobility
+
+1467.10.10 = {
+	monarch = {
+		name = "Qâ'itbay"
+		dynasty = "Burji"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1496.7.8 = {
+	monarch = {
+		name = "Muhammad II"
+		dynasty = "Burji"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1498.10.30 = {
+	monarch = {
+		name = "Qânsûh I"
+		dynasty = "Burji"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1500.6.29 = {
+	monarch = {
+		name = "Jânbalat"
+		dynasty = "Burji"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1501.6.26 = {
+	monarch = {
+		name = "Qânsûh II"
+		dynasty = "Burji"
+		adm = 4
+		dip = 4
+		mil = 6
+		leader = {	name = "Al Kansur"             	type = general	rank = 0	fire = 1	shock = 4	manuever = 5	siege = 0 }
+	}
+}
+
+1516.8.25 = {
+	monarch = {
+		name = "Tûmân Bay II"
+		dynasty = "Burji"
+		adm = 3
+		dip = 3
+		mil = 5
+		leader = {	name = "Tûmân Bay II"		type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 1 }
+	}
+}
+
+1768.1.1 = {
+	monarch = {
+		name = "Alî l-Kabîr"
+		dynasty = "Beg"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1773.5.2 = {
+	monarch = {
+		name = "Mehmed"
+		dynasty = "Beg"
+		adm = 7
+		dip = 4
+		mil = 4
+	}
+}
+
+1775.6.11 = {
+	monarch = {
+		name = "Murad"
+		dynasty = "Beg"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1792.1.1 = { leader = {	name = "Ibrahim Bey"           	type = general	rank = 1	fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 1804.3.14 } }
+
+1792.1.1 = { leader = {	name = "Murad Bey"             	type = general	rank = 2	fire = 1	shock = 3	manuever = 4	siege = 0	death_date = 1801.4.22 } }
+
+1801.4.23 = {
+	monarch = {
+		name = "Osman"
+		dynasty = "Bardisi"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1804.3.14 = {
+	monarch = {
+		name = "Muhammad 'Alî"
+		dynasty = "Muhammad"
+		adm = 9
+		dip = 7
+		mil = 9
+		leader = { name = "Mehmet Ali"		type = general	rank = 0	fire = 1	shock = 4	manuever = 5	siege = 0 }
+	}
+}

@@ -1,0 +1,529 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 2
+innovative_narrowminded = 2
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -2
+quality_quantity = 3
+serfdom_freesubjects = -2
+technology_group = chinese
+religion = buddhism
+primary_culture = northern_thai
+capital = 589	# Chiang Mai
+
+
+1355.1.1 = {
+	monarch = {
+		name = "Kü Na"
+		dynasty = "Mangrai"
+		DIP = 6
+		MIL = 5
+		ADM = 6
+	}
+}
+
+1355.1.1 = {
+	heir = {
+		name = "Saenmuenagma"
+		monarch_name = "Saenmuenagma"
+		dynasty = "Mangrai"
+		birth_date = 1355.1.1
+		death_date = 1401.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1385.1.1 = {
+	monarch = {
+		name = "Saenmuenagma"
+		dynasty = "Mangrai"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1385.1.1 = {
+	heir = {
+		name = "Sam Fang Kaen"
+		monarch_name = "Sam Fang Kaen"
+		dynasty = "Mangrai"
+		birth_date = 1385.1.1
+		death_date = 1441.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1401.1.1 = {
+	monarch = {
+		name = "Sam Fang Kaen"
+		dynasty = "Mangrai"
+		DIP = 5
+		MIL = 5
+		ADM = 4
+	}
+}
+
+1420.1.1 = {
+	heir = {
+		name = "Tilokaracha"
+		monarch_name = "Tilokaracha"
+		dynasty = "Mangrai"
+		birth_date = 1385.1.1
+		death_date = 1487.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 8
+	}
+}
+
+1441.1.1 = {
+	monarch = {
+		name = "Tilokaracha"
+		dynasty = "Mangrai"
+		DIP = 6
+		MIL = 8
+		ADM = 6
+	}
+}
+
+1460.1.1 = {
+	heir = {
+		name = "Yot Chiang Rai"
+		monarch_name = "Yot Chiang Rai"
+		dynasty = "Mangrai"
+		birth_date = 1460.1.1
+		death_date = 1495.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1487.1.1 = {
+	monarch = {
+		name = "Yot Chiang Rai"
+		dynasty = "Mangrai"
+		DIP = 3
+		MIL = 3
+		ADM = 3
+	}
+}
+
+1487.1.1 = {
+	heir = {
+		name = "Müang Kaeo"
+		monarch_name = "Müang Kaeo"
+		dynasty = "Mangrai"
+		birth_date = 1487.1.1
+		death_date = 1526.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1495.1.1 = {
+	monarch = {
+		name = "Müang Kaeo"
+		dynasty = "Mangrai"
+		DIP = 6
+		MIL = 4
+		ADM = 4
+	}
+}
+
+1495.1.1 = {
+	heir = {
+		name = "Ket Chettharat"
+		monarch_name = "Ket Chettharat"
+		dynasty = "Mangrai"
+		birth_date = 1495.1.1
+		death_date = 1538.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1526.1.1 = {
+	monarch = {
+		name = "Ket Chettharat"
+		dynasty = "Mangrai"
+		DIP = 4
+		MIL = 5
+		ADM = 6
+	}
+}
+
+1526.1.1 = {
+	heir = {
+		name = "Chai"
+		monarch_name = "Chai"
+		dynasty = "Mangrai"
+		birth_date = 1526.1.1
+		death_date = 1543.1.1
+		claim = 95
+		adm = 8
+		dip = 9
+		mil = 9
+	}
+}
+
+1538.1.1 = {
+	monarch = {
+		name = "Chai"
+		dynasty = "Mangrai"
+		DIP = 9
+		MIL = 9
+		ADM = 8
+	}
+}
+
+1538.1.1 = {
+	heir = {
+		name = "Ket Chettharat"
+		monarch_name = "Mangrai"
+		dynasty = "Mangrai"
+		birth_date = 1495.1.1
+		death_date = 1545.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+
+#2nd rule
+1543.1.1 = {
+	monarch = {
+		name = "Ket Chettharat"
+		dynasty = "Mangrai"
+		DIP = 4
+		MIL = 4
+		ADM = 3
+	}
+}
+
+1543.1.1 = {
+	heir = {
+		name = "Chiraprapha"
+		monarch_name = "Chiraprapha"
+		dynasty = "Mangrai"
+		birth_date = 1523.1.1
+		death_date = 1546.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1545.1.1 = {
+	monarch = {
+		name = "Chiraprapha"
+		dynasty = "Mangrai"
+		DIP = 3
+		MIL = 3
+		ADM = 4
+	}
+}
+
+1545.1.1 = {
+	heir = {
+		name = "Setthathirat"
+		monarch_name = "Setthathirat"
+		dynasty = "Mangrai"
+		birth_date = 1525.1.1
+		death_date = 1551.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1546.1.1 = {
+	monarch = {
+		name = "Setthathirat"
+		dynasty = "Mangrai"
+		DIP = 4
+		MIL = 3
+		ADM = 3
+	}
+}
+
+1546.1.1 = {
+	heir = {
+		name = "Thao Mae Ku"
+		monarch_name = "Mangrai"
+		dynasty = "Mangrai"
+		birth_date = 1531.1.1
+		death_date = 1551.6.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1551.1.1 = {
+	monarch = {
+		name = "Thao Mae Ku"
+		dynasty = "Mangrai"
+		DIP = 3
+		MIL = 3
+		ADM = 3
+	}
+}
+
+# Estimate
+1551.6.1 = {
+	monarch = {
+		name = "Mekuti"
+		dynasty = "Mangrai"
+		DIP = 4
+		MIL = 3
+		ADM = 3
+	}
+}
+
+1551.6.1 = {
+	heir = {
+		name = "Wisutthithewi"
+		monarch_name = "Wisutthithewi"
+		dynasty = "Mangrai"
+		birth_date = 1531.6.1
+		death_date = 1578.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1564.1.1 = {
+	monarch = {
+		name = "Wisutthithewi"
+		dynasty = "Mangrai"
+		DIP = 4
+		MIL = 3
+		ADM = 4
+	}
+}
+
+# Burmese Rule
+
+1672.1.1 = {
+	monarch = {
+		name = "Ingsemang"
+		dynasty = "Burman"
+		DIP = 3
+		MIL = 4
+		ADM = 3
+	}
+}
+
+1672.1.1 = {
+	heir = {
+		name = "Chephutarai"
+		monarch_name = "Chephutarai"
+		dynasty = "Burman"
+		birth_date = 1652.1.1
+		death_date = 1707.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1675.1.1 = {
+	monarch = {
+		name = "Chephutarai"
+		dynasty = "Burman"
+		DIP = 3
+		MIL = 3
+		ADM = 3
+	}
+}
+
+1675.1.1 = {
+	heir = {
+		name = "Mangraenara"
+		monarch_name = "Mangraenara"
+		dynasty = "Burman"
+		birth_date = 1675.1.1
+		death_date = 1727.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1707.1.1 = {
+	monarch = {
+		name = "Mangraenara"
+		dynasty = "Burman"
+		DIP = 3
+		MIL = 4
+		ADM = 3
+	}
+}
+
+1707.1.1 = {
+	heir = {
+		name = "Ong Kham"
+		monarch_name = "Ong Kham"
+		dynasty = "Thai"
+		birth_date = 1707.1.1
+		death_date = 1759.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1727.1.1 = {
+	monarch = {
+		name = "Ong Kham"
+		dynasty = "Thai"
+		DIP = 3
+		MIL = 3
+		ADM = 3
+	}
+}
+
+1727.1.1 = {
+	heir = {
+		name = "Chan"
+		monarch_name = "Chan"
+		dynasty = "Thai"
+		birth_date = 1727.1.1
+		death_date = 1761.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1759.1.1 = {
+	monarch = {
+		name = "Chan"
+		dynasty = "Thai"
+		DIP = 3
+		MIL = 4
+		ADM = 4
+	}
+}
+
+1759.1.1 = {
+	heir = {
+		name = "Khi Hut"
+		monarch_name = "Khi Hut"
+		dynasty = "Thai"
+		birth_date = 1739.1.1
+		death_date = 1768.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1761.1.1 = {
+	monarch = {
+		name = "Khi Hut"
+		dynasty = "Thai"
+		DIP = 4
+		MIL = 4
+		ADM = 4
+	}
+}
+
+1761.1.1 = {
+	heir = {
+		name = "Abhayagamani"
+		monarch_name = "Abhayagamani"
+		dynasty = "Thai"
+		birth_date = 1731.1.1
+		death_date = 1775.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1768.1.1 = {
+	monarch = {
+		name = "Abhayagamani"
+		dynasty = "Thai"
+		DIP = 3
+		MIL = 4
+		ADM = 4
+	}
+}
+
+1768.1.1 = {
+	heir = {
+		name = "Kawila"
+		monarch_name = "Kawila"
+		dynasty = "Chaochetton"
+		birth_date = 1760.1.1
+		death_date = 1815.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1775.1.1 = {
+	monarch = {
+		name = "Kawila"
+		dynasty = "Chaochetton"
+		DIP = 5
+		MIL = 5
+		ADM = 4
+	}
+}
+
+1775.1.1 = {
+	heir = {
+		name = "Dharma Lanka"
+		monarch_name = "Dharma Lanka"
+		dynasty = "Chaochetton"
+		birth_date = 1775.1.1
+		death_date = 1825.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1815.1.1 = {
+	monarch = {
+		name = "Dharma Lanka"
+		dynasty = "Chaochetton"
+		DIP = 6
+		MIL = 5
+		ADM = 5
+	}
+}

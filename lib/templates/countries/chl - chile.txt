@@ -1,0 +1,187 @@
+government = revolutionary_republic
+aristocracy_plutocracy = -4
+centralization_decentralization = -4
+innovative_narrowminded = -4
+mercantilism_freetrade = -2
+offensive_defensive = 2
+land_naval = 0
+quality_quantity = -3
+serfdom_freesubjects = 1
+primary_culture = castillian
+religion = catholic
+technology_group = western
+capital = 787	# Santiago
+
+
+1810.9.18 = {
+	monarch = {
+		name = "Mateo de Toro"
+		adm = 5
+		dip = 5
+		mil = 8
+	}
+}
+
+1811.2.27 = {
+	monarch = {
+		name = "Juan Martínez de Rozas"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1811.4.2 = {
+	monarch = {
+		name = "Fernando Márquez"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1811.5.17 = {
+	monarch = {
+		name = "Juan Martínez de Rozas"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1811.7.4 = {
+	monarch = {
+		name = "Juan Antonio Ovalle"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1811.8.11 = {
+	monarch = {
+		name = "Martín Calvo Encalada"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1811.9.4 = {
+	monarch = {
+		name = "Juan Martínez de Rozas"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1811.11.15 = {
+	monarch = {
+		name = "José Miguel Carrera"
+		adm = 7
+		dip = 6
+		mil = 8
+	}
+}
+
+1812.12.13 = {
+	monarch = {
+		name = "José Santiago Portales"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1812.1.8 = {
+	monarch = {
+		name = "José Miguel Carrera"
+		adm = 7
+		dip = 6
+		mil = 8
+	}
+}
+
+1812.11.3 = {
+	monarch = {
+		name = "Pedro José Prado"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1812.12.6 = {
+	monarch = {
+		name = "José Miguel Carrera"
+		adm = 7
+		dip = 6
+		mil = 8
+	}
+}
+
+1813.4.13 = {
+	monarch = {
+		name = "Francisco Antonio Pérez"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1813.8.23 = {
+	monarch = {
+		name = "José Miguel Infante"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1814.1.11 = {
+	monarch = {
+		name = "Agustín Manuel"
+		adm = 7
+		dip = 5
+		mil = 5
+	}
+}
+
+1814.3.7 = {
+	monarch = {
+		name = "Antonio José de Irisarri"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1814.3.14 = {
+	monarch = {
+		name = "Francisco de la Lastra"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1814.7.23 = {
+	monarch = {
+		name = "José Miguel Carrera"
+		adm = 7
+		dip = 6
+		mil = 8
+	}
+}
+
+1818.2.18 = { government = republican_dictatorship }
+
+1818.2.18 = {
+	monarch = {
+		name = "Bernardo O'Higgins"
+		adm = 7
+		dip = 6
+		mil = 8
+	}
+}

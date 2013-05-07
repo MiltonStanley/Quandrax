@@ -1,0 +1,317 @@
+government = theocratic_government
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = -4
+technology_group = western
+primary_culture = bavarian
+religion = catholic
+capital = 79	# Würzburg
+
+
+1372.1.1 = {
+	monarch = {
+		name = "Gerhard"
+		adm = 3
+		dip = 6
+		mil = 6
+	}
+}
+
+1400.1.1 = {
+	monarch = {
+		name = "Johann I"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1411.1.1 = {
+	monarch = {
+		name = "Johann II"
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Sigmund von Sachsen"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1444.11.3 = {
+	monarch = {
+		name = "Gottfried IV"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1455.4.2 = {
+	monarch = {
+		name = "Johann III von Grumbach"
+		adm = 4
+		dip = 3
+		mil = 6
+	}
+}
+
+1466.4.12 = {
+	monarch = {
+		name = "Rudolf II von Schrenberg"
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}
+
+1495.4.27 = {
+	monarch = {
+		name = "Lorenz von Bibra"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1519.2.6 = {
+	monarch = {
+		name = "Konrad von Thüngen"
+		adm = 3
+		dip = 5
+		mil = 7
+	}
+}
+
+1524.8.1 = { leader = {	name = "Thomas Müntzer"		type = general	rank = 0	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1525.5.15 } }
+
+1524.8.1 = {
+	monarch = {
+		name = "Heinrich Pfeiffer"
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}
+
+1525.5.15 = {
+	monarch = {
+		name = "Konrad von Thüngen"
+		adm = 3
+		dip = 5
+		mil = 7
+	}
+}
+
+1540.6.17 = {
+	monarch = {
+		name = "Konrad von Bibra"
+		adm = 6
+		dip = 6
+		mil = 3
+	}
+}
+
+1544.8.9 = {
+	monarch = {
+		name = "Melchior von Giebelstadt"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1556.10.2 = { government = absolute_monarchy }
+
+1558.4.18 = {
+	monarch = {
+		name = "Friedrich von Wirsberg"
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+}
+
+1573.11.13 = {
+	monarch = {
+		name = "Julius von Mespelbrunn"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1617.9.14 = {
+	monarch = {
+		name = "Johann von Aschausen"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1622.12.30 = {
+	monarch = {
+		name = "Philipp von Ehrenberg"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1630.1.1 = { leader = {	name = "J.P. Saxe-Altenburg"           	type = general	rank = 0	fire = 4	shock = 2	manuever = 3	siege = 0	death_date = 1639.4.1 } }
+
+1631.7.17 = {
+	monarch = {
+		name = "Franz von Hatzfeld"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1642.7.30 = {
+	monarch = {
+		name = "Johann von Schönborn"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1673.2.12 = {
+	monarch = {
+		name = "Johann von Rosenbach"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1675.4.20 = {
+	monarch = {
+		name = "Peter von Dernbach"
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1683.4.23 = {
+	monarch = {
+		name = "Konrad Wilhelm von Wernau"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1684.9.6 = {
+	monarch = {
+		name = "Johann von Guttenberg"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1698.11.15 = {
+	monarch = {
+		name = "Johann von Greiffenklau"
+		adm = 4
+		dip = 7
+		mil = 7
+	}
+}
+
+1719.8.4 = {
+	monarch = {
+		name = "Johann Philipp Franz"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1724.8.19 = {
+	monarch = {
+		name = "Christoph von Hutten"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1729.3.26 = {
+	monarch = {
+		name = "Friedrich von Schönborn"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1746.7.26 = {
+	monarch = {
+		name = "Anselm von Ingelheim"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1749.2.9 = {
+	monarch = {
+		name = "Karl von Greiffenklau"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1754.11.26 = {
+	monarch = {
+		name = "Adam von Seinsheim"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1779.2.17 = {
+	monarch = {
+		name = "Franz Ludwig von Erthal"
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1795.2.14 = {
+	monarch = {
+		name = "Georg Karl von Fechenbach"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1802.11.30 = {
+	monarch = {
+		name = "Ferdinand von Osterreich"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}

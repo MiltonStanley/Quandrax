@@ -1,0 +1,13 @@
+government = despotic_monarchy 
+aristocracy_plutocracy = -3
+centralization_decentralization = 2
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = -1
+quality_quantity = 1
+serfdom_freesubjects = -5
+primary_culture = armenian
+religion = orthodox
+technology_group = eastern
+capital = 419	# Yerevan

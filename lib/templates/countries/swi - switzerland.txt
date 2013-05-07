@@ -1,0 +1,28 @@
+government = administrative_republic
+aristocracy_plutocracy = 5
+centralization_decentralization = 5
+innovative_narrowminded = 0
+mercantilism_freetrade = 0
+offensive_defensive = -1
+land_naval = -2
+quality_quantity = -2
+serfdom_freesubjects = 5
+technology_group = western
+religion = catholic
+primary_culture = rheinlaender
+capital = 165	# Bern
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Der Tagsatzung"
+		regent = yes
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1528.1.1 = { religion = reformed }
+
+1798.1.1 = { government = constitutional_republic }

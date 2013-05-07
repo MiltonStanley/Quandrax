@@ -1,0 +1,196 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = -4
+technology_group = western
+primary_culture = bavarian
+religion = catholic
+capital = 67	# Nürnberg
+
+
+# Margraves
+1398.1.1 = {
+	monarch = {
+		name = "Friedrich VI"
+		dynasty = "von Hohenzollern"
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1414.11.9 = {
+	heir = {
+		name = "Albrecht Achilles"
+		monarch_name = "Albrecht II Achilles"
+		dynasty = "von Hohenzollern"
+		birth_date = 1414.11.9
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1440.9.21 = {
+	monarch = {
+		name = "Albrecht II Achilles"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 4
+	}
+}
+# remark = "Also ruler of Brandenburg."
+
+1486.3.11 = {
+	monarch = {
+		name = "Friedrich VII"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1533.1.1 = { religion = protestant }
+
+1536.4.4 = {
+	monarch = {
+		name = "Georg I der Fromme"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1543.12.27 = {
+	monarch = {
+		name = "Georg Friedrich I"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1603.4.26 = {
+	monarch = {
+		name = "Joachim Ernst I"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1625.3.7 = {
+	monarch = {
+		name = "Friedrich II"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1634.9.6 = {
+	monarch = {
+		name = "Albrecht III"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1654.10.8 = {
+	heir = {
+		name = "Johann Friedrich"
+		monarch_name = "Johann Friedrich I"
+		dynasty = "von Hohenzollern"
+		birth_date = 1654.10.8
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1667.10.22 = {
+	monarch = {
+		name = "Vormundschaftsregierung"
+		regent = yes
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1672.10.8 = {
+	monarch = {
+		name = "Johann Friedrich I"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1686.3.22 = {
+	monarch = {
+		name = "Christian Albrecht I"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1692.10.16 = {
+	monarch = {
+		name = "Georg Friedrich II"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1703.3.29 = {
+	monarch = {
+		name = "Wilhelm Friedrich I"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1723.1.7 = {
+	monarch = {
+		name = "Karl Wilhelm Freidrich I"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 1
+		MIL = 5
+	}
+}
+
+1757.8.3 = {
+	monarch = {
+		name = "Karl Alexander I"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+# Merged with Prussia 1791.12.2

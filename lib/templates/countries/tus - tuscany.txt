@@ -1,0 +1,320 @@
+government = noble_republic
+aristocracy_plutocracy = 1
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = 1
+quality_quantity = -1
+serfdom_freesubjects = -2
+primary_culture = lombard
+religion = catholic
+technology_group = western
+capital = 116	# Firenze
+
+
+1382.1.1 = {
+	monarch = {
+		name = "Maso degli Albizzi"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1417.1.1 = {
+	monarch = {
+		name = "Rinaldo degli Albizzi"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Giovanni I de Medici"
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+}
+
+1429.2.20 = {
+	monarch = {
+		name = "Cosimo di Medici"
+		adm = 9
+		dip = 8
+		mil = 8
+	}
+}
+
+1464.8.3 = {
+	monarch = {
+		name = "Piero I Gottoso di Medici"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1469.12.4 = {
+	monarch = {
+		name = "Lorenzo I il Magnifico"
+		adm = 9
+		dip = 7
+		mil = 6
+	}
+}
+
+1490.1.1 = { leader = {	name = "Uffreducci"            	type = general	rank = 1	fire = 2	shock = 2	manuever = 3	siege = 1 death_date = 1503.1.1 }}
+
+1490.1.1 = { leader = {	name = "Vitellozzo Vitelli"     type = general	rank = 1	fire = 1	shock = 2	manuever = 4	siege = 0 death_date = 1502.12.31 }}
+
+1492.4.11 = {
+	monarch = {
+		name = "Piero II di Medici"
+		adm = 6
+		dip = 8
+		mil = 7
+	}
+}
+
+1498.1.1 = { leader = {	name = "Machiavelli"           	type = general	rank = 2	fire = 1	shock = 1	manuever = 3	siege = 2 death_date = 1512.8.1 }}
+
+1502.9.23 = {
+	monarch = {
+		name = "Piero Soderino"
+		adm = 6
+		dip = 8
+		mil = 7
+	}
+}
+
+1512.9.17 = {
+	monarch = {
+		name = "Giuliano di Medici"
+		adm = 6
+		dip = 8
+		mil = 7
+	}
+}
+
+1513.8.2 = {
+	monarch = {
+		name = "Lorenzo II di Medici"
+		adm = 8
+		dip = 9
+		mil = 6
+	}
+}
+
+1519.5.5 = {
+	monarch = {
+		name = "Giulio di Medici"
+		adm = 6
+		dip = 9
+		mil = 6
+	}
+}
+
+1523.11.2 = {
+	monarch = {
+		name = "Alessandro di Medici"
+		adm = 6
+		dip = 8
+		mil = 7
+	}
+}
+
+1531.1.1 = { government = despotic_monarchy }
+
+1537.1.6 = {
+	monarch = {
+		name = "Cosimo I"
+		dynasty = "de' Medici"
+		adm = 6
+		dip = 8
+		mil = 7
+	}
+}
+
+1541.3.25 = {
+	heir = {
+		name = "Francesco"
+		monarch_name = "Francesco"
+		dynasty = "de' Medici"
+		birth_date = 1574.4.22
+		death_date = 1587.10.17
+		claim = 95
+		adm = 5
+		dip = 7
+		mil = 3
+	}
+}
+
+1574.4.22 = {
+	monarch = {
+		name = "Francesco I"
+		dynasty = "de' Medici"
+		adm = 5
+		dip = 7
+		mil = 3
+	}
+}
+
+1574.4.22 = {
+	heir = {
+		name = "Ferdinando"
+		monarch_name = "Ferdinando I"
+		dynasty = "de' Medici"
+		birth_date = 1549.7.30
+		death_date = 1609.2.17
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1587.10.20 = {
+	monarch = {
+		name = "Ferdinando I"
+		dynasty = "de' Medici"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1590.5.12 = {
+	heir = {
+		name = "Cosimo"
+		monarch_name = "Cosimo II"
+		dynasty = "de' Medici"
+		birth_date = 1590.5.15
+		death_date = 1621.2.28
+		claim = 95
+		adm = 3
+		dip = 7
+		mil = 4
+	}
+}
+
+1609.2.7 = {
+	monarch = {
+		name = "Cosimo II"
+		dynasty = "de' Medici"
+		adm = 3
+		dip = 7
+		mil = 4
+	}
+}
+
+1610.7.14 = {
+	heir = {
+		name = "Ferdinando"
+		monarch_name = "Ferdinando"
+		dynasty = "de' Medici"
+		birth_date = 1610.7.14
+		death_date = 1670.5.23
+		claim = 95
+		adm = 3
+		dip = 8
+		mil = 6
+	}
+}
+
+1621.2.24 = {
+	monarch = {
+		name = "Ferdinando II"
+		dynasty = "de' Medici"
+		adm = 3
+		dip = 8
+		mil = 6
+	}
+}
+
+1642.8.14 = {
+	heir = {
+		name = "Cosimo"
+		monarch_name = "Cosimo III"
+		dynasty = "de' Medici"
+		birth_date = 1642.8.14
+		death_date = 1723.10.13
+		claim = 95
+		adm = 3
+		dip = 7
+		mil = 7
+	}
+}
+
+1670.5.24 = {
+	monarch = {
+		name = "Cosimo III"
+		dynasty = "de' Medici"
+		adm = 3
+		dip = 7
+		mil = 7
+	}
+}
+
+1671.5.24 = {
+	heir = {
+		name = "Gian Gastone"
+		monarch_name = "Gian Gastone"
+		dynasty = "de' Medici"
+		birth_date = 1671.5.24
+		death_date = 1737.7.9
+		claim = 95
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1723.10.30 = {
+	monarch = {
+		name = "Gian Gastone"
+		dynasty = "de' Medici"
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1737.7.10 = {
+	monarch = {
+		name = "Francesco II"
+		dynasty = "von Habsburg"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1737.7.10 = { government = absolute_monarchy }
+
+1740.1.1 = { government = enlightened_despotism }
+
+1745.1.21 = { emperor = yes }
+
+1765.8.19 = {
+	monarch = {
+		name = "Pietro Leopoldo I"
+		dynasty = "von Habsburg"
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1790.7.22 = {
+	monarch = {
+		name = "Ferdinando III"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+}

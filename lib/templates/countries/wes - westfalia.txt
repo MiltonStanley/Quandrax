@@ -1,0 +1,24 @@
+government = enlightened_despotism
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = -4
+primary_culture = hannoverian
+religion = protestant
+technology_group = western
+capital = 81	# Kassel
+
+
+1807.12.7 = {
+	monarch = {
+		name = "Jérôme"
+		dynasty = "Bonaparte"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}

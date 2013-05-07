@@ -1,0 +1,266 @@
+government = tribal_despotism
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 3
+serfdom_freesubjects = -2
+technology_group = muslim
+religion = shiite
+primary_culture = bedouin_arabic
+capital = 394	# Al Hasa
+
+
+# Sheikhs of Al-Haasa
+
+1682.1.1 = {
+	monarch = {
+		name = "Muhammad I"
+		dynasty = "Usfurid"
+		DIP = 4
+		MIL = 5
+		ADM = 7
+	}
+}
+
+1682.1.1 = {
+	heir = {
+		name = "Sadun"
+		monarch_name = "Sadun I"
+		dynasty = "Usfurid"
+		birth_Date = 1660.1.1
+		death_Date = 1708.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1691.1.1 = {
+	monarch = {
+		name = "Sadun I"
+		dynasty = "Usfurid"
+		DIP = 5
+		MIL = 4
+		ADM = 6
+	}
+}
+
+1691.1.1 = {
+	heir = {
+		name = "Barrak"
+		monarch_name = "Barrak I"
+		dynasty = "Usfurid"
+		birth_Date = 1670.1.1
+		death_Date = 1723.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1708.1.1 = {
+	 monarch = {
+		name = "Barrak I"
+		dynasty = "Usfurid"
+		DIP = 3
+		MIL = 3
+		ADM = 3
+	}
+}
+
+1708.1.1 = {
+	heir = {
+		name = "Ali"
+		monarch_name = "Ali"
+		dynasty = "Usfurid"
+		birth_Date = 1700.1.1
+		death_Date = 1736.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1723.1.1 = {
+	 monarch = {
+		name = "Ali"
+		dynasty = "Usfurid"
+		DIP = 6
+		MIL = 5
+		ADM = 6
+	}
+}
+
+1723.1.1 = {
+	heir = {
+		name = "Sulyaman"
+		monarch_name = "Sulyaman"
+		dynasty = "Usfurid"
+		birth_Date = 1700.1.1
+		death_Date = 1752.1.1
+		claim = 95
+		adm = 8
+		dip = 5
+		mil = 5
+	}
+}
+
+1736.1.1 = {
+	 monarch = {
+		name = "Sulyaman"
+		dynasty = "Usfurid"
+		DIP = 5
+		MIL = 5
+		ADM = 8
+	}
+}
+
+1736.1.1 = {
+	heir = {
+		name = "Urayir ibn Dudjayn"
+		monarch_name = "Urayir ibn Dudjayn"
+		dynasty = "Usfurid"
+		birth_Date = 1730.1.1
+		death_date = 1774.1.1
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+}
+
+1752.1.1 = {
+	 monarch = {
+		name = "Urayir ibn Dudjayn"
+		dynasty = "Usfurid"
+		DIP = 7
+		MIL = 4
+		ADM = 6
+	}
+}
+
+1752.1.1 = {
+	heir = {
+		name = "Sadun"
+		monarch_name = "Sadun II"
+		dynasty = "Usfurid"
+		birth_Date = 1740.1.1
+		death_Date = 1789.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1774.1.1 = {
+	 monarch = {
+		name = "Sadun II"
+		dynasty = "Usfurid"
+		DIP = 6
+		MIL = 5
+		ADM = 5
+	}
+}
+
+1774.1.1 = {
+	heir = {
+		name ="Zayid"
+		monarch_name = "Zayid"
+		dynasty = "Usfurid"
+		birth_Date = 1770.1.1
+		death_Date = 1794.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1789.1.1 = {
+	 monarch = {
+		name = "Zayid"
+		dynasty = "Usfurid"
+		DIP = 3
+		MIL = 3
+		ADM = 3
+	}
+}
+
+1789.1.1 = {
+	heir = {
+		name = "Barrak"
+		monarch_name ="Barrak II"
+		dynasty = "Usfurid"
+		birth_Date = 1780.1.1
+		death_Date = 1794.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 3
+	}
+}
+
+1794.1.1 = {
+	 monarch = {
+		name = "Barrak II"
+		dynasty = "Usfurid"
+		DIP = 6
+		MIL = 3
+		ADM = 7
+	}
+}
+
+1794.1.1 = {
+	heir = {
+		name = "Nadjim ibn Dyhaynim"
+		monarch_name = "Nadjim ibn Dyhaynim"
+		dynasty = "Usfurid"
+		birth_date = 1770.1.1
+		death_date= 1798.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 7
+	}
+}
+
+1795.1.1 = {
+	 monarch = {
+		name = "Nadjim ibn Duhaynim"
+		dynasty = "Usfurid"
+		DIP = 5
+		MIL = 7
+		ADM = 3
+	}
+}
+
+1795.1.1 = {
+	heir = {
+		name = "Sulayman ibn Muhammad"
+		monarch_name = "Sulayman ibn Muhammad"
+		dynasty = "Usfurid"
+		birth_Date = 1790.1.1
+		death_Date = 1820.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 6
+	}
+}
+
+1798.1.1 = {
+	 monarch = {
+		name = "Sulayman ibn Muhammad"
+		dynasty = "Usfurid"
+		DIP = 3
+		MIL = 6
+		ADM = 4
+	}
+}

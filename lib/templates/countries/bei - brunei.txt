@@ -1,0 +1,482 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = 1
+offensive_defensive = -2
+land_naval = 2
+quality_quantity = -1
+serfdom_freesubjects = -1
+primary_culture = malayan
+religion = sunni
+technology_group = chinese
+capital = 636	# Brunei Town
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Muhammad"
+		dynasty = "Bolkiah"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Pateh Berbai"
+		monarch_name = "Ahmad"
+		dynasty = "Bolkiah"
+		birth_Date = 1370.1.1
+		death_Date = 1432.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1415.1.1 = {
+	monarch = {
+		name = "Ahmad"
+		dynasty = "Bolkiah"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1415.1.1 = {
+	heir = {
+		name = "Sulaymân"
+		monarch_name = "Sulaymân"
+		dynasty = "Bolkiah"
+		birth_Date = 1400.1.1
+		death_Date = 1485.1.1
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 5
+	}
+}
+
+1432.1.1 = {
+	monarch = {
+		name = "Sulaymân"
+		dynasty = "Bolkiah"
+		adm = 7
+		dip = 7
+		mil = 5
+	}
+}
+
+1460.1.1 = {
+	heir = {
+		name = "Bulkiah"
+		monarch_name = "Bulkiah"
+		dynasty = "Bolkiah"
+		birth_Date = 1460.1.1
+		death_Date = 1524.1.1
+		claim = 95
+		adm = 5
+		dip = 7
+		mil = 9
+		leader = {	name = "Bulkiah"               	type = general	rank = 0	fire = 4	shock = 3	manuever = 4	siege = 0}
+	}
+}
+
+1485.1.1 = {
+	monarch = {
+		name = "Bulkiah"
+		dynasty = "Bolkiah"
+		adm = 5
+		dip = 7
+		mil = 9
+		leader = {	name = "Bulkiah"               	type = general	rank = 0	fire = 4	shock = 3	manuever = 4	siege = 0}
+	}
+}
+
+1485.1.1 = {
+	heir = {
+		name = "'Abd al-Qahhar"
+		monarch_name = "'Abd al-Qahhar"
+		dynasty = "Bolkiah"
+		birth_Date = 1460.1.1
+		death_Date = 1530.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1524.1.1 = {
+	monarch = {
+		name = "'Abd al-Qahhar"
+		dynasty = "Bolkiah"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1524.1.1 = {
+	heir = {
+		name = "Sayf ar-Rijal"
+		monarch_name = "Sayf ar-Rijal"
+		dynasty = "Bolkiah"
+		birth_date = 1520.1.1
+		death_date = 1578.1.1
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+		name = "Sayf ar-Rijal"
+		dynasty = "Bolkiah"
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+}
+
+1530.1.1 = {
+	heir = {
+		name = "Shâh Bruni"
+		monarch_name = "Shâh Bruni"
+		dynasty = "Bolkiah"
+		birth_date = 1528.1.1
+		death_Date = 1582.1.1
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 5
+	}
+}
+
+1578.1.1 = {
+	monarch = {
+		name = "Shâh Brunî"
+		dynasty = "Bolkiah"
+		adm = 7
+		dip = 4
+		mil = 5
+	}
+}
+
+1578.1.1 = {
+	heir = {
+		name = "Hasan"
+		monarch_name = "Hasan"
+		dynasty = "Bolkiah"
+		birth_Date = 1560.1.1
+		death_Date = 1598.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1582.1.1 = {
+	monarch = {
+		name = "Hasan"
+		dynasty = "Bolkiah"
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1582.1.1 = {
+	heir = {
+		name = "'Abd al-Jalîl"
+		monarch_name = "'Abd al-Jalîl I"
+		dynasty = "Bolkiah"
+		birth_Date = 1580.1.1
+		death_Date = 1659.1.1
+		claim = 95
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+}
+
+1598.1.1 = {
+	monarch = {
+		name = "'Abd al-Jalîl I"
+		dynasty = "Bolkiah"
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+}
+
+1598.1.1 = {
+	heir = {
+		name = "'Abd al-Jalîl II"
+		monarch_name = "'Abd al-Jalîl II"
+		dynasty = "Bolkiah"
+		birth_Date = 1590.1.1
+		death_Date = 1660.1.1
+		claim = 95
+		adm = 9
+		dip = 5
+		mil = 6
+	}
+}
+		
+1659.1.1 = {
+	monarch = {
+		name = "'Abd al-Jalîl II"
+		dynasty = "Bolkiah"
+		adm = 9
+		dip = 5
+		mil = 6
+	}
+}
+
+1659.1.1 = {	
+	heir = {
+		name = "Muhammad 'Alî"
+		monarch_name = "Muhammad 'Alî"
+		dynasty = "Bolkiah"
+		birth_Date = 1640.1.1
+		death_Date = 1661.11.7
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1660.1.1 = {
+	monarch = {
+		name = "Muhammad 'Alî"
+		dynasty = "Bolkiah"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1660.1.1 = {
+	heir = {
+		name = "'Abd al-Mubin"
+		monarch_name = "'Abd al-Mubin"
+		dynasty = "Bolkiah"
+		birth_Date = 1640.1.1
+		death_Date = 1673.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1661.11.7 = {
+	monarch = {
+		name = "'Abd al-Mubin"
+		dynasty  = "Bolkiah"
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1661.11.7 = {
+	heir = {
+		name = "Muhyî ad-Dîn"
+		monarch_name = "Muhyî ad-Dîn"
+		dynasty  = "Bolkiah"
+		birth_Date = 1650.1.1
+		death_Date = 1690.1.1
+		claim = 95
+		adm = 7
+		dip = 5
+		mil = 4
+	}
+}
+
+1673.1.1 = {
+	monarch = {
+		name = "Muhyî ad-Dîn"
+		dynasty  = "Bolkiah"
+		adm = 7
+		dip = 5
+		mil = 4
+	}
+}
+
+1673.1.1 = {
+	heir = {
+		name = "Nasr ad-Dîn"
+		monarch_name = "Nasr ad-Dîn"
+		dynasty = "Bolkiah"
+		birth_Date = 1673.1.1
+		death_Date = 1710.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1690.1.1 = {
+	monarch = {
+		name = "Nasr ad-Dîn"
+		dynasty  = "Bolkiah"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1690.1.1 = {
+	heir = {
+		name = "Kamâl ad-Dîn"
+		monarch_name = "Kamâl ad-Dîn"
+		dynasty  = "Bolkiah"
+		birth_Date = 1690.1.1
+		death_Date = 1740.1.1
+		claim = 95
+		adm = 7
+		dip = 5
+		mil = 6
+	}
+}
+
+1710.1.1 = {
+	monarch = {
+		name = "Kamâl ad-Dîn"
+		dynasty = "Bolkiah"
+		adm = 7
+		dip = 5
+		mil = 6
+	}
+}
+
+1710.1.1 = {
+	heir = {
+		name = "Alâ' ad-Dîn"
+		monarch_name = "Alâ' ad-Dîn"
+		dynasty = "Bolkiah"
+		birth_date = 1690.1.1
+		death_Date = 1762.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1740.1.1 = {
+	monarch = {
+		name = "Alâ' ad-Dîn"
+		dynasty = "Bolkiah"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1740.1.1 = {
+	heir = {
+		name = "Sayf ad-Dîn"
+		monarch_name = "Sayf ad-Dîn I"
+		dynasty = "Bolkiah"
+		birth_Date = 1740.1.1
+		death_Date = 1795.7.11
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1762.1.1 = {
+	monarch = {
+		name = "Sayf ad-Dîn I"
+		dynasty = "Bolkiah"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1762.1.1 = {
+	heir = {
+		name = "Muhammad Jamâl ad-Dîn"
+		monarch_name = "Muhammad Jamâl ad-Dîn"
+		dynasty = "Bolkiah"
+		birth_Date = 1760.1.1
+		death_Date = 1796.2.17
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}
+
+1795.7.11 = {
+	monarch = {
+		name = "Muhammad Jamâl ad-Dîn"
+		dynasty = "Bolkiah"
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}
+
+1795.7.11 = {
+	heir = {
+		name = "Muhammad Tâj ad-Dîn"
+		monarch_name = "Muhammad Tâj ad-Dîn"
+		dynasty = "Bolkiah"
+		birth_Date = 1780.1.1
+		death_Date = 1807.2.14
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1796.2.17 = {
+	monarch = {
+		name = "Muhammad Tâj ad-Dîn"
+		dynasty = "Bolkiah"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1796.2.17 = {
+	heir = {
+		name = "Muhammad Khân dhul 'Alam"
+		monarch_name = "Muhammad Khân dhul 'Alam"
+		dynasty = "Bolkiah"
+		birth_Date = 1790.1.1
+		death_Date = 1829.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1807.2.14 = {
+	monarch = {
+		name = "Muhammad Khân dhul 'Alam"
+		dynasty = "Bolkiah"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}

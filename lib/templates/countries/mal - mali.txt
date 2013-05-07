@@ -1,0 +1,457 @@
+government = tribal_despotism
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = 1
+quality_quantity = 3
+serfdom_freesubjects = -2
+primary_culture = mali
+religion = sunni
+technology_group = sub_saharan
+capital = 1124	# Niani
+
+
+#Kings of Mali
+1390.1.1 = {
+	monarch = {
+		name = "Mahmud"
+		dynasty = "Keita"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1390.1.1 = {
+	heir = {
+		name = "Musa"
+		monarch_name = "Musa III"
+		dynasty = "Keita"
+		birth_date = 1370.1.1
+		death_date = 1450.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1430.1.1 = {
+	monarch = {
+		name = "Musa III"
+		dynasty = "Keita"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1430.1.1 = {
+	heir = {
+		name = "Uli"
+		monarch_name = "Uli II"
+		dynasty = "Keita"
+		birth_date = 1430.1.1
+		death_date = 1481.9.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Uli II"
+		dynasty = "Keita"
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1460.1.1 = {
+	heir = {
+		name = "Mamadu"
+		monarch_name = "Mamadu II"
+		dynasty = "Keita"
+		birth_date = 1460.1.1
+		death_date = 1496.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1481.9.1 = {
+	monarch = {
+		name = "Mamadu II"
+		dynasty = "Keita"
+		DIP = 6
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1481.9.1 = {
+	heir = {
+		name = "Mamadu"
+		monarch_name = "Mamadu III"
+		dynasty = "Keita"
+		birth_date = 1480.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1496.1.1 = {
+	monarch = {
+		name = "Mamadu III"
+		dynasty = "Keita"
+		DIP = 6
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1520.1.1 = {
+	heir = {
+		name = "Mamadu"
+		monarch_name = "Mamadu IV"
+		dynasty ="Keita"
+		birth_Date = 1520.1.1
+		death_date = 1600.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1535.1.1 = {
+	monarch = {
+		name = "Mamadu IV"
+		dynasty = "Keita"
+		DIP = 3
+		ADM = 3
+		MIL = 3
+	}
+}
+
+#Mali collapses in 1600
+
+#Askia Dynasty of Timbuktu
+1618.1.1 = {
+	monarch = {
+		name = "Al-Hajj I"
+		dynasty = "Askia"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1618.1.1 = {
+	heir = {
+		name = "Muhammad Banakanu"
+		monarch_name = "Muhammad I Banakanu"
+		dynasty = "Askia"
+		birth_date = 1600.1.1
+		death_date = 1635.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1621.1.1 = {
+	monarch = {
+		name = "Muhammad I Banakanu"
+		dynasty = "Askia"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1621.1.1 = {
+	heir = {
+		name = "'Ali Zalil"
+		monarch_name = "'Ali Zalil"
+		dynasty = "Askia"
+		birth_date = 1600.1.1
+		death_Date = 1635.7.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1635.1.1 = {
+	monarch = {
+		name = "'Ali Zalil"
+		dynasty = "Askia"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1635.7.1 = {
+	monarch = {
+		name = "Muhammad I Banakanu"
+		dynasty = "Askia"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1635.7.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Al-Hajj II Muhammad"
+		dynasty = "Askia"
+		birth_Date = 1615.1.1
+		death_Date = 1647.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+		
+
+#Restored
+1642.1.1 = {
+	monarch = {
+		name = "Al-Hajj II Muhammad"
+		dynasty = "Askia"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1642.1.1 = {
+	heir = {
+		name = "Da'ud"
+		monarch_name = "Da'ud"
+		dynasty = "Askia"
+		birth_Date = 1620.1.1
+		death_Date = 1668.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1647.1.1 = {
+	monarch = {
+		name = "Da'ud"
+		dynasty = "Askia"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1647.1.1 = {
+	heir = {
+		name = "Muhammad al-Sadiq"
+		monarch_name = "Muhammad II al-Sadiq"
+		dynasty = "Askia"
+		birth_Date = 1640.1.1
+		death_date = 1684.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1668.1.1 = {
+	monarch = {
+		name = "Muhammad II al-Sadiq"
+		dynasty = "Askia"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1668.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad III"
+		dynasty = "Askia"
+		birth_Date = 1660.1.1
+		death_date = 1702.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1684.1.1 = {
+	monarch = {
+		name = "Muhammad III"
+		dynasty = "Askia"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1684.1.1 = {
+	heir = {
+		name = "Bakari"
+		monarch_name = "Bakari"
+		dynasty = "Askia"
+		birth_date = 1670.1.1
+		death_date = 1705.12.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1702.1.1 = {
+	monarch = {
+		name = "Bakari"
+		dynasty = "Askia"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1702.1.1 = {
+	heir = {
+		name = "'Abd al-Rahman"
+		monarch_name = "'Abd al-Rahman"
+		dynasty = "Askia"
+		birth_date = 1690.1.1
+		death_Date = 1709.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1705.12.1 = {
+	monarch = {
+		name = "'Abd al-Rahman"
+		dynasty = "Askia"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1705.12.1 = {
+	heir = {
+		name = "Bakr"
+		monarch_name = "Bakr"
+		dynasty = "Askia"
+		birth_Date = 1680.1.1
+		death_date = 1713.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1709.1.1 = {
+	monarch = {
+		name = "Bakr"
+		dynasty = "Askia"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1709.1.1 = {
+	heir = {
+		name = "Al-Mukhtar"
+		monarch_name = "Al-Mukhtar"
+		dynasty = "Askia"
+		birth_date = 1690.1.1
+		death_date = 1730.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1713.1.1 = {
+	monarch = {
+		name = "Al-Mukhtar"
+		dynasty = "Askia"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1713.1.1 = {
+	heir = {
+		name = "Al-Hajj"
+		monarch_name = "Al-Hajj III"
+		dynasty = "Askia"
+		birth_date = 1700.1.1
+		death_date = 1748.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1730.1.1 = {
+	monarch = {
+		name = "Al-Hajj III"
+		dynasty = "Askia"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1730.1.1 = {
+	heir = {
+		name = "Mahmud"
+		monarch_name = "Mahmud"
+		dynasty = "Askia"
+		birth_Date = 1720.1.1
+		death_Date = 1769.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1748.1.1 = {
+	monarch = {
+		name = "Mahmud"
+		dynasty = "Askia"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}

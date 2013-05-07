@@ -1,0 +1,551 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -4
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -1
+primary_culture = oriya
+religion = hinduism
+technology_group = indian
+capital = 553	# Cuttack
+
+
+#Rajas of Utkala/Orissa
+1378.1.1 = {
+	monarch = {
+		name = "Narasimhadeva IV"
+		dynasty = "Gangas"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Bhanudeva"
+		monarch_name = "Bhanudeva IV"
+		dynasty = "Gangas"
+		birth_date = 1399.1.1
+		death_date = 1434.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1414.1.1 = {
+	monarch = {
+		name = "Bhanudeva IV"
+		dynasty = "Gangas"
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1420.1.1 = {
+	heir = {
+		name = "Kapilesvara Gajapati"
+		monarch_name = "Kapilesvara Gajapati"
+		dynasty = "Suryavamsi"
+		birth_Date = 1420.1.1
+		death_date = 1466.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1434.1.1 = {
+	monarch = {
+		name = "Kapilesvara Gajapati"
+		dynasty = "Suryavamsi"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Purushottama"
+		monarch_name = "Purushottama"
+		dynasty = "Suryavamsi"
+		birth_date = 1420.1.1
+		death_Date = 1497.4.2
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}
+
+1466.1.1 = {
+	monarch = {
+		name = "Purushottama"
+		dynasty = "Suryavamsi"
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}
+
+1470.1.1 = {
+	heir = {
+		name = "Pratâprudra"
+		monarch_name = "Pratâprudra"
+		dynasty = "Suryavamsi"
+		birth_date = 1470.1.1
+		death_date = 1540.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1497.4.2 = {
+	monarch = {
+		name = "Pratâprudra"
+		dynasty = "Suryavamsi"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1497.4.2 = {
+	heir = {
+		name = "Kaluadeva"
+		monarch_name = "Kaluadeva"
+		dynasty = "Suryavamsi"
+		birth_date = 1490.1.1
+		death_date = 1541.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Kaluadeva"
+		dynasty = "Suryavamsi"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1541.1.1 = {
+	monarch = {
+		name = "Govindaraja Vidyadhara"
+		dynasty = "Bhoi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1541.1.1 = {
+	heir = {
+		name = "Chakrapretâpa"
+		monarch_name = "Chakrapretâpa"
+		dynasty = "Bhoi"
+		birth_date = 1520.1.1
+		death_date = 1557.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1549.1.1 = {
+	monarch = {
+		name = "Chakrapretâpa"
+		dynasty = "Bhoi"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1549.1.1 = {
+	heir = {
+		name = "Nârashima Jana"
+		monarch_name = "Nârashima Jana"
+		dynasty = "Bhoi"
+		birth_date = 1540.1.1
+		death_date = 1558.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1557.1.1 = {
+	monarch = {
+		name = "Nârashima Jana"
+		dynasty = "Bhoi"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1557.1.1 = {
+	heir = {
+		name = "Raghurâma Chhotra"
+		monarch_name = "Raghurâma Chhotra"
+		dynasty = "Bhoi"
+		birth_date = 1530.1.1
+		death_date = 1560.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1558.1.1 = {
+	monarch = {
+		name = "Raghurâma Chhotra"
+		dynasty = "Bhoi"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1560.1.1 = {
+	monarch = {
+		name = "Mukundadeva Harishandra"
+		dynasty = "Chalukya"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1560.1.1 = {
+	heir = {
+		name = "Râmchandra Deva"
+		monarch_name = "Râmchandra Deva I"
+		dynasty = "Chalukya"
+		birth_date = 1540.1.1
+		death_date = 1607.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1567.1.1 = {
+	monarch = {
+		name = "Râmchandra Deva I"
+		dynasty = "Chalukya"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1567.1.1 = {
+	heir = {
+		name = "Purushottama Deva"
+		monarch_name = "Purushottama Deva"
+		dynasty = "Garjat"
+		birth_date = 1567.1.1
+		death_date = 1623.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1607.1.1 = {
+	monarch = {
+		name = "Purushottama Deva"
+		dynasty = "Garjat"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1607.1.1 = {
+	heir = {
+		name = "Râmchandra Deva"
+		monarch_name = "Râmchandra Deva II"
+		dynasty = "Garjat"
+		birth_date = 1607.1.1
+		death_date = 1628.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1623.1.1 = {
+	monarch = {
+		name = "Râmchandra Deva II"
+		dynasty = "Garjat"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1623.1.1 = {
+	heir = {
+		name = "Nârsimha Deva"
+		monarch_name = "Nârsimha Deva"
+		dynasty = "Garjat"
+		birth_Date = 1610.1.1
+		death_Date = 1647.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1628.1.1 = {
+	monarch = {
+		name = "Nârsimha Deva"
+		dynasty = "Garjat"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1620.1.1 = {
+	heir = {
+		name = "Gangâdar Deva"
+		monarch_name = "Gangâdar Deva"
+		dynasty = "Garjat"
+		birth_date = 1620.1.1
+		death_Date = 1649.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1647.1.1 = {
+	monarch = {
+		name = "Gangâdar Deva"
+		dynasty = "Garjat"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1647.1.1 = {
+	heir = {
+		name = "Bâlabhadra Deva"
+		monarch_name = "Bâlabhadra Deva"
+		dynasty = "Garjat"
+		birth_date = 1627.1.1
+		death_date = 1659.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1649.1.1 = {
+	monarch = {
+		name = "Bâlabhadra Deva"
+		dynasty = "Garjat"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1649.1.1 = {
+	heir = {
+		name = "Mukunda Deva"
+		monarch_name = "Mukunda Deva I"
+		dynasty = "Garjat"
+		birth_Date = 1620.1.1
+		death_Date = 1689.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1659.1.1 = {
+	monarch = {
+		name = "Mukunda Deva I"
+		dynasty = "Garjat"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1659.1.1 = {
+	heir = {
+		name = "Divya Simha Deva"
+		monarch_name = "Divya Simha Deva"
+		dynasty = "Garjat"
+		birth_date = 1630.1.1
+		death_date = 1715.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1689.1.1 = {
+	monarch = {
+		name = "Divya Simha Deva"
+		dynasty = "Garjat"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1689.1.1 = {
+	heir = {
+		name = "Hari Krishna Deva"
+		monarch_name = "Hari Krishna Deva"
+		dynasty = "Garjat"
+		birth_date = 1670.1.1
+		death_Date = 1719.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1715.1.1 = {
+	monarch = {
+		name = "Hari Krishna Deva"
+		dynasty = "Garjat"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1715.1.1 = {
+	heir = {
+		name = "Gapînâth Deva"
+		monarch_name = "Gapînâth Deva"
+		dynasty = "Garjat"
+		birth_date = 1700.1.1
+		death_date = 1726.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1719.1.1 = {
+	monarch = {
+		name = "Gapînâth Deva"
+		dynasty = "Garjat"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1719.1.1 = {
+	heir = {
+		name = "Râmehandra Deva"
+		monarch_name = "Râmehandra Deva III"
+		dynasty = "Garjat"
+		birth_date = 1700.1.1
+		death_date = 1736.12.2
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1726.1.1 = {
+	monarch = {
+		name = "Râmehandra Deva III"
+		dynasty = "Garjat"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1726.1.1 = {
+	heir = {
+		name = "Padmanabha"
+		monarch_name = "Padmanabha"
+		dynasty = "Garjat"
+		birth_Date = 1710.1.1
+		death_date = 1739.4.21
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1736.12.2 = {
+	monarch = {
+		name = "Padmanabha"
+		dynasty = "Garjat"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1736.12.2 = {
+	heir = {
+		name = "Vîra Kishor Deva"
+		monarch_name = "Vîra Kishor Deva"
+		dynasty = "Garjat"
+		birth_date = 1710.1.1
+		death_date = 1751.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1739.4.21 = {
+	monarch = {
+		name = "Vîra Kishor Deva"
+		dynasty = "Garjat"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+#Conquered by the Marathis (Bhonsle) in 1751

@@ -1,0 +1,189 @@
+government = theocratic_government
+aristocracy_plutocracy = -4
+centralization_decentralization = 5
+innovative_narrowminded = 2
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = 1
+quality_quantity = 0
+serfdom_freesubjects = -2
+technology_group = western
+religion = catholic
+primary_culture = wallonian
+capital = 93	# Liège
+
+
+1389.1.1 = {
+	monarch = {
+		name = "Jean VI"
+		DIP = 6
+		ADM = 4
+		MIL = 6
+	}
+}
+
+1418.1.1 = {
+	monarch = {
+		name = "Jean VII"
+		DIP = 3
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1419.5.28 = {
+	monarch = {
+		name = "Jean VIII"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1455.11.22 = {
+	monarch = {
+		name = "Louis I de Bourbon"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1482.8.30 = {
+	monarch = {
+		name = "Jean IX"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1506.12.19 = {
+	monarch = {
+		name = "Érard I"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1538.3.18 = {
+	monarch = {
+		name = "Corneille I"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1544.8.16 = {
+	monarch = {
+		name = "Georges I"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1557.5.5 = {
+	monarch = {
+		name = "Robert II"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1563.7.22 = {
+	monarch = {
+		name = "Gérard I"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1580.12.28 = {
+	monarch = {
+		name = "Ernest I"
+		DIP = 4
+		ADM = 3
+		MIL = 5
+	}
+}
+
+1612.2.17 = {
+	monarch = {
+		name = "Ferdinand I"
+		DIP = 5
+		ADM = 3
+		MIL = 6
+	}
+}
+
+1650.8.13 = {
+	monarch = {
+		name = "Maximilien-Henri I"
+		DIP = 5
+		ADM = 5
+		MIL = 6
+	}
+}
+
+1688.6.3 = {
+	monarch = {
+		name = "Jean-Louis I"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+1694.2.1 = {
+	monarch = {
+		name = "Joseph-Clément I"
+		DIP = 5
+		ADM = 6
+		MIL = 4
+	}
+}
+
+1723.11.12 = {
+	monarch = {
+		name = "Georges-Louis I"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+1743.12.4 = {
+	monarch = {
+		name = "Jean-Théodore I"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+1763.1.27 = {
+	monarch = {
+		name = "Charles-Nicolas I"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+1771.10.22 = {
+	monarch = {
+		name = "François-Charles I"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+1784.4.30 = {
+	monarch = {
+		name = "César-Constantin I"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}

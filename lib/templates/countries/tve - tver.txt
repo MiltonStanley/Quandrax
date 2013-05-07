@@ -1,0 +1,54 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 2
+innovative_narrowminded = 1
+mercantilism_freetrade = -1
+offensive_defensive = 0
+land_naval = -3
+quality_quantity = 2
+serfdom_freesubjects = -5
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+capital = 294	# Tver
+
+
+1398.11.1 = {
+	monarch = {
+		name = "Mikhail II"
+		dynasty = "Rurikovich"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1425.11.1 = {
+	monarch = {
+		name = "Boris"
+		dynasty = "Rurikovich"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1461.2.10 = {
+	monarch = {
+		name = "Mikhail III"
+		dynasty = "Rurikovich"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1485.9.13 = {
+	monarch = {
+		name = "Ivan II"
+		dynasty = "Rurikovich"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}

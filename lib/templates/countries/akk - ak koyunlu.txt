@@ -1,0 +1,326 @@
+government = tribal_federation
+aristocracy_plutocracy = -4
+centralization_decentralization = 5
+innovative_narrowminded = 3
+mercantilism_freetrade = -3
+offensive_defensive = -1
+land_naval = -1
+quality_quantity = 3
+serfdom_freesubjects = -5
+primary_culture = azerbadjani
+religion = sunni
+technology_group = muslim
+capital = 418
+
+
+1396.1.1 = {
+	monarch = {
+		name = "Qara Yoluq"
+		dynasty = "Ak Koyunlu"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1396.1.1 = {
+	heir = {
+		name = "'Ali Djalal"
+		monarch_name = "'Ali Djalal"
+		dynasty = "Ak Koyunlu"
+		birth_date = 1396.1.1
+		death_date = 1444.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1435.1.1 = {
+	monarch = {
+		name = "'Ali Djalal"
+		dynasty = "Ak Koyunlu"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1435.1.1 = {
+	heir = {
+		name = "Jahangir Mu'izz"
+		monarch_name = "Jahangir Mu'izz"
+		dynasty = "Ak Koyunlu"
+		birth_date = 1424.1.1
+		death_date = 1453.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1444.1.1 = {
+	monarch = {
+		name = "Jahangir Mu'izz"
+		dynasty = "Ak Koyunlu"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Usan Hasan"
+		monarch_name = "Usan Hasan"
+		dynasty = "Ak Koyunlu"
+		birth_date = 1433.1.1
+		death_date = 1478.1.5
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 8
+		leader = {	
+			name = "Usun Hasan"
+			type = general
+			rank = 0	
+			fire = 4	
+			shock = 5	
+			manuever = 5	
+			siege = 0
+		}
+	}
+}
+
+1453.1.1 = {
+	monarch = {
+		name = "Usun Hasan"
+		dynasty = "Ak Koyunlu"
+		adm = 7
+		dip = 7
+		mil = 8
+		leader = {	name = "Usun Hasan"            	type = general	rank = 0	fire = 4	shock = 5	manuever = 5	siege = 0}
+	}
+}
+
+1453.1.1 = {
+	heir = {
+		name = "Khalîl"
+		monarch_name = "Khalîl"
+		dynasty = "Ak Koyunlu"
+		birth_date = 1453.1.1
+		death_date = 1478.7.16
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1469.1.1 = { capital = 414 } # Tabriz
+
+1478.1.6 = {
+	monarch = {
+		name = "Khalîl"
+		dynasty = "Ak Koyunlu"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1478.1.6 = {
+	heir = {
+		name = "Ya'qûb"
+		monarch_name = "Ya'qûb"
+		dynasty = "Ak Koyunlu"
+		birth_date = 1458.1.1
+		death_date = 1490.12.25
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1478.7.16 = {
+	monarch = {
+		name = "Ya'qûb"
+		dynasty = "Ak Koyunlu"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1478.7.16 = {
+	heir = {
+		name = "Baisunqur"
+		monarch_name = "Baisunqur"
+		dynasty = "Ak Koyunlu"
+		birth_date = 1470.1.1
+		death_date = 1492.5.23
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 4
+	}
+}
+
+1490.12.25 = {
+	monarch = {
+		name = "Baisunqur"
+		dynasty = "Ak Koyunlu"
+		adm = 7
+		dip = 4
+		mil = 4
+	}
+}
+
+1490.12.25 = {
+	heir = {
+		name = "Rustam"
+		monarch_name = "Rustam"
+		dynasty = "Ak Koyunlu"
+		birth_date = 1470.1.1
+		death_date = 1496.2.8
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1492.5.23 = {
+	monarch = {
+		name = "Rustam"
+		dynasty = "Ak Koyunlu"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1492.5.23 = {
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad"
+		dynasty = "Ak Koyunlu"
+		birth_date = 1475.1.1
+		death_date = 1497.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1496.2.8 = {
+	monarch = {
+		name = "Ahmad"
+		dynasty = "Ak Koyunlu"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1496.2.8 = {
+	heir = {
+		name = "Murad"
+		monarch_name = "Murad"
+		dynasty = "Ak Koyunlu"
+		birth_date = 1475.1.1
+		death_date = 1498.1.1
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+
+1497.1.1 = {
+	monarch = {
+		name = "Murad"
+		dynasty = "Ak Koyunlu"
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+
+1497.1.1 = {
+	heir = {
+		name = "Alwand"
+		monarch_name = "Alwand"
+		dynasty = "Ak Koyunlu"
+		birth_date = 1475.1.1
+		death_date = 1499.5.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1498.1.1 = {
+	monarch = {
+		name = "Alwand"
+		dynasty = "Ak Koyunlu"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1498.1.1 = {
+	heir = {
+		name = "Muhammed Mîrzâ"
+		monarch_name = "Muhammed Mîrzâ"
+		dynasty = "Ak Koyunlu"
+		birth_date = 1475.1.1
+		death_date = 1500.6.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1499.5.1 = {
+	monarch = {
+		name = "Muhammed Mîrzâ"
+		dynasty = "Ak Koyunlu"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1499.5.1 = {
+	heir = {
+		name = "Murad"
+		monarch_name = "Murad"
+		dynasty = "Ak Koyunlu"
+		birth_date = 1475.1.1
+		death_date = 1508.1.1
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+
+1500.6.1 = {
+	monarch = {
+		name = "Murad"
+		dynasty = "Ak Koyunlu"
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+
+#Safavid Conquest

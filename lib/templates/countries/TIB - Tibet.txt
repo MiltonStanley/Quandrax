@@ -1,0 +1,207 @@
+government = noble_republic
+aristocracy_plutocracy = 0
+centralization_decentralization = 5
+innovative_narrowminded = 1
+mercantilism_freetrade = 0
+offensive_defensive = 3
+land_naval = -2
+quality_quantity = 2
+serfdom_freesubjects = 0
+primary_culture = tibetan
+religion = buddhism
+technology_group = chinese
+capital = 677	# Lhasa
+
+
+1391.1.1 = {
+	monarch = {
+		name = "Gendun Drup"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1399.1.1 = { decision = monastic_education }
+
+1443.1.1 = {
+	monarch = {
+		name = "Trakpa Chunge"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Sangye Gyantesen Pal"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1481.1.1 = {
+	monarch = {
+		name = "Dön-yö Dorje"
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+1522.1.1 = {
+	monarch = {
+		name = "Ngawang Namgye"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Töndap Tseten"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1565.1.1 = {
+	monarch = {
+		name = "Karma Tseten"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1582.1.1 = {
+	monarch = {
+		name = "Lhawang Dorje"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1603.1.1 = {
+	monarch = {
+		name = "Phüntso Namgye"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1623.1.1 = {
+	monarch = {
+		name = "Karma Tsen-Kyong"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1642.1.1 = { government = theocratic_government }
+
+1642.1.1 = {
+	monarch = {
+		name = "Gursi"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1655.1.1 = {
+	monarch = {
+		name = "Dayan"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1668.1.1 = {
+	monarch = {
+		name = "Tenzin Dalai"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1696.1.1 = {
+	monarch = {
+		name = "Lhabzang"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1717.1.1 = {
+	monarch = {
+		name = "Tsewang Arabtan"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1740.1.1 = {
+	monarch = {
+		name = "Phola Sonam Tobgye"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1747.3.13 = {
+	monarch = {
+		name = "Gyurme Namgyal"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1750.11.12 = {
+	monarch = {
+		name = "Kezang Gyatso"
+		adm = 8
+		dip = 8
+		mil = 7
+	}
+}
+
+1758.1.1 = {
+	monarch = {
+		name = "Jampel Gyatso"
+		adm = 7
+		dip = 7
+		mil = 7
+	}
+}
+
+1805.1.1 = {
+	monarch = {
+		name = "Luntok Gyatso"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1815.1.1 = {
+	monarch = {
+		name = "Tshultrin Gyatso"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}

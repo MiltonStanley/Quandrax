@@ -1,0 +1,265 @@
+government = tribal_federation
+aristocracy_plutocracy = -4
+centralization_decentralization = 5
+innovative_narrowminded = 3
+mercantilism_freetrade = -3
+offensive_defensive = -1
+land_naval = -5
+quality_quantity = 3
+serfdom_freesubjects = -3
+technology_group = muslim
+religion = sunni
+primary_culture = uzbehk
+capital = 458	# Kokkand
+
+
+# (Khans)
+1690.1.1 = {
+	monarch = {
+		name = "Shah Rukh"
+		dynasty = "Shaybanid"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1690.1.1 = {
+	heir = {
+		name = "Rustam"
+		monarch_name = "Rustam"
+		dynasty = "Shaybanid"
+		birth_Date = 1675.1.1
+		death_date = 1697.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1694.1.1 = {
+	monarch = {
+		name = "Rustam"
+		dynasty = "Shaybanid"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1694.1.1 = {
+	heir = {
+		name = "Ashur-qul"
+		monarch_name = "Ashur-qul"
+		dynasty = "Shaybanid"
+		birth_Date = 1660.1.1
+		death_Date = 1700.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1697.1.1 = {
+	monarch = {
+		name = "Ashur-qul"
+		dynasty = "Shaybanid"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1697.1.1 = {
+	heir = {
+		name = "Shah Rukh"
+		monarch_name = "Shah Rukh II"
+		dynasty = "Shaybanid"
+		birth_Date = 1680.1.1
+		death_Date = 1721.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Shah Rukh II"
+		dynasty = "Shaybanid"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1700.1.1 = {
+	heir = {
+		name = "Abu Rahim"
+		monarch_name = "Abu Rahim"
+		dynasty = "Shaybanid"
+		birth_Date = 1700.1.1
+		death_Date = 1739.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1721.1.1 = {
+	monarch = {
+		name = "Abu Rahim"
+		dynasty = "Shaybanid"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1721.1.1 = {
+	heir = {
+		name = "'Abd al-Karim"
+		monarch_name = "'Abd al-Karim"
+		dynasty = "Shaybanid"
+		birth_Date = 1720.1.1
+		death_date = 1746.1.11
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1739.1.1 = {
+	monarch = {
+		name = "'Abd al-Karim"
+		dynasty = "Shaybanid"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1739.1.1 = {
+	heir = {
+		name = "Irdan"
+		monarch_name = "Irdan I"
+		dynasty = "Shaybanid"
+		birth_Date = 1730.1.1
+		death_date = 1770.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1746.1.11 = {
+	monarch = {
+		name = "Irdan I"
+		dynasty = "Shaybanid"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1746.1.11 = {
+	heir = {
+		name = "Sulayman"
+		monarch_name = "Sulayman"
+		dynasty = "Shaybanid"
+		birth_Date = 1746.1.11
+		death_date = 1774.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1770.1.1 = {
+	monarch = {
+		name = "Sulayman"
+		dynasty = "Shaybanid"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1770.1.1 = {
+	heir = {
+		name = "Shah Rukh"
+		monarch_name = "Shah Rukh III"
+		dynasty = "Shaybanid"
+		birth_Date = 1760.1.1
+		death_Date = 1800.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1774.1.1 = {
+	monarch = {
+		name = "Shah Rukh III"
+		dynasty = "Shaybanid"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1774.1.1 = {
+	heir = {
+		name = "'Alim Khan"
+		monarch_name = "'Alim Khan"
+		dynasty = "Shaybanid"
+		birth_Date = 1770.1.1
+		death_Date = 1809.7.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1800.1.1 = {
+	monarch = {
+		name = "'Alim Khan"
+		dynasty = "Shaybanid"
+		DIP = 6
+		ADM = 7
+		MIL = 5
+	}
+}
+
+1800.1.1 = {
+	heir = {
+		name = "Muhammad 'Umar Khan"
+		monarch_name = "Muhammad 'Umar Khan"
+		dynasty = "Shaybanid"
+		birth_Date = 1800.1.1
+		death_Date = 1830.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1809.7.1 = {
+	monarch = {
+		name = "Muhammad 'Umar Khan"
+		dynasty = "Shaybanid"
+		DIP = 4
+		ADM = 5
+		MIL = 5
+	}
+}

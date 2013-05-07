@@ -1,0 +1,401 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -5
+offensive_defensive = 0
+land_naval = -3
+quality_quantity = 0
+serfdom_freesubjects = -4
+technology_group = western
+primary_culture = bavarian
+religion = catholic
+capital = 65	# München!
+
+
+1397.1.1 = {
+	monarch = {
+		name = "Ernst I"
+		dynasty = "von Wittelsbach"
+		adm = 5
+		dip = 7
+		mil = 5
+    	}
+}
+
+1401.3.27 = {
+	heir = {
+		name = "Albrecht"
+		monarch_name = "Albrecht III"
+		dynasty = "von Wittelsbach"
+		birth_date = 1401.3.27
+		death_date = 1460.2.29
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1438.7.3 = {
+	monarch = {
+		name = "Albrecht III"
+		dynasty = "von Wittelsbach"
+		adm = 5	
+		dip = 5
+		mil = 5
+    	}
+}
+
+1438.7.3 = {
+	heir = {
+		name = "Johann"
+		monarch_name = "Johann IV"
+		dynasty = "von Wittelsbach"
+		birth_date = 1438.7.3
+		death_date = 1463.11.18
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1460.2.28  = {
+	monarch = {
+		name = "Johann IV"
+		dynasty = "von Wittelsbach"
+		adm = 4	
+		dip = 3	
+		mil = 4
+	}
+}
+
+1460.2.28 = {
+	heir = {
+		name = "Siegmund"
+		monarch_name = "Siegmund I"
+		dynasty = "von Wittelsbach"
+		birth_date = 1437.7.26
+		death_date = 1501.2.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1463.11.20 = {
+	monarch = {
+		name = "Siegmund I"
+		dynasty = "von Wittelsbach"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1463.11.20 = {
+	heir = {
+		name = "Albrecht der Weise"
+		monarch_name = "Albrecht IV der Weise"
+		dynasty = "von Wittelsbach"
+		birth_date = 1447.12.15
+		death_date = 1508.3.18
+		claim = 95
+		adm = 8
+		dip = 6
+		mil = 5
+	}
+}
+
+1467.9.4   = {
+	monarch = {
+		name = "Albrecht IV der Weise"
+		dynasty = "von Wittelsbach"
+		adm = 8
+		dip = 6
+		mil = 5
+	}
+}
+
+1493.11.13 = {
+	heir = {
+		name = "Wilhelm"
+		monarch_name = "Wilhelm IV"
+		dynasty = "von Wittelsbach"
+		birth_date = 1493.11.13
+		death_date = 1550.3.7
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 5
+	}
+}
+
+1508.3.19  = {
+	monarch = {
+		name = "Wilhelm IV"
+		dynasty = "von Wittelsbach"
+		adm = 7
+		dip = 4
+		mil = 5
+	}
+}
+
+1524.1.1   = { set_country_flag = peasant_war }
+
+1526.1.1   = { clr_country_flag = peasant_war }
+
+1528.2.29 = {
+	heir = {
+		name = "Albrecht"
+		monarch_name = "Albrecht V"
+		dynasty = "von Wittelsbach"
+		birth_date = 1528.2.29
+		death_date = 1579.10.24
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 3
+	}
+}
+
+1550.3.7   = {
+	monarch = {
+		name = "Albrecht V"
+		dynasty = "von Wittelsbach"
+		adm = 5	
+		dip = 6	
+		mil = 3
+	}
+}
+
+1550.3.7 = {
+	heir = {
+		name = "Wilhelm"
+		monarch_name = "Wilhelm V"
+		dynasty = "von Wittelsbach"
+		birth_date = 1548.9.29
+		death_date = 1626.2.7
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 4
+	}
+}
+
+1579.10.25 = {
+	monarch = {
+		name = "Wilhelm V"
+		dynasty = "von Wittelsbach"
+		adm = 7	
+		dip = 4	
+		mil = 4
+	}
+}
+
+1579.10.25 = {
+	heir = {
+		name = "Maximilian"
+		monarch_name = "Maximilian I"
+		dynasty = "von Wittelsbach"
+		birth_date = 1573.4.17
+		death_date = 1651.9.27
+		claim = 95
+		adm = 5
+		dip = 7
+		mil = 3
+	}
+}
+
+1597.10.16 = {
+	monarch = {
+		name = "Maximilian I"
+		dynasty = "von Wittelsbach"
+		adm = 5	
+		dip = 7	
+		mil = 3
+	}
+}
+
+1609.1.1   = { leader = { name = "Tilly"	type = general	rank = 0	fire = 4	shock = 4	manuever = 3	siege = 1	death_date = 1632.4.30 } }
+
+1623.1.1   = { elector = yes }	
+
+1630.1.1   = { leader = { name = "Mercy"	type = general	rank = 0	fire = 3	shock = 3	manuever = 1	siege = 0	death_date = 1645.8.3 } }
+
+1635.1.1   = { leader = { name = "von Werth"	type = general	rank = 1	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1652.9.16 } }
+
+1636.10.31 = {
+	heir = {
+		name = "Ferdinand Maria"
+		monarch_name = "Ferdinand Maria I"
+		dynasty = "von Wittelsbach"
+		birth_date = 1636.10.31
+		death_date = 1679.5.26
+		claim = 95
+		adm = 7
+		dip = 5
+		mil = 6
+	}
+}
+
+1641.1.1   = { leader = { name = "Grönsfeld"	type = general	rank = 1	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1660.1.1 } }
+
+1651.9.28  = {
+	monarch = {
+		name = "Ferdinand Maria I"
+		dynasty = "von Wittelsbach"
+		adm = 7
+		dip = 5
+		mil = 6
+	}
+}
+
+1662.7.11 = {
+	heir = {
+		name = "Maximilian Emanuel"
+		monarch_name = "Maximilian II Emanuel"
+		dynasty = "von Wittelsbach"
+		birth_date = 1662.7.11
+		death_date = 1726.2.26
+		claim = 95
+		adm  = 7
+		dip = 6
+		mil = 5
+		leader = { name = "Max II Emmanuel"	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0 }
+	}
+}
+
+1679.5.27  = {
+	monarch = {
+		name = "Maximilian II Emanuel"
+		dynasty = "von Wittelsbach"
+		adm = 7
+		dip = 6
+		mil = 5
+		leader = { name = "Max II Emmanuel"	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0 }
+	}
+}
+
+1697.8.6 = {
+	heir = {
+		name = "Karl Albrecht"
+		monarch_name = "Karl Albrecht I"
+		dynasty = "von Wittelsbach"
+		birth_date = 1697.8.6
+		death_date = 1745.1.20
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+	
+
+1706.1.1   = { elector = no }
+
+1714.1.1   = { elector = yes }
+
+1726.2.25  = {
+	monarch = {
+		name = "Karl Albrecht I"
+		dynasty = "von Wittelsbach"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1727.3.28 = {
+	heir = {
+		name = "Maximilian Joseph"
+		monarch_name = "Maximilian III Joseph"
+		dynasty = "von Wittelsbach"
+		birth_date = 1727.3.28
+		death_date = 1777.12.30
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1740.1.1   = { leader = { name = "Seckendorf"	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1763.11.23 } }
+
+1740.12.22 = { emperor = yes }
+
+1745.1.21  = {
+	monarch = {
+		name = "Maximilian III Joseph"
+		dynasty = "von Wittelsbach"
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1745.1.21 = {
+	heir = {
+		name = "Karl Theodor"
+		monarch_name = "Karl Theodor I"
+		dynasty = "von Wittelsbach"
+		birth_date = 1724.12.11
+		death_date = 1799.2.16
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 3
+	}
+}
+
+1777.12.30 = {
+	monarch = {
+		name = "Karl Theodor I"
+		dynasty = "von Wittelsbach"
+		adm = 6
+		dip = 7
+		mil = 3
+	}
+}
+
+1777.12.30 = {
+	heir = {
+		name = "Maximilian Joseph"
+		monarch_name = "Maximilian IV Joseph"
+		dynasty = "von Wittelsbach"
+		birth_date = 1756.5.27
+		death_date = 1825.10.13
+		claim = 95
+		adm = 8
+		dip = 8
+		mil = 5
+	}
+}
+
+1799.2.15  = {
+	monarch = {
+		name = "Maximilian IV Joseph"
+		dynasty = "von Wittelsbach"
+		adm = 8
+		dip = 8
+		mil = 5
+	}
+}
+
+1799.2.15 = {
+	heir = {
+		name = "Ludwig"
+		monarch_name = "Ludwig I"
+		dynasty = "von Wittelsbach"
+		birth_date = 1786.8.25
+		death_date = 1868.2.29
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1806.7.12 = { elector = no } # The HRE is formally abolished

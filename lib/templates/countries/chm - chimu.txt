@@ -1,0 +1,24 @@
+government = tribal_democracy
+aristocracy_plutocracy = -5
+centralization_decentralization = 5
+innovative_narrowminded = 5
+mercantilism_freetrade = -5
+offensive_defensive = -5
+land_naval = -5
+quality_quantity = 4
+serfdom_freesubjects = -5
+primary_culture = inca
+religion = animism
+technology_group = new_world
+capital = 812	# Chan Chan
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Minchancaman"
+		dynasty = "Chimu"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}

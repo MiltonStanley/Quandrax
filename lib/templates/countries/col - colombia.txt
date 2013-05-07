@@ -1,0 +1,69 @@
+government = revolutionary_republic
+aristocracy_plutocracy = -2
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -5
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 2
+serfdom_freesubjects = 0
+technology_group = western
+religion = catholic
+primary_culture = castillian
+capital = 825	# Bogota
+
+
+1810.7.20 = {
+	monarch = {
+		name = "José Miguel Pey de Andrade"
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}
+
+1811.4.1 = {
+	monarch = {
+		name = "Jorge Tadeo Lozano"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+# Triumvirate of the United Provinces of New Granada
+1814.10.5 = {
+	monarch = {
+		name = "José Fernández Madrid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1814.11.23 = {
+	monarch = {
+		name = "Custodio García Rovira"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1815.7.28 = {
+	monarch = {
+		name = "Antonio Villavicencio"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1819.12.17 = {
+	monarch = {
+		name = "Simón Bolívar"
+		adm = 8
+		dip = 6
+		mil = 7
+	}
+}

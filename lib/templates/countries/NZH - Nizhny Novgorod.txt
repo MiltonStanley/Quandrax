@@ -1,0 +1,27 @@
+# Principality of Nizhny Novgorod-Suzdal
+
+government = despotic_monarchy
+aristocracy_plutocracy = -5
+centralization_decentralization = 2
+innovative_narrowminded = 3
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -3
+quality_quantity = 2
+serfdom_freesubjects = -5
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+capital = 306	# Nizhny Novgorod
+
+1350.1.1 = {
+	monarch = {
+		name = "Dmitry I"
+		dynasty = "Rurikovich"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+# 1392 to Muscowy

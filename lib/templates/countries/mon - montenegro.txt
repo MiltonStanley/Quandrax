@@ -1,0 +1,326 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 2
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = -1
+quality_quantity = 1
+serfdom_freesubjects = -5
+technology_group = eastern
+primary_culture = serbian
+religion = orthodox
+capital = 138	# Zabljak
+
+
+#Grand Dukes of Duklija/Zeta
+1385.1.1 = {
+	monarch = {
+		name = "Djurad II"
+		dynasty = "Balsic"
+		DIP = 7
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1387.1.1 = {
+	heir = {
+		name = "Balsha"
+		monarch_name = "Balsha III"
+		dynasty = "Balsic"
+		birth_date = 1385.1.1
+		death_date = 1421.4.28
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1405.1.1 = {
+	monarch = {
+		name = "Balsha III"
+		dynasty = "Balsic"
+		DIP = 4
+		ADM = 6
+		MIL = 6
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Stepan I"
+		dynasty = "Lazarevic"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Jovan I"
+		dynasty = "Crnojevic"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1475.1.1 = {
+	heir = {
+		name = "Djurad"
+		monarch_name = "Djurad IV"
+		dynasty = "Crnojevic"
+		birth_date = 1475.1.1
+		death_date = 1496.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1490.1.1 = {
+	monarch = {
+		name = "Djuradj IV"
+		dynasty = "Crnojevic"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1496.1.1 = {
+	monarch = {
+		name = "Stepan II"
+		dynasty = "Crnojevic"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1498.1.1 = {
+	monarch = {
+		name = "Jovan II"
+		dynasty = "Crnojevic"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+#Ottoman Occupation 1499 - 1515
+
+1515.7.1 = {
+	monarch = {
+		name = "Djuradj V"
+		dynasty = "Crnojevic"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+#Prince-Bishops of Montenegro
+1516.1.1 = { government = theocratic_government }
+
+1516.1.1 = {
+	monarch = {
+		name = "Vavila"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "German II"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+		name = "Pavle"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1532.1.1 = {
+	monarch = {
+		name = "Vasilije I"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Nikodim"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1560.1.1 = {
+	monarch = {
+		name = "Makrije"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1561.1.1 = {
+	monarch = {
+		name = "Rufim I"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1569.1.1 = {
+	monarch = {
+		name = "Pahomije II"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1575.1.1 = {
+	monarch = {
+		name = "Gerasim"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1582.1.1 = {
+	monarch = {
+		name = "Venjamin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1591.1.1 = {
+	monarch = {
+		name = "Nikanor"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1593.1.1 = {
+	monarch = {
+		name = "Rufim II"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1639.1.1 = {
+	monarch = {
+		name = "Mardarija I"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1649.1.1 = {
+	monarch = {
+		name = "Visarion I"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1659.1.1 = {
+	monarch = {
+		name = "Mardarija II"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1673.1.1 = {
+	monarch = {
+		name = "Rufim III"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1680.1.1 = {
+	monarch = {
+		name = "Vasilije II"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1685.1.1 = {
+	monarch = {
+		name = "Visarion II"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1694.1.1 = {
+	monarch = {
+		name = "Sava I"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1696.7.1 = {
+	monarch = {
+		name = "Danilo I"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1735.1.21 = {
+	monarch = {
+		name = "Sava II"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1782.3.9 = {
+	monarch = {
+		name = "Petar I"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}

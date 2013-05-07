@@ -1,0 +1,198 @@
+#######################################
+# Timurid Empire
+#######################################
+government = steppe_horde
+aristocracy_plutocracy = -4
+centralization_decentralization = 5
+innovative_narrowminded = 2
+mercantilism_freetrade = -3
+offensive_defensive = -1
+land_naval = -1
+quality_quantity = 3
+serfdom_freesubjects = -5
+technology_group = nomad_group
+primary_culture = uzbehk
+add_accepted_culture = east_persian
+religion = sunni
+capital = 454	# Samarkand
+
+
+1370.1.1 = {
+	monarch = {
+		name = "Timur"
+		dynasty = "Timurid"
+		adm = 7	
+		dip = 7	
+		mil = 8
+		leader = { name = "Timur"	type = general	rank = 1	fire = 6	shock = 6	manuever = 6	siege = 2 }
+	}
+}
+
+1383.1.1 = { leader = {	name = "Miran Shah"	type = general	rank = 1	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1408.1.1 } }
+
+1384.1.1 = {
+	heir = {
+		name = "Khalil"
+		monarch_name = "Khalil Sultan"
+		dynasty = "Timurid"
+		birth_date = 1384.1.1
+		death_date = 1411.11.4
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1405.1.1 = {
+	monarch = {
+		name = "Khalil"
+		dynasty = "Timurid"
+		adm = 4
+		dip = 6	
+		mil = 5
+	}
+}
+
+1409.1.1 = {
+	monarch = {
+		name = "Shah Rukh"
+		dynasty = "Timurid"
+		adm = 4
+		dip = 4	
+		mil = 4
+	}
+}
+
+1409.1.1 = {
+	heir = {
+		name = "Ulugh Beg"
+		monarch_name = "Ulugh Beg"
+		dynasty = "Timurid"
+		birth_date = 1394.1.1
+		death_date = 1449.10.27
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1447.1.1 = {
+	monarch = {
+		name = "Ulugh Beg"
+		dynasty = "Timurid"
+		adm = 4
+		dip = 4	
+		mil = 4
+	}
+}
+
+1447.1.1 = {
+	heir = {
+		name = "'Abd Allâh Mîrzâ"
+		monarch_name = "'Abd Allâh Mîrzâ"
+		dynasty = "Timurid"
+		birth_date = 1410.1.1
+		death_date = 1451.6.23
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1450.5.10 = {
+	monarch = {
+		name = "'Abd Allâh Mîrzâ"
+		dynasty = "Timurid"
+		adm = 3	
+		dip = 3	
+		mil = 5	
+	}
+}
+
+1453.1.1 = { set_country_flag = total_war_series set_country_flag = total_war }
+
+1457.6.23 = {
+	monarch = {
+		name = "Abû Sa'id"
+		dynasty = "Timurid"
+		adm = 3	
+		dip = 5	
+		mil = 6	
+		leader = {	
+			name = "Abû Sa'id"
+			type = general
+			rank = 0
+			fire = 3
+			shock = 3
+			manuever = 3
+			siege = 0
+		}
+	}
+}
+
+# Timurid dynasty in Samarkand
+
+1469.8.27 = {
+	monarch = {
+		name = "Ahmad"	
+		dynasty = "Timurid"
+		adm = 3	
+		dip = 3	
+		mil = 5	
+	}
+}
+
+1494.7.1 = {
+	monarch = {
+		name = "Mahmud"	
+		dynasty = "Timurid"
+		adm = 3	
+		dip = 3	
+		mil = 3	
+	}
+}
+
+1495.7.1 = {
+	monarch = {
+		name = "Mas'ud"	
+		dynasty = "Timurid"
+		adm = 3	
+		dip = 3	
+		mil = 3	
+	}
+}
+
+1495.9.1 = {
+	monarch = {
+		name = "Bây Sunqur"
+		dynasty = "Timurid"
+		adm = 3	
+		dip = 3	
+		mil = 3
+	}
+}
+
+1499.8.1 = {
+	monarch = {
+		name = "'Ali"
+		dynasty = "Timurid"
+		adm = 3	
+		dip = 3	
+		mil = 3	
+	}
+}
+
+1500.4.1 = {
+	monarch = {
+		name = "Bâbur"
+		dynasty = "Timurid"
+		adm = 8	
+		dip = 8	
+		mil = 9	
+	}
+}
+
+1504.4.1 = { quality_quantity = 0 add_accepted_culture = panjabi } # Babur's Ambition

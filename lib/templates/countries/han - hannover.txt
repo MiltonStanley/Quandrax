@@ -1,0 +1,153 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = -4
+primary_culture = hannoverian
+religion = catholic
+technology_group = western
+capital = 57	# Hannover
+
+
+1529.1.1  = { religion = protestant }
+
+#Dukes of Braunschweig-Kalenberg
+1636.1.1 = {
+	monarch = {
+		name = "Georg"
+		dynasty = "von Hannover"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1636.1.1 = {
+	heir = {
+		name = "Christian Ludwig"
+		monarch_name = "Christian Ludwig"
+		dynasty = "von Hannover"
+		birth_date = 1622.2.25
+		death_date = 1665.3.15
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 7
+	}
+}
+
+1641.4.12 = {
+	monarch = {
+		name = "Christian Ludwig"
+		dynasty = "von Hannover"
+		DIP = 4
+		ADM = 3
+		MIL = 7
+	}
+}
+
+1641.4.12 = {
+	heir = {
+		name = "Georg Wilhelm"
+		monarch_name = "Georg II Wilhelm"
+		dynasty = "von Hannover"
+		birth_date = 1624.1.26
+		death_date = 1705.8.28
+		claim = 95
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+}
+
+1648.12.10 = {
+	monarch = {
+		name = "Georg II Wilhelm"
+		dynasty = "von Hannover"
+		DIP = 7
+		ADM = 5
+		MIL = 6
+	}
+}
+
+1648.12.10 = {
+	heir = {
+		name = "Johann Friedrich"
+		monarch_name = "Johann Friedrich"
+		dynasty = "von Hannover"
+		birth_date = 1625.4.25
+		death_date = 1679.12.18
+		claim = 95
+		adm = 7
+		dip = 8
+		mil = 6
+	}
+}
+
+1665.12.10 = {
+	monarch = {
+		name = "Johann Friedrich"
+		dynasty = "von Hannover"
+		DIP = 8
+		ADM = 7
+		MIL = 6
+	}
+}
+
+1665.12.10 = {
+	heir = {
+		name = "Ernst August"
+		monarch_name = "Ernst August"
+		dynasty = "von Hannover"
+		birth_date = 1629.11.20
+		death_date = 1698.1.23
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 6
+	}
+}
+
+#Electors of Hannover (from 1698), also Kings of England (from 1714)
+
+1679.12.28 = {
+	monarch = {
+		name = "Ernst August"
+		dynasty = "von Hannover"
+		DIP = 7
+		ADM = 6
+		MIL = 6
+	}
+}
+
+1679.12.28 = {
+	heir = {
+		name = "Georg Ludwig"
+		monarch_name = "Georg I Ludwig"
+		dynasty = "von Hannover"
+		birth_date = 1660.5.28
+		death_date = 1727.6.11
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 8
+	}
+}
+
+1692.1.1 = { elector = yes }	
+
+1698.1.23 = {
+	monarch = {
+		name = "Georg I Ludwig"
+		dynasty = "von Hannover"
+		DIP = 6
+		ADM = 6
+		MIL = 8
+	}
+}
+
+1806.7.12 = { elector = no } # The HRE is formally abolished

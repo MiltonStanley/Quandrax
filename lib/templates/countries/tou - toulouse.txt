@@ -1,0 +1,23 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -1
+centralization_decentralization = -5
+innovative_narrowminded = -2
+mercantilism_freetrade = 3
+offensive_defensive = 0
+land_naval = 1
+quality_quantity = 0
+serfdom_freesubjects = 2
+primary_culture = aquitaine
+add_accepted_culture = occitain
+add_accepted_culture = cosmopolitan_french
+religion = catholic
+technology_group = western
+capital = 196	# Toulouse
+
+1515.1.1 = { government = despotic_monarchy }
+
+1560.1.1 = { religion = reformed }
+
+1589.8.3 = { government = administrative_monarchy }
+
+1661.3.9 = { government = absolute_monarchy }

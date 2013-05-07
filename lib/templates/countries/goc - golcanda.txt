@@ -1,0 +1,194 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = 1
+quality_quantity = 3
+serfdom_freesubjects = -2
+technology_group = indian
+religion = sunni
+primary_culture = telegu
+capital = 543	# Golcanda 
+
+
+1518.12.18 = {
+	monarch = {
+		name = "Quli"
+		dynasty = "Qutb Shahi"
+		DIP = 6
+		ADM = 8
+		MIL = 9
+	}
+}
+
+1520.12.18 = {
+	heir = {
+		name = "Jamshid Quli"
+		monarch_name = "Jamshid Quli"
+		dynasty = "Qutb Shahi"
+		birth_Date = 1500.1.1
+		death_date = 1550.1.22
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1543.9.2 = {
+	monarch = {
+		name = "Jamshid Quli"
+		dynasty = "Qutb Shahi"
+		DIP = 6
+		ADM = 6
+		MIL = 5
+	}
+}
+
+1543.9.2 = {
+	heir = {
+		name = "Subhan Quli"
+		monarch_name = "Subhan Quli"
+		dynasty = "Qutb Shahi"
+		birth_Date = 1543.1.1
+		death_date = 1550.7.22
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1550.1.22 = {
+	monarch = {
+		name = "Subhan Quli"
+		dynasty = "Qutb Shahi"
+		DIP = 3
+		ADM = 4
+		MIL = 3
+	}
+}
+
+1550.1.22 = {
+	heir = {
+		name = "Ibrahim Quli"
+		monarch_name = "Ibrahim Quli"
+		dynasty = "Qutb Shahi"
+		birth_date = 1530.1.1
+		death_date = 1580.6.6
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 9
+	}
+}
+
+1550.7.22 = {
+	monarch = {
+		name = "Ibrahim Quli"
+		dynasty = "Qutb Shahi"
+		DIP = 7
+		ADM = 7
+		MIL = 9
+	}
+}
+
+1565.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad I"
+		dynasty = "Qutb Shahi"
+		birth_Date = 1565.1.1
+		death_date = 1612.1.11
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1580.6.6 = {
+	monarch = {
+		name = "Muhammad I"
+		dynasty = "Qutb Shahi"
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1580.6.6 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad II"
+		dynasty = "Qutb Shahi"
+		birth_date = 1580.6.6
+		death_date = 1626.1.31
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 6
+	}
+}
+
+1612.1.11 = {
+	monarch = {
+		name = "Muhammad II"
+		dynasty = "Qutb Shahi"
+		DIP = 3
+		ADM = 5
+		MIL = 6
+	}
+}
+
+1626.1.31 = {
+	heir = {
+		name = "Abd Allah"
+		monarch_name = "Abd Allah"
+		dynasty = "Qutb Shahi"
+		birth_date = 1620.1.1
+		death_date = 1672.4.21
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 3
+	}
+}
+
+1626.1.31 = {
+	monarch = {
+		name = "Abd Allah"
+		dynasty = "Qutb Shahi"
+		DIP = 6
+		ADM = 6
+		MIL = 3
+	}
+}
+
+1640.1.1 = {
+	heir = {
+		name = "Abu'l-Hasan"
+		monarch_name = "Abu'l-Hasan"
+		dynasty = "Qutb Shahi"
+		birth_Date = 1640.1.1
+		death_date = 1687.10.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1672.4.21 = {
+	monarch = {
+		name = "Abu'l-Hasan"
+		dynasty = "Qutb Shahi"
+		DIP = 3
+		ADM = 5
+		MIL = 3
+	}
+}
+
+#Annexed by the Mughals October 1687

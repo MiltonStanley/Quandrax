@@ -1,0 +1,536 @@
+government = steppe_horde
+aristocracy_plutocracy = -4
+centralization_decentralization = 5
+innovative_narrowminded = 3
+mercantilism_freetrade = -3
+offensive_defensive = -1
+land_naval = -5
+quality_quantity = 3
+serfdom_freesubjects = -5
+primary_culture = khazak
+religion = sunni
+technology_group = nomad_group
+capital = 456	# Turkestan
+
+
+1395.1.1 = {
+	monarch = {
+		name = "Koirijaq"
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+}
+
+1422.1.1 = {
+	monarch = {
+		name = "Borrak"
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+}
+
+#Founder of the Kazakh Khanate
+
+1440.1.1 = {
+	monarch = {
+		name = "Jâni Beg"
+		dynasty = "Genghisid"
+		adm = 3
+		dip = 4
+		mil = 7
+	}
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Burunduq"
+		dynasty = "Giray"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1480.1.1 = {
+	heir = {
+		name = "Qâsim"
+		monarch_name = "Qâsim"
+		dynasty = "Genghisid"
+		birth_Date = 1470.1.1
+		death_date = 1518.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1509.1.1 = {
+	monarch = {
+		name = "Qâsim"
+		dynasty = "Genghisid"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1509.1.1 = {
+	heir = {
+		name = "Mamash"
+		monarch_name = "Mamash"
+		dynasty = "Genghisid"
+		birth_date = 1500.1.1
+		death_Date = 1523.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1518.1.1 = {
+	monarch = {
+		name = "Mamash"
+		dynasty = "Genghisid"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1518.1.1 = {
+	heir = {
+		name = "Tagir"
+		monarch_name = "Tagir"
+		dynasty = "Genghisid"
+		birth_Date = 1500.1.1
+		death_Date = 1530.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1523.1.1 = {
+	monarch = {
+		name = "Tagir"
+		dynasty = "Genghisid"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1523.1.1 = {
+	heir = {
+		name = "Tugum"
+		monarch_name = "Tugum"
+		dynasty = "Genghisid"
+		birth_Date = 1510.1.1
+		death_Date = 1538.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+		name = "Tugum"
+		dynasty = "Genghisid"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1530.1.1 = {
+	heir = {
+		name = "Âq Nazar"
+		monarch_name = "Âq Nazar"
+		dynasty = "Genghisid"
+		birth_Date = 1520.1.1
+		death_Date = 1580.1.1
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 6
+	}
+}
+		
+1538.1.1 = {
+	monarch = {
+		name = "Âq Nazar"
+		dynasty = "Genghisid"
+		adm = 6
+		dip = 7
+		mil = 6
+	}
+}
+
+1550.1.1 = {
+	heir = {
+		name = "Shigay"
+		monarch_name = "Shigay"
+		dynasty = "Genghisid"
+		birth_Date = 1550.1.1
+		death_Date = 1582.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1580.1.1 = {
+	monarch = {
+		name = "Shigay"
+		dynasty = "Genghisid"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1580.1.1 = {
+	heir = {
+		name = "Tawakkul"
+		monarch_name = "Tawakkul"
+		dynasty = "Genghisid"
+		birth_date = 1580.1.1
+		death_date = 1598.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1582.1.1 = {
+	monarch = {
+		name = "Tawakkul"
+		dynasty = "Genghisid"
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1590.1.1 = {
+	heir = {
+		name = "Ishim"
+		monarch_name = "Ishim"
+		dynasty = "Genghisid"
+		birth_Date = 1590.1.1
+		death_Date = 1628.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1598.1.1 = {
+	monarch = {
+		name = "Ishim"
+		dynasty = "Genghisid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1598.1.1 = {
+	heir = {
+		name = "Abaigirim"
+		monarch_name = "Abaigirim"
+		dynasty = "Genghisid"
+		birth_Date = 1590.1.1
+		death_Date = 1636.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1628.1.1 = {
+	monarch = {
+		name = "Abaigirim"
+		dynasty = "Genghisid"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1628.1.1 = {
+	heir = {
+		name = "Yahângîr"
+		monarch_name = "Yahângîr"
+		dynasty = "Genghisid"
+		birth_Date = 1620.1.1
+		death_Date = 1652.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1636.1.1 = {
+	monarch = {
+		name = "Yahângîr"
+		dynasty = "Genghisid"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1652.1.1 = {
+	heir = {
+		name = "Bogokht the Kalmyk"
+		monarch_name = "Bogokht the Kalmyk"
+		dynasty = "Genghisid"
+		birth_Date = 1640.1.1
+		death_Date = 1680.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1652.1.1 = {
+	monarch = {
+		name = "Bogokht the Kalmyk"
+		dynasty = "Genghisid"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1660.1.1 = {
+	heir = {
+		name = "Tauka"
+		monarch_name = "Tauka"
+		dynasty = "Genghisid"
+		birth_Date = 1660.1.1
+		death_Date = 1718.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1652.1.1 = { centralization_decentralization = 4 } # The Kalmyk Conquest
+
+1680.1.1 = {
+	monarch = {
+		name = "Tauka"
+		dynasty = "Genghisid"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1680.1.1 = {
+	heir = {
+		name = "Bular"
+		monarch_name = "Bular"
+		dynasty = "Genghisid"
+		birth_Date = 1670.1.1
+		death_Date = 1731.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1718.1.1 = {
+	monarch = {
+		name = "Bular"
+		dynasty = "Genghisid"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1718.1.1 = {
+	heir = {
+		name = "Shemeke"
+		monarch_name = "Shemeke"
+		dynasty = "Genghisid"
+		birth_Date = 1700.1.1
+		death_Date = 1734.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1731.1.1 = {
+	monarch = {
+		name = "Shemeke"
+		dynasty = "Genghisid"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1731.1.1 = {
+	heir = {
+		name = "Jolbars"
+		monarch_name = "Jolbars"
+		dynasty = "Genghisid"
+		birth_Date = 1720.1.1
+		death_Date = 1742.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1734.1.1 = {
+	monarch = {
+		name = "Jolbars"
+		dynasty = "Genghisid"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1734.1.1 = {
+	heir = {
+		name = "Abu'l Mambet"
+		monarch_name = "Abu'l Mambet"
+		dynasty = "Genghisid"
+		birth_Date = 1720.1.1
+		death_Date = 1748.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1742.1.1 = {
+	monarch = {
+		name = "Abu'l Mambet"
+		dynasty = "Genghisid"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1742.1.1 = {
+	heir = {
+		name = "Abilay"
+		monarch_name = "Abilay"
+		dynasty = "Genghisid"
+		birth_Date = 1730.1.1
+		death_date = 1781.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1748.1.1 = {
+	monarch = {
+		name = "Abilay"
+		dynasty = "Genghisid"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1748.1.1 = {
+	heir = {
+		name = "'Abdullâh"
+		monarch_name = "'Abdullâh"
+		dynasty = "Genghisid"
+		birth_Date = 1740.1.1
+		death_Date = 1782.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1781.1.1 = {
+	monarch = {
+		name = "'Abdullâh"
+		dynasty = "Genghisid"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1781.1.1 = {
+	heir = {
+		name = "Walî"
+		monarch_name = "Walî"
+		dynasty = "Genghisid"
+		birth_Date = 1781.1.1
+		death_Date = 1819.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1782.1.1 = {
+	monarch = {
+		name = "Walî"
+		dynasty = "Genghisid"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1782.1.1 = {
+	heir = {
+		name = "Dair"
+		monarch_name = "Dair"
+		dynasty = "Genghisid"
+		birth_Date = 1780.1.1
+		death_Date = 1830.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1819.1.1 = {
+	monarch = {
+		name = "Dair"
+		dynasty = "Genghisid"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}

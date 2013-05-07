@@ -1,0 +1,50 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = -4
+primary_culture = saxon
+religion = catholic
+technology_group = western
+capital = 59	# Meissen
+
+
+1382.1.1 = {
+	monarch = {
+		name = "Wilhelm I"
+		dynasty = "von Wettin"
+		DIP = 5
+		ADM = 6
+		MIL = 4
+	}
+}
+
+1382.1.1 = {
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich IV"
+		dynasty = "von Wettin"
+		birth_date = 1370.4.11
+		death_date = 1428.1.4
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1407.2.11 = {
+	monarch = {
+		name = "Friedrich IV"
+		dynasty = "von Wettin"
+		DIP = 4
+		ADM = 5
+		MIL = 4
+	}
+}
+
+#Do not confuse the guy above with Friedrich IV of Thüringen, his cousin.

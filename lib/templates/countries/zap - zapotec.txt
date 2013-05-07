@@ -1,0 +1,100 @@
+government = tribal_democracy
+aristocracy_plutocracy = -5
+centralization_decentralization = 5
+innovative_narrowminded = 5
+mercantilism_freetrade = 0
+offensive_defensive = -5
+land_naval = -5
+quality_quantity = 4
+serfdom_freesubjects = -5
+primary_culture = zapotek
+religion = animism
+technology_group = new_world
+capital = 847	# Zaachila
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Zaachilla II"
+		dynasty = "Tehuantepec"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Zaachilla"
+		monarch_name = "Zaachilla"
+		dynasty = "Tehuantepec"
+		birth_date = 1399.1.1
+		death_date = 1482.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Zaachilla III"
+		dynasty = "Tehuantepec"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1450.1.1 = {
+	heir = {
+		name = "Cociyocza"
+		monarch_name = "Cociyocza"
+		dynasty = "Tehuantepec"
+		birth_date = 1450.1.1
+		death_Date = 1529.1.1
+		claim = 95
+		adm = 7
+		dip = 5
+		mil = 3
+	}
+}
+
+1482.1.1 = {
+	monarch = {
+		name = "Cociyocza"
+		dynasty = "Tehuantepec"
+		adm = 7
+		dip = 5
+		mil = 3
+	}
+
+}
+
+1482.1.1 = {
+	heir = {
+		name = "Cociyopu"
+		monarch_name = "Cociyopu"
+		dynasty = "Tehuantepec"
+		birth_date = 1482.1.1
+		death_Date = 1545.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1529.1.1 = {
+	monarch = {
+		name = "Cociyopu"
+		dynasty = "Tehuantepec"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+
+}
+

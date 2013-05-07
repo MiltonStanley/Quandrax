@@ -1,0 +1,23 @@
+government = tribal_despotism
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 1
+mercantilism_freetrade = -4
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -1
+primary_culture = turkish
+religion = sunni
+technology_group = ottoman
+capital = 319	# Antalya
+
+1399.1.1 = {
+	monarch = {
+		name = "Ilyas I"
+		dynasty = "Mentesoglu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

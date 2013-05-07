@@ -1,0 +1,37 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = 3
+quality_quantity = 2
+serfdom_freesubjects = 2
+primary_culture = norwegian
+religion = catholic
+technology_group = western
+historical_friend = DAN
+capital = 17	#Akershus
+
+
+1436.1.1 = { leader = {	name = "Amund Bolt"            	type = general	rank = 3	fire = 1	shock = 2	manuever = 2	siege = 0	death_date = 1440.1.1 } }
+
+1520.1.1 = { leader = {	name = "Olav Galle"            	type = general	rank = 3	fire = 1	shock = 2	manuever = 2	siege = 0	death_date = 1530.1.1 } }
+
+1521.1.1 = { leader = {	name = "Engelbriktsson"        	type = general	rank = 2	fire = 1	shock = 1	manuever = 3	siege = 0	death_date = 1538.2.7 } }
+
+1521.1.1 = { aristocracy_plutocracy = -4 centralization_decentralization = 2 } # End of the Kalmar Union
+
+1537.1.1 = { religion = protestant } # Christian III decrees Lutheranism as State Church
+
+1670.2.10 = { government = absolute_monarchy }
+
+1814.2.16 = {
+	monarch = {
+		name = "Christian Frederik"
+		dynasty = "von Oldenburg"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

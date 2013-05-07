@@ -1,0 +1,194 @@
+government = despotic_monarchy
+aristocracy_plutocracy = 4
+centralization_decentralization = -3
+innovative_narrowminded = -2
+mercantilism_freetrade = -4
+offensive_defensive = 5
+land_naval = -3
+quality_quantity = 2
+serfdom_freesubjects = -2
+primary_culture = andalucian
+religion = sunni
+add_accepted_culture = berber
+technology_group = muslim
+capital = 223	# Granada
+
+
+1392.1.1 = {
+	monarch = {
+		name = "Muhammad VII"
+		dynasty = "Nasrid"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1392.1.1 = {
+	heir = {
+		name = "Yûsuf"
+		monarch_name = "Yûsuf III"
+		dynasty = "Nasrid"
+		birth_date = 1376.1.1
+		death_date = 1417.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1408.1.1 = {
+	monarch = {
+		name = "Yûsuf III"
+		dynasty = "Nasrid"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1411.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad VIII"
+		dynasty = "Nasrid"
+		birth_date = 1411.1.1
+		death_date = 1431.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1417.1.1 = {
+	monarch = {
+		name = "Muhammad VIII"
+		dynasty = "Nasrid"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+
+
+1419.1.1 = {
+	monarch = {
+		name = "Muhammad IX"
+		dynasty = "Nasrid"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1446.1.1 = {
+	monarch = {
+		name = "Muhammad X"
+		dynasty = "Nasrid"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1451.1.1 = {
+	monarch = {
+		name = "Muhammad XI"
+		dynasty = "Nasrid"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1454.1.1 = {
+	monarch = {
+		name = "Sa'd I Ciriza"
+		dynasty = "Nasrid"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1462.1.1 = {
+	monarch = {
+		name = "Yûsuf V"
+		dynasty = "Nasrid"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1463.1.1 = {
+	monarch = {
+		name = "Sa'd I Ciriza"
+		dynasty = "Nasrid"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1464.1.1 = {
+	monarch = {
+		name = "Alí I Muley Hacén"
+		dynasty = "Nasrid"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1470.1.1 = { leader = {	name = "Ibrahim Ali al-Attar"	type = general	rank = 2	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1483.1.1 } }
+
+1482.1.1 = {
+	monarch = {
+		name = "Muhammad XII Boabdil"
+		dynasty = "Nasrid"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1483.1.1 = {
+	monarch = {
+		name = "Ali I muley Hacén"
+		dynasty = "Nasrid"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1485.1.1 = {
+	monarch = {
+		name = "Muhammad XIII"
+		dynasty = "Nasrid"
+		adm = 3
+		dip = 3
+		mil = 3
+		 leader = { name = "Muhammad El Zagal"	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0 }
+	}
+}
+
+1489.1.1 = {
+	monarch = {
+		name = "Muhammad XII Boabdil"
+		dynasty = "Nasrid"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1568.1.1 = { government = despotic_monarchy }
+
+1724.1.20 = { government = administrative_monarchy }
+
+1759.8.12 = { government = absolute_monarchy }

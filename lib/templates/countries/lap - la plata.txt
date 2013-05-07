@@ -1,0 +1,23 @@
+government = republican_dictatorship
+aristocracy_plutocracy = -2
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -5
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 2
+serfdom_freesubjects = 0
+technology_group = western
+religion = catholic
+primary_culture = castillian
+capital = 778	# Santa María del Buen Ayre
+
+
+1815.1.31 = {
+	monarch = {
+		name = "Carlos María de Alvear"
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}

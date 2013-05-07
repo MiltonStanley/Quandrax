@@ -1,0 +1,430 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 1
+mercantilism_freetrade = 2
+offensive_defensive = -2
+land_naval = 3
+quality_quantity = -1
+serfdom_freesubjects = -1
+technology_group = chinese
+religion = sunni
+primary_culture = malayan
+capital = 594	# Pattani
+
+
+1511.8.24 = {
+	monarch = {
+		name = "Raja Isma'il Shah"
+		dynasty = "Inland"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1530.1.1 = {
+	heir = {
+		name = "Muzaffar Shah"
+		monarch_name = "Muzaffar Shah"
+		dynasty = "Inland"
+		birth_Date = 1530.1.1
+		death_Date = 1564.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Muzaffar Shah"
+		dynasty = "Inland"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1550.1.1 = {
+	heir = {
+		name = "Mansur Shah"
+		monarch_name = "Mansur Shah"
+		dynasty = "Inland"
+		birth_Date = 1540.1.1
+		death_date = 1572.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1550.1.1 = { government = administrative_monarchy }
+
+1564.1.1 = {
+	monarch = {
+		name = "Mansur Shah"
+		dynasty = "Inland"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1572.1.1 = {
+	monarch = {
+		name = "Patik Siam"
+		dynasty = "Inland"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1573.1.1 = {
+	monarch = {
+		name = "Bahadur Shah"
+		dynasty = "Inland"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1573.1.1 = {
+	heir = {
+		name = "Raja Hijau"
+		monarch_name = "Raja Hijau"
+		dynasty = "Inland"
+		birth_Date = 1550.1.1
+		death_Date = 1616.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1584.1.1 = {
+	monarch = {
+		name = "Raja Hijau"
+		dynasty = "Inland"
+		adm = 5
+		dip = 5
+		mil = 5
+		female = yes
+	}
+}
+
+1584.1.1 = {
+	heir = {
+		name = "Raja Buru"
+		monarch_name = "Raja Buru"
+		dynasty = "Inland"
+		birth_date = 1580.1.1
+		death_Date = 1624.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1616.1.1 = {
+	monarch = {
+		name = "Raja Buru"
+		dynasty = "Inland"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1616.1.1 = {
+	heir = {
+		name = "Raja Ungku"
+		monarch_name = "Raja Ungku"
+		dynasty = "Inland"
+		birth_Date = 1600.1.1
+		death_Date = 1635.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1624.1.1 = {
+	monarch = {
+		name = "Raja Ungku"
+		dynasty = "Inland"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1624.1.1 = {
+	heir = {
+		name = "Raja Kening"
+		monarch_name = "Raja Kening"
+		dynasty = "Inland"
+		birth_Date = 1610.1.1
+		death_Date = 1649.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+		female = yes
+	}
+}
+		
+
+1635.1.1 = {
+	monarch = {
+		name = "Raja Kening"
+		dynasty = "Inland"
+		female = yes
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1635.1.1 = {
+	heir = {
+		name = "Raja Shaktl Kelantan"
+		monarch_name = "Raja Shaktl Kelantan"
+		dynasty = "Kelantan"
+		birth_date = 1630.1.1
+		death_Date = 1657.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1649.1.1 = {
+	monarch = {
+		name = "Raja Shaktl Kelantan"
+		dynasty = "Kelantan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1649.1.1 = {
+	heir = {
+		name = "Long Bahar"
+		monarch_name = "Sultan Long Bahar"
+		dynasty = "Kelantan"
+		birth_Date = 1640.1.1
+		death_Date = 1688.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1657.1.1 = {
+	monarch = {
+		name = "Sultan Long Bahar"
+		dynasty = "Kelantan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1657.1.1 = {
+	heir = {
+		name = "Raja Bakalan"
+		monarch_name = "Raja Bakalan"
+		dynasty = "Kelantan"
+		birth_Date = 1650.1.1
+		death_Date = 1690.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1688.1.1 = {
+	monarch = {
+		name = "Raja Bakalan"
+		dynasty = "Kelantan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1688.1.1 = {
+	heir = {
+		name = "Raja Emas Kelantan"
+		monarch_name = "Raja Emas Kelantan"
+		dynasty = "Kelantan"
+		birth_Date = 1660.1.1
+		death_Date = 1704.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1690.1.1 = {
+	monarch = {
+		name = "Raja Emas Kelantan"
+		dynasty = "Kelantan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1690.1.1 = {
+	heir = {
+		name = "Raja Emas Jayam Baginda"
+		monarch_name = "Raja Emas Jayam Baginda"
+		dynasty = "Kelantan"
+		birth_Date = 1690.1.1
+		death_Date = 1707.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1704.1.1 = {
+	monarch = {
+		name = "Raja Emas Jayam Baginda"
+		dynasty = "Kelantan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1704.1.1 = {
+	heir = {
+		name = "Raja Dewi Perachu"
+		monarch_name = "Raja Dewi Perachu"
+		dynasty = "Kelantan"
+		birth_Date = 1680.1.1
+		death_Date = 1716.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1707.1.1 = {
+	monarch = {
+		name = "Raja Dewi Perachu"
+		dynasty = "Kelantan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1707.1.1 = {
+	heir = {
+		name = "Shah 'Alam"
+		monarch_name = "Shah 'Alam"
+		dynasty = "Kelantan"
+		birth_Date = 1700.1.1
+		death_Date = 1720.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1716.1.1 = {
+	monarch = {
+		name = "Shah 'Alam"
+		dynasty = "Kelantan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1720.1.1 = {
+	monarch = {
+		name = "Raja Laksmana Dajang"
+		dynasty = "Kelantan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1721.1.1 = {
+	monarch = {
+		name = "Raja Emas Jayam Baginda"
+		dynasty = "Kelantan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+#Restored
+
+1728.1.1 = {
+	monarch = {
+		name = "Alung Yunus"
+		dynasty = "Kelantan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+#State disintigrates upon the death of Alung Yunus, 12 August 1729
+
+1729.1.1 = {
+	monarch = {
+		name = "Raja Yunus"
+		dynasty = "Kelantan"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1729.1.1 = {
+	heir = {
+		name = "Raja Long Nuh"
+		monarch_name = "Raja Long Nuh"
+		dynasty = "Kelantan"
+		birth_Date = 1700.1.1
+		death_Date = 1771.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1749.1.1 = {
+	monarch = {
+		name = "Raja Long Nuh"
+		dynasty = "Kelantan"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}

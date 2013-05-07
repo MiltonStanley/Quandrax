@@ -1,0 +1,108 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -1
+centralization_decentralization = -1
+innovative_narrowminded = 2
+mercantilism_freetrade = 1
+offensive_defensive = 4
+land_naval = -4
+quality_quantity = -1
+serfdom_freesubjects = 1
+technology_group = western
+religion = catholic
+primary_culture = gascon
+capital = 176	# Pau
+
+
+1398.1.1 = {
+	monarch = {
+		name = "Isabelle"
+		dynasty ="de Foix"
+		female = yes
+		DIP = 6
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1398.1.1 = {
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean I"
+		dynasty = "de Foix"
+		birth_date = 1382.1.1
+		death_date = 1436.1.1
+		claim = 95
+		dip = 4
+		adm = 5
+		mil = 5
+	}
+}
+		
+
+1413.1.1 = {
+	monarch = {
+		name = "Jean I"
+		dynasty ="de Foix"
+		DIP = 4
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1423.2.26 = {
+	heir = {
+		name = "Gaston"
+		monarch_name = "Gaston IV"
+		dynasty = "de Foix"
+		claim = 95
+		birth_date = 1423.2.26
+		death_date = 1472.1.1
+		DIP = 7
+		adm = 7
+		mil = 6
+	}
+}
+
+1436.1.1 = {
+	monarch = {
+		name = "Gaston IV"
+		dynasty = "de Foix"
+		DIP = 7
+		ADM = 7
+		MIL = 6
+	}
+}
+
+1467.1.1 = {
+	heir = {
+		name = "François Phébus"
+		monarch_name = "François I Phébus"
+		dynasty = "de Foix"
+		birth_date = 1467.1.1
+		death_date = 1483.1.1
+		claim = 95
+		dip = 7
+		adm = 7
+		mil = 6
+	}
+}
+
+1472.7.26 = {
+	monarch = {
+		name = "François I Phébus"
+		dynasty ="de Foix"
+		DIP = 7
+		ADM = 7
+		MIL = 6
+	}
+}
+
+1512.9.1 = { government = despotic_monarchy }
+
+1555.5.30 = { government = administrative_monarchy }
+
+1560.1.1 = { religion = reformed }
+
+1661.3.9 = { government = absolute_monarchy }
+
+#Union with Navarra from 1472

@@ -1,0 +1,26 @@
+government = administrative_republic
+aristocracy_plutocracy = 5
+centralization_decentralization = 5
+innovative_narrowminded = 0
+mercantilism_freetrade = 0
+offensive_defensive = -1
+land_naval = -2
+quality_quantity = -2
+serfdom_freesubjects = 5
+technology_group = western
+religion = catholic
+primary_culture = bavarian
+capital = 1872	# Ulm
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Stadtradt"
+		regent = yes
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1798.1.1 = { government = constitutional_republic }

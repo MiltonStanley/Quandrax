@@ -1,0 +1,510 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -4
+centralization_decentralization = 2
+innovative_narrowminded = 2
+mercantilism_freetrade = 0
+offensive_defensive = -1
+land_naval = 2
+quality_quantity = 3
+serfdom_freesubjects = -3
+technology_group = chinese
+religion = animism
+primary_culture = japanese
+capital = 1015	# Shuri
+
+
+#Kings of Ryukyu (Chuzan/Zhongshan) 
+#Japanese form of names given
+1395.1.1 = {
+	monarch = {
+		name = "Bunei"
+		dynasty = "Satto"
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+1400.1.1 = {
+	monarch = {
+		name = "Sho Shisho"
+		dynasty = "Sho"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1400.1.1 = {
+	heir = {
+		name = "Sho Hashi"
+		monarch_name = "Sho Hashi"
+		dynasty = "Sho"
+		birth_Date = 1400.1.1
+		death_Date = 1440.1.1
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Sho Hashi"
+		dynasty = "Sho"
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+
+1421.1.1 = {
+	heir = {
+		name = "Sho Chu"
+		monarch_name = "Sho Chu"
+		dynasty = "Sho"
+		birth_Date = 1420.1.1
+		death_Date = 1445.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Sho Chu"
+		dynasty = "Sho"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1445.1.1 = {
+	monarch = {
+		name = "Sho Shitatsu"
+		dynasty = "Sho"
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Sho Kimpuku"
+		dynasty = "Sho"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1452.1.1 = {
+	monarch = {
+		name = "Sho Taikyu"
+		dynasty = "Sho"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1452.1.1 = {
+	heir = {
+		name = "Sho Toku"
+		monarch_name = "Sho Toku"
+		dynasty = "Sho"
+		birth_Date = 1452.1.1
+		death_Date = 1469.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1460.1.1 = {
+	monarch = {
+		name = "Sho Toku"
+		dynasty = "Sho"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1460.1.1 = {
+	heir = {
+		name = "Sho En"
+		monarch_name = "Sho En"
+		dynasty = "Sho"
+		birth_Date = 1460.1.1
+		death_Date = 1477.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1469.1.1 = {
+	monarch = {
+		name = "Sho En"
+		dynasty = "Sho"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1469.1.1 = {
+	heir = {
+		name = "Sho Sen-i"
+		monarch_name = "Sho Sen-i"
+		dynasty = "Sho"
+		birth_Date = 1450.1.1
+		death_Date = 1477.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1477.1.1 = {
+	monarch = {
+		name = "Sho Sen-i"
+		dynasty = "Sho"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1477.7.1 = {
+	monarch = {
+		name = "Sho Shin"
+		dynasty = "Sho"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1477.7.1 = {
+	heir = {
+		name = "Sho Sei"
+		monarch_name = "Sho Sei"
+		dynasty = "Sho"
+		birth_Date = 1477.1.1
+		death_Date = 1556.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1526.1.1 = {
+	monarch = {
+		name = "Sho Sei"
+		dynasty = "Sho"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1526.1.1 = {
+	heir = {
+		name = "Sho Gen"
+		monarch_name = "Sho Gen"
+		dynasty = "Sho"
+		birth_Date = 1526.1.1
+		death_date = 1571.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1556.1.1 = {
+	monarch = {
+		name = "Sho Gen"
+		dynasty = "Sho"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1556.1.1 = {
+	heir = {
+		name = "Sho Yei"
+		monarch_name = "Sho Yei"
+		dynasty = "Sho"
+		birth_Date = 1556.1.1
+		death_date = 1588.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1571.1.1 = {
+	monarch = {
+		name = "Sho Yei"
+		dynasty = "Sho"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1571.1.1 = {
+	heir = {
+		name = "Sho Nei"
+		monarch_name = "Sho Nei"
+		dynasty = "Sho"
+		birth_date = 1571.1.1
+		death_Date = 1621.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1588.1.1 = {
+	monarch = {
+		name = "Sho Nei"
+		dynasty = "Sho"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1588.1.1 = {
+	heir = {
+		name = "Sho Ho"
+		monarch_name = "Sho Ho"
+		dynasty = "Sho"
+		birth_Date = 1588.1.1
+		death_date = 1648.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1621.1.1 = {
+	monarch = {
+		name = "Sho Ho"
+		dynasty = "Sho"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1621.1.1 = {
+	heir = {
+		name = "Sho Shitsu"
+		monarch_name = "Sho Shitsu"
+		dynasty = "Sho"
+		birth_Date = 1621.1.1
+		death_date = 1669.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1624.1.1 = { religion = shinto }
+
+1648.1.1 = {
+	monarch = {
+		name = "Sho Shitsu"
+		dynasty = "Sho"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1648.1.1 = {
+	heir = {
+		name = "Sho Tei"
+		monarch_name = "Sho Tei"
+		dynasty = "Sho"
+		birth_Date = 1640.1.1
+		death_Date = 1710.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1669.1.1 = {
+	monarch = {
+		name = "Sho Tei"
+		dynasty = "Sho"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1669.1.1 = {
+	heir = {
+		name = "Sho Yeki"
+		monarch_name = "Sho Yeki"
+		dynasty = "Sho"
+		birth_Date = 1669.1.1
+		death_date = 1716.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1710.1.1 = {
+	monarch = {
+		name = "Sho Yeki"
+		dynasty = "Sho"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1710.1.1 = {
+	heir = {
+		name = "Sho Kei"
+		monarch_name = "Sho Kei"
+		dynasty = "Sho"
+		birth_Date = 1710.1.1
+		death_Date = 1751.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1716.1.1 = {
+	monarch = {
+		name = "Sho Kei"
+		dynasty = "Sho"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1716.1.1 = {
+	heir = {
+		name = "Sho Boku"
+		monarch_name = "Sho Boku"
+		dynasty = "Sho"
+		birth_Date = 1716.1.1
+		death_date = 1796.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1751.1.1 = {
+	monarch = {
+		name = "Sho Boku"
+		dynasty = "Sho"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1751.1.1 = {
+	heir = {
+		name = "Sho On"
+		monarch_name = "Sho On"
+		dynasty = "Sho"
+		birth_Date = 1751.1.1
+		death_Date = 1803.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1796.1.1 = {
+	monarch = {
+		name = "Sho On"
+		dynasty = "Sho"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1796.1.1 = {
+	heir = {
+		name = "Sho Sei"
+		monarch_name = "Sho Sei"
+		dynasty = "Sho"
+		birth_Date = 1796.1.1
+		death_Date = 1804.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1803.1.1 = {
+	monarch = {
+		name = "Sho Sei"
+		dynasty = "Sho"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1803.1.1 = {
+	heir = {
+		name = "Sho Ko"
+		monarch_name = "Sho Ko"
+		dynasty = "Sho"
+		birth_Date = 1790.1.1
+		death_Date = 1828.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1804.1.1 = {
+	monarch = {
+		name = "Sho Ko"
+		dynasty = "Sho"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}

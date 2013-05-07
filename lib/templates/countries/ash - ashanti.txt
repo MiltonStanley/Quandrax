@@ -1,0 +1,515 @@
+government = tribal_despotism
+aristocracy_plutocracy = -5
+centralization_decentralization = 5
+innovative_narrowminded = 1
+mercantilism_freetrade = -5
+offensive_defensive = 0
+land_naval = -5
+quality_quantity = 2
+serfdom_freesubjects = -5
+primary_culture = ashanti
+religion = animism
+technology_group = sub_saharan
+capital = 1138	# Kumasi
+
+#Ashanti (dominant states of the Akan region)
+#Kings of Dagomba
+1399.1.1 = {
+	monarch = {
+		name = "Beriguwiemda I"
+		dynasty = "Dagomba"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Beriguwiemda"
+		monarch_name = "Beriguwiemda"
+		dynasty = "Dagomba"
+		birth_date = 1399.1.1
+		death_date = 1369.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1454.1.1 = {
+	monarch = {
+		name = "Beriguwiemda II"
+		dynasty = "Dagomba"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1454.1.1 = {
+	heir = {
+		name = "Zolgo"
+		monarch_name = "Zolgo"
+		dynasty = "Dagomba"
+		birth_Date = 1454.1.1
+		death_Date = 1486.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1469.1.1 = {
+	monarch = {
+		name = "Zolgo"
+		dynasty = "Dagomba"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1469.1.1 = {
+	heir = {
+		name = "Zongman"
+		monarch_name = "Zongman"
+		dynasty = "Dagomba"
+		birth_Date = 1466.1.1
+		death_date = 1506.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1486.1.1 = {
+	monarch = {
+		name = "Zongman"
+		dynasty = "Dagomba"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1486.1.1 = {
+	heir = {
+		name = "Nengmitoni"
+		monarch_name = "Nengmitoni"
+		dynasty = "Dagomba"
+		birth_date = 1480.1.1
+		death_Date = 1514.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1506.1.1 = {
+	monarch = {
+		name = "Nengmitoni"
+		dynasty = "Dagomba"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1506.1.1 = {
+	heir = {
+		name = "Dimani"
+		monarch_name = "Dimani"
+		dynasty = "Dagomba"
+		birth_date = 1500.1.1
+		death_Date = 1527.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1514.1.1 = {
+	monarch = {
+		name = "Dimani"
+		dynasty = "Dagomba"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1514.1.1 = {
+	heir = {
+		name = "Yanza"
+		monarch_name = "Yanza"
+		dynasty = "Dagomba"
+		birth_date = 1500.1.1
+		death_date = 1543.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1527.1.1 = {
+	monarch = {
+		name = "Yanza"
+		dynasty = "Dagomba"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1527.1.1 = {
+	heir = {
+		name = "Dariziogo"
+		monarch_name = "Dariziogo"
+		dynasty = "Dagomba"
+		birth_Date = 1500.1.1
+		death_Date = 1554.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1543.1.1 = {
+	monarch = {
+		name = "Dariziogo"
+		dynasty = "Dagomba"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1543.1.1 = {
+	heir = {
+		name = "Luro"
+		monarch_name = "Luro"
+		dynasty = "Dagomba"
+		birth_Date = 1530.1.1
+		death_Date = 1570.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1554.1.1 = {
+	monarch = {
+		name = "Luro"
+		dynasty = "Dagomba"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1554.1.1 = {
+	heir = {
+		name = "Tutugri"
+		monarch_name = "Tutugri"
+		dynasty = "Dagomba"
+		birth_date = 1550.1.1
+		death_Date = 1589.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1570.1.1 = {
+	monarch = {
+		name = "Tutugri"
+		dynasty = "Dagomba"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1570.1.1 = {
+	heir = {
+		name = "Zagale"
+		monarch_name = "Zagale"
+		dynasty = "Dagomba"
+		birth_Date = 1560.1.1
+		death_date = 1609.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1589.1.1 = {
+	monarch = {
+		name = "Zagale"
+		dynasty = "Dagomba"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1589.1.1 = {
+	heir = {
+		name = "Zokuli"
+		monarch_name = "Zokuli"
+		dynasty = "Dagomba"
+		birth_Date = 1570.1.1
+		death_date = 1627.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1609.1.1 = {
+	monarch = {
+		name = "Zokuli"
+		dynasty = "Dagomba"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1609.1.1 = {
+	heir = {
+		name = "Gungoble"
+		monarch_name = "Gungoble"
+		dynasty = "Dagomba"
+		birth_date = 1600.1.1
+		death_Date = 1630.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1627.1.1 = {
+	monarch = {
+		name = "Gungoble"
+		dynasty = "Dagomba"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+#Kings of Denkyira (Denkyirahenes)
+
+1630.1.1 = {
+	monarch = {
+		name = "Werempe Ampem"
+		dynasty = "Denkyirahene"
+		DIP = 7
+		ADM = 7
+		MIL = 8
+	}
+}
+
+1630.1.1 = {
+	heir = {
+		name = "Boa Amponsem"
+		monarch_name = "Boa Amponsem"
+		dynasty = "Denkyirahene"
+		birth_Date = 1620.1.1
+		death_date = 1695.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1637.1.1 = {
+	monarch = {
+		name = "Boa Amponsem"
+		dynasty = "Denkyirahene"
+		DIP = 6
+		ADM = 5
+		MIL = 6
+	}
+}
+
+1637.1.1 = {
+	heir = {
+		name = "Ntim Gyakari"
+		monarch_name = "Ntim Gyakari"
+		dynasty = "Denkyriahene"
+		birth_Date = 1610.1.1
+		death_date = 1701.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1695.1.1 = {
+	monarch = {
+		name = "Ntim Gyakari"
+		dynasty = "Denkyirahene"
+		DIP = 2
+		ADM = 2
+		MIL = 3
+	}
+}
+
+#Kings of Ashanti (Asantehenes)
+
+1701.1.1 = {
+	monarch = {
+		name = "Osei Tutu"
+		dynasty = "Oyoko Abohyen"
+		DIP = 7
+		ADM = 9
+		MIL = 7
+	}
+}
+
+1710.1.1 = {
+	heir = {
+		name = "Opoku Ware"
+		monarch_name = "Opoku Ware I"
+		dynasty = "Oyoko Abohyen"
+		birth_Date = 1710.1.1
+		death_Date = 1750.1.1
+		claim = 95
+		adm = 8
+		dip = 5
+		mil = 6
+	}
+}
+
+1731.1.1 = {
+	monarch = {
+		name = "Opoku Ware I"
+		dynasty = "Oyoko Abohyen"
+		DIP = 5
+		ADM = 8
+		MIL = 6
+	}
+}
+
+1731.1.1 = {
+	heir = {
+		name = "Kusi Obodum"
+		monarch_name = "Kusi Obodum"
+		dynasty = "Oyoko Abohyen"
+		birth_date = 1720.1.1
+		death_Date = 1764.1.1
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1750.1.1 = {
+	monarch = {
+		name = "Kusi Obodum"
+		dynasty = "Oyoko Abohyen"
+		DIP = 4
+		ADM = 7
+		MIL = 3
+	}
+}
+
+1750.1.1 = {
+	heir = {
+		name = "Osei Kojo"
+		monarch_name = "Osei Kojo"
+		dynasty = "Oyoko Abohyen"
+		birth_Date = 1750.1.1
+		death_Date = 1781.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1764.1.1 = {
+	monarch = {
+		name = "Osei Kojo"
+		dynasty = "Oyoko Abohyen"
+		DIP = 5
+		ADM = 6
+		MIL = 4
+	}
+}
+
+1781.1.1 = {
+	heir = {
+		name = "Osei Kwame"
+		monarch_name = "Osei Kwame"
+		dynasty = "Oyoko Abohyen"
+		birth_Date = 1760.1.1
+		death_Date = 1803.1.1
+		claim = 95
+		adm = 7
+		dip = 3
+		mil = 3
+	}
+}
+
+1781.1.1 = {
+	monarch = {
+		name = "Osei Kwame"
+		dynasty = "Oyoko Abohyen"
+		DIP = 3
+		ADM = 7
+		MIL = 3
+	}
+}
+
+1781.1.1 = {
+	heir = {
+		name = "Opoku Fofie"
+		monarch_name = "Opoku Fofie"
+		dynasty = "Oyoko Abohyen"
+		birth_Date = 1760.1.1
+		death_Date = 1803.1.1
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+
+1803.1.1 = {
+	monarch = {
+		name = "Opoku Fofie"
+		dynasty = "Oyoko Abohyen"
+		DIP = 2
+		ADM = 4
+		MIL = 2
+	}
+}
+
+1804.1.1 = {
+	monarch = {
+		name = "Osei Bonsu"
+		dynasty = "Oyoko Abohyen"
+		DIP = 5
+		ADM = 7
+		MIL = 6
+	}
+}

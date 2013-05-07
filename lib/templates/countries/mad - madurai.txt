@@ -1,0 +1,504 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = -2
+quality_quantity = 3
+serfdom_freesubjects = -2
+technology_group = indian
+religion = hinduism
+primary_culture = tamil
+capital = 536	# Madurai
+
+
+#Rajas of Madurai 
+1399.1.1 = {
+	monarch = {
+		name = "Vira Pandya I"
+		dynasty = "Maduraia"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1475.1.1 = {
+	monarch = {
+		name = "Vira Pandya II"
+		dynasty = "Maduraia"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1475.1.1 = {
+	heir = {
+		name = "Narasa"
+		monarch_name = "Narasa"
+		birth_Date = 1470.1.1
+		death_date = 1500.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1490.1.1 = {
+	monarch = {
+		name = "Narasa"
+		dynasty = "Maduraia"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1490.1.1 = {
+	heir = {
+		name = "Tenna"
+		monarch_name = "Tenna"
+		dynasty = "Maduraia"
+		birth_date = 1480.1.1
+		death_Date = 1515.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1500.1.1 = {
+	monarch = {
+		name = "Tenna"
+		dynasty = "Maduraia"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1500.1.1 = {
+	heir = {
+		name = "Naransa Pillai"
+		monarch_name = "Naransa Pillai"
+		dynasty = "Maduraia"
+		birth_Date = 1500.1.1
+		death_Date = 1519.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1515.1.1 = {
+	monarch = {
+		name = "Naransa Pillai"
+		dynasty = "Maduraia"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1515.1.1 = {
+	heir = {
+		name = "Kuru Kuru Timmappa"
+		monarch_name = "Kuru Kuru Timmappa"
+		birth_Date = 1500.1.1
+		death_Date = 1524.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1519.1.1 = {
+	monarch = {
+		name = "Kuru Kuru Timmappa"
+		dynasty = "Maduraia"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1519.1.1 = {
+	heir = {
+		name = "Kattyama Kamaiya"
+		monarch_name = "Kattyama Kamaiya"
+		dynasty = "Maduraia"
+		birth_Date = 1500.1.1
+		death_Date = 1526.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1524.1.1 = {
+	monarch = {
+		name = "Kattyama Kamaiya"
+		dynasty = "Maduraia"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1524.1.1 = {
+	heir = {
+		name = "Cimappa"
+		monarch_name = "Cimappa"
+		dynasty = "Maduraia"
+		birth_date = 1500.1.1
+		death_Date = 1529.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+		
+
+1526.1.1 = {
+	monarch = {
+		name = "Cimappa"
+		dynasty = "Maduraia"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1526.1.1 = {
+	heir = {
+		name = "Vishvanatha"
+		monarch_name = "Vishvanatha"
+		dynasty = "Nayyak"
+		birth_Date = 1500.1.1
+		death_Date = 1564.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1529.1.1 = {
+	monarch = {
+		name = "Vishvanatha"
+		dynasty = "Nayyak"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1529.1.1 = {
+	heir = {
+		name = "Kumara Periaya Krishnappa"
+		monarch_name = "Kumara Periaya Krishnappa"
+		dynasty = "Nayyak"
+		birth_Date = 1527.1.1
+		death_Date = 1572.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1564.1.1 = {
+	monarch = {
+		name = "Kumara Periaya Krishnappa"
+		dynasty = "Nayyak"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1564.1.1 = {
+	heir = {
+		name = "Krishnappa Periaya"
+		monarch_name = "Krishnappa Periaya"
+		dynasty = "Nayyak"
+		birth_Date = 1560.1.1
+		death_Date = 1595.3.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1572.1.1 = {
+	monarch = {
+		name = "Krishnappa Periaya"
+		dynasty = "Nayyak"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1572.1.1 = {
+	heir = {
+		name = "Lingayya Kumara"
+		monarch_name = "Lingayya Kumara"
+		dynasty = "Nayyak"
+		birth_Date = 1570.1.1
+		death_Date = 1601.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1595.3.1 = {
+	monarch = {
+		name = "Lingayya Kumara"
+		dynasty = "Nayyak"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1595.3.1 = {
+	heir = {
+		name = "Mutu Krishnappa"
+		monarch_name = "Mutu Krishnappa"
+		dynasty = "Nayyak"
+		birth_Date = 1590.1.1
+		death_Date = 1609.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1601.1.1 = {
+	monarch = {
+		name = "Mutu Krishnappa"
+		dynasty = "Nayyak"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1601.1.1 = {
+	heir = {
+		name = "Muttu Virappa"
+		monarch_name = "Muttu Virappa I"
+		dynasty = "Nayyak"
+		birth_Date = 1590.1.1
+		death_Date = 1623.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1609.1.1 = {
+	monarch = {
+		name = "Muttu Virappa I"
+		dynasty = "Nayyak"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1609.1.1 = {
+	heir = {
+		name = "Tirumala"
+		monarch_name = "Tirumala"
+		dynasty = "Nayyak"
+		birth_Date = 1600.1.1
+		death_Date = 1659.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1623.1.1 = {
+	monarch = {
+		name = "Tirumala"
+		dynasty = "Nayyak"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1623.1.1 = {
+	heir = {
+		name = "Muttu Virappa"
+		monarch_name = "Muttu Virappa II"
+		dynasty = "Nayyak"
+		birth_Date = 1600.1.1
+		death_date = 1662.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1659.1.1 = {
+	monarch = {
+		name = "Muttu Virappa II"
+		dynasty = "Nayyak"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1659.1.1 = {
+	heir = {
+		name = "Chokkanatha"
+		monarch_name = "Chokkanatha I"
+		dynasty = "Nayyak"
+		birth_Date = 1650.1.1
+		death_Date = 1682.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1662.1.1 = {
+	monarch = {
+		name = "Chokkanatha I"
+		dynasty = "Nayyak"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1662.1.1 = {
+	heir = {
+		name = "Muttu Linga"
+		monarch_name = "Muttu Linga"
+		dynasty = "Nayyak"
+		birth_Date = 1660.1.1
+		death_Date = 1680.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1678.1.1 = {
+	monarch = {
+		name = "Muttu Linga"
+		dynasty = "Nayyak"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1680.1.1 = {
+	monarch = {
+		name = "Chokkanatha I"
+		dynasty = "Nayyak"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+#Restored
+
+1680.1.1 = {
+	heir = {
+		name = "Muttu Varappa"
+		monarch_name = "Muttu Varappa III"
+		dynasty = "Nayyak"
+		birth_Date = 1660.1.1
+		death_Date = 1689.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1682.1.1 = {
+	monarch = {
+		name = "Muttu Varappa III"
+		dynasty = "Nayyak"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1682.1.1 = {
+	heir = {
+		name = "Chokkanatha"
+		monarch_name = "Chokkanatha II"
+		dynasty = "Nayyak"
+		birth_Date = 1670.1.1
+		death_Date = 1731.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1689.1.1 = {
+	monarch = {
+		name = "Chokkanatha II"
+		dynasty = "Nayyak"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1689.1.1 = {
+	heir = {
+		name = "Minakshi"
+		monarch_name = "Minakshi"
+		dynasty = "Nayyak"
+		birth_date = 1680.1.1
+		death_Date = 1736.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1731.1.1 = {
+	monarch = {
+		name = "Minakshi"
+		dynasty = "Nayyak"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+#Annexed by the Carnatic in April 1736

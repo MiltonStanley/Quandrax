@@ -1,0 +1,123 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = -4
+primary_culture = dutch
+religion = catholic
+technology_group = western
+capital = 99	# Coevorde
+
+
+1379.1.1 = {
+	monarch = {
+		name = "Willem"
+		dynasty= "van Jülich-Hengebach"
+		adm = 7
+		dip = 5
+		mil = 5
+	}
+}
+
+1379.1.1 = {
+	heir = {
+		name = "Reinoud"
+		monarch_name = "Reinoud IV"
+		dynasty = "van Jülich-Hengebach"
+		birth_date = 1365.1.1
+		death_date = 1423.6.25
+		claim = 80
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1402.1.1 = {
+	monarch = {
+		name = "Reinoud IV"
+		dynasty= "van Jülich-Hengebach"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1423.6.29 = {
+	monarch = {
+		name = "Arnold I"
+		dynasty = "van Egmond"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1465.1.11 = {
+	monarch = {
+		name = "Adolf I"
+		dynasty = "van Egmond"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1471.7.23 = {
+	monarch = {
+		name = "Arnold I"
+		dynasty = "van Egmond"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1477.1.5 = {
+	monarch = {
+		name = "Adolf I"
+		dynasty = "van Egmond"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1477.6.27 = {
+	monarch = {
+		name = "Maria I"
+		dynasty = "de Bourgogne"
+		adm = 6
+		dip = 7
+		mil = 5
+        female = yes
+	}
+}
+
+# The Reign of Philip the First is represented as HAB ownership.
+
+1492.1.1 = {
+	monarch = {
+		name = "Karel II"
+		dynasty = "van Egmond"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1520.1.1 = { leader = { name = "Maarten van Rossum" type = general rank = 1 fire = 2 shock = 3 manuever = 3 siege = 0 death_date = 1555.6.7 } }
+
+1538.6.30 = {
+	monarch = {
+		name = "Willem III de Rijke"
+		dynasty = "von der Mark"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}

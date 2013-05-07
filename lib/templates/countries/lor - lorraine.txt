@@ -1,0 +1,414 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -1
+centralization_decentralization = -4
+innovative_narrowminded = -1
+mercantilism_freetrade = 3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = 2
+primary_culture = burgundian
+religion = catholic
+technology_group = western
+capital = 189	# Nancy
+
+
+1390.1.1 = {
+	monarch = {
+		name = "Charles I"
+		dynasty = "de Metz"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1419.1.1 = {
+	heir = {
+		name = "René"
+		monarch_name = "René I"
+		dynasty = "de Valois"
+		birth_date = 1409.1.16
+		death_date = 1480.7.10
+		claim = 75
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1431.1.1 = {
+	monarch = {
+		name = "Rene I"
+		dynasty = "de Valois"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1431.1.1 = {
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean II"
+		dynasty = "de Valois"
+		birth_date = 1431.1.1
+		death_date = 1452.3.27
+		claim = 95
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1452.3.27 = {
+	monarch = {
+		name = "Jean II"
+		dynasty = "de Valois"
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1452.3.27 = {
+	heir = {
+		name = "Nicolas"
+		monarch_name = "Nicolas I"
+		dynasty = "de Valois"
+		birth_date = 1448.1.1
+		death_date = 1473.8.25
+		claim = 95
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1470.12.15 = {
+	monarch = {
+		name = "Nicolas I"
+		dynasty = "de Valois"
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1470.12.15 = {
+	heir = {
+		name = "René"
+		monarch_name = "René II"
+		dynasty = "de Vaudémont"
+		birth_date = 1451.5.2
+		death_date = 1508.12.10
+		claim = 95
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1473.8.25 = {
+	monarch = {
+		name = "René II"
+		dynasty = "de Vaudémont"
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1489.6.4 = {
+	heir = {
+		name = "Antoine"
+		monarch_name = "Antoine I"
+		dynasty = "de Vaudémont"
+		birth_date = 1489.6.4
+		death_date = 1544.6.14
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 7
+		leader = {	name = "Antoine I"            	type = general	rank = 0	fire = 3	shock = 1	manuever = 3	siege = 0 }
+	}
+}
+
+1508.12.11 = {
+	monarch = {
+		name = "Antoine I"
+		dynasty = "de Vaudémont"
+		adm = 7
+		dip = 4
+		mil = 7
+		leader = {	name = "Antoine I"            	type = general	rank = 0	fire = 3	shock = 1	manuever = 3	siege = 0 }
+	}
+}
+
+1517.8.23 = {
+	heir = {
+		name = "François"
+		monarch_name = "François I"
+		dynasty = "de Vaudémont"
+		birth_date = 1517.8.23
+		death_date = 1545.6.12
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 6
+	}
+}
+
+1523.12.16 = { innovative_narrowminded = 3 offensive_defensive = 2 land_naval = 3 } # Attacks Lorrainean Protestants
+
+1544.6.15 = { offensive_defensive = 3 } # Lorraine starts a neutrality policy
+
+1544.6.15 = {
+	monarch = {
+		name = "François I"
+		dynasty = "de Vaudémont"
+		adm = 7
+		dip = 7
+		mil = 6
+	}
+}
+
+1544.6.15 = {
+	heir = {
+		name = "Charles"
+		monarch_name = "Charles III"
+		dynasty = "de Vaudémont"
+		birth_date = 1543.2.18
+		death_date = 1608.5.14
+		claim = 95
+		adm = 9
+		dip = 8
+		mil = 7
+	}
+}
+
+1545.6.13 = {
+	monarch = {
+		name = "Charles III"
+		dynasty = "de Vaudémont"
+		adm = 9
+		dip = 8
+		mil = 7
+	}
+}
+
+1556.10.2 = { government = absolute_monarchy }
+
+1563.11.8 = {
+	heir = {
+		name = "Henri"
+		monarch_name = "Henri I"
+		dynasty = "de Vaudémont"
+		birth_date = 1563.11.8
+		death_date = 1624.7.31
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1572.1.1 = { innovative_narrowminded = -1 quality_quantity = -2 } # Foundation of the University of Lorraine
+
+1608.5.15 = {
+	monarch = {
+		name = "Henri I"
+		dynasty = "de Vaudémont"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1608.5.15 = {
+	heir = {
+		name = "François"
+		monarch_name = "François II"
+		dynasty = "de Vaudémont"
+		birth_date = 1572.2.27
+		death_date = 1632.10.14
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+
+1624.1.1 = {
+	monarch = {
+		name = "François II"
+		dynasty = "de Vaudémont"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1624.1.1 = {
+	heir = {
+		name = "Charles"
+		monarch_name = "Charles IV"
+		dynasty = "de Vaudémont"
+		birth_date = 1604.4.5
+		death_date = 1674.9.18
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 3
+		leader = {	name = "Charles IV"            	type = general	rank = 0	fire = 2	shock = 2	manuever = 3	siege = 1}
+	}
+}
+
+1624.5.1 = {
+	monarch = {
+		name = "Charles IV"
+		dynasty = "de Vaudémont"
+		adm = 5
+		dip = 3
+		mil = 3
+		leader = {	name = "Charles IV"            	type = general	rank = 0	fire = 2	shock = 2	manuever = 3	siege = 1}
+	}
+}
+
+1624.5.1 = {
+	heir = {
+		name = "Nicolas"
+		monarch_name = "Nicolas II"
+		dynasty = "de Vaudémont"
+		birth_date = 1612.12.12
+		death_date = 1670.1.25
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1624.9.1 = { offensive_defensive = -2 } # Charles IV ends with the neutrality policy
+
+1624.9.1 = { government = administrative_monarchy }
+
+1634.1.20 = {
+	monarch = {
+		name = "Nicolas II"
+		dynasty = "de Vaudémont"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1634.1.20 = {
+	heir = {
+		name = "Charles"
+		monarch_name = "Charles IV"
+		dynasty = "de Vaudémont"
+		birth_date = 1604.4.5
+		death_date = 1674.9.18
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 3
+		leader = {	name = "Charles IV"            	type = general	rank = 0	fire = 2	shock = 2	manuever = 3	siege = 1}
+	}
+}
+
+1641.1.30 = {
+	monarch = {
+		name = "Charles IV"
+		dynasty = "de Vaudémont"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1643.4.3 = {
+	heir = {
+		name = "Charles Léopold"
+		monarch_name = "Charles V Léopold"
+		dynasty = "de Vaudémont"
+		birth_date = 1643.4.3
+		death_date = 1690.4.18
+		claim = 95
+		adm = 4
+		dip = 7
+		mil = 3
+	}
+}
+
+1675.10.19 = {
+	monarch = {
+		name = "Charles V Léopold"
+		dynasty = "de Vaudémont"
+		adm = 4
+		dip = 7
+		mil = 3
+	}
+}
+
+1679.9.11 = {
+	heir = {
+		name = "Léopold Joseph"
+		monarch_name = "Léopold I Joseph"
+		dynasty = "de Vaudémont"
+		birth_date = 1679.9.11
+		death_date = 1729.3.27
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1690.4.19 = {
+	monarch = {
+		name = "Léopold I Joseph"
+		dynasty = "de Vaudémont"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1708.12.8 = {
+	heir = {
+		name = "François Éttiene"
+		monarch_name = "François III Éttiene"
+		dynasty = "de Vaudémont"
+		birth_date = 1708.12.8
+		death_date = 1737.7.9
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1729.3.28 = {
+	monarch = {
+		name = "François III Éttiene"
+		dynasty = "de Vaudémont"
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1736.2.1 = {
+	monarch = {
+		name = "Stanislas I"
+		dynasty = "Leszczynski"
+		adm = 8
+		dip = 5
+		mil = 6
+	}
+}
+
+1766.2.22 = { government = absolute_monarchy }

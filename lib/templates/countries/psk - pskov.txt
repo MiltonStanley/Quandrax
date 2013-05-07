@@ -1,0 +1,320 @@
+government = noble_republic
+aristocracy_plutocracy = 1
+centralization_decentralization = 2
+innovative_narrowminded = 0
+mercantilism_freetrade = 2
+offensive_defensive = 3
+land_naval = -3
+quality_quantity = 0
+serfdom_freesubjects = -3
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+capital = 274	# Pskov
+
+
+1399.1.1 = {
+	monarch = {
+		name = "John I"
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+}
+
+1401.1.1 = {
+	monarch = {
+		name = "Daniel I"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1407.1.1 = {
+	monarch = {
+		name = "Constantine"
+		adm = 7
+		dip = 4
+		mil = 4
+	}
+}
+
+1408.1.1 = {
+	monarch = {
+		name = "Daniel I"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1410.1.1 = {
+	monarch = {
+		name = "Alexander IV"
+		adm = 6
+		dip = 7
+		mil = 3
+	}
+}
+
+1412.1.1 = {
+	monarch = {
+		name = "Constantine"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1415.1.1 = {
+	monarch = {
+		name = "Andrew II"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1417.1.1 = {
+	monarch = {
+		name = "Theodore I"
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Alexander IV"
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1424.1.1 = {
+	monarch = {
+		name = "Theodore II"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1428.1.1 = {
+	monarch = {
+		name = "Demetrius I"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1429.1.1 = {
+	monarch = {
+		name = "Alexander IV"
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1434.1.1 = {
+	monarch = {
+		name = "Vladimir II"
+		adm = 7
+		dip = 4
+		mil = 4
+	}
+}
+
+1439.1.1 = {
+	monarch = {
+		name = "Alexander V"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1443.1.1 = {
+	monarch = {
+		name = "Alexander VI"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1447.1.1 = {
+	monarch = {
+		name = "Vasiliy III Shuiski"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1454.1.1 = {
+	monarch = {
+		name = "Aleksandr VI Charorizhski"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1460.1.1 = {
+	monarch = {
+		name = "Ivan IV"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1461.1.1 = {
+	monarch = {
+		name = "Valdimir III"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1463.1.1 = {
+	monarch = {
+		name = "Ivan V"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1466.1.1 = {
+	monarch = {
+		name = "Fëdor III Shuiski"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1472.1.1 = {
+	monarch = {
+		name = "Yaroslav II Obolenski"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1474.1.1 = {
+	monarch = {
+		name = "Daniil II"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1475.1.1 = {
+	monarch = {
+		name = "Yaroslav II Obolenski"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1477.1.1 = {
+	monarch = {
+		name = "Vasiliy IV Shuiski"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Yaroslav II Obolenski"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1488.1.1 = {
+	monarch = {
+		name = "Sëmen"
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1491.1.1 = {
+	monarch = {
+		name = "Vasiliy IV Shuiski"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1496.1.1 = {
+	monarch = {
+		name = "Aleksandr VI Rostovsky"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1499.1.1 = {
+	monarch = {
+		name = "Vasiliy V"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1502.1.1 = {
+	monarch = {
+		name = "Ivan VI Shuiski"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1503.1.1 = {
+	monarch = {
+		name = "Dmitri Rostinski"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1507.1.1 = {
+	monarch = {
+		name = "Ivan VII Repnin-Obolenski"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1510.1.1 = {
+	monarch = {
+		name = "Patriarch of Pskov"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}

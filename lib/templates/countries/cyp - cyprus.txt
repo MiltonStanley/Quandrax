@@ -1,0 +1,148 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = 1
+quality_quantity = -1
+serfdom_freesubjects = -2
+primary_culture = cosmopolitan_french
+add_accepted_culture = greek
+religion = catholic
+technology_group = eastern
+capital = 321	# Nicosia
+
+
+1398.1.1 = {
+	monarch = {
+		name = "Janus"
+		dynasty = "de Lusignan"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1414.5.16 = {
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean II"
+		dynasty = "de Lusignan"
+		birth_date = 1414.5.16
+		death_date = 1458.6.28
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1432.6.29 = {
+	monarch = {
+		name = "Jean II"
+		dynasty = "de Lusignan"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1444.6.28 = {
+	heir = {
+		name = "Charlotte"
+		monarch_name = "Charlotte"
+		dynasty = "de Lusignan"
+		birth_date = 1444.6.28
+		death_date = 1487.7.16
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+		female = yes
+	}
+}
+
+1458.7.27 = {
+	monarch = {
+		name = "Charlotte"
+		dynasty = "de Lusignan"
+		adm = 4
+		dip = 3
+		mil = 3
+		female = yes
+	}
+}
+
+1458.7.27 = {
+	heir = {
+		name = "Jacques"
+		monarch_name = "Jacques II"
+		dynasty = "de Lusignan"
+		birth_date = 1438.1.1
+		death_date = 1473.7.10
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 7
+	}
+}
+
+1460.9.26 = { centralization_decentralization = 5 } # Charlotte's Web
+
+1460.9.27 = {
+	monarch = {
+		name = "Jacques II"
+		dynasty = "de Lusignan"
+		adm = 6
+		dip = 4
+		mil = 7
+	}
+}
+
+1473.7.6 = {
+	heir = {
+		name = "Jacques"
+		monarch_name = "Jacques III"
+		dynasty = "de Lusignan"
+		birth_date = 1473.7.6
+		death_date = 1474.8.26
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1473.7.7 = {
+	monarch = {
+		name = "Jacques III"
+		dynasty = "de Lusignan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1474.8.26 = { innovative_narrowminded = 2 } # The Two Queens
+
+1474.8.27 = {
+	monarch = {
+		name = "Caterina"
+		dynasty = "Cornero"
+		adm = 6
+		dip = 7
+		mil = 5
+		female = yes
+	}
+}
+
+1487.7.17 = {
+	monarch = {
+		name = "The Cypriot Council"
+		regent = yes
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

@@ -1,0 +1,145 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = 0
+quality_quantity = 3
+serfdom_freesubjects = -2
+technology_group = chinese
+primary_culture = lao
+religion = buddhism
+capital = 608	# Champassak
+
+
+# Champassak (splinter-kingdom of Lan Xang)	
+1700.1.1 = {
+	monarch = {
+		name = "Nan Rath"
+		dynasty = "Champassak"
+		DIP = 4
+		MIL = 5
+		ADM = 4
+	}
+}
+
+1700.1.1 = {
+	heir = {
+		name = "Nokasat"
+		monarch_name = "Nokasat"
+		dynasty = "Champassak"
+		birth_date = 1690.1.1
+		death_date = 1738.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1714.1.1 = {
+	monarch = {
+		name = "Nokasat"
+		dynasty = "Champassak"
+		DIP = 6
+		MIL = 6
+		ADM = 7
+	}
+}
+
+1714.1.1 = {
+	heir = {
+		name = "Saya Kuman"
+		monarch_name = "Saya Kuman"
+		dynasty = "Champassak"
+		birth_date = 1714.1.1
+		death_Date = 1791.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1738.1.1 = {
+	monarch = {
+		name = "Saya Kuman"
+		dynasty = "Champassak"
+		DIP = 5
+		MIL = 4
+		ADM = 6
+	}
+}
+
+1738.1.1 = {
+	heir = {
+		name = "Fai Na"
+		monarch_name = "Fai Na"
+		dynasty = "Champassak"
+		birth_Date = 1720.1.1
+		death_date = 1811.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1791.1.1 = {
+	monarch = {
+		name = "Fai Na"
+		dynasty = "Champassak"
+		DIP = 4
+		MIL = 5
+		ADM = 4
+	}
+}
+
+1791.1.1 = {
+	heir = {
+		name = "No Muong"
+		monarch_name = "No Muong"
+		dynasty = "Champassak"
+		birth_date = 1791.1.1
+		death_date = 1813.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1811.1.1 = {
+	monarch = {
+		name = "No Muong"
+		dynasty = "Champassak"
+		DIP = 5
+		MIL = 3
+		ADM = 5
+	}
+}
+
+1811.1.1 = {
+	heir = {
+		name = "Manoi"
+		monarch_name = "Manoi"
+		dynasty = "Champassak"
+		birth_date = 1790.1.1
+		death_date = 1819.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1813.1.1 = {
+	monarch = {
+		name = "Manoi"
+		dynasty = "Champassak"
+		DIP = 6
+		MIL = 5
+		ADM = 5
+	}
+}

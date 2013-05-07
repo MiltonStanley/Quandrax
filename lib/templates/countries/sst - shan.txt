@@ -1,0 +1,409 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 2
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = -2
+quality_quantity = 3
+serfdom_freesubjects = -2
+technology_group = chinese
+religion = buddhism
+primary_culture = shan
+capital = 583	# Lashio
+
+# Rulers of Kengtung, the biggest of the Shan states.
+
+1387.1.1 = {
+	monarch = {
+		name = "Sao Ai Awn"
+		dynasty = "Chiangmai"
+		DIP = 3
+		MIL = 2
+		ADM = 3
+	}
+}
+
+1387.1.1 = {
+	heir = {
+		name = "Ai Wu Hsa"
+		monarch_name = "Ai Wu Hsa"
+		dynasty = "Chiangmai"
+		birth_Date = 1367.1.1
+		death_Date = 1403.1.1
+		claim = 95
+		adm = 4
+		dip = 7
+		mil = 4
+	}
+}
+
+1390.1.1 = {
+	monarch = {
+		name = "Ai Wu Hsa"
+		dynasty = "Chiangmai"
+		DIP = 7
+		MIL = 4
+		ADM = 4
+	}
+}
+
+1390.1.1 = {
+	heir = {
+		name = "Yi Hkam Hka"
+		monarch_name = "Yi Hkam Hka"
+		dynasty = "Chiangmai"
+		birth_Date = 1370.1.1
+		death_Date = 1416.1.1
+		claim = 95
+		adm = 8
+		dip = 1
+		mil = 4
+	}
+}
+
+1403.1.1 = {
+	monarch = {
+		name = "Yi Hkam Hka"
+		dynasty = "Chiangmai"
+		DIP = 1
+		MIL = 4
+		ADM = 8
+	}
+}
+
+1403.1.1 = {
+	heir = {
+		name = "Sao Hsam"
+		monarch_name = "Sao Hsam"
+		dynasty = "Chiangmai"
+		birth_Date = 1403.1.1
+		death_Date = 1441.1.1
+		claim = 95
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+}
+
+1416.1.1 = {
+	monarch = {
+		name = "Sao Hsam"
+		dynasty = "Chiangmai"
+		DIP = 4
+		MIL = 4
+		ADM = 2
+	}
+}
+
+1416.1.1 = {
+	heir = {
+		name = "Sao Hsam si-li"
+		monarch_name = "Sao Hsam si-li"
+		dynasty = "Chiangmai"
+		birth_Date = 1416.1.1
+		death_Date = 1456.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1441.1.1 = {
+	monarch = {
+		name = "Sao Hsam si-li"
+		dynasty = "Chiangmai"
+		DIP = 5
+		MIL = 6
+		ADM = 5
+	}
+}
+
+1441.1.1 = {
+	heir = {
+		name = "Ai Lao Hkam"
+		monarch_name = "Ai Lao Hkam"
+		dynasty = "Chiangmai"
+		birth_Date = 1441.1.1
+		death_Date = 1474.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1456.1.1 = {
+	monarch = {
+		name = "Ai Lao Hkam"
+		dynasty = "Chiangmai"
+		DIP = 5
+		MIL = 4
+		ADM = 3
+	}
+}
+
+1456.1.1 = {
+	heir = {
+		name = "Ai Lao"
+		monarch_name = "Ai Lao"
+		dynasty = "Chiangmai"
+		birth_Date = 1456.1.1
+		death_Date = 1501.1.1
+		claim = 95
+		adm = 5
+		dip = 1
+		mil = 4
+	}
+}
+
+1474.1.1 = {
+	monarch = {
+		name = "Ai Lao"
+		dynasty = "Chiangmai"
+		DIP = 1
+		MIL = 4
+		ADM = 5
+	}
+}
+
+1474.1.1 = {
+	heir = {
+		name = "Sao Naw Kiao"
+		monarch_name = "Sao Naw Kiao"
+		dynasty = "Chiangmai"
+		birth_Date = 1474.1.1
+		death_Date = 1523.1.1
+		claim = 95
+		adm = 7
+		dip = 3
+		mil = 4
+	}
+}
+
+1501.1.1 = {
+	monarch = {
+		name = "Sao Naw Kiao"
+		dynasty = "Chiangmai"
+		DIP = 3
+		MIL = 4
+		ADM = 7
+	}
+}
+
+1501.1.1 = {
+	heir = {
+		name = "Hpaya Kiao"
+		monarch_name = "Hpaya Kiao"
+		dynasty = "Chiangmai"
+		birth_Date = 1501.1.1
+		death_date = 1560.1.1
+		claim = 95
+		adm = 3
+		dip = 1
+		mil = 3
+	}
+}
+
+1523.1.1 = {
+	monarch = {
+		name = "Hpaya Kiao"
+		dynasty = "Chiangmai"
+		DIP = 1
+		MIL = 3
+		ADM = 3
+	}
+}
+
+1523.1.1 = {
+	heir = {
+		name = "Sao Mong Hka"
+		monarch_name = "Sao Mong Hka"
+		dynasty = "Chiangmai"
+		birth_Date = 1523.1.1
+		death_Date = 1598.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1560.1.1 = {
+	monarch = {
+		name = "Sao Mong Hka"
+		dynasty = "Chiangmai"
+		DIP = 3
+		MIL = 3
+		ADM = 3
+	}
+}
+
+1560.1.1 = {
+	heir = {
+		name = "Sao Hkam Tao"
+		monarch_name = "Sao Hkam Tao"
+		dynasty = "Chiangmai"
+		birth_Date = 1560.1.1
+		death_Date = 1620.1.1
+		claim = 95
+		adm = 2
+		dip = 6
+		mil = 4
+	}
+}
+
+1598.1.1 = {
+	monarch = {
+		name = "Sao Hkam Tao"
+		dynasty = "Chiangmai"
+		DIP = 6
+		MIL = 4
+		ADM = 2
+	}
+}
+
+1598.1.1 = {
+	heir = {
+		name = "Sao Mong Hkak"
+		monarch_name = "Sao Mong Hkak"
+		dynasty = "Chiangmai"
+		birth_Date = 1598.1.1
+		death_Date = 1637.1.1
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+}
+
+1620.1.1 = {
+	monarch = {
+		name = "Sao Mong Hkak"
+		dynasty = "Chiangmai"
+		DIP = 7
+		MIL = 4
+		ADM = 6
+	}
+}
+
+1620.1.1 = {
+	heir = {
+		name = "Sao On"
+		monarch_name = "Sao On"
+		dynasty = "Chiangmai"
+		birth_Date = 1620.1.1
+		death_Date = 1680.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+
+1637.1.1 = {
+	monarch = {
+		name = "Sao On"
+		dynasty = "Chiangmai"
+		DIP = 2
+		MIL = 4
+		ADM = 3
+	}
+}
+
+1637.1.1 = {
+	heir = {
+		name = "Sao Awk"
+		monarch_name = "Sao Awk"
+		dynasty = "Chiangmai"
+		birth_Date = 1637.1.1
+		death_Date = 1730.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+1680.1.1 = {
+	monarch = {
+		name = "Sao Awk"
+		dynasty = "Chiangmai"
+		DIP = 3
+		MIL = 4
+		ADM = 2
+	}
+}
+
+1680.1.1 = {
+	heir = {
+		name = "Maung Nyo"
+		monarch_name = "Maung Nyo"
+		dynasty = "Chiangmai"
+		birth_Date = 1680.1.1
+		death_date = 1787.1.1
+		claim = 95
+		adm = 5
+		dip = 2
+		mil = 1
+	}
+}
+
+1730.1.1 = {
+	monarch = {
+		name = "Maung Nyo"
+		dynasty = "Chiangmai"
+		DIP = 2
+		MIL = 1
+		ADM = 5
+	}
+}
+
+1730.1.1 = {
+	heir = {
+		name = "Sao Kawng Tai"
+		monarch_name = "Sao Kawng Tai"
+		dynasty = "Chiangmai"
+		birth_date = 1730.1.1
+		death_Date = 1813.1.1
+		claim = 95
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}
+
+1787.1.1 = {
+	monarch = {
+		name = "Sao Kawng Tai"
+		dynasty = "Chiangmai"
+		DIP = 4
+		MIL = 3
+		ADM = 2
+	}
+}
+
+1787.1.1 = {
+	heir = {
+		name = "Sao Maha Hkanan"
+		monarch_name = "Sao Maha Hkanan"
+		dynasty = "Chiangmai"
+		birth_Date = 1787.1.1
+		death_Date = 1832.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1813.1.1 = {
+	monarch = {
+		name = "Sao Maha Hkanan"
+		dynasty = "Chiangmai"
+		DIP = 5
+		MIL = 4
+		ADM = 5
+	}
+}

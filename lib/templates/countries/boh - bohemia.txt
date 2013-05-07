@@ -1,0 +1,131 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -3
+quality_quantity = 0
+serfdom_freesubjects = -4
+primary_culture = czech
+religion = catholic
+elector = yes
+emperor = yes
+capital = 266	# Praha
+technology_group = western
+
+
+1378.11.29 = {
+	monarch = {
+		name = "Václav IV"
+		dynasty = "von Luxemburg"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+# Personal Union with Hungary under Sigismund I 1419-1437
+
+1419.1.1 = { leader = {	name = "Jan Zizka"	type = general	rank = 1	fire = 6	shock = 3	manuever = 5	siege = 0	death_date = 1424.10.11 } }
+
+1419.1.1 = { leader = {	name = "Prokop Veliký"	type = general	rank = 1	fire = 4	shock = 3	manuever = 5	siege = 1	death_date = 1434.5.30 } }
+
+# Personal Union with Habsburg under Albrecht II 1437-1439
+
+1439.10.27 = {
+	monarch = {
+		name = "Landfriedens"
+		regent = yes
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+# Personal Union with Habsburg under Ladislaus Postumus 1453-1457
+
+1457.11.24 = {
+	monarch = {
+		name = "Jirí"
+		dynasty = "z Podebrad"
+		adm = 8
+		dip = 6
+		mil = 5
+	}
+}
+
+1471.3.23 = {
+	monarch = {
+		name = "Vladislav II"
+		dynasty = Jagiellon
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1516.3.14 = {
+	monarch = {
+		name = "Ludvik I"
+		dynasty = Jagiellon
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1526.8.30 = {
+	government = despotic_monarchy
+	elector = no
+}
+
+1526.8.30 = {
+	monarch = {
+		name = "Ferdinand I"
+		dynasty = "von Habsburg"
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1556.10.2 = { government = absolute_monarchy }
+
+1562.9.17 = {
+	monarch = {
+		name = "Maximilian II"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1576.1.1 = {
+	monarch = {
+		name = "Rudolf II"
+		dynasty = "von Habsburg"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1610.1.1 = { leader = {	name = "Christian of Anhalt"   	type = general	rank = 2	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1630.4.17 } }
+
+1612.1.22 = {
+	monarch = {
+		name = "Matthias"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1615.1.1 = { leader = {	name = "Thurn"                 	type = general	rank = 1	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1640.1.28 } }
+
+1615.1.1 = { leader = {	name = "Wallenstein"           	type = general	rank = 0	fire = 4	shock = 4	manuever = 4	siege = 1	death_date = 1634.2.25 } }
+
+#Personal Union with Habsburg

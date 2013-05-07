@@ -1,0 +1,13 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 2
+innovative_narrowminded = 2
+mercantilism_freetrade = -2
+offensive_defensive = 0
+land_naval = -4
+quality_quantity = -2
+serfdom_freesubjects = 0
+primary_culture = al_suryah_arabic
+religion = sunni
+technology_group = muslim
+capital = 382	# Damascus

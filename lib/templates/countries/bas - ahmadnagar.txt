@@ -1,0 +1,317 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -4
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -1
+technology_group = indian
+religion = hinduism
+primary_culture = marathi
+add_accepted_culture = oriya
+add_accepted_culture = telegu
+capital = 544	# Ahmadnagar
+
+
+#Sultans of Ahmadnagar
+1490.1.1 = {
+	monarch = {
+		name = "Malik Ahmad Shah I"
+		dynasty = "Nizam"
+		adm = 7
+		dip = 9
+		mil = 7
+	}
+}
+
+1490.1.1 = {
+	heir = {
+		name = "Burhan"
+		monarch_name = "Burhan I Shah"
+		dynasty = "Nizam"
+		birth_date = 1490.1.1
+		death_date = 1553.12.30
+		claim = 95
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+}
+
+1508.1.1 = {
+	monarch = {
+		name = "Burhan Shah I"
+		dynasty = "Nizam"
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+}
+
+1530.1.1 = {
+	heir = {
+		name = "Husayn"
+		monarch_name = "Husayn Shah I"
+		dynasty = "Nizam"
+		birth_date = 1530.1.1
+		death_date = 1565.6.6
+		claim = 95
+		adm = 4
+		dip = 7
+		mil = 8
+	}
+}
+
+1553.12.30 = {
+	monarch = {
+		name = "Husayn Shah I"
+		dynasty = "Nizam"
+		adm = 4
+		dip = 7
+		mil = 8
+	}
+}
+
+1554.1.1 = {
+	heir = {
+		name = "Murtaza"
+		monarch_name = "Murtaza Shah I"
+		dynasty = "Nizam"
+		birth_date = 1554.1.1
+		death_date = 1588.6.11
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1565.6.6 = {
+	monarch = {
+		name = "Murtaza Shah I"
+		dynasty = "Nizam"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1565.6.6 = {
+	heir = {
+		name = "Maran Husayn"
+		monarch_name = "Maran Husayn Shah II"
+		dynasty = "Nizam"
+		birth_date = 1565.6.6
+		death_date = 1589.3.8
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1588.6.11 = {
+	monarch = {
+		name = "Maran Husayn Shah II"
+		dynasty = "Nizam"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1588.6.11 = {
+	heir = {
+		name = "Isma'il"
+		monarch_name = "Isma'il"
+		dynasty = "Nizam"
+		birth_date = 1588.6.11
+		death_date = 1591.4.27
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1589.3.8 = {
+	monarch = {
+		name = "Isma'il Shah"
+		dynasty = "Nizam"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1589.3.8 = {
+	heir = {
+		name = "Burhan"
+		monarch_name = "Burhan Shah II"
+		dynasty = "Nizam"
+		birth_date = 1570.1.1
+		death_date = 1595.4.18
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1591.4.27 = {
+	monarch = {
+		name = "Burhan Shah II"
+		dynasty = "Nizam"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1591.4.27 = {
+	heir = {
+		name = "Ibrahim"
+		monarch_name = "Ibrahim Shah"
+		dynasty = "Nizam"
+		birth_date = 1576.1.1
+		death_date = 1595.7.25
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1595.4.18 = {
+	monarch = {
+		name = "Ibrahim Shah"
+		dynasty = "Nizam"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1595.4.18 = {
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad Shah"
+		dynasty = "Nizam"
+		birth_date = 1580.1.1
+		death_date = 1596.2.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1595.7.25 = {
+	monarch = {
+		name = "Ahmad Shah"
+		dynasty = "Nizam"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1595.7.25 = {
+	heir = {
+		name = "Bahadur"
+		monarch_name = "Bahadur Shah"
+		dynasty = "Nizam"
+		birth_date = 1582.1.1
+		death_date = 1600.8.10
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}
+
+1596.2.1 = {
+	monarch = {
+		name = "Bahadur Shah"
+		dynasty = "Nizam"
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}
+
+1596.2.1 = {
+	heir = {
+		name = "Murtaza"
+		monarch_name = "Murtaza Shah II"
+		dynasty = "Nizam"
+		birth_date = 1580.1.1
+		death_date = 1610.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1600.8.10 = {
+	monarch = {
+		name = "Murtaza Shah II"
+		dynasty = "Nizam"
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1600.8.10 = {
+	heir = {
+		name = "Burhan"
+		monarch_name = "Burhan Shah III"
+		dynasty = "Nizam"
+		birth_date = 1590.1.1
+		death_date = 1631.1.1
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+}
+
+1610.1.1 = {
+	monarch = {
+		name = "Burhan Shah III"
+		dynasty = "Nizam"
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+}
+
+1615.1.1 = {
+	heir = {
+		name = "Husayn"
+		monarch_name = "Husayn Shah II"
+		dynasty = "Nizam"
+		birth_date = 1615.1.1
+		death_date = 1633.7.27
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1631.1.1 = {
+	monarch = {
+		name = "Husayn Shah II"
+		dynasty = "Nizam"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+#Annexed by the Mughals 27 July 1633

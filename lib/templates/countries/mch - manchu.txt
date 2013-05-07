@@ -1,0 +1,426 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -5
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -3
+offensive_defensive = -2
+land_naval = -2
+quality_quantity = 3
+serfdom_freesubjects = -5
+primary_culture = manchu
+religion = confucianism
+technology_group = chinese
+capital = 725	# Hinggan
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Bukuri Yongson"
+		dynasty = "Aisin Gioro"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1399.1.1 = { set_country_flag = no_forbidden_city }
+
+1399.1.1 = {
+	heir = {
+		name = "Mengtemu"
+		monarch_name = "Mengtemu"
+		dynasty = "Aisin Goro"
+		birth_date = 1370.1.1
+		death_date = 1433.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1405.1.1 = {
+	monarch = {
+		name = "Mengtemu"
+		dynasty = "Aisin Gioro"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1405.1.1 = {
+	heir = {
+		name = "Cungsan"
+		monarch_name = "Cungsan"
+		dynasty = "Aisin Goro"
+		birth_date = 1405.1.1
+		death_date = 1467.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1433.1.1 = {
+	monarch = {
+		name = "Cungsan"
+		dynasty = "Aisin Gioro"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1433.1.1 = {
+	heir = {
+		name = "Tolo"
+		monarch_name = "Tolo"
+		dynasty = "Aisin Goro"
+		birth_date = 1433.1.1
+		death_date = 1481.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1467.1.1 = {
+	monarch = {
+		name = "Tolo"
+		dynasty = "Aisin Gioro"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1467.1.1 = {
+	heir = {
+		name = "Sibeoci Fiyanggu"
+		monarch_name = "sibeoci Fiyanggu"
+		dynasty = "Aisin Goro"
+		birth_date = 1467.1.1
+		death_date = 1522.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1481.1.1 = {
+	monarch = {
+		name = "Sibeoci Fiyanggu"
+		dynasty = "Aisin Gioro"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1481.1.1 = {
+	heir = {
+		name = "Fuman"
+		monarch_name = "Aisin Goro"
+		dynasty = "Aisin Goro"
+		birth_date = 1481.1.1
+		death_date = 1542.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1522.1.1 = {
+	monarch = {
+		name = "Fuman"
+		dynasty = "Aisin Gioro"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1522.1.1 = {
+	heir = {
+		name = "Giocangga"
+		monarch_name = "Giocangga"
+		dynasty = "Aisin Goro"
+		birth_date = 1522.1.1
+		death_date = 1571.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+
+1542.1.1 = {
+	monarch = {
+		name = "Giocangga"
+		dynasty = "Aisin Gioro"
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+
+1542.1.1 = {
+	heir = {
+		name = "Taksi"
+		monarch_name = "Taksi"
+		dynasty = "Aisin Goro"
+		birth_date = 1542.1.1
+		death_date = 1583.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1571.1.1 = {
+	monarch = {
+		name = "Taksi"
+		dynasty = "Aisin Gioro"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1571.1.1 = {
+	heir = {
+		name = "Nurhachi"
+		monarch_name = "Nurhachi"
+		dynasty = "Qing"
+		birth_date = 1558.1.1
+		death_date = 1626.9.30
+		claim = 95
+		adm = 8
+		dip = 8
+		mil = 9
+		leader = {	
+			name = "Nurhachi"
+			type = general
+			rank = 0
+			fire = 2
+			shock = 5
+			manuever = 4
+			siege = 2 
+		}
+	}
+}
+
+1583.1.1 = {
+	monarch = {
+		name = "Nurhachi"
+		dynasty = "Qing"
+		adm = 8
+		dip = 8
+		mil = 9
+		leader = {	name = "Nurhachi"   	type = general		rank = 0	fire = 2	shock = 5	manuever = 4	siege = 2 }
+	}
+}
+
+1584.1.1 = { centralization_decentralization = 0 aristocracy_plutocracy = -5 quality_quantity = 1 land_naval = -4 offensive_defensive = -4 innovative_narrowminded = -1 } # Nurhachi's Reforms
+
+1592.11.28 = {
+	heir = {
+		name = "Huang Taiji"
+		monarch_name = "Huang Taiji"
+		dynasty = "Qing"
+		birth_date = 1592.11.28
+		death_date = 1643.9.21
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 8
+		leader = { 
+			name = "Huang Taiji"
+			type = general
+			rank = 0
+			fire = 0
+			shock = 5
+			manuever = 3
+			siege = 0 
+		}
+	}
+}
+
+1608.1.1 = { quality_quantity = -2 land_naval = -5 aristocracy_plutocracy = -5 } # The Eastern Mongols Assimilated
+
+1626.9.30 = {
+	monarch = {
+		name = "Huang Taiji"
+		dynasty = "Qing"
+		adm = 7
+		dip = 6
+		mil = 8
+		leader = { name = "Huang Taiji"   	type = general		rank = 0	fire = 0	shock = 5	manuever = 3	siege = 0 }
+	}
+}
+
+1628.1.1 = { leader = {	name = "Dorgon"			type = general		rank = 1	fire = 4	shock = 4	manuever = 5	siege = 2	death_date = 1650.12.31 } }
+
+1638.3.15 = {
+	heir = {
+		name = "Shunzhi"
+		monarch_name = "Shunzhi"
+		dynasty = "Qing"
+		birth_date = 1638.3.15
+		death_date = 1661.2.5
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1643.9.22 = {
+	monarch = {
+		name = "Shunzhi"
+		dynasty = "Qing"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1644.4.27 = { capital = 695	centralization_decentralization = -1 } # Beijing
+
+1645.1.1 = { land_naval = -5 aristocracy_plutocracy = -5 quality_quantity = -3 } # The Manchu Army Reforms
+
+1654.5.4 = {
+	heir = {
+		name = "Kangxi"
+		monarch_name = "Kangxi"
+		dynasty = "Qing"
+		birth_date = 1654.5.4
+		death_date = 1722.12.20
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1661.2.5 = {
+	monarch = {
+		name = "Kangxi"
+		dynasty = "Qing"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1678.12.13 = {
+	heir = {
+		name = "Yangzheng"
+		monarch_name = "Yangzheng"
+		dynasty = "Qing"
+		birth_date = 1678.12.13
+		death_date = 1735.10.8
+		claim = 95
+		adm = 4
+		dip = 7
+		mil = 7
+	}
+}
+
+1683.1.1 = { centralization_decentralization = 0 } # Ming is conquered
+
+1689.1.1 = { quality_quantity = -2 } # The treaty of Nerchiinsk
+
+1722.12.21 = { innovative_narrowminded = 3	centralization_decentralization = 1 } # The expulsion of the Jesuits
+
+1722.12.21 = {
+	monarch = {
+		name = "Yangzheng"
+		dynasty = "Qing"
+		adm = 4
+		dip = 7
+		mil = 7
+	}
+}
+
+1722.12.21 = {
+	heir = {
+		name = "Qianlong"
+		monarch_name = "Qianlong"
+		dynasty = "Qing"
+		birth_date = 1711.9.25
+		death_date = 1799.2.7
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+}
+
+1735.10.10 = {
+	monarch = {
+		name = "Qianlong"
+		dynasty = "Qing"
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+}
+
+1736.1.1 = { leader = { name = "Lung"	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1761.1.1 } }
+
+1760.11.13 = {
+	heir = {
+		name = "Jiaqing"
+		monarch_name = "Jiaqing"
+		dynasty = "Qing"
+		birth_date = 1760.11.13
+		death_date = 1820.9.2
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1770.1.1 = { centralization_decentralization = 0	innovative_narrowminded = 4 } # The appointment of Heshen
+
+1796.2.9 = {
+	monarch = {
+		name = "Jiaqing"
+		dynasty = "Qing"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1796.2.9 = {
+	heir = {
+		name = "Daoguang"
+		monarch_name = "Daoguang"
+		dynasty = "Qing"
+		birth_date = 1782.9.16
+		death_date = 1850.2.25
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1820.9.3 = {
+	monarch = {
+		name = "Daoguang"
+		dynasty = "Qing"
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}

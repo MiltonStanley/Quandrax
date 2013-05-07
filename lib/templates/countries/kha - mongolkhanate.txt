@@ -1,0 +1,385 @@
+government = steppe_horde
+aristocracy_plutocracy = -4
+centralization_decentralization = 4
+innovative_narrowminded = 2
+mercantilism_freetrade = -3
+offensive_defensive = -2
+land_naval = -2
+quality_quantity = 2
+serfdom_freesubjects = -3
+technology_group = nomad_group
+religion = buddhism
+primary_culture = mongol
+capital = 702	# Hohhot
+
+
+#Mongol Khans of the Northern Yuan Dynasty
+1392.1.1 = {
+	monarch = {
+		name = "Elbeg Nigülesügchi"
+		dynasty = "Borjigin"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1392.1.1 = {
+	heir = {
+		name = "Gün"
+		monarch_name = "Gün"
+		dynasty = "Borjigin"
+		birth_date = 1384.1.1
+		death_date = 1402.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}
+
+1400.1.1 = {
+	monarch = {
+		name = "Gün"
+		dynasty = "Borjigin"
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}
+
+1400.1.1 = {
+	heir = {
+		name = "Oljei"
+		monarch_name = "Oljei"
+		dynasty = "Borjigin"
+		birth_date = 1380.1.1
+		death_date = 1415.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1402.1.1 = {
+	monarch = {
+		name = "Oljei"
+		dynasty = "Borjigin"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1402.1.1 = {
+	heir = {
+		name = "Oyiradai"
+		monarch_name = "Oyiradai"
+		dynasty = "Borjigin"
+		birth_Date = 1380.1.1
+		death_Date = 1425.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1415.1.1 = {
+	monarch = {
+		name = "Oyiradai"
+		dynasty = "Borjigin"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1415.1.1 = {
+	heir = {
+		name = "Adai"
+		monarch_name = "Adai"
+		dynasty = "Borjigin"
+		birth_date = 1390.1.1
+		death_date = 1438.1.1
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 6
+	}
+}
+
+1425.1.1 = {
+	monarch = {
+		name = "Adai"
+		dynasty = "Borjigin"
+		adm = 6
+		dip = 3
+		mil = 6
+	}
+}
+
+1425.1.1 = {
+	heir = {
+		name = "Tayisung"
+		monarch_name = "Tayisung"
+		dynasty = "Borjigin"
+		birth_date = 1416.1.1
+		death_date = 1454.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1433.1.1 = {
+	monarch = {
+		name = "Tayisung"
+		dynasty = "Borjigin"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1448.1.1 = {
+	heir = {
+		name = "Ükegtü"
+		monarch_name = "Ükegtü"
+		dynasty = "Borjigin"
+		birth_date = 1448.1.1
+		death_date = 1465.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1454.1.1 = {
+	monarch = {
+		name = "Ükegtü"
+		dynasty = "Borjigin"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1454.1.1 = {
+	heir = {
+		name = "Mulan"
+		monarch_name = "Mulan"
+		dynasty = "Borjigin"
+		birth_date = 1440.1.1
+		death_date = 1475.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Mulan"
+		dynasty = "Borjigin"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1465.1.1 = {
+	heir = {
+		name = "Manduulun"
+		monarch_name = "Manduulun"
+		dynasty = "Borjigin"
+		birth_date = 1438.1.1
+		death_date = 1479.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1475.1.1 = {
+	monarch = {
+		name = "Manduulun"
+		dynasty = "Borjigin"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1475.1.1 = {
+	heir = {
+		name = "Dayan"
+		monarch_name = "Dayan"
+		dynasty = "Borjigin"
+		birth_Date = 1464.1.1
+		death_Date = 1517.1.1
+		claim = 95
+		adm = 8
+		dip = 7
+		mil = 8
+	}
+}
+
+1479.1.1 = {
+	monarch = {
+		name = "Dayan"
+		dynasty = "Borjigin"
+		adm = 8
+		dip = 7
+		mil = 8
+	}
+}
+
+1490.1.1 = {
+	heir = {
+		name = "Barsbolad"
+		monarch_name = "Barsbolad"
+		dynasty = "Borjigin"
+		birth_Date = 1490.1.1
+		death_date = 1519.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1517.1.1 = {
+	monarch = {
+		name = "Barsbolad"
+		dynasty = "Borjigin"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1517.1.1 = {	
+	heir = {
+		name = "Bodi Alagh"
+		monarch_name = "Bodi Alagh"
+		dynasty = "Borjigin"
+		birth_date = 1504.1.1
+		death_date = 1547.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1519.1.1 = {
+	monarch = {
+		name = "Bodi Alagh"
+		dynasty = "Borjigin"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1520.1.1 = {
+	heir = {
+		name = "Darayisung Gödeng"
+		monarch_name = "Darayisung Gödeng"
+		dynasty = "Borjigin"
+		birth_Date = 1520.1.1
+		death_Date = 1557.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1547.1.1 = {
+	monarch = {
+		name = "Darayisung Gödeng"
+		dynasty = "Borjigin"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1547.1.1 = {
+	heir = {
+		name = "Tümen Jasaghtu"
+		monarch_name = "Tümen Jasaghtu"
+		dynasty = "Borjigin"
+		birth_Date = 1547.1.1
+		death_date = 1592.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1557.1.1 = {
+	monarch = {
+		name = "Tümen Jasaghtu"
+		dynasty = "Borjigin"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1557.1.1 = {
+	heir = {
+		name = "Buyan Sechen"
+		monarch_name = "Buyan Sechen"
+		dynasty = "Borjigin"
+		birth_Date = 1554.1.1
+		death_date = 1604.1.1
+		claim = 95 
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1592.1.1 = {
+	monarch = {
+		name = "Buyan Sechen"
+		dynasty = "Borjigin"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1592.1.1 = {
+	heir = {
+		name = "Lingdan Khutaghtu"
+		monarch_name = "Lingdan Khutaghtu"
+		dynasty = "Borjigin"
+		birth_date = 1588.1.1
+		death_date = 1634.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1603.1.1 = {
+	monarch = {
+		name = "Lingdan Khutaghtu"
+		dynasty = "Borjigin"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

@@ -1,0 +1,178 @@
+government = theocratic_government
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = -4
+technology_group = western
+primary_culture = prussian
+religion = catholic
+historical_friend = TEU
+historical_friend = HSA
+capital = 37	# Latvia
+
+
+1389.1.1 = {
+	monarch = {
+		name = "Wennemar Hasenkamp"
+		DIP = 6
+		ADM = 4
+		MIL = 6
+	}
+}
+
+1401.1.1 = {
+	monarch = {
+		name = "Konrad von Vietinghof"
+		DIP = 6
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1413.1.1 = {
+	monarch = {
+		name = "Diderick Tork"
+		DIP = 4
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1415.1.1 = {
+	monarch = {
+		name = "Siegfried Lander"
+		DIP = 5
+		ADM = 5
+		MIL = 6
+	}
+}
+
+1424.1.1 = {
+	monarch = {
+		name = "Zisse von Rutenberg"
+		DIP = 6
+		ADM = 3
+		MIL = 4
+	}
+}
+
+1433.1.1 = {
+	monarch = {
+		name = "Franco Kerskorff"
+		DIP = 5
+		ADM = 3
+		MIL = 5
+	}
+}
+
+1435.1.1 = {
+	monarch = {
+		name = "Heinrich"
+		DIP = 6
+		ADM = 4
+		MIL = 3
+	}
+}
+
+1438.1.1 = {
+	monarch = {
+		name = "H. Vinke"
+		DIP = 5
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Johann Osthoff"
+		DIP = 4
+		ADM = 6
+		MIL = 5
+	}
+}
+
+1470.1.1 = {
+	monarch = {
+		name = "Johann Wolthuss"
+		DIP = 6
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1471.1.1 = {
+	monarch = {
+		name = "Bernd von der Borch"
+		DIP = 5
+		ADM = 4
+		MIL = 6
+	}
+}
+
+1483.1.1 = {
+	monarch = {
+		name = "Johann Fridach"
+		DIP = 5
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1494.1.1 = {
+	monarch = {
+		name = "Wolter von Plettenberg"
+		DIP = 6
+		ADM = 7
+		MIL = 7
+	}
+}
+
+1535.1.1 = {
+	monarch = {
+		name = "Hermann Hasenkamp"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1549.1.1 = {
+	monarch = {
+		name = "Johann von der Recke"
+		DIP = 5
+		ADM = 5
+		MIL = 6
+	}
+}
+
+1551.1.1 = {
+	monarch = {
+		name = "Heinrich von Galen"
+		DIP = 4
+		ADM = 4
+		MIL = 3
+	}
+}
+
+1557.1.1 = {
+	monarch = {
+		name = "Johann Wilhelm"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1559.1.1 = {
+	monarch = {
+		name = "Godert Kettler"
+		DIP = 6
+		ADM = 4
+		MIL = 5
+	}
+}

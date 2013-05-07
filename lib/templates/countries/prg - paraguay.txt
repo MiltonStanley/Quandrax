@@ -1,0 +1,50 @@
+government = republican_dictatorship
+aristocracy_plutocracy = -2
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -5
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 2
+serfdom_freesubjects = 0
+technology_group = western
+religion = catholic
+primary_culture = castillian
+capital = 775	# Asunción
+
+
+1811.5.17 = {
+	monarch = {
+		name = "Fulgencio Yegros"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1813.10.12 = {
+	monarch = {
+		name = "Rodriguez de Francia"
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1814.2.12 = {
+	monarch = {
+		name = "Fulgencio Yegros"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1814.6.12 = {
+	monarch = {
+		name = "Rodriguez de Francia"
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}

@@ -1,0 +1,386 @@
+government = tribal_despotism
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 3
+serfdom_freesubjects = -2
+technology_group = muslim
+religion = sunni
+primary_culture = bedouin_arabic
+capital = 385	# Jiddah
+
+
+1397.1.1 = {
+	monarch = {
+		name = "Ahmad III"
+		dynasty = "Hawashim"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1424.1.1 = {
+	monarch = {
+		name = "Hasan II"
+		dynasty = "Hawashim"
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1426.1.1 = {
+	monarch = {
+		name = "Barakât I"
+		dynasty = "Hawashim"
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1441.1.1 = {
+	monarch = {
+		name = "'Ali III"
+		dynasty = "Hawashim"
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}
+
+1443.1.1 = {
+	monarch = {
+		name = "Abu'l Qasim"
+		dynasty = "Hawashim"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1446.1.1 = {
+	monarch = {
+		name = "Barakât I"
+		dynasty = "Hawashim"
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1455.7.2 = {
+	monarch = {
+		name = "Muhammad V"
+		dynasty = "Hawashim"
+		adm = 7
+		dip = 5
+		mil = 3
+	}
+}
+
+# Sharifs of Mecca. Ottoman Times.
+
+1497.9.2 = {
+	monarch = {
+		name = "Barakât II"
+		dynasty = "Hawashim"
+		adm = 5
+		dip = 7
+		mil = 4
+	}
+}
+
+1525.8.2 = {
+	monarch = {
+		name = "Muhammad VI"
+		dynasty = "Hawashim"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1584.1.23 = {
+	monarch = {
+		name = "al-Hasan III"
+		dynasty = "Hawashim"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1601.11.30 = {
+	monarch = {
+		name = "Abu't-Tâlib"
+		dynasty = "Hawashim"
+		adm = 6
+		dip = 7
+		mil = 3
+	}
+}
+
+1603.11.25 = {
+	monarch = {
+		name = "Idrîs II"
+		dynasty = "Hawashim"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1624.10.17 = {
+	monarch = {
+		name = "Muhsîn I"
+		dynasty = "Hawashim"
+		adm = 3
+		dip = 6
+		mil = 5
+	}
+}
+
+1628.5.25 = {
+	monarch = {
+		name = "Ahmad VI"
+		dynasty = "Hawashim"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1629.10.3 = {
+	monarch = {
+		name = "Mas'ûd I"
+		dynasty = "Hawashim"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1630.12.15 = {
+	monarch = {
+		name = "'Abd Allâh I"
+		dynasty = "Hawashim"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1631.9.2 = {
+	monarch = {
+		name = "Zayid"
+		dynasty = "Hawashim"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1666.7.7 = {
+	monarch = {
+		name = "Sa'd I"
+		dynasty = "Hawashim"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1672.4.2 = {
+	monarch = {
+		name = "Barakât III"
+		dynasty = "Hawashim"
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1682.4.21 = {
+	monarch = {
+		name = "Sa'd I"
+		dynasty = "Hawashim"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1684.10.30 = {
+	monarch = {
+		name = "Ahmad VII"
+		dynasty = "Hawashim"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1688.1.26 = {
+	monarch = {
+		name = "Ahmad VIII"
+		dynasty = "Hawashim"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1690.4.2 = {
+	monarch = {
+		name = "Mushîn II"
+		dynasty = "Hawashim"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1691.8.2 = {
+	monarch = {
+		name = "Sa'd I"
+		dynasty = "Hawashim"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1702.3.2 = {
+	monarch = {
+		name = "Sa'id II"
+		dynasty = "Hawashim"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1705.10.2 = {
+	monarch = {
+		name = "'Abd al-Karîm"
+		dynasty = "Hawashim"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1711.12.2 = {
+	monarch = {
+		name = "Sa'id II"
+		dynasty = "Hawashim"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1716.12.2 = {
+	monarch = {
+		name = "Yahyâ I"
+		dynasty = "Hawashim"
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1720.5.2 = {
+	monarch = {
+		name = "Mubârak"
+		dynasty = "Hawashim"
+		adm = 5
+		dip = 7
+		mil = 4
+	}
+}
+
+1724.2.1 = {
+	monarch = {
+		name = "'Abdilâh I"
+		dynasty = "Hawashim"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1731.5.2 = {
+	monarch = {
+		name = "Muhammad VIII"
+		dynasty = "Hawashim"
+		adm = 4
+		dip = 5
+		mil = 7
+	}
+}
+
+1734.2.1 = {
+	monarch = {
+		name = "Mas'ûd III"
+		dynasty = "Hawashim"
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+1752.2.17 = {
+	monarch = {
+		name = "Musâ'ad"
+		dynasty = "Hawashim"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1770.4.30 = {
+	monarch = {
+		name = "Ahmad IX"
+		dynasty = "Hawashim"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1773.2.5 = {
+	monarch = {
+		name = "Surur"
+		dynasty = "Hawashim"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1788.9.22 = {
+	monarch = {
+		name = "Gâlib"
+		dynasty = "Hawashim"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1813.11.2 = {
+	monarch = {
+		name = "Yahyâ II"
+		dynasty = "Hawashim"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}

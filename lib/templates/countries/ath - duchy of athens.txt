@@ -1,0 +1,104 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -4
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -1
+primary_culture = lombard
+add_accepted_culture = greek
+religion = catholic
+technology_group = eastern
+capital = 146	#Athens
+
+
+1402.1.1 = {
+	monarch = {
+		name = "Antonio I"
+		dynasty = Acciaioli
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1416.1.1 = {
+	heir = {
+		name = "Nerio"
+		monarch_name = "Nerio II"
+		dynasty = "Acciaioli"
+		birth_date = 1416.1.1
+		death_date = 1451.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1435.1.1 = {
+	monarch = {
+		name = "Nerio II"
+		dynasty = Acciaioli
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1439.1.1 = {
+	monarch = {
+		name = "Antonio II"
+		dynasty = Acciaioli
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1441.1.1 = {
+	monarch = {
+		name = "Nerio II"
+		dynasty = Acciaioli
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1441.1.1 = {
+	heir = {
+		name = "Francesco"
+		monarch_name = "Francesco I"
+		dynasty = "Acciaioli"
+		birth_date = 1440.1.1
+		death_date = 1455.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+	
+
+1451.1.1 = {
+	monarch = {
+		name = "Francesco I"
+		dynasty = Acciaioli
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1455.1.1 = {
+	monarch = {
+		name = "Francesco II"
+		dynasty = Acciaioli
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}

@@ -1,0 +1,615 @@
+government = merchant_republic
+aristocracy_plutocracy = 1
+centralization_decentralization = 2
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 3
+land_naval = 3
+quality_quantity = -1
+serfdom_freesubjects = 0
+primary_culture = lombard
+religion = catholic
+add_accepted_culture = greek
+add_accepted_culture = croatian
+technology_group = western
+capital = 112	# Venezia
+
+
+1380.1.1 = { leader = {	name = "Carlo Zeno"	type = admiral	rank = 1	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1404.1.1 } }
+
+1382.1.1 = {
+	monarch = {
+		name = "Antonio Veniero"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1400.1.1 = {
+	monarch = {
+		name = "Michele Steno"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1414.1.1 = {
+	monarch = {
+		name = "Tomasso Mocenigo"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1416.1.1 = { leader = {	name = "Pietro Loredan"		type = admiral	rank = 1	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1439.1.1 } }
+
+1423.4.5 = {
+	monarch = {
+		name = "Francesco Foscarini"
+		adm = 7
+		dip = 7
+		mil = 7
+	}
+}
+
+1425.1.1 = { leader = {	name = "Francesco da Carmagnola" type = general rank = 1	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1432.5.5 } }
+
+1438.1.1 = { leader = {	name = "Erasmo Gattamelata"	type = admiral	rank = 1	fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1443.1.1 } }
+
+1451.1.1 = { leader = {	name = "Colleoni"              	type = general	rank = 1	fire = 5	shock = 3	manuever = 4	siege = 0	death_date = 1475.11.2 } }
+
+1453.1.1 = { leader = {	name = "G. Loredan"            	type = admiral	rank = 1	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1467.1.1 } }
+
+1454.1.1 = { leader = {	name = "Canal"                 	type = admiral	rank = 5	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1471.1.1 } }
+
+1457.10.24 = {
+	monarch = {
+		name = "Pasquale Malipiero"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1462.5.13 = {
+	monarch = {
+		name = "Cristoforo Moro"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1470.1.1 = { leader = {	name = "Moceningo"             	type = general	rank = 0	fire = 5	shock = 4	manuever = 5	siege = 0 death_date = 1476.1.1 } }
+
+1471.11.3 = {
+	decision = promote_printing_industry
+	monarch = {
+		name = "Nicolò Tron"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1473.7.29 = {
+	decision = expand_venetian_arsenal
+	monarch = {
+		name = "Nicolò Marcello"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1474.12.2 = {
+	monarch = {
+		name = "Pietro Mocenigo"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1476.2.22 = {
+	monarch = {
+		name = "Andrea Vendamin"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1478.5.7 = {
+	monarch = {
+		name = "Giovanni Mocenigo"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1485.11.15 = {
+	monarch = {
+		name = "Marco Barbango"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1486.8.15 = {
+	monarch = {
+		name = "Agostino Barbango"
+		adm = 7
+		dip = 7
+		mil = 7
+	}
+}
+
+1490.1.1 = { leader = {	name = "C. Borgia"             	type = general	rank = 0	fire = 2	shock = 1	manuever = 2	siege = 2 death_date = 1507.3.12 } }
+
+1495.1.1 = { leader = {	name = "Andrea Loredan"        	type = admiral	rank = 0	fire = 2	shock = 1	manuever = 3	siege = 1 death_date = 1505.1.1 } }
+
+1498.1.1 = { leader = {	name = "Vincenco Polani"       	type = admiral	rank = 0	fire = 2	shock = 1	manuever = 2	siege = 1 death_date = 1508.1.1 } }
+
+1500.1.1 = { leader = {	name = "Nicolo Pitigliano"     	type = general	rank = 0	fire = 1	shock = 1	manuever = 1	siege = 2 death_date = 1510.1.1 } }
+
+1500.1.1 = { leader = {	name = "Bartolomeo d'Alviano"  	type = general	rank = 2	fire = 2	shock = 2	manuever = 3	siege = 1 death_date = 1515.10.1 } }
+
+1501.9.21 = {
+	decision = enact_stato_da_mar
+	monarch = {
+		name = "Leonardo Loredano"
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1510.1.1 = { leader = {	name = "Lucio Malvezzo"        	type = general	rank = 0	fire = 2	shock = 1	manuever = 1	siege = 1 death_date = 1515.1.1 } }
+
+1510.1.1 = { leader = {	name = "Grimani"               	type = admiral	rank = 0	fire = 4	shock = 4	manuever = 4	siege = 0 death_date = 1545.1.1 } }
+
+1510.1.1 = { leader = {	name = "Lomellini"             	type = admiral	rank = 3	fire = 2	shock = 3	manuever = 3	siege = 0 death_date = 1575.1.1 } }
+
+1521.6.23 = {
+	monarch = {
+		name = "Antonio Grimani"
+		adm = 5
+		dip = 6
+		mil = 7
+	}
+}
+
+1523.5.8 = {
+	monarch = {
+		name = "Andrea Gritti"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1539.12.30 = {
+	monarch = {
+		name = "Pietro Lando"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1540.1.1 = { leader = {	name = "Leonardo Foscolo"      	type = general	rank = 0	fire = 3	shock = 2	manuever = 2	siege = 1 death_date = 1550.1.1 } }
+
+1545.11.12 = {
+	monarch = {
+		name = "Franco Donato"
+		adm = 7
+		dip = 7
+		mil = 4
+	}
+}
+
+1550.1.1 = { leader = {	name = "Veniero"               	type = admiral	rank = 0	fire = 3	shock = 4	manuever = 5	siege = 0 death_date =  1578.3.3 } }
+
+
+1553.5.24 = {
+	monarch = {
+		name = "Francesco Venier"
+		adm = 7
+		dip = 5
+		mil = 8
+	}
+}
+
+1556.6.3 = {
+	monarch = {
+		name = "Laurenti Priuli"
+		adm = 9
+		dip = 6
+		mil = 4
+	}
+}
+
+1559.8.18 = {
+	monarch = {
+		name = "Girolamo Priuli"
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1560.1.1 = { leader = {	name = "Barbarigo"             	type = admiral	rank = 1	fire = 4	shock = 4	manuever = 2	siege = 0 death_date = 1580.1.1 } }
+
+1560.1.1 = { leader = {	name = "Quirini"               	type = admiral	rank = 2	fire = 2	shock = 2	manuever = 3	siege = 0 death_date = 1600.1.1 } }
+
+1565.1.1 = { leader = {	name = "Macro Antiono Bragadin" type = general	rank = 0	fire = 4	shock = 4	manuever = 1	siege = 4 death_date = 1571.8.17 } }
+
+1567.11.5 = {
+	monarch = {
+		name = "Pietro Loredan"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1570.1.1 = { leader = {	name = "Giustinani"            	type = admiral	rank = 4	fire = 3	shock = 4	manuever = 2	siege = 0 death_date = 1610.1.1 } }
+
+1570.5.6 = {
+	monarch = {
+		name = "Alvise Mocenigo I"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1577.6.5 = {
+	monarch = {
+		name = "Sebastiano Venier"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1578.3.4 = {
+	monarch = {
+		name = "Niccoló da Ponte"
+		adm = 7
+		dip = 7
+		mil = 6
+	}
+}
+
+1585.1.1 = { leader = {	name = "Zeno"                  	type = admiral	rank = 0	fire = 3	shock = 4	manuever = 4	siege = 0 death_date = 1600.1.1 } }
+
+1585.7.30 = {
+	monarch = {
+		name = "Pasquale Cicogna"
+		adm = 7
+		dip = 3
+		mil = 5
+	}
+}
+
+1595.4.5 = {
+	monarch = {
+		name = "Marino Grimani"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1605.12.26 = {
+	monarch = {
+		name = "Leonardo Loredano II"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1612.7.17 = {
+	monarch = {
+		name = "Marco Memo"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1615.1.1 = { leader = {	name = "Mocenigo"              	type = admiral	rank = 0	fire = 2	shock = 3	manuever = 4	siege = 0 death_date = 1650.1.1 } }
+
+1615.10.30 = {
+	monarch = {
+		name = "Giovanni Bembo"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1618.3.17 = {
+	monarch = {
+		name = "Niccoló Donato"
+		adm = 7
+		dip = 5
+		mil = 3
+	}
+}
+
+1618.5.10 = {
+	monarch = {
+		name = "Antonio Priulo"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1623.8.13 = {
+	monarch = {
+		name = "Franco Centurioni"
+		adm = 4
+		dip = 7
+		mil = 7
+	}
+}
+
+1624.12.7 = {
+	monarch = {
+		name = "Giovanni Cornari I"
+		adm = 3
+		dip = 6
+		mil = 6
+	}
+}
+
+1629.12.24 = {
+	monarch = {
+		name = "Niccoló Centurioni"
+		adm = 3
+		dip = 5
+		mil = 7
+	}
+}
+
+1631.4.3 = {
+	monarch = {
+		name = "Franco Erizzo"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1646.1.1 = { leader = {	name = "Lorenzo Marcello"      	type = admiral	rank = 0	fire = 2	shock = 1	manuever = 2	siege = 1 death_date = 1656.1.1 } }
+
+1646.1.4 = {
+	monarch = {
+		name = "Franco Molino"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1655.1.1 = { leader = {	name = "Fransesco Morosini"              	type = general	rank = 0	fire = 5	shock = 4	manuever = 4	siege = 2 death_date = 1694.1.7  } }
+
+1655.2.26 = {
+	monarch = {
+		name = "Carlo Contarini"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1656.5.2 = {
+	monarch = {
+		name = "Franco Cornello"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1656.6.6 = {
+	monarch = {
+		name = "Bertuccio Valiero"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1658.3.30 = {
+	monarch = {
+		name = "Giovanni Pesaro"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1659.9.30 = {
+	monarch = {
+		name = "Domenic Contarini"
+		adm = 4
+		dip = 6
+		mil = 7
+	}
+}
+
+1670.1.1 = { leader = {	name = "Riva"                  	type = admiral	rank = 1	fire = 4	shock = 5	manuever = 3	siege = 0 death_date = 1720.1.1 } }
+
+
+
+1675.1.27 = {
+	monarch = {
+		name = "Niccoló Sagredo"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1676.8.15 = {
+	monarch = {
+		name = "Alvise Contarini"
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1683.1.1 = { leader = {	name = "Girolamo Cornaro"      	type = general	rank = 2	fire = 2	shock = 2	manuever = 2	siege = 1 death_date = 1693.1.1 } }
+
+1684.1.16 = {
+	monarch = {
+		name = "Marco Giustiniani"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1688.3.24 = {
+	monarch = {
+		name = "Franco Morosini"
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}
+
+1694.1.7 = {
+	monarch = {
+		name = "Sylvester Valiero"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1697.1.1 = { leader = {	name = "Alessandro Molin"      	type = admiral	rank = 0	fire = 3	shock = 1	manuever = 2	siege = 1 death_date = 1707.1.1 } }
+
+
+1700.7.8 = {
+	monarch = {
+		name = "Alvise Mocenigo II"
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+
+1707.1.1 = { leader = {	name = "Ludovico Flangini"     	type = admiral	rank = 2	fire = 2	shock = 2	manuever = 3	siege = 1 death_date = 1717.1.1 } }
+
+
+1709.5.7 = {
+	monarch = {
+		name = "Giovanni Cornari II"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1710.1.1 = { leader = {	name = "Andrea Pisani"         	type = general	rank = 2	fire = 1	shock = 1	manuever = 1	siege = 1 death_date = 1720.1.1 } }
+
+1710.1.1 = { leader = {	name = "Alvise Mocenigo"       	type = general	rank = 0	fire = 1	shock = 1	manuever = 2	siege = 1 death_date = 1720.1.1 } }
+
+1715.1.1 = { leader = {	name = "Johan von der Schulenberg"	type = general	rank = 0	fire = 2	shock = 1	manuever = 2	siege = 3 death_date = 1720.1.1 } }
+
+1722.8.13 = {
+	monarch = {
+		name = "Alvise Mocenigo III"
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1732.5.22 = {
+	monarch = {
+		name = "Carlo Ruzzini"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1735.1.6 = {
+	monarch = {
+		name = "Alvise Pisani"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1741.6.18 = {
+	monarch = {
+		name = "Pietro Grimani"
+		adm = 4
+		dip = 7
+		mil = 4
+	}
+}
+
+1752.3.8 = {
+	monarch = {
+		name = "Franco Loredano"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1762.5.20 = {
+	monarch = {
+		name = "Marco Foscari"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1763.3.30 = {
+	monarch = {
+		name = "Alvise Mocenigo IV"
+		adm = 5
+		dip = 7
+		mil = 4
+	}
+}
+
+1775.1.1 = { leader = {	name = "Angelo Emo"            	type = admiral	rank = 0	fire = 2	shock = 2	manuever = 1	siege = 1 death_date = 1792.1.1 } }
+
+1778.12.30 = {
+	monarch = {
+		name = "Paulo Rainiero"
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1789.2.17 = {
+	monarch = {
+		name = "Luigi Manin"
+		adm = 4
+		dip = 8
+		mil = 4
+	}
+}

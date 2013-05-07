@@ -1,0 +1,18 @@
+government = merchant_republic
+aristocracy_plutocracy = 3
+centralization_decentralization = 1
+innovative_narrowminded = -2
+mercantilism_freetrade = -4
+offensive_defensive = 3
+land_naval = 2
+quality_quantity = -2
+serfdom_freesubjects = 3
+technology_group = western
+religion = catholic
+primary_culture = hannoverian
+historical_friend = TEU
+historical_friend = LIV
+capital = 45	# Lübeck
+
+1529.1.1 = { religion = protestant }
+

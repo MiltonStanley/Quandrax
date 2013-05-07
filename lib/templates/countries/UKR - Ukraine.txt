@@ -1,0 +1,13 @@
+government = tribal_federation
+aristocracy_plutocracy = -2
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = -1
+quality_quantity = 1
+serfdom_freesubjects = -3
+technology_group = eastern
+religion = orthodox
+primary_culture = ruthenian
+capital = 280	# Kiev

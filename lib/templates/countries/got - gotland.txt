@@ -1,0 +1,16 @@
+government = noble_republic
+aristocracy_plutocracy = 1
+centralization_decentralization = 2
+innovative_narrowminded = 1
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = 1
+quality_quantity = 1
+serfdom_freesubjects = 1
+religion = catholic
+primary_culture = swedish
+technology_group = western
+capital = 25	#Gotland
+
+
+

@@ -1,0 +1,13 @@
+government = administrative_republic
+aristocracy_plutocracy = -4
+centralization_decentralization = -4
+innovative_narrowminded = -4
+mercantilism_freetrade = -2
+offensive_defensive = 2
+land_naval = 0
+quality_quantity = -3
+serfdom_freesubjects = 1
+technology_group = western
+religion = catholic
+primary_culture = castillian
+capital = 809	# Lima

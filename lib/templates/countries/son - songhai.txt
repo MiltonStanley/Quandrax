@@ -1,0 +1,728 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = 1
+quality_quantity = 3
+serfdom_freesubjects = -2
+primary_culture = mali
+religion = sunni
+technology_group = sub_saharan
+capital = 1133	# Gao
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Mar-Arkana"
+		dynasty = "Sonni"
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1399.1.1 = {
+	heir = {	
+		name = "Mar Arandan"
+		monarch_name = "Mar Arandan"
+		dynasty = "Sonni"
+		birth_Date = 1370.1.1
+		death_Date = 1456.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1449.1.1 = {
+	monarch = {
+		name = "Mar Arandan"
+		dynasty = "Sonni"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1449.1.1 = {
+	heir = {
+		name = "Sulaymân"
+		monarch_name = "Sulaymân"
+		dynasty = "Sonni"
+		birth_Date = 1420.1.1
+		death_Date = 1464.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 8
+	}
+}
+
+1456.1.1 = {
+	monarch = {
+		name = "Sulaymân"
+		dynasty = "Sonni"
+		adm = 4
+		dip = 4
+		mil = 8
+	}
+}
+
+1456.1.1 = {
+	heir = {
+		name = "Alî Ber"
+		monarch_name = "Alî Ber"
+		dynasty = "Sonni"
+		birth_Date = 1430.1.1
+		death_Date = 1492.11.7
+		claim = 95
+		adm = 7
+		dip = 3
+		mil = 9
+		leader = {	name = "'Alî Ber"              	type = general	rank = 0	fire = 4	shock = 3	manuever = 3	siege = 1}
+	}
+}
+
+1464.1.1 = {
+	monarch = {
+		name = "'Alî Ber"
+		dynasty = "Sonni"
+		adm = 7
+		dip = 3
+		mil = 9
+		leader = {	name = "'Alî Ber"              	type = general	rank = 0	fire = 4	shock = 3	manuever = 3	siege = 1}
+	}
+}
+
+1464.1.1 = {
+	heir = {
+		name = "Bakari"
+		monarch_name = "Bakari"
+		dynasty = "Sonni"
+		birth_Date = 1464.1.1
+		death_Date = 1493.3.4
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 3
+		leader = {	name = "Muhammad I"            	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0}
+	}
+}
+
+1492.11.7 = {
+	monarch = {
+		name = "Bakarî"
+		dynasty = "Sonni"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1492.11.7 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad I"
+		dynasty = "Aksiya"
+		birth_Date = 1469.1.1
+		death_Date = 1528.8.27
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 8
+		leader = {	name = "Muhammad I"            	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0}
+	}
+}
+
+1493.3.4 = {
+	monarch = {
+		name = "Muhammad I"
+		dynasty = "Askiya"
+		adm = 3
+		dip = 4
+		mil = 8
+		leader = {	name = "Muhammad I"            	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0}
+	}
+}
+
+1493.3.4 = {
+	heir = {
+		name = "Mûsâ"
+		monarch_name = "Mûsâ"
+		dynasty = "Askiya"
+		birth_Date = 1490.1.1
+		death_Date = 1531.4.13
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1528.8.27 = {
+	monarch = {
+		name = "Mûsâ"
+		dynasty = "Askiya"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1528.8.27 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad II"
+		dynasty = "Askiya"
+		birth_Date = 1500.1.1
+		death_Date = 1537.4.23
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1531.4.13 = {
+	monarch = {
+		name = "Muhammad II"
+		dynasty = "Askiya"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1531.4.13 = {
+	heir = {
+		name = "Ismâ'îl"
+		monarch_name = "Ismâ'îl"
+		dynasty = "Askiya"
+		birth_Date = 1510.1.1
+		death_Date = 1539.12.2
+		claim = 95
+		adm = 4
+		dip = 8
+		mil = 4
+	}
+}
+
+1537.4.23 = {
+	monarch = {
+		name = "Ismâ'îl"
+		dynasty = "Askiya"
+		adm = 4
+		dip = 8
+		mil = 4
+	}
+}
+
+1537.4.23 = {
+	heir = {
+		name = "Ishâq"
+		monarch_name = "Ishâq I"
+		dynasty = "Askiya"
+		birth_Date = 1510.1.1
+		death_Date = 1549.3.24
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1539.12.2 = {
+	monarch = {
+		name = "Ishâq I"
+		dynasty = "Askiya"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1539.12.2 = {
+	heir = {
+		name = "Dâ'ûd"
+		monarch_name = "Dâ'ûd"
+		dynasty = "Askiya"
+		birth_Date = 1530.1.1
+		death_Date = 1582.8.7
+		claim = 95
+		adm = 8
+		dip = 6
+		mil = 7
+		leader = {	name = "Dâ'ûd"                 	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 0}
+	}
+}		
+
+1549.3.24 = {
+	monarch = {
+		name = "Dâ'ûd"
+		dynasty = "Askiya"
+		adm = 8
+		dip = 6
+		mil = 7
+		leader = {	name = "Dâ'ûd"                 	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 0}
+	}
+}
+
+1549.3.24 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad III"
+		dynasty = "Askiya"
+		birth_Date = 1530.1.1
+		death_Date = 1586.12.16
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1582.8.7 = {
+	monarch = {
+		name = "Muhammad III"
+		dynasty = "Askiya"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1582.8.7 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad IV"
+		dynasty = "Askiya"
+		birth_Date = 1560.1.1
+		death_date = 1588.4.10
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1586.12.16 = {
+	monarch = {
+		name = "Muhammad IV"
+		dynasty = "Askiya"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1586.12.16 = {
+	heir = {
+		name = "Ishâq"
+		monarch_name = "Ishâq II"
+		dynasty = "Askiya"
+		birth_Date = 1570.1.1
+		death_Date = 1591.4.15
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1588.4.10 = {
+	monarch = {
+		name = "Ishâq II"
+		dynasty = "Askiya"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1588.4.10 = {
+	heir = {
+		name = "Nûh"
+		monarch_name = "Nûh"
+		dynasty = "Askiya"
+		birth_Date = 1570.1.1
+		death_Date = 1599.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1591.4.15 = {
+	monarch = {
+		name = "Nûh"
+		dynasty = "Askiya"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1591.4.15 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad I"
+		dynasty = "Askiya"
+		birth_Date = 1570.1.1
+		death_Date = 1604.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1599.1.1 = {
+	monarch = {
+		name = "Muhammad I"
+		dynasty = "Askiya"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1599.1.1 = {
+	heir = {
+		name = "Hârûn"
+		monarch_name = "Hârûn"
+		dynasty = "Askiya"
+		birth_Date = 1590.1.1
+		death_Date = 1612.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 7
+	}
+}
+
+1604.1.1 = {
+	monarch = {
+		name = "Hârûn"
+		dynasty = "Askiya"
+		adm = 4
+		dip = 5
+		mil = 7
+	}
+}
+
+1604.1.1 = {
+	heir = {
+		name = "al-Amîn"
+		monarch_name = "al-Amîn"
+		dynasty = "Askiya"
+		birth_Date = 1604.1.1
+		death_Date = 1617.1.1
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 6
+	}
+}
+
+1612.1.1 = {
+	monarch = {
+		name = "al-Amîn"
+		dynasty = "Askiya"
+		adm = 7
+		dip = 4
+		mil = 6
+	}
+}
+
+1612.1.1 = {
+	heir = {
+		name = "Dâ'ûd"
+		monarch_name = "Dâ'ûd I"
+		dynasty = "Askiya"
+		birth_Date = 1600.1.1
+		death_Date = 1635.1.1
+		claim = 95
+		adm = 8
+		dip = 3
+		mil = 5
+	}
+}
+
+1617.1.1 = {
+	monarch = {
+		name = "Dâ'ûd I"
+		dynasty = "Askiya"
+		adm = 8
+		dip = 3
+		mil = 5
+	}
+}
+
+1617.1.1 = {
+	heir = {
+		name = "Ismâ'îl"
+		monarch_name = "Ismâ'îl I"
+		dynasty = "Askiya"
+		birth_Date = 1600.1.1
+		death_Date = 1639.1.1
+		claim = 95
+		adm = 4
+		dip = 7
+		mil = 4
+	}
+}
+
+1635.1.1 = {
+	monarch = {
+		name = "Ismâ'îl I"
+		dynasty = "Askiya"
+		adm = 4
+		dip = 7
+		mil = 4
+	}
+}
+
+1635.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad II"
+		dynasty = "Askiya"
+		birth_Date = 1620.1.1
+		death_Date = 1645.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1639.1.1 = {
+	monarch = {
+		name = "Muhammad II"
+		dynasty = "Askiya"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1639.1.1 = {
+	heir = {
+		name = "Dâ'ûd II"
+		monarch_name = "Dâ'ûd II"
+		dynasty = "Askiya"
+		birth_Date = 1600.1.1
+		death_date = 1650.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1645.1.1 = {
+	monarch = {
+		name = "Dâ'ûd II"
+		dynasty = "Askiya"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1645.1.1 = {
+	heir = {
+		name = "Ismâ'îl"
+		monarch_name = "Ismâ'îl II"
+		dynasty = "Askiya"
+		birth_Date = 1620.1.1
+		death_Date = 1660.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+		
+
+1650.1.1 = {
+	monarch = {
+		name = "Ismâ'îl II"
+		dynasty = "Askiya"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1650.1.1 = {
+	heir = {
+		name = "Dâ'ûd"
+		monarch_name = "Dâ'ûd III"
+		dynasty = "Askiya"
+		birth_Date = 1650.1.1
+		death_Date = 1680.1.1
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+
+1660.1.1 = {
+	monarch = {
+		name = "Dâ'ûd III"
+		dynasty = "Askiya"
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+
+1660.1.1 = {
+	heir = {
+		name = "Ishâq"
+		monarch_name = "Ishâq"
+		dynasty = "Askiya"
+		birth_Date = 1660.1.1
+		death_Date = 1700.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1680.1.1 = {
+	monarch = {
+		name = "Ishâq"
+		dynasty = "Askiya"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1680.1.1 = {
+	heir = {
+		name = "Hanga"
+		monarch_name = "Hanga"
+		dynasty = "Askiya"
+		birth_Date = 1680.1.1
+		death_Date = 1730.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Hanga"
+		dynasty = "Askiya"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1700.1.1 = {
+	heir = {
+		name = "Dâ'ûd"
+		monarch_name = "Dâ'ûd IV"
+		dynasty = "Askiya"
+		birth_Date = 1700.1.1
+		death_Date = 1761.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1730.1.1 = {
+	monarch = {
+		name = "Dâ'ûd IV"
+		dynasty = "Askiya"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1730.1.1 = {
+	heir = {
+		name = "Samsu"
+		monarch_name = "Samsu"
+		dynasty = "Askiya"
+		birth_Date = 1730.1.1
+		death_Date = 1779.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1761.1.1 = {
+	monarch = {
+		name = "Samsu"
+		dynasty = "Askiya"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1761.1.1 = {
+	heir = {
+		name = "Harangi"
+		monarch_name = "Harangi"
+		dynasty = "Askiya"
+		birth_Date = 1760.1.1
+		death_Date = 1805.1.1
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+1779.1.1 = {
+	monarch = {
+		name = "Harangi"
+		dynasty = "Askiya"
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+1779.1.1 = {
+	heir = {
+		name = "Tomo"
+		monarch_name = "Tomo"
+		dynasty = "Askiya"
+		birth_Date = 1779.1.1
+		death_Date = 1823.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1805.1.1 = {
+	monarch = {
+		name = "Tomo"
+		dynasty = "Askiya"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}

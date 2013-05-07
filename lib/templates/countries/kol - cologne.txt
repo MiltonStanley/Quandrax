@@ -1,0 +1,220 @@
+government = theocratic_government
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = -4
+primary_culture = rheinlaender
+religion =catholic
+elector = yes
+technology_group = western
+capital = 85	# Köln
+
+
+1372.1.1 = {
+	monarch = {
+		name = "Friedrich III"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1414.1.1 = {
+	monarch = {
+		name = "Dietrich II von Mörs"
+		adm = 7
+		dip = 4
+		mil = 4
+	}
+}
+
+1463.2.14 = {
+	monarch = {
+		name = "Ruprecht I"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1480.7.17 = {
+	monarch = {
+		name = "Hermann IV von Hessen"
+		adm = 3
+		dip = 5
+		mil = 7
+	}
+}
+
+1508.10.21 = {
+	monarch = {
+		name = "Phillip II"
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+}
+
+1515.4.27 = {
+	monarch = {
+		name = "Hermann V"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1546.4.17 = {
+	monarch = {
+		name = "Adolf III"
+		adm = 7
+		dip = 5
+		mil = 4
+	}
+}
+
+1556.9.25 = {
+	monarch = {
+		name = "Anton I"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1558.7.19 = {
+	monarch = {
+		name = "Gebhard I"
+		adm = 4
+		dip = 7
+		mil = 4
+	}
+}
+
+1562.11.3 = {
+	monarch = {
+		name = "Friedrich IV"
+		adm = 3
+		dip = 7
+		mil = 3
+	}
+}
+
+1567.10.26 = {
+	monarch = {
+		name = "Salentin I"
+		adm = 5
+		dip = 3
+		mil = 6
+	}
+}
+
+1577.9.16 = {
+	monarch = {
+		name = "Gebhard II"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1583.1.4 = { centralization_decentralization = 3 innovative_narrowminded = 2 } # The Bavarian Archbishops
+
+1583.4.2 = {
+	monarch = {
+		name = "Ernst I"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1612.2.16 = {
+	monarch = {
+		name = "Ferdinand I"
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}
+
+1650.9.14 = {
+	monarch = {
+		name = "Maximilan Heinrich I"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1688.6.4 = {
+	monarch = {
+		name = "Joseph Clemens I"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1723.11.13 = {
+	monarch = {
+		name = "Clemens August I"
+		adm = 7
+		dip = 4
+		mil = 4
+	}
+}
+
+1761.2.6 = {
+	monarch = {
+		name = "Maximilian Friedrich I"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1784.4.16 = {
+	monarch = {
+		name = "Maximilian Franz I"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1801.7.28 = {
+	monarch = {
+		name = "Anton Viktor I"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1803.1.1 = { elector = no }
+
+1806.7.12 = { government = constitutional_monarchy }
+
+1806.7.12 = {
+	monarch = {
+		name = "Joachim I"
+		adm = 4
+		dip = 6
+		mil = 8
+		leader = { name = "Joachim I"	type = general	rank = 0	fire = 4	shock = 4	manuever = 5	siege = 2 }
+	}
+}
+
+1809.1.1 = {
+	monarch = {
+		name = "Ludwig I"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}

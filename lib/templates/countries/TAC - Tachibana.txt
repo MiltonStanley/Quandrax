@@ -1,0 +1,458 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -4
+centralization_decentralization = 2
+innovative_narrowminded = 2
+mercantilism_freetrade = -5
+offensive_defensive = -1
+land_naval = 0
+quality_quantity = -4
+serfdom_freesubjects = -5
+primary_culture = japanese
+religion = shinto
+technology_group = chinese
+capital = 1014	# Bungo
+daimyo = yes
+
+1377.2.22 = {
+	monarch = {
+		name = "Michiyo"
+		dynasty = "Tachibana"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1407.5.12 = {
+	heir = {
+		name = "Tadamori"
+		monarch_name = "Tadamori"
+		dynasty = "Tachibana"
+		birth_date = 1407.5.12
+		death_date = 1428.8.30
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1417.11.7 = {
+	monarch = {
+		name = "Tadamori"
+		dynasty = "Tachibana"
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1424.5.1 = {
+	heir = {
+		name = "Sai"
+		monarch_name = "Sai"
+		dynasty = "Tachibana"
+		birth_date = 1424.5.1
+		death_date = 1471.1.18
+		claim = 95
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+}
+
+1430.1.18 = {
+	monarch = {
+		name = "Sai"
+		dynasty = "Tachibana"
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+}
+
+1445.1.28 = {
+	heir = {
+		name = "Ronin"
+		monarch_name = "Ronin"
+		dynasty = "Tachibana"
+		birth_date = 1445.1.28
+		death_date = 1500.10.21
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+1467.12.3 = {
+	monarch = {
+		name = "Ronin"
+		dynasty = "Tachibana"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+1468.11.5 = {
+	heir = {
+		name = "Kamatari"
+		monarch_name = "Kamatari"
+		dynasty = "Tachibana"
+		birth_date = 1468.11.5
+		death_date = 1526.5.19
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1505.6.28 = {
+	monarch = {
+		name = "Kamatari"
+		dynasty = "Tachibana"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1505.9.1 = {
+	heir = {
+		name = "Yoriyoshi"
+		monarch_name = "Yoriyoshi"
+		dynasty = "Tachibana"
+		birth_date = 1505.9.1
+		death_date = 1557.9.27
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}
+
+1525.5.17 = {
+	monarch = {
+		name = "Yoriyoshi"
+		dynasty = "Tachibana"
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}
+
+1525.8.15 = {
+	heir = {
+		name = "Asatada"
+		monarch_name = "Asatada"
+		dynasty = "Tachibana"
+		birth_date = 1525.8.15
+		death_date = 1593.2.6
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+
+1563.9.26 = {
+	monarch = {
+		name = "Asatada"
+		dynasty = "Tachibana"
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+
+1567.12.31 = {
+	heir = {	
+		name = "Teika"
+		monarch_name = "Teika"
+		dynasty = "Tachibana"
+		birth_date = 1567.12.31
+		death_date = 1617.9.25
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1591.2.17 = {
+	monarch = {
+		name = "Teika"
+		dynasty = "Tachibana"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1600.6.29 = {
+	heir = {
+		name = "Yoshitomo"
+		monarch_name = "Yoshitomo"
+		dynasty = "Tachibana"
+		birth_date = 1600.6.29
+		death_date = 1655.9.11
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+
+1615.2.17 = {
+	monarch = {
+		name = "Yoshitomo"
+		dynasty = "Tachibana"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+
+1622.7.12 = {
+	heir = {
+		name = "Michitaka"
+		monarch_name = "Michitaka"
+		dynasty = "Tachibana"
+		birth_date = 1622.7.12
+		death_date = 1655.12.4
+		claim = 95
+		adm = 3
+		dip = 1
+		mil = 4
+	}
+}
+
+1635.1.1 = { decision = close_foreign_trade }
+
+1650.2.14 = {
+	monarch = {
+		name = "Michitaka"
+		dynasty = "Tachibana"
+		adm = 3
+		dip = 1
+		mil = 4
+	}
+}
+
+1650.4.20 = {
+	heir = {
+		name = "Sadayoshi"
+		monarch_name = "Sadayoshi"
+		dynasty = "Tachibana"
+		birth_date = 1647.3.16
+		death_date = 1690.10.30
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+
+1655.11.14 = {
+	monarch = {
+		name = "Sadayoshi"
+		dynasty = "Tachibana"
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+
+1656.8.19 = {
+	heir = {
+		name = "Tadataka"
+		monarch_name = "Tadataka"
+		dynasty = "Tachibana"
+		birth_date = 1656.8.19
+		death_date = 1705.3.22
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+}
+
+1690.11.15 = {
+	monarch = {
+		name = "Tadataka"
+		dynasty = "Tachibana"
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+}
+
+1690.11.15 = {
+	heir = {
+		name = "Narichika"
+		monarch_name = "Narichika"
+		dynasty = "Tachibana"
+		birth_date = 1676.7.9
+		death_date = 1732.9.24
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1705.4.1 = {
+	monarch = {
+		name = "Narichika"
+		dynasty = "Tachibana"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1706.9.9 = {
+	heir = {	
+		name = "Kugyo"
+		monarch_name = "Kugyo"
+		dynasty = "Tachibana"
+		birth_date = 1706.9.9
+		death_date = 1739.9.16
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+
+1730.6.5 = {
+	monarch = {
+		name = "Kugyo"
+		dynasty = "Tachibana"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+
+1730.6.5 = {
+	heir = {
+		name = "Nagayasu"
+		monarch_name = "Nagayasu"
+		dynasty = "Tachibana"
+		birth_date = 1726.1.14
+		death_date = 1759.5.10
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+1739.10.2 = {
+	monarch = {
+		name = "Nagayasu"
+		dynasty = "Tachibana"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+1744.4.18 = {
+	heir = {
+		name = "Fusasaki"
+		monarch_name = "Fusasaki"
+		dynasty = "Tachibana"
+		birth_date = 1744.4.18
+		death_date = 1772.5.28
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1759.6.1 = {
+	monarch = {
+		name = "Fusasaki"
+		dynasty = "Tachibana"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1762.3.8 = {
+	heir = {
+		name = "Tamenaka"
+		monarch_name = "Tamenaka"
+		dynasty = "Tachibana"
+		birth_date = 1762.3.8
+		death_date = 1800.12.31
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
+
+1772.6.1 = {
+	monarch = {
+		name = "Tamenaka"
+		dynasty = "Tachibana"
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
+
+1782.6.9 = {
+	heir = {
+		name = "Motozane"
+		monarch_name = "Motozane"
+		dynasty = "Tachibana"
+		birth_date = 1782.6.9
+		death_date = 1813.12.24
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+
+1801.1.1 = {
+	monarch = {
+		name = "Motozane"
+		dynasty = "Tachibana"
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+
+1801.9.22 = {
+	heir = {
+		name = "Sai"
+		monarch_name = "Sai"
+		dynasty = "Tachibana"
+		birth_date = 1801.9.22
+		death_date = 1835.12.16
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+}
+
+1813.12.24 = {
+	monarch = {
+		name = "Sai"
+		dynasty = "Tachibana"
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+}

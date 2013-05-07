@@ -1,0 +1,549 @@
+government = tribal_democracy
+aristocracy_plutocracy = -2
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = -1
+quality_quantity = 1
+serfdom_freesubjects = -3
+technology_group = eastern
+religion = orthodox
+primary_culture = tartar
+capital = 283	# Zaporozhia
+
+
+1506.1.1 = {	
+	monarch = {		
+		name = "Lyantskoronsky"			
+		adm = 6		
+		dip = 7		
+		mil = 7	
+	}
+}
+
+1534.1.1 = {	
+	monarch = {		
+		name = "Kishka"				
+		adm = 6		
+		dip = 7		
+		mil = 7	
+	}
+}
+
+1550.1.1 = {	
+	monarch = {		
+		name = "Vishnevetsky-Bayda"		
+		adm = 6		
+		dip = 6		
+		mil = 6  
+	}
+}
+
+1563.1.1 = {	
+	monarch = {		
+		name = "M. Vishnevetsky"	
+		adm = 5		
+		dip = 5		
+		mil = 5 
+	}
+}
+
+1573.1.1 = {	
+	monarch = {		
+		name = "Ivan Svirgovsky"		
+		adm = 4		
+		dip = 4		
+		mil = 4	
+	}
+}
+
+1575.1.1 = {	
+	monarch = {		
+		name = "Bogdan Ruzhinsky"		
+		adm = 4		
+		dip = 4		
+		mil = 4	
+	}
+}
+
+1576.1.1 = {	
+	monarch = {		
+		name = "Ivan II Pidkova"		
+		adm = 4		
+		dip = 4		
+		mil = 4	
+	}
+}
+
+1577.1.1 = {	
+	monarch = {		
+		name = "Yakiv I Shakh"			
+		adm = 4		
+		dip = 4		
+		mil = 4
+	}
+}
+
+1578.1.1 = {	
+	monarch = {		
+		name = "Lukyan Chornynsky"		
+		adm = 4		
+		dip = 4		
+		mil = 4	
+	}
+}
+
+1580.1.1 = {	
+	monarch = {		
+		name = "Samiylo II"			
+		adm = 4		
+		dip = 4		
+		mil = 4
+	}
+}
+
+1585.1.1 = {	
+	monarch = {		
+		name = "M. & K. Ruzhinsky"		
+		adm = 4		
+		dip = 4		
+		mil = 4	
+	}
+}
+
+1585.1.1 = {	
+	monarch = {		
+		name = "Zakhar Kulaga"			
+		adm = 4		
+		dip = 4		
+		mil = 4	
+	}
+}
+
+1586.1.1 = {	
+	monarch = {		
+		name = "Lukyan Chornsky"		
+		adm = 4		
+		dip = 4		
+		mil = 4	
+	}
+}
+
+1588.1.1 = {	
+	monarch = {		
+		name = "Semen I Skalozub"		
+		adm = 4		
+		dip = 4		
+		mil = 4	
+	}
+}
+
+1589.1.1 = {	
+	monarch = {		
+		name = "V Chanovytsky"			
+		adm = 4		
+		dip = 4		
+		mil = 4	
+	}
+}
+
+1590.1.1 = {	
+	monarch = {		
+		name = "K. Kosynsky"			
+		adm = 4		
+		dip = 4		
+		mil = 4
+	}
+}
+
+1593.1.1 = {	
+	monarch = {		
+		name = "G. Loboda"			
+		adm = 5		
+		dip = 5		
+		mil = 4
+	}
+}
+
+1596.2.2 = {	
+	monarch = {		
+		name = "Shaula, Krempsky & Nech"
+		adm = 4		
+		dip = 4		
+		mil = 4	
+	}
+}
+
+1596.11.3 = {	
+	monarch = {		
+		name = "Gnat Vassylevsky"		
+		adm = 4		
+		dip = 4		
+		mil = 4	
+	}
+}
+
+1598.1.1 = {	
+	monarch = {		
+		name = "Baybuza & Polous"		
+		adm = 4		
+		dip = 4		
+		mil = 4 
+	}
+}
+
+1600.1.1 = {	
+	monarch = {		
+		name = "Gavrylo Kortnevych"		
+		adm = 4		
+		dip = 4		
+		mil = 4 
+	}
+}
+
+1601.1.1 = {	
+	monarch = {		
+		name = "Samiylo III Kishka"		
+		adm = 4		
+		dip = 4		
+		mil = 4 
+	}
+}
+
+1602.1.1 = {	
+	monarch = {		
+		name = "Kortnevych & Kutskovych"	
+		adm = 4		
+		dip = 5		
+		mil = 5	
+	}
+}
+
+1606.1.1 = {	
+	monarch = {		
+		name = "Izapovych"			
+		adm = 4		
+		dip = 4		
+		mil = 4	
+	}
+}
+
+1606.1.1 = {	
+	monarch = {		
+		name = "Zborovsky"			
+		adm = 6		
+		dip = 6		
+		mil = 6	
+	}
+}
+
+1609.1.1 = {	
+	monarch = {		
+		name = "Andriyevch"			
+		adm = 5		
+		dip = 4		
+		mil = 5	
+	}
+}
+
+1610.1.1 = {	
+	monarch = {		
+		name = "Tyskinevych"			
+		adm = 4		
+		dip = 4		
+		mil = 4	
+	}
+}
+
+1614.1.1 = {	
+	monarch = {		
+		name = "P. Sagaydachny"			
+		adm = 6		
+		dip = 7		
+		mil = 8 
+	}
+}
+
+1622.1.1 = {	
+	monarch = {		
+		name = "Olifer Golub"			
+		adm = 4		
+		dip = 4		
+		mil = 4	
+	}
+}
+
+1623.1.1 = {	
+	monarch = {		
+		name = "Koncha, Grygor. & Kotsk."	
+		adm = 4		
+		dip = 4		
+		mil = 4 
+	}
+}
+
+1623.1.1 = {	
+	monarch = {		
+		name = "M. Doroshenko"			
+		adm = 5		
+		dip = 5		
+		mil = 7	
+	}
+}
+
+1625.1.1 = {	
+	monarch = {		
+		name = "Pirsky & Zhmaylo"		
+		adm = 4		
+		dip = 4		
+		mil = 4	
+	}
+}
+
+1625.1.1 = {	
+	monarch = {		
+		name = "M. Doroshenko"			
+		adm = 5		
+		dip = 5		
+		mil = 7	
+	}
+}
+
+1626.1.1 = {	
+	monarch = {		
+		name = "K. Vovk"			
+		adm = 4		
+		dip = 4		
+		mil = 4	
+	}
+}
+
+1628.1.1 = { 	
+	monarch = {	
+		name = "G. Chorny"			
+		adm = 4		
+		dip = 4		
+		mil = 4	
+	}
+}
+
+1628.1.1 = {	
+	monarch = {		
+		name = "Ivan V Sulyma"			
+		adm = 5		
+		dip = 5		
+		mil = 5	
+	}
+}
+
+1629.1.1 = {	
+	monarch = {	
+		name = "G. Chorny"			
+		adm = 4		
+		dip = 4		
+		mil = 4
+	}
+}
+
+1630.1.1 = {	
+	monarch = {		
+		name = "Orendarenko"
+		adm = 4	
+		dip = 4	
+		mil = 4
+	}
+}
+
+1631.1.1 = {
+	monarch = {
+		name = "Buybnovsky & Perevyazka"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1631.1.1 = {
+	monarch = {
+		name = "Ivan VI Kulaga "
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1632.1.1 = {
+	monarch = {
+		name = "Gavrylovych "
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1633.1.1 = {
+	monarch = {
+		name = "Samiylo IV Sulyma "
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1635.1.1 = {
+	monarch = {
+		name = "Ivan V Sylyma "
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1636.1.1 = {
+	monarch = {
+		name = "Vassyl Tomylenko "
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1637.1.1 = {
+	monarch = {
+		name = "Sava Kononovych "
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1637.1.1 = {
+	monarch = {
+		name = "Sava, Pavlyuk & Gunya"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1638.1.1 = {
+	monarch = {
+		name = "Ostryanytsya & Yakiv"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1638.1.1 = {
+	monarch = {
+		name = "Gunya"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1640.1.1 = { leader = {	name = "Chmielnicki"           	type = general	rank = 0	fire = 1	shock = 3	manuever = 5	siege = 0 death_date = 1657.8.6 }}
+
+1641.1.1 = {
+	monarch = {
+		name = "Karpo P."
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1644.1.1 = {
+	monarch = {
+		name = "Gulak-Bulyuk"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1648.1.1 = {
+	monarch = {
+		name = "Bogdan IV Khmelnitsky"
+		adm = 7
+		dip = 9
+		mil = 8
+	}
+}
+
+1657.1.1 = {
+	monarch = {
+		name = "Ivan I Vygovskyy"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1659.1.1 = {
+	monarch = {
+		name = "Yuriy Khmelnitsky"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1663.1.1 = {
+	monarch = {
+		name = "Divisional Hetmans"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1687.1.1 = {
+	monarch = {
+		name = "Ivan IV Mazep"
+		adm = 4
+		dip = 6
+		mil = 8
+	}
+}
+
+1695.1.1 = { leader = {	name = "Mazeppa"               	type = general	rank = 0	fire = 2	shock = 4	manuever = 5	siege = 0 death_date = 1710.1.1 }}
+
+1710.1.1 = {
+	monarch = {
+		name = "Ivan V Skoropadsky"
+		adm = 4
+		dip = 8
+		mil = 8
+	}
+}
+
+1722.1.1 = {
+	monarch = {
+		name = "Pavlo II Polubotok"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1727.1.1 = {
+	monarch = {
+		name = "Danylo Apostol"
+		adm = 3
+		dip = 6
+		mil = 6
+	}
+}
+
+1750.1.1 = {
+	monarch = {
+		name = "Rozumovsky"
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}

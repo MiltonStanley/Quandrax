@@ -1,0 +1,125 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = -4
+technology_group = western
+primary_culture = hannoverian
+religion = catholic
+capital = 1857	# Lauenburg
+
+
+# Lüneburg (Dukes of Braunschweig-Lüneburg)
+1368.1.1 = {
+	monarch = {
+		name = "Erich IV"
+		dynasty = "Askanier"
+		DIP = 6
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1411.1.1 = {
+	monarch = {
+		name = "Erich V"
+		dynasty = "Askanier"
+		dip = 4
+		mil = 2
+		adm = 6
+	}
+}
+
+1426.1.1 = {
+	monarch = {
+		name = "Bernhard II"
+		dynasty = "Askanier"
+		dip = 5
+		mil = 3
+		adm = 5
+	}
+}
+
+1463.1.1 = {
+	monarch = {
+		name = "Johann V"
+		dynasty = "Askanier"
+		dip = 3
+		mil = 4
+		adm = 4
+	}
+}
+
+1507.1.1 = {
+	monarch = {
+		name = "Magnus I"
+		dynasty = "Askanier"
+		dip = 4
+		mil = 3
+		adm = 5
+	}
+}
+
+1543.1.1 = {
+	monarch = {
+		name = "Franz I"
+		dynasty = "Askanier"
+		dip = 4
+		mil = 4
+		adm = 6
+	}
+}
+
+1586.1.1 = {
+	monarch = {
+		name = "Franz II"
+		dynasty = "Askanier"
+		dip = 3
+		mil = 3
+		adm = 5
+	}
+}
+	
+1619.1.1 = {
+	monarch = {
+		name = "August"
+		dynasty = "Askanier"
+		dip = 4
+		mil = 5
+		adm = 3
+	}
+}
+
+1656.1.1 = {
+	monarch = {
+		name = "Julius Heinrich"
+		dynasty = "Askanier"
+		dip = 4
+		mil = 5
+		adm = 3
+	}
+}
+
+1665.1.1 = {
+	monarch = {
+		name = "Francis Erdmann"
+		dynasty = "Askanier"
+		dip = 3
+		mil = 2
+		adm = 2
+	}
+}
+
+1666.1.1 = {
+	monarch = {
+		name = "Julius Franz"
+		dynasty = "Askanier"
+		dip = 4
+		mil = 4
+		adm = 2
+	}
+}

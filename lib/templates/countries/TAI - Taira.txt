@@ -1,0 +1,403 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -4
+centralization_decentralization = 2
+innovative_narrowminded = 2
+mercantilism_freetrade = -5
+offensive_defensive = -1
+land_naval = 0
+quality_quantity = -4
+serfdom_freesubjects = -5
+primary_culture = japanese
+religion = shinto
+technology_group = chinese
+capital = 1835	# Mino
+daimyo = yes
+
+1392.2.22 = {
+	monarch = {
+		name = "Takamochi"
+		dynasty = "Taira"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1403.5.2 = {
+	heir = {
+		name = "Sanetomo"
+		monarch_name = "Sanetomo"
+		dynasty = "Taira"
+		birth_date = 1403.5.2
+		death_date = 1445.8.30
+		claim = 95
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1419.3.6 = {
+	monarch = {
+		name = "Sanetomo"
+		dynasty = "Taira"
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1426.3.8 = {
+	heir = {
+		name = "Kimisai"
+		monarch_name = "Kimisai"
+		dynasty = "Taira"
+		birth_date = 1426.3.8
+		death_date = 1471.1.18
+		claim = 95
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}
+
+1445.8.30 = {
+	monarch = {
+		name = "Kimisai"
+		dynasty = "Taira"
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}
+
+1450.12.11 = {
+	heir = {
+		name = "Iesada"
+		monarch_name = "Iesada"
+		dynasty = "Taira"
+		birth_date = 1450.12.11
+		death_date = 1500.10.21
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 1
+	}
+}
+
+1471.1.18 = {
+	monarch = {
+		name = "Iesada"
+		dynasty = "Taira"
+		adm = 4
+		dip = 2
+		mil = 1
+	}
+}
+
+1475.11.18 = {
+	heir = {
+		name = "Yorinobu"
+		monarch_name = "Yorinobu"
+		dynasty = "Taira"
+		birth_date = 1475.11.18
+		death_date = 1527.5.19
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}
+
+1500.10.21 = {
+	monarch = {
+		name = "Yorinobu"
+		dynasty = "Taira"
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}
+
+1500.10.21 = {
+	heir = {
+		name = "Akimitsu"
+		monarch_name = "Akimitsu"
+		dynasty = "Taira"
+		birth_date = 1497.1.26
+		death_date = 1557.9.27
+		claim = 95
+		adm = 3
+		dip = 7
+		mil = 7
+	}
+}
+
+1527.5.19 = {
+	monarch = {
+		name = "Akimitsu"
+		dynasty = "Taira"
+		adm = 3
+		dip = 7
+		mil = 7
+	}
+}
+
+1527.8.25 = {
+	heir = {
+		name = "Masakado"
+		monarch_name = "Masakado"
+		dynasty = "Taira"
+		birth_date = 1520.6.18
+		death_date = 1593.2.6
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1557.9.27 = {
+	monarch = {
+		name = "Masakado"
+		dynasty = "Taira"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+
+1557.9.27 = {
+	heir = {
+		name = "Takafuji"
+		monarch_name = "Takafuji"
+		dynasty = "Taira"
+		birth_date = 1547.4.7
+		death_date = 1617.9.25
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1560.1.1 = { leader = {	name = "Oda Nobunaga"          	type = general	rank = 0	fire = 2	shock = 4	manuever = 5	siege = 0	death_date = 1582.6.21 } }
+
+1580.4.1 = {
+	monarch = {
+		name = "Takafuji"
+		dynasty = "Taira"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1589.8.9 = {
+	heir = {
+		name = "Yorimichi"
+		monarch_name = "Yorimichi"
+		dynasty = "Taira"
+		birth_date = 1589.8.9
+		death_date = 1650.9.11
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1611.11.9 = {
+	monarch = {
+		name = "Yorimichi"
+		dynasty = "Taira"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1620.10.3 = {
+	heir = {
+		name = "Shigehira"
+		monarch_name = "Shigehira"
+		dynasty = "Taira"
+		birth_date = 1620.10.3
+		death_date = 1676.12.4
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1635.1.1 = { decision = close_foreign_trade }
+
+1650.9.11 = {
+	monarch = {
+		name = "Shigehira"
+		dynasty = "Taira"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1650.9.11 = {
+	heir = {
+		name = "Tsunekiyo"
+		monarch_name = "Tsunekiyo"
+		dynasty = "Taira"
+		birth_date = 1643.9.11
+		death_date = 1695.10.30
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+}
+
+1666.12.4 = {
+	monarch = {
+		name = "Tsunekiyo"
+		dynasty = "Taira"
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+}
+
+1668.9.26 = {
+	heir = {
+		name = "Koretada"
+		monarch_name = "Koretada"
+		dynasty = "Taira"
+		birth_date = 1668.9.26
+		death_date = 1711.3.22
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+1695.10.30 = {
+	monarch = {
+		name = "Koretada"
+		dynasty = "Taira"
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+}
+
+1695.10.30 = {
+	heir = {
+		name = "Yoshimitsu"
+		monarch_name = "Yoshimitsu"
+		dynasty = "Taira"
+		birth_date = 1692.9.5
+		death_date = 1732.9.24
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+}
+
+1711.3.22 = {
+	monarch = {
+		name = "Yoshimitsu"
+		dynasty = "Taira"
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+}
+
+1729.4.8 = {
+	heir = {	
+		name = "Moromichi"
+		monarch_name = "Moromichi"
+		dynasty = "Taira"
+		birth_date = 1729.4.8
+		death_date = 1765.9.16
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 2
+	}
+}
+
+1732.9.24 = {
+	monarch = {
+		name = "Moromichi"
+		dynasty = "Taira"
+		adm = 5
+		dip = 3
+		mil = 2
+	}
+}
+
+1752.6.3 = {
+	heir = {
+		name = "Sanesuke"
+		monarch_name = "Sanesuke"
+		dynasty = "Taira"
+		birth_date = 1752.6.3
+		death_date = 1787.5.10
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+}
+
+1765.9.16 = {
+	monarch = {
+		name = "Sanesuke"
+		dynasty = "Taira"
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+}
+
+1777.10.4 = {
+	heir = {
+		name = "Ujikimi"
+		monarch_name = "Ujikimi"
+		dynasty = "Taira"
+		birth_date = 1777.10.4
+		death_date = 1850.5.28
+		claim = 95
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+
+1787.5.10 = {
+	monarch = {
+		name = "Ujikimi"
+		dynasty = "Taira"
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+
+1802.9.19 = {
+	heir = {
+		name = "Kaneie"
+		monarch_name = "Kaneie"
+		dynasty = "Taira"
+		birth_date = 1802.9.19
+		death_date = 1762.8.31
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}

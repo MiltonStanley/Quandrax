@@ -1,0 +1,24 @@
+government = constitutional_republic
+aristocracy_plutocracy = -3
+centralization_decentralization = 1
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -3
+primary_culture = prussian
+religion = catholic
+technology_group = western
+capital = 43	# Danzig
+
+
+1807.7.9 = {
+	monarch = {
+		name = "Franz Joseph I"
+		adm = 5
+		dip = 4
+		mil = 6
+		leader = {	name = "Franz Joseph I"   	type = general	rank = 1	fire = 3	shock = 3	manuever = 3	siege = 2 }
+	}
+}

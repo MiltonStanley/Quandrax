@@ -1,0 +1,614 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 1
+mercantilism_freetrade = 3
+offensive_defensive = 0
+land_naval = 1
+quality_quantity = 3
+serfdom_freesubjects = -2
+primary_culture = maghreb_arabic
+religion = sunni
+technology_group = muslim
+capital = 344	# Marrakech
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Abu-Sa'id Uthman III"
+		dynasty = "Marinid"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Abdalhaqq"
+		monarch_name = "Abdalhaqq II"
+		dynasty = "Marinid"
+		birth_Date = 1399.1.1
+		death_Date = 1465.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1420.1.1 = {
+	monarch = {
+		name = "Abdalhaqq II"
+		dynasty = "Marinid"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+		
+
+1465.1.1 = {
+	monarch = {
+		name = "Abu-Muhammad"
+		dynasty = "Wattasid"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1465.1.1 = {
+	heir = {
+		name = "Abu Zakariyya"
+		monarch_name = "Abu Zakariyya"
+		dynasty = "Wattasid"
+		birth_Date = 1460.1.1
+		death_Date = 1505.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1472.1.1 = {
+	monarch = {
+		name = "Abu Zakariyya"
+		dynasty = "Wattasid"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+	
+1472.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad II al-Burtuqûlî"
+		dynasty = "Wattasid"
+		birth_date = 1470.1.1
+		death_Date = 1510.1.1
+		claim = 95
+		adm = 3
+		dip = 8
+		mil = 4
+	}
+}
+
+1505.1.1 = {
+	monarch = {
+		name = "Muhammad II al-Burtuqûlî"
+		dynasty = "Wattasid"
+		adm = 3
+		dip = 8
+		mil = 4
+	}
+}
+
+1510.1.1 = {
+	monarch = {
+		name = "Muhammad I al-Qa'im"
+		dynasty = "Saadi"
+		adm = 6
+		dip = 6
+		mil = 8
+		leader = { name = "Muhammad I al-Qa'im"	type = general	rank = 0	fire = 4	shock = 1	manuever = 3	siege = 0}
+	}
+}
+
+1510.1.1 = {
+	heir = {
+		name = "Ahmad al A'raj"
+		monarch_name = "Ahmad al A'raj"
+		dynasty = "Saadi"
+		birth_date = 1490.1.1
+		death_Date = 1544.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 7
+		leader = { name = "Ahmad al A'raj"	type = general	rank = 0	fire = 2	shock = 3	manuever = 4	siege = 0}
+	}
+}
+
+1517.1.1 = {
+	monarch = {
+		name = "Ahmad al A'raj"
+		dynasty = "Saadi"
+		adm = 3
+		dip = 5
+		mil = 7
+		leader = { name = "Ahmad al A'raj"	type = general	rank = 0	fire = 2	shock = 3	manuever = 4	siege = 0}
+	}
+}
+
+1517.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad II"
+		dynasty = "Saadi"
+		birth_Date = 1510.1.1
+		death_date = 1557.10.24
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 5
+		leader = { name = "Muhammad II"		type = general	rank = 0	fire = 3	shock = 3	manuever = 2	siege = 0}
+	}
+}
+
+1544.1.1 = {
+	monarch = {
+		name = "Muhammad II"
+		dynasty = "Saadi"
+		adm = 6
+		dip = 7
+		mil = 5
+		leader = { name = "Muhammad II"		type = general	rank = 0	fire = 3	shock = 3	manuever = 2	siege = 0}
+	}
+}
+
+1544.1.1 = {
+	heir = {
+		name = "'Abd Allâh"
+		monarch_name = "'Abd Allâh"
+		dynasty = "Saadi"
+		birth_date = 1517.1.1
+		death_date = 1574.1.24
+		claim = 95
+		adm = 9
+		dip = 6
+		mil = 7
+	}
+}
+
+1557.10.24 = {
+	monarch = {
+		name = "'Abd Allâh I"
+		dynasty = "Saadi"
+		adm = 9
+		dip = 6
+		mil = 7
+	}
+}
+
+1557.10.24 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad III"
+		dynasty = "Saadi"
+		birth_Date = 1557.1.1
+		death_date = 1576.9.12
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 4
+		leader = { name = "Muhammad III"	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0}
+	}
+}
+
+1574.1.24 = {
+	monarch = {
+		name = "Muhammad III"
+		dynasty = "Saadi"
+		adm = 3
+		dip = 6
+		mil = 4
+		leader = { name = "Muhammad III"	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0}
+	}
+}
+
+1574.1.1 = {
+	heir = {
+		name = "Abu Marwan"
+		monarch_name = "Abu Marwan"
+		dynasty = "Saadi"
+		birth_date = 1554.1.1
+		death_Date = 1578.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1576.1.1 = {
+	monarch = {
+		name = "Abu Marawan"
+		dynasty = "Saadi"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1576.1.1 = {
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad II"
+		dynasty = "Saadi"
+		birth_Date = 1549.1.1
+		death_date = 1603.8.20
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 8
+	}
+}
+
+1578.8.5 = {
+	monarch = {
+		name = "Ahmad II"
+		dynasty = "Saadi"
+		adm = 5
+		dip = 3
+		mil = 8
+	}
+}
+
+1578.8.5 = {
+	heir = {
+		name = "'Abd Allâh"
+		monarch_name = "'Abd Allâh II"
+		dynasty = "Saadi"
+		birth_Date = 1564.1.1
+		death_Date = 1609.8.3
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1589.1.1 = { leader = {	name = "Jawdar Pasha"		type = conquistador	rank = 2	fire = 5	shock = 4	manuever = 4	siege = 0	death_date = 1599.1.1 } }
+
+1603.8.20 = {
+	monarch = {
+		name = "'Abd Allâh II"
+		dynasty = "Saadi"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1603.8.20 = {
+	heir = {
+		name = "Zaydân"
+		monarch_name = "Zaydân"
+		dynasty = "Saadi"
+		birth_Date = 1580.1.1
+		death_date = 1627.9.29
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1609.8.3 = {
+	monarch = {
+		name = "Zaydân"
+		dynasty = "Saadi"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1609.8.3 = {
+	heir = {
+		name = "'Abd al-Malik"
+		monarch_name = "'Abd al-Malik"
+		dynasty = "Saadi"
+		birth_Date = 1590.1.1
+		death_Date = 1631.2.11
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1627.9.29 = {
+	monarch = {
+		name = "'Abd al-Malik"
+		dynasty = "Saadi"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1627.9.29 = {
+	heir = {
+		name = "al-Walîd"
+		monarch_name = "al-Walîd"
+		dynasty = "Saadi"
+		birth_Date = 1600.1.1
+		death_date = 1636.2.21
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1631.2.11 = {
+	monarch = {
+		name = "al-Walîd"
+		dynasty = "Alaouite"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1631.2.11 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad V"
+		dynasty = "Alaouite"
+		birth_date = 1600.1.1
+		death_Date = 1664.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1636.2.21 = {
+	monarch = {
+		name = "Muhammad V"
+		dynasty = "Alaouite"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1636.2.21 = {
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad III"
+		dynasty = "Alaouite"
+		birth_Date = 1610.1.1
+		death_Date = 1659.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1654.1.1 = {
+	monarch = {
+		name = "Ahmad III"
+		dynasty = "Alaouite"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1654.1.1 = {
+	heir = {
+		name = "'Abd al-Karîm"
+		monarch_name = "'Abd al-KarÎm"
+		dynasty = "Alaouite"
+		birth_Date = 1630.1.1
+		death_Date = 1666.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1659.1.1 = {
+	monarch = {
+		name = "'Abd al-Karîm"
+		dynasty = "Alaouite"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1659.1.1 = {
+	heir = {
+		name = "ar-Rashid"
+		monarch_name = "ar-Rashid"
+		dynasty = "Alaouite"
+		birth_Date = 1631.1.1
+		death_date = 1672.3.28
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 8
+		leader = { name = "ar-Rashid"		type = general	rank = 0	fire = 4	shock = 3	manuever = 4	siege = 1}
+	}
+}
+
+1666.1.1 = {
+	monarch = {
+		name = "ar-Rashid"
+		dynasty = "Alaouite"
+		adm = 7
+		dip = 6
+		mil = 8
+		leader = { name = "ar-Rashid"		type = general	rank = 0	fire = 4	shock = 3	manuever = 4	siege = 1}
+	}
+}
+
+1666.1.1 = {
+	heir = {
+		name = "Ismâ'îl"
+		monarch_name = "Ismâ'îl"
+		dynasty = "Alaouite"
+		birth_Date = 1645.1.1
+		death_Date = 1727.3.22
+		claim = 95
+		adm = 9
+		dip = 8
+		mil = 9
+		leader = { name = "Ismâ'îl"		type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 1}
+	}
+}
+
+1672.1.1 = { capital = 346 } # Meknes
+
+1672.3.28 = {
+	monarch = {
+		name = "Ismâ'îl"
+		dynasty = "Alaouite"
+		adm = 9
+		dip = 8
+		mil = 9
+		leader = { name = "Ismâ'îl"		type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 1}
+	}
+}
+
+1677.1.1 = {
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad"
+		dynasty = "Alaouite"
+		birth_Date = 1677.1.1
+		death_date = 1729.3.5
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1727.1.1 = { capital = 344 } # Marrakech
+
+1727.3.22 = {
+	monarch = {
+		name = "Ahmad"
+		dynasty = "Alaouite"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1727.3.22 = {
+	heir = {
+		name = "'Abd Allâh"
+		monarch_name = "'Abd Allâh"
+		dynasty = "Alaouite"
+		birth_Date = 1678.1.1
+		death_Date = 1757.11.10
+		claim = 95
+		adm = 8
+		dip = 4
+		mil = 4
+	}
+}
+
+1729.3.7 = {
+	monarch = {
+		name = "'Abd Allâh"
+		dynasty = "Alaouite"
+		adm = 8
+		dip = 4
+		mil = 4
+	}
+}
+
+1739.3.7 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad III"
+		dynasty = "Alaouite"
+		birth_Date = 1739.3.7
+		death_Date = 1790.4.12
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 5
+	}
+}
+
+1757.11.10 = {
+	monarch = {
+		name = "Muhammad III"
+		dynasty = "Alaouite"
+		adm = 7
+		dip = 7
+		mil = 5
+	}
+}
+
+1757.11.10 = {
+	heir = {
+		name = "al-Yazid"
+		monarch_name = "al-Yazid"
+		dynasty = "Alaouite"
+		birth_Date = 1750.1.1
+		death_date = 1792.2.15
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+
+1790.4.12 = {
+	monarch = {
+		name = "al-Yazîd"
+		dynasty = "Alaouite"
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+
+1790.4.12 = {
+	heir = {
+		name = "Sulaymân"
+		monarch_name = "Sulaymân"
+		dynasty = "Alaouite"
+		birth_date = 1760.1.1
+		death_Date = 1822.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}
+
+1792.2.15 = {
+	monarch = {
+		name = "Sulaymân"
+		dynasty = "Alaouite"
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}

@@ -1,0 +1,13 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = -3
+innovative_narrowminded = 2
+mercantilism_freetrade = -1
+offensive_defensive = 2
+land_naval = 0
+quality_quantity = -1
+serfdom_freesubjects = 1
+primary_culture = galician
+religion = catholic
+technology_group = western
+capital = 206	# Galicia

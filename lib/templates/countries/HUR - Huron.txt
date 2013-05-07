@@ -1,0 +1,68 @@
+government = tribal_democracy
+aristocracy_plutocracy = 5
+centralization_decentralization = 5
+innovative_narrowminded = 0
+mercantilism_freetrade = 0
+offensive_defensive = 5
+land_naval = -5
+quality_quantity = 0
+serfdom_freesubjects = 5
+primary_culture = huron
+religion = shamanism
+technology_group = new_world
+capital = 988	# Huron
+
+1399.1.1 = {
+	monarch = {
+		name = "Ahatsistari"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1525.1.1 = {
+	monarch = {
+		name = "Dannaconna"
+		adm = 6
+		dip = 8
+		mil = 4
+	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Ahatsistari"
+		adm = 4
+		dip = 5
+		mil = 7
+	}
+}
+
+1680.1.1 = {
+	monarch = {
+		name = "Adario"
+		adm = 3
+		dip = 5
+		mil = 8
+		leader = {	name = "Adario"                	type = general	rank = 0	fire = 3	shock = 1	manuever = 3	siege = 1}
+	}
+}
+
+1785.1.1 = {
+	monarch = {
+		name = "Dunquat"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1800.1.1 = {
+	monarch = {
+		name = "Tarhe"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}

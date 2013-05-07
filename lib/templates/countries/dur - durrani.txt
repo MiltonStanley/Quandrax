@@ -1,0 +1,261 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -4
+centralization_decentralization = 5
+innovative_narrowminded = 3
+mercantilism_freetrade = -3
+offensive_defensive = -1
+land_naval = -1
+quality_quantity = 3
+serfdom_freesubjects = -5
+technology_group = muslim
+religion = sunni
+primary_culture = baluchi
+capital = 447	# Kandahar
+
+
+#Ghilzai Dynasty
+1707.1.1 = {
+	monarch = {
+		name = "Mir Ways"
+		dynasty = "Ghilzai"
+		adm = 6
+		dip = 8
+		mil = 8
+	}
+}
+
+1707.1.1 = {
+	heir = {
+		name = "Mir 'Abd-al'Aziz"
+		monarch_name = "Mir 'Abd-al'Aziz"
+		dynasty = "Ghilzai"
+		birth_Date = 1700.1.1
+		death_date = 1716.3.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+
+1715.11.1 = {
+	monarch = {
+		name = "Mir 'Abd-al'Aziz"
+		dynasty = "Ghilzai"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1715.11.1 = {
+	heir = {
+		name = "Mir Mahmud"
+		monarch_name = "Mir Mahmud"
+		dynasty = "Ghilzai"
+		birth_Date = 1715.11.1
+		death_date = 1725.4.25
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 8
+	}
+}
+
+1716.3.1 = {
+	monarch = {
+		name = "Mir Mahmud"
+		dynasty = "Ghilzai"
+		adm = 4
+		dip = 4
+		mil = 8
+	}
+}
+
+1716.3.1 = {
+	heir = {
+		name = "Mir Ashraf"
+		monarch_name = "Mir Ashraf"
+		dynasty = "Ghilzai"
+		birth_Date = 1700.1.1
+		death_date = 1729.11.2
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1725.4.25 = {
+	monarch = {
+		name = "Mir Ashraf"
+		dynasty = "Ghilzai"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1725.4.25 = {
+	heir = {
+		name = "Mir Husayn"
+		monarch_name = "Mir Husayn"
+		dynasty = "Ghilzai"
+		birth_date = 1710.1.1
+		death_date = 1738.3.12
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1729.11.2 = {
+	monarch = {
+		name = "Mir Husayn"
+		dynasty = "Ghilzai"
+		adm = 4
+		dip = 3
+		mil = 4
+		
+	}
+}
+
+#1738.3.12 = {
+#	monarch = {
+#		name = "Persian Occupation"
+#		adm = 5
+#		dip = 5
+#		mil = 5
+#	}
+#
+#}
+
+#Durrani Dynasty
+
+1747.1.1 = {
+	monarch = {
+		name = "Ahmad Shah Durr-i-Durran"
+		dynasty = "Durrani"
+		adm = 6
+		dip = 6
+		mil = 9
+	}
+}
+
+1748.1.1 = {
+	heir = {
+		name = "Taimur"
+		monarch_name = "Taimur Shah"
+		dynasty = "Durrani"
+		birth_Date = 1748.1.1
+		death_date = 1793.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1772.10.1 = {
+	monarch = {
+		name = "Taimur Shah"
+		dynasty = "Durrani"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1772.10.1 = {
+	heir = {
+		name = "Zaman"
+		monarch_name = "Zaman Shah"
+		dynasty = "Durrani"
+		birth_Date = 1770.1.1
+		death_date = 1801.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1780.1.1 = { capital = 451 } # Kabul
+
+1793.1.1 = {
+	monarch = {
+		name = "Zaman Shah"
+		dynasty = "Durrani"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1793.1.1 = {
+	heir = {
+		name = "Mahmud"
+		monarch_name = "Mahmud Shah"
+		dynasty = "Durrani"
+		birth_Date = 1769.1.1
+		death_date = 1803.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1801.1.1 = {
+	monarch = {
+		name = "Mahmud Shah"
+		dynasty = "Durrani"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+
+
+1803.1.1 = {
+	monarch = {
+		name = "Shuja Shah"
+		dynasty = "Durrani"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1809.5.3 = {
+	monarch = {
+		name = "Mahmud Shah"
+		dynasty = "Durrani"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1818.1.1 = {
+	monarch = {
+		name = "Ali Shah"
+		dynasty = "Durrani"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1819.1.1 = {
+	monarch = {
+		name = "Ayub Shah"
+		dynasty = "Durrani"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}

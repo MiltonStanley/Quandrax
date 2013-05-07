@@ -1,0 +1,263 @@
+government = steppe_horde
+aristocracy_plutocracy = -4
+centralization_decentralization = 4
+innovative_narrowminded = 2
+mercantilism_freetrade = -3
+offensive_defensive = -2
+land_naval = -2
+quality_quantity = 2
+serfdom_freesubjects = -3
+technology_group = nomad_group
+religion = buddhism
+primary_culture = mongol
+capital = 720	# Urga
+
+
+#Khans of the Oirats (Kalmyks, Dzungars)
+1399.1.1 = {
+	monarch = {
+		name = "Toghon Tayisi"
+		dynasty = "Choros"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Essen Tayisi"
+		monarch_name = "Essen Tayisi"
+		dynasty = "Choros"
+		birth_Date = 1380.1.1
+		death_Date = 1460.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1439.1.1 = {
+	monarch = {
+		name = "Essen Tayisi"
+		dynasty = "Choros"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1586.1.1 = { religion = buddhism }
+
+1619.1.1 = {
+	monarch = {
+		name = "Qara Qula"
+		dynasty = "Choros"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1619.1.1 = {
+	heir = {
+		name = "Qara Qula"
+		monarch_name = "Qara Qula"
+		dynasty = "Choros"
+		birth_Date = 1600.1.1
+		death_Date = 1653.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1623.1.1 = { capital = 714 }
+
+1634.1.1 = {
+	monarch = {
+		name = "Ba'atur"
+		dynasty = "Choros"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1634.1.1 = {
+	heir = {
+		name = "Seng-ke"
+		monarch_name = "Seng-ke"
+		dynasty = "Choros"
+		birth_Date = 1630.1.1
+		death_date = 1671.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1653.1.1 = {
+	monarch = {
+		name = "Seng-ke"
+		dynasty = "Choros"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+
+}
+
+1653.1.1 = {
+	heir = {
+		name = "Galdan Bashigt"
+		monarch_name = "Galdan Bashigt"
+		dynasty = "Choros"
+		birth_Date = 1650.1.1
+		death_Date = 1698.9.4
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1671.1.1 = {
+	monarch = {
+		name = "Galdan Bashigt"
+		dynasty = "Choros"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1680.1.1 = {
+	heir = {
+		name = "Tsevan Rabdan"
+		monarch_name = "Tsevan Rabdan"
+		dynasty = "Choros"
+		birth_Date = 1680.1.1
+		death_Date = 1727.12.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1698.9.4 = {
+	monarch = {
+		name = "Tsevan Rabdan"
+		dynasty = "Choros"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+
+}
+
+1698.9.4 = {
+	heir = {
+		name = "Bayan"
+		monarch_name = "Bayan"
+		dynasty = "Choros"
+		birth_date = 1690.1.1
+		death_Date = 1745.8.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1727.12.1 = {
+	monarch = {
+		name = "Bayan"
+		dynasty = "Choros"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+
+}
+
+1727.12.1 = {
+	heir = {
+		name = "Lama Darja"
+		monarch_name = "Lama Darja"
+		dynasty = "Choros"
+		birth_Date = 1700.1.1
+		death_Date = 1750.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1745.8.1 = {
+	monarch = {
+		name = "Lama Darja"
+		dynasty = "Choros"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+
+}
+
+1745.8.1 = {
+	heir = {
+		name = "Dawaji"
+		monarch_name = "Dawaji"
+		dynasty = "Choros"
+		birth_Date = 1700.1.1
+		death_Date = 1755.10.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1750.1.1 = {
+	monarch = {
+		name = "Dawaji"
+		dynasty = "Choros"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+
+}
+
+1750.1.1 = {
+	heir = {
+		name = "Amursana"
+		monarch_name = "Amursana"
+		dynasty  = "Choros"
+		birth_Date = 1750.1.1
+		death_Date = 1756.3.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1755.10.1 = {
+	monarch = {
+		name = "Amursana"
+		dynasty = "Choros"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+
+}
+
+#Annexed by China in March 1756

@@ -1,0 +1,123 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -5
+centralization_decentralization = 4
+innovative_narrowminded = -1
+mercantilism_freetrade = -3
+offensive_defensive = -3
+land_naval = -3
+quality_quantity = 0
+serfdom_freesubjects = -4
+technology_group = eastern
+religion = catholic
+primary_culture = polish
+capital = 257	# Warsaw
+
+
+# Mazovian Dukes# (in fact the dukes of Warsaw as Mazovia had more duchies)
+1373.1.1 = {
+	monarch = {
+		name = "Janusz I"
+		dynasty = "Piast"
+		DIP = 4
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1421.1.1 = {
+	heir = {
+		name = "Boleslaw"
+		monarch_name = "Boleslaw IV"
+		dynasty = "Piast"
+		birth_date = 1421.1.1
+		death_date = 1454.9.10
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}
+
+1429.12.8 = {
+	monarch = {
+		name = "Boleslaw IV"
+		dynasty = "Piast"
+		DIP = 5
+		ADM = 6
+		MIL = 3
+	}
+}
+
+1448.1.1 = {
+	heir = {
+		name = "Konrad Rudy"
+		monarch_name = "Konrad III Rudy"
+		dynasty = "Piast"
+		birth_date = 1448.1.1
+		death_date = 1503.10.28
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1454.9.10 = {
+	monarch = {
+		name = "Konrad III Rudy"
+		dynasty = "Piast"
+		DIP = 5
+		ADM = 5
+		MIL = 3
+	}
+}
+
+1500.1.1 = {
+	heir = {
+		name = "Stanislaw"
+		monarch_name = "Stanislaw I"
+		dynasty = "Piast"
+		birth_date = 1500.1.1
+		death_date = 1524.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1503.10.28 = {
+	monarch = {
+		name = "Stanislaw"
+		dynasty = "Piast"
+		DIP = 3
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1503.10.28 = {
+	heir = {
+		name = "Janusz"
+		monarch_name = "Janusz III"
+		dynasty = "Piast"
+		birth_date = 1502.1.1
+		death_date = 1526.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1524.8.8 = {
+	monarch = {
+		name = "Janusz III"
+		dynasty = "Piast"
+		DIP = 3
+		ADM = 3
+		MIL = 3
+	}
+}
+
+# Merged with Poland 1526.3.9

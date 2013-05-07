@@ -1,0 +1,216 @@
+government = tribal_despotism
+aristocracy_plutocracy = -5
+centralization_decentralization = 5
+innovative_narrowminded = 1
+mercantilism_freetrade = -5
+offensive_defensive = 0
+land_naval = -5
+quality_quantity = 2
+serfdom_freesubjects = -5
+technology_group = sub_saharan
+religion = animism
+primary_culture = kongolese
+capital = 1166	# Loango
+
+
+1564.1.1 = {
+	monarch = {
+		name = "Nkungu"
+		dynasty = "Loanga"
+		DIP = 8
+		ADM = 9
+		MIL = 7
+	}
+}
+
+1580.1.1 = {
+	heir = {
+		name = "Nkungu"
+		monarch_name = "Nkungu II"
+		dynasty = "Loanga"
+		birth_date = 1580.1.1
+		death_date = 1640.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1624.1.1 = {
+	monarch = {
+		name = "Nkungu II"
+		dynasty = "Loanga"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1624.1.1 = {
+	heir = {
+		name = "Afonso"
+		monarch_name = "Afonso"
+		dynasty = "Loanga"
+		birth_date = 1620.1.1
+		death_date = 1710.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}
+
+1640.1.1 = {
+	monarch = {
+		name = "Afonso"
+		dynasty = "Loanga"
+		DIP = 4
+		ADM = 6
+		MIL = 3
+	}
+}
+
+1680.1.1 = {
+	heir = {
+		name = "Ntangu"
+		monarch_name = "Ntangu"
+		dynasty = "Loanga"
+		birth_date = 1680.1.1
+		death_date = 1735.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1710.1.1 = {
+	monarch = {
+		name = "Ntangu"
+		dynasty = "Loanga"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1710.1.1 = {
+	heir = {
+		name = "Makose"
+		monarch_name = "Makose"
+		dynasty = "Loanga"
+		birth_date = 1710.1.1
+		death_date = 1766.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1735.1.1 = {
+	monarch = {
+		name = "Makose"
+		dynasty = "Loanga"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1750.1.1 = {
+	heir = {
+		name = "Mwene Mbatu"
+		monarch_name = "Mwene Mbatu"
+		dynasty = "Loanga"
+		birth_date = 1750.1.1
+		death_date = 1773.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1766.1.1 = {
+	monarch = {
+		name = "Mwene Mbatu"
+		dynasty = "Loanga"
+		DIP = 4
+		ADM = 3
+		MIL = 5
+	}
+}
+
+1766.1.1 = {
+	heir = {
+		name = "Nobo Sinda"
+		monarch_name = "Nobo Sinda"
+		dynasty = "Loanga"
+		birth_date = 1750.1.1
+		death_date = 1795.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1773.1.1 = {
+	monarch = {
+		name = "Nobo Sinda"
+		dynasty = "Loanga"
+		DIP = 4
+		ADM = 3
+		MIL = 5
+	}
+}
+
+1773.1.1 = {
+	heir = {
+		name = "Mwe Pwati"
+		monarch_name = "Mew Pwati I"
+		dynasty = "Loanga"
+		birth_date = 1773.1.1
+		death_date = 1817.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1795.1.1 = {
+	monarch = {
+		name = "Mwe Pwati I"
+		dynasty = "Loanga"
+		DIP = 4
+		ADM = 3
+		MIL = 5
+	}
+}
+
+1795.1.1 = {
+	heir = {
+		name = "Nguli Nkama"
+		monarch_name = "Nguli Nkama"
+		dynasty = "Loanga"
+		birth_date = 1795.1.1
+		death_date = 1835.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1817.1.1 = {
+	monarch = {
+		name = "Nguli Nkama"
+		dynasty = "Loanga"
+		DIP = 4
+		ADM = 3
+		MIL = 5
+	}
+}

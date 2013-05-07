@@ -1,0 +1,429 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -5
+centralization_decentralization = 4
+innovative_narrowminded = -1
+mercantilism_freetrade = -3
+offensive_defensive = -3
+land_naval = -3
+quality_quantity = 0
+serfdom_freesubjects = -4
+primary_culture = polish
+religion = catholic
+technology_group = eastern
+historical_friend = LIT
+capital = 262	# Krakow
+
+
+1386.3.4 = {
+	monarch = {
+		name = "Wladyslaw II"
+		dynasty = Jagiellon
+		adm = 5
+		dip = 6
+		mil = 5
+		leader = { name = "Wladyslaw II"	type = general	rank = 1	fire = 3	shock = 3	manuever = 4	siege = 0 }
+	}
+}
+
+1389.1.1 = { leader = {	name = "Zyndram z Maszkowic"		type = general	rank = 1	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1414.1.1 } }
+
+1399.1.1 = { leader = {	name = "Zbigniew z Brzezia"		type = general	rank = 1	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1425.1.1 } }
+
+1410.1.1 = { leader = {	name = "Zawisza Czarny"			type = general	rank = 1	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1428.4.1 } }
+
+1424.10.31 = {
+	heir = {
+		name = "Wladyslaw"
+		monarch_name = "Wladyslaw III"
+		dynasty = "Jagiellon"
+		birth_date = 1424.10.31
+		death_date = 1444.11.10
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+		leader = { name = "Wladyslaw III"		type = general	rank = 0	fire = 3	shock = 3	manuever = 2	siege = 0 }
+	}
+}
+		
+1434.6.1 = {
+	monarch = {
+		name = "Wladyslaw III"
+		dynasty = Jagiellon
+		adm = 5
+		dip = 6
+		mil = 5
+		leader = { name = "Wladyslaw III"		type = general	rank = 0	fire = 3	shock = 3	manuever = 2	siege = 0 }
+	}
+}
+
+1434.6.1 = {
+	heir = {
+		name = "Kazimierz"
+		monarch_name = "Kazimierz IV"
+		dynasty = "Jagiellon"
+		birth_date = 1427.11.30
+		death_date = 1492.6.7
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 4
+	}
+}
+
+# Personal union with Hungary 1439-1444
+
+1444.11.11 = {
+	monarch = {
+		name = "Kazimierz IV"
+		dynasty = Jagiellon
+		adm = 7
+		dip = 7
+		mil = 4
+	}
+}
+
+1459.12.27 = {
+	heir = {
+		name = "Jan Olbracht"
+		monarch_name = "Jan I Olbracht"
+		dynasty = "Jagiellon"
+		birth_date = 1459.12.27
+		death_date = 1501.6.17
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1461.1.1 = { leader = {	name = "Piotr Dunin"           	type = general	rank = 1	fire = 2	shock = 3	manuever = 3	siege = 1	death_date = 1484.1.1 } }
+
+1465.1.1 = { leader = {	name = "Feliks Paniewski"      	type = general	rank = 2	fire = 2	shock = 3	manuever = 2	siege = 0	death_date = 1488.1.1 } }
+
+1475.1.1 = { leader = {	name = "Dobieslaw Kurozwecki"  	type = general	rank = 1	fire = 2	shock = 3	manuever = 2	siege = 0	death_date = 1496.1.1 } }
+
+1492.6.8 = {
+	monarch = {
+		name = "Jan I Olbracht"
+		dynasty = Jagiellon
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1492.6.8 = {
+	heir = {
+		name = "Aleksander"
+		monarch_name = "Aleksander I"
+		dynasty = "Jagiellon"
+		birth_date = 1461.8.5
+		death_date = 1506.8.19
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+
+1495.1.1 = { serfdom_freesubjects = -5 centralization_decentralization = 5 innovative_narrowminded = 1 mercantilism_freetrade = -5 } # The Statute of Piotrkow
+
+1501.6.18 = {
+	monarch = {
+		name = "Aleksander I"
+		dynasty = Jagiellon
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+
+1501.6.18 = {
+	heir = {
+		name = "Zygmunt"
+		monarch_name = "Zygmunt I Stary"
+		dynasty = "Jagiellon"
+		birth_date = 1467.1.1
+		death_date = 1548.4.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1505.1.1 = { aristocracy_plutocracy = -5 centralization_decentralization = 5 land_naval = -5 offensive_defensive = 0 } # The Constitution of Radom-'Nihil Novo
+
+1506.8.20 = {
+	monarch = {
+		name = "Zygmunt I Stary"
+		dynasty = Jagiellon
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1520.8.1 = {
+	heir = {
+		name = "Zygmunt August"
+		monarch_name = "Zygmunt I August"
+		dynasty = "Jagiellon"
+		birth_date = 1520.8.1
+		death_date = 1572.7.7
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1521.1.1 = { leader = {	name = "Jan Tarnowski"		type = general	rank = 1	fire = 2	shock = 4	manuever = 4	siege = 1	death_date = 1561.5.16 } }
+
+1548.4.2 = {
+	monarch = {
+		name = "Zygmunt II August"
+		dynasty = Jagiellon
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1560.1.1 = { leader = {	name = "Sebastian Lubomirski"  	type = general	rank = 3	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1613.7.20 } }
+
+1565.1.1 = { leader = {	name = "Kurbski"               	type = general	rank = 3	fire = 2	shock = 1	manuever = 3	siege = 0	death_date = 1575.1.1 } }
+
+1566.1.1 = { centralization_decentralization = 5 } # The Act of Union-'Rzeczpospolita Polska
+
+1572.1.1 = { leader = {	name = "Krzysztof Radziwill"   	type = general	rank = 2	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1603.11.20 } }
+
+1573.1.1 = { aristocracy_plutocracy = -5 centralization_decentralization = 5 land_naval = -5 } # The Pact Conventa and the Henrykian Articles
+
+1573.5.12 = {
+	monarch = {
+		name = "Henryk I"
+		dynasty = "de Valois"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1575.1.1 = { government = noble_republic }
+
+1575.1.1 = {
+	monarch = {
+		name = "Stefan I"
+		dynasty = "Báthory"
+		adm = 8
+		dip = 5
+		mil = 9
+		leader = { name = "Stefan Báthory"	type = general	rank = 0	fire = 3	shock = 5	manuever = 5	siege = 1 }
+	}
+}
+
+1581.1.1 = { leader = {	name = "Jan Zamojski"		type = general	rank = 1	fire = 2	shock = 4	manuever = 3	siege = 0	death_date = 1605.6.3 } }
+
+1587.8.1 = {
+	monarch = {
+		name = "Zygmunt III"
+		dynasty = "Vasa"
+		adm = 4
+		dip = 5
+		mil = 5
+		leader = { name = "Zygmunt III Wasa"	type = general	rank = 0	fire = 3	shock = 4	manuever = 4	siege = 0 }
+	}
+}
+
+1589.1.1 = { leader = {	name = "Jan Sapieha"           	type = general	rank = 3	fire = 2	shock = 2	manuever = 3	siege = 1	death_date = 1611.1.1 } }
+
+1595.6.9 = {
+	heir = {
+		name = "Wladyslaw"
+		monarch_name = "Wladyslaw IV"
+		dynasty = "Vasa"
+		birth_date = 1595.6.9
+		death_date = 1648.5.20
+		claim = 95
+		adm = 7
+		dip = 8
+		mil = 7
+		leader = { name = "Wladyslaw IV Wasa"	type = general	rank = 0	fire = 3	shock = 3	manuever = 4	siege = 1 }
+	}
+}
+		
+1596.1.1 = { capital = 257 } # Warsaw
+
+1600.1.1 = { leader = {	name = "Jan K. Chodkiewicz"           	type = general	rank = 2	fire = 3	shock = 5	manuever = 4	siege = 0	death_date = 1621.9.24 } }
+
+1600.1.1 = { leader = {	name = "Stanislaw Lubomirski"  	type = general		rank = 2	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1649.1.1 } }
+
+1605.1.1 = { leader = {	name = "S. Zolkiewski"		type = general		rank = 1	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1620.10.6 } }
+
+1607.1.1 = { innovative_narrowminded = -1 centralization_decentralization = 5 } # The Jesuit King
+
+1607.1.1 = { centralization_decentralization = -1 } # The Struggle for Royal Power
+
+1615.1.1 = { leader = {	name = "Krzysztof Radziwill"   	type = general		rank = 2	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1640.1.1 } }
+
+1617.1.1 = { leader = {	name = "Denhoff"               	type = general		rank = 2	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1622.1.1 } }
+
+1618.1.1 = { leader = {	name = "Arend Dickmann"		type = admiral		rank = 0	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1627.1.1 } }
+
+1620.1.1 = { leader = {	name = "Mikolaj Potocki"	type = general		rank = 1	fire = 2	shock = 1	manuever = 3	siege = 0	death_date = 1651.11.20 } }
+
+1620.1.1 = { leader = {	name = "S. Koniecpolski"	type = general		rank = 2	fire = 2	shock = 5	manuever = 5	siege = 0	death_date = 1646.3.11 } }
+
+1621.1.1 = { leader = {	name = "K. Arciszewski"		type = conquistador	rank = 2	fire = 3	shock = 2	manuever = 5	siege = 1	death_date = 1656.4.7 } }
+
+1630.1.1 = { leader = {	name = "P.J. Sapieha"		type = general		rank = 2	fire = 2	shock = 3	manuever = 5	siege = 0	death_date = 1665.1.1 } }
+
+1632.4.30 = {
+	monarch = {
+		name = "Wladyslaw IV"
+		dynasty = "Vasa"
+		adm = 7
+		dip = 8
+		mil = 7
+		leader = { name = "Wladyslaw IV Wasa"	type = general	rank = 0	fire = 3	shock = 3	manuever = 4	siege = 1 }
+	}
+}
+
+1632.4.30 = {
+	heir = {
+		name = "Jan Kazimierz"
+		monarch_name = "Jan II Kazimierz"
+		dynasty = "Vasa"
+		birth_date = 1609.3.22
+		death_date = 1672.12.16
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+1640.1.1 = { leader = {	name = "Wisnowiecki"		type = general	rank = 2	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1651.8.20 } }
+
+1648.5.20 = {
+	monarch = {
+		name = "Jan II Kazimierz"
+		dynasty = "Vasa"
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+1650.1.1 = { leader = {	name = "von Winter"            	type = general	rank = 2	fire = 4	shock = 2	manuever = 2	siege = 0	death_date = 1671.1.1 } }
+
+1651.1.1 = { leader = {	name = "Gosiewski"             	type = general	rank = 2	fire = 4	shock = 3	manuever = 2	siege = 0	death_date = 1658.1.1 } }
+
+1652.1.1 = { aristocracy_plutocracy = -5 centralization_decentralization = 5 mercantilism_freetrade = -5 serfdom_freesubjects = -5 quality_quantity = 5 } # Liberum Veto in Poland
+
+1654.1.1 = { leader = {	name = "S.J. Jablonowski"		type = general	rank = 1	fire = 3	shock = 3	manuever = 3	siege = 1	death_date = 1690.1.1 } }
+
+1655.1.1 = { leader = {	name = "Stefan Czarniecki"	type = general	rank = 3	fire = 3	shock = 5	manuever = 4	siege = 0	death_date = 1665.2.16 } }
+
+1657.1.1 = { leader = {	name = "Jerzy Lubomirski"      	type = general	rank = 2	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1667.1.1 } }
+
+1669.1.1 = {
+	monarch = {
+		name = "Michal I Korybut"
+		dynasty = "Wisniowiecki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1672.1.1 = { quality_quantity = 2 } # The Sobieskian Army Reforms
+
+1672.2.1 = { aristocracy_plutocracy = -5 centralization_decentralization = 5 mercantilism_freetrade = -5 serfdom_freesubjects = -5 } # Ending the Stagnation
+
+1674.5.1 = {
+	monarch = {
+		name = "Jan III"
+		dynasty = "Sobieski"
+		adm = 5
+		dip = 8
+		mil = 9
+		leader = { name = "Jan Sobieski"	type = general	rank = 0	fire = 3	shock = 5	manuever = 3	siege = 0 }
+	}
+}
+
+1680.1.1 = { leader = {	name = "Johann Patkul"		type = general	rank = 0	fire = 2	shock = 1	manuever = 4	siege = 0	death_date = 1707.10.10 } }
+
+1696.9.15 = { quality_quantity = 4 land_naval = 0 } # The Polish Succession of 1697
+
+1697.1.1 = {
+	monarch = {
+		name = "August II Mocny"
+		dynasty = "von Wettin"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1697.2.1 = { centralization_decentralization = 5 mercantilism_freetrade = -5 serfdom_freesubjects = -5 aristocracy_plutocracy = -5 } # Ending the Stagnation
+
+1700.1.1 = { leader = {	name = "Jan K. Sapieha"		type = general	rank = 2	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1726.1.1 } }
+
+1700.1.1 = {
+	monarch = {
+		name = "Stanislaw I"
+		dynasty = "Leszczynski"
+		adm = 8
+		dip = 5
+		mil = 6
+	}
+}
+
+1730.1.1 = { leader = {	name = "J.M. Pac"              	type = general	rank = 2	fire = 1	shock = 2	manuever = 4	siege = 0	death_date = 1780.1.1 } }
+
+1733.1.30 = { centralization_decentralization = 4 aristocracy_plutocracy = -4 mercantilism_freetrade = -4 land_naval = 3 } # The Polish Succession of 1733
+
+1735.10.3 = {
+	monarch = {
+		name = "August III Sas"
+		dynasty = "von Wettin"
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+1735.11.10 = { leader = { name = "Michal Radziwill"      	type = general	rank = 2	fire = 1	shock = 3	manuever = 3	siege = 0	death_date = 1762.5.22 } }
+
+1740.1.1 = { leader = {	name = "Benyowski"             		type = general	rank = 1	fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 1770.1.1 } }
+
+1740.1.30 = { centralization_decentralization = 5 } # Friedrich Augustus Wettin backs down!
+
+1755.1.1 = { leader = {	name = "Stanislaw Poniatowski"          type = general	rank = 2	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1798.2.12 } }
+
+1762.10.9 = { leader = { name = "A. Sapieha"            	type = general	rank = 2	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1775.9.13 } }
+
+1764.2.1 = { centralization_decentralization = 5 mercantilism_freetrade = -5 serfdom_freesubjects = -5 } # Ending the Stagnation
+
+1764.9.6 = { aristocracy_plutocracy = -3 centralization_decentralization = 2 mercantilism_freetrade = -3 serfdom_freesubjects = -3 innovative_narrowminded = -3 } # Stanislaus Poniatowski-'The Last King
+
+1764.9.8 = {
+	monarch = {
+		name = "Stanislaw II"
+		dynasty = "Poniatowski"
+		adm = 5
+		dip = 7
+		mil = 4
+	}
+}
+
+1779.1.1 = { leader = {	name = "Kazimierz Pulaski"	type = general	rank = 1	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1779.10.11 } }
+
+1788.2.1 = { aristocracy_plutocracy = 0 centralization_decentralization = 0 mercantilism_freetrade = 0 serfdom_freesubjects = 0 } # Ending the Stagnation
+
+1789.1.1 = { leader = {	name = "Tadeusz Kosciuszko"	type = general	rank = 1	fire = 3	shock = 4	manuever = 5	siege = 1	death_date = 1817.10.15 } }
+
+1789.1.1 = { leader = {	name = "J. Poniatowski"        	type = general	rank = 2	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1813.1.1 } }

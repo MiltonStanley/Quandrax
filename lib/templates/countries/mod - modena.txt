@@ -1,0 +1,219 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = 1
+quality_quantity = -1
+serfdom_freesubjects = -2
+technology_group = western
+religion = catholic
+primary_culture = lombard
+capital = 106	# Modena
+
+1597.10.28 = {
+	monarch = {
+		name = "Cesare"
+		dynasty = "d'Este"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1597.10.28 = {
+	heir = {
+		name = "Alfonso"
+		monarch_name = "Alfonso III"
+		dynasty = "d'Este"
+		claim = 95
+		birth_date = 1591.1.1
+		death_date = 1644.5.26
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1628.12.12 = {
+	monarch = {
+		name = "Alfonso III"
+		dynasty = "d'Este"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1628.12.12 = {
+	heir = {
+		name = "Francesco"
+		monarch_name = "Francesco I"
+		dynasty = "d'Este"
+		birth_date = 1610.9.6
+		death_date = 1658.10.14
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1629.6.2 = {
+	monarch = {
+		name = "Francesco I"
+		dynasty = "d'Este"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1634.1.1 = {
+	heir = {
+		name = "Alfonso"
+		monarch_name = "Alfonso IV"
+		dynasty = "d'Este"
+		claim = 95
+		birth_date = 1634.1.1
+		death_date = 1662.7.16
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1658.10.15 = {
+	monarch = {
+		name = "Alfonso IV"
+		dynasty = "d'Este"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1660.3.6 = {
+	heir = {
+		name = "Francesco"
+		monarch_name = "Francesco II"
+		dynasty = "d'Este"
+		claim = 95
+		birth_date = 1660.3.6
+		death_date = 1694.9.6
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+
+1662.7.6 = { government = absolute_monarchy }
+
+1662.7.6 = {
+	monarch = {
+		name = "Francesco II"
+		dynasty = "d'Este"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1662.7.6 = {
+	heir = {
+		name = "Rinaldo"
+		monarch_name = "Rinaldo III"
+		dynasty = "d'Este"
+		birth_date = 1655.4.26
+		death_date = 1737.10.26
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1694.9.6 = {
+	monarch = {
+		name = "Rinaldo III"
+		dynasty = "d'Este"
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1698.7.2 = {
+	heir = {
+		name = "Francesco"
+		monarch_name = "Francesco III"
+		dynasty = "d'Este"
+		birth_date = 1698.7.2
+		death_date = 1780.2.22
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 6
+	}
+}
+
+1737.10.27 = { government = enlightened_despotism }
+
+1737.10.27 = {
+	monarch = {
+		name = "Francesco III"
+		dynasty = "d'Este"
+		adm = 4
+		dip = 3
+		mil = 6
+	}
+}
+
+1737.10.27 = {
+	heir = {
+		name = "Ercole"
+		monarch_name = "Ercole III"
+		dynasty = "d'Este"
+		birth_date = 1727.11.22
+		death_date = 1803.10.14
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1780.2.21 = {
+	monarch = {
+		name = "Ercole III"
+		dynasty = "d'Este"
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1796.10.16 = { government = constitutional_republic }
+
+1796.12.28 = {
+	monarch = {
+		name = "Republicca Cispadana"
+		adm = 5
+		dip = 7
+		mil = 3
+	}
+}
+
+1806.12.25 = { government = enlightened_despotism }
+
+1806.12.25 = {
+	monarch = {
+		name = "Francesco IV"
+		dynasty = "von Habsburg"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}

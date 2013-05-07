@@ -1,0 +1,75 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 2
+innovative_narrowminded = 1
+mercantilism_freetrade = -1
+offensive_defensive = 2
+land_naval = -3
+quality_quantity = 2
+serfdom_freesubjects = -5
+technology_group = eastern
+religion = orthodox
+primary_culture = russian
+capital = 308	# Yaroslavl
+
+
+#Princes (Lvov, a rurikid dynasty)
+1380.1.1 = {
+	monarch = {
+		name = "Ivan Bolshoy"
+		dynasty = "Rurikovich"
+		DIP = 6
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1386.1.1 = {
+	heir = {
+		name = "Fedor"
+		monarch_name = "Fedor"
+		dynasty = "Rurikovich"
+		birth_date = 1386.1.1
+		death_date = 1434.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1426.1.1 = {
+	monarch = {
+		name = "Fedor"
+		dynasty = "Rurikovich"
+		DIP = 4
+		ADM = 4
+		MIL = 3
+	}
+}
+
+1426.1.1 = {
+	heir = {
+		name = "Alexandr"
+		monarch_name = "Alexandr Bryukhatiy"
+		dynasty = "Rurikovich"
+		birth_date = 1400.1.1
+		death_date = 1480.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1434.1.1 = {
+	monarch = {
+		name = "Alexandr Bryukhatiy"
+		dynasty = "Rurikovich"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+#Annexed by Muscovy in 1463

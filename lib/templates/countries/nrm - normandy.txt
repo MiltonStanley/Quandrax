@@ -1,0 +1,30 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -1
+centralization_decentralization = 2
+innovative_narrowminded = 2
+mercantilism_freetrade = 3
+offensive_defensive = 3
+land_naval = 3
+quality_quantity = 2
+serfdom_freesubjects = -3
+technology_group = western
+primary_culture = normand
+add_accepted_culture = cosmopolitan_french
+religion = catholic
+capital = 168	# Caen
+
+1465.8.15 = {
+	monarch = {
+		name = "Charles I"
+		dynasty = "de Valois"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1515.1.1 = { government = despotic_monarchy }
+
+1589.8.3 = { government = administrative_monarchy }
+
+1661.3.9 = { government = absolute_monarchy }

@@ -1,0 +1,636 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = 0
+quality_quantity = 3
+serfdom_freesubjects = -2
+primary_culture = central_thai
+religion = buddhism
+technology_group = chinese
+capital = 600	# Ayutthaya
+
+
+1395.1.1 = {
+	monarch = {
+		name = "Ram Raja"
+		dynasty = "Uthong"
+		adm = 5
+		dip = 4
+		mil = 4	
+	}
+}
+
+1408.1.1 = {
+	monarch = {
+		name = "Int'araja I"
+		dynasty = "Suphannaphum"
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1408.1.1 = {
+	heir = {
+		name = "Boromoraja"
+		monarch_name = "Boromoraja II"
+		dynasty = "Suphannaphum"
+		birth_date = 1408.1.1 # Actual unknown
+		death_date = 1448.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 6
+		leader = { 
+			name = "Boromoraja II"
+			type = general
+			rank = 0
+			fire = 2	
+			shock = 4	
+			manuever = 3	
+			siege = 1 
+		}
+		
+	}
+}
+		
+1424.1.1 = {
+	monarch = {
+		name = "Boromoraja II"
+		dynasty = "Suphannaphum"
+		adm = 4
+		dip = 5
+		mil = 6
+		leader = { name = "Boromoraja II"      	type = general	rank = 0	fire = 2	shock = 4	manuever = 3	siege = 1 }
+	}
+}
+
+1431.1.1 = {
+	heir = {
+		name = "Boromo Trailokanat"
+		monarch_name = "Boromo Trailokanat"
+		dynasty = "Suphannaphum"
+		birth_date = 1431.1.1
+		death_date = 1488.1.1
+		claim = 95
+		adm = 9
+		dip = 5
+		mil = 5
+	}
+}
+
+1448.1.1 = {
+	monarch = {
+		name = "Boromo Trailokanat"
+		dynasty = "Suphannaphum"
+		adm = 9
+		dip = 5
+		mil = 5
+	}
+}
+
+1470.1.1 = {
+	heir = {
+		name = "Boromorajat"
+		monarch_name = "Boromorajat III"
+		dynasty = "Suphannaphum"
+		claim = 95
+		birth_date = 1470.1.1
+		death_date = 1491.1.1
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+1488.1.1 = {
+	monarch = {
+		name = "Boromorajat III"
+		dynasty = "Suphannaphum"
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+1488.1.1 = {
+	heir = {
+		name = "Rama T'ibodi"
+		monarch_name = "Rama T'ibodi III"
+		dynasty = "Suphannaphum"
+		birth_date = 1473.1.1
+		death_date = 1529.7.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+		leader = { name = "Rama T'ibodi III"      type = general	rank = 0	fire = 1	shock = 3	manuever = 4	siege = 0 }
+	}
+}
+
+1491.1.1 = {
+	monarch = {
+		name = "Rama T'ibodi III"
+		dynasty = "Suphannaphum"
+		adm = 5
+		dip = 4
+		mil = 4
+		leader = { name = "Rama T'ibodi III"      type = general	rank = 0	fire = 1	shock = 3	manuever = 4	siege = 0 }
+	}
+}
+
+1515.1.1 = {
+	heir = {
+		name = "Atitayawongse"
+		monarch_name = "Boromoraja IV"
+		dynasty = "Suphannaphum"
+		birth_date = 1515.1.1
+		death_date = 1533.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1529.7.1 = {
+	monarch = {
+		name = "Boromoraja IV"
+		dynasty = "Suphannaphum"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1529.7.1 = {
+	heir = {
+		name = "Ratsada"
+		monarch_name = "Ratsada"
+		dynasty = "Suphannaphum"
+		birth_date = 1528.1.1
+		death_date = 1534.1.1
+		claim = 95
+		adm = 6
+		dip = 8
+		mil = 6
+	}
+}
+
+1533.1.1 = {
+	monarch = {
+		name = "Ratsada"
+		dynasty = "Suphannaphum"
+		adm = 6
+		dip = 8
+		mil = 6
+	}
+}
+
+1533.1.1 = {
+	heir = {
+		name = "Chairacha"
+		monarch_name = "Chairacha"
+		dynasty = "Suphannaphum"
+		birth_date = 1520.1.1
+		death_date = 1546.6.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1534.1.1 = {
+	monarch = {
+		name = "Chairacha"
+		dynasty = "Suphannaphum"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1535.1.1 = {
+	heir = {
+		name = "Keo Fa"
+		monarch_name = "Keo Fa"
+		dynasty = "Suphannaphum"
+		birth_date = 1535.1.1
+		death_date = 1548.11.12
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1546.6.1 = {
+	monarch = {
+		name = "Keo Fa"
+		dynasty = "Suphannaphum"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1548.11.12 = {
+	monarch = {
+		name = "Khun Worawongsa"
+		dynasty = "Suphannaphum"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1549.1.20 = {
+	monarch = {
+		name = "Maha Chakkrap'at"
+		dynasty = "Suphannaphum"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1549.1.20 = {
+	heir = {
+		name = "Mahin"
+		monarch_name = "Mahin"
+		dynasty = "Suphannaphum"
+		birth_date = 1539.1.1
+		death_date = 1569.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1568.1.1 = {
+	monarch = {
+		name = "Mahin"
+		dynasty = "Suphannaphum"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1569.11.1 = {
+	monarch = {
+		name = "Maha Thammaraja I"
+		dynasty = "Suhkothai"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1569.11.1 = {
+	heir = {
+		name = "Naresuen"
+		monarch_name = "Naresuen"
+		dynasty = "Suhkothai"
+		birth_date = 1555.4.25
+		death_date = 1605.4.7
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 8
+		leader = { name = "Naresuen"	type = general	rank = 0	fire = 2	shock = 3	manuever = 4	siege = 1 }
+	}
+}
+
+1590.7.1 = {
+	monarch = {
+		name = "Naresuen"
+		dynasty = "Suhkothai"
+		adm = 7
+		dip = 6
+		mil = 8
+		
+		leader = { name = "Naresuen"	type = general	rank = 0	fire = 2	shock = 3	manuever = 4	siege = 1 }
+	}
+}
+
+1590.7.1 = {
+	heir = {
+		name = "Ekat'otsarat"
+		monarch_name = "Ekat'otsarat"
+		dynasty = "Suhkothai"
+		birth_date = 1556.1.1
+		death_date = 1610.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1605.5.17 = {
+	monarch = {
+		name = "Ekat'otsarat"
+		dynasty = "Suhkothai"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1605.5.17 = {
+	heir = {
+		name = "Songtham"
+		monarch_name = "Songtham Int'araja II"
+		dynasty = "Suhkothai"
+		birth_date = 1590.1.1
+		death_date = 1628.12.13
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1611.1.1 = {
+	monarch = {
+		name = "Songtham Int'araja II"
+		dynasty = "Suhkothai"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1613.1.1 = {
+	heir = {
+		name = "Jett'atirat"
+		monarch_name = "Jett'atirat"
+		dynasty = "Suhkothai"
+		birth_date = 1613.1.1
+		death_date = 1629.8.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1628.12.13 = {
+	monarch = {
+		name = "Jett'atirat"
+		dynasty = "Suhkothai"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1628.12.13 = {
+	heir = {
+		name = "At'ityawang"
+		monarch_name = "At'ityawang"
+		dynasty = "Suhkothai"
+		birth_date = 1618.1.1
+		death_date = 1640.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1629.8.1 = {
+	monarch = {
+		name = "At'ityawang"
+		dynasty = "Suhkothai"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1629.9.1 = {
+	monarch = {
+		name = "Prasat Thong"
+		dynasty = "Prasat Thong"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+
+1629.9.1 = {
+	heir = {
+		name = "Chao Fa Jai"
+		monarch_name = "Chao Fa Jai"
+		dynasty = "Prasat Thong"
+		birth_date = 1629.1.1
+		death_date = 1688.7.11
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+		leader = { name = "Narai"	type = general	rank = 0	fire = 2	shock = 2	manuever = 2	siege = 0 }
+	}
+}
+1656.8.8 = {
+	monarch = {
+		name = "Chao Fa Jai"
+		dynasty = "Prasat Thong"
+		adm = 5
+		dip = 4
+		mil = 4
+		leader = { name = "Narai"	type = general	rank = 0	fire = 2	shock = 2	manuever = 2	siege = 0 }
+	}
+}
+
+1656.8.9 = {
+	monarch = {
+		name = "Sri Suthammaraja"
+		dynasty = "Prasat Thong"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1656.8.26 = {
+	monarch = {
+		name = "Narai"
+		dynasty = "Prasat Thong"
+		adm = 6
+		dip = 8
+		mil = 6
+	}
+}
+
+1656.8.26 = {
+	heir = {
+		name = "P'ra P'etraja"
+		monarch_name = "P'ra P'etraja"
+		dynasty = "Ban Phlu Luang"
+		birth_date = 1632.1.1
+		death_date = 1703.2.1
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1688.7.12 = {
+	monarch = {
+		name = "P'ra P'etraja"
+		dynasty = "Ban Phlu Luang"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1688.7.12 = {
+	heir = {
+		name = "P'rachao Sua"
+		monarch_name = "P'rachao Sua"
+		dynasty = "Ban Phlu Luang"
+		birth_date = 1680.1.1 # Actual unknown
+		death_date = 1709.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1703.2.1 = {
+	monarch = {
+		name = "P'rachao Sua"
+		dynasty = "Ban Phlu Luang"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1703.2.1 = {
+	heir = {
+		name = "T'ai Sra Pumint'araja"
+		monarch_name = "T'ai Sra Pumint'araja"
+		dynasty = "Ban Phlu Luang"
+		birth_date = 1680.1.1
+		death_date = 1733.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1709.1.1 = {
+	monarch = {
+		name = "T'ai Sra Pumint'araja"
+		dynasty = "Ban Phlu Luang"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1709.1.1 = {
+	heir = {
+		name = "Boromakot T'ammaraja"
+		monarch_name = "Bormomakot T'ammaraja II"
+		dynasty = "Ban Phlu Luang"
+		birth_date = 1680.1.1
+		death_date = 1758.4.14
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1733.1.1 = {
+	monarch = {
+		name = "Boromakot T'ammaraja II"
+		dynasty = "Ban Phlu Luang"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1758.4.14 = {
+	monarch = {
+		name = "Ut'ump'on"
+		dynasty = "Ban Phlu Luang"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1758.5.1 = {
+	monarch = {
+		name = "Ekat'at Boromaraja III"
+		dynasty = "Ban Phlu Luang"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1760.1.1 = { leader = {	name = "Ponney"		type = general	rank = 3	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1770.1.1 } }
+
+
+1767.4.8 = {
+	monarch = {
+		name = "Phya Taksin"
+		dynasty = "Thonburi"
+		adm = 6
+		dip = 7
+		mil = 8
+		leader = { name = "Taksin"	type = general	rank = 0	fire = 2	shock = 4	manuever = 4	siege = 0 }
+	}
+}
+
+1782.4.8 = {
+	monarch = {
+		name = "Rama I"
+		dynasty = "Chakri"
+		adm = 8
+		dip = 5
+		mil = 7
+		leader = { name = "Rama I"	type = general	rank = 0	fire = 2	shock = 4	manuever = 4	siege = 0 }
+	}
+}
+
+1782.4.8 = {
+	heir = {
+		name = "Buddha Loetla Nabhalai"
+		monarch_name = "Rama II"
+		dynasty = "Chakri" 
+		birth_date = 1767.2.24
+		death_date = 1824.7.21
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1809.9.7 = {
+	monarch = {
+		name = "Rama II"
+		dynasty = "Chakri"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}

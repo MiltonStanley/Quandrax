@@ -1,0 +1,216 @@
+government = theocratic_government
+aristocracy_plutocracy = -4
+centralization_decentralization = 5
+innovative_narrowminded = 2
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = 1
+quality_quantity = 0
+serfdom_freesubjects = -2
+technology_group = western
+elector = yes
+religion = catholic
+primary_culture = rheinlaender
+capital = 80	# Trier
+
+
+#Elector-Archbishops of Trier
+1388.1.1 = {
+	monarch = {
+		name = "Werner von Falkenstein"
+		DIP = 5
+		ADM = 3
+		MIL = 5
+	}
+}
+
+1418.1.1 = {
+	monarch = {
+		name = "Otto von Ziegenhain"
+		DIP = 3
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1430.1.1 = {
+	monarch = {
+		name = "Rhaban von Helmstadt"
+		DIP = 6
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1438.6.27 = {
+	monarch = {
+		name = "Jakob von Sirk"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1456.4.28 = {
+	monarch = {
+		name = "Johann I von Baden"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1503.2.9 = {
+	monarch = {
+		name = "Jakob II von Baden"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1511.4.27 = {
+	monarch = {
+		name = "Richard Grieffenklau"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1531.3.15 = {
+	monarch = {
+		name = "Johann von Melzenhausen"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1540.7.22 = {
+	monarch = {
+		name = "Johann IV von Hagen"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1547.3.27 = {
+	monarch = {
+		name = "Johann V von Isenburg"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1556.2.8 = {
+	monarch = {
+		name = "Johann VI von der Leyen"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1567.2.8 = {
+	monarch = {
+		name = "Jakob III von Eltz"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1581.6.4 = {
+	monarch = {
+		name = "Johann von Schönenberg"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1599.5.1 = {
+	monarch = {
+		name = "Lothar von Metternich"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1623.9.7 = {
+	monarch = {
+		name = "Philipp von Söttern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1652.2.7 = {
+	monarch = {
+		name = "Karl Kaspar von der Leyen"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1676.6.1 = {
+	monarch = {
+		name = "Johann VIII von Osbeck"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1711.1.6 = {
+	monarch = {
+		name = "Karl von Lothringen"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1714.12.4 = {
+	monarch = {
+		name = "Franz Ludwig von Neuburg"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1729.4.7 = {
+	monarch = {
+		name = "Franz Georg von Schönborn"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1756.1.18 = {
+	monarch = {
+		name = "Johann von Walderdorf"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1768.1.12 = {
+	monarch = {
+		name = "Klemens von Sachsen"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1797.10.17 = { elector = no } # Trier is annexed by France after the Treaty of Campo Formio

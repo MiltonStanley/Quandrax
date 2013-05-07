@@ -1,0 +1,171 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 3
+serfdom_freesubjects = -2
+technology_group = indian
+religion = sunni
+primary_culture = avadhi
+capital = 523	# Lucknow
+
+
+# Nawabs of Awadh
+
+1724.10.9 = {
+	monarch = {
+		name = "Muhammad Sa'adat Khan"
+		dynasty = "Awadh"
+		adm = 8
+		dip = 9
+		mil = 8
+	}
+}
+
+1724.10.9 = {
+	heir = {
+		name = "Muhammad Safdar Jang"
+		monarch_name = "Muhammad Safdar Jang"
+		dynasty = "Awadh"
+		birth_date = 1708.1.1
+		death_date = 1754.10.5
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1739.3.19 = {
+	monarch = {
+		name = "Muhammad Safdar Jang"
+		dynasty = "Awadh"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1739.3.19 = {
+	heir = {
+		name = "Shujah ad-Daula"
+		monarch_name = "Shujah ad-Daula"
+		dynasty = "Awadh"
+		birth_date = 1732.1.19
+		death_date = 1775.1.26
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1754.10.5 = {
+	monarch = {
+		name = "Shujah ad-Daula"
+		dynasty = "Awadh"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1754.10.5 = {
+	heir = {
+		name = "Asaf ad-Daula"
+		monarch_name = "Asaf ad-Daula"
+		dynasty = "Awadh"
+		birth_date = 1748.9.23
+		death_date = 1797.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1775.1.26 = {
+	monarch = {
+		name = "Asaf ad-Daula"
+		dynasty = "Awadh"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1775.1.26 = {
+	heir = {
+		name = "Wazir 'Ali"
+		monarch_name = "Wazir 'Ali"
+		dynasty = "Awadh"
+		birth_date = 1748.9.23
+		death_date = 1798.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1797.1.1 = {
+	monarch = {
+		name = "Wazir 'Ali"
+		dynasty = "Awadh"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1797.1.1 = {
+	heir = {
+		name = "Sa'adat 'Ali"
+		monarch_name = "Sa'adat 'Ali Khan II"
+		dynasty = "Awadh"
+		birth_date = 1752.1.1
+		death_date = 1814.7.11
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1798.1.1 = {
+	monarch = {
+		name = "Sa'adat 'Ali Khan"
+		dynasty = "Awadh"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1798.1.1 = {
+	heir = {
+		name = "Ghazi ud-Din Haidar"
+		monarch_name = "Ghazi ud-Din Haidar"
+		dynasty = "Awadh"
+		birth_date = 1769.1.1
+		death_date = 1827.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+		
+
+1814.1.1 = {
+	monarch = {
+		name = "Ghazi ud-Din Haidar"
+		dynasty = "Awadh"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}

@@ -1,0 +1,535 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = -2
+mercantilism_freetrade = 3
+offensive_defensive = 0
+land_naval = 3
+quality_quantity = 3
+serfdom_freesubjects = -2
+primary_culture = bedouin_arabic
+religion = shiite
+technology_group = muslim
+capital = 400	# Muscat
+
+#Rulers of Suhar
+
+1380.1.1 = {
+	monarch = {
+		name = "Mahzum"
+		dynasty = "Nabhan"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1430.1.1 = {
+	heir = {
+		name = "Sulaymân"
+		monarch_name = "Sulaymân"
+		dynasty = "Nabhan"
+		birth_date = 1430.1.1
+		death_Date = 1488.1.1
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 6
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Sulaymân"
+		dynasty = "Nabhan"
+		adm = 7
+		dip = 7
+		mil = 6
+	}
+}
+
+#Rulers of Nizwa
+
+1488.1.1 = {
+	monarch = {
+		name = "'Umar"
+		dynasty = "al-Julanda"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1488.1.1 = {
+	heir = {
+		name = "Muhammaed"
+		monarch_name = "Muhammaed I"
+		dynasty = "al-Julanda"
+		birth_Date = 1470.1.1
+		death_date = 1492.1.1
+		claim = 95
+		adm = 3
+		dip = 7
+		mil = 6
+	}
+}
+
+1489.1.1 = {
+	monarch = {
+		name = "Muhammaed I"
+		dynasty = "al-Julanda"
+		adm = 3
+		dip = 7
+		mil = 6
+	}
+}
+
+1489.1.1 = {
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad"
+		dynasty = "al-Julanda"
+		birth_Date = 1470.1.1
+		death_date = 1499.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1492.1.1 = {
+	monarch = {
+		name = "Ahmad"
+		dynasty = "al-Julanda"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1492.1.1 = {
+	heir = {
+		name = "Abu'l-Hasan"
+		monarch_name = "Abu'l-Hasan"
+		dynasty = "al-Julanda"
+		birth_Date = 1490.1.1
+		death_Date = 1500.1.1
+		claim = 95
+		adm = 5
+		dip = 7
+		mil = 7
+	}
+}
+
+1499.1.1 = {
+	monarch = {
+		name = "Abu'l-Hasan"
+		dynasty = "al-Julanda"
+		adm = 5
+		dip = 7
+		mil = 7
+	}
+}
+
+1499.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad II"
+		dynasty = "al-Julanda"
+		birth_Date = 1480.1.1
+		death_Date = 1535.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1500.1.1 = {
+	monarch = {
+		name = "Muhammad II"
+		dynasty = "al-Julanda"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1500.1.1 = {
+	heir = {
+		name = "Barakât"
+		monarch_name = "Barakât"
+		dynasty = "al-Julanda"
+		birth_Date = 1500.1.1
+		death_Date = 1560.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1535.1.1 = {
+	monarch = {
+		name = "Barakât"
+		dynasty = "Nabhan"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+#Rulers of Suhar
+
+1560.1.1 = {
+	monarch = {
+		name = "Makhzûm"
+		dynasty = "Nabhan"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1560.1.1 = {
+	heir = {
+		name = "Habhân"
+		monarch_name = "Habhân"
+		dynasty = "Nabhan"
+		birth_Date = 1560.1.1
+		death_Date = 1617.2.16
+		claim = 95
+		adm = 7
+		dip = 3
+		mil = 5
+	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Habhân"
+		dynasty = "Nabhan"
+		adm = 7
+		dip = 3
+		mil = 5
+	}
+}
+
+1615.1.1 = {
+	heir = {
+		name = "'Umayr"
+		monarch_name = "'Umayr"
+		dynasty = "Nabhan"
+		birth_Date = 1600.1.1
+		death_Date = 1624.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1617.2.16 = {
+	monarch = {
+		name = "'Umayr"
+		dynasty = "Nabhan"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+#To Yarubids, Oman
+
+1624.1.1 = {
+	monarch = {
+		name = "Nâsir"
+		dynasty = "Ya'ariba"
+		adm = 7
+		dip = 6
+		mil = 3
+	}
+}
+
+1624.1.1 = {
+	heir = {
+		name = "Sultân"
+		monarch_name = "Sultân I"
+		dynasty = "Ya'ariba"
+		birth_Date = 1620.1.1
+		death_Date = 1668.11.12
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+
+1649.4.5 = {
+	monarch = {
+		name = "Sultân I"
+		dynasty = "Ya'ariba"
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+
+1649.4.5 = {
+	heir = {
+		name = "Abi'l-'Arab"
+		monarch_name = "Abi'l-'Arab I"
+		dynasty = "Ya'ariba"
+		birth_Date = 1640.1.1
+		death_Date = 1679.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1668.11.12 = {
+	monarch = {
+		name = "Abi'l-'Arab I"
+		dynasty = "Ya'ariba"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1668.11.12 = {
+	heir = {
+		name = "Sayf"
+		monarch_name = "Sayf I"
+		dynasty = "Ya'ariba"
+		birth_Date = 1660.1.1
+		death_date = 1711.10.16
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+		
+
+1679.1.1 = {
+	monarch = {
+		name = "Sayf I"
+		dynasty = "Ya'ariba"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1679.1.1 = {
+	heir = {
+		name = "Sultân II"
+		monarch_name = "Sultân II"
+		dynasty = "Ya'ariba"
+		birth_Date = 1679.1.1
+		death_date = 1718.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1711.10.16 = {
+	monarch = {
+		name = "Sultân II"
+		dynasty = "Ya'ariba"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1711.10.16 = {
+	heir = {
+		name = "Muhannâ"
+		monarch_name = "Muhannâ"
+		dynasty  = "Ya'ariba"
+		birth_Date = 1700.1.1
+		death_Date = 1720.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1718.1.1 = {
+	monarch = {
+		name = "Muhannâ"
+		dynasty = "Ya'ariba"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1718.1.1 = {
+	heir = {
+		name = "Sayf"
+		monarch_name = "Sayf II"
+		dynasty = "Ya'ariba"
+		birth_Date = 1700.1.1
+		death_date = 1724.10.3
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1720.1.1 = {
+	monarch = {
+		name = "Sayf II"
+		dynasty = "Ya'ariba"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+
+
+1724.10.3 = {
+	monarch = {
+		name = "Muhammad III"
+		dynasty = "Banu Ghafir"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1728.4.12 = {
+	monarch = {
+		name = "Sayf II"
+		dynasty = "Ya'ariba"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1728.4.12 = {
+	heir = {
+		name = "Sultân"
+		monarch_name = "Sultân III"
+		birth_Date = 1700.1.1
+		death_Date = 1743.7.2
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1742.2.1 = {
+	monarch = {
+		name = "Sultân III"
+		dynasty = "Ya'ariba"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1743.7.2 = {
+	monarch = {
+		name = "Abi'l-'Arab II"
+		dynasty = "Ya'ariba"
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1749.6.10 = {
+	monarch = {
+		name = "Ahmad"
+		dynasty = "Al Said"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1750.1.1 = {
+	heir = {
+		name = "Sâ'îd"
+		monarch_name = "Sâ'îd I"
+		dynasty = "Al Said"
+		birth_Date = 1750.1.1
+		death_date = 1804.11.16
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1783.12.16 = {
+	monarch = {
+		name = "Sâ'îd I"
+		dynasty = "Al Said"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1783.12.16 = {
+	heir = {
+		name = "Sâlim"
+		monarch_name = "Sâlim I"
+		dynasty = "Al Said"
+		birth_Date = 1780.1.1
+		death_Date = 1806.9.14
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1804.11.16 = {
+	monarch = {
+		name = "Sâlim I"
+		dynasty = "Al Said"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1804.11.6 = {
+	heir = {
+		name = "Sâ'îd"
+		monarch_name = "Sâ'îd II"
+		dynasty = "Al Said"
+		birth_Date = 1797.6.5
+		death_Date = 1856.10.19
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1806.9.14 = {
+	monarch = {
+		name = "Sâ'îd II"
+		dynasty = "Al Said"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}

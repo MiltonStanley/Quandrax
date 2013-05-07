@@ -1,0 +1,290 @@
+government = steppe_horde
+aristocracy_plutocracy = -4
+centralization_decentralization = 5
+innovative_narrowminded = 3
+mercantilism_freetrade = -3
+offensive_defensive = -1
+land_naval = -5
+quality_quantity = 3
+serfdom_freesubjects = -5
+primary_culture = siberian
+religion = sunni
+technology_group = nomad_group
+capital = 1074	# Sibir
+
+
+1450.1.1 = {
+	monarch = {
+		name = "Taybuga Khan"
+		dynasty = "Shaybanid"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1450.1.1 = {
+	heir = {
+		name = "Khwajâ"
+		monarch_name = "Khwajâ Khan"
+		dynasty = "Shaybanid"
+		birth_Date = 1450.1.1
+		death_date = 1465.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1458.1.1 = {
+	monarch = {
+		name = "Khwajâ' Khan"
+		dynasty = "Shaybanid"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1458.1.1 = {
+	heir = {
+		name = "Mar"
+		monarch_name = "Mar Khan"
+		dynasty = "Shaybanid"
+		birth_Date = 1430.1.1
+		death_date = 1472.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Mar Khan"
+		dynasty = "Shaybanid"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1465.1.1 = {
+	heir = {
+		name = "Obder"
+		monarch_name = "Obder Khan"
+		dynasty = "Shaybanid"
+		birth_date = 1460.1.1
+		death_date = 1480.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+
+1472.1.1 = {
+	monarch = {
+		name = "Obder Khan"
+		dynasty = "Shaybanid"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+
+1472.1.1 = {
+	heir = {
+		name = "Ibaq"
+		monarch_name = "Ibaq Khan"
+		dynasty = "Shaybanid"
+		birth_date = 1472.1.1
+		death_date = 1494.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Ibaq Khan"
+		dynasty = "Shaybanid"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1480.1.1 = {
+	heir = {
+		name = "Mamuk"
+		monarch_name = "Mamuk Khan"
+		dynasty = "Shaybanid"
+		birth_Date = 1475.1.1
+		death_Date = 1497.1.1
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 6
+		leader = {	name = "Mamuk Khan"            	type = general	rank = 0	fire = 0	shock = 3	manuever = 4	siege = 0}
+	}
+}
+
+1494.1.1 = {
+	monarch = {
+		name = "Mamuk Khan"
+		dynasty = "Shaybanid"
+		adm = 3
+		dip = 6
+		mil = 6
+		leader = {	name = "Mamuk Khan"            	type = general	rank = 0	fire = 0	shock = 3	manuever = 4	siege = 0}
+	}
+}
+
+1494.1.1 = {
+	heir = {
+		name = "Abalak"
+		monarch_name = "Abalak Khan"
+		dynasty = "Shaybanid"
+		birth_Date = 1474.1.1
+		death_Date = 1500.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1497.1.1 = {
+	monarch = {
+		name = "Abalak Khan"
+		dynasty = "Shaybanid"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1497.1.1 = {
+	heir = {
+		name = "Aguis"
+		monarch_name = "Aguis Khan"
+		dynasty = "Shaybanid"
+		birth_date = 1480.1.1
+		death_date = 1522.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1500.1.1 = {
+	monarch = {
+		name = "Aguis Khan"
+		dynasty = "Shaybanid"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1500.1.1 = {
+	heir = {
+		name = "Qasim"
+		monarch_name = "Qasim Khan"
+		dynasty = "Shaybanid"
+		birth_date = 1500.1.1
+		death_date = 1544.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1522.1.1 = {
+	monarch = {
+		name = "Qasim Khan"
+		dynasty = "Shaybanid"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1522.1.1 = {
+	heir = {
+		name = "Bekbulat"
+		monarch_name = "Bekbulat Khan"
+		dynasty = "Shaybanid"
+		birth_date = 1500.1.1
+		death_date = 1555.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1544.1.1 = {
+	monarch = {
+		name = "Bekbulat Khan"
+		dynasty = "Shaybanid"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1544.1.1 = {
+	heir = {
+		name = "Yadiger"
+		monarch_name = "Yadiger Khan"
+		dynasty = "Shaybanid"
+		birth_Date = 1523.1.1
+		death_Date = 1563.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1555.1.1 = {
+	monarch = {
+		name = "Yadiger Khan"
+		dynasty = "Shaybanid"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1555.1.1 = {
+	heir = {
+		name = "Kucum"
+		monarch_name = "Kucum Khan"
+		dynasty = "Shaybanid"
+		birth_date = 1540.1.1
+		death_Date = 1605.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}
+
+1563.1.1 = {
+	monarch = {
+		name = "Kucum Khan"
+		dynasty = "Shaybanid"
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}

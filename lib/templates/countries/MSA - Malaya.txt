@@ -1,0 +1,13 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = 2
+offensive_defensive = -2
+land_naval = 3
+quality_quantity = -1
+serfdom_freesubjects = -1
+primary_culture = malayan
+religion = sunni
+technology_group = chinese
+capital = 596	# Malacca

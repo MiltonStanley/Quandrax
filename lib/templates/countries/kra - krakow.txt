@@ -1,0 +1,28 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -5
+centralization_decentralization = 4
+innovative_narrowminded = -1
+mercantilism_freetrade = -3
+offensive_defensive = -3
+land_naval = -3
+quality_quantity = 0
+serfdom_freesubjects = -4
+primary_culture = polish
+religion = catholic
+technology_group = eastern
+capital = 262	# Krakow
+
+1530.1.1 = { government = administrative_monarchy }
+
+1540.1.1 = { government = administrative_republic }
+
+1750.1.1 = { government = constitutional_republic }
+
+1815.5.3 = {
+	monarch = {
+		name = "National Assembly"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

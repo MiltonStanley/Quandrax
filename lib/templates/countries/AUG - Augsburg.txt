@@ -1,0 +1,202 @@
+government = theocratic_government
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = 1
+quality_quantity = 0
+serfdom_freesubjects = -4
+primary_culture = bavarian
+religion = catholic
+technology_group = western
+capital = 1868	# Bremen
+
+1373.1.1 = {
+	monarch = {
+		name = "Burkhard von Ellerbach"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1404.1.1 = {
+	monarch = {
+		name = "Eberhard II von Kirchberg"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+ 
+1413.1.1 = {
+	monarch = {
+		name = "Friedrich von Grafeneck"
+		adm = 4
+		mil = 4
+		dip = 3
+	}
+}
+
+1414.1.1 = {
+	monarch = {
+		name = "Anselm von Nenningen"
+		adm = 4
+		mil = 5
+		dip = 3
+	}
+}
+
+1423.1.1 = {
+	monarch = {
+		name = "Peter von Schaumberg"
+		adm = 4
+		mil = 5
+		dip = 3
+	}
+}
+
+1469.1.1 = {
+	monarch = {
+		name = "Johann II von Werdenberg"
+		adm = 4
+		dip = 8
+		mil = 3
+	}
+}
+    
+1486.1.1 = {
+	monarch = {
+		name = "Friedrich II. von Zollern"
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}
+
+1505.1.1 = {
+	monarch = {
+		name = "Heinrich IV. von Lichtenau"
+		adm = 5
+		dip = 2
+		mil = 6
+	}
+}
+ 
+1517.1.1 = {
+	monarch = {
+		name = "Christoph von Stadion"
+		adm = 4
+		mil = 5
+		dip = 3
+	}
+}
+
+1543.1.1 = {
+	monarch = {
+		name = "Otto Truchsess von Waldburg"
+		adm = 3
+		dip = 7
+		mil = 4
+	}
+}
+	
+1573.1.1 = {
+	monarch = {
+		name = "Johann Eglof von Knöringen"
+		adm = 2
+		dip = 8
+		mil = 3
+	}
+}
+
+1575.1.1 = {
+	monarch = {
+		name = "Marquard II. vom Berg"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1591.1.1 = {
+	monarch = {
+		name = "Johann Otto von Gemmingen"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1598.1.1 = {
+	monarch = {
+		name = "Heinrich V. von Knöringen"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1646.1.1 = {
+	monarch = {
+		name = "Sigismund Franz"
+		adm = 5
+		mil = 3
+		dip = 7
+	}
+}
+
+1666.1.1 = {
+	monarch = {
+		name = "Johann Christoph"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1690.1.1 = {
+	monarch = {
+		name = "Alexander Sigmund"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1737.1.1 = {
+	monarch = {
+		name = "Johann Franz Schenk"
+		adm = 3
+		dip = 7
+		mil = 4
+	}
+}
+
+1740.1.1 = {
+	monarch = {
+		name = "Joseph Ignaz Philipp"
+		adm = 5
+		dip = 3
+		mil = 2
+	}
+}
+
+1768.1.1 = {
+	monarch = {
+		name = "Clemens Wenceslaus"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1812.1.1 = {
+	monarch = {
+		name = "Franz Friedrich"
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}

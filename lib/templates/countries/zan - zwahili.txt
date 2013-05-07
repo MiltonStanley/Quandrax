@@ -1,0 +1,795 @@
+government = tribal_despotism
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = 1
+quality_quantity = 3
+serfdom_freesubjects = -2
+primary_culture = swahili
+religion = sunni
+technology_group = sub_saharan
+capital = 1195	# Angoche
+
+
+#Sultans of Kilwa
+1392.1.1 = {
+	monarch = {
+		name = "Husayn II"
+		dynasty = "Kilwa"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad I"
+		dynasty = "Kilwa"
+		birth_Date = 1399.1.1
+		death_date = 1425.1.1
+		claim = 95
+		adm = 7
+		dip = 3
+		mil = 3
+	}
+}
+
+1416.1.1 = {
+	monarch = {
+		name = "Muhammad I"
+		dynasty = "Kilwa"
+		adm = 7
+		dip = 3
+		mil = 3
+	}
+}
+
+1416.1.1 = {
+	heir = {
+		name = "Sulayman"
+		monarch_name = "Sulayman VII"
+		dynasty = "Kilwa"
+		birth_date = 1416.1.1
+		death_Date = 1442.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1425.1.1 = {
+	monarch = {
+		name = "Sulayman VII"
+		dynasty = "Kilwa"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1425.1.1 = {
+	heir = {
+		name = "Ismâ'îl"
+		monarch_name = "Ismâ'îl"
+		dynasty = "Kilwa"
+		birth_Date = 1410.1.1
+		death_date = 1454.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 7
+	}
+}
+
+1442.1.1 = {
+	monarch = {
+		name = "Ismâ'îl"
+		dynasty = "Kilwa"
+		adm = 6
+		dip = 4
+		mil = 7
+	}
+}
+
+1442.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad III"
+		dynasty = "Kilwa"
+		birth_date = 1435.1.1
+		death_date = 1455.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1454.1.1 = {
+	monarch = {
+		name = "Muhammad III"
+		dynasty = "Kilwa"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1455.1.1 = {
+	monarch = {
+		name = "Ahmad"
+		dynasty = "Kilwa"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1456.1.1 = {
+	monarch = {
+		name = "Hasan VI"
+		dynasty = "Kilwa"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1456.1.1 = {
+	heir = {
+		name = "Sa'îd"
+		monarch_name = "Sa'îd"
+		dynasty = "Kilwa"
+		birth_Date = 1456.1.1
+		death_Date = 1476.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1466.1.1 = {
+	monarch = {
+		name = "Sa'îd I"
+		dynasty = "Kilwa"
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1466.1.1 = {
+	heir = {
+		name = "Sulaymân"
+		monarch_name = "Sulaymân VII"
+		dynasty = "Kilwa"
+		birth_date = 1466.1.1
+		death_Date = 1477.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1476.1.1 = {
+	monarch = {
+		name = "Sulaymân VII"
+		dynasty = "Kilwa"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1476.1.1 = {
+	heir = {
+		name = "'Abd Allâh"
+		monarch_name = "'Abd Allâh"
+		dynasty = "Kilwa"
+		birth_Date = 1470.1.1
+		death_Date = 1478.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1477.1.1 = {
+	monarch = {
+		name = "'Abd Allâh"
+		dynasty = "Kilwa"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1477.1.1 = {
+	heir = {
+		name = "'Alî"
+		monarch_name = "'Alî VI"
+		dynasty = "Kilwa"
+		birth_date = 1477.1.1
+		death_Date = 1479.1.1
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 6
+	}
+}
+
+1478.1.1 = {
+	monarch = {
+		name = "'Alî VI"
+		dynasty = "Kilwa"
+		adm = 3
+		dip = 6
+		mil = 6
+	}
+}
+
+1478.1.1 = {
+	heir = {
+		name = "Hasan"
+		monarch_name = "Hasan VII"
+		dynasty = "Kilwa"
+		birth_Date = 1470.1.1
+		death_date = 1490.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1479.1.1 = {
+	monarch = {
+		name = "Hasan VII"
+		dynasty = "Kilwa"
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1479.1.1 = {
+	heir = {
+		name = "Ibrâhîm"
+		monarch_name = "Ibrâhîm I"
+		dynasty = "Kilwa"
+		birth_Date = 1470.1.1
+		death_Date = 1495.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1490.1.1 = {
+	monarch = {
+		name = "Ibrâhîm I"
+		dynasty = "Kilwa"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1495.1.1 = {
+	heir = {
+		name = "al-Fudail"
+		monarch_name = "al-Fudail"
+		dynasty = "Kilwa"
+		birth_date = 1480.1.1
+		death_Date = 1499.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1495.1.1 = {
+	monarch = {
+		name = "al-Fudail"
+		dynasty = "Kilwa"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1495.1.1 = {
+	heir = {
+		name = "Ibrâhîm"
+		monarch_name = "Ibrâhîm II"
+		dynasty = "Kilwa"
+		birth_date = 1480.1.1
+		death_Date = 1505.7.23
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+}
+
+1499.1.1 = {
+	monarch = {
+		name = "Ibrâhîm II"
+		dynasty = "Kilwa"
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+}
+
+1505.7.23 = {
+	monarch = {
+		name = "Muhammad IV"
+		dynasty = "Kilwa"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1506.1.1 = {
+	monarch = {
+		name = "Hasan VIII"
+		dynasty = "Kilwa"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1507.1.1 = {
+	monarch = {
+		name = "Muhammad V"
+		dynasty = "Kilwa"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1508.1.1 = {
+	monarch = {
+		name = "Sâ'îd II"
+		dynasty = "Kilwa"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1513.1.1 = {
+	monarch = {
+		name = "Muhammad VI"
+		dynasty = "Kilwa"
+		adm = 7
+		dip = 5
+		mil = 4
+	}
+}
+
+#Portuguese occupation of Kilwa. Mombasa becomes the most powerful independent Swahili state
+
+#Sultans of Mombasa
+
+1525.1.1 = {
+	monarch = {
+		name = "Abû Bakr"
+		dynasty = "Nabahani"
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1525.1.1 = {
+	heir = {
+		name = "Malindi"
+		monarch_name = "Malindi"
+		dynasty = "Nabahani"
+		birth_Date = 1520.1.1
+		death_Date = 1590.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1555.1.1 = {
+	monarch = {
+		name = "Malindi"
+		dynasty = "Nabahani"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1570.1.1 = {
+	heir = {
+		name = "Sabo"
+		monarch_name = "Sabo"
+		dynasty = "Nabahani"
+		birth_Date = 1570.1.1
+		death_Date = 1593.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+		
+
+1590.1.1 = {
+	monarch = {
+		name = "Sabo"
+		dynasty = "Nabahani"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1590.1.1 = {
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad"
+		dynasty = "Nabahani"
+		birth_Date = 1580.1.1
+		death_date = 1609.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1593.1.1 = {
+	monarch = {
+		name = "Ahmad"
+		dynasty = "Nabahani"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1593.1.1 = {
+	heir = {
+		name = "al-Hasan"
+		monarch_name = "al-Hasan"
+		dynasty = "Nabahani"
+		birth_Date = 1570.1.1
+		death_Date = 1614.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1609.1.1 = {
+	monarch = {
+		name = "al-Hasan"
+		dynasty = "Nabahani"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1609.1.1 = {
+	heir = {
+		name = "Munganaye"
+		monarch_name = "Munganaye"
+		dynasty = "Nabahani"
+		birth_Date = 1580.1.1
+		death_Date = 1630.8.24
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1614.1.1 = {
+	monarch = {
+		name = "Munganaye"
+		dynasty = "Nabahani"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1614.1.1 = {
+	heir = {
+		name = "Yûsuf"
+		monarch_name = "Yûsuf"
+		dynasty = "Nabahani"
+		birth_date = 1600.1.1
+		death_Date = 1632.1.1
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+1630.8.24 = {
+	monarch = {
+		name = "Yûsuf"
+		dynasty = "Nabahani"
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+#Portuguese occupation of Mombasa.  Pate becomes the most powerful independent Swahili state
+
+#Sultans of Pate (Limu)
+
+1632.8.5 = {
+	monarch = {
+		name = "Abubakar bin Muhammad"
+		dynasty = "Nabahani"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1632.8.5 = {
+	heir = {
+		name = "Bwana Mkuu bin Muhammad"
+		monarch_name = "Bwana Mkuu bin Muhammad"
+		dynasty = "Nabahani"
+		birth_date = 1620.1.1
+		death_Date = 1688.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1650.1.1 = {
+	monarch = {
+		name = "Bwana Mkuu bin Muhammad"
+		dynasty = "Nabahani"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1650.1.1 = {
+	heir = {
+		name = "Abubakar bin Muhammad"
+		monarch_name = "Abubakar bin Muhammad"
+		dynasty = "Nabahani"
+		birth_Date = 1650.1.1
+		death_Date = 1691.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1688.1.1 = {
+	monarch = {
+		name = "Abubakar bin Muhammad"
+		dynasty = "Nabahani"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1688.1.1 = {
+	heir = {
+		name = "Ahmad bin Abubakar"
+		monarch_name = "Ahmad bin Abubakar"
+		dynasty = "Nabahani"
+		birth_date = 1670.1.1
+		death_Date = 1700.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1691.1.1 = {
+	monarch = {
+		name = "Ahmad bin Abubakar"
+		dynasty = "Nabahani"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1691.1.1 = {
+	heir = {
+		name = "Bwana Tamu Mkuu"
+		monarch_name = "Bwana Tamu Mkuu"
+		dynasty = "Nabahani"
+		birth_Date = 1670.1.1
+		death_date = 1730.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Bwana Tamu Mkuu"
+		dynasty = "Nabahani"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+#Omani Occupation
+#1730.1.1 = {
+#	monarch = {
+#		name = "Omani Occupation"
+#		adm = 5
+#		dip = 5
+#		mil = 5
+#	}
+#
+#}
+
+#Sultans of Mombasa
+
+1744.1.1 = {
+	monarch = {
+		name = "Muhammad"
+		dynasty = "Mombasa"
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+}
+
+1744.1.1 = {
+	heir = {
+		name = "'Alî"
+		monarch_name = "'Alî"
+		dynasty = "Mombasa"
+		birth_Date = 1720.1.1
+		death_Date = 1753.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1746.1.1 = {
+	monarch = {
+		name = "'Alî"
+		dynasty = "Mombasa"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1746.1.1 = {
+	heir = {
+		name = "Mas'ûd"
+		monarch_name = "Mas'ûd"
+		dynasty = "Mombasa"
+		birth_date = 1730.1.1
+		death_Date = 1775.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}
+
+1753.1.1 = {
+	monarch = {
+		name = "Mas'ûd"
+		dynasty = "Mombasa"
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}
+
+1753.1.1 = {
+	heir = {
+		name = "'Abd Allâh"
+		monarch_name = "'Abd Allâh I"
+		dynasty = "Mombasa"
+		birth_date = 1750.1.1
+		death_Date = 1782.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1775.1.1 = {
+	monarch = {
+		name = "'Abd Allâh I"
+		dynasty = "Mombasa"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1775.1.1 = {
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad"
+		dynasty = "Mombasa"
+		birth_Date = 1775.1.1
+		death_Date = 1811.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1782.1.1 = {
+	monarch = {
+		name = "Ahmad"
+		dynasty = "Mombasa"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1782.1.1 = {
+	heir = {
+		name = "'Abd Allâh"
+		monarch_name = "'Abd Allâh II"
+		dynasty = "Mombasa"
+		birth_date = 1780.1.1
+		death_Date = 1830.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1811.1.1 = {
+	monarch = {
+		name = "'Abd Allâh II"
+		dynasty = "Mombasa"
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}

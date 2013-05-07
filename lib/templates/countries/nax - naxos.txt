@@ -1,0 +1,278 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -4
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -1
+technology_group = eastern
+primary_culture = lombard
+add_accepted_culture = greek
+religion = catholic
+capital = 164	# Naxos
+
+
+# Dukes of Naxos
+1397.1.1 = {
+	monarch = {
+		name = "Giacomo I"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1397.1.1 = {
+	heir = {
+		name = "Giovanni"
+		monarch_name = "Giovanni II"
+		dynasty = "Crispo"
+		birth_date = 1388.1.1
+		death_date = 1433.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 3
+	}
+}
+
+1418.1.1 = {
+	monarch = {
+		name = "Giovanni II"
+		dynasty = "Crispo"
+		DIP = 6
+		ADM = 5
+		MIL = 3
+	}
+}
+
+1426.1.1 = {
+	heir = {
+		name = "Giacomo"
+		monarch_name = "Giacomo II"
+		dynasty = "Crispo"
+		birth_date = 1426.1.1
+		death_date = 1447.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1433.1.1 = {
+	monarch = {
+		name = "Giacomo II"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1446.1.1 = {
+	heir = {
+		name = "Gian Giacomo"
+		monarch_name = "Gian Giacomo"
+		dynasty = "Crispo"
+		birth_date = 1446.1.1
+		death_date = 1453.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1447.1.1 = {
+	monarch = {
+		name = "Gian Giacomo"
+		dynasty = "Crispo"
+		DIP = 4
+		ADM = 4
+		MIL = 6
+	}
+}
+
+1447.1.1 = {
+	heir = {
+		name = "Guglielmo"
+		monarch_name = "Guglielmo II"
+		dynasty = "Crispo"
+		birth_date = 1390.1.1
+		death_date = 1463.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1453.1.1 = {
+	monarch = {
+		name = "Guglielmo II"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 5 
+		MIL = 5
+	}
+}
+
+1453.1.1 = {
+	heir = {
+		name = "Francesco"
+		monarch_name = "Francesco II"
+		dynasty = "Crispo"
+		birth_date = 1417.1.1
+		death_date = 1463.7.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+		
+1463.1.1 = {
+	monarch = {
+		name = "Francesco II"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1463.1.1 = {
+	heir = {
+		name = "Giacomo"
+		monarch_name = "Giacomo III"
+		dynasty = "Crispo"
+		birth_date = 1446.1.1
+		death_date = 1480.1.1
+		claim = 95
+		dip = 5
+		adm = 5
+		mil = 5
+	}
+}
+
+1463.7.1 = {
+	monarch = {
+		name = "Giacomo III"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1463.7.1 = {
+	heir = {
+		name = "Giovanni"
+		monarch_name = "Giovanni III"
+		dynasty = "Crispo"
+		birth_date = 1450.1.1
+		death_date = 1494.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Giovanni III"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1480.1.1 = {
+	heir = {
+		name = "Francesco"
+		monarch_name = "Francesco III"
+		dynasty = "Crispo"
+		birth_date = 1469.1.1
+		death_date = 1518.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1494.1.1 = {
+	monarch = {
+		name = "Francesco III"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1494.1.1 = {
+	heir = {
+		name = "Giovanni"
+		monarch_name = "Giovanni IV"
+		dynasty = "Crispo"
+		birth_date = 1490.1.1
+		death_date = 1564.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1511.1.1 = {
+	monarch = {
+		name = "Giovanni IV"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1511.1.1 = {
+	heir = {
+		name = "Giacomo"
+		monarch_name = "Giacomo IV"
+		dynasty = "Crispo"
+		birth_date = 1534.1.1
+		death_date = 1566.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1564.1.1 = {
+	monarch = {
+		name = "Giacomo IV"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1566.1.1 = {
+	monarch = {
+		name = "Giuseppe"
+		dynasty = "Nasi"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+# Annexed by the Ottomans 1579.8.2

@@ -1,0 +1,52 @@
+government = theocratic_government
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = 1
+quality_quantity = -1
+serfdom_freesubjects = -2
+primary_culture = lombard
+religion = catholic
+technology_group = western
+capital = 111	# Friuli
+
+
+1394.1.1 = {
+	monarch = {
+		name = "Antonio I"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1402.1.1 = {
+	monarch = {
+		name = "Antonio II"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1402.1.1 = {
+	monarch = {
+		name = "Antonio III"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1412.1.1 = {
+	monarch = {
+		name = "Lodovico II"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+# To Venice in 1402

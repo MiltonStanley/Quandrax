@@ -1,0 +1,146 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = 1
+quality_quantity = 3
+serfdom_freesubjects = -2
+technology_group = indian
+primary_culture = marathi
+add_accepted_culture = oriya
+religion = hinduism
+capital = 546
+
+
+#Bhonsle Maharajas of Nagpur
+1738.1.1 = {
+	monarch = {
+		name = "Raghuji I"
+		dynasty = "Bhonsle"
+		adm = 8
+		dip = 6
+		mil = 8
+	}
+}
+
+1738.1.1 = {
+	heir = {
+		name = "Janoji"
+		monarch_name = "Janoji"
+		dynasty = "Bhonsle"
+		birth_date = 1730.1.1
+		death_date = 1772.5.18
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 6
+	}
+}
+
+1755.3.2 = {
+	monarch = {
+		name = "Janoji"
+		dynasty = "Bhonsle"
+		adm = 5
+		dip = 3
+		mil = 6
+	}
+}
+
+1755.3.2 = {
+	heir = {
+		name = "Sabaji"
+		monarch_name = "Sabaji"
+		dynasty = "Bhonsle"
+		birth_date = 1750.1.1
+		death_date = 1775.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1772.5.18 = {
+	monarch = {
+		name = "Sabaji"
+		dynasty = "Bhonsle"
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1772.5.18 = {
+	heir = {
+		name = "Raghuji"
+		monarch_name = "Raghuji II"
+		dynasty = "Bhonsle"
+		birth_date = 1750.1.1
+		death_date = 1775.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1775.1.1 = {
+	monarch = {
+		name = "Raghuji II"
+		dynasty = "Bhonsle"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1775.1.1 = {
+	heir = {
+		name = "Mudhoji"
+		monarch_name = "Mudhoji II"
+		dynasty = "Bhonsle"
+		birth_date = 1775.1.1
+		death_date = 1818.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1816.1.1 = {
+	monarch = {
+		name = "Mudhoji II"
+		dynasty = "Bhonsle"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1816.1.1 = {
+	heir = {
+		name = "Raghoji"
+		monarch_name = "Raghoji III"
+		dynasty = "Bhonsle"
+		birth_date = 1800.1.1
+		death_date = 1853.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1818.1.1 = {
+	monarch = {
+		name = "Raghoji III"
+		dynasty = "Bhonsle"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}

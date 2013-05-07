@@ -1,0 +1,363 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = 0
+quality_quantity = 0
+serfdom_freesubjects = -1
+technology_group = western
+primary_culture = schlesian
+religion = catholic
+capital = 263	# Ratibor
+
+# Dukes of Olawa/Lubin
+
+1399.7.12 = {
+	monarch = {
+		name = "Henryk IX"
+		dynasty = "Piast"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1399.7.12 = {
+	heir = {
+		name = "Ruprecht"
+		monarch_name = "Ruprecht II"
+		dynasty = "Piast"
+		birth_date = 1396.1.1
+		death_date = 1431.8.24
+		claim = 95
+		adm = 8
+		dip = 5
+		mil = 3
+	}
+}
+
+1420.7.11 = {
+	monarch = {
+		name = "Ruprecht II"
+		dynasty = "Piast"
+		adm = 8
+		dip = 5
+		mil = 3
+	}
+}
+
+1420.7.11 = {
+	heir = {
+		name = "Ludwik"
+		monarch_name = "Ludwik III"
+		dynasty = "Piast"
+		birth_date = 1405.1.1
+		death_date = 1441.6.18
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1431.1.1 = {
+	monarch = {
+		name = "Ludwik III"
+		dynasty = "Piast"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1431.1.1 = {
+	heir = {
+		name = "Jan"
+		monarch_name = "Jan I"
+		dynasty = "Piast"
+		birth_date = 1425.1.1
+		death_date = 1453.11.21
+		claim = 95
+		adm = 7
+		dip = 5
+		mil = 2
+	}
+}
+
+1441.1.1 = {
+	monarch = {
+		name = "Jan I"
+		dynasty = "Piast"
+		adm = 7
+		dip = 5
+		mil = 2
+	}
+}
+
+# Dukes of Liegnitz/Legnica
+
+1446.5.3 = {
+	heir = {
+		name = "Fryderyk"
+		monarch_name = "Fryderyk I"
+		dynasty = "Piast"
+		birth_date = 1446.5.3
+		death_date = 1488.5.9
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+		
+1453.11.1 = {
+	monarch = {
+		name = "Fryderyk I"
+		dynasty = "Piast"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1477.1.1 = {
+	heir = {
+		name = "Jan"
+		monarch_name = "Jan II"
+		dynasty = "Piast"
+		birth_date = 1477.1.1
+		death_date = 1495.3.6
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1488.5.10 = {
+	monarch = {
+		name = "Jan II"
+		dynasty = "Piast"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1480.2.12 = {
+	heir = {
+		name = "Fryderyk"
+		monarch_name = "Fryderyk II"
+		dynasty = "Piast"
+		birth_date = 1480.2.12
+		death_date = 1547.9.17
+		claim = 95
+		adm = 4
+		dip = 7
+		mil = 3
+	}
+}
+
+1495.3.7 = {
+	monarch = {
+		name = "Fryderyk II"
+		dynasty = "Piast"
+		adm = 4
+		dip = 7
+		mil = 3
+	}
+}
+
+1520.2.22 = {
+	heir = {
+		name = "Fryderyk"
+		monarch_name = "Fryderyk III"
+		dynasty = "Piast"
+		birth_date = 1520.2.22
+		death_date = 1570.12.15
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1547.9.18 = {
+	monarch = {
+		name = "Fryderyk III"
+		dynasty = "Piast"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1547.9.18 = {
+	heir = {
+		name = "Henryk"
+		monarch_name = "Henryk XI"
+		dynasty = "Piast"
+		birth_date = 1539.2.23
+		death_date = 1588.3.3
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+
+1570.12.16 = {
+	monarch = {
+		name = "Henryk XI"
+		dynasty = "Piast"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1570.12.16 = {
+	heir = {
+		name = "Fryderyk"
+		monarch_name = "Fryderyk IV"
+		dynasty = "Piast"
+		birth_date = 1552.4.20
+		death_date = 1596.3.27
+		claim = 95
+		adm = 7
+		dip = 3
+		mil = 3
+	}
+}
+
+1588.3.4 = {
+	monarch = {
+		name = "Fryderyk IV"
+		dynasty = "Piast"
+		adm = 7
+		dip = 3
+		mil = 3
+	}
+}
+
+1588.3.4 = {
+	heir = {
+		name = "Joachim Fryderyk"
+		monarch_name = "Joachim Fryderyk I"
+		dynasty = "Piast"
+		birth_date = 1550.9.29
+		death_date = 1602.3.25
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1596.3.28 = {
+	monarch = {
+		name = "Joachim Fryderyk I"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1596.3.28 = {
+	heir = {
+		name = "Jan Krystian"
+		monarch_name = "Jan Krystian I"
+		dynasty = "Piast"
+		birth_date = 1591.8.28
+		death_date = 1639.12.25
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1602.3.26 = {
+	monarch = {
+		name = "Jan Krystian I"
+		dynasty = "Piast"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1611.9.4 = {
+	heir = {
+		name = "Jerzy Brzeski"
+		monarch_name = "Jerzy III"
+		dynasty = "Piast"
+		birth_date = 1611.9.4
+		death_date = 1664.7.4
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1639.12.26 = {
+	monarch = {
+		name = "Jerzy III"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1639.12.26 = {
+	heir = {
+		name = "Krystian"
+		monarch_name = "Krystian I"
+		dynasty = "Piast"
+		birth_date = 1618.4.1
+		death_date = 1672.2.28
+		claim = 95
+		adm = 7
+		dip = 5
+		mil = 3
+	}
+}
+
+1664.7.5 = {
+	monarch = {
+		name = "Krystian I"
+		dynasty = "Piast"
+		adm = 7
+		dip = 5
+		mil = 3
+	}
+}
+
+1664.7.5 = {
+	heir = {
+		name = "Jerzy Wilhelm"
+		monarch_name = "Jerzy Wilhelm I"
+		dynasty = "Piast"
+		birth_date = 1660.9.29
+		death_date = 1675.11.21
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1672.2.29 = {
+	monarch = {
+		name = "Jerzy Wilhelm I"
+		dynasty = "Piast"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}

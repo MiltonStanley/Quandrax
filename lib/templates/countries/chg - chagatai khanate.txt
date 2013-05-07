@@ -1,0 +1,481 @@
+government = steppe_horde
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -4
+offensive_defensive = -2
+land_naval = -5
+quality_quantity = -1
+serfdom_freesubjects = -1
+primary_culture = kirgiz
+religion = sunni
+technology_group = nomad_group
+capital = 461	# Kulja
+
+#Khans of Mughalistan
+1399.1.1 = {
+	monarch = {
+		name = "Shams-I-Jahan"
+		dynasty = "Chagatayid"
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad Khan"
+		dynasty = "Chagatayid"
+		birth_date = 1370.1.1
+		death_Date = 1415.1.1
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 4
+	}
+}
+
+1408.1.1 = {
+	monarch = {
+		name = "Muhammad Khan"
+		dynasty = "Chagatayid"
+		adm = 7
+		dip = 4
+		mil = 4
+	}
+}
+
+1408.1.1 = {
+	heir = {
+		name = "Naqsh-I-Jahan"
+		monarch_name = "Naqsh-I-Jahan"
+		dynasty = "Chagatayid"
+		birth_Date = 1400.1.1
+		death_date = 1418.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1415.1.1 = {
+	monarch = {
+		name = "Naqsh-I-Jahan"
+		dynasty = "Chagatayid"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1415.1.1 = {
+	heir = {
+		name = "Awais"
+		monarch_name = "Awais Khan"
+		dynasty = "Chagatayid"
+		birth_date = 1400.1.1
+		death_date = 1429.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1418.1.1 = {
+	monarch = {
+		name = "Awais Khan"
+		dynasty = "Chagatayid"
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1418.1.1 = {
+	heir = {
+		name = "Shir Muhammad"
+		monarch_name = "Shir Muhammad"
+		dynasty = "Chagatayid"
+		birth_date = 1400.1.1
+		death_date = 1425.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Shir Muhammad"
+		dynasty = "Chagatayid"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1421.1.1 = {
+	heir = {
+		name = "Awais"
+		monarch_name = "Awais Khan"
+		dynasty = "Chagatayid"
+		birth_date = 1400.1.1
+		death_date = 1429.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1425.1.1 = {
+	monarch = {
+		name = "Awais Khan"
+		dynasty = "Chagatayid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1425.1.1 = {
+	heir = {
+		name = "Esen Buqa"
+		monarch_name = "Esen Buqa"
+		dynasty = "Chagatayid"
+		birth_date = 1405.1.1
+		death_Date = 1462.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 8
+	}
+}
+
+1429.1.1 = {
+	monarch = {
+		name = "Esen Buqa"
+		dynasty = "Chagatayid"
+		adm = 4
+		dip = 3
+		mil = 8
+	}
+}
+
+1429.1.1 = {
+	heir = {
+		name = "Yûsuf"
+		monarch_name = "Yûsuf Khân"
+		dynasty = "Chagatayid"
+		birth_date = 1409.1.1
+		death_Date = 1487.1.1
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1462.1.1 = {
+	monarch = {
+		name = "Yûsuf Khân"
+		dynasty = "Chagatayid"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1462.1.1 = {
+	heir = {
+		name = "Mahmud"
+		monarch_name = "Mahmud Khân"
+		dynasty = "Chagatayid"
+		birth_date = 1462.1.1
+		death_date = 1508.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+
+1487.1.1 = {
+	monarch = {
+		name = "Mahmud Khân"
+		dynasty = "Chagatayid"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+
+1487.1.1 = {
+	heir = {
+		name = "Mansûr"
+		monarch_name =" Mansûr Khân"
+		dynasty = "Chagatayid"
+		birth_date = 1480.1.1
+		death_date = 1533.1.1
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 7
+	}
+}
+
+1508.1.1 = {
+	monarch = {
+		name = "Mansûr Khân"
+		dynasty = "Chagatayid"
+		adm = 7
+		dip = 4
+		mil = 7
+	}
+}
+
+1508.1.1 = {
+	heir = {
+		name = "'Abd ar-Rashîd"
+		monarch_name = "'Abd ar-Rashîd Khân"
+		dynasty = "Chagatayid"
+		birth_date = 1501.1.1
+		death_date = 1559.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+
+1533.1.1 = {
+	monarch = {
+		name = "'Abd ar-Rashîd Khân"
+		dynasty = "Chagatayid"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+
+1533.1.1 = {
+	heir = {
+		name = "'Abd al-Karîm"
+		monarch_name = "'Abd al-Karîm Khân"
+		dynasty = "Chagatayid"
+		birth_date = 1533.1.1
+		death_date = 1592.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1559.1.1 = {
+	monarch = {
+		name = "'Abd al-Karîm Khân"
+		dynasty = "Chagatayid"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1559.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad Khân"
+		dynasty = "Chagatayid"
+		birth_Date = 1559.1.1
+		death_Date = 1609.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1592.1.1 = {
+	monarch = {
+		name = "Muhammad Khân"
+		dynasty = "Chagatayid"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1592.1.1 = {
+	heir = {
+		name = "'Abd al-Latîf"
+		monarch_name = "'Abd al-Latîf Khân"
+		dynasty = "Chagatayid"
+		birth_date = 1580.1.1
+		death_date = 1627.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1609.1.1 = {
+	monarch = {
+		name = "'Abd al-Latîf Khân"
+		dynasty = "Chagatayid"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1609.1.1 = {
+	heir = {
+		name = "Sultân Ahmad"
+		monarch_name = "Sultân Ahmad Khân"
+		dynasty = "Chagatayid"
+		birth_date = 1600.1.1
+		death_date = 1638.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1627.1.1 = {
+	monarch = {
+		name = "Sultân Ahmad Khân"
+		dynasty = "Chagatayid"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1627.1.1 = {
+	heir = {
+		name = "'Abd Allâh"
+		monarch_name = "'Abd Allâh Khân"
+		dynasty = "Chagatayid"
+		birth_date = 1600.1.1
+		death_date = 1667.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1638.1.1 = {
+	monarch = {
+		name = "'Abd Allâh Khân"
+		dynasty = "Chagatayid"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1638.1.1 = {
+	heir = {
+		name = "Ilbars"
+		monarch_name = "Ilbars"
+		dynasty = "Chagatayid"
+		birth_date = 1638.1.1
+		death_date = 1670.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1667.1.1 = {
+	monarch = {
+		name = "Ilbars"
+		dynasty = "Chagatayid"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1667.1.1 = {
+	heir = {
+		name = "Ismâ'îl"
+		monarch_name = "Ismâ'îl Khân"
+		dynasty = "Chagatayid"
+		birth_date = 1637.1.1
+		death_date = 1670.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+		
+
+1670.1.1 = {
+	monarch = {
+		name = "Ismâ'îl Khân"
+		dynasty = "Chagatayid"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1670.1.1 = {
+	heir = {
+		name = "Muhammad Amîn"
+		monarch_name = "Muhammad Amîn Khân"
+		dynasty = "Chagatayid"
+		birth_date = 1670.1.1
+		death_Date = 1682.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1678.1.1 = {
+	monarch = {
+		name = "Muhammad Amîn Khân"
+		dynasty = "Chagatayid"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1678.1.1 = {	
+	heir = {
+		name = "Galdan"
+		monarch_name = "Galdan Khân"
+		dynasty = "Chagatayid"
+		birth_date = 1650.1.1
+		death_date = 1695.1.1
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 8
+	}
+}
+
+1682.1.1 = {
+	monarch = {
+		name = "Galdan Khân"
+		dynasty = "Chagatayid"
+		adm = 6
+		dip = 7
+		mil = 8
+	}
+}

@@ -1,0 +1,255 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 5
+innovative_narrowminded = 2
+mercantilism_freetrade = 0
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = 1
+serfdom_freesubjects = -2
+technology_group = western
+religion = catholic
+primary_culture = irish
+capital = 375	# Cork
+
+# Kings of Thomond
+
+1375.1.1 = {
+	monarch = {
+		name = "Turlough III"
+		dynasty = "O'Brien"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1380.4.13 = {
+	heir = {
+		name = "Conchobhar"
+		monarch_name = "Conchobhar III"
+		dynasty = "O'Brien"
+		birth_date = 1380.1.1 # Estimate
+		death_date = 1426.4.26
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+
+1400.1.1 = {
+	monarch = {
+		name = "Conchobhar III"
+		dynasty = "O'Brien"
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+
+1406.1.1 = {
+	heir = {
+		name = "Tadhg"
+		monarch_name = "Tadhg III"
+		dynasty = "O'Brien"
+		birth_date = 1406.1.1
+		death_date = 1444.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1426.1.1 = {
+	monarch = {
+		name = "Tadhg III"
+		dynasty = "O'Brien"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+# Tadhg deposed
+
+1438.1.1 = {
+	monarch = {
+		name = "Mathghamhain Dall"
+		dynasty = "O'Brien"
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+# Mathghamhain deposed
+
+1444.1.1 = {
+	monarch = {
+		name = "Turlough IV"
+		dynasty = "O'Brien"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Tadhg"
+		monarch_name = "Tadhg IV"
+		dynasty = "O'Brien"
+		birth_date = 1434.1.1 # Estimate
+		death_date = 1466.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1459.1.1 = {
+	monarch = {
+		name = "Tadhg IV"
+		dynasty = "O'Brien"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1460.1.1 = {
+	monarch = {
+		name = "Donnchad VIII"
+		dynasty = "O'Brien"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1460.1.1 = {
+	heir = {
+		name = "Conchobhar"
+		monarch_name = "Conchobhar IV"
+		dynasty = "O'Brien"
+		birth_date = 1440.1.1
+		death_date = 1496.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1466.1.1 = {
+	monarch = {
+		name = "Conchobhar IV"
+		dynasty = "O'Brien"
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1476.1.1 = {
+	heir = {
+		name = "Turlough"
+		monarch_name = "Turlough V"
+		dynasty = "O'Brien"
+		birth_date = 1476.1.1
+		death_date = 1496.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1496.1.1 = {
+	monarch = {
+		name = "Turlough V"
+		dynasty = "O'Brien"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1496.1.1 = {
+	heir = {
+		name = "Turlough"
+		monarch_name = "Turlough VI"
+		dynasty = "O'Brien"
+		birth_date = 1478.1.1
+		death_date = 1528.1.1
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 5
+	}
+}
+
+1498.1.1 = {
+	monarch = {
+		name = "Turlough VI"
+		dynasty = "O'Brien"
+		adm = 7
+		dip = 4
+		mil = 5
+	}
+}
+
+1500.1.1 = {
+	heir = {
+		name = "Conchobhar"
+		monarch_name = "Conchobhar V"
+		dynasty = "O'Brien"
+		birth_date = 1500.1.1
+		death_date = 1528.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1528.1.1 = {
+	monarch = {
+		name = "Conchobhar V"
+		dynasty = "O'Brien"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1528.1.1 = {
+	heir = {
+		name = "Muireadhach"
+		monarch_name = "Muireadhach II"
+		dynasty = "O'Brien"
+		birth_date = 1519.1.1
+		death_date = 1551.11.7
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1539.1.1 = {
+	monarch = {
+		name = "Muireadhach II"
+		dynasty = "O'Brien"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1617.1.1 = { government = administrative_monarchy }
+
+1707.1.1 = { government = constitutional_monarchy }

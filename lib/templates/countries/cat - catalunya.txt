@@ -1,0 +1,19 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -1
+centralization_decentralization = 3
+innovative_narrowminded = -1
+mercantilism_freetrade = 4
+offensive_defensive = 4
+land_naval = 4
+quality_quantity = -2
+serfdom_freesubjects = -2
+religion = catholic
+primary_culture = catalan
+technology_group = western
+capital = 213	# Barcelona
+
+1711.4.18 = { centralization_decentralization = -3 serfdom_freesubjects = 2 innovative_narrowminded = -1 }
+
+1711.4.18 = { government = bureaucratic_despotism }
+
+1759.8.12 = { government = enlightened_despotism }

@@ -1,0 +1,900 @@
+government = despotic_monarchy 
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = 0
+quality_quantity = 3
+serfdom_freesubjects = -2
+primary_culture = bengali
+religion = sunni
+capital = 579	# Akyab
+technology_group = chinese
+
+
+1397.1.1 = {
+	monarch = {
+		name = "Radzathu"
+		dynasty = "Loung-Kyet"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1397.1.1 = {
+	heir = {
+		name = "Thinggathu"
+		monarch_name = "Thinggathu"
+		dynasty = "Loung-Kyet"
+		birth_Date = 1395.1.1
+		death_Date = 1404.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1401.1.1 = {
+	monarch = {
+		name = "Thinggathu"
+		dynasty = "Loung-Kyet"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+
+1404.1.1 = {
+	monarch = {
+		name = "Mengtsaumwun"
+		dynasty = "Mrauk-U"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1410.1.1 = {
+	heir = {
+		name = "'Ali Khân"
+		monarch_name = "'Ali Khân"
+		dynasty = "Mrauk-U"
+		birth_date = 1410.1.1
+		death_Date = 1459.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1434.1.1 = {
+	monarch = {
+		name = "'Alî Khân"
+		dynasty = "Mrauk-U"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1434.1.1 = {
+	heir = {
+		name = "Kalima Sháh"
+		monarch_name = "Kalima Sháh"
+		dynasty = "Mrauk-U"
+		birth_date = 1430.1.1
+		death_date = 1482.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1459.1.1 = {
+	monarch = {
+		name = "Kalima Shâh"
+		dynasty = "Mrauk-U"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1459.1.1 = {
+	heir = {
+		name = "Dawliya"
+		monarch_name = "Dawliya"
+		dynasty = "Mrauk-U"
+		birth_date = 1450.1.1
+		death_Date = 1492.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1482.1.1 = {
+	monarch = {
+		name = "Dawliya"
+		dynasty = "Mrauk-U"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1482.1.1 = {
+	heir = {
+		name = "Basawnyo"
+		monarch_name = "Basawnyo"
+		dynasty = "Mrauk-U"
+		birth_Date = 1480.1.1
+		death_Date = 1494.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1492.1.1 = {
+	monarch = {
+		name = "Basawnyo"
+		dynasty = "Mrauk-U"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1492.1.1 = {
+	heir = {
+		name = "Yanaung"
+		monarch_name = "Yanaung"
+		dynasty = "Mrauk-U"
+		birth_Date = 1490.1.1
+		death_Date = 1495.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1494.1.1 = {
+	monarch = {
+		name = "Yanaung"
+		dynasty = "Mrauk-U"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1495.1.1 = {
+	monarch = {
+		name = "Salingathu"
+		dynasty = "Mrauk-U"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1495.1.1 = {
+	heir = {
+		name = "Minyaza"
+		monarch_name = "Minyaza"
+		dynasty = "Mrauk-U"
+		birth_Date = 1490.1.1
+		death_Date = 1523.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1501.1.1 = {
+	monarch = {
+		name = "Minyaza"
+		dynasty = "Mrauk-U"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1501.1.1 = {
+	heir = {
+		name = "Kasabadi"
+		monarch_name = "Kasabadi"
+		dynasty = "Mrauk-U"
+		birth_Date = 1480.1.1
+		death_Date = 1525.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1523.1.1 = {
+	monarch = {
+		name = "Kasabadi"
+		dynasty = "Mrauk-U"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1525.1.1 = {
+	monarch = {
+		name = "Minsaw O"
+		dynasty = "Mrauk-U"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1526.1.1 = {
+	monarch = {
+		name = "Thatasa"
+		dynasty = "Mrauk-U"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1531.1.1 = {
+	monarch = {
+		name = "Minbin"
+		dynasty = "Mrauk-U"
+		adm = 8
+		dip = 5
+		mil = 6
+	}
+}
+
+1531.1.1 = {
+	heir = {
+		name = "Dikha"
+		monarch_name = "Dikha"
+		dynasty = "Mrauk-U"
+		birth_Date = 1510.1.1
+		death_Date = 1555.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1553.1.1 = {
+	monarch = {
+		name = "Dikha"
+		dynasty = "Mrauk-U"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1553.1.1 = {
+	heir = {
+		name = "Sawla"
+		monarch_name = "Sawla"
+		dynasty = "Mrauk-U"
+		birth_Date = 1520.1.1
+		death_date = 1564.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1555.1.1 = {
+	monarch = {
+		name = "Sawla"
+		dynasty = "Mrauk-U"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1555.1.1 = {
+	heir = {
+		name = "Minsetya"
+		monarch_name = "Minsetya"
+		dynasty = "Mrauk-U"
+		birth_Date = 1550.1.1
+		death_Date = 1571.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1564.1.1 = {
+	monarch = {
+		name = "Minsetya"
+		dynasty = "Mrauk-U"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1564.1.1 = {
+	heir = {
+		name = "Minpalaung"
+		monarch_name = "Minpalaung"
+		dynasty = "Mrauk-U"
+		birth_Date = 1560.1.1
+		death_Date = 1593.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1571.1.1 = {
+	monarch = {
+		name = "Minpalaung"
+		dynasty = "Mrauk-U"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1571.1.1 = {
+	heir = {
+		name = "Salim Shâh"
+		monarch_name = "Salim Shâh"
+		dynasty = "Mrauk-U"
+		birth_Date = 1570.1.1
+		death_Date = 1612.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1593.1.1 = {
+	monarch = {
+		name = "Salim Shâh"
+		dynasty = "Mrauk-U"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1593.1.1 = {
+	heir = {
+		name = "Husayn Shâh"
+		monarch_name = "Husayn Shâh"
+		dynasty = "Mrauk-U"
+		birth_date = 1593.1.1
+		death_Date = 1622.1.1
+		claim = 95
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1612.1.1 = {
+	monarch = {
+		name = "Husayn Shâh"
+		dynasty = "Mrauk-U"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1612.1.1 = {
+	heir = {
+		name = "Thiri Thudamma"
+		monarch_name = "Thiri Thudamma"
+		birth_Date = 1600.1.1
+		death_Date = 1638.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1622.1.1 = {
+	monarch = {
+		name = "Thiri Thudamma"
+		dynasty = "Mrauk-U"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1622.1.1 = {
+	heir = {
+		name = "Minsani"
+		monarch_name = "Minsani"
+		dynasty = "Mrauk-U"
+		birth_Date = 1600.1.1
+		death_date = 1639.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1638.1.1 = {
+	monarch = {
+		name = "Minsani"
+		dynasty = "Mrauk-U"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1638.1.1 = {
+	heir = {
+		name = "Narapatikyi"
+		monarch_name = "Narapatikyi"
+		dynasty = "Mrauk-U"
+		birth_Date = 1600.1.1
+		death_Date = 1645.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1639.1.1 = {
+	monarch = {
+		name = "Narapatikyi"
+		dynasty = "Mrauk-U"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1639.1.1 = {	
+	heir = {
+		name = "Thado"
+		monarch_name = "Thado"
+		dynasty = "Mrauk-U"
+		birth_Date = 1610.1.1
+		death_Date = 1652.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1645.1.1 = {
+	monarch = {
+		name = "Thado"
+		dynasty = "Mrauk-U"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1645.1.1 = {
+	heir = {
+		name = "Sandathudamma"
+		monarch_name = "Sandathudamma"
+		dynasty = "Mrauk-U"
+		birth_Date = 1635.1.1
+		death_Date = 1684.1.1
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 3
+	}
+}
+
+1652.1.1 = {
+	monarch = {
+		name = "Sandathudamma"
+		dynasty = "Mrauk-U"
+		adm = 7
+		dip = 7
+		mil = 3
+	}
+}
+
+1670.1.1 = {
+	heir = {
+		name = "Thirithuriya"
+		monarch_name = "Thirithuriya"
+		dynasty = "Mrauk-U"
+		birth_Date = 1660.1.1
+		death_Date = 1685.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1684.1.1 = {
+	monarch = {
+		name = "Thirithuriya"
+		dynasty = "Mrauk-U"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1684.1.1 = {
+	heir = {
+		name = "Waradhammaraza"
+		monarch_name = "Waradhammaraza"
+		dynasty = "Mrauk-U"
+		birth_Date = 1660.1.1
+		death_Date = 1692.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1685.1.1 = {
+	monarch = {
+		name = "Waradhammaraza"
+		dynasty = "Mrauk-U"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+
+1692.1.1 = {
+	monarch = {
+		name = "Munithudhammaraza"
+		dynasty = "Mrauk-U"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1694.1.1 = {
+	monarch = {
+		name = "Sandathuriyadhamma"
+		dynasty = "Mrauk-U"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1696.1.1 = {
+	monarch = {
+		name = "Nawrahtazaw"
+		dynasty = "Mrauk-U"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1697.1.1 = {
+	monarch = {
+		name = "Kalamandat"
+		dynasty = "Mrauk-U"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1698.1.1 = {
+	monarch = {
+		name = "Naradipati I"
+		dynasty = "Mrauk-U"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Sandawimala I"
+		dynasty = "Mrauk-U"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1706.1.1 = {
+	monarch = {
+		name = "Sandathuriya I"
+		dynasty = "Mrauk-U"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1710.1.1 = {
+	monarch = {
+		name = "Sandawizaya I"
+		dynasty = "Mrauk-U"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1710.1.1 = {
+	heir = {
+		name = "Sandathuriya"
+		monarch_name = "Sandathuriya II"
+		dynasty = "Mrauk-U"
+		birth_Date = 1700.1.1
+		death_Date = 1734.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1731.1.1 = {
+	monarch = {
+		name = "Sandathuriya II"
+		dynasty = "Mrauk-U"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1734.1.1 = {
+	monarch = {
+		name = "Naradipati II"
+		dynasty = "Mrauk-U"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1735.1.1 = {
+	monarch = {
+		name = "Narapawara"
+		dynasty = "Mrauk-U"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1737.1.1 = {
+	monarch = {
+		name = "Sandawizaya II"
+		dynasty = "Mrauk-U"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1737.6.1 = {
+	monarch = {
+		name = "Katya"
+		dynasty = "Mrauk-U"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1738.1.1 = {
+	monarch = {
+		name = "Madarit"
+		dynasty = "Mrauk-U"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+1738.1.1 = {
+	heir = {
+		name = "Nara-apaya"
+		monarch_name = "Nara-apaya"
+		dynasty = "Mrauk-U"
+		birth_Date = 1700.1.1
+		death_Date = 1761.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1742.1.1 = {
+	monarch = {
+		name = "Nara-apaya"
+		dynasty = "Mrauk-U"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1742.1.1 = {
+	heir = {
+		name = "Thirithu"
+		monarch_name = "Thirithu"
+		dynasty = "Mrauk-U"
+		birth_Date = 1730.1.1
+		death_Date = 1764.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1761.1.1 = {
+	monarch = {
+		name = "Thirithu"
+		dynasty = "Mrauk-U"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1761.1.1 = {
+	heir = {
+		name = "Apaya"
+		monarch_name = "Apaya"
+		dynasty = "Mrauk-U"
+		birth_Date = 1740.1.1
+		death_Date = 1773.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1764.1.1 = {
+	monarch = {
+		name = "Apaya"
+		dynasty = "Mrauk-U"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1764.1.1 = {
+	heir = {
+		name = "Sandathumana"
+		monarch_name = "Sandathumana"
+		dynasty = "Mrauk-U"
+		birth_Date = 1750.1.1
+		death_Date = 1777.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1773.1.1 = {
+	monarch = {
+		name = "Sandathumana"
+		dynasty = "Mrauk-U"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1773.1.1 = {
+	heir = {
+		name = "Sandawimala"
+		monarch_name = "Sandawimala II"
+		dynasty = "Mrauk-U"
+		birth_Date = 1750.1.1
+		death_date = 1778.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1777.1.1 = {
+	monarch = {
+		name = "Sandawimala II"
+		dynasty = "Mrauk-U"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1777.1.1 = {
+	heir = {
+		name = "Sandaditha"
+		monarch_name = "Sandaditha"
+		dynasty = "Mrauk-u"
+		birth_Date = 1770.1.1
+		death_Date = 1782.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1778.1.1 = {
+	monarch = {
+		name = "Sandaditha"
+		dynasty = "Mrauk-U"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1778.1.1 = {
+	heir = {
+		name = "Thamada"
+		monarch_name = "Thamada"
+		dynasty = "Mrauk-U"
+		birth_Date = 1750.1.1
+		death_Date = 1803.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1782.1.1 = {
+	monarch = {
+		name = "Thamada"
+		dynasty = "Mrauk-U"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,133 @@
+government = theocratic_government
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = -4
+primary_culture = saxon
+religion = catholic
+technology_group = western
+capital = 52	# Magdeburg
+
+
+1382.1.1 = {
+	monarch = {
+		name = "Albrecht III"
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}
+
+1403.1.1 = {
+	monarch = {
+		name = "Gunther II"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1445.3.24 = {
+	monarch = {
+		name = "Friedrich III"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1464.11.12 = {
+	monarch = {
+		name = "Johann I"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1475.12.14 = {
+	monarch = {
+		name = "Interregnum"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1479.3.20 = {
+	monarch = {
+		name = "Ernst I"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1513.8.4 = {
+	monarch = {
+		name = "Albrecht IV"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1545.9.25 = {
+	monarch = {
+		name = "Johann Albrecht I"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1551.5.18 = {
+	monarch = {
+		name = "Friedrich III"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1551.5.18 = { government = administrative_monarchy }
+
+1552.10.4 = {
+	monarch = {
+		name = "Sigismund I"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1566.9.14 = {
+	monarch = {
+		name = "Joachim Friedrich I"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1598.1.1 = {
+	monarch = {
+		name = "Christian Wilhelm I"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1635.1.1 = {
+	monarch = {
+		name = "August I"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}

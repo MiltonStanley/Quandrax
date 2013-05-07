@@ -1,0 +1,1418 @@
+government = merchant_republic
+aristocracy_plutocracy = 1
+centralization_decentralization = 2
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 3
+land_naval = 3
+quality_quantity = -1
+serfdom_freesubjects = -2
+primary_culture = lombard
+religion = catholic
+technology_group = western
+capital = 101	# Genova
+
+
+1394.1.1 = {
+	monarch = {
+		name = "Antonio Adorno"
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}
+
+1413.1.1 = {
+	monarch = {
+		name = "Giorgio Adorno"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+
+1415.1.1 = {
+	monarch = {
+		name = "Tommaso di Campofregoso"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1436.1.1 = {
+	monarch = {
+		name = "Isnardo Guarco"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1437.1.1 = {
+	monarch = {
+		name = "Tommaso di Campofregoso"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1443.1.1 = {
+	monarch = {
+		name = "Raffaele Adorno"
+		adm = 4
+		dip = 6
+		mil = 7
+	}
+}
+
+1447.1.1 = {
+	monarch = {
+		name = "Lodovico de Campofregoso"
+		adm = 7
+		dip = 5
+		mil = 5
+	}
+}
+
+1450.9.5 = {
+	monarch = {
+		name = "Pietro de Campofregoso"
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}
+
+1458.5.12 = {
+	monarch = {
+		name = "Lodovico de Campofregoso"
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}
+
+1463.1.9 = {
+	monarch = {
+		name = "Prospero Adorno"
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}
+
+1478.10.26 = {
+	monarch = {
+		name = "Battista de Campofregoso"
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}
+
+1480.1.1 = { leader = {	name = "Paolo Fregoso"         	type = general	rank = 2	fire = 3	shock = 3	manuever = 2	siege = 0	death_date = 1487.1.1 } }
+
+1483.11.26 = {
+	monarch = {
+		name = "Giano de Campofregoso"
+		adm = 7
+		dip = 5
+		mil = 6
+	}
+}
+
+1488.1.17 = {
+	monarch = {
+		name = "Gian Galeazzo"
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}
+
+1499.1.1 = {
+	monarch = {
+		name = "Philippe de Ravenstein"
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}
+
+1506.1.1 = {
+	monarch = {
+		name = "Paolo da Nova"
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}
+
+1507.1.1 = {
+	monarch = {
+		name = "Rodolphe de Lannoy"
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}
+
+1512.6.30 = {
+	monarch = {
+		name = "Giano Maria Fregoso"
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}
+
+1513.1.1 = { leader = {	name = "Frederigo Fregoso"     	type = admiral	rank = 1	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1522.1.1 } }
+
+1513.6.21 = {
+	monarch = {
+		name = "Ottariano di Campofregosi"
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}
+
+1520.1.1 = { leader = {	name = "Andrea Doria"          	type = admiral	rank = 0	fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1565.1.1 } }
+
+1528.10.13 = {
+	monarch = {
+		name = "Oberto Cattaneo"
+		adm = 7
+		dip = 8
+		mil = 9
+	}
+}
+
+1531.1.5 = {
+	monarch = {
+		name = "Battista Spinola"
+		adm = 7
+		dip = 8
+		mil = 9
+	}
+}
+
+1533.1.5 = {
+	monarch = {
+		name = "Battista Lomellino"
+		adm = 7
+		dip = 8
+		mil = 9
+	}
+}
+
+1535.1.5 = {
+	monarch = {
+		name = "Cristoforo Grimaldi"
+		adm = 7
+		dip = 8
+		mil = 9
+	}
+}
+
+1537.1.5 = {
+	monarch = {
+		name = "Giovanni Doria"
+		adm = 7
+		dip = 8
+		mil = 9
+	}
+}
+
+1539.1.5 = {
+	monarch = {
+		name = "Andrea Giustiniani"
+		adm = 7
+		dip = 8
+		mil = 9
+	}
+}
+
+1541.1.5 = {
+	monarch = {
+		name = "Leonardo Catteneo"
+		adm = 7
+		dip = 8
+		mil = 9
+	}
+}
+
+1543.1.5 = {
+	monarch = {
+		name = "Andrea Centurione"
+		adm = 7
+		dip = 8
+		mil = 9
+	}
+}
+
+1545.1.5 = {
+	monarch = {
+		name = "Giovanni Fornari"
+		adm = 7
+		dip = 8
+		mil = 9
+	}
+}
+
+1547.1.5 = {
+	monarch = {
+		name = "Benedetto Gentile"
+		adm = 7
+		dip = 8
+		mil = 9
+	}
+}
+
+1549.1.5 = {
+	monarch = {
+		name = "Gaspari Grimaldi"
+		adm = 7
+		dip = 8
+		mil = 9
+	}
+}
+
+1551.1.5 = {
+	monarch = {
+		name = "Luca Spinola"
+		adm = 7
+		dip = 8
+		mil = 9
+	}
+}
+
+1553.1.5 = {
+	monarch = {
+		name = "Giacomo Promontorio"
+		adm = 7
+		dip = 8
+		mil = 9
+	}
+}
+
+1555.1.5 = {
+	monarch = {
+		name = "Agostino Pinelli"
+		adm = 7
+		dip = 8
+		mil = 9
+	}
+}
+
+1557.1.5 = {
+	monarch = {
+		name = "Pietro Chiavica"
+		adm = 7
+		dip = 8
+		mil = 9
+	}
+}
+
+1559.1.5 = {
+	monarch = {
+		name = "Gerlamo Vivaldi"
+		adm = 7
+		dip = 8
+		mil = 9
+	}
+}
+
+1561.1.5 = {
+	monarch = {
+		name = "Battista Cicala"
+		adm = 7
+		dip = 8
+		mil = 9
+	}
+}
+
+1563.10.8 = {
+	monarch = {
+		name = "Givanni Lercari"
+		adm = 7
+		dip = 8
+		mil = 9
+	}
+}
+
+1565.1.1 = { leader = {	name = "G. Doria"              	type = admiral	rank = 1	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1590.1.1 } }
+
+1565.10.8 = {
+	monarch = {
+		name = "Ottavio Odorico"
+		adm = 6
+		dip = 7
+		mil = 9
+	}
+}
+
+1567.10.12 = {
+	monarch = {
+		name = "Simone Spinola"
+		adm = 6
+		dip = 7
+		mil = 9
+	}
+}
+
+1569.10.4 = {
+	monarch = {
+		name = "Paolo Giustiniani"
+		adm = 6
+		dip = 7
+		mil = 9
+	}
+}
+
+1571.10.7 = {
+	monarch = {
+		name = "Gianotto Lomellini"
+		adm = 6
+		dip = 7
+		mil = 9
+	}
+}
+
+1573.10.11 = {
+	monarch = {
+		name = "Giacomo Durazzo"
+		adm = 6
+		dip = 7
+		mil = 9
+	}
+}
+
+1575.10.18 = {
+	monarch = {
+		name = "Prospero Centurione"
+		adm = 6
+		dip = 7
+		mil = 9
+	}
+}
+
+1577.10.18 = {
+	monarch = {
+		name = "Giovanni Gentile"
+		adm = 6
+		dip = 7
+		mil = 9
+	}
+}
+
+1579.10.21 = {
+	monarch = {
+		name = "Nicolo Doria"
+		adm = 6
+		dip = 7
+		mil = 9
+	}
+}
+
+1581.10.22 = {
+	monarch = {
+		name = "Gerolamo de Franchi"
+		adm = 6
+		dip = 7
+		mil = 9
+	}
+}
+
+1583.10.22 = {
+	monarch = {
+		name = "Gerolama Chiavari"
+		adm = 6
+		dip = 7
+		mil = 9
+	}
+}
+
+1585.11.5 = {
+	monarch = {
+		name = "Ambrogio di Negro"
+		adm = 6
+		dip = 7
+		mil = 9
+	}
+}
+
+1587.11.15 = {
+	monarch = {
+		name = "Davide Vacca"
+		adm = 6
+		dip = 7
+		mil = 9
+	}
+}
+
+1589.11.15 = {
+	monarch = {
+		name = "Battista Negrone"
+		adm = 6
+		dip = 7
+		mil = 9
+	}
+}
+
+1591.11.16 = {
+	monarch = {
+		name = "Giovanni Giustiniani"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1593.11.28 = {
+	monarch = {
+		name = "Antonio Grimaldi"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1595.11.27 = {
+	monarch = {
+		name = "Matteo Senarega"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1597.12.8 = {
+	monarch = {
+		name = "Lazzaro Grimaldi"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1599.2.15 = {
+	monarch = {
+		name = "Lorenzo Sauli"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1601.2.20 = {
+	monarch = {
+		name = "Agostino Doria"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1603.2.25 = {
+	monarch = {
+		name = "Pietro de Franchi"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1605.2.26 = {
+	monarch = {
+		name = "Luca Grimaldi"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1607.3.4 = {
+	monarch = {
+		name = "Gerolamo Assereto"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1609.4.2 = {
+	monarch = {
+		name = "Agostino Pinello"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1611.4.7 = {
+	monarch = {
+		name = "Alessandro Giustiniani"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1613.4.22 = {
+	monarch = {
+		name = "Tomaso Spinola"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1615.4.26 = {
+	monarch = {
+		name = "Bernardo Clavarezza"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1617.4.26 = {
+	monarch = {
+		name = "Giovanni Imperiale"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1619.5.3 = {
+	monarch = {
+		name = "Pietro Durazzo"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1621.5.5 = {
+	monarch = {
+		name = "Giorgio Centurione"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1623.6.26 = {
+	monarch = {
+		name = "Frederico di Franchi"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1625.6.17 = {
+	monarch = {
+		name = "Giacomo Lomellino"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1627.6.29 = {
+	monarch = {
+		name = "Giovanni Chiavari"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1629.6.27 = {
+	monarch = {
+		name = "Andrea Spinola"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1631.6.30 = {
+	monarch = {
+		name = "Lonardo della Torre"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1633.7.6 = {
+	monarch = {
+		name = "Giovanni Doria"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1635.7.12 = {
+	monarch = {
+		name = "Giovanni Brignole"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1637.7.14 = {
+	monarch = {
+		name = "Agostino Pallavicini"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1639.7.29 = {
+	monarch = {
+		name = "Giovanni Durazzo"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1641.8.15 = {
+	monarch = {
+		name = "Agostino de Marini"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1642.6.20 = {
+	monarch = {
+		name = "Giovanni Lercari"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1644.7.22 = {
+	monarch = {
+		name = "Luca Giustiniani"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1646.7.25 = {
+	monarch = {
+		name = "Giovanni Battista"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1648.8.2 = {
+	monarch = {
+		name = "Giacomo de Franchi"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1650.8.24 = {
+	monarch = {
+		name = "Agostino Centurione"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1652.9.9 = {
+	monarch = {
+		name = "Gerolamo de Franchi"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1654.10.10 = {
+	monarch = {
+		name = "Allesandro Spinola"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1656.10.13 = {
+	monarch = {
+		name = "Giulio Sauli"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1658.10.16 = {
+	monarch = {
+		name = "Giovanni Centurione"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1660.10.29 = {
+	monarch = {
+		name = "Gian Frugoni"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1661.3.23 = {
+	monarch = {
+		name = "Antoniotto Invrea"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1663.4.14 = {
+	monarch = {
+		name = "Stefano de Mari"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1665.4.19 = {
+	monarch = {
+		name = "Cesare Durazzo"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1667.5.11 = {
+	monarch = {
+		name = "Cesaro Gentile"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1669.6.19 = {
+	monarch = {
+		name = "Francesco Garbarino"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1671.6.28 = {
+	monarch = {
+		name = "Allesandro Grimaldi"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1673.7.6 = {
+	monarch = {
+		name = "Agostino Saluzzo"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1675.7.12 = {
+	monarch = {
+		name = "Antonio da Passano"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1677.7.17 = {
+	monarch = {
+		name = "Giannettino Odone"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1679.7.30 = {
+	monarch = {
+		name = "Agostino Spinola"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1681.8.14 = {
+	monarch = {
+		name = "Luca Invrea"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1683.8.19 = {
+	monarch = {
+		name = "Francesco Imperiale"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1685.8.24 = {
+	monarch = {
+		name = "Pietro Durazzo"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1687.8.28 = {
+	monarch = {
+		name = "Luca Spinola"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1689.8.30 = {
+	monarch = {
+		name = "Oberto Della Torre "
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1691.9.5 = {
+	monarch = {
+		name = "Giovanni Cattaneo"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1693.9.10 = {
+	monarch = {
+		name = "Francesco Invrea"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1695.9.17 = {
+	monarch = {
+		name = "Bendinelli Negrone"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1697.9.20 = {
+	monarch = {
+		name = "Francesco Sauli"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1699.5.27 = {
+	monarch = {
+		name = "Gerolamo de Mari"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1701.6.4 = {
+	monarch = {
+		name = "Federico de Franchi"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1703.6.8 = {
+	monarch = {
+		name = "Antonio Grimaldi"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1705.8.2 = {
+	monarch = {
+		name = "Stefano Ferreti"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1707.8.23 = {
+	monarch = {
+		name = "Domenico de Mari"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1709.9.10 = {
+	monarch = {
+		name = "Vincenzo Durazzo"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1711.9.23 = {
+	monarch = {
+		name = "Francesco Imperiale"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1713.9.23 = {
+	monarch = {
+		name = "Giovanni Giustiniani"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1715.9.27 = {
+	monarch = {
+		name = "Lorenzo Centurione"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1717.9.30 = {
+	monarch = {
+		name = "Benedetto Viale"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1719.10.5 = {
+	monarch = {
+		name = "Ambrogio Imperiale"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1721.10.9 = {
+	monarch = {
+		name = "Cesare de Franchi"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1723.10.14 = {
+	monarch = {
+		name = "Doemico Negrone"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1726.1.19 = {
+	monarch = {
+		name = "Gerolamo Veneroso"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1728.1.23 = {
+	monarch = {
+		name = "Luca Grimaldi"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1730.1.26 = {
+	monarch = {
+		name = "Francesco Balbi"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1732.1.30 = {
+	monarch = {
+		name = "Domenico Spinola"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1734.2.3 = {
+	monarch = {
+		name = "Gianstefano Durazzo"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1736.2.7 = {
+	monarch = {
+		name = "Nicolo Cattaneo"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1738.2.11 = {
+	monarch = {
+		name = "Constantino Balbi"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1740.2.15 = {
+	monarch = {
+		name = "Nicolo Spinola"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1742.2.19 = {
+	monarch = {
+		name = "Dominco Canevaro"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1744.3.2 = {
+	monarch = {
+		name = "Lorenzo de Mari"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1746.3.4 = {
+	monarch = {
+		name = "Giovanni Brignole"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1748.3.7 = {
+	monarch = {
+		name = "Cesare Cattaneo"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1750.3.11 = {
+	monarch = {
+		name = "Agostino Viale"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1752.3.29 = {
+	monarch = {
+		name = "Giovanni Grimaldi"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1754.6.24 = {
+	monarch = {
+		name = "Gian Veneroso"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1756.5.17 = {
+	monarch = {
+		name = "Gian Grimaldi"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1758.9.23 = {
+	monarch = {
+		name = "Matteo Franzoni"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1760.8.23 = {
+	monarch = {
+		name = "Agostino Lomellino"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1762.11.26 = {
+	monarch = {
+		name = "Rodolfo Brignole"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1765.1.30 = {
+	monarch = {
+		name = "Maria Rovere"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1767.2.3 = {
+	monarch = {
+		name = "Marcello Durazzo"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1769.2.15 = {
+	monarch = {
+		name = "Giovanni Negrone"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1771.1.27 = {
+	monarch = {
+		name = "Ferdinando Spinola"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1772.12.26 = {
+	monarch = {
+		name = "Alessandro Grimaldi"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1775.1.30 = {
+	monarch = {
+		name = "Brizio Giustiniani"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1777.2.4 = {
+	monarch = {
+		name = "Giuseppe Lomellini"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1779.3.4 = {
+	monarch = {
+		name = "Giacomo Brignole"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1781.3.9 = {
+	monarch = {
+		name = "Marco Gentile"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1783.5.7 = {
+	monarch = {
+		name = "Giovanni Ayroli"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1785.6.7 = {
+	monarch = {
+		name = "Gian Pallavicini"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1787.7.5 = {
+	monarch = {
+		name = "Raffaele de Ferrari"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1789.6.30 = {
+	monarch = {
+		name = "Alerame Pallavicini"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1791.9.4 = {
+	monarch = {
+		name = "Michelangelo Cambiaso"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1793.9.17 = {
+	monarch = {
+		name = "Giuseppe Maria Doria"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1795.11.18 = {
+	monarch = {
+		name = "Giacomo Brignole"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1797.6.15 = {
+	monarch = {
+		name = "Ligurian Republic"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1802.7.3 = {
+	monarch = {
+		name = "Girolamo Durazzo"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1805.6.7 = {
+	monarch = {
+		name = "Girolamo Serra"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

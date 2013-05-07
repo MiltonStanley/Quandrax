@@ -1,0 +1,44 @@
+government = merchant_republic
+aristocracy_plutocracy = 1
+centralization_decentralization = 3
+innovative_narrowminded = 0
+mercantilism_freetrade = 2
+offensive_defensive = 2
+land_naval = -3
+quality_quantity = 4
+serfdom_freesubjects = -2
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+capital = 310	# Novgorod
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Yeufimei II"
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+}
+
+1459.1.1 = {
+	monarch = {
+		name = "Iona"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1470.11.1 = {
+	monarch = {
+		name = "Feodosi"
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+
+}
+
+1557.7.12 = { land_naval = 0 } # Civil War in Novgorod

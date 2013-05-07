@@ -1,0 +1,74 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = 0
+quality_quantity = 3
+serfdom_freesubjects = -2
+primary_culture = northern_thai
+religion = buddhism
+technology_group = chinese
+capital = 601	# Sukhothai
+
+
+1376.1.1 = {
+	monarch = {
+		name = "Thammaracha II"
+		dynasty = "Phra Ruang"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1376.1.1 = {
+	heir = {
+		name = "Phya Saileuthai"
+		monarch_name = "Thammaracha III"
+		dynasty = "Phra Ruang"
+		birth_date = 1376.1.1
+		death_date = 1419.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1406.1.1 = {
+	monarch = {
+		name = "Thammaracha III"
+		dynasty = "Phra Ruang"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1406.1.1 = {
+	heir = {
+		name = "Thammaracha"
+		monarch_name = "Thammaracha IV"
+		dynasty = "Phra Ruang"
+		birth_date = 1399.1.1
+		death_date = 1438.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1419.1.1 = {
+	monarch = {
+		name = "Thammaracha IV"
+		dynasty = "Phra Ruang"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+# To Ayutthaya, 1438

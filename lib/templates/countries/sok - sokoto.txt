@@ -1,0 +1,23 @@
+government = tribal_despotism
+aristocracy_plutocracy = -5
+centralization_decentralization = -1
+innovative_narrowminded = 1
+mercantilism_freetrade = -5
+offensive_defensive = 0
+land_naval = -4
+quality_quantity = 2
+serfdom_freesubjects = -5
+primary_culture = mali
+religion = sunni
+technology_group = sub_saharan
+capital = 1148	# Gobir
+
+1804.1.1 = {
+	monarch = {
+		name = "'Uthman dan"
+		dynasty = "Fodio"
+		DIP = 5
+		ADM = 6
+		MIL = 5
+	}
+}

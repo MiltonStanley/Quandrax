@@ -1,0 +1,106 @@
+government = tribal_democracy
+aristocracy_plutocracy = 5
+centralization_decentralization = 5
+innovative_narrowminded = 0
+mercantilism_freetrade = 0
+offensive_defensive = 5
+land_naval = -5
+quality_quantity = 0
+serfdom_freesubjects = 5
+primary_culture = iroquis
+religion = shamanism
+technology_group = new_world
+capital = 956	# Lenape
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Bear Paw"
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1533.1.1 = {
+	monarch = {
+		name = "White Wolf"
+		adm = 7
+		dip = 7
+		mil = 6
+	}
+}
+
+1567.1.1 = {
+	monarch = {
+		name = "Hiawatha"
+		adm = 8
+		dip = 9
+		mil = 6
+	}
+}
+
+1595.1.1 = {
+	monarch = {
+		name = "Wise Beaver"
+		adm = 6
+		dip = 8
+		mil = 7
+	}
+}
+
+1623.1.1 = {
+	monarch = {
+		name = "Red Fox"
+		adm = 5
+		dip = 7
+		mil = 7
+	}
+}
+
+1670.1.1 = {
+	monarch = {
+		name = "Eagle"
+		adm = 6
+		dip = 8
+		mil = 3
+	}
+}
+
+1699.1.1 = {
+	monarch = {
+		name = "Theyanoguin"
+		adm = 7
+		dip = 6
+		mil = 3
+	}
+}
+
+1755.1.1 = {
+	monarch = {
+		name = "Teiorhenhsere"
+		adm = 7
+		dip = 5
+		mil = 4
+	}
+}
+
+1765.1.1 = { leader = {	name = "Pontiac"	type = conquistador	rank = 0	fire = 3	shock = 5	manuever = 6	siege = 1	death_date = 1769.4.20 } }
+
+1780.1.1 = {
+	monarch = {
+		name = "Thayendanega"
+		adm = 5
+		dip = 8
+		mil = 3
+	}
+}
+
+1807.1.1 = {
+	monarch = {
+		name = "Ahyouwighs"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}

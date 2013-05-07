@@ -1,0 +1,212 @@
+government = steppe_horde
+aristocracy_plutocracy = -4
+centralization_decentralization = 5
+innovative_narrowminded = 3
+mercantilism_freetrade = -3
+offensive_defensive = -1
+land_naval = -1
+quality_quantity = 3
+serfdom_freesubjects = -5
+primary_culture = tartar
+religion = sunni
+technology_group = nomad_group
+capital = 466	# Sarai
+
+
+1376.1.1 = { leader = {	name = "Tokhtamysh"	type = general	rank = 1	fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1406.1.1 } }
+
+1394.1.1 = {
+	monarch = {
+		name = "Temur Qutlugh"
+		dynasty = "Genghisid"
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1394.1.1 = {
+	heir = {
+		name = "Shadi Beg"
+		monarch_name = "Shadi Beg Khan"
+		dynasty = "Genghisid"
+		birth_date = 1380.1.1
+		death_date = 1410.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1400.1.1 = {
+	monarch = {
+		name = "Shadi Beg"
+		dynasty = "Genghisid"
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1400.1.1 = {
+	heir = {
+		name = "Pulad"
+		monarch_name = "Pulad Khan"
+		dynasty = "Genghisid"
+		birth_date = 1380.1.1
+		death_date = 1420.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 3
+	}
+}
+
+1407.1.1 = {
+	monarch = {
+		name = "Pulad Khan"
+		dynasty = "Genghisid"
+		adm = 7
+		dip = 6
+		mil = 3
+	}
+}
+
+
+1410.1.1 = {
+	monarch = {
+		name = "Temür"
+		dynasty = "Genghisid"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1412.1.1 = {
+	monarch = {
+		name = "Jalal Al-Din"
+		dynasty = "Genghisid"
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+1412.1.1 = {
+	heir = {
+		name = "Karim Berdi"
+		monarch_name = "Karim Berdi"
+		dynasty = "Genghisid"
+		birth_date = 1380.1.1
+		death_date = 1414.1.1
+		claim = 65
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1413.1.1 = {
+	monarch = {
+		name = "Karim Berdi"
+		dynasty = "Genghisid"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1414.1.1 = {
+	monarch = {
+		name = "Kebek"
+		dynasty = "Genghisid"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1417.1.1 = {
+	monarch = {
+		name = "Jabbar Berdi"
+		dynasty = "Genghisid"
+		adm = 4
+		dip = 5
+		mil = 7
+	}
+}
+
+
+1419.1.1 = {
+	monarch = {
+		name = "Ulugh Muhammad"
+		dynasty = "Genghisid"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1420.1.1 = {
+	monarch = {
+		name = "Devlat Berdi"
+		dynasty = "Genghisid"
+		adm = 7
+		dip = 7
+		mil = 4
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Baraq"
+		dynasty = "Genghisid"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1428.1.1 = {
+	monarch = {
+		name = "Ulugh Muhammad"
+		dynasty = "Genghisid"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1433.1.1 = {
+	monarch = {
+		name = "Sayyîd Ahmad I"
+		dynasty = "Genghisid"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Ahmad"
+		dynasty = "Genghisid"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1481.1.1 = {
+	monarch = {
+		name = "Sayyîd Ahmad II"
+		dynasty = "Genghisid"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1481.1.1 = { leader = {	name = "Sheyhk Ahmad"          	type = general	rank = 0	fire = 1	shock = 2	manuever = 4	siege = 0	death_date = 1505.1.1 } }

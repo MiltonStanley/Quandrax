@@ -1,0 +1,137 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 5
+innovative_narrowminded = -1
+mercantilism_freetrade = -2
+offensive_defensive = 0
+land_naval = 2
+quality_quantity = 2
+serfdom_freesubjects = 3
+primary_culture = catalan
+add_accepted_culture = sicilian
+religion = catholic
+technology_group = western
+historical_friend = POR
+capital = 213	# Barcelona
+
+
+1396.5.19 = {
+	monarch = {
+		name = "Martí I"
+		dynasty = "d'Aragó"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1410.5.31 = {
+	monarch = {
+		name = "Compromís de Casp"
+		regent = yes
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1412.6.24 = {
+	monarch = {
+		name = "Ferran I"
+		dynasty = "de Trastámara"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1412.6.24 = {
+	heir = {
+		name = "Alfons"
+		monarch_name = "Alfons V"
+		dynasty = "de Trastámara"
+		birth_date = 1396.1.1
+		death_date = 1458.6.27
+		claim = 95
+		adm = 5
+		dip = 7
+		mil = 9
+	}
+}
+		
+
+1410.6.1 = { capital = 214 } # Zaragoza
+
+1416.4.2 = {
+	monarch = {
+		name = "Alfons V"
+		dynasty = "de Trastámara"
+		adm = 5
+		dip = 7
+		mil = 9
+		leader = {	name = "Alfons V"	type = general	rank = 0	fire = 4	shock = 3	manuever = 4	siege = 1 }
+	}
+}
+
+1416.4.2 = {
+	heir = {
+		name = "Joan"
+		monarch_name = "Joan II"
+		dynasty = "de Trastámara"
+		birth_date = 1397.6.29
+		death_date = 1479.1.20
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1416.4.3 = { capital = 220 } # València
+
+1443.1.1 = { leader = {	name = "Bernat de Vilamarí"	type = admiral	rank = 1	fire = 3	shock = 2	manuever = 2	siege = 0	death_date = 1463.9.1 } }
+
+1458.6.29 = {
+	monarch = {
+		name = "Joan II"
+		dynasty = "de Trastámara"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1458.5.29 = {
+	heir = {
+		name = "Ferran"
+		monarch_name = "Ferran II"
+		dynasty = "de Trastámara"
+		birth_date = 1452.3.10
+		death_date = 1516.1.23
+		claim = 95
+		adm = 7
+		dip = 9
+		mil = 8
+	}
+}
+
+1479.1.20 = {
+	monarch = {
+		name = "Ferran II"
+		dynasty = "de Trastámara"
+		adm = 7
+		dip = 9
+		mil = 8
+                leader = {	name = "Ferran II"	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 1 }
+	}
+}
+
+1495.7.1 = { leader = {	name = "Prospero Colonna"      	type = general	rank = 1	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1516.1.23 } }
+
+1508.1.1 = { leader = {	name = "Ramón de Cardona"       type = general	rank = 1	fire = 3	shock = 3	manuever = 2	siege = 1	death_date = 1516.1.23 } }
+
+1516.1.23 = { government = despotic_monarchy }
+
+1724.1.20 = { government = administrative_monarchy }
+
+1759.8.12 = { government = absolute_monarchy }

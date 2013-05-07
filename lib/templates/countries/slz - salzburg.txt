@@ -1,0 +1,288 @@
+government = theocratic_government
+aristocracy_plutocracy = -2
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = 0
+quality_quantity = 0
+serfdom_freesubjects = -1
+technology_group = western
+religion = catholic
+primary_culture = austrian
+capital = 76	# Salzburg
+
+
+1396.1.1 = {
+	monarch = {
+		name = "Gregor Schenk"
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1403.1.1 = {
+	monarch = {
+		name = "Eberhard III"
+		adm = 7
+		dip = 3
+		mil = 3
+	}
+}
+
+1427.1.1 = {
+	monarch = {
+		name = "Eberhard IV"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1429.1.1 = {
+	monarch = {
+		name = "Johann II"
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1441.1.1 = {
+	monarch = {
+		name = "Friedrich IV"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1452.4.5 = {
+	monarch = {
+		name = "Siegmund I von Reisperg"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1461.11.14 = {
+	monarch = {
+		name = "Burkhard von Weisspriach"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1466.2.15 = {
+	monarch = {
+		name = "Bernhard II von Rohr"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1487.7.16 = {
+	monarch = {
+		name = "Johann III von Gran"
+		adm = 6
+		dip = 6
+		mil = 3
+	}
+}
+
+1489.12.16 = {
+	monarch = {
+		name = "Friedrich von Schaumburg"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1494.10.5 = {
+	monarch = {
+		name = "Siegmund II von Holneck"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1495.7.4 = {
+	monarch = {
+		name = "Leonhard von Keutschach"
+		adm = 6
+		dip = 4
+		mil = 7
+	}
+}
+
+1519.6.9 = {
+	monarch = {
+		name = "Matthaus von Wellenburg"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1524.1.1   = { set_country_flag = peasant_war }
+
+1526.1.1   = { clr_country_flag = peasant_war }
+
+1540.3.30 = {
+	monarch = {
+		name = "Ernst von Bayern"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1554.7.17 = {
+	monarch = {
+		name = "Michael von Khuenburg"
+		adm = 7
+		dip = 3
+		mil = 5
+	}
+}
+
+1560.11.18 = {
+	monarch = {
+		name = "Johann Jakob von Kuon"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1586.5.5 = {
+	monarch = {
+		name = "Georg von Khuenburg"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1587.1.26 = {
+	monarch = {
+		name = "Wolfgang von Rattenau"
+		adm = 7
+		dip = 5
+		mil = 6
+	}
+}
+
+1612.3.8 = {
+	monarch = {
+		name = "Mark Sittich von Altemps"
+		adm = 6
+		dip = 7
+		mil = 6
+	}
+}
+
+1619.10.10 = {
+	monarch = {
+		name = "Paris von Lodron"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1653.12.16 = {
+	monarch = {
+		name = "Guidobald von Thun"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1668.6.2 = {
+	monarch = {
+		name = "Maximilian von Khuenburg"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1687.5.4 = {
+	monarch = {
+		name = "Johann Ernst von Thun"
+		adm = 4
+		dip = 4
+		mil = 7
+	}
+}
+
+1709.4.21 = {
+	monarch = {
+		name = "Franz Anton von Harrach"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1727.7.19 = {
+	monarch = {
+		name = "Leopold Anton von Firman"
+		adm = 7
+		dip = 4
+		mil = 4
+	}
+}
+
+1744.10.23 = {
+	monarch = {
+		name = "Jakob von Liechtenstein"
+		adm = 7
+		dip = 5
+		mil = 6
+	}
+}
+
+1747.6.13 = {
+	monarch = {
+		name = "Andreas von Dietrichstein"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1753.1.7 = {
+	monarch = {
+		name = "Siegmund III Christof"
+		adm = 8
+		dip = 5
+		mil = 4
+	}
+}
+
+1771.12.17 = {
+	monarch = {
+		name = "Hieronymus von Colloredo"
+		adm = 7
+		dip = 4
+		mil = 5
+	}
+}
+
+1803.2.11 = {
+	monarch = {
+		name = "Ferdinand von Österreich"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

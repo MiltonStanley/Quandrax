@@ -1,0 +1,372 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = 1
+quality_quantity = -1
+serfdom_freesubjects = -2
+primary_culture = lombard
+religion = catholic
+technology_group = western
+capital = 103	# Torino
+
+
+1391.1.1 = {
+	monarch = {
+		name = "Amedeo VIII"
+		dynasty = "di Savoia"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1391.1.1 = {
+	heir = {
+		name = "Ludovico"
+		monarch_name = "Ludovico I"
+		dynasty = "di Savoia"
+		birth_date = 1383.9.4
+		death_date = 1465.1.29
+		claim = 95
+		adm = 6
+		dip = 8
+		mil = 5
+	}
+}
+
+1434.11.2 = {
+	monarch = {
+		name = "Ludovico I"
+		dynasty = "di Savoia"
+		adm = 6
+		dip = 8
+		mil = 5
+	}
+}
+
+1435.2.1 = {
+	heir = {
+		name = "Amedeo"
+		monarch_name = "Amedeo IX"
+		dynasty = "de Savoia"
+		birth_date = 1435.2.1
+		death_date = 1472.3.30
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}
+
+1465.1.30 = {
+	monarch = {
+		name = "Amedeo IX"
+		dynasty = "di Savoia"
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}
+
+1465.8.17 = {
+	heir = {
+		name = "Filiberto"
+		monarch_name = "Filiberto I"
+		dynasty = "di Savoia"
+		birth_date = 1465.8.17
+		death_date = 1482.9.22
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1472.3.31 = {
+	monarch = {
+		name = "Filiberto I"
+		dynasty = "di Savoia"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1472.3.31 = {
+	heir = {
+		name = "Carlo"
+		monarch_name = "Carlo I"
+		dynasty = "di Savoia"
+		birth_date = 1468.3.29
+		death_date = 1490.3.13
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1482.9.23 = {
+	monarch = {
+		name = "Carlo I"
+		dynasty = "di Savoia"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1489.6.23 = {
+	heir = {
+		name = "Carlo"
+		monarch_name = "Carlo II"
+		dynasty = "di Savoia"
+		birth_date = 1489.6.23
+		death_date = 1496.4.16
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1490.3.14 = {
+	monarch = {
+		name = "Carlo II"
+		dynasty = "di Savoia"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1490.3.14 = {
+	heir = {
+		name = "Filippo"
+		monarch_name = "Filippo II"
+		dynasty = "di Savoia"
+		birth_date = 1438.2.5
+		death_date = 1497.11.7
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1496.4.17 = {
+	monarch = {
+		name = "Filippo II"
+		dynasty = "di Savoia"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1496.4.17 = {
+	heir = {
+		name = "Filiberto"
+		monarch_name = "Filiberto II"
+		dynasty = "di Savoia"
+		birth_date = 1480.4.10
+		death_date = 1504.9.10
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1497.11.8 = {
+	monarch = {
+		name = "Filiberto II"
+		dynasty = "di Savoia"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1497.11.8 = {
+	heir = {
+		name = "Carlo"
+		monarch_name = "Carlo III"
+		dynasty = "di Savoia"
+		birth_date = 1486.10.10
+		death_date = 1553.8.1
+		claim = 95
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1504.9.11 = {
+	monarch = {
+		name = "Carlo III"
+		dynasty = "di Savoia"
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1528.7.8 = {
+	heir = {
+		name = "Emanuele Filiberto"
+		monarch_name = "Emanuele Filiberto I"
+		dynasty = "di Savoia"
+		birth_date = 1528.7.8
+		death_date = 1580.8.30
+		claim = 95
+		adm = 8
+		dip = 8
+		mil = 7
+		leader = {	name = "Emanuele Filiberto"    	type = general	rank = 0	fire = 4	shock = 3	manuever = 3	siege = 1}
+	}
+}
+
+1553.8.18 = { government = despotic_monarchy }
+
+1553.8.18 = {
+	monarch = {
+		name = "Emanuele Filiberto I"
+		dynasty = "di Savoia"
+		adm = 8
+		dip = 8
+		mil = 7
+		leader = {	name = "Emanuele Filiberto"    	type = general	rank = 0	fire = 4	shock = 3	manuever = 3	siege = 1}
+	}
+}
+
+1562.1.12 = {
+	heir = {
+		name = "Carlo Emanuele"
+		monarch_name = "Carlo Emanuele I"
+		dynasty = "di Savoia"
+		birth_date = 1562.1.12
+		death_date = 1630.7.26
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 6
+		leader = {	name = "Carlo Emanuele"      	type = general	rank = 0	fire = 2	shock = 4	manuever = 3	siege = 0}
+	}
+}
+		
+1580.8.31 = {
+	monarch = {
+		name = "Carlo Emanuele I"
+		dynasty = "di Savoia"
+		adm = 5
+		dip = 6
+		mil = 6
+		leader = {	name = "Carlo Emanuele"      	type = general	rank = 0	fire = 2	shock = 4	manuever = 3	siege = 0}
+	}
+}
+
+1587.5.8 = {
+	heir = {
+		name = "Vittorio Amedeo"
+		monarch_name = "Vittorio Amedeo I"
+		dynasty = "di Savoia"
+		birth_date = 1587.5.8
+		death_date = 1637.10.7
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 5
+		leader = {	name = "Vittorio Amedeo I"        	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0}
+	}
+}
+		
+1630.7.27 = {
+	monarch = {
+		name = "Vittorio Amedeo I"
+		dynasty = "di Savoia"
+		adm = 7
+		dip = 7
+		mil = 5
+		leader = {	name = "Vittorio Amedeo I"        	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0}
+	}
+}
+
+1632.9.14 = {
+	heir = {
+		name = "Francesco Giacinto"
+		monarch_name = "Francesco Giacinto"
+		dynasty = "di Savoia"
+		birth_date = 1632.9.14
+		death_date = 1638.10.4
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1637.10.8 = {
+	monarch = {
+		name = "Francesco Giacinto"
+		dynasty = "di Savoia"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1637.10.8 = {
+	heir = {
+		name = "Carlo Emanuele"
+		monarch_name = "Carlo Emanuele II"
+		dynasty = "di Savoia"
+		birth_date = 1634.6.20
+		death_date = 1675.6.12
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1638.1.1 = { leader = {	name = "Tommaso de Savoia"     	type = general	rank = 1	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1656.1.1 } }
+
+1638.10.5 = {
+	monarch = {
+		name = "Carlo Emanuele II"
+		dynasty = "di Savoia"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1666.5.14 = {
+	heir = {
+		name = "Vittorio Amedeo"
+		monarch_name = "Vittorio Amedeo II"
+		dynasty = "di Savoia"
+		birth_date = 1666.5.14
+		death_date = 1732.10.31
+		claim = 95
+		adm = 7
+		dip = 9
+		mil = 8
+		leader = { name = "Vittorio Amedeo II"	type = general	rank = 0	fire = 4	shock = 4	manuever = 2	siege = 2 }
+	}
+}
+
+1675.1.1 = {
+	monarch = {
+		name = "Vittorio Amedeo II"
+		dynasty = "di Savoia"
+		adm = 7
+		dip = 9
+		mil = 8
+		leader = { name = "Vittorio Amedeo II"	type = general	rank = 0	fire = 4	shock = 4	manuever = 2	siege = 2 }
+	}
+}

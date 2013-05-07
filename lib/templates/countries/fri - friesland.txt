@@ -1,0 +1,15 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = -4
+primary_culture = dutch
+religion = catholic
+technology_group = western
+capital = 100	# Groningen
+
+1515.1.1 = { leader = { name = "Greate Pier" type = admiral rank = 0 fire = 1 shock = 1 manuever = 2 siege = 0 death_date = 1520.10.28 } }

@@ -1,0 +1,445 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -4
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = -3
+land_naval = -3
+quality_quantity = -5
+serfdom_freesubjects = -2
+primary_culture = kashmiri
+religion = sunni
+technology_group = indian
+capital = 509	# Srinagar
+
+
+#Sultans of Kashmir
+1389.1.1 = {
+	monarch = {
+		name = "Sikandar"
+		dynasty = "Sayyid"
+		adm = 4
+		dip = 4
+		mil = 7
+	}
+}
+
+1389.1.1 = {
+	heir = {
+		name = "Ali Shah"
+		monarch_name = "Ali Shah I"
+		dynasty = "Sayyid"
+		birth_Date = 1389.1.1
+		death_date = 1420.6.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1413.1.1 = {
+	monarch = {
+		name = "Ali Shah I"
+		dynasty = "Sayyid"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1413.1.1 = {
+	heir = {
+		name = "Zayn al-'Abidin"
+		monarch_name = "Zayn al-'Abidin"
+		dynasty = "Sayyid"
+		birth_Date = 1400.1.1
+		death_Date = 1470.5.12
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1420.6.1 = {
+	monarch = {
+		name = "Zayn al-'Abidin"
+		dynasty = "Sayyid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Haydar Shah"
+		monarch_name = "Haydar Shah"
+		dynasty = "Sayyid"
+		birth_Date = 1440.1.1
+		death_Date = 1472.4.13
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1470.5.12 = {
+	monarch = {
+		name = "Haydar Shah"
+		dynasty = "Sayyid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1470.5.12 = {
+	heir = {
+		name = "Hasan Shah"
+		monarch_name = "Hasan Shah"
+		dynasty = "Sayyid"
+		birth_Date = 1460.1.1
+		death_date = 1484.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1472.4.13 = {
+	monarch = {
+		name = "Hasan Shah"
+		dynasty = "Sayyid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1472.4.13 = {
+	heir = {
+		name = "Muhammad Shah"
+		monarch_name = "Muhammad Shah"
+		dynasty = "Sayyid"
+		birth_Date = 1460.1.1
+		death_Date = 1486.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+
+1484.1.1 = {
+	monarch = {
+		name = "Muhammad Shah"
+		dynasty = "Sayyid"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+
+1484.1.1 = {
+	heir = {
+		name = "Fath Shah"
+		monarch_name = "Fath Shah"
+		dynasty = "Sayyid"
+		birth_Date = 1460.1.1
+		death_Date = 1493.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1486.1.1 = {
+	monarch = {
+		name = "Fath Shah"
+		dynasty = "Sayyid"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1486.1.1 = {
+	heir = {
+		name = "Muhammad Shah"
+		monarch_name = "Muhammad Shah"
+		dynasty = "Sayyid"
+		birth_Date = 1470.1.1
+		death_Date = 1505.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+
+1493.1.1 = {
+	monarch = {
+		name = "Muhammad Shah"
+		dynasty = "Sayyid"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+
+1498.1.1 = { aristocracy_plutocracy = -1 centralization_decentralization = 1 innovative_narrowminded = -1 land_naval = -4 quality_quantity = -5 serfdom_freesubjects = 1 } # Guru Nanak reform Sikh Religion
+
+#Restored
+
+1505.1.1 = {
+	monarch = {
+		name = "Fath Shah"
+		dynasty = "Sayyid"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+#Restored
+
+1514.1.1 = {
+	monarch = {
+		name = "Muhammad Shah"
+		dynasty = "Sayyid"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+
+#Restored, again
+
+1515.1.1 = {
+	monarch = {
+		name = "Fath Shah"
+		dynasty = "Sayyid"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+#Restored, again
+
+1517.8.1 = {
+	monarch = {
+		name = "Muhammad Shah"
+		dynasty = "Sayyid"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+
+#Restored, yet again
+
+1528.1.1 = {
+	monarch = {
+		name = "Ibrahim Shah"
+		dynasty = "Sayyid"
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}
+
+1529.1.1 = {
+	monarch = {
+		name = "Nazuk Shah"
+		dynasty = "Sayyid"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1530.7.1 = {
+	monarch = {
+		name = "Muhammad Shah"
+		dynasty = "Sayyid"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+
+#Restored, still yet again
+
+1537.6.1 = {
+	monarch = {
+		name = "Shams ad-Din"
+		dynasty = "Sayyid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1538.1.1 = {
+	monarch = {
+		name = "Isma'il Shah"
+		dynasty = "Sayyid"
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Nazuk Shah"
+		dynasty = "Sayyid"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+#Restored
+
+1552.11.1 = {
+	monarch = {
+		name = "Ibrahim Shah"
+		dynasty = "Sayyid"
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}
+
+#Restored
+
+1555.1.1 = {
+	monarch = {
+		name = "Isma'il Shah"
+		dynasty = "Sayyid"
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}
+
+#Restored
+
+1556.1.1 = {
+	monarch = {
+		name = "Mahmud Habib Shah"
+		dynasty = "Sayyid"
+		adm = 5
+		dip = 3
+		mil = 7
+	}
+}
+
+1561.1.1 = {
+	monarch = {
+		name = "Ghazi Shah"
+		dynasty = "Sayyid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1563.1.1 = {
+	monarch = {
+		name = "Husayn Shah I"
+		dynasty = "Sayyid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1563.1.1 = {
+	heir = {
+		name = "'Ali Shah"
+		monarch_name = "'Ali Shah"
+		dynasty = "Sayyid"
+		birth_date = 1540.1.1
+		death_date = 1579.5.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1569.1.1 = {
+	monarch = {
+		name = "'Ali Shah"
+		dynasty = "Sayyid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1579.5.1 = {
+	monarch = {
+		name = "Yusuf Shah"
+		dynasty = "Sayyid"
+		adm = 4
+		dip = 5
+		mil = 7
+	}
+}
+
+1579.7.1 = {
+	monarch = {
+		name = "Saiyid Mubarak Baihaqi"
+		dynasty = "Sayyid"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+
+1579.10.1 = {
+	monarch = {
+		name = "Lohir Shah"
+		dynasty = "Sayyid"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1580.11.1 = {
+	monarch = {
+		name = "Yusuf Shah"
+		dynasty = "Sayyid"
+		adm = 4
+		dip = 5
+		mil = 7
+	}
+}
+
+#Restored
+
+1586.3.1 = {
+	monarch = {
+		name = "Ya'qub Shah"
+		dynasty = "Sayyid"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1605.1.1 = { aristocracy_plutocracy = 2 centralization_decentralization = -2 innovative_narrowminded = 2 offensive_defensive = -5 land_naval = -5 quality_quantity = -5 serfdom_freesubjects = 4 } # Militarezation of Sikh Society
+
+1704.1.1 = { centralization_decentralization = 1 innovative_narrowminded = 5 serfdom_freesubjects = 5 } # Guru Govind Singh install Sikh Confederacy
+
+#Annexed by Mughal Empire 28 July 1589

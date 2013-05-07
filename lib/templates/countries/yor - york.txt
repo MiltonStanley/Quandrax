@@ -1,0 +1,144 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = -1
+innovative_narrowminded = 2
+mercantilism_freetrade = 0
+offensive_defensive = 0
+land_naval = 1
+quality_quantity = -2
+serfdom_freesubjects = 0
+technology_group = western
+primary_culture = english
+religion = catholic
+capital = 245	# York
+
+
+1431.1.1 = {
+	monarch = {
+		name = "Richard II"
+		dynasty = "Plantagenet"
+		adm = 7
+		dip = 4
+		mil = 6
+	}
+}
+
+1460.1.1 = {
+	monarch = {
+		name = "Edward"
+		dynasty = "Plantagenet"
+		adm = 5
+		dip = 7
+		mil = 7
+	}
+}
+
+1474.1.1 = {
+	monarch = {
+		name = "Richard III"
+		dynasty = "York"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1494.1.1 = {
+	monarch = {
+		name = "Henry"
+		dynasty = "Tudor"
+		adm = 6
+		dip = 6
+		mil = 8
+	}
+}
+
+1547.1.1 = {
+	monarch = {
+		name = "Richard IV"
+		dynasty = "Tudor"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1605.1.1 = {
+	monarch = {
+		name = "Charles"
+		dynasty = "Stuart"
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+
+1633.1.1 = {
+	monarch = {
+		name = "James"
+		dynasty = "Stuart"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1685.1.1 = {
+	monarch = {
+		name = "Richard V"
+		dynasty = "Stuart"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1716.1.1 = {
+	monarch = {
+		name = "Ernest Augustus"
+		dynasty = "von Hannover"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1728.1.1 = {
+	monarch = {
+		name = "Richard VI"
+		dynasty = "von Hannover"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1761.1.1 = {
+	monarch = {
+		name = "Edward Augustus"
+		dynasty = "von Hannover"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1761.1.1 = {
+	monarch = {
+		name = "Richard VII"
+		dynasty = "von Hannover"
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+1767.1.1 = {
+	monarch = {
+		name = "Frederick Augustus"
+		dynasty = "von Hannover"
+		adm = 4
+		dip = 3
+		mil = 8
+	}
+}

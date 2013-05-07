@@ -1,0 +1,288 @@
+government = steppe_horde
+aristocracy_plutocracy = -4
+centralization_decentralization = 5
+innovative_narrowminded = 3
+mercantilism_freetrade = -3
+offensive_defensive = -1
+land_naval = -5
+quality_quantity = 3
+serfdom_freesubjects = -5
+primary_culture = tartar
+religion = sunni
+technology_group = nomad_group
+capital = 470	# Saraycik
+
+
+1369.1.1 = {
+	monarch = {
+		name = "Yadigai"
+		dynasty = "Edigüid"
+		adm = 3
+		dip = 6
+		mil = 5
+	}
+}
+
+1380.1.1 = {	
+	heir = {	
+		name = "'Isa Beg"
+		monarch_name = "'Isa Beg"
+		dynasty = "Edigüid"
+		birth_date = 1380.1.1
+		death_date = 1412.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1410.1.1 = {
+	monarch = {
+		name = "'Isa Beg"
+		dynasty = "Edigüid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1410.1.1 = {
+	heir = {
+		name = "Mansur"
+		monarch_name = "Mansur"
+		dynasty = "Edigüid"
+		birth_date = 1390.1.1
+		death_date = 1418.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1412.1.1 = {
+	monarch = {
+		name = "Mansur"
+		dynasty = "Edigüid"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1412.1.1 = {
+	heir = {
+		name = "Kai Qubad"
+		monarch_name =" Kai Qubad"
+		dynasty = "Edigüid"
+		birth_date = 1400.1.1
+		death_date = 1426.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1418.1.1 = {
+	monarch = {
+		name = "Kai Qubad"
+		dynasty = "Edigüid"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1418.1.1 = {
+	heir = {
+		name = "Nur"
+		monarch_name = "Nur"
+		dynasty = "Edigüid"
+		birth_Date = 1418.1.1
+		death_date = 1440.1.1
+		claim =  95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1426.1.1 = {
+	monarch = {
+		name = "Nur"
+		dynasty = "Edigüid"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1426.1.1 = {
+	heir = {
+		name = "Tîmûr"
+		monarch_name = "Tîmûr"
+		dynasty = "Edigüid"
+		birth_date = 1420.1.1
+		death_date = 1480.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Tîmûr"
+		dynasty = "Edigüid"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Yagarachi"
+		monarch_name = "Yagarachi"
+		dynasty = "Edigüid"
+		birth_date = 1440.1.1
+		death_date = 1500.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Yagarchi"
+		dynasty = "Edigüid"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1480.1.1 = {
+	heir = {
+		name = "Hasan"
+		monarch_name = "Hasan"
+		dynasty = "Edigüid"
+		birth_date = 1460.1.1
+		death_date = 1510.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1500.1.1 = {
+	monarch = {
+		name = "Hasan"
+		dynasty = "Edigüid"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1500.1.1 = {
+	heir = {
+		name = "Mûsâ"
+		monarch_name = "Mûsâ I"
+		dynasty = "Edigüid"
+		birth_date = 1490.1.1
+		death_date = 1525.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1510.1.1 = {
+	monarch = {
+		name = "Mûsâ I"
+		dynasty = "Edigüid"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1510.1.1 = {
+	heir = {
+		name = "Shaykh Mamai"
+		monarch_name = "Shaykh Mamai"
+		dynasty = "Edigüid"
+		birth_date = 1500.1.1
+		death_Date = 1536.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1525.1.1 = {
+	monarch = {
+		name = "Shaykh Mamai"
+		dynasty = "Edigüid"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1525.1.1 = {
+	heir = {
+		name = "Yûsuf"
+		monarch_name = "Yûsuf"
+		dynasty = "Edigüid"
+		birth_date = 1515.1.1
+		death_date = 1555.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1536.1.1 = {
+	monarch = {
+		name = "Yûsuf"
+		dynasty = "Edigüid"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1536.1.1 = {
+	heir = {
+		name = "Ismâ'îl"
+		monarch_name = "Ismâ'îl"
+		dynasty = "Edigüid"
+		birth_date = 1530.1.1
+		death_Date = 1557.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1555.1.1 = {
+	monarch = {
+		name = "Ismâ'îl"
+		dynasty = "Edigüid"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

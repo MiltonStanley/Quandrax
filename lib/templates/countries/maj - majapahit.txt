@@ -1,0 +1,171 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 0
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = 2
+quality_quantity = 2
+serfdom_freesubjects = -1
+primary_culture = sulawesi
+technology_group = chinese
+religion = hinduism
+capital = 628	# Surabaya
+
+
+# Majapahit
+1390.1.1 = {
+	monarch = {
+		name = "Wikramawardhana"
+		dynasty = "Rajasanagara"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1390.1.1 = {
+	heir = {
+		name = "Suhita"
+		monarch_name = "Suhita"
+		dynasty = "Rajasanagara"
+		birth_date = 1390.1.1
+		death_date = 1447.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+		female = yes
+	}
+}
+
+1429.1.1 = {
+	monarch = {
+		name = "Suhita"
+		dynasty = "Rajasanagara"
+		adm = 4
+		dip = 5
+		mil = 4
+		female = yes
+	}
+}
+
+1429.1.1 = {
+	heir = {
+		name = "Kertawijaya"
+		monarch_name = "Kertawijaya"
+		dynasty = "Rajasanagara"
+		birth_date = 1429.1.1
+		death_date = 1451.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1447.1.1 = {
+	monarch = {
+		name = "Kertawijaya"
+		dynasty = "Rajasanagara"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1447.1.1 = {
+	heir = {
+		name = "Rajasawardhana"
+		monarch_name = "Rajasawardhana"
+		dynasty = "Rajasanagara"
+		birth_date = 1431.1.1
+		death_date = 1456.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1451.1.1 = {
+	monarch = {
+		name = "Rajasawardhana"
+		dynasty = "Rajasanagara"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1451.1.1 = {
+	heir = {
+		name = "Girishawardhana"
+		monarch_name = "Girishawardhana"
+		dynasty = "Rajasanagara"
+		birth_date = 1436.1.1
+		death_date = 1466.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1456.1.1 = {
+	monarch = {
+		name = "Girishawardhana"
+		dynasty = "Rajasanagara"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1456.1.1 = {
+	heir = {
+		name = "Singhawikramawardhana"
+		monarch_name = "Singhawikramawardhana"
+		dynasty = "Rajasanagara"
+		birth_date = 1446.1.1
+		death_date = 1474.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}
+
+1466.1.1 = {
+	monarch = {
+		name = "Singhawikramawardhana"
+		dynasty = "Rajasanagara"
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}
+
+1466.1.1 = {
+	heir = {
+		name = "Girindrawardhana"
+		monarch_name = "Girindrawardhana"
+		dynasty = "Rajasanagara"
+		birth_date = 1454.1.1
+		death_date = 1498.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1474.1.1 = {
+	monarch = {
+		name = "Girindrawardhana"
+		dynasty = "Rajasanagara"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}

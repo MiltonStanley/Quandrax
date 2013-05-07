@@ -1,0 +1,612 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = 0
+quality_quantity = 3
+serfdom_freesubjects = -2
+primary_culture = lao
+religion = buddhism
+technology_group = chinese
+capital = 614	# Vientiane
+
+# Kings of Lan Xang
+
+1438.1.1 = {
+	monarch = {
+		name = "Sai Tiakap'at"
+		dynasty = "Khun Lo"
+		adm = 7
+		dip = 7
+		mil = 5
+	}
+}
+
+1438.1.1 = {
+	heir = {
+		name = "T'ene Kham"
+		monarch_name = "T'ene Kham"
+		dynasty = "Khun Lo"
+		birth_Date = 1430.1.1
+		death_Date = 1486.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1479.1.1 = {
+	monarch = {
+		name = "T'ene Kham"
+		dynasty = "Khun Lo"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1479.1.1 = {
+	heir = {
+		name = "La Sene T'ai"
+		monarch_name = "La Sene T'ai"
+		dynasty = "Khun Lo"
+		birth_Date = 1460.1.1
+		death_Date = 1496.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1486.1.1 = {
+	monarch = {
+		name = "La Sene T'ai"
+		dynasty = "Khun Lo"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1486.1.1 = {
+	heir = {
+		name = "Som-P'ou"
+		monarch_name = "Som-P'ou"
+		dynasty = "Khun Lo"
+		birth_Date = 1480.1.1
+		death_Date = 1501.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1496.1.1 = {
+	monarch = {
+		name = "Som-P'ou"
+		dynasty = "Khun Lo"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1496.1.1 = {
+	heir = {
+		name = "Visoun"
+		monarch_name = "Visoun"
+		dynasty = "Khun Lo"
+		birth_date = 1490.1.1
+		death_date = 1520.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1501.1.1 = {
+	monarch = {
+		name = "Visoun"
+		dynasty = "Khun Lo"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1501.1.1 = {
+	heir = {
+		name = "P'ot'israt"
+		monarch_name = "P'ot'israt I"
+		dynasty = "Khun Lo"
+		birth_Date = 1500.1.1
+		death_Date = 1548.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "P'ot'israt I"
+		dynasty = "Khun Lo"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1530.1.1 = {
+	heir = {
+		name = "Sett'at'irat"
+		monarch_name = "Sett'at'irat"
+		dynasty = "Khun Lo"
+		birth_Date = 1530.1.1
+		death_Date = 1571.1.1
+		claim = 95
+		adm = 8
+		dip = 6
+		mil = 5
+	}
+}
+
+1548.1.1 = {
+	monarch = {
+		name = "Sett'at'irat"
+		dynasty = "Khun Lo"
+		adm = 8
+		dip = 6
+		mil = 5
+	}
+}
+
+1548.1.1 = {
+	heir = {
+		name = "Sene Soulint'a"
+		monarch_name = "Sene Soulint'a"
+		dynasty = "Khun Lo"
+		birth_date = 1548.1.1
+		death_date = 1575.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1563.1.1 = { centralization_decentralization = 2 } # The Move to Vientiane
+
+1571.1.1 = {
+	monarch = {
+		name = "Sene Soulint'a"
+		dynasty = "Khun Lo"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1571.1.1 = {
+	heir = {
+		name = "Maha Oupahat"
+		monarch_name = "Maha Oupahat"
+		dynasty = "Khun Lo"
+		birth_Date = 1557.1.1
+		death_Date = 1580.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1575.1.1 = {
+	monarch = {
+		name = "Maha Oupahat"
+		dynasty = "Khun Lo"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1575.1.1 = {
+	heir = {
+		name = "Sene Soulint'a"
+		monarch_name = "Sene Soulint'a"
+		dynasty = "Khun Lo"
+		birth_Date = 1540.1.1
+		death_Date = 1582.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1580.1.1 = {
+	monarch = {
+		name = "Sene Soulint'a"
+		dynasty = "Khun Lo"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1580.1.1 = {
+	heir = {
+		name = "Nakhone Noi"
+		monarch_name = "Nakhone Noi"
+		dynasty = "Khun Lo"
+		birth_date = 1580.1.1
+		death_Date = 1591.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1582.1.1 = {
+	monarch = {
+		name = "Nakhone Noi"
+		dynasty = "Khun Lo"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1582.1.1 = {
+	heir = {
+		name = "Nokeo Koumane"
+		monarch_name = "Nokeo Koumane"
+		dynasty = "Khun Lo"
+		birth_date = 1560.1.1
+		death_Date = 1596.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1591.1.1 = {
+	monarch = {
+		name = "Nokeo Koumane"
+		dynasty = "Khun Lo"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1591.1.1 = {	
+	heir = {
+		name = "T'ammikarat"
+		monarch_name = "T'ammikarat"
+		dynasty = "Khun Lo"
+		birth_Date = 1570.1.1
+		death_Date = 1622.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1596.1.1 = {
+	monarch = {
+		name = "T'ammikarat"
+		dynasty = "Khun Lo"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1596.1.1 = {
+	heir = {
+		name = "Oupagnouvarat"
+		monarch_name = "Oupagnouvarat"
+		dynasty = "Khun Lo"
+		birth_Date = 1570.1.1
+		death_Date = 1623.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1622.1.1 = {
+	monarch = {
+		name = "Oupagnouvarat"
+		dynasty = "Khun Lo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1622.1.1 = {
+	heir = {
+		name = "P'ot'isarat"
+		monarch_name = "P'ot'isarat II"
+		dynasty = "Khun Lo"
+		birth_date = 1600.1.1
+		death_Date = 1627.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1623.1.1 = {
+	monarch = {
+		name = "P'ot'isarat II"
+		dynasty = "Khun Lo"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1627.1.1 = {
+	monarch = {
+		name = "Mone Keo"
+		dynasty = "Khun Lo"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1628.1.1 = {
+	monarch = {
+		name = "Tone Kham"
+		dynasty = "Khun Lo"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1633.1.1 = {
+	monarch = {
+		name = "Visai"
+		dynasty = "Khun Lo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1633.1.1 = {
+	heir = {
+		name = "Souligna Vongsa"
+		monarch_name = "Souligna Vongsa"
+		dynasty = "Khun Lo"
+		birth_date = 1620.1.1
+		death_Date = 1694.1.1
+		claim = 95
+		adm = 8
+		dip = 8
+		mil = 8
+	}
+}
+
+1637.1.1 = {
+	monarch = {
+		name = "Souligna Vongsa"
+		dynasty = "Khun Lo"
+		adm = 8
+		dip = 8
+		mil = 8
+	}
+}
+
+1650.1.1 = {
+	heir = {
+		name = "Tian T'ala"
+		monarch_name = "Tian T'ala"
+		dynasty = "Khun Lo"
+		birth_Date = 1650.1.1
+		death_Date = 1700.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1694.1.1 = {
+	monarch = {
+		name = "Tian T'ala"
+		dynasty = "Khun Lo"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1694.1.1 = {
+	heir = {
+		name = "Nan T'arat"
+		monarch_name = "Nan T'arat"
+		dynasty = "Khun Lo"
+		birth_Date = 1678.1.1
+		death_Date = 1701.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Nan T'arat"
+		dynasty = "Khun Lo"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1700.1.1 = {
+	heir = {
+		name = "Sai Ong Hué"
+		monarch_name = "Sai Ong Hué"
+		dynasty = "Khun Lo"
+		birth_date = 1700.1.1
+		death_Date = 1735.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1701.1.1 = {
+	monarch = {
+		name = "Sai Ong Hué"
+		dynasty = "Khun Lo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1701.1.1 = {
+	heir = {	
+		name = "Ong Long"
+		monarch_name = "Ong Long"
+		dynasty = "Khun Lo"
+		birth_date = 1700.1.1
+		death_Date = 1760.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1707.1.1 = { centralization_decentralization = 5 } # The Succession Crisis
+
+1735.1.1 = {
+	monarch = {
+		name = "Ong Long"
+		dynasty = "Khun Lo"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1735.1.1 = {
+	heir = {
+		name = "Ong Boun"
+		monarch_name = "Ong Boun"
+		dynasty = "Khun Lo"
+		birth_Date = 1735.1.1
+		death_Date = 1778.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1760.1.1 = {
+	monarch = {
+		name = "Ong Boun"
+		dynasty = "Khun Lo"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1760.1.1 = {
+	heir = {
+		name = "Chao Nan"
+		monarch_name = "Chao Nan"
+		dynasty = "Khun Lo"
+		birth_date = 1760.1.1
+		death_Date = 1792.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1778.1.1 = {
+	monarch = {
+		name = "Chao Nan"
+		dynasty = "Khun Lo"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1778.1.1 = {
+	heir = {
+		name = "Chao In"
+		monarch_name = "Chao In"
+		dynasty = "Khun Lo"
+		birth_Date = 1778.1.1
+		death_date = 1805.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1792.1.1 = {
+	monarch = {
+		name = "Chao In"
+		dynasty = "Khun Lo"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1792.1.1 = {	
+	heir = {
+		name = "Chao Anou"
+		monarch_name = "Chao Anou"
+		dynasty = "Khun Lo"
+		birth_date = 1780.1.1
+		death_Date = 1828.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1805.1.1 = {
+	monarch = {
+		name = "Chao Anou"
+		dynasty = "Khun Lo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+

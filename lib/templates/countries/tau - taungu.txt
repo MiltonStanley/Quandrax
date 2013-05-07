@@ -1,0 +1,544 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = 0
+quality_quantity = 3
+serfdom_freesubjects = -2
+primary_culture = burmese
+religion = buddhism
+technology_group = chinese
+capital = 585	# Toungoo
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Zalahtinyan"
+		dynasty = "Taungoo"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1440.1.1 = {	
+	heir = {
+		name = "Sithukyawhtin"
+		monarch_name = "Sithukyawhtin"
+		dynasty = "Taungoo"
+		birth_Date = 1400.1.1
+		death_Date = 1481.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1470.1.1 = {
+	monarch = {
+		name = "Sithukyawhtin"
+		dynasty = "Taungoo"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1470.1.1 = {
+	heir = {
+		name = "Sithunge"
+		monarch_name = "Sithunge"
+		dynasty = "Taungoo"
+		birth_Date = 1450.1.1
+		death_Date = 1486.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1481.1.1 = {
+	monarch = {
+		name = "Sithunge"
+		dynasty = "Taungoo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1481.1.1 = {
+	heir = {
+		name = "Minkyinyo"
+		monarch_name = "Minkyinyo"
+		dynasty = "Taungoo"
+		birth_Date = 1460.1.1
+		death_Date = 1530.12.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1486.1.1 = {
+	monarch = {
+		name = "Minkyinyo"
+		dynasty = "Taungoo"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1490.1.1 = {
+	heir = {
+		name = "Tabinshwehti"
+		monarch_name = "Tabinshwehti"
+		dynasty = "Taungoo"
+		birth_Date = 1490.1.1
+		death_Date = 1550.1.1
+		claim = 95
+		adm = 9
+		dip = 8
+		mil = 8
+	}
+}
+
+1530.12.1 = {
+	monarch = {
+		name = "Tabinshwehti"
+		dynasty = "Taungoo"
+		adm = 9
+		dip = 8
+		mil = 8
+	}
+}
+
+1530.12.1 = {
+	heir = {
+		name = "Bayinnaung"
+		monarch_name = "Bayinnaung"
+		dynasty = "Taungoo"
+		birth_Date = 1520.1.1
+		death_Date = 1581.12.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Bayinnaung"
+		dynasty = "Taungoo"
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1550.1.1 = {
+	heir = {
+		name = "Nanda Bayin"
+		monarch_name = "Nanda Bayin"
+		dynasty = "Taungoo"
+		birth_Date = 1550.1.1
+		death_Date = 1597.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1581.12.1 = {
+	monarch = {
+		name = "Nanda Bayin"
+		dynasty = "Taungoo"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1597.1.1 = {
+	monarch = {
+		name = "Htin"
+		dynasty = "Nyaungyan"
+		adm = 8
+		dip = 8
+		mil = 6
+	}
+}
+
+1597.1.1 = {
+	heir = {
+		name = "Anaukpetlun"
+		monarch_name = "Anaukpetlun"
+		dynasty = "Nyaungyan"
+		birth_Date = 1590.1.1
+		death_date = 1628.1.1
+		claim = 95
+		adm = 8
+		dip = 5
+		mil = 8
+	}
+}
+
+1605.1.1 = {
+	monarch = {
+		name = "Anaukpetlun"
+		dynasty = "Nyaungyan"
+		adm = 8
+		dip = 5
+		mil = 8
+	}
+}
+
+1605.1.1 = {
+	heir = {
+		name = "Minredeippa"
+		monarch_name = "Minredeippa"
+		dynasty = "Nyaungyan"
+		birth_Date = 1600.1.1
+		death_Date = 1629.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1628.1.1 = {
+	monarch = {
+		name = "Minredeippa"
+		dynasty = "Nyaungyan"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1628.1.1 = {
+	heir = {
+		name = "Thalun"
+		monarch_name = "Thaulun"
+		dynasty = "Nyaungyan"
+		birth_Date = 1600.1.1
+		death_Date = 1647.8.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1629.1.1 = {
+	monarch = {
+		name = "Thalun"
+		dynasty = "Nyaungyan"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1629.1.1 = {
+	heir = {
+		name = "Pindale"
+		monarch_name = "Pindale"
+		dynasty = "Nyaungyan"
+		birth_Date = 1600.1.1
+		death_Date = 1661.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1647.8.1 = {
+	monarch = {
+		name = "Pindale"
+		dynasty = "Nyaungyan"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1647.8.1 = {
+	heir = {
+		name = "Pye"
+		monarch_name = "Pye"
+		dynasty = "Nyaungyan"
+		birth_Date = 1620.1.1
+		death_Date = 1672.4.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1661.1.1 = {
+	monarch = {
+		name = "Pye"
+		dynasty = "Nyaungyan"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1672.4.1 = {
+	monarch = {
+		name = "Narawara"
+		dynasty = "Nyaungyan"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1673.3.1 = {
+	monarch = {
+		name = "Minrekyawdin"
+		dynasty = "Nyaungyan"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1673.3.1 = {
+	heir = {
+		name = "Sane"
+		monarch_name = "Sane"
+		dynasty = "Nyaungyan"
+		birth_Date = 1650.1.1
+		death_Date = 1714.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1698.1.1 = {
+	monarch = {
+		name = "Sane"
+		dynasty = "Nyaungyan"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1698.1.1 = {
+	heir = {
+		name = "Taninganwe"
+		monarch_name = "Taninganwe"
+		dynasty = "Nyaungyan"
+		birth_Date = 1690.1.1
+		death_Date = 1733.12.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1714.1.1 = {
+	monarch = {
+		name = "Taninganwe"
+		dynasty = "Nyaungyan"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1714.1.1 = {
+	heir = {
+		name = "Mahadammayaza-Dipati"
+		monarch_name = "Mahadammayaza-Dipati"
+		dynasty = "Nyaungyan"
+		birth_date = 1700.1.1
+		death_Date = 1752.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1733.12.1 = {
+	monarch = {
+		name = "Mahadammayaza-Dipati"
+		dynasty = "Nyaungyan"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1752.1.1 = {
+	monarch = {
+		name = "Alaungpaya"
+		dynasty = "Konbaung"
+		adm = 8
+		dip = 8
+		mil = 8
+	}
+}
+
+1752.1.1 = {
+	heir = {
+		name = "Naugdawgyi"
+		monarch_name = "Naugdawgyi"
+		dynasty = "Konbaung"
+		birth_Date = 1740.1.1
+		death_date = 1763.11.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1760.5.12 = {
+	monarch = {
+		name = "Naugdawgyi"
+		dynasty = "Konbaung"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1760.5.12 = {
+	heir = {
+		name = "Hsinbyushin"
+		monarch_name = "Hsinbyushin"
+		dynasty = "Konbaung"
+		birth_Date = 1750.1.1
+		death_Date = 1776.6.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 8
+	}
+}
+
+1763.11.1 = {
+	monarch = {
+		name = "Hsinbyushin"
+		dynasty = "Konbaung"
+		adm = 6
+		dip = 6
+		mil = 8
+	}
+}
+
+1763.11.1 = {
+	heir = {
+		name = "Singu Min"
+		monarch_name = "Singu Min"
+		dynasty = "Konbaung"
+		birth_date = 1750.1.1
+		death_Date = 1782.2.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1776.6.1 = {
+	monarch = {
+		name = "Singu Min"
+		dynasty = "Konbaung"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1776.6.1 = {
+	heir = {
+		name = "Maung Maung"
+		monarch_name = "Maung Maung"
+		dynasty = "Konbaung"
+		birth_Date = 1770.1.1
+		death_Date = 1782.3.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1782.2.1 = {
+	monarch = {
+		name = "Maung Maung"
+		dynasty = "Konbaung"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1782.2.1 = {
+	heir = {
+		name = "Bodawpaya"
+		monarch_name = "Bodawpaya"
+		dynasty = "Konbaung"
+		birth_Date = 1760.1.1
+		death_Date = 1819.6.6
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1782.3.1 = {
+	monarch = {
+		name = "Bodawpaya"
+		dynasty = "Konbaung"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1782.3.1 = {
+	heir = {
+		name = "Bagyidaw"
+		monarch_name = "Bagyidaw"
+		dynasty = "Konbaung"
+		birth_Date = 1770.1.1
+		death_Date = 1830.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1819.6.6 = {
+	monarch = {
+		name = "Bagyidaw"
+		dynasty = "Konbaung"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}

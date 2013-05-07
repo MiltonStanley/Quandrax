@@ -1,0 +1,13 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = -1
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = -1
+quality_quantity = 1
+serfdom_freesubjects = -3
+primary_culture = romanian
+religion = orthodox
+technology_group = eastern
+capital = 161	# Tîrgoviste

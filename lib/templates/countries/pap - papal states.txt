@@ -1,0 +1,478 @@
+government = papal_government
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = 1
+quality_quantity = -1
+serfdom_freesubjects = -2
+primary_culture = umbrian
+religion = catholic
+technology_group = western
+capital = 118	# Roma
+
+
+1389.10.15 = {
+	monarch = {
+		name = "Bonifacius IX"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1399.1.1 = { decision = blasphemy_act }
+
+1404.10.1 = {
+	monarch = {
+		name = "Innocentius VII"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1406.11.6 = {
+	monarch = {
+		name = "Gregorius XII"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1408.1.1 = { capital = 114 } # Romagna
+
+1414.8.6 = { capital = 118 } # Roma
+
+1417.10.18 = {
+	monarch = {
+		name = "Martinus V"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1431.2.20 = {
+	monarch = {
+		name = "Eugenius IV"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1447.2.23 = {
+	monarch = {
+		name = "Nicolaus V"
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1455.3.25 = {
+	monarch = {
+		name = "Callistus III"
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1458.8.7 = {
+	monarch = {
+		name = "Pius II"
+		adm = 7
+		dip = 5
+		mil = 4
+	}
+}
+
+1464.8.16 = {
+	monarch = {
+		name = "Paulus II"
+		adm = 7
+		dip = 7
+		mil = 4
+	}
+}
+
+1471.7.27 = {
+	monarch = {
+		name = "Xystus IV"
+		adm = 7
+		dip = 7
+		mil = 6
+	}
+}
+
+1484.8.13 = {
+	monarch = {
+		name = "Innocentius VIII"
+		adm = 4
+		dip = 7
+		mil = 4
+	}
+}
+
+1492.7.26 = {
+	monarch = {
+		name = "Alexander VI"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1497.1.1 = { leader = {	name = "Cesare Borgia"             	type = general	rank = 0	fire = 2	shock = 1	manuever = 2	siege = 3	death_date = 1503.11.1 } }
+
+1503.8.19 = {
+	monarch = {
+		name = "Pius III"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1503.10.19 = {
+	monarch = {
+		name = "Iulius II"
+		adm = 4
+		dip = 7
+		mil = 5
+		leader = {	name = "Iulius II"             	type = general	rank = 0	fire = 2	shock = 1	manuever = 2	siege = 1 }
+	}
+}
+
+1513.2.22 = {
+	monarch = {
+		name = "Leo X"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1522.1.1 = {
+	monarch = {
+		name = "Hadrianus VI"
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+
+1523.9.15 = {
+	monarch = {
+		name = "Clemens VII"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1534.9.26 = {
+	monarch = {
+		name = "Paulus III"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1540.1.1 = { innovative_narrowminded = 3 } # The Foundation of Societas Jesu
+
+1542.1.1 = { innovative_narrowminded = 5 } # Reorganisation of the Holy Inquisition
+
+1545.12.13 = { set_global_flag = counter_reformation }	# Council of Trent
+
+1550.1.1 = { leader = {	name = "M. Colonna"               	type = admiral	rank = 0	fire = 3	shock = 3	manuever = 2	siege = 0	death_date = 1577.1.1 } }
+
+1550.1.1 = {
+	monarch = {
+		name = "Iulius III"
+		adm = 5
+		dip = 6
+		mil = 3
+	}
+}
+
+1555.3.24 = {
+	monarch = {
+		name = "Marcellus II"
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+
+1555.5.2 = {
+	monarch = {
+		name = "Paulus IV"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1559.8.19 = {
+	monarch = {
+		name = "Pius IV"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1565.12.10 = {
+	monarch = {
+		name = "Pius V"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1572.5.2 = {
+	monarch = {
+		name = "Gregorius XIII"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1585.4.11 = {
+	monarch = {
+		name = "Xystus V"
+		adm = 6
+		dip = 6
+		mil = 3
+	}
+}
+
+1590.8.28 = {
+	monarch = {
+		name = "Urbanus VII"
+		adm = 8
+		dip = 6
+		mil = 4
+	}
+}
+
+1590.9.28 = {
+	monarch = {
+		name = "Gregorius XIV"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1591.10.17 = {
+	monarch = {
+		name = "Innocentius IX"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1592.1.1 = {
+	monarch = {
+		name = "Clemens VIII"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1600.1.1 = { innovative_narrowminded = 5 } # Giordano Bruno
+
+1605.3.4 = {
+	monarch = {
+		name = "Leo XI"
+		adm = 6
+		dip = 8
+		mil = 5
+	}
+}
+
+1605.4.28 = {
+	monarch = {
+		name = "Paulus V"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1621.1.29 = {
+	monarch = {
+		name = "Gregorius XV"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1623.7.9 = {
+	monarch = {
+		name = "Urbanus VIII"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1644.7.30 = {
+	monarch = {
+		name = "Innocentius X"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1655.1.8 = {
+	monarch = {
+		name = "Alexander VII"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1667.5.23 = {
+	monarch = {
+		name = "Clemens IX"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1669.12.10 = {
+	monarch = {
+		name = "Clemens X"
+		adm = 4
+		dip = 7
+		mil = 3
+	}
+}
+
+1676.7.23 = {
+	monarch = {
+		name = "Innocentius XI"
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1689.8.13 = {
+	monarch = {
+		name = "Alexander VIII"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1691.3.20 = {
+	monarch = {
+		name = "Innocentius XII"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1700.9.28 = {
+	monarch = {
+		name = "Clemens XI"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1721.3.20 = {
+	monarch = {
+		name = "Innocentius XIII"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1724.3.8 = {
+	monarch = {
+		name = "Benedictus XIII"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+
+1730.2.22 = {
+	monarch = {
+		name = "Clemens XII"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+
+1740.2.7 = {
+	monarch = {
+		name = "Benedictus XIV"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1758.5.4 = {
+	monarch = {
+		name = "Clemens XIII"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1769.2.3 = {
+	monarch = {
+		name = "Clemens XIV"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1774.9.22 = {
+	monarch = {
+		name = "Pius VI"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1778.1.1 = { innovative_narrowminded = 3 } # The Cleansing of the Pontinian Marches
+
+1800.3.14 = {
+	monarch = {
+		name = "Pius VII"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,340 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -4
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -1
+primary_culture = gujarati
+religion = sunni
+technology_group = indian
+capital = 516	# Ahmadabad
+
+
+#Sultans of Gujarat
+1391.1.1 = {
+	monarch = {
+		name = "Zafar Khan"
+		dynasty = "Muzaffarid"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1391.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad Shah I"
+		dynasty = "Muzaffarid"
+		birth_date = 1383.1.1
+		death_date = 1407.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1403.1.1 = {
+	monarch = {
+		name = "Muhammad Shah I"
+		dynasty = "Muzaffarid"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1403.1.1 = {
+	heir = {
+		name = "Muzaffar"
+		monarch_name = "Muzaffar Shah"
+		dynasty = "Muzaffarid"
+		birth_date = 1387.1.1
+		death_date = 1411.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1407.1.1 = {
+	monarch = {
+		name = "Muzaffar Shah"
+		dynasty = "Muzaffarid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1407.1.1 = {
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad Shah I"
+		dynasty = "Muzaffarid"
+		birth_date = 1391.1.1
+		death_date = 1442.1.1
+		claim = 95
+		adm = 4
+		dip = 7
+		mil = 4
+	}
+}
+
+1411.1.1 = {
+	monarch = {
+		name = "Ahmad Shah I"
+		dynasty = "Muzaffarid"
+		adm = 4
+		dip = 7
+		mil = 4
+	}
+}
+
+1411.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad Shah II"
+		dynasty = "Muzaffarid"
+		birth_date = 1411.1.1
+		death_date = 1451.2.9
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+		
+
+1442.1.1 = {
+	monarch = {
+		name = "Muhammad Shah II"
+		dynasty = "Muzaffarid"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1442.1.1 = {
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad Shah II"
+		dynasty = "Muzaffarid"
+		birth_date = 1431.1.1
+		death_date = 1459.5.28
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1451.2.9 = {
+	monarch = {
+		name = "Ahmad Shah II"
+		dynasty = "Muzaffarid"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1451.2.9 = {
+	heir = {
+		name = "Mahmud"
+		monarch_name = "Mahmud Shah I"
+		dynasty = "Muzaffarid"
+		birth_date = 1439.1.1
+		death_date = 1511.11.24
+		claim = 95
+		adm = 7
+		dip = 8
+		mil = 8
+	}
+}
+
+1459.5.28 = {
+	monarch = {
+		name = "Mahmud Shah I"
+		dynasty = "Muzaffarid"
+		adm = 7
+		dip = 8
+		mil = 8
+	}
+}
+
+1459.5.28 = {
+	heir = {
+		name = "Muzaffar"
+		monarch_name = "Muzaffar Shah"
+		dynasty = "Muzaffarid"
+		birth_date = 1459.5.28
+		death_date = 1526.4.7
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1511.11.24 = {
+	monarch = {
+		name = "Muzaffar Shah"
+		dynasty = "Muzaffarid"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1511.11.24 = {
+	heir = {
+		name = "Bahadur"
+		monarch_name = "Bahadur Shah"
+		dynasty = "Muzaffarid"
+		birth_date = 1500.1.1
+		death_date = 1537.2.14
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 9
+	}
+}
+
+1526.4.7 = {
+	monarch = {
+		name = "Bahadur Shah"
+		dynasty = "Muzaffarid"
+		adm = 5
+		dip = 3
+		mil = 9
+	}
+}
+
+1526.4.7 = {
+	heir = {
+		name = "Mubarak"
+		monarch_name = "Mubarak Shah"
+		dynasty = "Muzaffarid"
+		birth_date = 1510.1.1
+		death_date = 1538.5.11
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1537.2.14 = {
+	monarch = {
+		name = "Mubarak Shah"
+		dynasty = "Muzaffarid"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1537.2.14 = {
+	heir = {
+		name = "Mahmud"
+		monarch_name = "Mahmud Shah III"
+		dynasty = "Muzaffarid"
+		birth_date = 1500.1.1
+		death_date = 1554.2.14
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1538.5.11 = {
+	monarch = {
+		name = "Mahmud Shah III"
+		dynasty = "Muzaffarid"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1538.5.11 = {
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad Shah III"
+		dynasty = "Muzaffarid"
+		birth_date = 1538.5.11
+		death_date = 1556.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1554.2.14 = {
+	monarch = {
+		name = "Ahmad Shah III"
+		dynasty = "Muzaffarid"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1554.2.14 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad Shah III"
+		dynasty = "Muzaffarid"
+		birth_date = 1530.1.1
+		death_date = 1562.4.11
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1556.1.1 = {
+	monarch = {
+		name = "Muhammad Shah III"
+		dynasty = "Muzaffarid"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1556.1.1 = {
+	heir = {
+		name = "Muzaffar"
+		monarch_name = "Muzaffar Shah III"
+		dynasty = "Muzaffarid"
+		birth_date = 1530.1.1
+		death_date = 1593.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1562.4.11 = {
+	monarch = {
+		name = "Muzaffar Shah III"
+		dynasty = "Muzaffarid"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+#Mughal conquest in 1593

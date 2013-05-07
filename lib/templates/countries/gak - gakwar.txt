@@ -1,0 +1,194 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 3
+serfdom_freesubjects = -2
+technology_group = indian
+religion = hinduism
+primary_culture = gujarati
+add_accepted_culture = marathi
+capital = 517	# Baroda
+
+
+#Gaekwar Maharajas of Baroda
+1726.1.1 = {
+	monarch = {
+		name = "Pilaji Rao"
+		dynasty = "Gaekwad"
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1726.1.1 = {
+	heir = {
+		name = "Damaji Rao"
+		monarch_name = "Damaji Rao II"
+		dynasty = "Gaekwad"
+		birth_Date = 1720.1.1
+		death_Date = 1768.8.18
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1732.5.14 = {
+	monarch = {
+		name = "Damaji Rao II"
+		dynasty = "Gaekwad"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1750.1.1 = {
+	heir = {
+		name = "Sayaji Rao"
+		monarch_name = "Sayaji Rao I"
+		dynasty = "Gaekwad"
+		birth_date = 1750.1.1
+		death_Date = 1778.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1768.8.18 = {
+	monarch = {
+		name = "Sayaji Rao I"
+		dynasty = "Gaekwad"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1768.8.18 = {
+	heir = {
+		name = "Fateh Singh Rao"
+		monarch_name = "Fateh Singh Rao"
+		dynasty = "Gaekwad"
+		birth_Date = 1760.1.1
+		death_Date = 1789.1.1
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+
+1778.1.1 = {
+	monarch = {
+		name = "Fateh Singh Rao"
+		dynasty = "Gaekwad"
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+
+1778.1.1 = {
+	heir = {
+		name = "Manaji Rao"
+		monarch_name = "Manaji Rao"
+		dynasty = "Gaekwad"
+		birth_Date = 1770.1.1
+		death_Date = 1793.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1789.1.1 = {
+	monarch = {
+		name = "Manaji Rao"
+		dynasty = "Gaekwad"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1789.1.1 = {
+	heir = {
+		name = "Govind Rao"
+		monarch_name = "Govind Rao"
+		dynasty = "Gaekwad"
+		birth_Date = 1780.1.1
+		death_Date = 1800.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1793.1.1 = {
+	monarch = {
+		name = "Govind Rao"
+		dynasty = "Gaekwad"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1793.1.1 = {
+	heir = {
+		name = "Anand Rao"
+		monarch_name = "Anand Rao"
+		dynasty = "Gaekwad"
+		birth_Date = 1785.1.1
+		death_date = 1818.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1800.1.1 = {
+	monarch = {
+		name = "Anand Rao"
+		dynasty = "Gaekwad"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1800.1.1 = {
+	heir = {
+		name = "Sayaji Rao"
+		monarch_name =" Sayaji Rao II"
+		dynasty = "Gaekwad"
+		birth_date = 1800.1.1
+		death_Date = 1847.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1818.1.1 = {
+	monarch = {
+		name = "Sayaji Rao II"
+		dynasty = "Gaekwad"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}

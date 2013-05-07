@@ -1,0 +1,687 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = -1
+land_naval = 0
+quality_quantity = 3
+serfdom_freesubjects = -2
+primary_culture = khmer
+religion = buddhism
+technology_group = chinese
+capital = 604	# Phnom Penh
+
+
+1389.1.1 = {
+	monarch = {
+		name = "Ponthea Yat"
+		dynasty = "Khmer"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1399.1.1 = {	
+	heir = {
+		name = "Narayana Ramadhipati"
+		monarch_name = "Narayana Ramadhipati"
+		dynasty = "Khmer"
+		birth_Date = 1380.1.1
+		death_Date = 1429.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1404.1.1 = {
+	monarch = {
+		name = "Narayana Ramadhipati"
+		dynasty = "Khmer"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1404.1.1 = {
+	heir = {
+		name = "Sri Bodhya"
+		monarch_name = "Sri Bodhya"
+		dynasty = "Khmer"
+		birth_date = 1400.1.1
+		death_Date = 1444.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1429.1.1 = {
+	monarch = {
+		name = "Sri Bodhya"
+		dynasty = "Khmer"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1429.1.1 = {
+	heir = {
+		name = "Dharmarajadhiraja"
+		monarch_name = "Dharmarajadhiraja"
+		dynasty = "Khmer"
+		birth_Date = 1410.1.1
+		death_Date = 1486.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}
+
+1444.1.1 = {
+	monarch = {
+		name = "Dharmarajadhiraja"
+		dynasty = "Khmer"
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}
+
+1460.1.1 = {
+	heir = {
+		name = "Srey Sukonthor"
+		monarch_name = "Srey Sukonthor"
+		dynasty = "Khmer"
+		birth_Date = 1460.1.1
+		death_Date = 1512.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1486.1.1 = {
+	monarch = {
+		name = "Srey Sukonthor"
+		dynasty = "Khmer"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1486.1.1 = {
+	heir = {
+		name = "Nay Kan"
+		monarch_name = "Nay Kan"
+		dynasty = "Khmer"
+		birth_Date = 1480.1.1
+		death_Date = 1516.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1512.1.1 = {
+	monarch = {
+		name = "Nay Kan"
+		dynasty = "Khmer"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1512.1.1 = {
+	heir = {
+		name = "Ang Chan"
+		monarch_name = "Ang Chan I"
+		dynasty = "Khmer"
+		birth_Date = 1500.1.1
+		death_Date = 1566.1.1
+		claim = 95
+		adm = 8
+		dip = 9
+		mil = 9
+	}
+}
+
+1516.1.1 = {
+	monarch = {
+		name = "Ang Chan I"
+		dynasty = "Khmer"
+		adm = 8
+		dip = 9
+		mil = 9
+	}
+}
+
+1550.1.1 = {
+	heir = {
+		name = "Barom Reachea"
+		monarch_name = "Barom Reachea I"
+		dynasty = "Khmer"
+		birth_Date = 1540.1.1
+		death_Date = 1576.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1566.1.1 = {
+	monarch = {
+		name = "Barom Reachea I"
+		dynasty = "Khmer"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1566.1.1 = {
+	heir = {
+		name = "Chettha"
+		monarch_name = "Chettha I"
+		dynasty = "Khmer"
+		birth_Date = 1546.1.1
+		death_Date = 1594.1.1
+		claim = 95
+		adm = 4
+		mil = 3
+		dip = 3
+	}
+}
+
+1576.1.1 = {
+	monarch = {
+		name = "Chettha I"
+		dynasty = "Khmer"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1576.1.1 = {
+	heir = {
+		name = "Reamea Chung Prei"
+		monarch_name = "Reamea Chung Prei"
+		dynasty = "Khmer"
+		birth_Date = 1570.1.1
+		death_Date = 1596.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1594.1.1 = {
+	monarch = {
+		name = "Reamea Chung Prei"
+		dynasty = "Khmer"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1596.1.1 = {
+	monarch = {
+		name = "Barom Reachea II"
+		dynasty = "Khmer"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1598.1.1 = {
+	monarch = {
+		name = "Barom Reachea III"
+		dynasty = "Khmer"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1600.1.1 = {
+	monarch = {
+		name = "Chao Ponhea Nhom"
+		dynasty = "Khmer"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1603.1.1 = {
+	monarch = {
+		name = "Barom Reachea IV"
+		dynasty = "Khmer"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1603.1.1 = {
+	heir = {
+		name = "Chettha"
+		monarch_name = "Chettha II"
+		dynasty = "Khmer"
+		birth_date = 1590.1.1
+		death_Date = 1628.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1619.1.1 = {
+	monarch = {
+		name = "Chettha II"
+		dynasty = "Khmer"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1628.1.1 = {
+	monarch = {
+		name = "Ponhem To"
+		dynasty = "Khmer"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1630.1.1 = {
+	monarch = {
+		name = "Ponhea Nu"
+		dynasty = "Khmer"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1630.1.1 = {
+	heir = {
+		name = "Ang Non"
+		monarch_name = "Ang Non I"
+		dynasty = "Khmer"
+		birth_Date = 1600.1.1
+		death_Date = 1642.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1640.1.1 = {
+	monarch = {
+		name = "Ang Non I"
+		dynasty = "Khmer"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+
+1642.1.1 = {
+	monarch = {
+		name = "Chan Rama Thupdey"
+		dynasty = "Khmer"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1642.1.1 = {
+	heir = {
+		name = "Batom Reachea"
+		monarch_name = "Batom Reachea"
+		dynasty = "Khmer"
+		birth_Date = 1620.1.1
+		death_Date = 1672.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1659.1.1 = {
+	monarch = {
+		name = "Batom Reachea"
+		dynasty = "Khmer"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1672.1.1 = {
+	monarch = {
+		name = "Chettha III"
+		dynasty = "Khmer"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1673.1.1 = {
+	monarch = {
+		name = "Ang Chei"
+		dynasty = "Khmer"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1674.1.1 = {
+	monarch = {
+		name = "Ang Non"
+		dynasty = "Khmer"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1674.1.1 = {
+	heir = {
+		name = "Chettha"
+		monarch_name = "Chettha IV"
+		dynasty = "Khmer"
+		birth_Date = 1660.1.1
+		death_Date = 1706.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1675.1.1 = {
+	monarch = {
+		name = "Chettha IV"
+		dynasty = "Khmer"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1706.1.1 = {
+	monarch = {
+		name = "Thommo Reachea II"
+		dynasty = "Khmer"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1706.1.1 = {
+	heir = {
+		name = "Ang Em"
+		monarch_name = "Ang Em"
+		dynasty = "Khmer"
+		birth_Date = 1680.1.1
+		death_Date = 1722.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1710.1.1 = {
+	monarch = {
+		name = "Ang Em"
+		dynasty = "Khmer"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1710.1.1 = {
+	heir = {
+		name = "Satha Ang Chei"
+		monarch_name = "Satha Ang Chei"
+		dynasty = "Khmer"
+		birth_Date = 1700.1.1
+		death_Date = 1738.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1722.1.1 = {
+	monarch = {
+		name = "Satha Ang Chei"
+		dynasty = "Khmer"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1722.1.1 = {
+	heir = {
+		name = "Thommo Reachea"
+		monarch_name = "Thommo Reachea II"
+		dynasty = "Khmer"
+		birth_Date = 1700.1.1
+		death_Date = 1747.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1738.1.1 = {
+	monarch = {
+		name = "Thommo Reachea II"
+		dynasty = "Khmer"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1738.1.1 = {
+	heir = {
+		name = "Ang Ton"
+		monarch_name = "Ang Ton"
+		dynasty = "Khmer"
+		birth_Date = 1730.1.1
+		death_Date = 1749.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1747.1.1 = {
+	monarch = {
+		name = "Ang Ton"
+		dynasty = "Khmer"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1747.1.1 = {
+	heir = {
+		name = "Chettha"
+		monarch_name = "Chettha V"
+		dynasty = "Khmer"
+		birth_Date = 1730.1.1
+		death_Date = 1755.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1749.1.1 = {
+	monarch = {
+		name = "Chettha V"
+		dynasty = "Khmer"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1749.1.1 = {
+	heir = {
+		name = "Ang Ton"
+		monarch_name = "Ang Ton"
+		dynasty = "Khmer"
+		birth_Date = 1720.1.1
+		death_Date = 1758.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1755.1.1 = {
+	monarch = {
+		name = "Ang Ton"
+		dynasty = "Khmer"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1755.1.1 = {
+	heir = {
+		name = "Preah Outey"
+		monarch_name = "Preah Outey II"
+		dynasty = "Khmer"
+		birth_Date = 1730.1.1
+		death_Date = 1775.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1758.1.1 = {
+	monarch = {
+		name = "Preah Outey II"
+		dynasty = "Khmer"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1758.1.1 = {
+	heir = {
+		name = "Ang Non"
+		monarch_name = "Ang Non II"
+		dynasty = "Khmer"
+		birth_Date = 1750.1.1
+		death_date = 1779.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1775.1.1 = {
+	monarch = {
+		name = "Ang Non II"
+		dynasty = "Khmer"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1775.1.1 = {
+	heir = {
+		name = "Ang Eng"
+		monarch_name = "Ang Eng"
+		dynasty = "Khmer"
+		birth_Date = 1760.1.1
+		death_Date = 1806.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1779.1.1 = {
+	monarch = {
+		name = "Ang Eng"
+		dynasty = "Khmer"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1779.1.1 = {
+	heir = {
+		name = "Ang Chan"
+		monarch_name = "Ang Chan II"
+		dynasty = "Khmer"
+		birth_Date = 1760.1.1
+		death_Date = 1830.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1806.1.1 = {
+	monarch = {
+		name = "Ang Chan II"
+		dynasty = "Khmer"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}

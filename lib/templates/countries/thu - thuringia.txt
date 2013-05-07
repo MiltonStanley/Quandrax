@@ -1,0 +1,248 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = -4
+primary_culture = saxon
+religion = catholic
+technology_group = western
+capital = 61	# Dresden
+
+
+1349.1.1 = {
+	monarch = {
+		name = "Balthasar I"
+		dynasty = "von Wettin"
+		DIP = 6
+		ADM = 3
+		MIL = 5
+	}
+}
+
+1384.11.30 = {
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich IV"
+		dynasty = "von Wettin"
+		birth_date = 1384.11.30
+		death_date = 1440.5.7
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1406.5.18 = {
+	monarch = {
+		name = "Friedrich IV"
+		dynasty = "von Wettin"
+		DIP = 4
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1412.8.22 = {
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich V"
+		dynasty = "von Wettin"
+		birth_date = 1412.8.22
+		death_date = 1464.9.7
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 3
+	}
+}
+
+# Do not confuse the guy above with Friedrich IV of Meissen and Sachsen
+
+1440.5.7 = {
+	monarch = {
+		name = "Friedrich V"
+		dynasty = "von Wettin"
+		DIP = 6
+		ADM = 7
+		MIL = 3
+	}
+}
+
+# Same as Friedrich II of Saxony.
+# Union with Saxony ends with the Altenburger Teilung 1445.
+
+1440.5.7 = {
+	heir = {
+		name = "Wilhelm"
+		monarch_name = "Wilhelm III"
+		dynasty = "von Wettin"
+		birth_date = 1425.4.30
+		death_date = 1482.9.17
+		claim = 95
+		dip = 6
+		adm = 4
+		mil = 6
+	}
+}
+
+1445.9.10 = {
+	monarch = {
+		name = "Wilhelm III"
+		dynasty = "von Wettin"
+		DIP = 6
+		ADM = 4
+		MIL = 6
+	}
+}
+
+1445.9.10 = {
+	heir = {
+		name = "Ernst"
+		monarch_name = "Ernst I"
+		dynasty = "von Wettin"
+		birth_date = 1441.3.24
+		death_date = 1486.8.26
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1464.9.7 = { elector = yes }
+
+1482.9.17 = {
+	monarch = {
+		name = "Ernst I"
+		dynasty = "von Wettin"
+		DIP = 4
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1482.9.17 = {
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich III"
+		dynasty = "von Wettin"
+		birth_date = 1463.1.17
+		death_date = 1525.5.5
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 6
+	}
+}
+	
+
+1486.8.26 = {
+	monarch = {
+		name = "Friedrich III"
+		dynasty = "von Wettin"
+		DIP = 7
+		ADM = 7
+		MIL = 6
+	}
+}
+
+1486.8.26 = {
+	heir = {
+		name = "Johann"
+		monarch_name = "Johann I"
+		dynasty = "von Wettin"
+		birth_date = 1468.6.13
+		death_date = 1532.8.16
+		claim = 95
+		dip = 7
+		adm = 7
+		mil = 6
+	}
+}
+
+1524.1.1   = { set_country_flag = peasant_war }
+
+1525.5.5 = {
+	monarch = {
+		name = "Johann I"
+		dynasty = "von Wettin"
+		DIP = 7
+		ADM = 7
+		MIL = 6
+	}
+}
+
+1525.5.5 = {
+	heir = {
+		name = "Johann Friedrich"
+		monarch_name = "Johann Friedrich I"
+		dynasty = "von Wettin"
+		birth_date = 1503.6.30
+		death_date = 1554.3.3
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1526.1.1   = { clr_country_flag = peasant_war }
+
+1532.8.16 = {
+	monarch = {
+		name = "Johann Friedrich I"
+		dynasty = "von Wettin"
+		DIP = 3
+		ADM = 4
+		MIL = 3
+	}
+}
+
+1532.8.16 = {
+	heir = {
+		name = "Johann Friedrich"
+		monarch_name = "Johann Friedrich II"
+		dynasty = "von Wettin"
+		birth_date = 1529.1.8
+		death_date = 1595.5.9
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1547.1.1 = { elector = no }
+
+1554.3.3 = { elector = yes }
+
+1554.3.3 = {
+	monarch = {
+		name = "Johann Friedrich II"
+		dynasty = "von Wettin"
+		DIP = 3
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1554.3.3 = {
+	heir = {
+		name = "Johann Wilhelm"
+		monarch_name = "Johann Wilhelm"
+		dynasty = "von Wettin"
+		birth_date = 1530.3.11
+		death_date = 1573.3.2
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1556.1.1 = { elector = no capital = 63 } # Erfurt

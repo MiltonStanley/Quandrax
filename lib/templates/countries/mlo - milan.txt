@@ -1,0 +1,212 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = 1
+quality_quantity = -1
+serfdom_freesubjects = -2
+primary_culture = lombard
+religion = catholic
+technology_group = western
+capital = 104	# Milano
+
+
+1395.1.1 = {
+	monarch = {
+		name = "Gian Galeazzo I"
+		dynasty = "Visconti"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1395.1.1 = {
+	heir = {
+		name = "Giovanni Maria"
+		monarch_name = "Giovanni Maria I"
+		dynasty = "Visconti"
+		birth_date = 1388.9.7
+		death_date = 1412.5.16
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1402.9.3 = {
+	monarch = {
+		name = "Giovanni Maria I"
+		dynasty = "Visconti"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1402.9.3 = {
+	heir = {
+		name = "Filippo Maria"
+		monarch_name = "Filippo Maria I"
+		dynasty = "Visconti"
+		birth_date = 1392.9.23
+		death_date = 1447.8.13
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1412.5.16 = {
+	monarch = {
+		name = "Filippo Maria I"
+		dynasty = "Visconti"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1418.1.1 = { leader = {	 name = "Carmagnola"     	type = general	rank = 1	fire = 4	shock = 5	manuever = 5	siege = 1	death_date = 1432.5.5 } }
+
+1447.1.1 = { government = noble_republic } # The Ambrosian Republic
+
+1450.3.27 = { government = feudal_monarchy }
+
+1450.3.27 = {
+	monarch = {
+		name = "Francesco I"
+		dynasty = "Sforza"
+		adm = 8
+		dip = 8
+		mil = 8
+	}
+}
+
+1450.3.27 = {
+	heir = {
+		name = "Galeazzo Maria"
+		monarch_name = "Galeazzo Maria I"
+		dynasty = "Sforza"
+		birth_date = 1444.1.24
+		death_date = 1476.12.26
+		claim = 95
+		adm = 8
+		dip = 4
+		mil = 6
+	}
+}
+
+1466.3.7 = {
+	monarch = {
+		name = "Galeazzo Maria I"
+		dynasty = "Sforza"
+		adm = 8
+		dip = 4
+		mil = 6
+	}
+}
+
+1469.6.20 = {
+	heir = {
+		name = "Giovanni Galeazzo"
+		monarch_name = "Giovanni Galeazzo II"
+		dynasty = "Sforza"
+		birth_date = 1469.6.20
+		death_date = 1494.10.21
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+}
+
+1476.12.27 = {
+	monarch = {
+		name = "Giovanni Galeazzo II"
+		dynasty = "Sforza"
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+}
+
+1476.12.27 = {
+	heir = {
+		name = "Ludovico"
+		monarch_name = "Ludovico I il Moro"
+		dynasty = "Sforza"
+		birth_date = 1452.7.27
+		death_date = 1508.5.27
+		claim = 95
+		adm = 8
+		dip = 8
+		mil = 7
+		leader = { name = "Ludovico Sforza"       	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 1}
+	}
+}
+		
+1494.10.23 = {
+	monarch = {
+		name = "Ludovico I il Moro"
+		dynasty = "Sforza"
+		adm = 8
+		dip = 8
+		mil = 7
+		leader = { name = "Ludovico Sforza"       	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 1}
+	}
+}
+
+1494.10.23 = {
+	heir = {
+		name = "Massimiliano"
+		monarch_name = "Massimiliano I"
+		dynasty = "Sforza"
+		birth_date = 1493.1.1
+		death_date = 1530.1.1
+		claim = 95
+		adm = 5
+		dip = 7
+		mil = 4
+		leader = { name = "Massimiliano Sforza"       	type = general	rank = 1	fire = 1	shock = 1	manuever = 2	siege = 0 }
+	}	
+}
+	
+1508.1.1 = {
+	monarch = {
+		name = "Massimiliano I"
+		dynasty = "Sforza"
+		adm = 5
+		dip = 7
+		mil = 4
+		leader = { name = "Massimiliano Sforza"       	type = general	rank = 1	fire = 1	shock = 1	manuever = 2	siege = 0 }
+	}
+}
+
+1515.10.6 = {
+	monarch = {
+		name = "Francesco II Maria"
+		dynasty = "Sforza"
+		adm = 7
+		dip = 5
+		mil = 4
+		leader = { name = "Francesco Sforza"       	type = general	rank = 0	fire = 1	shock = 1	manuever = 2	siege = 0 }
+	}
+}
+
+1535.1.1 = { leader = {	 name = "Marquis del Vasto"     	type = general	rank = 1	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1546.3.31 } }
+
+1796.11.15 = { government = constitutional_republic }
+
+1796.11.15 = {
+	monarch = {
+		name = "Republicca Transpadana"
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+}

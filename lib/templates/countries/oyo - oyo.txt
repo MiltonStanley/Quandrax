@@ -1,0 +1,741 @@
+government = tribal_democracy
+aristocracy_plutocracy = 0
+centralization_decentralization = 5
+innovative_narrowminded = 0
+mercantilism_freetrade = -5
+offensive_defensive = 0
+land_naval = -5
+quality_quantity = 2
+serfdom_freesubjects = -5
+technology_group = sub_saharan
+primary_culture = yorumba
+religion = animism
+capital = 1146	# Ife Ile
+
+
+#Alafins
+1399.1.1 = {
+	monarch = {
+		name = "Oranyan"
+		dynasty = "Alaafin"
+		DIP = 6
+		ADM = 6
+		MIL = 4
+	}
+}
+
+1420.1.1 = {
+	heir = {
+		name = "Sango"
+		monarch_name = "Sango"
+		dynasty = "Alaafin"
+		birth_Date = 1420.1.1
+		death_date = 1470.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 7
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Sango"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 4
+		MIL = 7
+	}
+}
+
+1450.1.1 = {
+	heir = {
+		name = "Ajaka"
+		monarch_name = "Ajaka"
+		dynasty = "Alaafin"
+		birth_date = 1450.1.1
+		death_Date = 1490.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1470.1.1 = {
+	monarch = {
+		name = "Ajaka"
+		dynasty = "Alaafin"
+		DIP = 6
+		ADM = 7
+		MIL = 6
+	}
+}
+
+1470.1.1 = {
+	heir = {
+		name = "Aganju"
+		monarch_name = "Aganju"
+		dynasty = "Alaafin"
+		birth_date = 1470.1.1
+		death_Date = 1505.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1490.1.1 = {
+	monarch = {
+		name = "Aganju"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 3
+		MIL = 5
+	}
+}
+
+1490.1.1 = {
+	heir = {
+		name = "Kari"
+		monarch_name = "Kari"
+		dynasty = "Alaafin"
+		birth_Date = 1490.1.1
+		death_date = 1520.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1505.1.1 = {
+	monarch = {
+		name = "Kari"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1505.1.1 = {
+	heir = {
+		name = "Oluaso"
+		monarch_name = "Oluaso"
+		dynasty = "Alaafin"
+		birth_Date = 1505.1.1
+		death_Date = 1530.1.1
+		claim = 95
+		adm = 9
+		dip = 5
+		mil = 3
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "Oluaso"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 9
+		MIL = 3
+	}
+}
+
+1520.1.1 = {
+	heir = {
+		name = "Onigbogi"
+		monarch_name =" Onigbogi"
+		dynasty = "Alaafin"
+		birth_Date = 1520.1.1
+		death_Date = 1542.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+		name = "Onigbogi"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1530.1.1 = {
+	heir = {
+		name = "Ofinran"
+		monarch_name = "Ofinran"
+		dynasty = "Alaafin"
+		birth_date = 1530.1.1
+		death_date = 1554.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1542.1.1 = {
+	monarch = {
+		name = "Ofinran"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1542.1.1 = {
+	heir = {
+		name = "Eguguoju"
+		monarch_name = "Eguguoju"
+		dynasty = "Alaafin"
+		birth_Date = 1530.1.1
+		death_date = 1560.1.1
+		claim = 95
+		adm = 7
+		dip = 5
+		mil = 5
+	}
+}
+
+1554.1.1 = {
+	monarch = {
+		name = "Eguguoju"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 7
+		MIL = 5
+	}
+}
+
+1554.1.1 = {
+	heir = {
+		name = "Orompoto"
+		monarch_name = "Orompoto"
+		dynasty = "Alaafin"
+		birth_date = 1554.1.1
+		death_date = 1580.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1560.1.1 = {
+	monarch = {
+		name = "Orompoto"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1560.1.1 = {
+	heir = {
+		name = "Ajiboyede"
+		monarch_name = "Ajiboyede"
+		dynasty = "Alaafin"
+		birth_Date = 1560.1.1
+		death_date = 1590.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1580.1.1 = {
+	monarch = {
+		name = "Ajiboyede"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1580.1.1 = {
+	heir = {
+		name = "Abipa"
+		monarch_name = "Abipa"
+		dynasty = "Alaafin"
+		birth_date = 1560.1.1
+		death_date = 1614.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1590.1.1 = {
+	monarch = {
+		name = "Abipa"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 5
+		MIL = 7
+	}
+}
+
+1590.1.1 = {
+	heir = {
+		name = "Obalokun"
+		monarch_name = "Obalokun"
+		dynasty = "Alaafin"
+		birth_Date = 1590.1.1
+		death_Date = 1625.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1614.1.1 = {
+	monarch = {
+		name = "Obalokun"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 5
+		MIL = 6
+	}
+}
+
+1614.1.1 = {
+	heir = {
+		name = "Ajagbo"
+		monarch_name  ="Ajagbo"
+		dynasty = "Alaafin"
+		birth_date = 1600.1.1
+		death_Date = 1640.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 9
+	}
+}
+
+1625.1.1 = {
+	monarch = {
+		name = "Ajagbo"
+		dynasty = "Alaafin"
+		DIP = 6
+		ADM = 6
+		MIL = 9
+	}
+}
+
+1625.1.1 = {
+	heir = {
+		name = "Ajagbo"
+		monarch_name = "Ajagbo"
+		dynasty = "Alaafin"
+		birth_date = 1625.1.1
+		death_Date = 1655.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1640.1.1 = {
+	monarch = {
+		name = "Odorawu"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1640.1.1 = {
+	heir = {
+		name = "Kanran"
+		monarch_name = "Kanran"
+		dynasty = "Alaafin"
+		birth_date = 1630.1.1
+		death_Date = 1670.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1655.1.1 = {
+	monarch = {
+		name = "Kanran"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1655.1.1 = {
+	heir = {
+		name = "Jayin"
+		monarch_name = "Jayin"
+		dynasty = "Alaafin"
+		birth_date = 1655.1.1
+		death_Date = 1685.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1670.1.1 = {
+	monarch = {
+		name = "Jayin"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1670.1.1 = {
+	heir = {
+		name = "Ayibi"
+		monarch_name = "Ayibi"
+		dynasty = "Alaafin"
+		birth_Date = 1670.1.1
+		death_Date = 1700.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1685.1.1 = {
+	monarch = {
+		name = "Ayibi"
+		dynasty = "Alaafin"
+		DIP = 3
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1685.1.1 = {
+	heir ={
+		name = "Osiyago"
+		monarch_name = "Osiyago"
+		dynasty = "Alaafin"
+		birth_Date = 1685.1.1
+		death_date = 1720.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Osiyago"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1700.1.1 = {
+	heir = {
+		name = "Ojigi"
+		monarch_name = "Ojigi"
+		dynasty = "Alaafin"
+		birth_date = 1700.1.1
+		death_date = 1730.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1720.1.1 = {
+	monarch = {
+		name = "Ojigi"
+		dynasty = "Alaafin"
+		DIP = 3
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1720.1.1 = {
+	heir = {
+		name = "Gberu"
+		monarch_name = "Gberu"
+		dynasty = "Alaafin"
+		birth_date = 1710.1.1
+		death_date = 1735.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1730.1.1 = {
+	monarch = {
+		name = "Gberu"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1730.1.1 = {
+	heir = {
+		name = "Amuniwaiye"
+		monarch_name = "Amuniwaiye"
+		dynasty = "Alaafin"
+		birth_date = 1710.1.1
+		death_Date = 1746.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1735.1.1 = {
+	monarch = {
+		name = "Amuniwaiye"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1735.1.1 = {
+	heir = {
+		name = "Onisle"
+		monarch_name = "Onsile"
+		dynasty = "Alaafin"
+		birth_Date = 1735.1.1
+		death_Date = 1754.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1746.1.1 = {
+	monarch = {
+		name = "Onisle"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1746.1.1 = {
+	heir = {
+		name = "Labisi"
+		monarch_name = "Labisi"
+		dynasty = "Alaafin"
+		birth_date = 1730.1.1
+		death_date = 1754.5.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1754.1.1 = {
+	monarch = {
+		name = "Labisi"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 3
+		MIL = 5
+	}
+}
+
+1754.5.1 = {
+	monarch = {
+		name = "Agboluaje"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1754.9.1 = {
+	monarch = {
+		name = "Majeogbe"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 3
+		MIL = 5
+	}
+}
+
+1754.9.1 = {
+	heir = {
+		name = "Abiodun"
+		monarch_name = "Abiodun"
+		dynasty = "Alaafin"
+		birth_date = 1750.1.1
+		death_date = 1789.1.1
+		claim = 95
+		adm = 8
+		dip = 5
+		mil = 3
+	}
+}
+
+1770.1.1 = {
+	monarch = {
+		name = "Abiodun"
+		dynasty = "Alaafin"
+		DIP = 5
+		ADM = 8
+		MIL = 3
+	}
+}
+
+1770.1.1 = {
+	heir = {
+		name = "Awole Arongangan"
+		monarch_name = "Awole Arongangan"
+		dynasty = "Alaafin"
+		birth_Date = 1770.1.1
+		death_date = 1796.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+		
+1789.1.1 = {
+	monarch = {
+		name = "Awole Arongangan"
+		dynasty = "Alaafin"
+		DIP = 3
+		ADM = 4
+		MIL = 3
+	}
+}
+
+1789.1.1 = {
+	heir = {
+		name = "Adebo"
+		monarch_name = "Adebo"
+		dynasty = "Alaafin"
+		birth_date = 1789.1.1
+		death_date = 1797.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1796.1.1 = {
+	monarch = {
+		name = "Adebo"
+		dynasty = "Alaafin"
+		DIP = 2
+		ADM = 2
+		MIL = 2
+	}
+}
+
+1796.1.1 = {
+	heir = {
+		name = "Maaku"
+		monarch_name = "Maaku"
+		dynasty = "Alaafin"
+		birth_date = 1776.1.1
+		death_date = 1797.4.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+		
+1797.1.1 = {
+	monarch = {
+		name = "Maaku"
+		dynasty = "Alaafin"
+		DIP = 2
+		ADM = 2
+		MIL = 2
+	}
+}
+
+1797.1.1 = {
+	heir = {
+		name = "Aburumaku"
+		monarch_name = "Aburumaku"
+		dynasty = "Alaafin"
+		birth_Date = 1776.1.1
+		death_date = 1802.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1797.4.1 = {
+	monarch = {
+		name = "Aburumaku"
+		dynasty = "Alaafin"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1797.4.1 = {
+	heir = {
+		name = "Majotu"
+		monarch_name = "Majotu"
+		dynasty = "Alaafin"
+		birth_Date = 1766.1.1
+		death_date = 1830.1.1
+		claim = 95
+		adm = 7
+		dip = 5
+		mil = 6
+	}
+}
+
+1802.1.1 = {
+	monarch = {
+		name = "Majotu"
+		dynasty = "Alaafin"
+		adm = 7
+		dip = 5
+		mil = 6
+	}
+}

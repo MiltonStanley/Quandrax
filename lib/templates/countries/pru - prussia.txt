@@ -1,0 +1,325 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 1
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -3
+primary_culture = prussian
+religion = catholic
+technology_group = western
+capital = 41	# Königsberg
+
+1510.12.14 = {
+	monarch = {
+		name = "Albrecht"
+		dynasty = "von Hohenzollern"
+		adm = 4
+		dip = 6
+		mil = 4
+		leader = {	name = "Albrecht"              	type = general	rank = 0	fire = 1	shock = 2	manuever = 2	siege = 0 }
+	}
+}
+
+1525.1.1 = { religion = protestant }
+
+1525.1.1  = { changed_tag_from = TEU }
+
+1553.5.7 = {
+	heir = {
+		name = "Albrecht Friedrich"
+		monarch_name = "Albert Friedrich"
+		dynasty = "von Hohenzollern"
+		birth_date = 1533.5.7
+		death_date = 1618.8.28
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1568.3.21 = {
+	monarch = {
+		name = "Albrecht Friedrich"
+		dynasty = "von Hohenzollern"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1572.11.8 = {
+	heir = {
+		name = "Johann Sigismund"
+		monarch_name = "Johann Sigismund"
+		dynasty = "von Hohenzollern"
+		birth_date = 1572.11.8
+		death_date = 1619.12.23
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1618.8.19 = {
+	monarch = {
+		name = "Johann Sigismund"
+		dynasty = "von Hohenzollern"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1618.8.19 = {
+	heir = {
+		name = "Georg Wilhelm"
+		monarch_name = "Georg Wilhelm"
+		dynasty = "von Hohenzollern"
+		birth_date = 1595.11.13
+		death_date = 1640.12.1
+		claim = 95
+		adm = 8
+		dip = 8
+		mil = 6
+		leader = {	name = "Georg Wilhelm"         	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0 }
+	}
+}
+
+1619.12.24 = {
+	monarch = {
+		name = "Georg Wilhelm"
+		dynasty = "von Hohenzollern"
+		adm = 8
+		dip = 8
+		mil = 6
+		leader = {	name = "Georg Wilhelm"         	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0 }
+	}
+}
+
+1620.2.16 = {
+	heir = {
+		name = "Friedrich Wilhelm"
+		monarch_name = "Friedrich Wilhelm"
+		dynasty = "von Hohenzollern"
+		birth_date = 1620.2.16
+		death_date = 1688.4.29
+		claim = 95
+		adm = 7
+		dip = 8
+		mil = 8
+		leader = {	name = "Friedrich Wilhelm"     	type = general	rank = 0	fire = 3	shock = 3	manuever = 2	siege = 0 }
+	}
+}
+
+1640.12.2 = {
+	monarch = {
+		name = "Friedrich Wilhelm"
+		dynasty = "von Hohenzollern"
+		adm = 7
+		dip = 8
+		mil = 8
+		leader = {	name = "Friedrich Wilhelm"     	type = general	rank = 0	fire = 3	shock = 3	manuever = 2	siege = 0 }
+	}
+}
+
+1654.1.1 = { leader = {	name = "G. von Derfflinger"       	type = general	rank = 1	fire = 4	shock = 3	manuever = 3	siege = 1	death_date = 1695.2.14 } }
+
+1657.7.11 = {
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich I"
+		dynasty = "von Hohenzollern"
+		birth_date = 1657.7.11
+		death_date = 1713.2.25
+		claim = 95
+		adm = 9
+		dip = 7
+		mil = 7
+		leader = {	name = "Friedrich I"           	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0 }
+	}
+}
+ 
+1670.1.1 = { leader = {	name = "F. Hessen-Homburg"        	type = general	rank = 3	fire = 2	shock = 4	manuever = 3	siege = 2	death_date = 1708.1.24 } }
+
+1686.1.1 = { leader = {	name = "F.W. von Kyau"              	type = general	rank = 5	fire = 2	shock = 2	manuever = 1	siege = 0	death_date = 1733.1.19 } }
+
+1688.5.10 = {
+	monarch = {
+		name = "Friedrich I"
+		dynasty = "von Hohenzollern"
+		adm = 9
+		dip = 7
+		mil = 7
+		leader = {	name = "Friedrich I"           	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0 }
+	}
+}
+
+1688.5.10 = { government = absolute_monarchy }
+
+1688.8.14 = {
+	heir = {
+		name = "Friedrich Wilhelm"
+		monarch_name = "Friedrich Wilhelm I"
+		dynasty = "von Hohenzollern"
+		birth_date = 1688.8.14
+		death_date = 1740.5.31
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 8
+	}
+}
+
+1701.1.18 = { capital = 50 }	# Berlin
+
+1701.1.18 = { elector = yes }
+
+1702.1.1 = { leader = {	name = "Leopold von Dessau"            	type = general	rank = 0	fire = 4	shock = 4	manuever = 4	siege = 3	death_date = 1747.4.7 } }
+
+1713.1.1 = { centralization_decentralization = -2 aristocracy_plutocracy = -2 innovative_narrowminded = 0 } # The Absolutism
+
+1713.1.1 = { land_naval = -4 offensive_defensive = -1 quality_quantity = -2 } # The Reform of the Prussian Army
+
+1713.2.24 = {
+	monarch = {
+		name = "Friedrich Wilhelm I"
+		dynasty = "von Hohenzollern"
+		adm = 7
+		dip = 7
+		mil = 8
+	}
+}
+
+1713.2.24 = {
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich II der Große"
+		dynasty = "von Hohenzollern"
+		birth_date = 1712.1.24
+		death_date = 1786.8.17
+		claim = 95
+		adm = 9
+		dip = 9
+		mil = 9
+		leader = {	name = "Friedrich II der Große"          	type = general	rank = 0	fire = 6	shock = 6	manuever = 6	siege = 1 }
+	}
+}
+
+1720.1.1 = { leader = {	name = "Kurt von Schwerin"          	type = general	rank = 2	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1757.5.6 } }
+
+1725.1.1 = { leader = {	name = "A.F. von Schulenburg"       	type = general	rank = 6	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1741.4.10 } }
+
+1735.1.1 = { leader = {	name = "Hans van Lehwald"		type = general	rank = 5	fire = 3	shock = 1	manuever = 3	siege = 1	death_date = 1768.1.1 } }
+
+1735.1.1 = { leader = {	name = "von Gessler"			type = general	rank = 4	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1745.1.1 } }
+
+1740.5.30 = {
+	decision = enact_prussian_military_reforms
+	monarch = {
+		name = "Friedrich II der Große"
+		dynasty = "von Hohenzollern"
+		adm = 9
+		dip = 9
+		mil = 9
+		leader = {	name = "Friedrich II der Große"          	type = general	rank = 0	fire = 6	shock = 6	manuever = 6	siege = 1 }
+	}
+}
+
+1740.5.30 = { government = enlightened_despotism }
+
+1741.1.1 = { leader = {	name = "Hans J. von Ziethen"	type = general	rank = 7	fire = 2	shock = 4	manuever = 4	siege = 0	death_date = 1760.11.3 } }
+
+1744.9.25 = {
+	heir = {
+		name = "Friedrich Wilhelm"
+		monarch_name = "Friedrich II Wilhelm"
+		dynasty = "von Hohenzollern"
+		birth_date = 1744.9.25
+		death_date = 1797.11.16
+		claim = 95
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1745.1.1 = { leader = {	name = "Heinrich von Preußen"	type = general	rank = 2	fire = 3	shock = 5	manuever = 4	siege = 0	death_date = 1797.11.16 } }
+
+1745.1.1 = { leader = {	name = "F.W. von Seydlitz"	type = general	rank = 3	fire = 1	shock = 6	manuever = 4	siege = 0	death_date = 1760.5.1 } }
+
+1750.1.1 = { leader = {	name = "Ferdinand von Preußen"	type = general	rank = 4	fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1786.8.17 } }
+
+1750.1.1 = { aristocracy_plutocracy = 0 centralization_decentralization = -4 innovative_narrowminded = -3 serfdom_freesubjects = -1 } # The Enlightened Reforms of Frederick the (not really all too) Great
+
+1750.1.1 = { leader = {	name = "F.A. von Finck"		type = general	rank = 8	fire = 3	shock = 3	manuever = 2	siege = 0	death_date = 1759.11.19 } }
+
+1755.1.1 = { leader = {	name = "Wilhelm zu Dohna"	type = general	rank = 6	fire = 2	shock = 3	manuever = 2	siege = 0	death_date = 1790.4.27 } }
+
+1760.1.1 = { leader = {	name = "Gebhard von Blücher"	type = general	rank = 0	fire = 5	shock = 5	manuever = 5	siege = 0	death_date = 1819.9.12 } }
+
+1772.1.1 = { leader = {	name = "F.W. von Bülow"		type = general	rank = 2	fire = 4	shock = 3	manuever = 5	siege = 0	death_date = 1816.2.25 } }
+
+1780.1.1 = { leader = {	name = "F.L. zu Hohenlohe"	type = general	rank = 1	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1806.8.1 } }
+
+1786.8.18 = {
+	monarch = {
+		name = "Friedrich Wilhelm II"
+		dynasty = "von Hohenzollern"
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1786.8.18 = {
+	heir = {
+		name = "Friedrich Wilhelm"
+		monarch_name = "Friedrich Wilhelm III"
+		dynasty = "von Hohenzollern"
+		birth_date = 1770.8.3
+		death_date = 1840.6.7
+		claim = 95
+		adm = 3
+		dip = 8
+		mil = 5
+	}
+}
+
+1797.11.17 = {
+	monarch = {
+		name = "Friedrich Wilhelm III"
+		dynasty = "von Hohenzollern"
+		adm = 3
+		dip = 8
+		mil = 5
+	}
+}
+
+1797.11.17 = {
+	heir = {
+		name = "Friedrich Wilhelm"
+		monarch_name = "Friedrich Wilhelm IV"
+		dynasty = "von Hohenzollern"
+		birth_date = 1795.10.15
+		death_date = 1861.1.2
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1806.7.12 = { elector = no } # The HRE is formally abolished
+
+1807.1.1 = { leader = { name = "August von Gneisenau"	type = general	rank = 0	fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1831.8.23 } }
+
+1807.1.1 = { capital = 40 } # Memel
+
+1807.1.1 = { aristocracy_plutocracy = 2 centralization_decentralization = -5 serfdom_freesubjects = 2 } # Von Scharnhorst's and Von Stein's Reforms
+
+1808.1.1 = { capital = 50 } # Berlin

@@ -1,0 +1,194 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = -1
+mercantilism_freetrade = 2
+offensive_defensive = -5
+land_naval = -3
+quality_quantity = -2
+serfdom_freesubjects = 2
+primary_culture = burgundian
+add_accepted_culture = cosmopolitan_french
+religion = catholic
+technology_group = western
+capital = 192	# Dijon
+
+
+1363.1.1 = {
+	monarch = {
+		name = "Philippe II"
+		dynasty = "de Bourgogne"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1371.5.28 = {
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean II"
+		dynasty = "de Bourgogne"
+		birth_date = 1371.5.28
+		death_date = 1419.9.10
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 4
+	}
+}
+
+
+1404.1.1 = {
+	monarch = {
+		name = "Jean II"
+		dynasty = "de Bourgogne"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+
+1404.1.1 = {
+	heir = {
+		name = "Philip"
+		monarch_name = "Philip III"
+		dynasty = "de Bourgogne"
+		birth_date = 1396.7.31
+		death_date = 1467.6.15
+		claim = 95
+		DIP = 8
+		ADM = 8
+		MIL = 8
+	}
+}
+
+
+1408.1.1 = { leader = {	name = "Jean de Pressy"   	type = general	rank = 3	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1437.1.1 } }
+
+1419.9.11 = {
+	monarch = {
+		name = "Philippe III"
+		dynasty = "de Bourgogne"
+		adm = 8
+		dip = 8
+		mil = 8
+		leader = { name = "Philippe III"   	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 1 }
+	}
+}
+
+1428.7.3 = { add_accepted_culture = dutch }
+
+1433.11.10 = {
+	heir = {
+		name = "Charles"
+		monarch_name = "Charles I"
+		dynasty = "de Bourgogne"
+		birth_date = 1433.11.10
+		death_date = 1477.1.5
+		claim = 95
+		ADM = 5
+		DIP = 3
+		MIL = 7
+	}
+}
+
+
+
+1467.6.16 = {
+	monarch = {
+		name = "Charles I"
+		dynasty = "de Bourgogne"
+		adm = 5
+		dip = 3
+		mil = 7
+		leader = { name = "Charles I le Téméraire"	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 1}
+	}
+}
+
+1467.6.16 = {
+	heir = {
+		name = "Marie"
+		monarch_name = "Marie I"
+		dynasty = "de Bourgogne"
+		birth_date = 1457.2.13
+		death_date = 1482.3.27
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 5
+		female = yes
+	}
+}
+
+1477.1.6 = {
+	monarch = {
+		name = "Marie I"
+		dynasty = "de Bourgogne"
+		adm = 6
+		dip = 7
+		mil = 5
+		female = yes
+	}
+}
+
+# Burgundy is owned by the Habsburgs at this point, represented as HAB ownership
+
+1478.7.22 = {
+	heir = {
+		name = "Philippe"
+		monarch_name = "Philippe IV"
+		dynasty = "von Habsburg"
+		birth_date = 1478.7.22
+		death_date = 1506.9.25
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1482.3.28 = {
+	monarch = {
+		name = "Philippe IV"
+		dynasty = "von Habsburg"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1500.2.24 = {
+	heir = {
+		name = "Charles"
+		monarch_name = "Charles II"
+		dynasty = "von Habsburg"
+		birth_date = 1500.2.24
+		death_date = 1558.9.21
+		claim = 95
+		adm = 7
+		dip = 8
+		mil = 8
+	}
+}
+
+1506.9.26 = { government = despotic_monarchy }
+
+1506.9.26 = {
+	monarch = {
+		name = "Charles II"
+		dynasty = "von Habsburg"
+		adm = 7
+		dip = 8
+		mil = 8
+	}
+}
+
+1560.1.1 = { innovative_narrowminded = 3 } # Dutch Nobility demands General Estates
+
+1589.8.3 = { government = administrative_monarchy }
+
+1648.1.1 = { centralization_decentralization = 2 } # The Repatriation of the Netherlands
+
+1661.3.9 = { government = absolute_monarchy }

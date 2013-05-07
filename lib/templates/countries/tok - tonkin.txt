@@ -1,0 +1,315 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = 0
+quality_quantity = 3
+serfdom_freesubjects = -2
+technology_group = chinese
+religion = buddhism
+primary_culture = vietnamese
+capital = 613	# Hanoi
+
+#Trinh Dynasty
+
+1539.1.1 = {
+	monarch = {
+		name = "Trinh Kiem"
+		dynasty = "Trinh"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1550.1.1 = {
+	heir = {
+		name = "Trinh Coi"
+		monarch_name = "Trinh Coi"
+		dynasty = "Trinh"
+		birth_Date = 1550.1.1
+		death_date = 1570.8.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1569.12.1 = {
+	monarch = {
+		name = "Trinh Coi"
+		dynasty = "Trinh"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1569.12.1 = {
+	heir = {
+		name = "Trinh Tung"
+		monarch_name = "Trinh Tung"
+		dynasty = "Trinh"
+		birth_Date = 1569.12.1
+		death_Date = 1623.7.14
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1570.8.1 = {
+	monarch = {
+		name = "Trinh Tung"
+		dynasty = "Trinh"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1570.8.1 = {
+	heir = {
+		name = "Trinh Trang"
+		monarch_name = "Trinh Trang"
+		dynasty = "Trinh"
+		birth_date = 1570.1.1
+		death_date = 1657.2.23
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1623.7.14 = {
+	monarch = {
+		name = "Trinh Trang"
+		dynasty = "Trinh"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1623.7.14 = {
+	heir = {
+		name = "Trinh Tac"
+		monarch_name = "Trinh Tac"
+		dynasty = "Trinh"
+		birth_date = 1606.1.1
+		death_date = 1682.9.24
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1657.5.23 = {
+	monarch = {
+		name = "Trinh Tac"
+		dynasty = "Trinh"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1657.5.23 = {
+	heir = {
+		name = "Trinh Con"
+		monarch_name = "Trinh Con"
+		dynasty = "Trinh"
+		birth_date = 1640.1.1
+		death_date = 1709.6.17
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1682.9.24 = {
+	monarch = {
+		name = "Trinh Con"
+		dynasty = "Trinh"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1686.1.1 = {
+	heir = {
+		name = "Trinh Cuong"
+		monarch_name = "Trinh Cuong"
+		dynasty = "Trinh"
+		birth_date = 1686.1.1
+		death_Date = 1729.12.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1709.6.17 = {
+	monarch = {
+		name = "Trinh Cuong"
+		dynasty = "Trinh"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1711.1.1 = {
+	heir = {
+		name = "Trinh Giang"
+		monarch_name = "Trinh Giang"
+		birth_Date = 1711.1.1
+		death_date = 1740.12.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+		
+
+1729.12.1 = {
+	monarch = {
+		name = "Trinh Giang"
+		dynasty = "Trinh"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1729.12.1 = {
+	heir = {
+		name = "Trinh Dinhi"
+		monarch_name = "Trinh Dinhi"
+		dynasty = "Trinh"
+		birth_Date = 1720.1.1
+		death_date = 1767.2.15
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1740.12.1 = {
+	monarch = {
+		name = "Trinh Dinhi"
+		dynasty = "Trinh"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1740.12.1 = {
+	heir = {
+		name = "Trinh Sam"
+		monarch_name = "Trinh Sam"
+		dynasty = "Trinh"
+		birth_date = 1740.12.1
+		death_date = 1782.10.19
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1767.2.15 = {
+	monarch = {
+		name = "Trinh Sam"
+		dynasty = "Trinh"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1767.2.15 = {
+	heir = {
+		name = "Trinh Man"
+		monarch_name = "Trinh Man"
+		dynasty = "Trinh"
+		birth_date = 1740.1.1
+		death_Date = 1782.11.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1782.10.19 = {
+	monarch = {
+		name = "Trinh Man"
+		dynasty = "Trinh"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1782.10.19 = {
+	heir = {
+		name = "Trinh Khai"
+		monarch_name = "Trinh Khai"
+		dynasty = "Trinh"
+		birth_date = 1760.1.1
+		death_date = 1786.7.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1782.11.1 = {
+	monarch = {
+		name = "Trinh Khai"
+		dynasty = "Trinh"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1782.11.1 = {
+	heir = {
+		name = "Trinh Bong"
+		monarch_name = "Trinh Bong"
+		dynasty  = "Trinh"
+		birth_Date = 1760.1.1
+		death_date = 1787.10.31
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1786.7.1 = {
+	monarch = {
+		name = "Trinh Bong"
+		dynasty = "Trinh"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+#Annexed by Annam in October 1787

@@ -1,0 +1,79 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -4
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -1
+technology_group = eastern
+primary_culture = lombard
+religion = catholic
+capital = 1773	# Mystras
+
+
+# Principality of Achaea #
+1396.1.1 = {
+	monarch = {
+		name = "Pietro I"
+		dynasty = "de Saint-Superan"
+		DIP = 4
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1396.1.1 = {
+	heir = {
+		name = "Maria"
+		monarch_name = "Maria II"
+		dynasty = "Zaccaria"
+		birth_date = 1360.1.1 #Guesstimate
+		death_date = 1404.1.1
+		claim = 75
+		dip = 4
+		adm = 6
+		mil = 4
+		female = yes
+	}
+}
+
+1402.1.1 = {
+	monarch = {
+		name = "Maria II"
+		dynasty = "Zaccaria"
+		DIP = 4
+		ADM = 6
+		MIL = 4
+		female = yes
+	}
+}
+
+1402.1.1 = {
+	heir = {
+		name = "Centurione"
+		monarch_name = "Centurione II"
+		dynasty = "Zaccaria"
+		birth_date = 1380.1.1
+		death_date = 1439.1.1
+		claim = 95
+		dip = 4
+		adm = 3
+		mil = 3
+	}
+}
+
+1404.1.1 = {
+	monarch = {
+		name = "Centurione II"
+		dynasty = "Zaccaria"
+		DIP = 4
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1432.1.1 = { primary_culture = greek religion = orthodox }
+
+# 1432, Despotate of Morea

@@ -1,0 +1,408 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = -2
+quality_quantity = 3
+serfdom_freesubjects = -2
+technology_group = indian
+religion = sunni
+primary_culture = uzbehk
+capital = 458	# Ferghana
+
+
+1494.6.6 = {
+	monarch = {
+		name = "Bâbur"
+		dynasty = "Timurid"
+		adm = 8
+		dip = 8
+		mil = 9
+	}
+}
+
+1506.1.1 = {
+	capital = 451	# Kabulistan
+	add_accepted_culture = east_persian
+}
+
+1508.3.6 = {
+	heir = {
+		name = "Humâyûn"
+		monarch_name = "Humâyûn"
+		dynasty = "Timurid"
+		birth_date = 1508.3.6
+		death_date = 1556.1.1
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 4
+	}
+}
+
+1530.12.27 = {
+	monarch = {
+		name = "Humâyûn"
+		dynasty = "Timurid"
+		dip = 4
+		adm = 7
+		mil = 4
+	}
+}
+
+1540.6.1 = {
+	primary_culture = kanauji
+	monarch = {
+		name = "Sher Shah"
+		dynasty = "Suri"
+		dip = 7
+		adm = 9
+		mil = 8
+	}
+}
+
+1540.6.1 = {
+	heir = {
+		name = "Islam"
+		monarch_name = "Islam Shah"
+		birth_date = 1500.1.1
+		death_date = 1554.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1545.4.23 = {
+	monarch = {
+		name = "Islam Shah"
+		dynasty = "Suri"
+		dip = 5
+		adm = 5
+		mil = 5
+	}
+}
+
+1553.1.1 = {
+	monarch = {
+		name = "Muhammed Shah Adil"
+		dynasty = "Suri"
+		dip = 3
+		adm = 3
+		mil = 3
+	}
+}
+
+1555.1.1 = {
+	monarch = {
+		name = "Ibrahim Shah"
+		dynasty = "Suri"
+		dip = 3
+		adm = 3
+		mil = 3
+	}
+}
+
+1555.7.23 = {
+	monarch = {
+		name = "Humâyûn"
+		dynasty = "Timurid"
+		dip = 4
+		adm = 7
+		mil = 4
+	}
+}
+
+1555.7.23 = {
+	heir = {
+		name = "Akbar"
+		monarch_name = "Akbar I"
+		dynasty = "Timurid"
+		birth_date = 1542.11.14
+		death_date = 1605.10.27
+		claim = 95
+		adm = 9
+		dip = 9
+		mil = 9
+	}
+}
+
+1556.2.14 = {
+	monarch = {
+		name = "Akbar I"
+		dynasty = "Timurid"
+		dip = 9
+		adm = 9
+		mil = 9
+	}
+}
+
+1569.10.1 = {
+	heir = {
+		name = "Jahângîr"
+		monarch_name = "Jahângîr"
+		dynasty = "Timurid"
+		birth_date = 1569.10.1
+		death_date = 1605.10.26
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1585.1.1 = { capital = 507 } # Lahore
+
+1599.1.1 = { capital = 524 } # Agra
+
+1605.10.26 = {
+	monarch = {
+		name = "Jahângîr"
+		dynasty = "Timurid"
+		dip = 6
+		adm = 4
+		mil = 6
+	}
+}
+
+1605.10.26 = {
+	heir = {
+		name = "Shâh Jehân"
+		monarch_name = "Shâh Jehân"
+		dynasty = "Timurid"
+		birth_date = 1592.1.5
+		death_date = 1666.1.1
+		claim = 95
+		adm = 7
+		dip = 5
+		mil = 4
+	}
+}
+
+1627.10.28 = {
+	monarch = { 
+		name = "Shâh Jehân"
+		dynasty = "Timurid"
+		dip = 5
+		adm = 7
+		mil = 4
+	}
+}
+
+1627.10.28 = {
+	heir = {
+		name = "Aurangzîb"
+		monarch_name = "Aurangzîb"
+		dynasty = "Timurid"
+		birth_date = 1618.10.21
+		death_date = 1707.3.3
+		claim = 95
+		adm = 8
+		dip = 7
+		mil = 8
+	}
+}
+
+1658.1.1 = {
+	monarch = {
+		name = "Aurangzîb"
+		dynasty = "Timurid"
+		dip = 7
+		adm = 8
+		mil = 8
+	}
+}
+
+1658.1.1 = {
+	heir = {
+		name = "Bahâdur"
+		monarch_name = "Bahâdur Shâh I"
+		dynasty = "Timurid"
+		birth_date = 1643.10.14
+		death_date = 1712.2.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1707.3.15 = {
+	monarch = {
+		name = "Bahâdur Shâh I"
+		dynasty = "Timurid"
+		dip = 3
+		adm = 3
+		mil = 3
+	}
+}
+
+1707.3.15 = {
+	heir = {
+		name = "Farrukh Siyar"
+		monarch_name = "Farrukh Siyar"
+		dynasty = "Timurid"
+		birth_date = 1683.1.1
+		death_date = 1719.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1712.2.28 = {
+	monarch = {
+		name = "Farrukh Siyar"
+		dynasty = "Timurid"
+		dip = 3
+		adm = 3
+		mil = 3
+	}
+}
+
+1712.2.28 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad Shâh"
+		dynasty = "Timurid"
+		birth_date = 1702.1.1
+		death_date = 1748.4.26
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1719.2.25 = {
+	monarch = {
+		name = "Muhammad Shâh"
+		dynasty = "Timurid"
+		dip = 4
+		adm = 3
+		mil = 3
+	}
+}
+
+1725.1.1 = {
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad Shâh"
+		dynasty = "Timurid"
+		birth_date = 1725.1.1
+		death_date = 1754.6.3
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1748.4.26 = {
+	monarch = {
+		name = "Ahmad Shâh"
+		dynasty = "Timurid"
+		dip = 3
+		adm = 3
+		mil = 3
+	}
+}
+
+1748.4.26 = {
+	heir = {
+		name = "'Alamgir"
+		monarch_name = "'Alamgir"
+		dynasty = "Timurid"
+		birth_date = 1699.1.1
+		death_date = 1759.12.11
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1754.6.3 = {
+	monarch = {
+		name = "'Alamgir"
+		dynasty = "Timurid"
+		dip = 4
+		adm = 3
+		mil = 4
+	}
+}
+
+1754.6.3 = {
+	heir = {
+		name = "Jahân"
+		monarch_name = "Shâh Jahân III"
+		dynasty = "Timurid"
+		birth_date = 1750.1.1
+		death_date = 1770.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1759.12.11 = {
+	monarch = {
+		name = "Shâh Jahân III"
+		dynasty = "Timurid"
+		dip = 3
+		adm = 3
+		mil = 3
+	}
+}
+
+1759.12.11 = {
+	heir = {
+		name = "'Alam"
+		monarch_name = "Shâh 'Alam"
+		dynasty = "Timurid"
+		birth_date = 1728.1.1
+		death_date = 1806.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1760.10.11 = {
+	monarch = {
+		name = "Shâh 'Alam"
+		dynasty = "Timurid"
+		dip = 4
+		adm = 3
+		mil = 3
+	}
+}
+1760.10.11 = {
+	heir = {
+		name = "Akbar"
+		monarch_name = "Akbar II"
+		dynasty = "Timurid"
+		birth_date = 1760.4.22
+		death_date = 1837.9.28
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1806.11.18 = {
+	monarch = {
+		name = "Akbar II"
+		dynasty = "Timurid"
+		dip = 5
+		adm = 3
+		mil = 3
+	}
+}

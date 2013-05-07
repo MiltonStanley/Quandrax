@@ -1,0 +1,180 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -1
+centralization_decentralization = -4
+innovative_narrowminded = 1
+mercantilism_freetrade = 4
+offensive_defensive = 3
+land_naval = -3
+quality_quantity = -1
+serfdom_freesubjects = 2
+primary_culture = basque
+religion = catholic
+technology_group = western
+capital = 210	# Pamplona
+
+
+1387.1.1 = {
+	monarch = {
+		name = "Carlos III"
+		dynasty = "de Évreux"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1425.1.1 = {
+	monarch = {
+		name = "Juan II"
+		dynasty = "de Trastámara"
+		adm = 7
+		dip = 4
+		mil = 3
+	}
+}
+
+1479.1.20 = {
+	monarch = {
+		name = "Leonor I"
+		dynasty = "de Trastámara"
+		adm = 4
+		dip = 5
+		mil = 3
+		female = yes
+	}
+}
+
+1479.1.20 = {
+	heir = {
+		name = "Francisco"
+		monarch_name = "Francisco I Febo"
+		dynasty = "de Foix"
+		birth_date = 1469.1.1
+		death_date = 1483.1.1
+		claim = 80
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1479.2.12 = {
+	monarch = {
+		name = "Francisco I Febo"
+		dynasty = "de Foix"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1479.2.12 = {
+	heir = {
+		name = "Catalina"
+		monarch_name = "Catalina I"
+		dynasty = "de Foix"
+		birth_date = 1468.1.1
+		death_date = 1518.2.18
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+		female = yes
+	}
+}
+
+1483.1.1 = {
+	monarch = {
+		name = "Catalina I"
+		dynasty = "de Foix"
+		adm = 3
+		dip = 4
+		mil = 3
+		female = yes
+	}
+}
+
+1503.4.18 = {
+	heir = {
+		name = "Enrique"
+		monarch_name = "Enrique II"
+		dynasty = "d'Albret"
+		birth_date = 1503.4.18
+		death_date = 1555.5.25
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+}
+
+1512.9.1 = { capital = 176 government = despotic_monarchy } # Bearn/Foix 
+  
+1517.1.1 = {
+	monarch = {
+		name = "Enrique II"
+		dynasty = "d'Albret"
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+}
+
+1528.1.7 = {
+	heir = {
+		name = "Juana"
+		monarch_name = "Juana III"
+		dynasty = "d'Albret"
+		birth_date = 1528.1.7
+		death_date = 1572.6.9
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 4
+		female = yes
+	}
+}
+
+1555.5.25 = {
+	monarch = {
+		name = "Juana III"
+		dynasty = "d'Albret"
+		adm = 7
+		dip = 7
+		mil = 4
+		female = yes
+	}
+}
+
+1553.12.13 = {
+	heir = {
+		name = "Enrique"
+		monarch_name = "Enrique III"
+		dynasty = "de Bourbon"
+		birth_date = 1553.12.13
+		death_date = 1610.5.14
+		claim = 95
+		adm = 8
+		dip = 8
+		mil = 8
+		leader = { 	name = "Enrique III"		type = general	rank = 0	fire = 4	shock = 4	manuever = 2	siege = 0 }
+	}
+}
+		
+
+1560.1.1 = { religion = reformed government = administrative_monarchy }
+
+1562.1.1 = { leader = {	name = "Louis I de Condé"	type = general	rank = 0	fire = 2	shock = 3	manuever = 4	siege = 3	death_date = 1569.1.1 } }
+
+1572.6.9 = {
+	monarch = {
+		name = "Enrique III"
+		dynasty = "de Bourbon"
+		adm = 8
+		dip = 8
+		mil = 8
+		leader = { 	name = "Enrique III"		type = general	rank = 0	fire = 4	shock = 4	manuever = 2	siege = 0 }
+	}
+}
+
+1661.3.9 = { government = absolute_monarchy }

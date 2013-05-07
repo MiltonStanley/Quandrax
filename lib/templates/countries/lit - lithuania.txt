@@ -1,0 +1,171 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 5
+innovative_narrowminded = 3
+mercantilism_freetrade = -2
+offensive_defensive = -3
+land_naval = -2
+quality_quantity = -1
+serfdom_freesubjects = -5
+primary_culture = lithuanian
+add_accepted_culture = polish
+religion = catholic
+technology_group = eastern
+historical_friend = POL
+capital = 272	# Vilnius
+
+
+1392.1.1 = {
+	monarch = {
+		name = "Vytautas"
+		dynasty = Gediminai
+		adm = 5
+		dip = 6
+		mil = 3
+		leader = { name = "Vytautas"	type = general	rank = 0	fire = 2	shock = 4	manuever = 3	siege = 0 }
+	}
+}
+
+1430.1.1 = {
+	monarch = {
+		name = "Svitrigaila"
+		dynasty = Gediminai
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+	religion = orthodox
+}
+
+1432.1.1 = {
+	monarch = {
+		name = "Zygimantas"
+		dynasty = Gediminai
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+	religion = catholic
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Kazimieras"
+		dynasty = Jagiello
+		adm = 7
+		dip = 7
+		mil = 4
+	}
+}
+
+1461.8.5 = {
+	heir = {
+		name = "Aleksandras"
+		monarch_name = "Aleksandras I"
+		dynasty = "Jagiello"
+		birth_date = 1461.8.5
+		death_date = 1506.8.19
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+
+1492.1.1 = { leader = {	name = "Mykola Radivil"        	type = general	rank = 5	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1565.5.28 } }
+
+1492.1.1 = { leader = {	name = "Mykhaylo Glynskiy"     	type = general	rank = 5	fire = 2	shock = 4	manuever = 3	siege = 0	death_date = 1505.1.1 } }
+
+1492.6.8 = {
+	monarch = {
+		name = "Aleksandras I"
+		dynasty = Jagiello
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+
+1492.6.8 = {
+	heir = {
+		name = "Zygimantas"
+		monarch_name = "Zygimantas I Stary"
+		dynasty = "Jagiello"
+		birth_date = 1467.1.1
+		death_date = 1548.4.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1497.9.12 = { leader = { name = "Kostiantyn Ostrozskiy"	type = general	rank = 3	fire = 3	shock = 4	manuever = 3	siege = 1	death_date = 1530.8.10 } }
+
+1506.8.20 = {
+	monarch = {
+		name = "Zygimantas I Stary"
+		dynasty = Jagiello
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1520.8.1 = {
+	heir = {
+		name = "Zygimantas August"
+		monarch_name = "Zygimantas II August"
+		dynasty = "Jagiello"
+		birth_date = 1520.8.1
+		death_date = 1572.7.7
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1521.1.1 = { leader = {	name = "Juriy Radivil"         	type = general	rank = 2	fire = 3	shock = 4	manuever = 4	siege = 1	death_date = 1541.4.1 } }
+
+1536.1.1 = { leader = {	name = "Andriy Nemyrovych"     	type = general	rank = 4	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1541.1.1 } }
+
+1548.4.2 = {
+	monarch = {
+		name = "Zygimantas II August"
+		dynasty = Jagiello
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1553.1.1 = { leader = {	name = "Mykola Radivil"        	type = general	rank = 1	fire = 2	shock = 4	manuever = 3	siege = 0	death_date = 1616.2.28 } }
+
+1559.1.1 = { leader = {	name = "Roman Sangushka"       	type = general	rank = 2	fire = 2	shock = 3	manuever = 3	siege = 1	death_date = 1571.5.12 } }
+
+
+#1568.1.1 = {
+#	monarch = {
+#		name = "Mikolaj I"
+#		adm = 8
+#		dip = 7
+#		mil = 7
+#	}
+#}
+
+1570.1.1 = { aristocracy_plutocracy = -5 centralization_decentralization = 5 mercantilism_freetrade = -2 serfdom_freesubjects = -2 } # Magnates crave 'Polish Rights
+
+1572.1.1 = { government = noble_republic }
+
+1580.1.1 = { innovative_narrowminded = -1 } # Wave of Protestantism
+
+1590.1.1 = { innovative_narrowminded = -2 } # Wave of Calvinism
+
+1630.1.1 = { innovative_narrowminded = 2 centralization_decentralization = 3 } # Conflict over Religious Tolerance
+
+1630.1.1 = { aristocracy_plutocracy = -4 } # Conflict over Religious Tolerance
+
+1720.1.1 = { innovative_narrowminded = -3 centralization_decentralization = 4 } # Pietism
+
+1790.11.20 = { centralization_decentralization = -1 } # The Murder of Karol II Stanislovas

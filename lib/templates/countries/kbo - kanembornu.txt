@@ -1,0 +1,868 @@
+government = tribal_despotism
+aristocracy_plutocracy = -5
+centralization_decentralization = 5
+innovative_narrowminded = 1
+mercantilism_freetrade = -5
+offensive_defensive = 0
+land_naval = -5
+quality_quantity = 2
+serfdom_freesubjects = -5
+technology_group = sub_saharan
+religion = sunni
+primary_culture = mali
+capital = 1157	# Gatiga, Gazargamu
+
+
+#Sultans
+1389.1.1 = {
+	monarch = {
+		name = "Biri II"
+		dynasty = "Sayfawa"
+		DIP = 6
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1389.1.1 = {
+	heir = {
+		name = "Othman Kalinuama"
+		monarch_name = "Othman Kalinuama"
+		dynasty = "Sayfawa"
+		birth_Date = 1380.1.1
+		death_Date = 1422.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Othman Kalinuama"
+		dynasty = "Sayfawa"
+		DIP = 4
+		ADM = 5
+		MIL = 4
+	}
+}
+1422.1.1 = {
+	monarch = {
+		name = "Dunama IV"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 5
+		MIL = 6
+	}
+}
+
+1422.1.1 = {
+	heir = {
+		name = "Abdullah"
+		monarch_name = "Abdullah II"
+		dynasty = "Sayfawa"
+		birth_Date = 1400.1.1
+		death_Date = 1432.1.1
+		claim = 95
+		adm = 7
+		dip = 3
+		mil = 3
+	}
+}
+
+1424.1.1 = {
+	monarch = {
+		name = "Abdullah II"
+		dynasty = "Sayfawa"
+		DIP = 3
+		ADM = 7
+		MIL = 3
+	}
+}
+
+1424.1.1 = {
+	heir = {
+		name = "Ibrahim"
+		monarch_name = "Ibrahim II"
+		dynasty  ="Sayfawa"
+		birth_Date = 1400.1.1
+		death_Date = 1440.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+				
+1432.1.1 = {
+	monarch = {
+		name = "Ibrahim II"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1432.1.1 = {
+	heir = {
+		name = "Kadai"
+		monarch_name = "Kadai"
+		dynasty = "Sayfawa"
+		birth_Date = 1420.1.1
+		death_Date = 1446.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Kadai"
+		dynasty = "Sayfawa"
+		DIP = 3
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Dunama"
+		monarch_name = "Dunama V"
+		dynasty = "Sayfawa"
+		birth_Date = 1420.1.1
+		death_Date = 1450.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+1446.1.1 = {
+	monarch = {
+		name = "Dunama V"
+		dynasty = "Sayfawa"
+		DIP = 6
+		ADM = 4
+		MIL = 3
+	}
+}
+
+1446.1.1 = {
+	heir = {
+		name = "Mohammed"
+		monarch_name = "Mohammed II"
+		dynasty = "Sayfawa"
+		birth_Date = 1430.1.1
+		death_Date = 1451.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Mohammed II"
+		dynasty = "Sayfawa"
+		DIP = 4
+		ADM = 5
+		MIL = 6
+	}
+}
+
+1450.1.1 = {
+	heir = {
+		name = "Ahmad Dunama"
+		monarch_name = "Ahmad Dunama IV"
+		dynasty = "Sayfawa"
+		birth_Date = 1430.1.1
+		death_Date = 1455.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1451.1.1 = {
+	monarch = {
+		name = "Ahmad Dunama IV"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1451.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad II"
+		Dynasty = "Sayfawa"
+		birth_Date = 1440.1.1
+		death_Date = 1456.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1455.1.1 = {
+	monarch = {
+		name = "Muhammad II"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+1456.1.1 = {
+	monarch = {
+		name = "Amir"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+1456.5.1 = {
+	monarch = {
+		name = "Muhammad III"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+1456.9.1 = {
+	monarch = {
+		name = "Ghaji"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1461.1.1 = {
+	heir = {
+		name = "'Uthman"
+		monarch_name = "'Uthman"
+		dynasty = "Sayfawa"
+		birth_Date = 1461.1.1
+		death_Date = 1466.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1461.1.1 = {
+	monarch = {
+		name = "'Uthman"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1461.1.1 = {
+	heir = {
+		name = "'Umar"
+		monarch_name = "'Umar"
+		dynasty = "Sayfawa"
+		birth_Date = 1440.1.1
+		death_Date = 1467.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1466.1.1 = {
+	monarch = {
+		name = "'Umar"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1466.1.1 = {
+	heir = {	
+		name = "Muhammad"
+		monarch_name = "Muhammad IV"
+		dynasty = "Sayfawa"
+		birth_date = 1450.1.1
+		death_Date = 1472.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1467.1.1 = {
+	monarch = {
+		name = "Muhammad IV"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1467.1.1 = {
+	heir = {
+		name = "'Ali I Ghaji"
+		monarch_name = "'Ali I Ghaji"
+		dynasty = "Sayfawa"
+		birth_Date = 1460.1.1
+		death_Date = 1505.3.29
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 8
+	}
+}
+
+1472.1.1 = {
+	monarch = {
+		name = "'Ali I Ghaji"
+		dynasty = "Sayfawa"
+		DIP = 7
+		ADM = 7
+		MIL = 8
+	}
+}
+
+1472.1.1 = {
+	heir = {
+		name = "Idris Katakarmaba"
+		monarch_name = "Idris II Katakarmaba"
+		dynasty = "Sayfawa"
+		birth_Date = 1460.1.1
+		death_Date = 1526.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+		
+1505.3.29 = {
+	monarch = {
+		name = "Idris II Katakarmaba"
+		dynasty = "Sayfawa"
+		DIP = 6
+		ADM = 6
+		MIL = 5
+	}
+}
+
+1505.3.29 = {
+	heir = {
+		name = "Muhammad Aminami"
+		monarch_name = "Muhammad V Aminami"
+		dynasty = "Sayfawa"
+		birth_Date = 1500.1.1
+		death_Date = 1545.1.1
+		claim = 95
+		adm = 8
+		dip = 5
+		mil = 7
+	}
+}
+
+1526.1.1 = {
+	monarch = {
+		name = "Muhammad V Aminami"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 8
+		MIL = 7
+	}
+}
+
+1526.1.1 = {
+	heir = {
+		name = "'Ali Zainami"
+		monarch_name = "'Ali II Zainami"
+		dynasty = "Sayfawa"
+		birth_Date = 1500.1.1
+		death_Date = 1546.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1545.1.1 = {
+	monarch = {
+		name = "'Ali II Zainami"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1545.1.1 = {
+	heir = {
+		name = "Dunama Ngumaramma"
+		monarch_name = "Dunama VI Ngumaramma"
+		dynasty = "Sayfawa"
+		birth_Date = 1530.1.1
+		death_Date = 1564.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1546.1.1 = {
+	monarch = {
+		name = "Dunama VI Ngumaramma"
+		dynasty = "Sayfawa"
+		DIP = 6
+		ADM = 6
+		MIL = 6
+	}
+}
+
+1546.1.1 = {
+	heir = {
+		name = "'Abd Allah"
+		monarch_name = "'Abd Allah IV"
+		dynasty = "Sayfawa"
+		birth_Date = 1530.1.1
+		death_Date = 1572.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1546.1.1 = {
+	heir = {
+		name = "'Abd Allah"
+		monarch_name = "'Abd Allah IV"
+		dynasty = "Sayfawa"
+		birth_Date = 1530.1.1
+		death_Date = 1572.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1564.1.1 = {
+	monarch = {
+		name = "'Abd Allah IV"
+		dynasty = "Sayfawa"
+		DIP = 6
+		ADM = 6
+		MIL = 5
+	}
+}
+
+1564.1.1 = {
+	heir = {
+		name = "Idris Aluma Amsani"
+		monarch_name = "Idris III Aluma Amsani"
+		dynasty = "Sayfawa"
+		birth_Date = 1550.1.1
+		death_Date = 1603.1.1
+		claim = 95
+		adm = 8
+		dip = 7
+		mil = 9
+	}
+}
+
+1572.1.1 = {
+	monarch = {
+		name = "Idris III Aluma Amsani"
+		dynasty = "Sayfawa"
+		DIP = 7
+		ADM = 8
+		MIL = 9
+	}
+}
+
+1572.1.1 = {
+	heir = {
+		name = "Muhammad Bukalmarami"
+		monarch_name = "Muhammad VI Bukalmarami"
+		dynasty = "Sayfawa"
+		birth_Date = 1560.1.1
+		death_Date = 1618.1.1
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 5
+	}
+}
+
+1603.1.1 = {
+	monarch = {
+		name = "Muhammad VI Bukalmarami"
+		dynasty = "Sayfawa"
+		DIP = 7
+		ADM = 7
+		MIL = 5
+	}
+}
+
+1603.1.1 = {
+	heir = {
+		name = "Ibraihm"
+		monarch_name = "Ibrahim III"
+		dynasty = "Sayfawa"
+		birth_Date = 1600.1.1
+		death_Date = 1625.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1618.1.1 = {
+	monarch = {
+		name = "Ibrahim III"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1618.1.1 = {
+	heir = {
+		name = "'Umar"
+		monarch_name = "'Umar III"
+		dynasty = "Sayfawa"
+		birth_Date = 1600.1.1
+		death_Date = 1645.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1625.1.1 = {
+	monarch = {
+		name = "'Umar III"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1625.1.1 = {
+	heir = {
+		name = "'Ali"
+		monarch_name = "'Ali III"
+		dynasty = "Sayfawa"
+		birth_Date = 1620.1.1
+		death_Date = 1685.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1645.1.1 = {
+	monarch = {
+		name = "'Ali III"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1660.1.1 = {
+	heir = {
+		name = "Idris"
+		monarch_name = "Idris IV"
+		dynasty = "Sayfawa"
+		birth_Date = 1660.1.1
+		death_Date = 1704.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1685.1.1 = {
+	monarch = {
+		name = "Idris IV"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1685.1.1 = {
+	heir = {
+		name = "Dunama"
+		monarch_name = "Dunama VII"
+		dynasty = "Sayfawa"
+		birth_Date = 1685.1.1
+		death_Date = 1723.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1704.1.1 = {
+	monarch = {
+		name = "Dunama VII"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1704.1.1 = {	
+	heir = {
+		name = "Hamdan"
+		monarch_name = "Hamdan"
+		dynasty = "Sayfawa"
+		birth_Date = 1700.1.1
+		death_Date = 1737.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1723.1.1 = {
+	monarch = {
+		name = "Hamdan"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1723.1.1 = {
+	heir = {
+		name = "Muhammad Erghamma"
+		monarch_name = "Muhammad VII Erghamma"
+		dynasty = "Sayfawa"
+		birth_Date = 1700.1.1
+		death_Date = 1752.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1737.1.1 = {
+	monarch = {
+		name = "Muhammad VII Erghamma"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 3
+		MIL = 5
+	}
+}
+
+1740.1.1 = {
+	heir = {
+		name = "Dunama Ghana"
+		monarch_name = "Dunama VIII Ghana"
+		dynasty = "Sayfawa"
+		birth_Date = 1740.1.1
+		death_Date = 1755.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1752.1.1 = {
+	monarch = {
+		name = "Dunama VIII Ghana"
+		dynasty = "Sayfawa"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1752.1.1 = {
+	heir = {
+		name = "'Ali Ajimi"
+		monarch_name = "'Ali IV Ajimi"
+		dynasty = "Sayfawa"
+		birth_Date = 1752.1.1
+		death_Date = 1793.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1755.1.1 = {
+	monarch = {
+		name = "'Ali IV Ajimi"
+		dynasty = "Sayfawa"
+		DIP = 4
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1770.1.1 = {
+	heir = {
+		name = "'Ahmad `Alimi"
+		monarch_name = "'Ahmad `Alimi"
+		dynasty = "Sayfawa"
+		birth_Date = 1770.1.1
+		death_Date = 1808.3.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1793.1.1 = {
+	monarch = {
+		name = "'Ahmad `Alimi"
+		dynasty = "Sayfawa"
+		DIP = 4
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1793.1.1 = {
+	heir = {
+		name = "Dunama"
+		monarch_name = "Dunama VIII"
+		dynasty = "Sayfawa"
+		birth_Date = 1780.1.1
+		death_Date = 1820.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1808.3.1 = {
+	monarch = {
+		name = "Dunama VIII"
+		dynasty = "Sayfawa"
+		DIP = 4
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1808.3.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad VIII"
+		dynasty = "Sayfawa"
+		birth_date = 1800.1.1
+		death_Date = 1813.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1810.1.1 = {
+	monarch = {
+		name = "Muhammad VIII"
+		dynasty = "Sayfawa"
+		DIP = 4
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1810.1.1 = {
+	heir = {
+		name = "Dunama"
+		monarch_name = "Dunamma VIII"
+		dynasty = "Sayfawa"
+		birth_Date = 1780.1.1
+		death_Date = 1820.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1813.1.1 = {
+	monarch = {
+		name = "Dunama VIII" #2nd time
+		dynasty = "Sayfawa"
+		DIP = 4
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1813.1.1 = {	
+	heir = {
+		name = "Ibrahim"
+		monarch_name = "Ibrahim V"
+		dynasty = "Sayfawa"
+		birth_Date = 1800.1.1
+		death_Date = 1846.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+		
+
+1820.1.1 = {
+	monarch = {
+		name = "Ibrahim V"
+		dynasty = "Sayfawa"
+		DIP = 4
+		ADM = 3
+		MIL = 3
+	}
+}

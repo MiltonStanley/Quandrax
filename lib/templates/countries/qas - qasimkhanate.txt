@@ -1,0 +1,350 @@
+government = tribal_federation
+aristocracy_plutocracy = -3
+centralization_decentralization = 2
+innovative_narrowminded = 1
+mercantilism_freetrade = -1
+offensive_defensive = 2
+land_naval = -3
+quality_quantity = 2
+serfdom_freesubjects = -5
+technology_group = eastern
+primary_culture = russian
+religion = orthodox
+capital = 1778	# Kasimov
+
+
+#Khans
+1399.1.1 = {
+	monarch = {
+		name = "al-Qasim"
+		dynasty = "Qasim"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Dan'yar"
+		monarch_name = "Dan'yar"
+		birth_date = 1440.1.1
+		death_date = 1486.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1470.1.1 = {
+	monarch = {
+		name = "Dan'yar"
+		dynasty = "Qasim"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1470.1.1 = {
+	heir = {
+		name = "Nur Devlet"
+		monarch_name =" Nur Devlet"
+		birth_Date = 1470.1.1
+		death_date = 1491.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1486.1.1 = {
+	monarch = {
+		name = "Nur Devlet"
+		dynasty = "Qasim"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1486.1.1 = {
+	heir = {
+		name = "Satilghan"
+		monarch_name = "Satilghan"
+		dynasty = "Qasim"
+		birth_date = 1470.1.1
+		death_date = 1508.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1491.1.1 = {
+	monarch = {
+		name = "Satilghan"
+		dynasty = "Qasim"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1491.1.1 = {
+	heir = {
+		name = "Janay"
+		monarch_name = "Janay"
+		dynasty = "Qasim"
+		birth_date = 1485.1.1
+		death_Date = 1512.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1508.1.1 = {
+	monarch = {
+		name = "Janay"
+		dynasty = "Qasim"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1508.1.1 = {
+	heir = {
+		name = "Shaykh Auliyar"
+		monarch_name = "Shaykh Auliyar"
+		dynasty = "Qasim"
+		birth_date = 1490.1.1
+		death_date = 1516.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1512.1.1 = {
+	monarch = {
+		name = "Shaykh Auliyar"
+		dynasty = "Qasim"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1512.1.1 = {
+	heir = {
+		name = "Shah 'Ali"
+		monarch_name = "Shah 'Ali"
+		dynasty = "Qasim"
+		birth_date = 1500.1.1 
+		death_date = 1567.4.20
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1516.1.1 = {
+	monarch = {
+		name = "Shah 'Ali"
+		dynasty = "Qasim"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1516.1.1 = {
+	heir = {
+		name = "Jan 'Ali"
+		monarch_name = "Jan 'Ali"
+		dynasty = "Qasim"
+		birth_date = 1480.1.1
+		death_date = 1532.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1521.1.1 = {
+	monarch = {
+		name = "Jan 'Ali"
+		dynasty = "Qasim"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1532.1.1 = {
+	monarch = {
+		name = "Shah 'Ali"
+		dynasty = "Qasim"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+#Same as above, restored.
+
+1532.1.1 = {
+	heir = {
+		name = "Sayin Bula"
+		monarch_name = "Sayin Bula"
+		dynasty = "Qasim"
+		birth_Date = 1520.1.1
+		death_Date = 1573.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1567.4.20 = {
+	monarch = {
+		name = "Sayin Bula"
+		dynasty = "Qasim"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1567.4.20 = {
+	heir = {
+		name = "Mustafa 'Ali"
+		monarch_name = "Mustafa 'Ali"
+		dynasty = "Qasim"
+		birth_date = 1550.1.1
+		death_date = 1590.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1573.1.1 = {
+	monarch = {
+		name = "Mustafa 'Ali"
+		dynasty = "Qasim"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1573.1.1 = {
+	heir = {
+		name = "Urus Muhammad"
+		monarch_name = "Urus Muhammad"
+		dynasty = "Qasim"
+		birth_Date = 1573.1.1
+		death_date = 1610.9.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1590.1.1 = {
+	monarch = {
+		name = "Urus Muhammad"
+		dynasty = "Qasim"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1590.1.1 = {
+	heir = {
+		name = "Alp Arslan"
+		monarch_name = "Alp Arslan"
+		dynasty = "Qasim"
+		birth_date = 1590.1.1
+		death_date = 1626.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1610.9.1 = {
+	monarch = {
+		name = "Alp Arslan"
+		dynasty = "Qasim"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1610.9.1 = {
+	heir = {
+		name = "Sayyid Burkhan"
+		monarch_name = "Sayyid Burkhan"
+		dynasty = "Qasim"
+		birth_date = 1610.9.1
+		death_date = 1626.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1626.1.1 = {
+	monarch = {
+		name = "Sayyid Burkhan"
+		dynasty = "Qasim"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1626.1.1 = {
+	heir = {
+		name = "Fatima"
+		monarch_name = "Fatima"
+		dynasty = "Qasim"
+		birth_date = 1626.1.1
+		death_date = 1681.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1677.1.1 = {
+	monarch = {
+		name = "Fatima"
+		dynasty = "Qasim"
+		female = yes
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+#Annexed by Russia in 1681.

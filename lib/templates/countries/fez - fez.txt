@@ -1,0 +1,300 @@
+government = tribal_despotism
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = 2
+quality_quantity = 3
+serfdom_freesubjects = -2
+primary_culture = berber
+religion = sunni
+technology_group = muslim
+capital = 343	# Fez
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Abu Said Uthman III"
+		dynasty = "Marinid"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1420.1.1 = {
+	monarch = {
+		name = "'Abd al-Haqq II"
+		dynasty = "Marinid"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1465.5.24 = {
+	monarch = {
+		name = "Muhammad"
+		dynasty = "Wattassid"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1472.1.1 = {
+	monarch = {
+		name = "Muhammad I"
+		dynasty = "Wattassid"
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1504.1.1 = {
+	monarch = {
+		name = "Muhammad II"
+		dynasty = "Wattassid"
+		adm = 3
+		dip = 8
+		mil = 4
+	}
+}
+
+1524.1.1 = {
+	monarch = {
+		name = "Ahmad"
+		dynasty = "Wattassid"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1549.1.29 = {
+	monarch = {
+		name = "Muhammaed I"
+		dynasty = "Wattassid"
+		adm = 6
+		dip = 7
+		mil = 3
+	}
+}
+
+1557.10.24 = {
+	monarch = {
+		name = "'Abd Allâh I"
+		dynasty = "Saadi"
+		adm = 9
+		dip = 6
+		mil = 7
+	}
+}
+
+1574.1.22 = {
+	monarch = {
+		name = "Muhammad II"
+		dynasty = "Saadi"
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+}
+
+1576.7.17 = {
+	monarch = {
+		name = "'Abd al-Malik I"
+		dynasty = "Saadi"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1578.8.5 = {
+	monarch = {
+		name = "Ahmad II"
+		dynasty = "Saadi"
+		adm = 5
+		dip = 3
+		mil = 8
+	}
+}
+
+1603.8.20 = {
+	monarch = {
+		name = "Muhammad III"
+		dynasty = "Saadi"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1603.8.20 = {
+	heir = {
+		name = "'Abd Allâh"
+		monarch_name = "'Abd Allâh III"
+		dynasty = "Saadi"
+		birth_Date = 1580.1.1
+		death_Date = 1624.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1613.8.22 = {
+	monarch = {
+		name = "'Abd Allâh III"
+		dynasty = "Saadi"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1613.8.22 = {
+	heir = {
+		name = "'Abd al-Malik"
+		monarch_name = "'Abd al-Malik III"
+		dynasty = "Alaouite"
+		birth_Date = 1600.1.1
+		death_Date = 1626.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1624.1.1 = {
+	monarch = {
+		name = "'Abd al-Malik III"
+		dynasty = "Alaouite"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1624.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad IV"
+		dynasty = "Alaouite"
+		birth_Date = 1600.1.1
+		death_Date = 1637.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1626.1.1 = {
+	monarch = {
+		name = "Muhammad IV"
+		dynasty = "Alaouite"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1626.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad V"
+		dynasty = "Alaouite"
+		birth_Date = 1600.1.1
+		death_Date = 1669.3.22
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1637.1.1 = {
+	monarch = {
+		name = "Muhammad V"
+		dynasty = "Alaouite"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1669.3.22 = {
+	monarch = {
+		name = "ar-Rashid"
+		dynasty = "Alaouite"
+		adm = 7
+		dip = 6
+		mil = 8
+	}
+}
+
+1672.3.28 = {
+	monarch = {
+		name = "Ismâ'îl"
+		dynasty = "Alaouite"
+		adm = 9
+		dip = 8
+		mil = 9
+	}
+}
+
+1727.3.22 = {
+	monarch = {
+		name = "Ahmad"
+		dynasty = "Alaouite"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1729.3.6 = {
+	monarch = {
+		name = "'Abd Allâh"
+		dynasty = "Alaouite"
+		adm = 8
+		dip = 4
+		mil = 4
+	}
+}
+
+1757.11.9 = {
+	monarch = {
+		name = "Muhammad III"
+		dynasty = "Alaouite"
+		adm = 7
+		dip = 7
+		mil = 5
+	}
+}
+
+1790.4.11 = {
+	monarch = {
+		name = "al-Yazîd"
+		dynasty = "Alaouite"
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+
+1792.2.15 = {
+	monarch = {
+		name = "Sulaymân"
+		dynasty = "Alaouite"
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}

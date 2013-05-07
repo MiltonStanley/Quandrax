@@ -1,0 +1,288 @@
+government = theocratic_government
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = -4
+primary_culture = rheinlaender
+religion = catholic
+elector = yes
+technology_group = western
+capital = 78	# Mainz
+
+
+1396.1.1 = {
+	monarch = {
+		name = "Johann II"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1419.1.1 = {
+	monarch = {
+		name = "Konrad III"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1434.6.11 = {
+	monarch = {
+		name = "Dietrich I"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1459.5.5 = {
+	monarch = {
+		name = "Dieter I"
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+
+1461.8.22 = {
+	monarch = {
+		name = "Adolf III"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1475.9.7 = {
+	monarch = {
+		name = "Dieter I"
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+
+1482.5.8 = {
+	monarch = {
+		name = "Albrecht II"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1484.5.2 = {
+	monarch = {
+		name = "Berthold I"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+
+}
+
+1504.12.22 = {
+	monarch = {
+		name = "Jakob I"
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+
+1508.9.16 = {
+	monarch = {
+		name = "Uriel I"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1514.2.9 = {
+	monarch = {
+		name = "Albrecht III"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1545.9.25 = {
+	monarch = {
+		name = "Sebastian I"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1555.3.19 = {
+	monarch = {
+		name = "Daniel Brendel I"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1582.3.23 = {
+	monarch = {
+		name = "Wolfgang I"
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}
+
+1601.4.6 = {
+	monarch = {
+		name = "Johann Adam I"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1604.1.11 = {
+	monarch = {
+		name = "Johann Schweikhard I"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1626.9.18 = {
+	monarch = {
+		name = "Georg Friedrich I"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1629.7.7 = {
+	monarch = {
+		name = "Anselm Kasimir I"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1647.10.10 = {
+	monarch = {
+		name = "Johann Philipp I"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1673.2.12 = {
+	monarch = {
+		name = "Lothar Friedrich I"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1675.7.4 = {
+	monarch = {
+		name = "Damian Hartrad I"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1678.12.7 = {
+	monarch = {
+		name = "Karl Heinrich I"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1679.9.27 = {
+	monarch = {
+		name = "Anselm Franz I"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1695.3.30 = {
+	monarch = {
+		name = "Lothar Franz I"
+		adm = 7
+		dip = 5
+		mil = 6
+	}
+}
+
+1729.1.30 = {
+	monarch = {
+		name = "Franz Ludwig I"
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1732.4.19 = {
+	monarch = {
+		name = "Philipp Karl I"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1743.3.30 = {
+	monarch = {
+		name = "Johann Friedrich I"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1763.6.5 = {
+	monarch = {
+		name = "Emmerich Josef I"
+		adm = 6
+		dip = 7
+		mil = 3
+	}
+}
+
+1774.6.12 = {
+	monarch = {
+		name = "Friedrich Karl I"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1802.6.12 = {
+	monarch = {
+		name = "Karl Theodor I"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1806.7.12 = { elector = no } # The HRE is formally abolished

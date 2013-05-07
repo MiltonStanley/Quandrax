@@ -1,0 +1,240 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -4
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -1
+technology_group = indian
+religion = hinduism
+primary_culture = avadhi
+capital = 551	# Jabalpur
+
+
+#Rajas of the Gonds
+1398.1.1 = {
+	monarch = {
+		name = "Narsingh Rai"
+		dynasty = "Gond"
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Arjuna Simha"
+		monarch_name = "Arjuna Simha"
+		dynasty = "Gond"
+		birth_Date = 1399.1.1
+		death_date = 1480.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1448.1.1 = {
+	monarch = {
+		name = "Arjuna Simha"
+		dynasty = "Gond"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1448.1.1 = {
+	heir = {
+		name = "Sangrama Simha"
+		monarch_name = "Sangrama Simha"
+		dynasty = "Gond"
+		birth_date = 1448.1.1
+		death_date = 1530.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Sangrama Simha"
+		dynasty = "Gond"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1480.1.1 = {
+	heir = {
+		name = "Daipat Simha"
+		monarch_name =" Daipat Simha"
+		dynasty = "Gond"
+		birth_Date = 1480.1.1
+		death_Date = 1549.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+		name = "Daipat Simha"
+		dynasty = "Gond"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1530.1.1 = {
+	heir = {
+		name = "Vira Narayana"
+		monarch_name = "Vira Narayana"
+		dynasty = "Gond"
+		birth_Date = 1530.1.1
+		death_Date = 1564.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1549.1.1 = {
+	monarch = {
+		name = "Vira Narayana"
+		dynasty = "Gond"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1549.1.1 = {
+	heir = {
+		name = "Chandra Sahi"
+		monarch_name = "Chandra Sahi"
+		dynasty = "Gond"
+		birth_Date = 1549.1.1
+		death_Date = 1575.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1564.1.1 = {
+	monarch = {
+		name = "Chandra Sahi"
+		dynasty = "Gond"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1564.1.1 = {
+	heir = {
+		name = "Madhukara Sahi"
+		monarch_name =" Madhukara Sahi"
+		dynasty = "Gond"
+		birth_Date = 1564.1.1
+		death_date = 1599.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1575.1.1 = {
+	monarch = {
+		name = "Madhukara Sahi"
+		dynasty = "Gond"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1575.1.1 = {
+	heir = {
+		name = "Prema Narayama"
+		monarch_name = "Prema Narayama"
+		dynasty = "Gond"
+		birth_date = 1575.1.1
+		death_Date = 1610.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1599.1.1 = {
+	monarch = {
+		name = "Prema Narayama"
+		dynasty = "Gond"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1599.1.1 = {
+	heir = {
+		name = "Hirade Sahi"
+		monarch_name = "Hirade Sahi I"
+		dynasty = "Gond"
+		birth_date = 1599.1.1
+		death_Date = 1681.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1610.1.1 = {
+	monarch = {
+		name = "Hirade Sahi I"
+		dynasty = "Gond"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1640.1.1 = {
+	heir = {
+		name = "Chhatra Sahi"
+		monarch_name = "Chhatra Sahi"
+		birth_Date = 1610.1.1
+		death_date = 1700.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1681.1.1 = {
+	monarch = {
+		name = "Chhatra Sahi"
+		dynasty = "Gond"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

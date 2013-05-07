@@ -1,0 +1,123 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -4
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -1
+technology_group = indian
+religion = sunni
+primary_culture = marathi
+capital = 546	# Nagpur
+
+
+# Sultans of Berar
+1490.4.17 = {
+	monarch = {
+		name = "Fath Allah 'Imad Malik"
+		dynasty = "Imad Shahi"
+		DIP = 6
+		ADM = 7
+		MIL = 7
+	}
+}
+
+1490.4.17 = {
+	heir = {
+		name = "'Ala' ad-din"
+		monarch_name = "'Ala' ad-din"
+		dynasty = "Imad Shahi"
+		birth_date = 1480.1.1
+		death_date = 1529.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1504.1.1 = {
+	monarch = {
+		name = "'Ala' ad-din"
+		dynasty = "Imad Shahi"
+		DIP = 4
+		ADM = 6
+		MIL = 5
+	}
+}
+
+1504.1.1 = {
+	heir = {
+		name = "Dariya"
+		monarch_name = "Dariya"
+		dynasty = "Imad Shahi"
+		birth_date = 1504.1.1
+		death_Date = 1562.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1529.1.1 = {
+	monarch = {
+		name = "Dariya"
+		dynasty = "Imad Shahi"
+		DIP = 5
+		ADM = 5
+		MIL = 6
+	}
+}
+
+1529.1.1 = {
+	heir = {
+		name = "Burkhan"
+		monarch_name = "Burkhan"
+		dynasty = "Imad Shahi"
+		birth_date = 1529.1.1
+		death_Date = 1568.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1562.1.1 = {
+	monarch = {
+		name = "Burkhan 'Imad Shah"
+		dynasty = "Imad Shahi"
+		DIP = 5
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1562.1.1 = {	
+	heir = {
+		name = "Taufal Khan"
+		monarch_name = "Taufal Khan"
+		dynasty = "Imad Shahi"
+		birth_date = 1550.1.1
+		death_date = 1626.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+	
+1568.1.1 = {
+	monarch = {
+		name = "Taufal Khan"
+		dynasty = "Imad Shahi"
+		DIP = 3
+		ADM = 3
+		MIL = 4
+	}
+}
+
+#Annexed by Ahmadnagar April 1574.

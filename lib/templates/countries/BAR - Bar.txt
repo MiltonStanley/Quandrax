@@ -1,0 +1,75 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -1
+centralization_decentralization = -4
+innovative_narrowminded = -1
+mercantilism_freetrade = 3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = 2
+primary_culture = burgundian
+religion = catholic
+technology_group = western
+capital = 187	# Verdun
+
+
+1352.1.1 = {
+	monarch = {
+		name = "Robert I"
+		dynasty = "de Montbéliard"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1377.6.25 = {
+	heir = {
+		name = "Edward"
+		monarch_name = "Edward III"
+		dynasty = "de Montbéliard"
+		birth_date = 1377.6.25
+		death_date = 1415.10.25
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1411.4.12 = {
+	monarch = {
+		name = "Edward III"
+		dynasty = "de Montbéliard"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1411.4.12 = {
+	heir = {
+		name = "Louis"
+		monarch_name = "Louis I"
+		dynasty = "de Montbéliard"
+		birth_date = 1375.1.1
+		death_date = 1430.6.26
+		claim = 75
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1415.10.25 = {
+	monarch = {
+		name = "Louis I"
+		dynasty = "de Montbéliard"
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+# 1430.6.26: Personal Union with Provence, Lorraine and Naples
+# 1508.12.10: Absorbed into Lorraine

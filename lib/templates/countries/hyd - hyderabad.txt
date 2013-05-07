@@ -1,0 +1,134 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = 3
+innovative_narrowminded = 2
+mercantilism_freetrade = -4
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 3
+serfdom_freesubjects = -2
+primary_culture = telegu
+religion = sunni
+technology_group = indian
+capital = 543	# Hyderabad
+
+
+1724.1.1 = {
+	monarch = {
+		name = "Nizam ul-Mulk"
+		dynasty = "Asaf Jahi"
+		DIP = 7
+		ADM = 6
+		MIL = 8
+	}
+}
+
+1724.1.1 = {
+	heir = {
+		name = "Muhammad Nasr Jang"
+		monarch_name = "Muhammad Nasr Jang"
+		dynasty = "Asaf Jahi"
+		birth_date = 1712.2.26
+		death_date = 1750.12.16
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1748.6.2 = {
+	monarch = {
+		name = "Muhammad Nasr Jang"
+		dynasty = "Asaf Jahi"
+		DIP = 4
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1748.6.2 = {
+	heir = {
+		name = "Asaf ud-Daula Jang"
+		monarch_name = "Asaf ud-Daula Jang"
+		dynasty = "Asaf Jahi"
+		birth_date = 1718.11.24
+		death_date = 1751.2.13
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+
+1750.12.16 = {
+	monarch = {
+		name = "Asaf ud-Daula Jang"
+		dynasty = "Asaf Jahi"
+		DIP = 3
+		ADM = 3
+		MIL = 6
+	}
+}
+
+1750.12.16 = {
+	heir = {
+		name = "Nizam Ali Khan"
+		monarch_name = "Nizam Ali Khan"
+		dynasty = "Asaf Jahi"
+		birth_Date = 1734.3.7
+		death_date = 1803.8.6
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1762.6.26 = {
+	monarch = {
+		name = "Nizam Ali Khan"
+		dynasty = "Asaf Jahi"
+		DIP = 4
+		ADM = 4
+		MIL = 3
+	}
+}
+
+1768.11.11 = {
+	heir = {
+		name = "Sikandar Jah"
+		monarch_name = "Sikandar Jah"
+		dynasty = "Asaf Jahi"
+		birth_date = 1768.11.11
+		death_date = 1829.5.21
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1803.1.1 = {
+	monarch = {
+		name = "Sikandar Jah"
+		dynasty = "Asaf Jahi"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1803.1.1 = {
+	heir = {
+		name = "Nasir-ud-dawlah"
+		monarch_name = "Nasir-ud-dawlah"
+		dynasty = "Asaf Jahi"
+		birth_date = 1794.4.25
+		death_date = 1857.5.16
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

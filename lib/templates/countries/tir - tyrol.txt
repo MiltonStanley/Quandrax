@@ -1,0 +1,64 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -2
+technology_group = western
+religion = catholic
+primary_culture = austrian
+capital = 73	# Innsbruck
+
+
+1386.7.10 = {
+	monarch = {
+		name = "Wilhelm I"
+		dynasty = "von Habsburg"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1406.7.16 = {
+	monarch = {
+		name = "Friedrich IV"
+		dynasty = "von Habsburg"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1439.6.25 = {
+	monarch = {
+		name = "Sigismund I"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1454.1.1 = {
+	monarch = {
+		name = "Friedrich V"
+		dynasty = "von Habsburg"
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}
+
+1490.1.1 = {
+	monarch = {
+		name = "Maximilian I"
+		dynasty = "von Habsburg"
+		adm = 7
+		dip = 7
+		mil = 6
+	}
+}

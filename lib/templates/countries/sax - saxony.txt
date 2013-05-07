@@ -1,0 +1,501 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 0
+serfdom_freesubjects = -4
+primary_culture = saxon
+religion = catholic
+elector = yes
+technology_group = western
+capital = 62	# Leipzig
+
+
+#Elector
+1388.1.1 = {
+	monarch = {
+		name = "Rudolf III"
+		dynasty = "Askanier"
+		DIP = 4
+		ADM = 6
+		MIL = 4
+	}
+}
+
+1388.1.1 = {
+	heir = {
+		name = "Albrecht"
+		monarch_name = "Albrecht III"
+		dynasty = "Askanier"
+		birth_date = 1375.1.1
+		death_date = 1422.11.12
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1419.1.1 = {
+	monarch = {
+		name = "Albrecht III"
+		dynasty = "Askanier"
+		DIP = 6
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1423.1.1 = {
+	monarch = {
+		name = "Friedrich I"
+		dynasty = "von Wettin"
+		DIP = 4
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1423.1.1 = {
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich II"
+		dynasty = "von Wettin"
+		birth_date = 1412.8.22
+		death_date = 1464.9.7
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 3
+	}
+}
+
+1428.1.4 = { capital = 59 } # Meissen
+
+1428.1.4 = {
+	monarch = {
+		name = "Friedrich II"
+		dynasty = "von Wettin"
+		DIP = 6
+		ADM = 7
+		MIL = 3
+	}
+}
+#Same as Friedrich II of Thuringia
+#Dukes of Saxony
+
+1443.7.31 = {
+	heir = {
+		name = "Albrecht"
+		monarch_name = "Albrecht I der Beherzte"
+		dynasty = "von Wettin"
+		birth_date = 1443.7.31
+		death_date = 1500.9.12
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 8
+	}
+}
+
+1464.9.7 = { elector = no }
+
+1464.9.7 = {
+	monarch = {
+		name = "Albrecht I der Beherzte"
+		dynasty = "von Wettin"
+		DIP = 4
+		ADM = 5
+		MIL = 8
+	}
+}
+
+1471.8.27 = {
+	heir = {
+		name = "Georg"
+		monarch_name = "Georg der Bärtige"
+		dynasty = "von Wettin"
+		birth_date = 1471.8.27
+		death_date = 1539.4.17
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1500.9.12 = {
+	monarch = {
+		name = "Georg der Bärtige"
+		dynasty = "von Wettin"
+		DIP = 4
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1500.9.12 = {
+	heir = {
+		name = "Heinrich"
+		monarch_name = "Heinrich der Fromme"
+		dynasty = "von Wettin"
+		birth_date = 1473.3.16
+		death_date = 1541.8.18
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1505.1.1 = { leader = {	name = "Mauritz"               	type = general	rank = 0	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1532.1.1 } }
+
+1531.1.1 = { religion = protestant }
+
+1539.4.17 = {
+	monarch = {
+		name = "Heinrich der Fromme"
+		dynasty = "von Wettin"
+		DIP = 5
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1539.4.17 = {
+	heir = {
+		name = "Moritz"
+		monarch_name = "Moritz I"
+		dynasty = "von Wettin"
+		birth_date = 1521.3.21
+		death_date = 1553.7.11
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 7
+		leader = { name = "Moritz von Wettin"	type = general	rank = 0	fire = 3	shock = 3	manuever = 4	siege = 1 }
+	}
+}
+		
+		
+#Electors of Saxony (after 1548)
+1541.8.18 = {
+	monarch = {
+		name = "Moritz I"
+		dynasty = "von Wettin"
+		DIP = 4
+		ADM = 4
+		MIL = 7
+		leader = { name = "Moritz von Wettin"	type = general	rank = 0	fire = 3	shock = 3	manuever = 4	siege = 1 }
+	}
+}
+
+1541.8.18 = {
+	heir = {
+		name = "August"
+		monarch_name = "August"
+		dynasty = "von Wettin"
+		birth_date = 1526.7.31
+		death_date = 1586.2.11
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1547.1.1 = { elector = yes }
+
+1550.1.1 = { leader = {	name = "F. von Leignitz"	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1570.12.15 } }
+
+1553.7.11 = {
+	monarch = {
+		name = "August"
+		dynasty = "von Wettin"
+		DIP = 4
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1554.3.3 = { elector = no }
+
+1556.1.1 = { elector = yes capital = 61 } # Dresden
+
+1560.10.29 = {
+	heir = {
+		name = "Christian"
+		monarch_name = "Christian I"
+		dynasty = "von Wettin"
+		birth_date = 1560.10.29
+		death_date = 1591.9.25
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1586.2.12 = {
+	monarch = {
+		name = "Christian I"
+		dynasty = "von Wettin"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1586.2.12 = {
+	heir = {
+		name = "Christian"
+		monarch_name = "Christian II"
+		dynasty = "von Wettin"
+		birth_date = 1583.9.23
+		death_date = 1611.6.23
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1591.9.26 = {
+	monarch = {
+		name = "Christian II"
+		dynasty = "von Wettin"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1591.9.26 = {
+	heir = {
+		name = "Johann Georg"
+		monarch_name = "Johann Georg I"
+		dynasty = "von Wettin"
+		birth_date = 1585.3.5
+		death_date = 1656.10.8
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1611.6.24 = {
+	monarch = {
+		name = "Johann Georg I"
+		dynasty = "von Wettin"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1613.6.10 = {
+	heir = {
+		name = "Johann Georg"
+		monarch_name = "Johann Georg II"
+		dynasty = "von Wettin"
+		birth_date = 1613.6.10
+		death_date = 1680.8.22
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1624.1.1 = { leader = {	name = "Hans Georg von Arnim"		type = general	rank = 1	fire = 3	shock = 2	manuever = 2	siege = 0	death_date = 1641.4.28 } }
+
+1650.1.1 = { leader = {	name = "Augustus von Wettin"           	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1680.6.4 } }
+
+1656.10.9 = {
+	monarch = {
+		name = "Johann Georg II"
+		dynasty = "von Wettin"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1656.10.9 = {
+	heir = {
+		name = "Johann Georg"
+		monarch_name = "Johann Georg III"
+		dynasty = "von Wettin"
+		birth_date = 1647.6.20
+		death_date = 1691.9.12
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1670.1.1 = { leader = {	name = "Schönfeld"             	type = general	rank = 1	fire = 2	shock = 3	manuever = 2	siege = 1	death_date = 1690.1.1 } }
+
+1675.1.1 = { leader = {	name = "Toppauer"              	type = general	rank = 2	fire = 3	shock = 2	manuever = 2	siege = 1	death_date = 1699.1.1 } }
+
+1680.1.1 = { leader = {	name = "von Saxe-Merseburg"	type = general	rank = 3	fire = 3	shock = 3	manuever = 2	siege = 1	death_date = 1694.10.20 } }
+
+1680.8.23 = {
+	monarch = {
+		name = "Johann Georg III"
+		dynasty = "von Wettin"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1680.8.23 = {
+	heir = {
+		name = "Johann Georg"
+		monarch_name = "Johann Georg IV"
+		dynasty = "von Wettin"
+		birth_date = 1668.10.18
+		death_date = 1694.4.27
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1691.9.13 = {
+	monarch = {
+		name = "Johann Georg IV"
+		dynasty = "von Wettin"
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1670.5.12 = {
+	heir = {
+		name = "Friedrich August"
+		monarch_name = "Friedrich August I"
+		dynasty = "von Wettin"
+		birth_date = 1670.5.12
+		death_date = 1733.2.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+#Friedrich August was also king of Poland
+
+1694.4.28 = {
+	monarch = {
+		name = "Friedrich August I"
+		dynasty = "von Wettin"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1696.10.17 = {
+	heir = {
+		name = "Friedrich August"
+		monarch_name = "Friedrich August II"
+		dynasty = "von Wettin"
+		birth_date = 1696.10.17
+		death_date = 1763.10.5
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+
+1696.12.1 = { centralization_decentralization = 2 } # The Polish Succession of 1697
+
+1733.2.1 = {
+	monarch = {
+		name = "Friedrich August II"
+		dynasty = "von Wettin"
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+1733.2.1 = {
+	heir = {
+		name = "Friedrich Christian"
+		monarch_name = "Friedrich Christian"
+		dynasty = "von Wettin"
+		birth_date = 1722.9.5
+		death_date = 1763.12.17
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1737.1.1 = { leader = {	name = "F.A. von Cosel"		type = general	rank = 4	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1770.1.1 } }
+
+1745.1.1 = { leader = {	name = "F.A. Rutowski"		type = general	rank = 1	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1764.3.16 } }
+
+1763.10.6 = {
+	monarch = {
+		name = "Friedrich Christian"
+		dynasty = "von Wettin"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1763.10.6 = {
+	heir = {
+		name = "Friedrich August"
+		monarch_name = "Friedrich August III"
+		dynasty = "von Wettin"
+		birth_date = 1750.12.23
+		death_date = 1827.5.5
+		claim = 95
+		adm = 8
+		dip = 4
+		mil = 6
+	}
+}
+
+1763.12.18 = {
+	monarch = {
+		name = "Friedrich August III"
+		dynasty = "von Wettin"
+		adm = 8
+		dip = 4
+		mil = 6
+	}
+}
+
+1763.12.18 = {
+	heir = {
+		name = "Anton"
+		monarch_name = "Anton"
+		dynasty = "von Wettin"
+		birth_date = 1755.12.27
+		death_date = 1836.6.6
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1806.7.12 = { elector = no } # The HRE is formally abolished

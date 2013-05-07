@@ -1,0 +1,48 @@
+government = tribal_despotism
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 1
+mercantilism_freetrade = -4
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -1
+primary_culture = turkish
+religion = sunni
+technology_group = ottoman
+capital = 318	# Smyrna
+
+
+1402.1.1 = {
+	monarch = {
+		name = "Umar II"
+		dynasty = "Aydinoglu"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Junayd"
+		monarch_name = "Junayd"
+		dynasty = "Aydinoglu"
+		birth_date = 1380.1.1
+		death_date = 1425.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1405.1.1 = {
+	monarch = {
+		name = "Junayd"
+		dynasty = "Aydinoglu"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}

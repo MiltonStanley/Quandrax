@@ -1,0 +1,22 @@
+government = noble_republic
+aristocracy_plutocracy = 1
+centralization_decentralization = 0
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = 1
+quality_quantity = -1
+serfdom_freesubjects = -2
+primary_culture = croatian
+religion = catholic
+technology_group = eastern
+capital = 137	# Ragusa
+
+1399.1.1 = {
+      monarch = {
+           name = "Vijece"
+           adm = 6
+           dip = 6
+           mil = 5
+      }
+} # Noble councils. 

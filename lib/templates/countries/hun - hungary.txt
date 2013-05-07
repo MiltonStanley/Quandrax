@@ -1,0 +1,209 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = -1
+quality_quantity = 1
+serfdom_freesubjects = -5
+primary_culture = hungarian
+religion = catholic
+technology_group = eastern
+capital = 153	# Buda
+
+
+1387.3.31 = {
+	monarch = {
+		name = "Sigismund I"
+		dynasty = "von Luxemburg"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1419.8.16 = { emperor = yes }
+
+1437.1.1 = { leader = {	name = "János Hunyadi"         	type = general	rank = 1	fire = 4	shock = 4	manuever = 4	siege = 1	death_date = 1456.8.11 } }
+
+# Personal union with Habsburg under Albrecht II 1437-39
+# Personal union with Poland under Wladyslaw III 1439-44
+# Personal union with Habsburg under Ladislaus the Posthumous 1444-1457
+
+
+1457.11.24 = {
+	monarch = {
+		name = "Mátyás"
+		dynasty = Corvin
+		adm = 7
+		dip = 8
+		mil = 8
+		leader = {	name = "Mátyás Corvin"         	type = general	rank = 0	fire = 3	shock = 4	manuever = 3	siege = 1 }
+	}
+}
+
+1462.1.1 = { leader = {	name = "Pal Kinizsi"           	type = general	rank = 4	fire = 2	shock = 3	manuever = 3	siege = 1	death_date = 1494.1.1 } }
+
+1500.1.1 = { decision = court_of_wards_and_liveries }
+
+1515.1.1 = { leader = {	name = "Miklos Zrinyi"         	type = general	rank = 2	fire = 2	shock = 4	manuever = 3	siege = 1	death_date = 1530.1.1 } }
+
+1526.8.30 = {
+	monarch = {
+		name = "János I"
+		dynasty = "Szapolyai"
+		adm = 7
+		dip = 6
+		mil = 5
+		leader = {	name = "János I Zápolya"       	type = general	rank = 0	fire = 2	shock = 2	manuever = 2	siege = 0}
+	}
+}
+
+1540.7.24 = {
+	monarch = {
+		name = "János II"
+		dynasty = "Szapolyai"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1540.8.30 = { government = absolute_monarchy }
+
+1541.1.1 = { capital = 154 } # Pressburg
+
+1571.5.26 = {
+	monarch = {
+		name = "István"
+		dynasty = "Báthory"
+		adm = 8
+		dip = 5
+		mil = 9
+	}
+}
+
+1576.5.3 = {
+	monarch = {
+		name = "Christofer"
+		dynasty = "Báthory"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1581.1.1 = {
+	monarch = {
+		name = "Sigismund"
+		dynasty = "Báthory"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1596.1.1 = { leader = {	name = "Istvan Bocskai"        	type = general	rank = 2	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1606.1.1 } }
+
+1599.1.1 = {
+	monarch = {
+		name = "Mihai Viteazul"
+		dynasty ="Draculecti"
+		adm = 7
+		dip = 9
+		mil = 9
+	}
+}
+
+1602.1.1 = {
+	monarch = {
+		name = "Interregnum"
+		regent = yes
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1605.1.1 = {
+	monarch = {
+		name = "István"
+		dynasty = "Bocskai"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1606.12.30 = {
+	monarch = {
+		name = "Gábor"
+		dynasty = "Báthory"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1613.1.1 = {
+	monarch = {
+		name = "Gábor"
+		dynasty = "Bethlen"
+		adm = 7
+		dip = 8
+		mil = 7
+		leader = {	name = "Gabor Bethlen"         	type = general	rank = 0	fire = 2	shock = 3	manuever = 5	siege = 1 } 
+	}
+}
+
+1629.11.17 = {
+	monarch = {
+		name = "György I"
+		dynasty = "Rákóczy"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1648.1.1 = {
+	monarch = {
+		name = "György II"
+		dynasty = "Rákóczy"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1649.1.1 = { leader = {	name = "Miklos Zrinyi II"      	type = general	rank = 3	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1664.1.1 } }
+
+1665.1.1 = {
+	monarch = {
+		name = "Ferenc I"
+		dynasty = "Rákóczy"
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+}
+
+1678.1.1 = { leader = {	name = "Imre Thokoly"          	type = general	rank = 2	fire = 1	shock = 3	manuever = 2	siege = 1	death_date = 1705.9.13 } }
+
+1691.1.1 = {
+	monarch = {
+		name = "Ferenc II"
+		dynasty = "Rákóczy"
+		adm = 7
+		dip = 8
+		mil = 7
+		leader = {	name = "Ferenc Rakoczi II"     	type = general	rank = 0	fire = 2	shock = 4	manuever = 2	siege = 0 }
+	}
+}
+
+1739.1.1 = { leader = {	name = "Ferenc Nadasdy"        	type = general	rank = 3	fire = 1	shock = 4	manuever = 4	siege = 0	death_date = 1763.1.1 } }
+
+1744.1.1 = { leader = {	name = "Andras Hadik"          	type = general	rank = 4	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1790.3.12 } }
+
+1784.1.1 = { capital = 153 } # Buda

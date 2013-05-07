@@ -1,0 +1,81 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -1
+centralization_decentralization = -1
+innovative_narrowminded = -2
+mercantilism_freetrade = 4
+offensive_defensive = 1
+land_naval = 2
+quality_quantity = -2
+serfdom_freesubjects = 2
+technology_group = western
+religion = catholic
+primary_culture = dutch
+capital = 97	# Amsterdam
+
+
+1389.1.1 = {
+	monarch = {
+		name = "Albert"
+		dynasty = "von Wittelsbach"
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1389.1.1 = {
+	heir = {
+		name = "Willem"
+		monarch_name = "Willem VI"
+		dynasty = "von Wittelsbach"
+		birth_date = 1365.4.5
+		death_date = 1417.5.31
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1404.1.1 = {
+	monarch = {
+		name = "Willem VI"
+		dynasty = "von Wittelsbach"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Jacoba"
+		monarch_name = "Jacoba"
+		dynasty = "von Wittelsbach"
+		birth_date = 1401.8.16
+		death_date = 1436.10.8
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+		female = yes
+	}
+}
+
+1417.5.31 = {
+	monarch = {
+		name = "Jacoba"
+		dynasty = "von Wittelsbach"
+		adm = 5
+		dip = 4
+		mil = 4
+		female = yes
+	}
+}
+
+1580.1.1 = { government = administrative_republic centralization_decentralization = 1 aristocracy_plutocracy = 2 serfdom_freesubjects = 5 mercantilism_freetrade = 5 innovative_narrowminded = -3 } # Constitutionalism and the General Estates
+
+1601.1.1 = { offensive_defensive = 0 quality_quantity = -3 mercantilism_freetrade = 4 aristocracy_plutocracy = 3 innovative_narrowminded = -4 } # Dutch Military Reforms
+
+1618.1.1 = { innovative_narrowminded = -2 quality_quantity = -4 } # Calvinism in the Netherlands
+
+1670.1.1 = { centralization_decentralization = -1 aristocracy_plutocracy = 0 serfdom_freesubjects = 4 } # Statholder office is made Hereditary in Oranien Dynasty
+
+1785.1.1 = { aristocracy_plutocracy = -3 serfdom_freesubjects = 1 innovative_narrowminded = 2 } # The Revolution in Holland

@@ -1,0 +1,41 @@
+government = revolutionary_republic
+aristocracy_plutocracy = -2
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -5
+offensive_defensive = 0
+land_naval = -1
+quality_quantity = 2
+serfdom_freesubjects = 0
+technology_group = western
+primary_culture = castillian
+religion = catholic
+capital = 852	# Mexico
+
+
+1810.9.16 = {
+	monarch = {
+		name = "Miguel Hidalgo"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1811.7.30 = {
+	monarch = {
+		name = "José María Morelos"
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1815.12.2 = {
+	monarch = {
+		name = "Vicente Guerrero"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}

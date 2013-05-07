@@ -1,0 +1,13 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -2
+centralization_decentralization = -1
+innovative_narrowminded = 2
+mercantilism_freetrade = 0
+offensive_defensive = 0
+land_naval = 1
+quality_quantity = -2
+serfdom_freesubjects = 0
+technology_group = western
+primary_culture = english
+religion = catholic
+capital = 244	# Chester

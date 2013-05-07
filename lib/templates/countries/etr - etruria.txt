@@ -1,0 +1,48 @@
+government = enlightened_despotism
+aristocracy_plutocracy = 1
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = 1
+quality_quantity = -1
+serfdom_freesubjects = -2
+primary_culture = lombard
+religion = catholic
+technology_group = western
+capital = 116	# Firenze
+
+
+1801.3.21 = {
+	monarch = {
+		name = "Lodovico I"
+		dynasty = "Bourbon"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1801.3.21 = {
+	heir = {
+		name = "Lodovico"
+		monarch_name = "Lodovico II"
+		dynasty = "Bourbon"
+		birth_date = 1799.12.22
+		death_date = 1883.4.16
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1803.5.27 = {
+	monarch = {
+		name = "Lodovico II"
+		dynasty = "Bourbon"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}

@@ -1,0 +1,121 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 5
+innovative_narrowminded = 2
+mercantilism_freetrade = 0
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = 1
+serfdom_freesubjects = -2
+technology_group = western
+primary_culture = irish
+religion = catholic
+capital = 376	# Galway
+
+# Estimated birth and death dates.
+
+1384.1.1 = {
+	monarch = {
+		name = "Turlough IV"
+		dynasty = "O'Conor Don"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1419.3.19 = {
+	heir = {
+		name = "Tadgh"
+		monarch_name = "Tadgh V"
+		dynasty = "O'Conor Don"
+		birth_date = 1419.3.19
+		death_date = 1464.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1439.3.19 = {
+	monarch = {
+		name = "Tadgh V"
+		dynasty = "O'Conor Don"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Cathal"
+		monarch_name = "Cathal VII"
+		dynasty = "O'Conor Don"
+		birth_date = 1444.1.1
+		death_date = 1465.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1464.1.1 = {
+	monarch = {
+		name = "Cathal VII"
+		dynasty = "O'Conor Don"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1464.1.1 = {
+	heir = {
+		name = "Feidlimid"
+		monarch_name = "Feidlimid II"
+		dynasty = "O'Conor Don"
+		birth_date = 1464.1.1
+		death_date = 1490.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Feidlimid II"
+		dynasty = "O'Conor Don"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1466.1.1 = {
+	monarch = {
+		name = "Brian II"
+		dynasty = "O'Conor Don"
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+1478.1.1 = {
+	monarch = {
+		name = "Feidlimid II"
+		dynasty = "O'Conor Don"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1617.1.1 = { government = administrative_monarchy }
+
+1707.1.1 = { government = constitutional_monarchy }

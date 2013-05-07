@@ -1,0 +1,515 @@
+government = despotic_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 0
+innovative_narrowminded = 0
+mercantilism_freetrade = -4
+offensive_defensive = -2
+land_naval = -1
+quality_quantity = -1
+serfdom_freesubjects = -1
+technology_group = indian
+primary_culture = sindhi
+religion = sunni
+capital = 504	# Thatta
+
+
+#Jams of Sindh
+1393.1.1 = {
+	monarch = {
+		name = "'Ali Sher"
+		dynasty = "Samma"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1393.1.1 = {
+	heir = {
+		name = "Fath Khan"
+		monarch_name = "Fath Khan"
+		dynasty = "Samma"
+		birth_date = 1393.1.1
+		death_date = 1423.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+1408.1.1 = {
+	monarch = {
+		name = "Fath Khan"
+		dynasty = "Samma"
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+1408.1.1 = {
+	heir = {
+		name = "Tughluq"
+		monarch_name = "Tughluq"
+		dynasty = "Samma"
+		birth_date = 1408.1.1
+		death_date = 1449.1.1
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 5 
+	}
+}
+
+1423.1.1 = {
+	monarch = {
+		name = "Tughluq"
+		dynasty = "Samma"
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+}
+
+1423.1.1 = {
+	heir = {
+		name = "Sikander"
+		monarch_name = "Sikander"
+		dynasty = "Samma"
+		birth_Date = 1400.1.1
+		death_date = 1449.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1449.1.1 = {
+	monarch = {
+		name = "Sikandar"
+		dynasty = "Samma"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1449.1.1 = {
+	heir = {
+		name = "Sanjar"
+		monarch_name = "Sanjar"
+		dynasty = "Samma"
+		birth_date = 1429.1.1
+		death_date = 1461.12.28
+		claim =  95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1453.1.1 = {
+	monarch = {
+		name = "Sanjar"
+		dynasty = "Samma"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1453.1.1 = {
+	heir = {
+		name = "Nizam ad-Dina Nanada"
+		monarch_name = "Nizam ad-Din II Nanda"
+		dynasty = "Samma"
+		birth_date = 1453.1.1
+		death_date = 1508.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+		
+
+1461.12.28 = {
+	monarch = {
+		name = "Nizam ad-Din II Nanda"
+		dynasty = "Samma"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1490.1.1 = {
+	heir = {
+		name = "Furuz Salah ad-Din"
+		monarch_name = "Furuz Salah ad-Din"
+		dynasty = "Samma"
+		birth_date = 1490.1.1
+		death_date = 1520.12.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1508.1.1 = {
+	monarch = {
+		name = "Furuz Salah ad-Din"
+		dynasty = "Samma"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1508.1.1 = {
+	heir = {
+		name = "Shah Shuja' Beg"
+		monarch_name = "Shah Shuja' Beg"
+		dynasty = "Arghun"
+		birth_date = 1500.1.1
+		death_date = 1533.7.18
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+1520.12.1 = {
+	monarch = {
+		name = "Shah Shuja' Beg"
+		dynasty = "Arghun"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1520.12.1 = {
+	heir = {
+		name = "Shah Husayn"
+		monarch_name = "Shah Husayn"
+		dynasty = "Arghun"
+		birth_date = 1520.1.1
+		death_date = 1554.2.14
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1522.7.18 = {
+	monarch = {
+		name = "Shah Husayn"
+		dynasty = "Arghun"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1522.7.18 = {
+	heir = {
+		name = "Mirza Muhammad 'Isa"
+		monarch_name = "Mirza Muhammad 'Isa"
+		dynasty = "Arghun"
+		birth_date = 1522.1.1
+		death_date = 1567.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1554.2.14 = {
+	monarch = {
+		name = "Mirza Muhammad 'Isa"
+		dynasty = "Arghun"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1554.2.14 = {
+	heir = {
+		name = "Mirza Muhammad Baqi"
+		monarch_name = "Miza Muhammad Baqi"
+		dynasty = "Arghun"
+		birth_date = 1550.1.1
+		death_date = 1585.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+	
+1567.1.1 = {
+	monarch = {
+		name = "Mirza Muhammad Baqi"
+		dynasty = "Arghun"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1567.1.1 = {
+	heir = {
+		name = "Mirza Jani Beg"
+		monarch_name = "Mirza Jani Beg"
+		dynasty = "Arghun"
+		birth_date = 1550.1.1
+		death_date = 1592.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1585.1.1 = {
+	monarch = {
+		name = "Mirza Jani Beg"
+		dynasty = "Arghun"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+#Mughal Rule
+
+#1592.1.1 = {
+#	monarch = {
+#		name = "Mughal Rule"
+#		adm = 5
+#		dip = 5
+#		mil = 5
+#	}
+#
+#}
+
+#Khans of Sindh
+
+1701.1.1 = {
+	monarch = {
+		name = "Yar Muhammad Khan"
+		dynasty = "Kalhora"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1701.1.1 = {
+	heir = {
+		name = "Nur Muhammad"
+		monarch_name = "Nur Muhammad"
+		dynasty = "Kalhora"
+		birth_date = 1701.1.1
+		death_date = 1755.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1719.1.1 = {
+	monarch = {
+		name = "Nur Muhammad"
+		dynasty = "Kalhora"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1719.1.1 = {
+	heir = {
+		name = "Muhammad Murad"
+		monarch_name = "Muhammad Murad"
+		dynasty = "Kalhora"
+		birth_date = 1719.1.1
+		death_date = 1757.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1755.1.1 = {
+	monarch = {
+		name = "Muhammad Murad"
+		dynasty = "Kalhora"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1755.1.1 = {
+	heir = {
+		name = "Gulam Shah"
+		monarch_name = "Gulam Shah"
+		dynasty = "Kalhora"
+		birth_date = 1730.1.1
+		death_date = 1772.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1757.1.1 = {
+	monarch = {
+		name = "Gulam Shah"
+		dynasty = "Kalhora"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1757.1.1 = {
+	heir = {
+		name = "Sarfaraz Khan"
+		monarch_name = "Sarafaraz Khan"
+		dynasty = "Kalhora"
+		birth_date = 1750.1.1
+		death_date = 1777.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1772.1.1 = {
+	monarch = {
+		name = "Sarfaraz Khan"
+		dynasty = "Kalhora"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1772.1.1 = {
+	heir = {
+		name = "Gulam Nabi Khan"
+		monarch_name = "Gulam Nabi Khan"
+		dynasty = "Kalhora"
+		birth_date = 1750.1.1
+		death_date = 1780.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1777.1.1 = {
+	monarch = {
+		name = "Gulam Nabi Khan"
+		dynasty = "Kalhora"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1777.1.1 = {
+	heir = {
+		name = "'Abd an-Nabi Khan"
+		monarch_name = "'Abd an-Nabi Khan"
+		dynasty = "Kalhora"
+		birth_date = 1750.1.1
+		death_date = 1782.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1780.1.1 = {
+	monarch = {
+		name = "'Abd an-Nabi Khan"
+		dynasty = "Kalhora"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1782.1.1 = {
+	monarch = {
+		name = "'Abd Allah Khan"
+		dynasty = "Talpur"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1782.1.1 = {
+	heir = {
+		name = "Mir Fath Ali"
+		monarch_name = "Mir Fath Ali"
+		dynasty = "Talpur"
+		birth_date = 1760.1.1
+		death_date = 1801.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1783.1.1 = {
+	monarch = {
+		name = "Mir Fath Ali"
+		dynasty = "Talpur"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1783.1.1 = {
+	heir = {
+		name = "Thara"
+		monarch_name = "Thara"
+		dynasty = "Talpur"
+		birth_date = 1783.1.1
+		death_Date = 1829.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1801.1.1 = {
+	monarch = {
+		name = "Thara"
+		dynasty = "Talpur"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}

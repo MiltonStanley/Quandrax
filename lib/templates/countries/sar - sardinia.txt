@@ -1,0 +1,48 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 4
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = 1
+quality_quantity = -1
+serfdom_freesubjects = -2
+technology_group = western
+religion = catholic
+primary_culture = lombard
+capital = 127	# Cagliari
+
+
+1387.1.1 = {
+	monarch = { 
+		name = "Mariano V"
+		dynasty = "d'Arborea"
+		dip = 6
+		mil = 5
+		adm = 6
+	}
+}
+
+1387.1.1 = {
+	heir = {
+		name = "Guglielmo"
+		monarch_name = "Guglielmo I"
+		dynasty = "d'Arborea"
+		birth_date = 1387.1.1
+		death_date = 1430.1.1
+		claim = 80
+		dip = 5
+		mil = 4
+		adm = 4
+	}
+}
+
+1407.1.1 = {
+	monarch = { 
+		name = "Guglielmo I"
+		dynasty = "d'Arborea"
+		dip = 5
+		mil = 4
+		adm = 4
+	}
+}

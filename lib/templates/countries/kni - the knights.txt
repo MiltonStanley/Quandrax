@@ -1,0 +1,384 @@
+government = theocratic_government
+aristocracy_plutocracy = -5
+centralization_decentralization = 1
+innovative_narrowminded = 2
+mercantilism_freetrade = -2
+offensive_defensive = 2
+land_naval = 1
+quality_quantity = -5
+serfdom_freesubjects = -3
+primary_culture = maltese
+religion = catholic
+technology_group = western
+capital = 126	# Medina
+
+
+1396.1.1 = {
+	monarch = {
+		name = "Philibert de Naillac"
+		adm = 4
+		dip = 3
+		mil = 6
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Anton Flavian de Ripa"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1437.1.1 = {
+	monarch = {
+		name = "Jean Bonpar de Lastic"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1454.1.1 = {
+	monarch = {
+		name = "Jaques de Milly"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1461.1.1 = {
+	monarch = {
+		name = "Peter Raimund Zacosta"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1467.1.1 = {
+	monarch = {
+		name = "Gianbattista Orsini"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1476.1.1 = {
+	monarch = {
+		name = "Pierre d'Aubusson"
+		adm = 7
+		dip = 7
+		mil = 7
+		leader = { name = "Pierre d'Aubusson"	type = general	rank = 0	fire = 5	shock = 6	manuever = 4	siege = 1 }
+	}
+}
+
+1483.1.1 = { aristocracy_plutocracy = -5 } # Pierre d'Aubusson
+
+1489.1.1 = { leader = {	name = "Andrea d'Amaral"       	type = admiral	rank = 1	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1522.11.1 } }
+
+1493.1.1 = { leader = {	name = "Aurelio Bottigella"    	type = admiral	rank = 2	fire = 5	shock = 4	manuever = 3	siege = 0	death_date = 1545.1.1 } }
+
+1501.1.1 = { quality_quantity = -3 serfdom_freesubjects = -5 } # Rhodians and other Greeks accepted into the Order
+
+1503.7.12 = {
+	monarch = {
+		name = "Emeric d'Amboise"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+
+}
+
+1512.11.24 = {
+	monarch = {
+		name = "Guy de Blanchefort"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1513.12.17 = {
+	monarch = {
+		name = "Fabrizio Di Caretto"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1521.1.1 = { offensive_defensive = 4 } # Gabriele Tadini de Martinengo
+
+1521.11.14 = {
+	monarch = {
+		name = "Phillipe de L'Isle Adam"
+		adm = 7
+		dip = 7
+		mil = 8
+		leader = { name = "L'Isle Adam"		type = general	rank = 0	fire = 6	shock = 5	manuever = 5	siege = 1 }
+	}
+}
+
+1528.1.1 = { leader = {	name = "Pietro Giustiniani"    	type = admiral	rank = 3	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1584.1.1 } }
+
+1534.8.23 = {
+	monarch = {
+		name = "Pietro del Ponte"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1535.11.20 = {
+	monarch = {
+		name = "Didier de Sainte-Jaille"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1536.10.21 = {
+	monarch = {
+		name = "Juan de Omedes"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1537.1.1 = { leader = {	name = "Leone Strozzi"		type = admiral	rank = 2	fire = 4	shock = 5	manuever = 4	siege = 0	death_date = 1554.6.28 } }
+
+1539.1.1 = { leader = {	name = "M. de Lescout Romegas"	type = admiral	rank = 2	fire = 6	shock = 6	manuever = 6	siege = 0	death_date = 1581.1.1 } }
+
+1553.9.12 = {
+	monarch = {
+		name = "Claude de La Sangle"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1557.8.19 = {
+	monarch = {
+		name = "Jean de La Valette"
+		adm = 8
+		dip = 6
+		mil = 8
+		leader = { name = "La Valette"	type = general	rank = 0	fire = 6	shock = 6	manuever = 4	siege = 2 }
+	}
+}
+
+1565.1.1 = { offensive_defensive = 5 } # Jean de la Valette
+
+1568.8.24 = {
+	monarch = {
+		name = "Pietro del Monte"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1572.1.30 = {
+	monarch = {
+		name = "Jean de La Cassière"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1582.1.13 = {
+	monarch = {
+		name = "Hughes de Verdalle"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1595.5.9 = {
+	monarch = {
+		name = "Martin Garzès"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1601.2.10 = {
+	monarch = {
+		name = "Alofe de Wignacourt"
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1622.9.18 = {
+	monarch = {
+		name = "Luis de Vasconcellos"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1623.3.11 = {
+	monarch = {
+		name = "Antoine de Paule"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1636.6.14 = {
+	monarch = {
+		name = "Jean-Paul de Castellar"
+		adm = 4
+		dip = 8
+		mil = 5
+	}
+}
+
+1657.8.18 = {
+	monarch = {
+		name = "Martin de Redin"
+		adm = 6
+		dip = 3
+		mil = 6
+	}
+}
+
+1660.2.9 = {
+	monarch = {
+		name = "Annett de Clermont-Gessan"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1660.6.6 = {
+	monarch = {
+		name = "Raphael Cotoner"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1663.10.24 = {
+	monarch = {
+		name = "Nicolas Cotoner"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1680.5.3 = {
+	monarch = {
+		name = "Gregorio Carafa"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1690.7.25 = {
+	monarch = {
+		name = "Adrien de Wignacourt"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1697.2.7 = {
+	monarch = {
+		name = "Ramon Perellos y Rocaful"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1701.1.1 = { leader = {	name = "Jacques de Chambray"   	type = admiral	rank = 2	fire = 6	shock = 4	manuever = 4	siege = 0	death_date = 1756.1.1 } }
+
+1720.1.14 = {
+	monarch = {
+		name = "Marc'Antonio Zondadori"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1722.6.20 = {
+	monarch = {
+		name = "Antoine Manoel de Vilhena"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1736.12.17 = {
+	monarch = {
+		name = "Raymond Despuigh"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1741.1.19 = {
+	monarch = {
+		name = "Manuel Pinto de Fonseca"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1759.1.1 = { leader = {	name = "P. de Saint-Tropez"	type = admiral	rank = 2	fire = 6	shock = 4	manuever = 5	siege = 0	death_date = 1788.1.1 } }
+
+1773.1.29 = {
+	monarch = {
+		name = "Francisco de Tejada"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1775.11.13 = {
+	monarch = {
+		name = "Emmanuel de Rohan-Polduc"
+		adm = 7
+		dip = 7
+		mil = 8
+		leader = { name = "Emmanuel de Rohan"	type = general	rank = 0	fire = 4	shock = 4	manuever = 4	siege = 0 }
+
+	}
+}
+
+1797.7.18 = {
+	monarch = {
+		name = "Ferdinand von Hampesch"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

@@ -1,0 +1,118 @@
+government = feudal_monarchy
+aristocracy_plutocracy = -3
+centralization_decentralization = 2
+innovative_narrowminded = 1
+mercantilism_freetrade = -3
+offensive_defensive = 1
+land_naval = -1
+quality_quantity = 1
+serfdom_freesubjects = -5
+primary_culture = serbian
+religion = orthodox
+technology_group = eastern
+capital = 140	# Sarajevo
+
+
+1398.1.1 = {
+	monarch = {
+		name = "Stjepan Ostoja"
+		dynasty = "Kotromanic"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1404.1.1 = {
+	monarch = {
+		name = "Sjepan Tvrtko II"
+		dynasty = "Kotromanic"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1409.1.1 = {
+	monarch = {
+		name = "Stjepan Ostoja"
+		dynasty = "Kotromanic"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1418.1.1 = {
+	monarch = {
+		name = "Stjepan Ostojic"
+		dynasty = "Kotromanic"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Stjepan Tvrtko II"
+		dynasty = "Kotromanic"
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1433.1.1 = {
+	monarch = {
+		name = "Radovoj Ostojic"
+		dynasty = "Kotromanic"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1435.1.1 = {
+	monarch = {
+		name = "Stjepan Tvrtko II"
+		dynasty = "Kotromanic"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1443.6.23 = {
+	monarch = {
+		name = "Stjepan Tomaš"
+		dynasty = "Kotromanic"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1443.6.23 = {
+	heir = {
+		name = "Stjepan Tomaševic"
+		monarch_name = "Stjepan Tomaševic"
+		dynasty = "Kotromanic"
+		birth_date = 1443.1.1
+		death_date = 1463.6.5
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1461.7.11 = {
+	monarch = {
+		name = "Stjepan Tomaševic"
+		dynasty = "Kotromanic"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}

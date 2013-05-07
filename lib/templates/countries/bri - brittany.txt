@@ -1,0 +1,232 @@
+government = feudal_monarchy 
+aristocracy_plutocracy = -2
+centralization_decentralization = 2
+innovative_narrowminded = -2
+mercantilism_freetrade = 3
+offensive_defensive = 2
+land_naval = 2
+quality_quantity = 2
+serfdom_freesubjects = -2
+primary_culture = breton
+religion = catholic
+technology_group = western
+capital = 172	# Nantes
+
+
+1345.9.16 = {
+	monarch = {
+		name = "Jean V"
+		dynasty = "de Dreux"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1389.12.24 = {
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean VI"
+		dynasty = "de Dreux"
+		birth_date = 1389.12.24
+		death_date = 1442.8.29
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1399.11.1 = {
+	monarch = {
+		name = "Jean VI"
+		dynasty = "de Dreux"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1414.5.14 = {
+	heir = {
+		name = "François"
+		monarch_name = "François I"
+		dynasty = "de Dreux"
+		birth_date = 1414.5.14
+		death_date = 1450.7.18
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1442.8.29 = {
+	monarch = {
+		name = "François I"
+		dynasty = "de Dreux"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1442.8.29 = {
+	heir = {
+		name = "Pierre"
+		monarch_name = "Pierre II"
+		dynasty = "de Dreux"
+		birth_date = 1418.1.1
+		death_date = 1457.9.23
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1450.7.20 = {
+	monarch = {
+		name = "Pierre II"
+		dynasty = "de Dreux"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1450.7.20 = {
+	heir = {
+		name = "Artur"
+		monarch_name = "Artur III"
+		dynasty = "de Dreux"
+		birth_date = 1393.8.24
+		death_date = 1458.12.26
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 7
+		leader = { name = "Arthur de Richemont"	type = general	rank = 0	fire = 4	shock = 4	manuever = 4	siege = 1 }
+	}
+}
+		
+1457.9.23 = {
+	monarch = {
+		name = "Artur III"
+		dynasty = "de Dreux"
+		adm = 6
+		dip = 5
+		mil = 7
+		leader = { name = "Arthur de Richemont"	type = general	rank = 0	fire = 4	shock = 4	manuever = 4	siege = 1 }
+	}
+}
+
+1457.9.23 = {
+	heir = {
+		name = "François"
+		monarch_name = "François II"
+		dynasty = "de Dreux"
+		birth_date = 1433.6.23
+		death_date = 1488.9.9
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1458.12.26 = { aristocracy_plutocracy = -2 innovative_narrowminded = -3 mercantilism_freetrade = -1 }#François II didn't take his duties seriouly and lefte the nobles to rule his Duchy, but was a maecenas of commerce and culture
+
+1458.12.27 = {
+	monarch = {
+		name = "François II"
+		dynasty = "de Dreux"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1477.1.25 = {
+	heir = {
+		name = "Anne"
+		monarch_name = "Anne I"
+		dynasty = "de Dreux"
+		birth_date = 1477.1.25
+		death_date = 1514.1.9
+		claim = 95
+		adm = 8
+		dip = 7
+		mil = 4
+		female = yes
+	}
+}
+
+1487.3.1 = { aristocracy_plutocracy = -5 offensive_defensive = -1 } #Nobles demand to fight France
+
+1488.9.10 = {
+	monarch = {
+		name = "Anne I"
+		dynasty = "de Dreux"
+		adm = 8
+		dip = 7
+		mil = 4
+		female = yes
+	}
+}
+
+1499.10.14 = {
+	heir = {
+		name = "Claude"
+		monarch_name = "Claude I"
+		dynasty = "de Valois"
+		birth_date = 1499.10.14
+		death_date = 1525.7.20
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+		female = yes
+	}
+}
+
+1499.11.5 = { innovative_narrowminded = -5 } # Catholicon was impressed
+
+1514.1.10 = {
+	monarch = {
+		name = "Claude I"
+		dynasty = "de Valois"
+		adm = 5
+		dip = 5
+		mil = 5
+		female = yes
+	}
+}
+
+1518.2.28 = {
+	heir = {
+		name = "François"
+		monarch_name = "François III"
+		dynasty = "de Valois"
+		birth_date = 1518.2.28
+		death_date = 1536.8.10
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1524.7.21 = {
+	monarch = {
+		name = "François III"
+		dynasty = "de Valois"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1589.8.3 = { government = administrative_monarchy }
+
+1661.3.9 = { government = absolute_monarchy }
