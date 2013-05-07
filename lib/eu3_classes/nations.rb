@@ -10,7 +10,7 @@ class EU3_Nations
     ck2_provinces.each do |a_prov|
       next if a_prov.nil?
       tag = $TM_CK2_EU3[a_prov.title]
-      nations << tag unless nations.include? tag
+      nations << tag unless nations.include?(tag) || tag.nil?
     end
     nations
   end
