@@ -15,7 +15,7 @@ class EU3_Provinces
   def write(location, ck2_provinces)
     @provinces.each do |eu3_province|
       next if eu3_province.nil? # index 0 is nil, there's no province 0 in either game
-      eu3_province.add_discovery_tags(ck2_provinces)
+      #eu3_province.add_discovery_tags(ck2_provinces)
       eu3_province.write(location)
     end
   end
@@ -112,6 +112,7 @@ class An_EU3_Province
     @discovery_dates = get_string_literals(value) if is_discovery_dates?(key)
     @discovery_religion_dates = get_string_literals(value) if is_discovery_religion_dates?(key)
     @discovered_by = get_string_literals(value) if is_discovered_by?(key)
+    @winter = value if is_winter?(key)
   end
 
   def write(location)
@@ -131,7 +132,11 @@ class An_EU3_Province
     location.puts "\tfort1=#{@fort1}" unless @fort1.nil?
     location.puts @history
     location.puts "\tpatrol=#{@patrol}"
-    write_discovery_dates(location)
+    write_discovery_dates(location) unless @discovery_dates.nil?
+    write_religion_discovery_dates(location) unless @discovery_religion_dates.nil?
+    write_discovered_by(location) unless @discovered_by.nil?
+    location.puts "\twinter=#{@winter}" unless @winter.nil?
+    location.puts "}"
   end
 
   def add_discovery_tags(ck2_provinces)
@@ -145,7 +150,7 @@ class An_EU3_Province
   def convert(ck2_province, player_tag)
     @owner = $TM_CK2_EU3[ck2_province.title] unless @owner == player_tag
     @controller = @owner ### TODO - update when wars are added
-    @cores << @owner
+    @cores << @owner unless @cores.include? owner
     @culture = get_culture(ck2_province.culture, ck2_province.title)
     @religion = $RM_CK2_EU3[ck2_province.religion]
   end
@@ -163,8 +168,27 @@ class An_EU3_Province
     @discovery_dates.each do |date|
       location.print "#{date} "
     end
-    location.puts ' }'
+    location.puts '}'
+  end
 
+  def write_religion_discovery_dates(location)
+    location.print 'discovery_religion_dates={'
+    @discovery_religion_dates.each do |date| 
+      location.print "#{date} "
+    end
+    location.puts '}'
+  end
+
+  def write_discovered_by(location)
+    location.print 'discovered_by={'
+    @discovered_by.each do |date|
+      location.print "#{date} "
+    end
+    location.puts '}'
+  end
+
+  def is_winter?(key)
+    key =~ /winter/
   end
 
   def is_patrol?(line)
