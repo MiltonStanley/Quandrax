@@ -20,6 +20,7 @@ require './lib/eu3_classes/imperial_information'
 require './lib/eu3_classes/defenders_of_the_faith'
 require './lib/eu3_classes/papal_information'
 require './lib/eu3_classes/provinces'
+require './lib/eu3_classes/nations'
 
 def load_file(extension)
   filename = Dir.new(Dir.getwd).each { |file| break file if file.include?(extension) }
@@ -80,6 +81,7 @@ def write_file(new_file)
   print_from_temp(new_file, './lib/templates/trade.tmp')  # This is fine
   $EU3_PROVINCES = EU3_Provinces.new($CK2_PROVINCES.provinces, $CK2_TITLES.titles, $EU3_HEADER.tag)
   $EU3_PROVINCES.write(new_file, $CK2_PROVINCES.provinces)
+  $EU3_NATIONS = EU3_Nations.new
   print_from_temp(new_file, './lib/templates/nations.tmp')
   print_from_temp(new_file, './lib/templates/diplomacy.tmp')
   print_from_temp(new_file, './lib/templates/combat.tmp')
