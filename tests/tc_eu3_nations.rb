@@ -26,6 +26,11 @@ class TestEU3Nations < Test::Unit::TestCase
     # Make a hash where key = TAG and value = file name for that country's information
     nation_files = Hash.new
     directory_listing.each { |a_file| nation_files[a_file[0..2].upcase] = a_file }
+    # Assert all nations include
+    $EU3_NATIONS.nations.each do |tag|
+      next if tag.nil?
+      assert_not_nil nation_files[tag], "Did not find an entry for #{tag}!"
+    end
   end
 
 end
