@@ -28,6 +28,7 @@ class EU3_Nations
         nations.last.add(line)
       end
     end
+    nations
   end
 
   def is_new_nation?(line)
