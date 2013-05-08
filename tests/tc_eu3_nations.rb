@@ -23,4 +23,10 @@ class TestEU3Nations < Test::Unit::TestCase
     assert_equal 337, $EU3_NATIONS.nations.length
   end
 
+  def test_nations_have_valid_tag
+    $EU3_NATIONS.nations.each do |a_nation|
+      assert_match /^[A-Z]{3}$/, a_nation.tag
+    end
+  end
+
 end
