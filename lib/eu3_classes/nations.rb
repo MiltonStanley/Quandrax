@@ -48,7 +48,8 @@ class AnEU3Nation
   end
 
   def add(line)
-
+    key, value = split_key_value(line.chomp)
+    @government = value if is_key?('government',key)
   end
 
   def is_key?(expected, actual)
