@@ -1,5 +1,5 @@
 class EU3_Nations
-  attr_accessor :tag_list, :nation_files
+  attr_accessor :tag_list, :nations
 
   def initialize(ck2_provinces)
     puts 'Creating EU3 Nations section'
