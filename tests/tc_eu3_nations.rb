@@ -39,5 +39,15 @@ class TestEU3Nations < Test::Unit::TestCase
     end
   end
 
+  def test_aristocracy_slider
+    expecteds = { 'SWE' => '-1',
+                  'GOT' => '1',
+                  'SCA' => '0'
+                }
+    expecteds.each do |tag, slider|
+      assert_equal slider, 
+        $EU3_NATIONS.nations[tag].sliders['aristocracy_plutocracy']
+    end
+  end
 
 end
