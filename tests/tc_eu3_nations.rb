@@ -29,4 +29,15 @@ class TestEU3Nations < Test::Unit::TestCase
     end
   end
 
+  def test_nation_government
+    expecteds = {'SWE' => 'feudal_monarchy',
+                'GOT' => 'noble_republic',
+                'SCA' => 'administrative_monarchy'
+                }
+    expecteds.each do |tag, government|
+      assert_equal government, $EU3_NATIONS.nations[tag].government
+    end
+  end
+
+
 end
