@@ -4,7 +4,7 @@ class EU3_Nations
   def initialize(ck2_provinces)
     puts 'Creating EU3 Nations section'
     @tag_list = get_tag_list(ck2_provinces)
-    @nation_files = get_nations
+    @nations = get_nations
   end
 
   def get_tag_list(ck2_provinces)
@@ -18,12 +18,32 @@ class EU3_Nations
   end
 
   def get_nations
-    file_list = Dir.entries('./lib/templates/countries')
-    file_list.shift(2)
-    nation_files = Hash.new
-    file_list.each { |file| nation_files[file[0..2].upcase] = file }
-    nation_files
+    nations = Array.new
+    file = File.open('./lib/templates/nations.tmp','r')
+    file.each_line do |line|
+      line = line.chomp
+      if is_new_nation?(line)
+        nations << AnEU3Nation.new(line.chop)
+      else
+        nations.last.add(line)
+      end
+    end
   end
 
+  def is_new_nation?(line)
+    line =~ /^\w{3}=$/
+  end
+
+end
+
+class AnEU3Nation
+
+  def initialize(tag)
+    @tag = tag
+  end
+
+  def add(line)
+
+  end
 
 end
