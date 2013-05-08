@@ -18,14 +18,17 @@ class EU3_Nations
   end
 
   def get_nations
-    nations = Array.new
+    nations = Hash.new
+    current_nation = String.new
     file = File.open('./lib/templates/nations.tmp','r')
     file.each_line do |line|
       line = line.chomp
       if is_new_nation?(line)
-        nations << AnEU3Nation.new(line.chop)
+        tag = line.chop
+        current_nation = tag
+        nations[tag] = AnEU3Nation.new(tag)
       else
-        nations.last.add(line)
+        nations[current_nation].add(line)
       end
     end
     nations
