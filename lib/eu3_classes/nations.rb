@@ -38,6 +38,7 @@ class EU3_Nations
 end
 
 class AnEU3Nation
+  attr_accessor :tag
 
   def initialize(tag)
     @tag = tag
