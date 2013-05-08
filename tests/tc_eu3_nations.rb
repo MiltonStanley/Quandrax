@@ -19,4 +19,8 @@ class TestEU3Nations < Test::Unit::TestCase
           'Failed to create EU3 Province information'
   end
 
+  def test_nations_length
+    assert_equal 337, $EU3_NATIONS.nations.length
+  end
+
 end
