@@ -52,7 +52,7 @@ class AnEU3Nation
   end
 
   def is_key?(expected, actual)
-    expected == actual
+    expected == actual.rstrip.lstrip
   end
 
 end
