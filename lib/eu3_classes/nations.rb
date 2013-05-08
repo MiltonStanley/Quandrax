@@ -41,7 +41,7 @@ class EU3_Nations
 end
 
 class AnEU3Nation
-  attr_accessor :tag
+  attr_accessor :tag, :government
 
   def initialize(tag)
     @tag = tag
@@ -49,6 +49,10 @@ class AnEU3Nation
 
   def add(line)
 
+  end
+
+  def is_key?(expected, actual)
+    expected == actual
   end
 
 end
