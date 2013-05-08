@@ -42,8 +42,7 @@ class TestEU3Nations < Test::Unit::TestCase
   def test_sliders
     sliders = %w[aristocracy_plutocracy centralization_decentralization
                 innovative_narrowminded mercantilism_freetrade offensive_defensive
-                land_naval quality_quantity serfdom_freesubjects]
-                
+                land_naval quality_quantity serfdom_freesubjects]                
     swe = Hash.new
     got = Hash.new
     sca = Hash.new
