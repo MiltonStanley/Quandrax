@@ -60,7 +60,9 @@ class AnEU3Nation
   end
 
   def is_slider?(key)
-    %w[aristocracy_plutocracy].include?(key)
+    %w[aristocracy_plutocracy centralization_decentralization
+      innovative_narrowminded mercantilism_freetrade offensive_defensive
+      land_naval quality_quantity serfdom_freesubjects].include?(key)
   end
 
 end

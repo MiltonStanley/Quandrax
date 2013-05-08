@@ -39,14 +39,25 @@ class TestEU3Nations < Test::Unit::TestCase
     end
   end
 
-  def test_aristocracy_slider
-    expecteds = { 'SWE' => '-1',
-                  'GOT' => '1',
-                  'SCA' => '0'
-                }
-    expecteds.each do |tag, slider|
-      assert_equal slider, 
-        $EU3_NATIONS.nations[tag].sliders['aristocracy_plutocracy']
+  def test_sliders
+    sliders = %w[aristocracy_plutocracy centralization_decentralization
+                innovative_narrowminded mercantilism_freetrade offensive_defensive
+                land_naval quality_quantity serfdom_freesubjects]
+                
+    swe = got = sca = Hash.new
+    sweden = %w[-1 3 0 -3 0 -1 -2 2]
+    sweden.each_index { |index| swe[sliders[index]] = sweden[index] }
+    gotland = %w[1 2 1 -4 0 1 1 1]
+    gotland.each_index { |index| got[sliders[index]] = gotland[index] }
+    scandinavia = %w[0 3 -1 -3 0 0 -2 3]
+    scandinavia.each_index { |index| sca[sliders[index]] = scandinavia[index] }
+    expecteds = Hash.new
+    expecteds['SWE'] = swe
+    expecteds['GOT'] = got
+    expecteds['SCA'] = sca
+    expecteds.each do |tag, sliders|
+      assert_equal sliders, $EU3_NATIONS.nations[tag].sliders, 
+      "Incorrect sliders for #{tag}: expected #{sliders} but got #{$EU3_NATIONS.nations[tag].sliders}"
     end
   end
 
