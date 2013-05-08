@@ -318,25 +318,44 @@ Consists of:
 
 - Header (this is really complicated, should break it out further)
     - History
+        - Government type
+        - Sliders
+        - Technology Group
+        - Primary Culture
+        - Accepted Culture(s)
+        - Religion
+        - Capital
+        - Monarch section
     - Flags
     - Hidden flags
     - Variables
-    - Assorted Information
-        - Capital
-        - Technology
-        - Income
-        - Etc.
+    - Capital
+    - National Focus
+    - Last focus move
+    - Primary Culture
+    - Accepted culture(s)
+    - Religion
+    - Technology Group
+    - Unit Type
+    - Technology
+    - Last election
+    - Auto send merchants
+    - Prestige
+    - ASSORTED THINGS FROM BUDGET SCREEN
     - Distribution
     - Ledger
-    - Various other information (officials, sliders, etc.)
-- Mercenary (multiples)
-- Army (multiples)
-- Navy (multiples)
-- Relations (multiples)
-- Footer (this is also complicated; hard to find a pattern right now)
-    - Leaders (multiples)
-    - More trade stuff?
-
+    - Various other information (repeat of history, officials, sliders, etc.)
+    - Military Unit types
+    - Relations (multiples)
+    - Footer (this is also complicated; hard to find a pattern right now)
+    - Leader
+    - Monarch
+    - Heir
+    - Missions
+    - AI info
+    - Slider locks
+    - Trade Bonuses
+    
 Example (see the save file - Sweden, starts at line 84257)
 
 Diplomacy
