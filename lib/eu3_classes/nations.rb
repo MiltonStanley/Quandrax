@@ -41,19 +41,26 @@ class EU3_Nations
 end
 
 class AnEU3Nation
-  attr_accessor :tag, :government
+  attr_accessor :tag, :government, :sliders
 
   def initialize(tag)
     @tag = tag
+    @sliders = Hash.new
   end
 
   def add(line)
-    key, value = split_key_value(line.chomp)
+    line = line.lstrip.rstrip
+    key, value = split_key_value(line)
     @government = value if is_key?('government',key)
+    sliders[key] = value if is_slider?(key)
   end
 
   def is_key?(expected, actual)
-    expected == actual.rstrip.lstrip
+    expected == actual
+  end
+
+  def is_slider?(key)
+    %w[aristocracy_plutocracy].include?(key)
   end
 
 end
