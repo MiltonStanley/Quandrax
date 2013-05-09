@@ -68,4 +68,11 @@ class TestEU3Nations < Test::Unit::TestCase
     end
   end
 
+  def test_unit_type
+    expecteds = {'SWE' => 'western', 'ATH' => 'eastern', 'TUR' => 'ottoman'}
+    expecteds.each do |tag, type| 
+      assert_equal type, $EU3_NATIONS.nations[tag].unit_type
+    end
+  end
+
 end
