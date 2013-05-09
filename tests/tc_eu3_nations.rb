@@ -89,4 +89,12 @@ class TestEU3Nations < Test::Unit::TestCase
     end
   end
 
+  def test_accepted_cultures
+    expecteds = {'KRK' => %w[tamil], 'TUR' => %w[greek bulgarian],
+                  'REB' => []}
+    expecteds.each do |tag, cultures|
+      assert_equal cultures, $EU3_NATIONS.nations[tag].accepted_cultures
+    end
+  end
+
 end
