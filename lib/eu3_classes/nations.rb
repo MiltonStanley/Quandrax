@@ -59,6 +59,7 @@ class AnEU3Nation
     @unit_type = value if is_key?('unit_type', key)
     @primary_culture = value if is_key?('primary_culture', key)
     @religion = value if is_key?('religion', key)
+    @accepted_cultures << value if is_key?('accepted_culture', key) || is_key?('add_accepted_culture', key)
   end
 
   def is_key?(expected, actual)
