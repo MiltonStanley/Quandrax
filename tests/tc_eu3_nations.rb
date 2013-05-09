@@ -75,4 +75,11 @@ class TestEU3Nations < Test::Unit::TestCase
     end
   end
 
+  def test_primary_culture
+    expecteds = {'SWE' => 'swedish', 'CRO' => 'croatian', 'FOI' => 'gascon'}
+    expecteds.each do |tag, culture| 
+      assert_equal culture, $EU3_NATIONS.nations[tag].primary_culture
+    end
+  end
+
 end

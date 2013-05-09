@@ -41,7 +41,8 @@ class EU3_Nations
 end
 
 class AnEU3Nation
-  attr_accessor :tag, :government, :sliders, :technology_group, :unit_type
+  attr_accessor :tag, :government, :sliders, :technology_group, :unit_type,
+    :primary_culture
 
   def initialize(tag)
     @tag = tag
