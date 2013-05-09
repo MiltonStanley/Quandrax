@@ -82,4 +82,11 @@ class TestEU3Nations < Test::Unit::TestCase
     end
   end
 
+  def test_religion
+    expecteds = {'SWE' => 'catholic', 'EPI' => 'orthodox', 'GUJ' => 'sunni'}
+    expecteds.each do |tag, religion|
+      assert_equal religion, $EU3_NATIONS.nations[tag].religion
+    end
+  end
+
 end
