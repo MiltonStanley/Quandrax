@@ -61,6 +61,7 @@ class AnEU3Nation
     @religion = value if is_key?('religion', key)
     @accepted_cultures << value if is_key?('accepted_culture', key) || is_key?('add_accepted_culture', key)
     @capital = value if is_key?('capital', key)
+    @monarch_date = get_monarch_date
   end
 
   def is_key?(expected, actual)
@@ -71,6 +72,18 @@ class AnEU3Nation
     %w[aristocracy_plutocracy centralization_decentralization
       innovative_narrowminded mercantilism_freetrade offensive_defensive
       land_naval quality_quantity serfdom_freesubjects].include?(key)
+  end
+
+  def get_monarch_date
+    titles = Array.new
+    top_title = String.new
+    $TM_CK2_EU3.each { |title, tag| titles << title if tag == @tag }
+    top_title = titles.grep /^e_/
+    top_title = titles.grep /^k_/ unless top_title.class == String
+    top_title = titles.grep /^d_/ unless top_title.class == String
+    top_title = titles.grep /^c_/ unless top_title.class == String
+    $CK2_TITLES.titles[top_title].coronation_date unless $CK2_TITLES.titles[top_title].nil?
+    top_title
   end
 
 end
