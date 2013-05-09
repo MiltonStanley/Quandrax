@@ -61,4 +61,14 @@ class TestEU3Nations < Test::Unit::TestCase
     end
   end
 
+  def test_technology_group
+    expecteds = {'SWE' => 'western',
+                'ATH' => 'eastern',
+                'TUR' => 'ottoman'
+              }
+    expecteds.each do |tag, technology|
+      assert_equal technology, $EU3_NATIONS.nations[tag].technology_group
+    end
+  end
+
 end
