@@ -57,6 +57,7 @@ class AnEU3Nation
     @technology_group = value if is_key?('technology_group', key)
     @unit_type = value if is_key?('unit_type', key)
     @primary_culture = value if is_key?('primary_culture', key)
+    @religion = value if is_key?('religion', key)
   end
 
   def is_key?(expected, actual)
