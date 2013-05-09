@@ -53,6 +53,7 @@ class AnEU3Nation
     key, value = split_key_value(line)
     @government = value if is_key?('government',key)
     sliders[key] = value if is_slider?(key)
+    @technology_group = value if is_key?('technology_group', key)
   end
 
   def is_key?(expected, actual)
