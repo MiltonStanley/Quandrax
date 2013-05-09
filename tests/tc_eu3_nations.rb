@@ -97,4 +97,11 @@ class TestEU3Nations < Test::Unit::TestCase
     end
   end
 
+  def test_capital
+    expecteds = {'SWE' => '1', 'GEL' => '99', 'MUR' => '1754'}
+    expecteds.each do |tag, capital|
+      assert_equal capital, $EU3_NATIONS.nations[tag].capital
+    end
+  end
+
 end
