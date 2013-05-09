@@ -52,7 +52,7 @@ class AnEU3Nation
     line = line.lstrip.rstrip
     key, value = split_key_value(line)
     @government = value if is_key?('government',key)
-    sliders[key] = value if is_slider?(key)
+    @sliders[key] = value if is_slider?(key)
     @technology_group = value if is_key?('technology_group', key)
   end
 
