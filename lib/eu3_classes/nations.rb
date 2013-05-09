@@ -54,6 +54,7 @@ class AnEU3Nation
     @government = value if is_key?('government',key)
     @sliders[key] = value if is_slider?(key)
     @technology_group = value if is_key?('technology_group', key)
+    @unit_type = value if is_key?('unit_type', key)
   end
 
   def is_key?(expected, actual)
