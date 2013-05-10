@@ -60,7 +60,7 @@ class TestTagMap < Test::Unit::TestCase       # Master Test
     end
 
   end
-  
+
 
   class TestFunctions < TestTagMap
 
@@ -68,6 +68,13 @@ class TestTagMap < Test::Unit::TestCase       # Master Test
       expecteds = {'k_sweden' => 'SWE', 'k_england' => 'ENG', 'e_hre' => 'HRE'}
       expecteds.each do |title, tag|
         assert_equal title, invert_tag_map(tag)[0]
+      end
+    end
+
+    def test_get_highest_title
+      expecteds = {'NRM' => 'd_normandy', 'ENG' => 'k_england', 'SWE' => 'k_sweden'}
+      expecteds.each do |nation_tag, title|
+        assert_equal title, get_top_title(nation_tag)
       end
     end
 

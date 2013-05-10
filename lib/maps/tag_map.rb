@@ -1460,3 +1460,12 @@ def invert_tag_map(nation_tag)
   end
   titles
 end
+
+def get_top_title(tag)
+  all_titles = invert_tag_map(tag)
+  top_title = all_titles.grep /^e_/
+  top_title = all_titles.grep /^k_/ unless top_title.length > 0
+  top_title = all_titles.grep /^d_/ unless top_title.length > 0
+  top_title = all_titles.grep /^c_/ unless top_title.length > 0
+  top_title[0]
+end
