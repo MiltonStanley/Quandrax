@@ -1452,3 +1452,11 @@ def update_tags_for_dw
   update_tags_for_httt
   $TM_CK2_EU3["c_ulm"] = "ULM"
 end
+
+def invert_tag_map(nation_tag)
+  titles = Array.new
+  $TM_CK2_EU3.each do |title, tag|
+    titles << title if tag == nation_tag
+  end
+  titles
+end

@@ -1,7 +1,7 @@
 require "test/unit"
 if __FILE__ == $0
   Dir.chdir("..")
-  require './tests/setup_for_ck2_tests'
+  require './tests/setup_for_eu3_tests'
 end
 
 class TestTagMap < Test::Unit::TestCase       # Master Test
@@ -56,6 +56,18 @@ class TestTagMap < Test::Unit::TestCase       # Master Test
         next if title =~ /^b_/
         assert !$TM_CK2_EU3[title].nil?, 
         "No tag found for #{title} - liege is #{$CK2_TITLES.liege_index[title]}"
+      end
+    end
+
+  end
+  
+
+  class TestFunctions < TestTagMap
+
+    def test_inversion
+      expecteds = {'k_sweden' => 'SWE', 'k_england' => 'ENG', 'e_hre' => 'HRE'}
+      expecteds.each do |title, tag|
+        assert_equal title, invert_tag_map(tag)[0]
       end
     end
 
