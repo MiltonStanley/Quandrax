@@ -76,14 +76,24 @@ class AnEU3Nation
 
   def get_monarch_date
     titles = Array.new
-    top_title = String.new
     $TM_CK2_EU3.each { |title, tag| titles << title if tag == @tag }
     top_title = titles.grep /^e_/
-    top_title = titles.grep /^k_/ unless top_title.class == String
-    top_title = titles.grep /^d_/ unless top_title.class == String
-    top_title = titles.grep /^c_/ unless top_title.class == String
-    $CK2_TITLES.titles[top_title].coronation_date unless $CK2_TITLES.titles[top_title].nil?
-    top_title
+    return get_coronation_date(top_title[0]) unless is_invalid?(top_title)
+    top_title = titles.grep /^k_/
+    return get_coronation_date(top_title[0]) unless is_invalid?(top_title)
+    top_title = titles.grep /^d_/
+    return get_coronation_date(top_title[0]) unless is_invalid?(top_title)
+    top_title = titles.grep /^c_/
+    return get_coronation_date(top_title[0]) unless is_invalid?(top_title)
+    return $EU3_HEADER.date    
+  end
+
+  def get_coronation_date(title)
+    $CK2_TITLES.titles[title].coronation_date
+  end
+
+  def is_invalid?(title)
+    $CK2_TITLES.titles[title].nil? || title.nil?
   end
 
 end
