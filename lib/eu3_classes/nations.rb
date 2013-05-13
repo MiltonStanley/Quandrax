@@ -46,6 +46,7 @@ class AnEU3Nation
 
   def initialize(tag)
     @tag = tag
+    @monarch_date = get_monarch_date
     @sliders = Hash.new
     @accepted_cultures = Array.new
   end
@@ -61,7 +62,6 @@ class AnEU3Nation
     @religion = value if is_key?('religion', key)
     @accepted_cultures << value if is_key?('accepted_culture', key) || is_key?('add_accepted_culture', key)
     @capital = value if is_key?('capital', key)
-    @monarch_date = get_monarch_date
   end
 
   def is_key?(expected, actual)
