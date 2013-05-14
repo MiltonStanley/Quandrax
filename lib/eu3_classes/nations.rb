@@ -7,6 +7,10 @@ class EU3_Nations
     @nations = get_nations
   end
 
+  def write(location)
+    @nations.each { |tag, a_nation| a_nation.write(location) }
+  end
+
   def get_tag_list(ck2_provinces)
     tag_list = Array.new
     ck2_provinces.each do |a_prov|
@@ -64,6 +68,11 @@ class AnEU3Nation
     @religion = value if is_key?('religion', key)
     @accepted_cultures << value if is_key?('accepted_culture', key) || is_key?('add_accepted_culture', key)
     @capital = value if is_key?('capital', key)
+  end
+
+  def write(location)
+    location.puts "#{@tag}=\n{"
+    write_history(location)
   end
 
   def is_key?(expected, actual)
