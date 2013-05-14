@@ -111,4 +111,11 @@ class TestEU3Nations < Test::Unit::TestCase
     end
   end
 
+  def test_monarch_name
+    expecteds = {'SWE' => 'Stenkil', 'ENG' => 'Harold', 'NRM' => 'William'}
+    expecteds.each do |tag, monarch_name|
+      assert_equal monarch_name, $EU3_NATIONS.nations[tag].monarch_name
+    end
+  end
+
 end
