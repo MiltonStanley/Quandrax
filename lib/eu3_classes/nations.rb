@@ -73,6 +73,25 @@ class AnEU3Nation
   def write(location)
     location.puts "#{@tag}=\n{"
     write_history(location)
+    location.puts "}"
+  end
+
+  def write_history(location)
+    location.puts "\thistory=\n\t{\n\t\tgovernment=#{@government}"
+    @sliders.each { |slider, value| location.puts "\t\t#{slider}=#{value}" }
+    location.puts "\t\ttechnology_group=#{@technology_group}\n\t\tunit_type=#{@unit_type}"
+    location.puts "\t\tprimary_culture=#{@primary_culture}\n\t\treligion=#{@religion}"
+    @accepted_cultures.each { |culture| location.puts "\t\tadd_accepted_culture=#{culture}"}
+    write_monarch_information(location)
+    location.puts "\t}"
+  end
+
+  def write_monarch_information(location)
+    return if monarch_date.nil? || monarch_name.nil?
+    location.puts "\t\t#{@monarch_date}=\n\t\t{\n\t\t\tmonarch=\n\t\t\t{"
+    location.puts "\t\t\t\tname=\"#{@monarch_name}\"\n\t\t\t\tDIP=5\n\t\t\t\tADM=5"
+    location.puts "\t\t\t\tMIL=5\n\t\t\t\tid=\n\t\t\t\t{\n\t\t\t\t\tid=1533\n\t\t\t\t\ttype=37"
+    location.puts "\t\t\t\t}\n\t\t\t}\n\t\t}"
   end
 
   def is_key?(expected, actual)
