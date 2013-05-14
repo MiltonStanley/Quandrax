@@ -48,6 +48,7 @@ class AnEU3Nation
   def initialize(tag)
     @tag = tag
     @monarch_date = get_monarch_date
+    @monarch_name = get_monarch_name
     @sliders = Hash.new
     @accepted_cultures = Array.new
   end
@@ -80,5 +81,13 @@ class AnEU3Nation
     date = $CK2_TITLES.titles[title].coronation_date unless $CK2_TITLES.titles[title].nil?
     date
   end
+
+  def get_monarch_name
+    title = get_top_title(tag)
+    holder_id = $CK2_TITLES.titles[title].holder_id unless $CK2_TITLES.titles[title].nil?
+    name = $CK2_CHARACTERS.characters[holder_id].birth_name unless $CK2_CHARACTERS.characters[holder_id].nil?
+    name
+  end
+
 
 end
