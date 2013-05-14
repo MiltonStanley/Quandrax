@@ -4,7 +4,7 @@ class EU3_Papal_Information
                 :cardinal_province_ids
 
   def initialize(titles, characters, provinces) # Title info, and allies of pope hash
-    puts "Creating EU3 papacy section"
+    puts "Creating EU3 Papacy section"
     @papal_relations = sort(characters.papal_relations)
     @papal_controller = get_papal_controller(titles, characters)
     @cardinal_controllers, @cardinal_controller_tags = get_cardinal_controllers(titles, characters.characters)
