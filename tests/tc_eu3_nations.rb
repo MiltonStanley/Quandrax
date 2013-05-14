@@ -105,7 +105,7 @@ class TestEU3Nations < Test::Unit::TestCase
   end
 
   def test_monarch_date
-    expecteds = {'SWE' => '1060.8.2', 'ENG' => '1066.1.5', 'NOR' => '1035.7.3'}
+    expecteds = {'SWE' => '1060.8.2', 'ENG' => '1066.1.5', 'NOR' => '1047.10.25', 'JAP' => nil}
     expecteds.each do |tag, monarch_date|
       assert_equal monarch_date, $EU3_NATIONS.nations[tag].monarch_date
     end
