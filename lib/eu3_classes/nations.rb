@@ -75,15 +75,9 @@ class AnEU3Nation
   end
 
   def get_monarch_date
-        
-  end
-
-  def get_coronation_date(title)
-    $CK2_TITLES.titles[title].coronation_date
-  end
-
-  def is_invalid?(title)
-    $CK2_TITLES.titles[title].nil? || title.nil?
+    title = get_top_title(tag)
+    date = $CK2_TITLES.titles[title].coronation_date unless $CK2_TITLES.titles[title].nil?
+    date
   end
 
 end
