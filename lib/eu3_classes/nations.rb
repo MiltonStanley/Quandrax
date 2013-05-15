@@ -75,14 +75,21 @@ class AnEU3Nation
     write_history(location)
     location.puts "\tflags=\n\t{\n\t}\n\thidden_flags=\n\t{\n\t}\n\tvariables=\n\t{\n\t}"
     location.puts "\tcapital=#{@capital}\n\tnational_focus=#{@capital}\n\tlast_focus_move=\"1.1.1\""
+    location.puts "\tprimary_culture=#{@primary_culture}" unless @primary_culture.nil?
+    @accepted_cultures.each { |culture| location.puts "\taccepted_culture=#{culture}"}
+    location.puts "\treligion=#{@religion}" unless @religion.nil?
+    location.puts "\ttechnology_group=#{@technology_group}"
+    location.puts "\tunit_type=#{@unit_type}"
     location.puts "}"
   end
 
   def write_history(location)
-    location.puts "\thistory=\n\t{\n\t\tgovernment=#{@government}"
+    location.puts "\thistory=\n\t{"
+    location.puts "\t\tgovernment=#{@government}" unless @government.nil?
     @sliders.each { |slider, value| location.puts "\t\t#{slider}=#{value}" }
     location.puts "\t\ttechnology_group=#{@technology_group}\n\t\tunit_type=#{@unit_type}"
-    location.puts "\t\tprimary_culture=#{@primary_culture}\n\t\treligion=#{@religion}"
+    location.puts "\t\tprimary_culture=#{@primary_culture}" unless @primary_culture.nil?
+    location.puts "\t\treligion=#{@religion}" unless @religion.nil?
     @accepted_cultures.each { |culture| location.puts "\t\tadd_accepted_culture=#{culture}"}
     write_monarch_information(location)
     location.puts "\t}"
