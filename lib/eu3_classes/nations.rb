@@ -88,7 +88,7 @@ class AnEU3Nation
     @technology.each { |tech, value| location.puts "\t\t#{tech}={#{value}}" }
     location.puts "\t}"
     location.puts "\tluck=yes" if @luck
-    location.puts "\tlast_election=\"#{$EU3_HEADER.date}\""
+    location.puts "\tlast_election=\"#{$EU3_HEADER.date}\"\n\tauto_send_merchants=yes"
     location.puts "}"
   end
 
