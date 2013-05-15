@@ -47,7 +47,7 @@ end
 class AnEU3Nation
   attr_accessor :tag, :government, :sliders, :technology_group, :unit_type,
     :primary_culture, :religion, :accepted_cultures, :capital, :monarch_date,
-    :monarch_name
+    :monarch_name, :technology
 
   def initialize(tag)
     @tag = tag
@@ -55,6 +55,7 @@ class AnEU3Nation
     @monarch_name = get_monarch_name
     @sliders = Hash.new
     @accepted_cultures = Array.new
+    @technology = Hash.new
   end
 
   def add(line)

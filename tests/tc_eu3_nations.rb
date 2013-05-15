@@ -118,4 +118,16 @@ class TestEU3Nations < Test::Unit::TestCase
     end
   end
 
+  def test_technology
+    expecteds = {
+      'land_tech' => '3 178.981',
+      'naval_tech' => '3 178.981',
+      'trade_tech' => '3 176.981',
+      'production_tech' => '3 176.981',
+      'government_tech' => '3 176.981'
+      }
+    expecteds.each { |tech, value| assert_equal value, $EU3_NATIONS.nations['SWE'].technology[tech] }
+  end
+
+
 end
