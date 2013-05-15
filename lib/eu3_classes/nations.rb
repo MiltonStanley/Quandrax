@@ -69,6 +69,7 @@ class AnEU3Nation
     @religion = value if is_key?('religion', key)
     @accepted_cultures << value if (is_key?('accepted_culture', key) || is_key?('add_accepted_culture', key)) unless @accepted_cultures.include?(value)
     @capital = value if is_key?('capital', key)
+    @technology[key] = value.sub('}','').sub('{','') if is_technology?(key)
   end
 
   def write(location)
@@ -112,6 +113,10 @@ class AnEU3Nation
     %w[aristocracy_plutocracy centralization_decentralization
       innovative_narrowminded mercantilism_freetrade offensive_defensive
       land_naval quality_quantity serfdom_freesubjects].include?(key)
+  end
+
+  def is_technology?(key)
+    %w[land_tech naval_tech trade_tech production_tech government_tech].include?(key)
   end
 
   def get_monarch_date
