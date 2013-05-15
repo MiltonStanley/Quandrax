@@ -129,5 +129,9 @@ class TestEU3Nations < Test::Unit::TestCase
     expecteds.each { |tech, value| assert_equal value, $EU3_NATIONS.nations['SWE'].technology[tech] }
   end
 
+  def test_luck
+    expecteds = {'SWE' => true, 'FRA' => true, 'REB' => false}
+    expecteds.each { |tag, value| assert_equal value, $EU3_NATIONS.nations[tag].luck }
+  end
 
 end
