@@ -9,7 +9,7 @@
 require "test/unit"
 if __FILE__ == $0
   Dir.chdir("..")
-  require './tests/setup_for_ck2_tests'
+  require './tests/setup_for_eu3_tests'
 end
 
 class TestCK2Characters < Test::Unit::TestCase
@@ -112,6 +112,11 @@ class TestCK2Characters < Test::Unit::TestCase
       actual = $CK2_CHARACTERS.characters[character_id].capital
       assert_equal expected, actual
     end
+  end
+
+  def test_character_prestige
+    expecteds = {'20662' => '30.000', '122' => '40.000', '140' => '30.000'}
+    expecteds.each { |id, value| assert_equal value, $CK2_CHARACTERS.characters[id].prestige }
   end
 
 end
