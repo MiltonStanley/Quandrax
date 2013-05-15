@@ -71,6 +71,7 @@ class AnEU3Nation
     @accepted_cultures << value if (is_key?('accepted_culture', key) || is_key?('add_accepted_culture', key)) unless @accepted_cultures.include?(value)
     @capital = value if is_key?('capital', key)
     @technology[key] = value.sub('}','').sub('{','') if is_technology?(key)
+    @luck = true if is_key?('luck', key)
   end
 
   def write(location)
