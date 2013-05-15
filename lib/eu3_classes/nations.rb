@@ -73,6 +73,8 @@ class AnEU3Nation
   def write(location)
     location.puts "#{@tag}=\n{"
     write_history(location)
+    location.puts "\tflags=\n\t{\n\t}\n\thidden_flags=\n\t{\n\t}\n\tvariables=\n\t{\n\t}"
+    location.puts "\tcapital=#{@capital}\n\tnational_focus=#{@capital}\n\tlast_focus_move=\"1.1.1\""
     location.puts "}"
   end
 
