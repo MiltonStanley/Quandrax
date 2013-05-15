@@ -82,6 +82,9 @@ class AnEU3Nation
     location.puts "\treligion=#{@religion}" unless @religion.nil?
     location.puts "\ttechnology_group=#{@technology_group}"
     location.puts "\tunit_type=#{@unit_type}"
+    location.puts "\ttechnology=\n\t{"
+    @technology.each { |tech, value| location.puts "\t\t#{tech}={#{value}}" }
+    location.puts "\t}"
     location.puts "}"
   end
 
