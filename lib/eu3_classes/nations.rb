@@ -1,5 +1,5 @@
 class EU3_Nations
-  attr_accessor :tag_list, :nations
+  attr_accessor :tag_list, :nations, :date
 
   def initialize(ck2_provinces)
     puts 'Creating EU3 Nations section'
@@ -7,8 +7,8 @@ class EU3_Nations
     @nations = get_nations
   end
 
-  def write(location)
-    @nations.each { |tag, a_nation| a_nation.write(location) }
+  def write(location, date)
+    @nations.each { |tag, a_nation| a_nation.write(location, date) }
   end
 
   def get_tag_list(ck2_provinces)
@@ -74,7 +74,7 @@ class AnEU3Nation
     @luck = true if is_key?('luck', key)
   end
 
-  def write(location)
+  def write(location, date)
     location.puts "#{@tag}=\n{"
     write_history(location)
     location.puts "\tflags=\n\t{\n\t}\n\thidden_flags=\n\t{\n\t}\n\tvariables=\n\t{\n\t}"
@@ -88,7 +88,7 @@ class AnEU3Nation
     @technology.each { |tech, value| location.puts "\t\t#{tech}={#{value}}" }
     location.puts "\t}"
     location.puts "\tluck=yes" if @luck
-    location.puts "\tlast_election=\"#{$EU3_HEADER.date}\"\n\tauto_send_merchants=yes"
+    location.puts "\tlast_election=\"#{date}\"\n\tauto_send_merchants=yes"
     location.puts "}"
   end
 
