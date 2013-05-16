@@ -24,7 +24,7 @@ Features for version 2.0.0
 - Sets the EU3 date as the same as your CK2 date
 - Converts the Holy Roman Emperor, and checks if the last emperor was from the same nation (dynasty) as the current
 - Converts the papal controller based on titles held, or highest relations with the pope otherwise
-- Converts cardinals based on Court Chaplains (including name, location, and controller) based on CK2 relations with the papal titleholder
+- Converts cardinals based on Court Chaplains (including name, location, and controller), using CK2 relations with the papal titleholder
 - Converts province controllers, cores, cultures, religions, capitals, and discovery dates
 - Converts nation capitals, monarchs (including names and CK2 coronation dates), religions, cultures, prestige, and cash
 - Converts CK2 vassals based on your settings - either "blobbing" (annex provinces to top title), or as EU3 vassals (for annexation)
