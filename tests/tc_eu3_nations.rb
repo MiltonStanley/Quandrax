@@ -135,7 +135,7 @@ class TestEU3Nations < Test::Unit::TestCase
   end
 
   def test_prestige
-    ###TODO - convert from CK2 values to EU3 values
+    ###TODO - convert from CK2 values to EU3 values (0-50 in this game)
     expecteds = {'SWE' => '40.000', 'ENG' => '40.000', 'NRM' => '30.000'}
     expecteds.each do |tag, prestige|
       assert_equal prestige, $EU3_NATIONS.nations[tag].prestige
