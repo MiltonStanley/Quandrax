@@ -57,6 +57,7 @@ class AnEU3Nation
     @accepted_cultures = Array.new
     @technology = Hash.new
     @luck = false
+    @prestige = get_prestige
   end
 
   def add(line)
@@ -139,5 +140,11 @@ class AnEU3Nation
     name
   end
 
+  def get_prestige
+    title = get_top_title(@tag)
+    id = $CK2_TITLES.titles[title].holder_id unless $CK2_TITLES.titles[title].nil?
+    prestige = $CK2_CHARACTERS.characters[id].prestige unless $CK2_CHARACTERS.characters[id].nil?
+    prestige
+  end
 
 end
