@@ -52,7 +52,7 @@ end
 
 class A_Character
   attr_accessor :id, :relations_to_pope, :friend_of_pope, 
-  :birth_name, :host, :job_title, :alive, 
+  :birth_name, :host, :job_title, :alive, :wealth,
   :papal_relation_value, :dynasty, :old_holdings, :religion, :capital, :prestige
 
   def initialize(line, pope_id)

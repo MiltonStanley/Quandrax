@@ -119,4 +119,9 @@ class TestCK2Characters < Test::Unit::TestCase
     expecteds.each { |id, value| assert_equal value, $CK2_CHARACTERS.characters[id].prestige }
   end
 
+  def test_wealth
+    expecteds = {'20662' => '63.72162', '122' => '69.44708', '140' => '995.36908'}
+    expecteds.each { |id, wealth| assert_equal wealth, $CK2_CHARACTERS.characters[id].wealth}
+  end
+
 end
