@@ -58,6 +58,7 @@ class AnEU3Nation
     @technology = Hash.new
     @luck = false
     @prestige = get_prestige
+    @wealth = get_wealth
   end
 
   def add(line)
@@ -149,6 +150,13 @@ class AnEU3Nation
     prestige = '0.000' if prestige.to_i < 0
     prestige = '100.000' if prestige.to_i > 100
     prestige
+  end
+
+  def get_wealth
+    title = get_top_title(@tag)
+    id = $CK2_TITLES.titles[title].holder_id unless $CK2_TITLES.titles[title].nil?
+    wealth = $CK2_CHARACTERS.characters[id].wealth unless $CK2_CHARACTERS.characters[id].nil?
+    wealth
   end
 
 end
