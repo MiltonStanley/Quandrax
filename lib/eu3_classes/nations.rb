@@ -47,7 +47,7 @@ end
 class AnEU3Nation
   attr_accessor :tag, :government, :sliders, :technology_group, :unit_type,
     :primary_culture, :religion, :accepted_cultures, :capital, :monarch_date,
-    :monarch_name, :technology, :luck, :prestige, :wealth
+    :monarch_name, :technology, :luck, :prestige, :treasury
 
   def initialize(tag)
     @tag = tag
@@ -58,7 +58,7 @@ class AnEU3Nation
     @technology = Hash.new
     @luck = false
     @prestige = get_prestige
-    @wealth = get_wealth
+    @treasury = get_treasury
   end
 
   def add(line)
@@ -92,7 +92,7 @@ class AnEU3Nation
     location.puts "\tluck=yes" if @luck
     location.puts "\tlast_election=\"#{date}\"\n\tauto_send_merchants=yes"
     location.puts "\tprecise_prestige=#{@prestige}\n\tstability=3.000"
-    location.puts "\tstability_investment=0.000\n\t"
+    location.puts "\tstability_investment=0.000\n\ttreasury=#{@treasury}"
     location.puts "}"
   end
 
@@ -152,11 +152,11 @@ class AnEU3Nation
     prestige
   end
 
-  def get_wealth
+  def get_treasury
     title = get_top_title(@tag)
     id = $CK2_TITLES.titles[title].holder_id unless $CK2_TITLES.titles[title].nil?
-    wealth = $CK2_CHARACTERS.characters[id].wealth unless $CK2_CHARACTERS.characters[id].nil?
-    wealth
+    treasury = $CK2_CHARACTERS.characters[id].wealth unless $CK2_CHARACTERS.characters[id].nil?
+    treasury
   end
 
 end
