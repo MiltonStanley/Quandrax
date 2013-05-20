@@ -90,6 +90,8 @@ class AnEU3Nation
     location.puts "\t}"
     location.puts "\tluck=yes" if @luck
     location.puts "\tlast_election=\"#{date}\"\n\tauto_send_merchants=yes"
+    location.puts "\tprecise_prestige=#{@prestige}\n\tstability=3.000"
+    location.puts "\tstability_investment=0.000\n\t"
     location.puts "}"
   end
 
@@ -144,6 +146,8 @@ class AnEU3Nation
     title = get_top_title(@tag)
     id = $CK2_TITLES.titles[title].holder_id unless $CK2_TITLES.titles[title].nil?
     prestige = $CK2_CHARACTERS.characters[id].prestige unless $CK2_CHARACTERS.characters[id].nil?
+    prestige = '0.000' if prestige.to_i < 0
+    prestige = '100.000' if prestige.to_i > 100
     prestige
   end
 
