@@ -136,9 +136,12 @@ class TestEU3Nations < Test::Unit::TestCase
 
   def test_prestige
     expecteds = {'SWE' => '40.000', 'ENG' => '40.000', 'NRM' => '30.000'}
-    expecteds.each do |tag, prestige|
-      assert_equal prestige, $EU3_NATIONS.nations[tag].prestige
-    end
+    expecteds.each { |tag, prestige| assert_equal prestige, $EU3_NATIONS.nations[tag].prestige }
+  end
+
+  def test_wealth
+    expecteds = {'SWE' => '84.93469', 'ENG' => '69.44708', 'NRM' => '995.36908'}
+    expecteds.each { |tag, wealth| assert_equal wealth, $EU3_NATIONS.nations[tag].wealth}
   end
 
 end
