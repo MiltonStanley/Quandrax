@@ -80,6 +80,11 @@ class A_Character
     @religion = val.gsub('"','') if is_religion?(key)
     @capital = val.gsub('"','') if is_capital?(key)
     @prestige = val if is_prestige?(key)
+    @wealth = val if is_wealth?(key)
+  end
+
+  def is_wealth?(key)
+    key =~ /^\t+(wealth)/
   end
 
   def is_prestige?(key)
