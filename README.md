@@ -6,7 +6,7 @@ The QUick ANd Dirty paRAdoX converter.
 
 What is Quandrax?
 -----------------
-Quandrax is the program to create a single, unified save game converter for the fantastic suite of historical strategy games published by Paradox Interactive.
+Quandrax is the program to create a single, unified save game converter for the fantastic suite of historical grand strategy games published by Paradox Interactive.
 
 Getting Started
 ---------------
