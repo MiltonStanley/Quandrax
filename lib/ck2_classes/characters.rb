@@ -53,7 +53,8 @@ end
 class A_Character
   attr_accessor :id, :relations_to_pope, :friend_of_pope, 
   :birth_name, :host, :job_title, :alive, :wealth,
-  :papal_relation_value, :dynasty, :old_holdings, :religion, :capital, :prestige
+  :papal_relation_value, :dynasty, :old_holdings, :religion, :capital, :prestige,
+  :estimated_monthly_income
 
   def initialize(line, pope_id)
     @id, _ = line.strip.split("=",2)
@@ -81,6 +82,11 @@ class A_Character
     @capital = val.gsub('"','') if is_capital?(key)
     @prestige = val if is_prestige?(key)
     @wealth = val if is_wealth?(key)
+    @estimated_monthly_income = val if is_estimated_monthly_income?(key)
+  end
+
+  def is_estimated_monthly_income?(key)
+    key =~ /^\t+(estimated_monthly_income)/
   end
 
   def is_wealth?(key)
