@@ -144,4 +144,9 @@ class TestEU3Nations < Test::Unit::TestCase
     expecteds.each { |tag, treasury| assert_equal treasury, $EU3_NATIONS.nations[tag].treasury}
   end
 
+  def test_estimated_monthly_income
+    expecteds = {'SWE' => '2.46735', 'ENG' => '4.27924', 'NRM' => '1.73444'}
+    expecteds.each { |tag, amount| assert_equal amount, $EU3_NATIONS.nations[tag].estimated_monthly_income }
+  end
+
 end
