@@ -59,6 +59,9 @@ class AnEU3Nation
     @luck = false
     @prestige = get_prestige
     @treasury = get_treasury
+    @estimated_monthly_income = get_estimated_monthly_income
+    @at_distribution = false
+    @footer = Array.new
   end
 
   def add(line)
@@ -74,6 +77,8 @@ class AnEU3Nation
     @capital = value if is_key?('capital', key)
     @technology[key] = value.sub('}','').sub('{','') if is_technology?(key)
     @luck = true if is_key?('luck', key)
+    @at_distribution = true if is_key?('distribution', key)
+    @footer << line if @at_distribution
   end
 
   def write(location, date)
@@ -93,6 +98,12 @@ class AnEU3Nation
     location.puts "\tlast_election=\"#{date}\"\n\tauto_send_merchants=yes"
     location.puts "\tprecise_prestige=#{@prestige}\n\tstability=3.000"
     location.puts "\tstability_investment=0.000\n\ttreasury=#{@treasury}"
+    location.puts "\testimated_monthly_income=#{@estimated_monthly_income}"
+    location.puts "\tinflation=0.000\n\tlast_bankrupt=\"1.1.1\"\n\twartax=\"1.1.1\""
+    location.puts "\twar_exhaustion=0.000\n\tland_maintenance=1.000\n\tnaval_maintenance=1.000"
+    location.puts "\tcolonial_maintenance=1.000\n\tmissionary_maintenance=1.000"
+    location.puts "\tarmy_tradition=0.000\n\tnavy_tradition=0.000\n\tcultural_tradition=0.200"
+    location.puts @footer
     location.puts "}"
   end
 
@@ -157,6 +168,13 @@ class AnEU3Nation
     id = $CK2_TITLES.titles[title].holder_id unless $CK2_TITLES.titles[title].nil?
     treasury = $CK2_CHARACTERS.characters[id].wealth unless $CK2_CHARACTERS.characters[id].nil?
     treasury
+  end
+
+  def get_estimated_monthly_income
+    title = get_top_title(@tag)
+    id = $CK2_TITLES.titles[title].holder_id unless $CK2_TITLES.titles[title].nil?
+    estimated_monthly_income = $CK2_CHARACTERS.characters[id].estimated_monthly_income unless $CK2_CHARACTERS.characters[id].nil?
+    estimated_monthly_income
   end
 
 end
