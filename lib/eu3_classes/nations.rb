@@ -1,7 +1,7 @@
 class EU3_Nations
   attr_accessor :tag_list, :nations, :date
 
-  def initialize(ck2_provinces)
+  def initialize(ck2_provinces, ck2_characters)
     puts 'Creating EU3 Nations section'
     @tag_list = get_tag_list(ck2_provinces)
     @nations = get_nations
