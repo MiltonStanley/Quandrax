@@ -22,6 +22,7 @@ require './lib/eu3_classes/papal_information'
 require './lib/eu3_classes/provinces'
 require './lib/eu3_classes/nations'
 require './lib/eu3_classes/footer_a'
+require './lib/eu3_classes/japanese'
 
 def load_file(extension)
   filename = Dir.new(Dir.getwd).each { |file| break file if file.include?(extension) }
@@ -92,7 +93,8 @@ def write_file(new_file)
   #print_from_temp(new_file, './lib/templates/footer_a.tmp')
   $EU3_FOOTER_A = EU3_Footer_A.new
   $EU3_FOOTER_A.write(new_file)
-  print_from_temp(new_file, './lib/templates/japanese.tmp')
+  #print_from_temp(new_file, './lib/templates/japanese.tmp')
+  $EU3_JAPANESE = EU3_Japanese.new
   print_from_temp(new_file, './lib/templates/footer_b.tmp')
   convert_to_ansi(new_file)
 end
