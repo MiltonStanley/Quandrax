@@ -21,6 +21,7 @@ require './lib/eu3_classes/defenders_of_the_faith'
 require './lib/eu3_classes/papal_information'
 require './lib/eu3_classes/provinces'
 require './lib/eu3_classes/nations'
+require './lib/eu3_classes/footer_a'
 
 def load_file(extension)
   filename = Dir.new(Dir.getwd).each { |file| break file if file.include?(extension) }
@@ -88,7 +89,8 @@ def write_file(new_file)
   print_from_temp(new_file, './lib/templates/combat.tmp')
   # Active war info here
   # Previous war info here
-  print_from_temp(new_file, './lib/templates/footer_a.tmp')
+  #print_from_temp(new_file, './lib/templates/footer_a.tmp')
+  $EU3_FOOTER_A = EU3_Footer_A.new
   print_from_temp(new_file, './lib/templates/japanese.tmp')
   print_from_temp(new_file, './lib/templates/footer_b.tmp')
   convert_to_ansi(new_file)
