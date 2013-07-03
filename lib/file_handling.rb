@@ -91,6 +91,7 @@ def write_file(new_file)
   # Previous war info here
   #print_from_temp(new_file, './lib/templates/footer_a.tmp')
   $EU3_FOOTER_A = EU3_Footer_A.new
+  $EU3_FOOTER_A.write(new_file)
   print_from_temp(new_file, './lib/templates/japanese.tmp')
   print_from_temp(new_file, './lib/templates/footer_b.tmp')
   convert_to_ansi(new_file)
