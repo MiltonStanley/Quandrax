@@ -1,3 +1,6 @@
+Please note that development has moved to my private server, so updates are not being pushed here.
+-------------------------------------------------------------------------------------------------
+
 QUANDRAX
 ========
 The QUick ANd Dirty paRAdoX converter.
